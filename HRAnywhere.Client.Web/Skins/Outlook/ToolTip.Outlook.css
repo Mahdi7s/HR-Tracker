@@ -1,0 +1,72 @@
+/* RadToolTip Outlook Skin */
+
+.RadToolTip_Outlook.rtLoading
+{	
+	background: url('Common/loading.gif') no-repeat center;
+}
+
+div.RadToolTip_Outlook table.rtWrapper td.rtWrapperTopLeft,
+div.RadToolTip_Outlook table.rtWrapper td.rtWrapperTopRight,
+div.RadToolTip_Outlook table.rtWrapper td.rtWrapperBottomLeft,
+div.RadToolTip_Outlook table.rtWrapper td.rtWrapperBottomRight,
+div.RadToolTip_Outlook table.rtWrapper td.rtWrapperTopCenter,
+div.RadToolTip_Outlook table.rtWrapper td.rtWrapperBottomCenter,
+div.RadToolTip_Outlook table.rtShadow td.rtWrapperTopLeft,
+div.RadToolTip_Outlook table.rtShadow td.rtWrapperTopRight,
+div.RadToolTip_Outlook table.rtShadow td.rtWrapperBottomLeft,
+div.RadToolTip_Outlook table.rtShadow td.rtWrapperBottomRight,
+div.RadToolTip_Outlook table.rtShadow td.rtWrapperTopCenter,
+div.RadToolTip_Outlook table.rtShadow td.rtWrapperBottomCenter,
+div.RadToolTip_Outlook a.rtCloseButton
+{
+	background-image: url('ToolTip/ToolTipSprites.png');
+}
+
+div.RadToolTip_Outlook table.rtWrapper td.rtWrapperLeftMiddle,
+div.RadToolTip_Outlook table.rtWrapper td.rtWrapperRightMiddle,
+div.RadToolTip_Outlook table.rtShadow td.rtWrapperLeftMiddle,
+div.RadToolTip_Outlook table.rtShadow td.rtWrapperRightMiddle
+{
+	background-image:  url('ToolTip/ToolTipVerticalSprites.png');
+}
+
+div.RadToolTip_Outlook table.rtWrapper td.rtWrapperContent
+{
+	background-color: #ccddf5;	
+	color: #272722;
+}
+
+div.RadToolTip_Outlook div.rtTitlebar
+{	
+	color: #272722;
+}
+
+div.RadToolTip_Outlook div.rtCallout
+{
+	background-image: url('ToolTip/Callouts.gif');
+}
+
+/* overwrite shadow callouts because of the shadow depth */
+div.RadToolTip_Outlook.rtShadow .rtCalloutTopLeft, 
+div.RadToolTip_Outlook.rtShadow .rtCalloutTopRight,
+div.RadToolTip_Outlook.rtShadow .rtCalloutTopCenter 
+{
+	margin-top:-5px;
+}
+
+div.RadToolTip_Outlook.rtShadow .rtCalloutMiddleRight
+{
+	margin-left:-6px;
+}
+
+div.RadToolTip_Outlook.rtShadow .rtCalloutMiddleLeft
+{
+	margin-left:-5px;
+}
+
+div.RadToolTip_Outlook.rtShadow .rtCalloutBottomRight, 
+div.RadToolTip_Outlook.rtShadow .rtCalloutBottomCenter,
+div.RadToolTip_Outlook.rtShadow .rtCalloutBottomLeft
+{
+	margin-top: -6px;
+}

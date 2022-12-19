@@ -1,0 +1,20 @@
+/* empty */
+
+.reTopcell
+{
+    background-color: #dfe9f5;
+}
+
+/*Sprite from RFE*/
+
+.RadToolBar_Windows7 .rtbText
+{
+	background-image: url('FileExplorer/FileExplorerToolbarSprites.png');
+	background-repeat: no-repeat;
+}
+
+/* IE6 does not support the alpha channel of png files, so we force it to use gif */
+* html .RadToolBar_Windows7 .rtbText
+{
+	background-image: url('FileExplorer/FileExplorerToolbarSpritesIE6.gif') !important;
+}

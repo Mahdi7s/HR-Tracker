@@ -1,0 +1,84 @@
+/**
+ * Organizational Chart Web20 Skin
+ */
+
+
+
+
+/*----------------------------------------------------------------------------*/
+
+
+
+
+/** Global wrapper */
+.RadOrgChart_Web20 {
+	color: #000000;
+	font: normal 12px/22px "Segoe UI", Arial, sans-serif;
+}
+
+
+
+
+/** Viewport */
+.RadOrgChart_Web20 .rocViewport {}
+
+
+
+
+/** NodeList */
+.RadOrgChart_Web20 .rocNodeList {}
+
+
+
+
+/** Node */
+.RadOrgChart_Web20 .rocNode {}
+
+
+
+
+/** Group */
+.RadOrgChart_Web20 .rocGroup {
+	border-radius: 10px;
+	background-color: #e3eeff;
+}
+
+
+
+
+/** ItemList */
+.RadOrgChart_Web20 .rocItemList {}
+
+
+
+
+/** ItemWrap */
+.RadOrgChart_Web20 .rocItemWrap {}
+
+
+
+
+/** Items */
+.RadOrgChart_Web20 .rocItem {
+	color: #ffffff;
+}
+
+
+	.RadOrgChart_Web20 .rocItemContent,
+	.RadOrgChart_Web20 .rocItemTemplate {
+		border-color: #4e75b3;
+		border-radius: 5px;
+		background-color: #7fa5d7;
+		background-image: url('../Common/OrgChart/rocItemTileLight.png');
+		_background-image: none;
+	}
+
+
+
+
+/** Node lines */
+.RadOrgChart_Web20 .rocLineUp,
+.RadOrgChart_Web20 .rocLineDown,
+.RadOrgChart_Web20 .rocLineHorizontal {
+	background-image: url('../Common/OrgChart/rocLinesDark.png');
+}

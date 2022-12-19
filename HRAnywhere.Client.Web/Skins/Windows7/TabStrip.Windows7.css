@@ -1,0 +1,150 @@
+.RadTabStrip_Windows7 .rtsLI,
+.RadTabStrip_Windows7 .rtsLink
+{
+	color: #4c607a;
+	font: 12px/26px "Segoe UI", Arial, sans-serif;
+}
+
+.RadTabStrip_Windows7 .rtsLevel1 .rtsLI,
+.RadTabStrip_Windows7 .rtsLevel1 .rtsLink
+{
+	color: #385070;
+}
+
+.RadTabStrip_Windows7 .rtsLevel .rtsLink:hover,
+.RadTabStrip_Windows7 .rtsLevel .rtsSelected,
+.RadTabStrip_Windows7 .rtsLevel .rtsSelected:hover
+{
+	text-decoration: underline;
+}
+
+.RadTabStrip_Windows7 .rtsLevel1 .rtsLink:hover,
+.RadTabStrip_Windows7 .rtsLevel1 .rtsSelected,
+.RadTabStrip_Windows7 .rtsLevel1 .rtsSelected:hover,
+.RadTabStrip_Windows7 .rtsLevel .rtsDisabled:hover
+{
+	text-decoration: none;
+}
+
+.RadTabStripLeft_Windows7 .rtsSeparator,
+.RadTabStripRight_Windows7 .rtsSeparator
+{
+	background: #8DB2E3;
+}
+
+/* <focus cue> */
+div.RadTabStrip_Windows7 a.rtsLink:focus
+{
+    outline-color: #47A;
+}
+
+div.RadTabStrip_Windows7 a.rtsLink:focus:after
+{
+    border-color /*\**/: #47A\9;
+}
+/* </focus cue> */
+
+/* <disabled tabs> */
+.RadTabStrip_Windows7 .rtsLevel .rtsDisabled
+{
+	color: #666;
+}
+/* </disabled tabs> */
+
+/* <scrolling arrows> */
+.RadTabStrip_Windows7 .rtsNextArrow,
+.RadTabStrip_Windows7 .rtsPrevArrow,
+.RadTabStrip_Windows7 .rtsPrevArrowDisabled,
+.RadTabStrip_Windows7 .rtsNextArrowDisabled
+{
+	background-image: url('TabStrip/TabStripStates.png');
+}
+/* </scrolling arrows> */
+
+/* <tab backgrounds> */
+
+.RadTabStrip_Windows7 .rtsLevel { background: #dfe9f5; }
+
+.RadTabStrip_Windows7 .rtsLevel1 { background-color: #dfe9f5; }
+.RadTabStripTop_Windows7 .rtsLevel2 { background: #ccdbee url('TabStrip/Level2Bg.png') repeat-x 0 0; }
+
+.RadTabStripTop_Windows7 .rtsLevel .rtsLink,
+.RadTabStripTop_Windows7 .rtsLevel .rtsOut { background-image: none; }
+
+.RadTabStripTop_Windows7 .rtsLevel1 .rtsLink,
+.RadTabStripTop_Windows7 .rtsLevel1 .rtsOut,
+.RadTabStripBottom_Windows7 .rtsLevel1 .rtsLink,
+.RadTabStripBottom_Windows7 .rtsLevel1 .rtsOut,
+.RadTabStripTop_Windows7 .rtsLevel1,
+.RadTabStripBottom_Windows7 .rtsLevel1 { background-image: url('TabStrip/TabStripStates.png'); }
+
+.RadTabStripLeft_Windows7 .rtsLink,
+.RadTabStripRight_Windows7 .rtsLink { background-image: url('TabStrip/TabStripVStates.png'); }
+
+.RadTabStripLeft_Windows7 .rtsLast .rtsLink,
+.RadTabStripRight_Windows7 .rtsLast .rtsLink
+{
+	border-bottom: 1px solid #898C95;
+}
+
+.RadTabStripRight_Windows7 .rtsLink,
+.RadTabStripRight_Windows7 .rtsLI .rtsDisabled:hover { background-position: 100% 0; }
+.RadTabStripRight_Windows7 .rtsLink:hover { background-position: 100% -200px; }
+.RadTabStripRight_Windows7 .rtsSelected,
+.RadTabStripRight_Windows7 .rtsLI .rtsSelected:hover { background-position: 100% -400px; }
+/* </tab backgrounds> */
+
+
+/* <background positioning: tabs with hovers> */
+
+/* <orientation: top> */
+
+.RadTabStripTop_Windows7 .rtsLevel1 .rtsLink { background-position: 0 0; }
+.RadTabStripTop_Windows7 .rtsLevel1 .rtsOut { background-position: 100% 0; }
+
+.RadTabStripTop_Windows7 .rtsLevel1 .rtsLink:hover { background-position: 0 -52px; }
+.RadTabStripTop_Windows7 .rtsLevel1 .rtsLink:hover .rtsOut { background-position: 100% -52px; }
+
+.RadTabStripTop_Windows7 .rtsLevel1 .rtsDisabled:hover { background-position: 0 0; }
+.RadTabStripTop_Windows7 .rtsLevel1 .rtsDisabled:hover .rtsOut { background-position: 100% 0; }
+
+.RadTabStripTop_Windows7 .rtsLevel1 .rtsSelected,
+.RadTabStripTop_Windows7 .rtsLevel1 .rtsSelected:hover { background-position: 0 -26px; }
+.RadTabStripTop_Windows7 .rtsLevel1 .rtsSelected .rtsOut,
+.RadTabStripTop_Windows7 .rtsLevel1 .rtsSelected:hover .rtsOut { background-position: 100% -26px; }
+
+.RadTabStripTop_Windows7 .rtsLevel1 { background-position: 0 100%; background-repeat: repeat-x; }
+
+/* </orientation: top> */
+
+/* <orientation: bottom> */
+
+.RadTabStripBottom_Windows7 .rtsLevel1 .rtsLink { background-position: 0 -182px; }
+.RadTabStripBottom_Windows7 .rtsLevel1 .rtsOut { background-position: 100% -182px; }
+
+.RadTabStripBottom_Windows7 .rtsLevel1 .rtsLink:hover { background-position: 0 -130px; }
+.RadTabStripBottom_Windows7 .rtsLevel1 .rtsLink:hover .rtsOut { background-position: 100% -130px; }
+
+.RadTabStripBottom_Windows7 .rtsLevel1 .rtsDisabled:hover { background-position: 0 -182px; }
+.RadTabStripBottom_Windows7 .rtsLevel1 .rtsDisabled:hover .rtsOut { background-position: 100% -182px; }
+
+.RadTabStripBottom_Windows7 .rtsLevel1 .rtsSelected,
+.RadTabStripBottom_Windows7 .rtsLevel1 .rtsSelected:hover { background-position: 0 -156px; }
+.RadTabStripBottom_Windows7 .rtsLevel1 .rtsSelected .rtsOut,
+.RadTabStripBottom_Windows7 .rtsLevel1 .rtsSelected:hover .rtsOut { background-position: 100% -156px; }
+
+.RadTabStripBottom_Windows7 .rtsLevel1 { background-position: 0 -599px; background-repeat: repeat-x; }
+
+/* </orientation: bottom> */
+
+/* <orientation: right> */
+
+.RadTabStripRight_Windows7 .rtsUL .rtsLink,
+.RadTabStripRight_Windows7 .rtsUL .rtsLI .rtsDisabled:hover { background-position: 100% 0; text-align: left; }
+.RadTabStripRight_Windows7 .rtsUL .rtsLink:hover { background-position: 100% -200px; }
+.RadTabStripRight_Windows7 .rtsUL .rtsSelected,
+.RadTabStripRight_Windows7 .rtsUL .rtsLI .rtsSelected:hover { background-position: 100% -400px; }
+
+/* </orientation: right> */
+
+/* </background positioning: tabs with hovers> */

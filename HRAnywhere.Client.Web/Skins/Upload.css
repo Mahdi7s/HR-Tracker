@@ -1,0 +1,574 @@
+/* RadUpload Common Styles */
+
+.RadUpload,
+.RadUploadProgressArea
+{
+	width: 430px; /*default*/
+	text-align: left;
+}
+
+.RadUploadProgressAreaHidden
+{
+	display: none;
+}
+
+.RadUpload_rtl,
+.RadUploadProgressArea_rtl
+{
+	text-align: right;
+}
+
+.RadUpload .ruInputs
+{
+	zoom:1;/*IE fix - removing items on the client*/
+}
+
+.RadUpload .ruInputs li
+{
+    margin: 0 0 5px;
+}
+
+.RadUpload .ruInputs li.ruActions
+{
+    margin: 1.4em 0 0;
+}
+
+.RadUpload .ruInputs,
+.RadUploadProgressArea .ruProgress
+{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.RadUpload .ruCheck
+{
+	top: 1px;
+	padding: 3px;
+	position:static;
+	zoom:1;
+}
+
+.RadUpload .ruFileWrap
+{
+	position: relative;
+	display:inline-block;
+	white-space:nowrap;
+	vertical-align: top;
+    line-height: 20px;
+    zoom: 1;
+    overflow:hidden !important;
+    height:24px;
+}
+
+.RadUpload_rtl .ruFileWrap
+{
+    padding-left: 0.8em;
+    padding-right: 0;
+}
+
+/* handle rtl */
+
+.ruRtlWrap
+{
+    position:absolute;
+    top:0px;
+    left:0px !important;
+    display:block;
+}
+.ruFileWrap .ruRtlWrap input.ruFileInput
+{
+    position:static;
+}
+
+/* end */
+
+.RadAsyncUpload span.ruFileWrap
+{
+    padding-left:0;
+}
+
+* html .RadUpload .ruFileWrap { top: -1px; }/*IE6*/
+*+html .RadUpload .ruFileWrap { top: -1px; }/*IE7*/
+
+.RadUpload input.ruFileInput
+{
+    font: 100px monospace;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    top: 0;
+}
+
+.RadUpload .ruStyled .ruFileInput,
+.RadUpload .ruFakeInput
+{
+    border-width: 1px;
+    border-style: solid;
+    line-height: 18px;
+    padding: 4px 4px 0 4px;
+
+    -moz-box-sizing: content-box; /* Quirksmode height fix */
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.RadUpload .ruFileInput,
+.RadUpload .ruFakeInput,
+.RadUpload .ruButton,
+.RadUploadProgressArea .ruButton
+{
+	float: none;
+	vertical-align:top;
+}
+
+.RadUpload .ruStyled .ruFileInput
+{
+	position:absolute;
+	z-index:1;
+	opacity:0;/*Opera,Firefox*/
+	-moz-opacity:0;/*Firefox*/
+	filter:alpha(opacity=0);/*IE*/
+}
+
+.RadUpload .ruReadOnly .ruFakeInput
+{
+	position:relative;
+	z-index:2;
+}
+
+.RadUpload .ruFakeInput
+{
+    height: 16px;
+    margin-right: -1px;
+    vertical-align: middle;
+    background-position: 0 -93px;
+    background-repeat: repeat-x;
+    background-color: #fff;
+    
+    line-height /*\**/: 20px\9; /* IE8 Standards still broken + old hacks don't work */
+    height /*\**/: 20px\9;
+    padding-top /*\**/: 0\9;
+}
+
+* html .RadUpload .ruFakeInput /*IE6*/
+{
+    height: 20px;
+    margin-top: 0;
+    padding-top: 0;
+    padding-right: 0.5em;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+* html .RadUpload_rtl .ruFakeInput /*IE6*/
+{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+*+html .RadUpload .ruFakeInput /*IE7*/
+{
+    height: 20px;
+    margin-top: -1px;
+    padding-top: 0;
+    padding-right: 0.5em;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+/* <buttons> */
+
+.RadUpload .ruButton,
+.RadUploadProgressArea .ruButton
+{
+    width: 79px;
+    height: 22px;
+    border: 0;
+    padding-bottom: 2px;
+    background-position: 0 -23px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    text-align: center;
+}
+*+html .RadUpload .ruButton,
+*+html .RadUploadProgressArea .ruButton { padding-bottom: 0; }
+
+.RadUpload .ruBrowse
+{
+	margin-left: 4px;
+    width: 65px;
+    _height: 20px;
+    background-position: 0 0;
+	_vertical-align: middle;
+}
+
+.RadUpload_rtl .ruBrowse
+{
+    margin-left: 0;
+    margin-right: 4px;
+}
+
+.RadUpload .ruRemove
+{
+	overflow: visible;
+	border: 0;
+	background-position: 7px -70px;
+	width: auto;
+	padding-left: 16px;
+	cursor: pointer;
+	font-size: 10px;
+}
+
+.RadUpload_rtl .ruCancel
+{
+	background-position: 100% -70px;
+	padding-left: 0;
+	padding-right: 14px;
+    margin-right: 4px;
+}
+
+.RadUpload .ruCancel
+{
+	overflow: visible;
+	border: 0;
+	background-position: 7px -70px;
+	width: auto;
+	padding-left: 16px;
+	cursor: pointer;
+	font-size: 10px;
+}
+
+.RadUpload_rtl .ruRemove
+{
+	background-position: 100% -70px;
+	padding-left: 0;
+	padding-right: 14px;
+    margin-right: 4px;
+}
+
+.RadUpload .ruActions .ruButton,
+.RadUploadProgressArea .ruActions .ruButton
+{
+    width: 79px;
+    margin: 0 16px 0 0;
+    background-position: 0 -23px;
+}
+
+.RadUpload_rtl .ruActions .ruButton,
+.RadUploadProgressArea_rtl .ruActions .ruButton
+{
+    margin: 0 0 0 16px;
+}
+
+.RadUpload input[disabled],
+.RadUpload .ruButtonDisabled,
+.RadUploadProgressArea .ruButtonDisabled
+{
+	-moz-opacity:0.6;/*Firefox*/
+	opacity:0.6;/*Opera,Firefox*/
+	filter:alpha(opacity=60);/*IE*/
+}
+
+/* </buttons> */
+
+/* <submit button> */
+/* (use this class to style a single button for uploads) */
+
+.RadUploadSubmit
+{
+    width: 115px;
+    height: 22px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0 -46px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    font: 11px/22px "Segoe UI", Arial, sans-serif;
+    text-align: center;
+}
+
+/* </submit button> */
+
+/* <progress area> */
+
+.RadUploadProgressArea .ruProgress
+{
+    border-width: 1px;
+    border-style: solid;
+    background-position: 0 -112px;
+    background-repeat: repeat-x;
+    zoom: 1;
+}
+
+.RadUploadProgressArea .ruProgress li
+{
+    margin: 0 18px 16px;
+}
+
+.RadUploadProgressArea li.ruProgressHeader
+{
+    font-size: 16px;
+    margin: 15px 18px 30px;
+}
+
+.RadUploadProgressArea li.ruProgressHeader span
+{
+    display: block;
+    height: 16px;
+}
+*+.RadUploadProgressArea li.ruProgressHeader span { line-height: 12px; }
+* .RadUploadProgressArea li.ruProgressHeader span { line-height: 12px; }
+
+.RadUploadProgressArea .ruProgress li.ruCurrentFile
+{
+	margin: 20px 18px 5px;
+    font-size: 14px;
+}
+
+.RadUploadProgressArea .ruProgress li.ruTimeSpeed
+{
+	margin-bottom: 20px;
+}
+
+.RadUploadProgressArea .ruProgress li.ruCurrentFile span
+{
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.RadUploadProgressArea .ruProgress div
+{
+    margin-bottom: 0.4em;
+}
+
+.RadUploadProgressArea .ruProgress .ruBar
+{
+    margin-bottom: 0.4em;
+    border-width: 1px;
+    border-style: solid;
+    background-color: transparent;
+    background-repeat: repeat-x;
+    background-position: 0 -92px;
+	height: 16px;
+	overflow: hidden;
+}
+ 
+.RadUploadProgressArea .ruProgress .ruBar div
+{
+    background-color: transparent;
+    background-repeat: repeat-x;
+    background-position: 0 0;
+	height: 17px;
+	margin-top: -1px;
+}
+
+.RadUploadProgressArea_rtl .ruProgress .ruBar div
+{
+    background-color: transparent;
+    background-repeat: repeat-x;
+    background-position: 0 -17px;
+}
+ 
+.RadUploadProgressArea .ruProgress .ruActions
+{
+	border-top-width: 1px;
+	border-top-style: solid;
+	padding: 12px;
+	text-align: right;
+	margin: 0;
+}
+
+.RadUploadProgressArea_rtl .ruProgress .ruActions
+{
+	text-align: left;
+}
+
+.RadUploadProgressArea .ruProgress .ruActions .ruButton
+{
+	margin: 0 6px 0 0
+}
+
+.RadUploadProgressArea_rtl .ruProgress .ruActions .ruButton
+{
+	margin: 0 0 0 6px
+}
+
+/* <shadow> */
+.RadUploadProgressArea
+{
+	background: transparent url('Common/ShadowRight.png') no-repeat 100% 100%;
+	padding-bottom: 3px;
+}
+
+.RadUploadProgressArea > .ruShadow
+{
+	background: transparent url('Common/ShadowRight.png') no-repeat 100% 2px;
+	border-bottom: 3px solid transparent;
+	zoom: 1;
+}
+
+*+html .RadUploadProgressArea > .ruShadow { border: 0; }
+
+.RadUploadProgressArea .ruShadow > div
+{
+	margin: 0 3px -6px 0;
+	padding: 0 0 3px;
+	background: transparent url('Common/ShadowBottom.png') no-repeat 2px 100%;
+	zoom: 1;
+}
+*+html .RadUploadProgressArea .ruShadow > div { margin: 0 3px -3px 0; }
+
+* html .RadUploadProgressArea
+{
+	background: none;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#BBBBBB',direction='135',strength='3');
+}
+
+/* </shadow> */
+
+/* <RadAsyncUpload additional styles> */
+
+.RadUpload .ruUploadProgress
+{
+	padding-left: 18px;
+	display: block;
+    background: transparent url('Common/Upload/AsyncProgress.gif') no-repeat 0 50%;
+}
+.RadUpload_rtl .ruUploadProgress { padding-left: 0; padding-right: 18px; background-position: 100% 50%; }
+
+.RadUpload .ruUploadSuccess,
+.RadUpload .ruUploadFailure,
+.RadUpload .ruUploadCancelled
+{
+	background-image: url('Common/Upload/AsyncStates.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.RadUpload .ruFileRemoved
+{
+    height:0px;
+    margin-bottom:0px;
+}
+
+.RadUpload .ruUploadSuccess
+{
+	background-position: 0 18%;
+}
+
+.RadUpload_rtl .ruUploadSuccess
+{
+	background-position: 100% 18%;
+}
+
+.RadUpload .ruUploadFailure,
+.RadUpload .ruUploadCancelled
+{
+	background-position: 0 80%;
+}
+
+.RadUpload_rtl .ruUploadFailure,
+.RadUpload_rtl .ruUploadCancelled
+{
+	background-position: 100% 80%;
+}
+
+.RadUpload .ruFileWrap .ruUploadInvalid
+{
+	border-color: #d51923; 
+	color: #d51923;    
+}
+
+/* Inline progress */
+
+.RadUpload .ruFileProgress,
+.RadUpload .ruFileProgressWrap
+{
+    display : block;
+    height : 5px;
+    background-repeat: repeat-x;
+    background-color: transparent;
+}
+* html .RadUpload .ruFileProgress,
+* html .RadUpload .ruFileProgressWrap { line-height: 5px; font-size: 4px; height: auto; }
+
+.RadUpload .ruFileProgress
+{
+    margin-left: -2px;
+    width : 2px;
+}
+* html .RadUpload .ruFileProgress { position: relative; }
+
+.RadUpload_rtl .ruFileProgress
+{
+    margin-left: 0;
+    margin-right: -2px;
+}
+
+.RadUpload .ruFileProgressWrap
+{
+    margin: -3px 0 0;
+    position: relative;
+    width: 100%;
+}
+*+html .RadUpload .ruFileProgressWrap { width: auto; margin-top: -4px; }
+* html .RadUpload .ruFileProgressWrap { width: auto; margin-top: -4px; }
+
+.RadUpload .ruProgressComplete,
+.RadUpload .ruUploadFailure .ruFileProgressWrap,
+.RadUpload .ruUploadCancelled .ruFileProgressWrap
+{
+    display: none;
+}
+
+/* </RadAsyncUpload additional styles> */
+
+/* </progress area> */
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+	.RadUploadProgressArea .ruBar,
+	.RadUploadProgressArea .ruBar div
+	{
+		border: solid transparent;
+		border-width: 1px 0;
+	}
+	
+	.RadUploadProgressAreaHidden
+	{
+		display: block; /* Progress area must be display: block in WebKit to render the animated gif before submit, */
+						/* after that gif loading doesn't work                                                      */
+		overflow: hidden;		   
+		visibility: hidden;
+		width: 0;
+		height: 0;
+	}
+}
+
+/* <hacks for opera/rtl> */
+@media all and(-webkit-max-device-pixel-ratio: 10000),
+   not all and(-webkit-min-device-pixel-ratio: 0) {
+
+	.RadUpload_rtl .ruRemove
+	{
+		margin: 0 0 0 4px;
+	}
+	
+	.RadUpload_rtl .ruActions .ruButton
+	{
+		margin: 0 16px 0 0;
+	}
+
+	.RadUploadProgressArea_rtl .ruProgress .ruActions .ruButton
+	{
+		margin: 0 6px 0 0
+	}
+
+	.RadUpload_rtl .ruBrowse
+	{
+		margin: 0 0 0 3px;
+	}
+}
+/* </hacks for opera/rtl> */

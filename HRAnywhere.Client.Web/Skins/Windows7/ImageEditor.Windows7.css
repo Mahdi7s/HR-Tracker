@@ -1,0 +1,60 @@
+/* RadImageEdiotr Windows7 Skin */
+
+.RadImageEditor_Windows7,
+.RadDock_Windows7.rieDialogs .riePrintContent
+{
+	border-color: #a5b3c5;
+	background-color: #f1f5fb;
+}
+
+.RadImageEditor_Windows7 .rieStatusBarInfo .rieLabel
+{
+	color: #5a6779;
+}
+
+.RadImageEditor_Windows7 .rieStatusBarInfo span
+{
+	color: #1e395b;
+}
+
+.RadDock_Windows7.rieDialogs .rdContent
+{
+	color: #000;
+}
+
+/* ImageEditor Dialogs using RadDock as Wrapper */
+.RadDock_Windows7.rieDialogs .rbPrimaryIcon,
+.RadImageEditor_Windows7 .rieResizeHandle,
+.RadImageEditor_Windows7 .rieBackgroundImg .rtbIcon /* Custom Skin */
+{
+	background-image: url('ImageEditor/ImageEditorTools.png');
+}
+
+*html .RadDock_Windows7.rieDialogs .rbPrimaryIcon,
+*html .RadImageEditor_Windows7 .rieResizeHandle,
+*html .RadImageEditor_Windows7 .rieBackgroundImg .rtbIcon /* Custom Skin */
+{
+	background-image: url('ImageEditor/ImageEditorToolsIE6.gif');
+}
+
+.RadDock_Windows7.rieDialogs .rieThumbsBottomRow td,
+.RadDock_Windows7.rieDialogs .rieDialogsThumbsLeft,
+.RadDock_Windows7.rieDialogs .riePrintContent img
+{
+	border-color: #c1dbfc;
+}
+
+.RadDock_Windows7.rieDialogs .rieThumbsLink,
+.RadImageEditor_Windows7 .rieContentArea
+{
+	border-color: #b8cbde;
+}
+
+.RadDock_Windows7.rieDialogs .rieActiveThumbsLink,
+.RadDock_Windows7.rieDialogs .rieThumbsLink:hover,
+.RadImageEditor_Windows7 .rieHighlightVertical, 
+.RadImageEditor_Windows7 .rieHighlightHorizontal
+{
+	border-color: #c1dbfc;
+	background-color: #edf2f9;
+}

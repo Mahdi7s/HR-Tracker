@@ -1,0 +1,36 @@
+.RadDock_Telerik .rdMiddle .rdLeft,
+.RadDock_Telerik .rdMiddle .rdRight
+{
+	background-image: url('Dock/VerticalSprite.gif');
+}
+
+.RadDock_Telerik .rdTop .rdLeft,
+.RadDock_Telerik .rdTop .rdRight,
+.RadDock_Telerik .rdTop .rdCenter,
+.RadDock_Telerik .rdBottom .rdLeft,
+.RadDock_Telerik .rdBottom .rdRight,
+.RadDock_Telerik .rdBottom .rdCenter
+{
+	background-image: url('Dock/HorizontalSprite.png');
+}
+
+.RadDock_Telerik .rdCenter .rdCommands a span
+{
+	background-image: url('Dock/CommandSprite.gif');
+}
+
+.RadDock_Telerik .rdMiddle .rdCenter,
+.RadDock_Telerik .rdBottom .rdCenter
+{
+	background-color: #fff;
+}
+
+.RadDock_Telerik .rdContent
+{
+	color: black;
+}
+
+.RadDock_Telerik .rdTitleBar em
+{
+	color: #000;
+}

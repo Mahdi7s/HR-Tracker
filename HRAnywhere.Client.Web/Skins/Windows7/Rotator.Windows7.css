@@ -1,0 +1,52 @@
+/* RadRotator for ASP.NET AJAX Windows7 Skin */
+
+.RadRotator_Windows7 .rrClipRegion
+{
+	border: solid 1px #bacce3;
+}
+
+/*================== The list ========================*/
+
+.RadRotator_Windows7 .rrClipRegion  .rrItemsList 
+{
+	float: left;
+	padding: 0;
+	margin: 0;
+	list-style: none;          
+}
+
+/* For vertical carousel, not set, width Windows7s to auto */
+/* Note if you explicitly set width to auto, this might cause */
+/* problems with Safari */
+
+.RadRotator_Windows7 .rrButton
+{
+	background-image: url('Rotator/RotatorButtons.gif');
+	background-repeat: no-repeat;
+}
+
+.RadRotator_Windows7 .rrButton.rrButtonUp 
+{
+	top:-19px;
+}
+
+.RadRotator_Windows7 .rrButton.rrButtonRight
+{
+	right:-21px;
+}
+
+*html .RadRotator_Windows7 .rrButton.rrButtonRight
+{
+	right:-19px;
+}
+
+.RadRotator_Windows7 .rrButton.rrButtonLeft
+{
+	left:-19px;
+}
+
+/* When LoadOnDemand */
+.rrLoadingSign
+{
+    background: url('Common/loading_small.gif') no-repeat center;
+}

@@ -1,0 +1,80 @@
+
+.ReminderDialog_Simple,
+.ReminderDialog_Simple a
+{
+    color: #333;
+    font: normal 12px/14px "Segoe UI", Arial, sans-serif;
+}
+
+.ReminderDialog_Simple .rsRemContentPanel
+{
+    background: #fff;
+}
+
+/* <advanced edit title> */
+
+.ReminderDialog_Simple div.rsModalBgTopLeft,
+.ReminderDialog_Simple div.rsModalBgTopRight,
+.ReminderDialog_Simple div.rsModalBgBottomLeft,
+.ReminderDialog_Simple div.rsModalBgBottomRight
+{
+    bottom: 1px;
+}
+
+.ReminderDialog_Simple .rsRemTitleBar
+{
+    border-bottom: 1px solid #616161;
+    background-color: #e4e4e4;
+}
+
+.ReminderDialog_Simple a.rsRemTitleBarCloseBtn
+{
+    background-color: #e4e4e4;
+    background-position: -43px -528px;
+    height: 17px;
+    margin-top: -24px;
+    width: 26px;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.ReminderDialog_Simple a.rsRemTitleBarCloseBtn:hover
+{
+    opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.ReminderDialog_Simple .rsRemTitleIcon,
+.ReminderDialog_Simple .rsRemTitleBarIcon,
+.ReminderDialog_Simple a.rsRemTitleBarCloseBtn
+{
+    color: #5d1f00;
+    background-image: url('Scheduler/rsSprites.png');
+}
+
+.ReminderDialog_Simple .rsRemActions a.rsRemDismissAllBtn,
+.ReminderDialog_Simple .rsRemActions a.rsRemOpenItemBtn,
+.ReminderDialog_Simple .rsRemActions a.rsRemDismissBtn,
+.ReminderDialog_Simple .rsRemSnoozePanel a.rsRemSnoozeBtn
+{
+    border: 1px solid #4e4e4e;
+    background-color: #8e8e8e;
+    color: #fff;
+    height: 20px;
+    line-height: 20px;
+    width: 71px;
+}
+
+.ReminderDialog_Simple .rsRemActions a.rsRemDismissAllBtn:hover,
+.ReminderDialog_Simple .rsRemActions a.rsRemOpenItemBtn:hover,
+.ReminderDialog_Simple .rsRemActions a.rsRemDismissBtn:hover,
+.ReminderDialog_Simple .rsRemSnoozePanel a.rsRemSnoozeBtn:hover
+{
+    border: 1px solid #ca4b0c;
+    background-color: #ffa517;
+    color: #892500;
+}
+
+/* </advanced edit title> */

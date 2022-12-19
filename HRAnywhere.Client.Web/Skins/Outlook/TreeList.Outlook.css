@@ -1,0 +1,272 @@
+/* Telerik RadTreeList Outlook Skin */
+
+/*global*/
+
+.RadTreeList_Outlook,
+.rtlCEdit div.RadTreeList_Outlook
+{
+	border-color:#002d96;
+	background:#fff;
+	color:#000;
+}
+
+.RadTreeList_Outlook .rtlAdd,
+.RadTreeList_Outlook .rtlEdit,
+.RadTreeList_Outlook .rtlUpdate,
+.RadTreeList_Outlook .rtlCancel,
+.RadTreeList_Outlook .rtlDel
+{
+	background-image:url('Grid/sprite.gif');
+}
+
+.RadTreeList_Outlook .rtlTable
+{
+	font:12px/16px "segoe ui",arial,sans-serif;
+}
+
+.RadTreeList_Outlook .rtlHeader
+{
+	background:#7da5e0 0 -2300px repeat-x url('Grid/sprite.gif');
+}
+
+.RadTreeList_Outlook .rtlHeader a
+{
+	color:#000;
+}
+
+.RadTreeList_Outlook .rtlHeader,
+.RadTreeList_Outlook .rtlHeader th
+{
+	border-color:#5d8cc9 #89aee5;
+}
+
+.RadTreeList_Outlook .rtlScroller
+{
+	border-color:#89aee5;
+}
+
+.RadTreeList_Outlook .rtlA
+{
+	background-color:#e3edf7;
+}
+
+.RadTreeList_Outlook .rtlRFooter
+{
+	background:#d5e4f3 0 -6500px repeat-x url('Grid/sprite.gif');
+}
+
+.RadTreeList_Outlook .rtlRSel
+{
+	background:#97b8e8 0 -3900px repeat-x url('Grid/sprite.gif');
+}
+
+.RadTreeList_Outlook .rtlRActive
+{
+    background:#ffd192 0 -2900px repeat-x url('Grid/sprite.gif');
+}
+
+.rtlCEdit .RadTreeList_Outlook 
+{
+    border-right:1px solid;
+    border-top:1px solid;
+}
+
+.RadTreeList_Outlook .rtlRActive td,
+.RadTreeList_Outlook .rtlR td,
+.RadTreeList_Outlook .rtlA td,
+.RadTreeList_Outlook .rtlREdit td,
+.RadTreeList_Outlook .rtlRFooter td,
+.RadTreeList_Outlook .rtlEditForm
+{
+	border-color:#d0d7e5;
+}
+
+.RadTreeList_Outlook .rtlR a,
+.RadTreeList_Outlook .rtlA a,
+.RadTreeList_Outlook .rtlREdit a,
+.RadTreeList_Outlook .rtlEditForm a
+{
+	color:#000;
+}
+
+.RadTreeList_Outlook .rtlVBorders td.rtlL,
+.RadTreeList_Outlook .rtlLines td.rtlL
+{
+	background-color:#fff;
+}
+
+.RadTreeList_Outlook .rtlREdit
+{
+    background-color:#c8dbf6;
+}
+
+.RadTreeList_Outlook .rtlDrag,
+.RadTreeList_Outlook .rtlExpand,
+.RadTreeList_Outlook .rtlCollapse
+{
+	background-image:url('TreeList/sprite.gif');
+}
+
+.RadTreeList_Outlook .rtlExpand
+{
+	background-position:0 0;
+}
+
+.RadTreeList_Outlook .rtlCollapse
+{
+	background-position:0 -50px;
+}
+
+.RadTreeList_Outlook .rtlSortAsc,
+.RadTreeList_Outlook .rtlSortDesc
+{
+	background-image:url('Grid/sprite.gif');
+}
+
+.RadTreeList_Outlook .rtlSortAsc
+{
+	background-position:3px -146px;
+}
+
+.RadTreeList_Outlook .rtlSortDesc
+{
+	background-position:3px -96px;
+}
+
+.RadTreeList_Outlook .rtlLines td.rtlL0
+{
+	background-image:url('TreeList/rtlSingle.gif');
+}
+
+.RadTreeList_Outlook .rtlLines td.rtlL1
+{
+	background-image:url('TreeList/rtlTop.gif');
+}
+
+.RadTreeList_Outlook .rtlLines td.rtlL2
+{
+	background-image:url('TreeList/rtlMiddle.gif');
+}
+
+.RadTreeList_Outlook .rtlLines td.rtlL3
+{
+	background-image:url('TreeList/rtlBottom.gif');
+}
+
+/*rtl*/
+
+.RadTreeListRTL_Outlook .rtlLines td.rtlL1
+{
+	background-image:url('TreeList/rtlTopRTL.gif');
+}
+
+.RadTreeListRTL_Outlook .rtlLines td.rtlL2
+{
+	background-image:url('TreeList/rtlMiddleRTL.gif');
+}
+
+.RadTreeListRTL_Outlook .rtlLines td.rtlL3
+{
+	background-image:url('TreeList/rtlBottomRTL.gif');
+}
+
+/*pager*/
+
+.RadTreeList_Outlook .rtlPager
+{
+	background:#d6e5f3;
+}
+
+.RadTreeList_Outlook .rtlPagerCell
+{
+	border-color:#5d8cc9;
+}
+
+.RadTreeList_Outlook .rtlPager .rtlInfoPart
+{
+	color:#3e69a3;
+}
+
+.RadTreeList_Outlook .rtlPager .rtlPageFirst,
+.RadTreeList_Outlook .rtlPager .rtlPagePrev,
+.RadTreeList_Outlook .rtlPager .rtlPageNext,
+.RadTreeList_Outlook .rtlPager .rtlPageLast
+{
+	background:transparent no-repeat url('Grid/sprite.gif');
+}
+
+.RadTreeList_Outlook .rtlPager .rtlPageFirst
+{
+	background-position:0 -550px;
+}
+.RadTreeList_Outlook .rtlPager .rtlPageFirst:hover
+{
+	background-position:0 -600px;
+}
+.RadTreeList_Outlook .rtlPager .rtlPagePrev
+{
+	background-position:0 -700px;
+}
+.RadTreeList_Outlook .rtlPager .rtlPagePrev:hover
+{
+	background-position:0 -750px;
+}
+.RadTreeList_Outlook .rtlPager .rtlPageNext
+{
+	background-position:0 -850px;
+}
+.RadTreeList_Outlook .rtlPager .rtlPageNext:hover
+{
+	background-position:0 -900px;
+}
+.RadTreeList_Outlook .rtlPager .rtlPageLast
+{
+	background-position:0 -1000px;
+}
+.RadTreeList_Outlook .rtlPager .rtlPageLast:hover
+{
+	background-position:0 -1050px;
+}
+
+.RadTreeList_Outlook .rtlPager .rtlPagerButton
+{
+	border-color:#003c74;
+	background:#ebe8e3 repeat-x 0 -1550px url('Grid/sprite.gif');
+	color:#000;
+	font-family:"segoe ui",arial,sans-serif;
+}
+
+.RadTreeList_Outlook .rtlPager .rtlNumPart a:hover,
+.RadTreeList_Outlook .rtlPager .rtlNumPart a:hover span,
+.RadTreeList_Outlook .rtlPager .rtlNumPart a.rtlCurrentPage,
+.RadTreeList_Outlook .rtlPager .rtlNumPart a.rtlCurrentPage span
+{
+	background:no-repeat url('Grid/sprite.gif');
+}
+
+.RadTreeList_Outlook .rtlPager .rtlNumPart a
+{
+	color:#000;
+}
+
+.RadTreeList_Outlook .rtlPager .rtlNumPart a:hover
+{
+	background-position:100% -1250px;
+}
+
+.RadTreeList_Outlook .rtlPager .rtlNumPart a:hover span
+{
+	background-position:0 -1150px;
+}
+
+.RadTreeList_Outlook .rtlPager .rtlNumPart a.rtlCurrentPage,
+.RadTreeList_Outlook .rtlPager .rtlNumPart a.rtlCurrentPage:hover
+{
+	background-position:100% -1450px;
+}
+
+.RadTreeList_Outlook .rtlPager .rtlNumPart a.rtlCurrentPage span,
+.RadTreeList_Outlook .rtlPager .rtlNumPart a.rtlCurrentPage:hover span
+{
+	background-position:0 -1350px;
+}

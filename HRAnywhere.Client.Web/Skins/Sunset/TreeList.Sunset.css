@@ -1,0 +1,285 @@
+/* Telerik RadTreeList Sunset Skin */
+
+/*global*/
+
+.RadTreeList_Sunset,
+.rtlCEdit div.RadTreeList_Sunset
+{
+	border-color:#cabaab;
+	background:#fff;
+	color:#272522;
+}
+
+.RadTreeList_Sunset .rtlAdd,
+.RadTreeList_Sunset .rtlEdit,
+.RadTreeList_Sunset .rtlUpdate,
+.RadTreeList_Sunset .rtlCancel,
+.RadTreeList_Sunset .rtlDel
+{
+	background-image:url('Grid/sprite.gif');
+}
+
+.RadTreeList_Sunset .rtlTable
+{
+	font:12px/16px "segoe ui",arial,sans-serif;
+}
+
+.RadTreeList_Sunset .rtlHeader
+{
+	background:#b94d0a 0 -2300px repeat-x url('Grid/sprite.gif');
+}
+
+.RadTreeList_Sunset .rtlHeader,
+.RadTreeList_Sunset .rtlHeader a
+{
+	color:#fff;
+}
+
+.RadTreeList_Sunset .rtlHeader,
+.RadTreeList_Sunset .rtlHeader th
+{
+	border-color:#71250a #872c07;
+}
+
+.RadTreeList_Sunset .rtlScroller
+{
+	border-color:#95432b;
+}
+
+.RadTreeList_Sunset .rtlA
+{
+	background-color:#f1e9dc;
+}
+
+.RadTreeList_Sunset .rtlRFooter
+{
+	background-color:#e1dac7;
+}
+
+.rtlCEdit .RadTreeList_Sunset 
+{
+    border-right:1px solid;
+    border-top:1px solid;
+}
+
+.RadTreeList_Sunset .rtlR td,
+.RadTreeList_Sunset .rtlA td,
+.RadTreeList_Sunset .rtlREdit td,
+.RadTreeList_Sunset .rtlRFooter td,
+.RadTreeList_Sunset .rtlEditForm
+{
+	border-color:#cabaab;
+}
+
+.RadTreeList_Sunset .rtlR a,
+.RadTreeList_Sunset .rtlA a,
+.RadTreeList_Sunset .rtlREdit a,
+.RadTreeList_Sunset .rtlEditForm a
+{
+	color:#5d1f00;
+}
+
+.RadTreeList_Sunset .rtlRSel
+{
+	background:#e38443 0 -3901px repeat-x url('Grid/sprite.gif');
+}
+
+.RadTreeList_Sunset .rtlRSel td
+{
+	border-color:#ad5e2f;
+}
+
+.RadTreeList_Sunset .rtlRActive
+{
+    background:#f2d328 0 -2900px repeat-x url('Grid/sprite.gif');
+}
+
+.RadTreeList_Sunset .rtlRActive td
+{
+	border-color:#ca9a3e;
+}
+
+.RadTreeList_Sunset .rtlVBorders td.rtlL,
+.RadTreeList_Sunset .rtlLines td.rtlL
+{
+	background-color:#fff;
+}
+
+.RadTreeList_Sunset .rtlREdit
+{
+    background-color:#e1dac7;
+}
+
+.RadTreeList_Sunset .rtlEditForm
+{
+    background-color:#eae5d7;
+}
+
+.RadTreeList_Sunset .rtlDrag,
+.RadTreeList_Sunset .rtlExpand,
+.RadTreeList_Sunset .rtlCollapse
+{
+	background-image:url('TreeList/sprite.gif');
+}
+
+.RadTreeList_Sunset .rtlExpand
+{
+	background-position:0 0;
+}
+
+.RadTreeList_Sunset .rtlCollapse
+{
+	background-position:0 -50px;
+}
+
+.RadTreeList_Sunset .rtlSortAsc,
+.RadTreeList_Sunset .rtlSortDesc
+{
+	background-image:url('Grid/sprite.gif');
+}
+
+.RadTreeList_Sunset .rtlSortAsc
+{
+	background-position:3px -247px;
+}
+
+.RadTreeList_Sunset .rtlSortDesc
+{
+	background-position:3px -197px;
+}
+
+.RadTreeList_Sunset .rtlLines td.rtlL0
+{
+	background-image:url('TreeList/rtlSingle.gif');
+}
+
+.RadTreeList_Sunset .rtlLines td.rtlL1
+{
+	background-image:url('TreeList/rtlTop.gif');
+}
+
+.RadTreeList_Sunset .rtlLines td.rtlL2
+{
+	background-image:url('TreeList/rtlMiddle.gif');
+}
+
+.RadTreeList_Sunset .rtlLines td.rtlL3
+{
+	background-image:url('TreeList/rtlBottom.gif');
+}
+
+/*rtl*/
+
+.RadTreeListRTL_Sunset .rtlLines td.rtlL1
+{
+	background-image:url('TreeList/rtlTopRTL.gif');
+}
+
+.RadTreeListRTL_Sunset .rtlLines td.rtlL2
+{
+	background-image:url('TreeList/rtlMiddleRTL.gif');
+}
+
+.RadTreeListRTL_Sunset .rtlLines td.rtlL3
+{
+	background-image:url('TreeList/rtlBottomRTL.gif');
+}
+
+/*pager*/
+
+.RadTreeList_Sunset .rtlPager
+{
+	background:#e1dac7;
+	color:#272522;
+}
+
+.RadTreeList_Sunset .rtlPagerCell
+{
+	border-color:#cabaab transparent #f1e9dc;
+	border-bottom-width:1px;
+}
+
+.RadTreeList_Sunset .rtlPager .rtlPageFirst,
+.RadTreeList_Sunset .rtlPager .rtlPagePrev,
+.RadTreeList_Sunset .rtlPager .rtlPageNext,
+.RadTreeList_Sunset .rtlPager .rtlPageLast
+{
+	background:transparent no-repeat url('Grid/sprite.gif');
+}
+
+.RadTreeList_Sunset .rtlPager .rtlPageFirst
+{
+	background-position:0 -550px;
+}
+.RadTreeList_Sunset .rtlPager .rtlPageFirst:hover
+{
+	background-position:0 -600px;
+}
+.RadTreeList_Sunset .rtlPager .rtlPagePrev
+{
+	background-position:0 -700px;
+}
+.RadTreeList_Sunset .rtlPager .rtlPagePrev:hover
+{
+	background-position:0 -750px;
+}
+.RadTreeList_Sunset .rtlPager .rtlPageNext
+{
+	background-position:0 -850px;
+}
+.RadTreeList_Sunset .rtlPager .rtlPageNext:hover
+{
+	background-position:0 -900px;
+}
+.RadTreeList_Sunset .rtlPager .rtlPageLast
+{
+	background-position:0 -1000px;
+}
+.RadTreeList_Sunset .rtlPager .rtlPageLast:hover
+{
+	background-position:0 -1050px;
+}
+
+.RadTreeList_Sunset .rtlPager .rtlPagerButton
+{
+	border-color:#b97322 #9d5d13 #824703;
+	background:#f4be77 repeat-x 0 -1550px url('Grid/sprite.gif');
+	color:#3d1400;
+	font-family:"segoe ui",arial,sans-serif;
+}
+
+.RadTreeList_Sunset .rtlPager .rtlNumPart a:hover,
+.RadTreeList_Sunset .rtlPager .rtlNumPart a:hover span,
+.RadTreeList_Sunset .rtlPager .rtlNumPart a.rtlCurrentPage,
+.RadTreeList_Sunset .rtlPager .rtlNumPart a.rtlCurrentPage span
+{
+	background:no-repeat url('Grid/sprite.gif');
+}
+
+.RadTreeList_Sunset .rtlPager .rtlNumPart a
+{
+	color:#272522;
+}
+
+.RadTreeList_Sunset .rtlPager .rtlNumPart a:hover
+{
+	background-position:100% -1250px;
+}
+
+.RadTreeList_Sunset .rtlPager .rtlNumPart a:hover span
+{
+	background-position:0 -1150px;
+}
+
+.RadTreeList_Sunset .rtlPager .rtlNumPart a.rtlCurrentPage,
+.RadTreeList_Sunset .rtlPager .rtlNumPart a.rtlCurrentPage:hover
+{
+	background-position:100% -1450px;
+	color:#5d1f00;
+}
+
+.RadTreeList_Sunset .rtlPager .rtlNumPart a.rtlCurrentPage span,
+.RadTreeList_Sunset .rtlPager .rtlNumPart a.rtlCurrentPage:hover span
+{
+	background-position:0 -1350px;
+}

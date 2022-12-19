@@ -1,0 +1,412 @@
+/* <RadMenu / Simple> */
+
+.RadMenu_Simple ul.rmRootGroup,
+.RadMenu_Simple div.rmRootGroup
+{
+	padding: 1px 0;
+	border: 1px solid #7c7c7c;
+	background-color: #e4e4e4;
+}
+
+/* <Root items> */
+
+.RadMenu_Simple,
+.RadMenu_Simple a.rmLink
+{
+	font: normal 12px/19px "Segoe UI", Arial, sans-serif;
+	color: #000;
+	text-decoration: none;
+}
+
+.RadMenu_Simple .rmItem a.rmLink
+{
+	padding: 1px 12px;
+}
+
+.RadMenu_Simple .rmHorizontal a.rmLink .rmText
+{
+	padding-right: 0;
+}
+
+.RadMenu_Simple a.rmRootLink .rmText
+{
+	padding-left: 0;
+}
+
+.RadMenu_Simple_Context a.rmRootLink .rmText
+{
+	padding-left: 28px;
+}
+
+.RadMenu_Simple ul.rmVertical .rmText
+{
+    padding-right: 30px;
+}
+
+.RadMenu_Simple_rtl ul.rmVertical .rmText
+{
+    padding-left: 30px;
+    padding-right: 0;
+}
+
+.RadMenu_Simple .rmItem a.rmLink:hover,
+.RadMenu_Simple .rmItem a.rmFocused,
+.RadMenu_Simple .rmItem a.rmSelected
+{
+	background: #ffe79c;
+	border: 1px solid #c98400;
+	padding: 0 11px;
+}
+
+.RadMenu_Simple .rmItem a.rmExpanded,
+.RadMenu_Simple .rmItem a.rmExpanded:hover
+{
+	background: #ffa517;
+	border: 1px solid #ca4b0c;
+	padding: 0 11px;
+}
+
+.RadMenu_Simple .rmItem a.rmDisabled,
+.RadMenu_Simple .rmItem a.rmDisabled:hover
+{
+	color: #7d7d7d;
+	background-color: transparent;
+	border: 0;
+	padding: 1px 12px;
+}
+
+.RadMenu_Simple img.rmLeftImage,
+.RadMenu_Simple span.rmLeftImage
+{
+	margin: 2px 2px 0 0;
+	padding-bottom: 3px;
+}
+
+/* </Root items> */
+
+
+/* <Submenu items> */
+
+.RadMenu_Simple .rmGroup,
+.RadMenu_Simple .rmMultiColumn,
+.RadMenu_Simple .rmGroup .rmVertical
+{
+	border: 1px solid #616161;
+	background: #fff url('Menu/rmDropDownStripe.png') repeat-y -1px 0;
+}
+
+.RadMenu_Simple .rmTopFix,
+.RadMenu_Simple .rmBottomFix,
+.RadMenu_Simple .rmRoundedCorners .rmGroup .rmItem,
+.RadMenu_Simple .rmRoundedCorners li.rmFirstGroupColumn .rmItem,
+.RadMenu_Simple .rmRoundedCorners .rmFirstGroupColumn li.rmFirstGroupColumn .rmItem,
+.RadMenu_Simple .rmRoundedCorners ul.rmHorizontal .rmFirst,
+.RadMenu_Simple_Context.rmRoundedCorners .rmGroup .rmItem,
+.RadMenu_Simple_Context.rmRoundedCorners ul.rmHorizontal .rmFirst
+{
+	background-image: url('Menu/rmDropDownStripe.png');
+	background-color: #fff; 
+	background-repeat: repeat-y;
+	background-position: -3px 0;
+}
+
+* html .rmRoundedCorners_Simple .rmGroup .rmItem,
+* html .rmRoundedCorners_Simple ul.rmHorizontal .rmFirst
+{
+	background-image: url('Menu/rmDropDownStripe.png');
+	background-color: #fff; 
+	background-repeat: repeat-y;
+	background-position: -3px 0;
+}
+
+.RadMenu_Simple .rmRoundedCorners .rmScrollWrapContainer .rmGroup,
+.RadMenu_Simple .rmRoundedCorners .rmScrollWrap .rmItem,
+.RadMenu_Simple .rmRoundedCorners .rmGroupColumn .rmItem,
+.RadMenu_Simple .rmRoundedCorners .rmGroupColumn .rmGroupColumn .rmItem,
+.RadMenu_Simple .rmRoundedCorners .rmHorizontal .rmItem,
+.RadMenu_Simple .rmRoundedCorners .rmScrollWrap .rmVertical,
+.RadMenu_Simple_Context.rmRoundedCorners .rmScrollWrapContainer .rmGroup,
+.RadMenu_Simple_Context.rmRoundedCorners .rmScrollWrap .rmItem,
+.RadMenu_Simple_Context.rmRoundedCorners .rmHorizontal .rmItem,
+.RadMenu_Simple_Context.rmRoundedCorners .rmScrollWrap .rmVertical
+{
+	background-image: none;
+}
+
+* html .rmRoundedCorners_Simple .rmScrollWrapContainer .rmGroup,
+* html .rmRoundedCorners_Simple .rmScrollWrap .rmItem,
+* html .rmRoundedCorners_Simple .rmHorizontal .rmItem,
+* html .rmRoundedCorners_Simple .rmScrollWrap .rmVertical
+{
+	background-image: none;
+}
+
+.RadMenu_Simple .rmRoundedCorners .rmGroupColumn
+{
+	background-color: #fff;
+}
+
+.RadMenu_Simple .rmBottomLeft,
+.RadMenu_Simple .rmRoundedCorners .rmScrollWrapContainer,
+.RadMenu_Simple_Context.rmRoundedCorners .rmScrollWrapContainer,
+.RadMenu_Simple_Context.rmRoundedCorners ul.rmGroup,
+.RadMenu_Simple .rmRoundedCorners ul.rmGroup,
+.RadMenu_Simple .rmRoundedCorners .rmMultiColumn
+{
+	background-image:  url('Menu/rmRoundedLeft.png');
+	background-color: transparent; 
+	background-repeat: no-repeat;
+}
+
+* html .rmRoundedCorners_Simple .rmScrollWrapContainer,
+* html .rmRoundedCorners_Simple .rmGroup ul.rmGroup,
+* html .rmRoundedCorners_Simple ul.rmGroup
+{
+	background-image:  url('Menu/rmRoundedLeft.png');
+	background-color: transparent; 
+	background-repeat: no-repeat;
+}
+
+.RadMenu_Simple .rmTopRight,
+.RadMenu_Simple .rmBottomRight
+{
+	background-image:  url('Menu/rmRoundedRight.png');
+	background-color: transparent; 
+	background-repeat: no-repeat;
+}
+
+.RadMenu_Simple .rmTopFix,
+.RadMenu_Simple .rmBottomFix,
+.RadMenu_Simple .rmRoundedCorners .rmGroup .rmFirst,
+.RadMenu_Simple_Context.rmRoundedCorners .rmGroup .rmFirst,
+.rmRoundedCorners_Simple .rmGroup .rmFirst
+{
+	border-color: #616161;
+}
+
+.RadMenu_Simple .rmRoundedCorners .rmScrollWrapContainer .rmTopFix,
+.RadMenu_Simple .rmRoundedCorners .rmScrollWrapContainer .rmBottomFix,
+.RadMenu_Simple_Context.rmRoundedCorners .rmScrollWrapContainer .rmTopFix,
+.RadMenu_Simple_Context.rmRoundedCorners .rmScrollWrapContainer .rmBottomFix
+{
+	background: #FFF;
+}
+
+* html .rmRoundedCorners_Simple .rmScrollWrapContainer .rmTopFix,
+* html .rmRoundedCorners_Simple .rmScrollWrapContainer .rmBottomFix
+{
+	background: #FFF;
+}
+
+.RadMenu_Simple .rmRoundedCorners .rmScrollWrapContainer .rmTopArrow,
+.RadMenu_Simple .rmRoundedCorners .rmScrollWrapContainer .rmBottomArrow,
+.RadMenu_Simple .rmRoundedCorners .rmScrollWrapContainer .rmLeftArrow,
+.RadMenu_Simple .rmRoundedCorners .rmScrollWrapContainer .rmRightArrow,
+.RadMenu_Simple_Context.rmRoundedCorners .rmScrollWrapContainer .rmTopArrow,
+.RadMenu_Simple_Context.rmRoundedCorners .rmScrollWrapContainer .rmBottomArrow,
+.RadMenu_Simple_Context.rmRoundedCorners .rmScrollWrapContainer .rmLeftArrow,
+.RadMenu_Simple_Context.rmRoundedCorners .rmScrollWrapContainer .rmRightArrow
+{
+	background-color: #FFF;
+	border: 0;
+}
+
+* html .rmRoundedCorners_Simple .rmScrollWrapContainer .rmTopArrow,
+* html .rmRoundedCorners_Simple .rmScrollWrapContainer .rmBottomArrow,
+* html .rmRoundedCorners_Simple .rmScrollWrapContainer .rmLeftArrow,
+* html .rmRoundedCorners_Simple .rmScrollWrapContainer .rmRightArrow
+{
+	background-color: #FFF;
+	border: 0;
+}
+
+.RadMenu_Simple li.rmTopFix,
+.RadMenu_Simple li.rmBottomFix
+{
+	background-position: -4px 0;
+}
+
+.RadMenu_Simple_rtl .rmBottomLeft,
+.RadMenu_Simple_rtl .rmRoundedCorners ul.rmGroup,
+.RadMenu_Simple_rtl .rmRoundedCorners .rmMultiColumn,
+.RadMenu_Simple .rmRoundedCorners .rmScrollWrapContainer,
+.RadMenu_Simple .rmScrollWrapContainer .rmBottomLeft,
+.rmRoundedCorners.RadMenu_Simple_Context_rtl ul.rmGroup,
+.RadMenu_Simple_Context.rmRoundedCorners .rmScrollWrapContainer
+{
+	background-image: url('Menu/rmRoundedLeft_rtl.png');
+}
+
+.RadMenu_Simple_rtl .rmTopRight,
+.RadMenu_Simple_rtl .rmBottomRight
+{
+	background-image: url('Menu/rmRoundedRight_rtl.png');
+}
+
+.RadMenu_Simple_rtl li.rmTopFix,
+.RadMenu_Simple_rtl li.rmBottomFix,
+.RadMenu_Simple_rtl .rmRoundedCorners .rmGroup .rmItem,
+.rmRoundedCorners.RadMenu_Simple_Context_rtl .rmGroup .rmItem
+{
+	background-position: 101% 0;
+}
+
+.RadMenu_Simple .rmGroup .rmHorizontal
+{
+	background: #fff;
+}
+
+.RadMenu_Simple .rmRoundedCorners .rmScrollWrapContainer li.rmItem,
+.RadMenu_Simple_Context.rmRoundedCorners .rmScrollWrapContainer li.rmItem,
+.rmRoundedCorners_Simple .rmScrollWrapContainer li.rmItem
+{
+	background: none;
+}
+
+.RadMenu_Simple .rmGroup .rmItem a.rmLink
+{
+	padding: 1px;
+	margin: 1px 0;
+}
+
+.RadMenu_Simple .rmGroup .rmItem .rmLeftImage
+{
+	margin: 2px 0 0 6px;
+}
+
+* html .RadMenu_Simple .rmGroup .rmItem .rmLeftImage { margin: 2px 0 0 3px; }
+*+html .RadMenu_Simple .rmGroup .rmItem .rmLeftImage { margin: 2px 0 0 3px; }
+
+.RadMenu_Simple .rmGroup .rmItem a.rmLink:hover,
+.RadMenu_Simple .rmGroup .rmItem a.rmFocused,
+.RadMenu_Simple .rmGroup .rmItem a.rmSelected,
+.RadMenu_Simple .rmGroup .rmItem a.rmExpanded,
+.RadMenu_Simple .rmGroup .rmItem a.rmExpanded:hover
+{
+	padding: 0;
+}
+
+.RadMenu_Simple .rmGroup .rmItem a.rmDisabled,
+.RadMenu_Simple .rmGroup .rmItem a.rmDisabled:hover
+{
+	padding: 1px;
+}
+
+.RadMenu_Simple .rmGroup .rmItem a.rmLink .rmText
+{
+	padding-right: 53px;
+}
+
+.RadMenu_Simple .rmGroup .rmHorizontal a.rmLink .rmText
+{
+	padding-right: 10px;
+}
+
+.RadMenu_Simple .rmVertical .rmExpandRight,
+.RadMenu_Simple .rmVertical .rmExpandLeft,
+.RadMenu_Simple .rmGroup .rmExpandRight,
+.RadMenu_Simple .rmGroup .rmExpandLeft,
+.RadMenu_Simple .rmTopArrow,
+.RadMenu_Simple .rmBottomArrow,
+.RadMenu_Simple .rmLeftArrow,
+.RadMenu_Simple .rmRightArrow
+{
+	background: transparent url('Menu/rmExpandArrows.png') no-repeat;
+}
+
+.RadMenu_Simple .rmVertical .rmExpandRight,
+.RadMenu_Simple .rmGroup .rmExpandRight { background-position: 100% 0; }
+.RadMenu_Simple .rmVertical .rmExpandLeft,
+.RadMenu_Simple .rmGroup .rmExpandLeft { background-position: 0 -48px; }
+.RadMenu_Simple a.rmLink:hover .rmExpandRight,
+.RadMenu_Simple a.rmFocused .rmExpandRight,
+.RadMenu_Simple a.rmSelected .rmExpandRight,
+.RadMenu_Simple a.rmExpanded .rmExpandRight { background-position: 100% -24px; }
+.RadMenu_Simple a.rmLink:hover .rmExpandLeft,
+.RadMenu_Simple a.rmFocused .rmExpandLeft,
+.RadMenu_Simple a.rmSelected .rmExpandLeft,
+.RadMenu_Simple a.rmExpanded .rmExpandLeft { background-position: 0 -72px; }
+
+.RadMenu_Simple .rmTopArrow,
+.RadMenu_Simple .rmBottomArrow,
+.RadMenu_Simple .rmLeftArrow,
+.RadMenu_Simple .rmRightArrow
+{
+	background-color: #fff;
+}
+
+.RadMenu_Simple .rmTopArrow
+{
+	border-bottom: 1px solid #616161;
+	background-position: 50% -95px;
+}
+
+.RadMenu_Simple .rmBottomArrow
+{
+	border-top: 1px solid #616161;
+	background-position: 50% -109px;
+}
+
+.RadMenu_Simple .rmLeftArrow
+{
+	border-right: 1px solid #616161;
+	background-position: 50% -48px;
+}
+
+.RadMenu_Simple .rmRightArrow
+{
+	border-left: 1px solid #616161;
+	background-position: 50% 1px;
+}
+
+.RadMenu_Simple .rmVertical li.rmSeparator,
+.RadMenu_Simple .rmHorizontal .rmVertical li.rmSeparator
+{
+	border-left: 0;
+	border-right: 0;
+}
+
+.RadMenu_Simple .rmVertical li.rmSeparator .rmText,
+.RadMenu_Simple .rmHorizontal .rmVertical li.rmSeparator .rmText
+{
+	background: #616161;
+	padding-bottom: 1px;
+	margin-top: 2px;
+}
+
+.RadMenu_Simple .rmHorizontal li.rmSeparator .rmText,
+.RadMenu_Simple .rmVertical .rmHorizontal li.rmSeparator .rmText
+{
+	background: #616161;
+	width: 1px;
+	margin-left: 1px;
+}
+
+/* <rtl> */
+
+.RadMenu_Simple_rtl .rmGroup,
+.RadMenu_Simple_rtl .rmGroup .rmVertical
+{
+	background-position: 101% 0;
+}
+
+.RadMenu_Simple_rtl .rmGroup .rmItem a.rmLink .rmText
+{
+	padding-left: 53px;
+	padding-right: 27px;
+}
+
+.RadMenu_Simple_rtl .rmGroup .rmHorizontal a.rmLink .rmText
+{
+	padding-left: 10px;
+	padding-right: 9px;
+}
+
+/* </rtl> */
+
+.RadMenu_Simple .rmScrollWrap .rmVertical
+{
+	border: 0;
+}
+
+/* </RadMenu / Simple> */

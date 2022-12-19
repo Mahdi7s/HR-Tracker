@@ -1,0 +1,40 @@
+/*RadNotification Sitefinity Skin*/
+
+.RadNotification_Sitefinity
+{
+	border: 1px solid #d2d4d8;
+	background-color: #fff;
+}
+
+.RadNotification_Sitefinity.rnShadows
+{
+	box-shadow: 2px 2px 3px #e8eaed;
+	-webkit-box-shadow: 2px 2px 3px #e8eaed;
+}
+
+.RadNotification_Sitefinity .rnTitleBar,
+.RadNotification_Sitefinity .rnCommands a
+{
+	background-image: url('Notification/NotificationSprite.png');
+}
+
+.RadNotification_Sitefinity .rnTitleBar
+{
+	border: 1px solid #fff;
+}
+
+.RadNotification_Sitefinity .rnTitleBarTitle
+{
+	color: #000;
+}
+
+.RadNotification_Sitefinity .rnContentWrapper
+{
+	border-top: 1px solid #d2d4d8;
+}
+
+
+
+
+
+

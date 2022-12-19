@@ -1,0 +1,69 @@
+
+.RecurrenceEditor_Telerik
+{
+	color: #333;
+	font: normal 12px/14px "Segoe UI", Arial, sans-serif;
+}
+
+/* <xref input skins> */
+
+.RecurrenceEditor_Telerik .rsAdvInput,
+.RecurrenceEditor_Telerik select
+{
+	border-color: #828282;
+}
+
+.RecurrenceEditor_Telerik .rsInvalid input,
+.RecurrenceEditor_Telerik .rsAdvTimePicker .riEmpty
+{
+	background-image: url('Input/sprite.gif');
+}
+
+.RecurrenceEditor_Telerik .rsInvalid
+{
+	border-color: #F32800;
+	color: #F32800;
+}
+/* </xref input skins> */
+
+.RecurrenceEditor_Telerik h2,
+.RecurrenceEditor_Telerik h3
+{
+	color: #3f6d11;
+}
+
+.RecurrenceEditor_Telerik h2
+{
+	border-bottom: 1px solid #a0a0a0;
+}
+
+.RecurrenceEditor_Telerik h2 span
+{
+	background: #fff;
+}
+
+.RecurrenceEditor_Telerik .rsAdvRecurrenceFreq
+{
+	border-right: 1px solid #fff;
+}
+
+.RecurrenceEditor_Telerik ul.rsRecurrenceOptionList
+{
+	border-right: 1px solid #a0a0a0;
+}
+
+.RecurrenceEditor_Telerik div.rsAdvPatternPanel
+{
+	border-left: 0;
+}
+
+/* <date/time picker> */
+
+.RecurrenceEditor_Telerik .rsTimePick .RadInput_Telerik input.riEnabled,
+.RecurrenceEditor_Telerik .rsTimePick .RadInput_Telerik input.riHover,
+.RecurrenceEditor_Telerik .rsTimePick .RadInput_Telerik input.riFocused
+{
+	background-image: url('Scheduler/rsSprites.png');
+}
+
+/* </date/time picker> */

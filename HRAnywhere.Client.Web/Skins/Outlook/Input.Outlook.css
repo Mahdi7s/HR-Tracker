@@ -1,0 +1,142 @@
+/*Telerik RadInput Outlook Skin*/
+
+/*global*/
+
+.RadInput_Outlook,
+.RadInputMgr_Outlook
+{
+	font:12px "segoe ui",arial,sans-serif;
+}
+
+/*textbox states*/
+
+html body .RadInput_Outlook .riTextBox,
+html body .RadInputMgr_Outlook
+{
+	border-color:#c3d9f9;
+	background:#fff;
+	color:#000;
+	font:12px "segoe ui",arial,sans-serif;
+}
+
+html body .RadInput_Outlook .riEmpty,
+html body .RadInput_Empty_Outlook
+{
+	color:#8d8d8d;
+}
+
+html body .RadInput_Outlook .riHover,
+html body .RadInput_Hover_Outlook,
+html body .RadInput_Outlook .riFocused,
+html body .RadInput_Focused_Outlook
+{
+	border-color:#305090;
+}
+
+html body .RadInput_Outlook .riRead,
+html body .RadInput_Read_Outlook
+{
+	border-color:#ccdbed;
+}
+
+html body .RadInput_Outlook .riDisabled,
+html body .RadInput_Disabled_Outlook
+{
+	border-color:#ccdbed;
+	color:#8d8d8d;
+	cursor:default;
+}
+
+html body .RadInput_Outlook .riError,
+html body .RadInput_Error_Outlook
+{
+	border-color:#b32d34 #dc643f #ea8541;
+	background:#fff 100% -298px no-repeat url('Input/sprite.gif');
+	color:#b32d34;
+}
+
+.RadForm.rfdTextbox .RadInput_Outlook .riError[type="text"],
+.RadForm.rfdTextbox .RadInput_Error_Outlook[type="text"]
+{
+	border-color:#b32d34 #dc643f #ea8541;
+	background:#fff 100% -298px no-repeat url('Input/sprite.gif');
+	color:#b32d34;
+}
+
+html body .RadInput_Outlook .riNegative,
+html body .RadInput_Negative_Outlook
+{
+	color:#565656;
+}
+
+/*buttons*/
+
+.RadInput_Outlook a
+{
+	background:transparent no-repeat url('Input/sprite.gif');
+}
+
+/*go*/
+
+.RadInput_Outlook .riBtn a
+{
+	width:20px;
+	height:18px;
+	line-height:18px;
+	background-position:3px 5px;
+}
+
+.RadInput_Outlook .riBtn a:hover
+{
+	background-position:3px -45px;
+}
+
+/*spin*/
+
+.RadInput_Outlook .riSpin a
+{
+	width:15px;
+	height:7px;
+	line-height:7px;
+}
+
+.RadInput_Outlook a.riUp
+{
+	background-position:4px -98px;
+}
+
+.RadInput_Outlook a.riUp:hover
+{
+	background-position:4px -148px;
+}
+
+.RadInput_Outlook a.riDown
+{
+	background-position:4px -199px;
+}
+
+.RadInput_Outlook a.riDown:hover
+{
+	background-position:4px -249px;
+}
+
+/*label*/
+
+.RadInput_Outlook .riLabel
+{
+	color:#000;
+}
+
+/*rtl*/
+
+html body .RadInputRTL_Outlook .riError,
+html body .RadInputRTL_Error_Outlook
+{
+	background-position:3px -298px;
+}
+
+.RadForm.rfdTextbox .RadInputRTL_Outlook .riError[type="text"],
+.RadForm.rfdTextbox .RadInputRTL_Error_Outlook[type="text"]
+{
+	background-position:3px -298px;
+}

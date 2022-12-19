@@ -1,0 +1,13 @@
+/* RadRating for ASP.NET AJAX Sitefinity Skin */
+
+.RadRating_Sitefinity a,
+.RadRating_Sitefinity a span
+{
+	background-image: url('Rating/Sprite.png');
+}
+
+* html .RadRating_Sitefinity a,
+* html .RadRating_Sitefinity a span
+{
+	background-image: url('Rating/Sprite.gif');
+}

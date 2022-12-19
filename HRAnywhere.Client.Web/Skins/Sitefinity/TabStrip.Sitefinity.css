@@ -1,0 +1,228 @@
+.RadTabStrip_Sitefinity .rtsLI,
+.RadTabStrip_Sitefinity .rtsLink
+{
+	color: #105cb6;
+	font: normal 12px/26px Arial, Helvetica, sans-serif;
+}
+
+.RadTabStripLeft_Sitefinity .rtsSeparator,
+.RadTabStripRight_Sitefinity .rtsSeparator
+{
+	background: #817F61;
+}
+
+/* <disabled tabs> */
+.RadTabStrip_Sitefinity .rtsDisabled
+{
+	color: #666;
+}
+/* </disabled tabs> */
+
+.RadTabStrip_Sitefinity .rtsSelected
+{
+	color: #FFF;
+}
+
+.RadTabStrip_Sitefinity .rtsLink:hover .rtsTxt
+{
+	text-decoration: underline;
+}
+
+.RadTabStrip_Sitefinity .rtsDisabled:hover .rtsTxt,
+.RadTabStrip_Sitefinity .rtsSelected:hover .rtsTxt
+{
+	text-decoration: none;
+}
+
+.RadTabStrip_Sitefinity .rtsLevel .rtsIn,
+.RadTabStripLeft_Sitefinity .rtsLevel .rtsIn,
+.RadTabStripRight_Sitefinity .rtsLevel .rtsIn
+{
+	line-height: 20px;
+}
+
+.RadTabStripTop_Sitefinity .rtsLevel .rtsIn
+{
+	padding: 0 5px 5px;
+}
+
+.RadTabStripBottom_Sitefinity .rtsLevel .rtsIn
+{
+	padding: 3px 5px 0;
+}
+
+div.RadTabStripLeft_Sitefinity .rtsLink,
+div.RadTabStripRight_Sitefinity .rtsLink
+{
+	padding: 4px 0 0;
+}
+
+div.RadTabStripLeft_Sitefinity .rtsOut,
+div.RadTabStripRight_Sitefinity .rtsOut
+{
+	padding: 0 0 4px;
+}
+
+div.RadTabStrip_Sitefinity .rtsPrevArrow, 
+div.RadTabStrip_Sitefinity .rtsNextArrow, 
+div.RadTabStrip_Sitefinity .rtsPrevArrowDisabled, 
+div.RadTabStrip_Sitefinity .rtsNextArrowDisabled
+{
+	margin-top: 2px;
+}
+
+/* <scrolling arrows> */
+.RadTabStrip_Sitefinity .rtsNextArrow,
+.RadTabStrip_Sitefinity .rtsPrevArrow,
+.RadTabStrip_Sitefinity .rtsPrevArrowDisabled,
+.RadTabStrip_Sitefinity .rtsNextArrowDisabled
+{
+	background-image: url('TabStrip/TabStripStates.png');
+}
+* html .RadTabStrip_Sitefinity .rtsNextArrow,
+* html .RadTabStrip_Sitefinity .rtsPrevArrow,
+* html .RadTabStrip_Sitefinity .rtsPrevArrowDisabled,
+* html .RadTabStrip_Sitefinity .rtsNextArrowDisabled
+{
+	background-image: url('TabStrip/TabStripStatesIE6.png');
+}
+/* </scrolling arrows> */
+
+/* <tab backgrounds> */
+
+.RadTabStripTop_Sitefinity .rtsLevel { background-color: transparent; }
+
+.RadTabStripTop_Sitefinity .rtsLink,
+.RadTabStripTop_Sitefinity .rtsOut,
+.RadTabStripTop_Sitefinity .rtsIn,
+.RadTabStripBottom_Sitefinity .rtsLink,
+.RadTabStripBottom_Sitefinity .rtsOut,
+.RadTabStripBottom_Sitefinity .rtsIn { background-image: url('TabStrip/TabStripStates.png'); background-position: -9px 0; }
+
+* html .RadTabStripTop_Sitefinity .rtsLink,
+* html .RadTabStripTop_Sitefinity .rtsOut,
+* html .RadTabStripTop_Sitefinity .rtsIn,
+* html .RadTabStripBottom_Sitefinity .rtsLink,
+* html .RadTabStripBottom_Sitefinity .rtsOut,
+* html .RadTabStripBottom_Sitefinity .rtsIn { background-image: url('TabStrip/TabStripStatesIE6.png'); }
+
+.RadTabStripLeft_Sitefinity .rtsSelected,
+.RadTabStripLeft_Sitefinity .rtsSelected .rtsOut,
+.RadTabStripLeft_Sitefinity .rtsSelected .rtsIn,
+.RadTabStripRight_Sitefinity .rtsSelected,
+.RadTabStripRight_Sitefinity .rtsSelected .rtsOut,
+.RadTabStripRight_Sitefinity .rtsSelected .rtsIn { background-image: url('TabStrip/TabStripVStates.png'); }
+
+* html .RadTabStripLeft_Sitefinity .rtsSelected,
+* html .RadTabStripLeft_Sitefinity .rtsSelected .rtsOut,
+* html .RadTabStripLeft_Sitefinity .rtsSelected .rtsIn,
+* html .RadTabStripRight_Sitefinity .rtsSelected,
+* html .RadTabStripRight_Sitefinity .rtsSelected .rtsOut,
+* html .RadTabStripRight_Sitefinity .rtsSelected .rtsIn { background-image: url('TabStrip/TabStripVStatesIE6.png'); }
+
+.RadTabStripLeft_Sitefinity .rtsLast .rtsLink,
+.RadTabStripRight_Sitefinity .rtsLast .rtsLink
+{
+	border-bottom: 1px solid #898C95;
+}
+
+/* </tab backgrounds> */
+
+
+/* <background positioning: tabs with hovers> */
+
+/* <orientation: top> */
+
+.RadTabStripTop_Sitefinity .rtsSelected,
+.RadTabStripTop_Sitefinity .rtsSelected:hover { background-position: 0 0; }
+.RadTabStripTop_Sitefinity .rtsSelected .rtsOut,
+.RadTabStripTop_Sitefinity .rtsSelected:hover .rtsOut { background-position: 100% 0; }
+.RadTabStripTop_Sitefinity .rtsSelected .rtsIn,
+.RadTabStripTop_Sitefinity .rtsSelected:hover .rtsIn { background-position: 50% 0; }
+
+/* </orientation: top> */
+
+/* <orientation: bottom> */
+
+.RadTabStripBottom_Sitefinity .rtsSelected,
+.RadTabStripBottom_Sitefinity .rtsSelected:hover { background-position: 0 -30px; }
+.RadTabStripBottom_Sitefinity .rtsSelected .rtsOut,
+.RadTabStripBottom_Sitefinity .rtsSelected:hover .rtsOut { background-position: 100% -30px; }
+.RadTabStripBottom_Sitefinity .rtsSelected .rtsIn,
+.RadTabStripBottom_Sitefinity .rtsSelected:hover .rtsIn { background-position: 50% -30px; }
+
+/* </orientation: bottom> */
+
+/* <orientation: left> */
+
+div.RadTabStripLeft_Sitefinity .rtsSelected,
+div.RadTabStripLeft_Sitefinity .rtsSelected:hover { background-position: 100% 0; }
+div.RadTabStripLeft_Sitefinity .rtsSelected .rtsOut,
+div.RadTabStripLeft_Sitefinity .rtsSelected:hover .rtsOut { background-position: 100% 100%; }
+div.RadTabStripLeft_Sitefinity .rtsSelected .rtsIn,
+div.RadTabStripLeft_Sitefinity .rtsSelected:hover .rtsIn { background-position: 100% 50%; }
+
+/* </orientation: left> */
+
+/* <orientation: right> */
+
+div.RadTabStripRight_Sitefinity .rtsSelected,
+div.RadTabStripRight_Sitefinity .rtsSelected:hover { background-position: 0 0; }
+div.RadTabStripRight_Sitefinity .rtsSelected .rtsOut,
+div.RadTabStripRight_Sitefinity .rtsSelected:hover .rtsOut { background-position: 0 100%; }
+div.RadTabStripRight_Sitefinity .rtsSelected .rtsIn,
+div.RadTabStripRight_Sitefinity .rtsSelected:hover .rtsIn { background-position: 0 50%; }
+
+/* </orientation: right> */
+
+/* </background positioning: tabs with hovers> */
+
+/* <simplistic sub-item styles> */
+
+.RadTabStrip_Sitefinity_SimpleSubItems .rtsLevel2,
+.RadTabStrip_Sitefinity_SimpleSubItems .rtsLevel3,
+.RadTabStrip_Sitefinity_SimpleSubItems .rtsLevel4 { background: #fff; }
+
+.RadTabStrip_Sitefinity_SimpleSubItems .rtsLevel2 .rtsSelected,
+.RadTabStrip_Sitefinity_SimpleSubItems .rtsLevel3 .rtsSelected,
+.RadTabStrip_Sitefinity_SimpleSubItems .rtsLevel4 .rtsSelected
+{
+	color: #000;
+}
+
+.RadTabStrip_Sitefinity_SimpleSubItems .rtsLevel2 .rtsLink,
+.RadTabStrip_Sitefinity_SimpleSubItems .rtsLevel2 .rtsOut,
+.RadTabStrip_Sitefinity_SimpleSubItems .rtsLevel2 .rtsIn,
+.RadTabStrip_Sitefinity_SimpleSubItems .rtsLevel3 .rtsLink,
+.RadTabStrip_Sitefinity_SimpleSubItems .rtsLevel3 .rtsOut,
+.RadTabStrip_Sitefinity_SimpleSubItems .rtsLevel3 .rtsIn,
+.RadTabStrip_Sitefinity_SimpleSubItems .rtsLevel4 .rtsLink,
+.RadTabStrip_Sitefinity_SimpleSubItems .rtsLevel4 .rtsOut,
+.RadTabStrip_Sitefinity_SimpleSubItems .rtsLevel4 .rtsIn
+{
+	background: none;
+}
+
+/* </simplistic sub-item styles> */
+
+/* <Scroll Arrows> */
+
+div.RadTabStrip .rtsPrevArrow { background-position: 0 -70px; }
+div.RadTabStrip .rtsNextArrow { background-position: -18px -70px; }
+div.RadTabStrip .rtsPrevArrow:hover { background-position: -36px -70px; }
+div.RadTabStrip .rtsNextArrow:hover { background-position: -54px -70px; }
+div.RadTabStrip .rtsPrevArrowDisabled,
+div.RadTabStrip .rtsPrevArrowDisabled:hover { background-position: -72px -70px; }
+div.RadTabStrip .rtsNextArrowDisabled,
+div.RadTabStrip .rtsNextArrowDisabled:hover { background-position: -90px -70px; }
+
+div.RadTabStripVertical .rtsPrevArrow { background-position: 0 -90px; }
+div.RadTabStripVertical .rtsNextArrow { background-position: -18px -90px; }
+div.RadTabStripVertical .rtsPrevArrow:hover { background-position: -36px -90px; }
+div.RadTabStripVertical .rtsNextArrow:hover { background-position: -54px -90px; }
+div.RadTabStripVertical .rtsPrevArrowDisabled,
+div.RadTabStripVertical .rtsPrevArrowDisabled:hover { background-position: -72px -90px; }
+div.RadTabStripVertical .rtsNextArrowDisabled,
+div.RadTabStripVertical .rtsNextArrowDisabled:hover { background-position: -90px -90px; }
+
+/* </Scroll Arrows> */

@@ -1,0 +1,13 @@
+/* RadRating for ASP.NET AJAX Telerik Skin */
+
+.RadRating_Vista a,
+.RadRating_Vista a span
+{
+	background-image: url('Rating/Sprite.png');
+}
+
+* html .RadRating_Vista a,
+* html .RadRating_Vista a span
+{
+	background-image: url('Rating/Sprite.gif');
+}

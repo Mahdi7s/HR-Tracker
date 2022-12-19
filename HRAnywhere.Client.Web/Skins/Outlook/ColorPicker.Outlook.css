@@ -1,0 +1,104 @@
+/* RadColorPicker Outlook skin */
+.RadColorPicker_Outlook .rcpViews,
+.RadColorPicker_Outlook .rcpHeader,
+.RadColorPicker_Outlook .rcpPageView
+{
+	background-color:#f8fbfd;
+}
+
+.RadColorPicker_Outlook .rcpPageView
+{
+	background-position: 0 -2006px;
+	background-repeat: repeat-x;
+}
+
+.RadColorPicker_Outlook .rcpColorPreview,
+.RadColorPicker_Outlook .rcpInput,
+.RadColorPicker_Outlook .rcpHexInput,
+.RadColorPicker_Outlook .rcpMillionColorsPalette,
+.RadColorPicker_Outlook .rcpMillionColorsSlider div.rslTrack
+{
+	border:1px solid #c3d9f9;
+}
+
+.RadColorPicker_Outlook .rcpPalette,
+.RadColorPicker_Outlook input,
+.RadColorPicker_Outlook a,
+.RadColorPicker_Outlook .rcpApplyButton:hover span
+{
+    color:#000;
+}
+
+.RadColorPicker_Outlook .rcpTabs ul li a
+{
+	color:#00156e;
+	background-position:left -289px;
+	padding:0 0 0 6px;
+}
+
+.RadColorPicker_Outlook .rcpTabs ul li a span
+{
+	padding:0 6px 0 0;
+	background-position:right top;
+}
+
+.RadColorPicker_Outlook .rcpTabs ul li.rcpSelectedTab a
+{
+	background-position:-1014px -289px;
+	padding-left:6px;
+}
+
+.RadColorPicker_Outlook .rcpTabs ul li.rcpSelectedTab a span
+{
+	background-position:right -26px;
+	padding-right:6px;
+}
+
+.RadColorPicker_Outlook .rcpApplyButton span,
+.RadColorPicker_Outlook .rcpButton span
+{
+	 color:#00156e;
+}
+
+.RadColorPicker_Outlook .rcpHeader,
+.RadColorPicker_Outlook .rcpHeader .rcpImageButton,
+.RadColorPicker_Outlook .rcpRecentColors,
+.RadColorPicker_Outlook .rcpIcon a,
+.RadColorPicker_Outlook .rcpTabs a,
+.RadColorPicker_Outlook .rcpTabs a span,
+.RadColorPicker_Outlook .rcpButton,
+.RadColorPicker_Outlook .rcpButton span,
+.RadColorPicker_Outlook .rcpMillionColorsHandle,
+.RadColorPicker_Outlook .rcpSlider div.rslTrack,
+/* overwrite sliders */
+.RadColorPicker_Outlook .rcpSlider .rslTrack a.rslDraghandle,
+.RadColorPicker_Outlook div.rcpMillionColorsSlider div.rslVertical a.rslDraghandle
+{
+	background-image:url('ColorPicker/ColorPickerSprites.png');
+	background-repeat:no-repeat;
+}
+
+/* Rounded corners and shadows */
+.RadColorPicker_Outlook .rcpPalette,
+.RadColorPicker_Outlook .rcpRoundedRight,
+.RadColorPicker_Outlook .rcpRoundedBottomRight,
+.RadColorPicker_Outlook .rcpRightShadow,
+.RadColorPicker_Outlook .rcpCornerShadow,
+.RadColorPicker_Outlook .rcpPageView
+{
+	background-image:url('ColorPicker/rcpVerticalSprites.png');
+}
+
+.RadColorPicker_Outlook .rcpRoundedBottomLeft,
+.RadColorPicker_Outlook .rcpBottomShadow
+{
+	background-image:url('ColorPicker/ColorPickerSprites.png');
+}
+
+* html .RadColorPicker_Outlook .rcpPalette,
+* html .RadColorPicker_Outlook .rcpRoundedRight,
+* html .RadColorPicker_Outlook .rcpRoundedBottomRight,
+* html .RadColorPicker_Outlook .rcpRoundedBottomLeft
+{
+	background-image:url('ColorPicker/rcpVerticalSpritesIE6.png');
+}

@@ -1,0 +1,50 @@
+
+
+/*========================================= Toolbar related CSS ========================*/
+
+.RadFileExplorer_Transparent .RadToolBar .rtbText
+{
+	background-image: url('FileExplorer/FileExplorerToolbarSprites.png');
+	background-repeat: no-repeat;
+}
+
+.RadFileExplorer_Transparent .rgDataDiv
+{
+	background-color: transparent;
+}
+
+.RadFileExplorer_Transparent .RadGrid_Transparent
+{
+	background-image: none;
+}
+
+div.RadToolBar_Transparent .rtbOuter,
+div.RadToolBar_Transparent .rtbMiddle
+{
+	border: 0;
+}
+
+.RadFileExplorer_Transparent, 
+.RadFileExplorer_Transparent .rfeAddressBox,
+.RadFileExplorer_Transparent .rfeFilterTxt
+{
+	border-color: #000;
+}
+
+.DialogSeparator
+{
+    border-left: solid 1px #454545;
+    border-right: solid 1px #454545;
+    background: url('../Common/TransContent.png');
+}
+
+div.selectedFileName
+{
+    border-top: solid 1px #8E8E8E;
+}
+
+div.RadFileExplorer_Transparent .RadTreeView .rtHover .rtIn,
+div.RadFileExplorer_Transparent .RadTreeView .rtSelected .rtIn
+{
+	padding: 1px 4px 0 3px !important;
+}

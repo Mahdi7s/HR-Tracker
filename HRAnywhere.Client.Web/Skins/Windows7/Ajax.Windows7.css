@@ -1,0 +1,18 @@
+/* Telerik RadAjaxLoadingPanel Windows7 Skin */
+
+.RadAjax_Windows7 .raDiv
+{
+	background-image:url('Common/loading.gif');
+}
+
+.RadAjax_Windows7 .raColor
+{
+	background-color:#dde9f7;
+}
+
+.RadAjax_Windows7 .raTransp
+{
+	opacity:0.6;
+	-moz-opacity:0.6;
+	filter:alpha(opacity=60);
+}

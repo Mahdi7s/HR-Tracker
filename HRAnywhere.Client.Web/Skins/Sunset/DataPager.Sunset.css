@@ -1,0 +1,95 @@
+/*Telerik RadDataPager Sunset Skin*/
+
+.RadDataPager_Sunset
+{
+	border:1px solid #bbb99d;
+	background:#dee0c8;
+	color:#272522;
+}
+
+.RadDataPager_Sunset .rdpPageFirst,
+.RadDataPager_Sunset .rdpPagePrev,
+.RadDataPager_Sunset .rdpPageNext,
+.RadDataPager_Sunset .rdpPageLast
+{
+	background:transparent no-repeat url('Grid/sprite.gif');
+}
+
+.RadDataPager_Sunset .rdpPageFirst
+{
+	background-position:0 -550px;
+}
+.RadDataPager_Sunset .rdpPageFirst:hover
+{
+	background-position:0 -600px;
+}
+.RadDataPager_Sunset .rdpPagePrev
+{
+	background-position:0 -700px;
+}
+.RadDataPager_Sunset .rdpPagePrev:hover
+{
+	background-position:0 -750px;
+}
+.RadDataPager_Sunset .rdpPageNext
+{
+	background-position:0 -850px;
+}
+.RadDataPager_Sunset .rdpPageNext:hover
+{
+	background-position:0 -900px;
+}
+.RadDataPager_Sunset .rdpPageLast
+{
+	background-position:0 -1000px;
+}
+.RadDataPager_Sunset .rdpPageLast:hover
+{
+	background-position:0 -1050px;
+}
+
+.RadDataPager_Sunset .rdpPagerButton
+{
+	border:1px solid;
+	border-color:#b97322 #9d5d13 #824703;
+	background:#f4be77 repeat-x 0 -1550px url('Grid/sprite.gif');
+	color:#3d1400;
+	font:12px/12px "segoe ui",arial,sans-serif;
+}
+
+.RadDataPager_Sunset .rdpNumPart a:hover,
+.RadDataPager_Sunset .rdpNumPart a:hover span,
+.RadDataPager_Sunset .rdpNumPart a.rdpCurrentPage,
+.RadDataPager_Sunset .rdpNumPart a.rdpCurrentPage span
+{
+	background:no-repeat url('Grid/sprite.gif');
+}
+
+.RadDataPager_Sunset .rdpNumPart a
+{
+	color:#272522;
+}
+
+.RadDataPager_Sunset .rdpNumPart a:hover
+{
+	background-position:100% -1250px;
+	color:#863d02;
+}
+
+.RadDataPager_Sunset .rdpNumPart a:hover span
+{
+	background-position:0 -1150px;
+}
+
+.RadDataPager_Sunset .rdpNumPart a.rdpCurrentPage,
+.RadDataPager_Sunset .rdpNumPart a.rdpCurrentPage:hover
+{
+	background-position:100% -1450px;
+	color:#5d1f00;
+}
+
+.RadDataPager_Sunset .rdpNumPart a.rdpCurrentPage span,
+.RadDataPager_Sunset .rdpNumPart a.rdpCurrentPage:hover span
+{
+	background-position:0 -1350px;
+}

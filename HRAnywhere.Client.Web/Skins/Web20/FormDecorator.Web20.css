@@ -1,0 +1,378 @@
+/* RadFormDecorator for ASP.NET Web20 Skin */
+
+/* CSS class for styling the decoration zone or the <html /> tag of the page */
+.RadForm_Web20.rfdZone
+{    
+}
+
+/* Decorate scrollbars */
+.RadForm_Web20.rfdScrollBars
+{
+	scrollbar-3dlight-color: #959695; 
+	scrollbar-arrow-color: #3e3e3e;
+	scrollbar-base-color: #f5f5f5; 
+	scrollbar-darkshadow-color: #e7f1fa; 
+	scrollbar-face-color: #e7f1fa;
+	scrollbar-highlight-color: #e7f1fa; 
+	scrollbar-shadow-color: #6787bb;
+	scrollbar-track-color: #fff;
+}
+
+/* Decorate <input type="button | submit | reset" /> and <button type="button | submit | reset" /> - look if there is a secondary .rfdButton class applied to the root element */
+.RadForm_Web20.rfdButton a.rfdSkinnedButton,
+.RadForm_Web20.rfdButton input[type="button"].rfdDecorated,
+.RadForm_Web20.rfdButton input[type="reset"].rfdDecorated,
+.RadForm_Web20.rfdButton input[type="submit"].rfdDecorated,
+.RadForm_Web20.rfdButton .rfdSkinnedButton button
+{
+	background-image: url('FormDecorator/ButtonSprites.gif');
+	color: #fff;
+}
+
+*html .RadForm_Web20 a.rfdSkinnedButton,
+*html .RadForm_Web20 .rfdSkinnedButton button,
+*html .RadForm_Web20 .rfdSkinnedButton input.rfdDecorated,
+.RadForm_Web20.rfdButton a.rfdSkinnedButton,
+.RadForm_Web20.rfdButton a.rfdSkinnedButton *
+{
+	background-image: url('FormDecorator/ButtonSprites.gif');
+	color: #fff;
+}
+
+.RadForm_Web20.rfdButton .rfdSkinnedButton:hover *
+{
+    color: #0f1d48;
+}
+
+/* OPERA width fix - do not remove (and check if it is still necessary) */
+@media screen and (min-width:1px)  
+{
+	/* 
+       the hack below fixes a strange behavior under Opera - 
+       input and button have a different CSS display when in anchor tag 
+    */
+	.RadForm_Web20.rfdButton a.rfdSkinnedButton input
+	{
+	    display: block;
+	    float: left;
+	}
+}
+
+/* Decorate <h4|5|6 /> */
+.RadForm_Web20.rfdHeading h4
+{
+	color: #45709b;	
+	border-bottom: solid 1px #6788be;
+}
+
+.RadForm_Web20.rfdHeading h5
+{
+	color: #000;	
+	border-bottom: solid 1px #6788be;	
+}
+
+.RadForm_Web20.rfdHeading h6
+{
+	color: #000;	
+}
+
+/* Decorate <label /> */
+.RadForm_Web20.rfdLabel label
+{	
+	 color: #000;
+}
+
+/* Decorate <input type="checkbox" /> */
+.RadForm_Web20 .rfdCheckboxUnchecked,
+.RadForm_Web20 .rfdCheckboxChecked,
+.RadForm_Web20 .rfdInputDisabled.rfdCheckboxUnchecked,
+.RadForm_Web20 .rfdInputDisabled.rfdCheckboxChecked
+{
+	background-image: url('FormDecorator/CheckBoxSprites.gif');
+}
+
+/* Decorate <input type="radio" /> */
+.RadForm_Web20 .rfdRadioUnchecked,
+.RadForm_Web20 .rfdRadioChecked,
+.RadForm_Web20 .rfdInputDisabled.rfdRadioUnchecked,
+.RadForm_Web20 .rfdInputDisabled.rfdRadioChecked
+{
+	background-image: url('FormDecorator/RadioButtonSprites.png');
+}
+
+/* IE6 - we set .gif")%> image instead of .png")%> due to the lack RGBA support */
+.RadForm_Web20 .rfdRadioUnchecked,
+.RadForm_Web20 .rfdInputDisabled.rfdRadioUnchecked:hover,
+.RadForm_Web20 .rfdRadioUnchecked:hover,
+.RadForm_Web20 .rfdRadioChecked,
+.RadForm_Web20 .rfdInputDisabled.rfdRadioChecked:hover,
+.RadForm_Web20 .rfdRadioChecked:hover
+{
+    _background-image: url('FormDecorator/RadioButtonSprites.gif'); /* IE6 hack */
+}
+
+/* <fieldset /> and <legend /> */
+
+.RadForm_Web20.rfdFieldset table.rfdRoundedWrapper_fieldset legend,
+.RadForm_Web20 fieldset.rfdFieldset legend,
+.RadForm_Web20.rfdFieldset fieldset legend
+{
+	color: #6788be;
+}
+
+.RadForm_Web20 table.rfdRoundedWrapper:hover div.rfdRoundedInner
+{
+    background-color: #fff;
+    border-color: #6788be !important;
+}
+
+/* this selector styles the hover of the side bars of the rounded elements */
+.RadForm_Web20 table.rfdRoundedWrapper:hover .rfdRoundedOuter
+{	
+	background-color: #6788be !important;
+}
+
+/* Decorate <input type="text | password" /> and <textarea /> */
+/* For all browsers except IE6 we are using attribute selectors - single or double */
+.RadForm_Web20.rfdTextbox input[type="text"],
+.RadForm_Web20.rfdTextbox input[type="password"],
+.RadForm_Web20.rfdTextarea textarea,
+.RadForm_Web20.rfdTextarea textarea[disabled]:hover,
+.RadForm_Web20.rfdTextbox input[disabled][type="text"]:hover,
+.RadForm_Web20.rfdTextbox input[disabled][type="password"]:hover
+{
+    border: solid 1px #6788be;
+    background-color: #fff;
+}
+
+.RadForm_Web20.rfdTextbox .rfdDecorated:hover,
+.RadForm_Web20.rfdTextarea textarea:hover,
+.RadForm_Web20.rfdTextbox .rfdDecorated:focus,
+.RadForm_Web20.rfdTextarea textarea:focus
+{
+    border: solid 1px #3f5f94;
+}
+
+/* Decorate <fieldset /> */
+.RadForm_Web20.rfdFieldset fieldset
+{	
+	border: solid 1px #6788be;
+	background-image: url('FormDecorator/FieldsetBgr.png'); /* having a background image on a fieldset is not okay with IE */	
+}
+
+/* Decorate <fieldset /> and <legend /> */
+.RadForm_Web20.rfdFieldset table.rfdRoundedWrapper_fieldset legend,
+.RadForm_Web20.rfdFieldset fieldset.rfdFieldset legend
+{
+	color: #6788be;
+}
+
+.RadForm_Web20.rfdFieldset table.rfdRoundedWrapper_fieldset fieldset,
+.RadForm_Web20.rfdFieldset fieldset.rfdFieldset
+{	
+	border: solid 1px #6788be;
+	background-image: url('FormDecorator/FieldsetBgr.png'); /* having a background image on a fieldset is not okay with IE */	
+}
+
+/* Because of a glitch in IE the following 2 CSS classes must be declared separately for correct parsing of the textarea class in IE6*/
+.RadForm_Web20 table.rfdRoundedWrapper input,
+.RadForm_Web20 table.rfdRoundedWrapper textarea,
+.RadForm_Web20 input.rfdInput, 
+.RadForm_Web20 textarea.rfdTextarea
+{
+	border: solid 1px #6788be;
+	background: #fff;	
+	color: #000;
+}
+
+.RadForm_Web20 textarea.rfdTextarea,
+.RadForm_Web20 table.rfdRoundedWrapper textarea
+{
+    overflow: auto;
+}
+
+/* <select /> */
+.rfdSelect_Web20,
+.rfdSelect_Web20:hover,
+.rfdSelect_Web20 .rfdSelectOuter,
+.rfdSelect_Web20:hover .rfdSelectOuter,
+.rfdSelect_Web20 .rfdSelectArrow span,
+.rfdSelectBox_Web20 .rfdSelect_selected,
+.rfdSelectBox_Web20 li:hover,
+.rfdSelect_Web20.rfdSelectDisabled:hover,
+.rfdRtl .rfdSelect_Web20,
+.rfdRtl .rfdSelect_Web20:hover,
+.rfdRtl .rfdSelect_Web20 .rfdSelectOuter,
+.rfdRtl .rfdSelect_Web20 .rfdSelectOuter:hover
+{
+    background-image: url('FormDecorator/ComboSprites.gif');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.rfdSelect_Web20 .rfdSelectOuter,
+.rfdSelect_Web20.rfdSelectDisabled:hover .rfdSelectOuter
+{
+    color: #000;
+}
+
+/* dropdown settings */
+.rfdSelectBox_Web20
+{
+    background: #fff;
+    border: solid 1px #6788be;
+    color: #000;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+	-moz-border-radius: 0;
+}
+
+.rfdSelectBox_Web20 li
+{
+    padding: 0 0 0 3px;
+    background-image: none !important;
+}
+
+.rfdSelectBox_Web20 .rfdSelect_selected,
+.rfdSelectBox_Web20 li:hover
+{
+    color: #000;
+    background-color: #e7f1ff;
+}
+
+.rfdSelectBox_Web20 .rfdSelectBox_optgroup_label:hover
+{
+    background: none;
+    color: #000;
+}
+
+/* IE6 disabled state fix - this should not be added to the base stylesheet, but at the bottom of the skin file */
+* html .RadForm_Web20.rfdButton a.rfdInputDisabled:hover
+{
+	_background-position: 0 0;
+}
+
+* html .RadForm_Web20.rfdButton a.rfdInputDisabled:hover *
+{
+	_background-position: right -21px;
+	_color: #000;
+}
+
+.RadForm_Web20.rfdTextbox input.rfdIE6TextBox,
+.RadForm_Web20.rfdTextbox textarea.rfdIE6TextBox
+{
+    _border: solid 1px #6788be;
+    _background-color: #fff;
+}
+
+/* the styling of radiobuttons and checkboxes in Safari and Chrome is already fully achieved with CSS */
+@media screen and (-webkit-min-device-pixel-ratio: 0)
+{
+    /* checkboxes */
+    .rfdCheckbox input[type="checkbox"],
+    .rfdCheckbox input[type="checkbox"][disabled]:hover
+    {
+        background-image: url('FormDecorator/CheckBoxSprites.gif');
+    }
+    
+    /* radio buttons */
+    .rfdRadio input[type="radio"],
+    .rfdRadio input[type="radio"][disabled="disabled"]:hover
+    {
+        background-image: url('FormDecorator/RadioButtonSprites.png');
+    }
+}
+
+/* ----------------------------------------------- Skin-specific Scrollbar Settings for WebKit ----------------------------------------------- */
+
+/* the scrollbar face color */
+.RadForm.rfdScrollBars.RadForm_Web20 body::-webkit-scrollbar,
+.RadForm.rfdScrollBars.RadForm_Web20 body::-webkit-scrollbar-thumb:vertical,
+.RadForm.rfdScrollBars.RadForm_Web20 body::-webkit-scrollbar-thumb:horizontal,
+.RadForm.rfdScrollBars.RadForm_Web20 div::-webkit-scrollbar,
+.RadForm.rfdScrollBars.RadForm_Web20 div::-webkit-scrollbar-thumb:vertical,
+.RadForm.rfdScrollBars.RadForm_Web20 div::-webkit-scrollbar-thumb:horizontal
+.RadForm.rfdScrollBars.RadForm_Web20 form::-webkit-scrollbar,
+.RadForm.rfdScrollBars.RadForm_Web20 form::-webkit-scrollbar-thumb:vertical,
+.RadForm.rfdScrollBars.RadForm_Web20 form::-webkit-scrollbar-thumb:horizontal
+{
+    background-color: #e7f1fa;
+}
+
+/* scrollbar track background color */
+.RadForm.rfdScrollBars.RadForm_Web20 ::-webkit-scrollbar-track-piece,
+.RadForm.rfdScrollBars.RadForm_Web20 ::-webkit-scrollbar-corner
+{
+    background-color: #fff;
+}
+
+.RadForm.rfdScrollBars.RadForm_Web20 ::-webkit-scrollbar-button:vertical:decrement, 
+.RadForm.rfdScrollBars.RadForm_Web20 ::-webkit-scrollbar-button:vertical:increment, 
+.RadForm.rfdScrollBars.RadForm_Web20 ::-webkit-scrollbar-button:horizontal:decrement, 
+.RadForm.rfdScrollBars.RadForm_Web20 ::-webkit-scrollbar-button:horizontal:increment, 
+.RadForm.rfdScrollBars.RadForm_Web20 ::-webkit-scrollbar-thumb:vertical, 
+.RadForm.rfdScrollBars.RadForm_Web20 ::-webkit-scrollbar-thumb:horizontal
+{
+    border-color: #959695 #6787bb #6787bb #959695;
+}
+
+/* increment / decrement button settings */
+.RadForm.rfdScrollBars.RadForm_Web20 ::-webkit-scrollbar-button:vertical:decrement, 
+.RadForm.rfdScrollBars.RadForm_Web20 ::-webkit-scrollbar-button:vertical:increment, 
+.RadForm.rfdScrollBars.RadForm_Web20 ::-webkit-scrollbar-button:horizontal:decrement, 
+.RadForm.rfdScrollBars.RadForm_Web20 ::-webkit-scrollbar-button:horizontal:increment
+{
+    background-image: url('FormDecorator/ButtonSprites.gif');
+    background-color: #e7f1fa;
+}
+
+/*GridView, FormView, DetailsView*/
+.RadForm_Web20.rfdGrids .rfdTable
+{
+    border:1px solid #6788be;
+    background:#fff;
+    color:#000;
+    font:12px "segoe ui",arial,sans-serif;
+}
+
+.RadForm_Web20.rfdGrids .rfdTable th
+{
+    border-bottom:1px solid #3f5f94;
+    border-left:1px solid #5171a7;
+    background:#7b95c6;
+    color:#fff;
+}
+
+.RadForm_Web20.rfdGrids .rfdTable a
+{
+    color:#0f3789;
+}
+
+/* Validation Summary Control and Login Control  */
+
+.RadForm_Web20 .rfdValidationSummaryControl,
+.RadForm_Web20 .rfdLoginControl
+{
+	background-color: #fff;
+	border: 1px solid #6788be;
+}
+
+.RadForm_Web20 a.rfdLoginControl
+{
+	color: #324d92;
+}
+
+.RadForm_Web20 a.rfdLoginControl:active
+{
+	color: #010615;
+}
+
+.RadForm_Web20 a.rfdLoginControl:hover
+{
+	color: #0f3789;
+}
+
+.RadForm_Web20 a.rfdLoginControl:visited
+{
+	color: #222;
+}

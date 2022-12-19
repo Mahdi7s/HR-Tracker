@@ -1,0 +1,27 @@
+.RadTagCloud_Sunset
+{
+	border: 1px dotted #ce690a;
+}
+.RadTagCloud_Sunset .rtcTagList .rtcTagItem
+{
+	color: #d09864;
+}
+.RadTagCloud_Sunset .rtcTagList .rtcTagItem:hover
+{
+	color: #ce690a;
+}
+.RadTagCloud_Sunset .rtcTagList .rtcTagItem a
+{
+	color: #000;
+}
+.RadTagCloud_Sunset .rtcTagList .rtcTagItem a:hover
+{
+	color: #863d02;
+	background: #f9eb83;
+}
+
+/* Loading image */
+.rtcLoading.RadTagCloud_Sunset
+{
+	background-image: url('Common/loading_small.gif');
+}

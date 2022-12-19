@@ -1,0 +1,180 @@
+/* Window/TitleBar.gif")%> */
+/* RadWindow for ASP.NET AJAX WebBlue Skin */
+
+/* Window Background */
+
+/* Horiznotal */
+.RadWindow_WebBlue .rwTopLeft,
+.RadWindow_WebBlue .rwTopRight,
+.RadWindow_WebBlue .rwTitlebar,
+.RadWindow_WebBlue .rwFooterLeft,
+.RadWindow_WebBlue .rwFooterRight,
+.RadWindow_WebBlue .rwFooterCenter,
+.RadWindow_WebBlue .rwTopResize,
+.RadWindow_WebBlue .rwStatusbar div,
+.RadWindow_WebBlue .rwStatusbar,
+.RadWindow_WebBlue .rwPopupButton,
+.RadWindow_WebBlue .rwPopupButton span,
+.RadWindow_WebBlue.rwMinimizedWindow .rwCorner
+{
+    background-image: url('Window/WindowHorizontalSprites.gif');
+}
+
+/* Vertical */
+.RadWindow_WebBlue .rwBodyLeft,
+.RadWindow_WebBlue .rwBodyRight,
+.RadWindow_WebBlue .rwStatusbarRow .rwCorner
+{
+	background-image: url('Window/WindowVerticalSprites.gif');
+}
+
+/* Window Shadows */
+
+/* Horiznotal */
+.RadWindow_WebBlue .rwShadow .rwTopLeft,
+.RadWindow_WebBlue .rwShadow .rwTopRight,
+.RadWindow_WebBlue .rwShadow .rwTitlebar,
+.RadWindow_WebBlue .rwShadow .rwFooterLeft,
+.RadWindow_WebBlue .rwShadow .rwFooterRight,
+.RadWindow_WebBlue .rwShadow .rwFooterCenter,
+.RadWindow_WebBlue .rwShadow .rwTopResize,
+.RadWindow_WebBlue .rwShadow .rwStatusbar div,
+.RadWindow_WebBlue .rwShadow .rwStatusbar,
+.RadWindow_WebBlue .rwShadow .rwPopupButton,
+.RadWindow_WebBlue .rwShadow .rwPopupButton span,
+.RadWindow_WebBlue .rwShadow .rwBodyLeft,
+.RadWindow_WebBlue .rwShadow .rwBodyRight,
+.RadWindow_WebBlue .rwShadow .rwStatusbarRow .rwBodyLeft,
+.RadWindow_WebBlue .rwShadow .rwStatusbarRow .rwBodyRight
+{
+	background-image: url('Window/WindowHorizontalSprites.png');
+}
+
+/* Vertical */
+.RadWindow_WebBlue .rwShadow .rwBodyLeft,
+.RadWindow_WebBlue .rwShadow .rwBodyRight,
+.RadWindow_WebBlue .rwShadow .rwStatusbarRow .rwBodyLeft,
+.RadWindow_WebBlue .rwShadow .rwStatusbarRow .rwBodyRight
+{
+	background-image: url('Window/WindowVerticalSprites.png');
+}
+
+/* Shadows End */
+
+.RadWindow_WebBlue .rwStatusbar input
+{
+    background-color: #f7f3e9;
+}
+
+.RadWindow_WebBlue .rwControlButtons a
+{
+    background-image: url('Window/CommandButtonSprites.gif');
+}
+
+.RadWindow_WebBlue a.rwIcon
+{
+	background-image: url('Window/WindowHorizontalSprites.gif');
+}
+
+div.RadWindow_WebBlue .rwTitlebarControls em
+{
+	color: white;
+}
+
+div.RadWindow_WebBlue .rwDialogInput
+{
+	border: solid 1px #768ca5;
+}
+
+div.RadWindow_WebBlue .rwDialogInput:hover
+{
+	border-color: #5d9fb7;
+}
+
+div.RadWindow_Web20 td.rwWindowContent
+{
+    background-color: #fff !important;
+}
+
+div.RadWindow_WebBlue td.rwWindowContent
+{
+    background-color: #fff;
+}
+
+/* Loading Indicators */
+div.RadWindow_WebBlue tr td.rwLoading
+{
+    background-color: #e6edee;
+}
+
+/* When ShowContentDuringLoad="true" */
+div.RadWindow_WebBlue td.rwWindowContent.rwLoading
+{
+    background-image: url('Common/loading.gif');
+}
+
+/* When ShowContentDuringLoad="false" */
+div.RadWindow_WebBlue input.rwLoading
+{
+    background-image: url('Common/loading_small.gif');
+}
+
+/* Shadow Control Buttons */
+
+.RadWindow_WebBlue .rwShadow .rwControlButtons 
+{
+	margin: 5px -2px 0 0;
+}
+
+.RadWindow_WebBlue .rwShadow .rwControlButtons 
+{
+	margin: 5px -1px 0 0\9;
+}
+
+/* ctrl buttons when winodw is minimized */
+.RadWindow_WebBlue.rwMinimizedWindowShadow .rwShadow .rwControlButtons 
+{
+	margin: 9px -8px 0 0;
+}
+
+.RadWindow_WebBlue .rwShadow .rwControlButtons li
+{
+	float: left;
+	padding: 0;
+}
+
+.RadWindow_WebBlue .rwShadow .rwControlButtons a
+{
+	width: 30px; 
+}
+
+.rwInactiveWindow .rwShadow .rwTopLeft,
+.rwInactiveWindow .rwShadow .rwTopRight,
+.rwInactiveWindow .rwShadow .rwTitlebar,
+.rwInactiveWindow .rwShadow .rwFooterLeft,
+.rwInactiveWindow .rwShadow .rwFooterRight,
+.rwInactiveWindow .rwShadow .rwFooterCenter,
+.rwInactiveWindow .rwShadow .rwTopResize,
+.rwInactiveWindow .rwShadow .rwStatusbar div,
+.rwInactiveWindow .rwShadow .rwStatusbar,
+.rwInactiveWindow .rwShadow .rwPopupButton,
+.rwInactiveWindow .rwShadow .rwPopupButton span,
+.rwInactiveWindow .rwShadow.rwMinimizedWindow .rwCorner,
+.RadWindow_WebBlue.rwNoTitleBar.rwInactiveWindow .rwShadow .rwTopLeft,
+.RadWindow_WebBlue.rwNoTitleBar.rwInactiveWindow .rwShadow .rwTitlebar,
+.RadWindow_WebBlue.rwNoTitleBar.rwInactiveWindow .rwShadow .rwTopRight,
+.RadWindow_WebBlue.rwNoTitleBar.rwInactiveWindow .rwShadow .rwFooterLeft,
+.RadWindow_WebBlue.rwNoTitleBar.rwInactiveWindow .rwShadow .rwFooterCenter,
+.RadWindow_WebBlue.rwNoTitleBar.rwInactiveWindow .rwShadow .rwFooterRight
+{
+    background-image: url('Window/WindowHorizontalSprites.gif') !important;
+}
+
+.rwInactiveWindow .rwShadow .rwBodyLeft,
+.rwInactiveWindow .rwShadow .rwBodyRight,
+.rwInactiveWindow .rwShadow .rwStatusbarRow .rwCorner,
+.RadWindow_WebBlue.rwNoTitleBar.rwInactiveWindow .rwShadow .rwBodyLeft,
+.RadWindow_WebBlue.rwNoTitleBar.rwInactiveWindow .rwShadow .rwBodyRight
+{
+	background-image: url('Window/WindowVerticalSprites.gif') !important;
+}

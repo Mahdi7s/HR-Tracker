@@ -1,0 +1,94 @@
+/*Telerik RadDataPager Windows7 Skin*/
+
+.RadDataPager_Windows7
+{
+	border:1px solid #c2cedb;
+	background:#f1f5fb 0 -5900px repeat-x url('Grid/sprite.gif');
+	color:#000;
+}
+
+.RadDataPager_Windows7 .rdpPageFirst,
+.RadDataPager_Windows7 .rdpPagePrev,
+.RadDataPager_Windows7 .rdpPageNext,
+.RadDataPager_Windows7 .rdpPageLast
+{
+	background:transparent no-repeat url('Grid/sprite.gif');
+}
+
+.RadDataPager_Windows7 .rdpPageFirst
+{
+	background-position:0 -550px;
+}
+.RadDataPager_Windows7 .rdpPageFirst:hover
+{
+	background-position:0 -600px;
+}
+.RadDataPager_Windows7 .rdpPagePrev
+{
+	background-position:0 -700px;
+}
+.RadDataPager_Windows7 .rdpPagePrev:hover
+{
+	background-position:0 -750px;
+}
+.RadDataPager_Windows7 .rdpPageNext
+{
+	background-position:0 -850px;
+}
+.RadDataPager_Windows7 .rdpPageNext:hover
+{
+	background-position:0 -900px;
+}
+.RadDataPager_Windows7 .rdpPageLast
+{
+	background-position:0 -1000px;
+}
+.RadDataPager_Windows7 .rdpPageLast:hover
+{
+	background-position:0 -1050px;
+}
+
+.RadDataPager_Windows7 .rdpPagerButton
+{
+	border:1px solid #c2cedb;
+	background:#dde8f6 repeat-x 0 -1550px url('Grid/sprite.gif');
+	color:#000;
+	font:12px/12px "segoe ui",arial,sans-serif;
+}
+
+.RadDataPager_Windows7 .rdpNumPart a:hover,
+.RadDataPager_Windows7 .rdpNumPart a:hover span,
+.RadDataPager_Windows7 .rdpNumPart a.rdpCurrentPage,
+.RadDataPager_Windows7 .rdpNumPart a.rdpCurrentPage span
+{
+	background:no-repeat url('Grid/sprite.gif');
+}
+
+.RadDataPager_Windows7 .rdpNumPart a
+{
+	color:#1e395b;
+}
+
+.RadDataPager_Windows7 .rdpNumPart a:hover
+{
+	background-position:100% -1250px;
+	color:#4c607a;
+}
+
+.RadDataPager_Windows7 .rdpNumPart a:hover span
+{
+	background-position:0 -1150px;
+}
+
+.RadDataPager_Windows7 .rdpNumPart a.rdpCurrentPage,
+.RadDataPager_Windows7 .rdpNumPart a.rdpCurrentPage:hover
+{
+	background-position:100% -1450px;
+	color:#4c607a;
+}
+
+.RadDataPager_Windows7 .rdpNumPart a.rdpCurrentPage span,
+.RadDataPager_Windows7 .rdpNumPart a.rdpCurrentPage:hover span
+{
+	background-position:0 -1350px;
+}

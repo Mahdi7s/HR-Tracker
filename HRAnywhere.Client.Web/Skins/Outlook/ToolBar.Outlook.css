@@ -1,0 +1,272 @@
+/* <RadToolBar / Outlook> */
+
+/* <tool wrapper> */
+
+/* <horizontal> */
+
+.RadToolBar_Outlook .rtbOuter
+{
+	border: 1px solid #002d96;
+}
+
+.RadToolBar_Outlook .rtbMiddle
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #5785d5 #5785d5 #033098;
+	background: #05329A url('ToolBar/rtbControlBg.png') repeat-x 0 0;
+}
+
+/* </horizontal> */
+
+/* <vertical> */
+
+.RadToolBar_Outlook_Vertical .rtbMiddle
+{
+	background: #05329A url('ToolBar/rtbVerticalControlBg.png') repeat-y 0 0;
+}
+
+/* </vertical> */
+
+/* </tool wrapper> */
+
+/* <buttons> */
+
+.RadToolBar_Outlook .rtbWrap,
+.RadToolBar_Outlook .rtbTemplate
+{
+	color: #fff;
+	font: normal 12px/20px "Segoe UI", Arial, sans-serif;
+}
+
+/* <button states> */
+
+.RadToolBar_Outlook .rtbSplBtnFocused .rtbWrap, .RadToolBar_Outlook .rtbSplBtnFocused .rtbOut, .RadToolBar_Outlook .rtbSplBtnFocused .rtbMid, .RadToolBar_Outlook .rtbSplBtnFocused .rtbIn,
+.RadToolBar_Outlook .rtbItemFocused .rtbWrap, .RadToolBar_Outlook .rtbItemFocused .rtbOut, .RadToolBar_Outlook .rtbItemFocused .rtbMid, .RadToolBar_Outlook .rtbItemFocused .rtbIn,
+.RadToolBar_Outlook .rtbItemHovered .rtbWrap, .RadToolBar_Outlook .rtbItemHovered .rtbOut, .RadToolBar_Outlook .rtbItemHovered .rtbMid, .RadToolBar_Outlook .rtbItemHovered .rtbIn,
+.RadToolBar_Outlook .rtbItemClicked .rtbWrap, .RadToolBar_Outlook .rtbItemClicked .rtbOut, .RadToolBar_Outlook .rtbItemClicked .rtbMid, .RadToolBar_Outlook .rtbItemClicked .rtbIn
+{
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url('ToolBar/rtbHoverBg.png');
+}
+
+.RadToolBar_Outlook .rtbSplBtnExpanded .rtbWrap, .RadToolBar_Outlook .rtbSplBtnExpanded .rtbOut, .RadToolBar_Outlook .rtbSplBtnExpanded .rtbMid, .RadToolBar_Outlook .rtbSplBtnExpanded .rtbIn,
+.RadToolBar_Outlook .rtbDropDownExpanded .rtbWrap, .RadToolBar_Outlook .rtbDropDownExpanded .rtbOut, .RadToolBar_Outlook .rtbDropDownExpanded .rtbMid, .RadToolBar_Outlook .rtbDropDownExpanded .rtbIn,
+.RadToolBar_Outlook .rtbChecked .rtbWrap, .RadToolBar_Outlook .rtbChecked .rtbOut, .RadToolBar_Outlook .rtbChecked .rtbMid, .RadToolBar_Outlook .rtbChecked .rtbIn,
+.RadToolBar_Outlook li.rtbChecked .rtbWrap:hover, .RadToolBar_Outlook li.rtbChecked .rtbWrap:hover .rtbOut, .RadToolBar_Outlook li.rtbChecked .rtbWrap:hover .rtbMid, .RadToolBar_Outlook li.rtbChecked .rtbWrap:hover .rtbIn
+{
+	background-image: url('ToolBar/rtbActiveBg.png');
+	background-color: transparent;
+	background-repeat: no-repeat;
+}
+
+.RadToolBar_Outlook .rtbItemFocused .rtbWrap,
+.RadToolBar_Outlook .rtbChecked .rtbWrap,
+.RadToolBar_Outlook .rtbDropDownExpanded .rtbWrap,
+.RadToolBar_Outlook .rtbSplBtnExpanded .rtbWrap
+{
+	color: #0d202b;
+}
+
+.RadToolBar_Outlook .rtbItemHovered .rtbWrap,
+.RadToolBar_Outlook .rtbItemClicked .rtbWrap
+{
+	color: #0e3d4f;
+}
+
+/* </button states> */
+
+/* <Drop Down Arrows> */
+
+
+.RadToolBar_Outlook .rtbSplBtn .rtbChoiceArrow,
+.RadToolBar_Outlook .rtbItem .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_Outlook .rtbChoiceArrow 
+{
+	background-image: url('ToolBar/rtbDropArrows.png');
+}
+
+.RadToolBar_Outlook .rtbSplBtn .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_Outlook .rtbExpandUp .rtbChoiceArrow 
+{
+	background-image: url('ToolBar/rtbUpArrows.png');
+}
+
+.RadToolBar_Outlook .rtbSplBtnExpanded .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_Outlook .rtbSplBtnExpanded .rtbChoiceArrow,
+.RadToolBar_Outlook .rtbDropDownExpanded .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_Outlook .rtbDropDownExpanded .rtbChoiceArrow,
+.RadToolBar_Outlook .rtbSplBtnHovered .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_Outlook .rtbSplBtnHovered .rtbChoiceArrow,
+.RadToolBar_Outlook .rtbItemHovered .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_Outlook .rtbItemHovered .rtbChoiceArrow,
+.RadToolBar_Outlook .rtbSplBtnClicked .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_Outlook .rtbSplBtnClicked .rtbChoiceArrow,
+.RadToolBar_Outlook .rtbItemClicked .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_Outlook .rtbItemClicked .rtbChoiceArrow
+{
+	background-color: transparent;
+	background-image: url('ToolBar/rtbHoverDropArrows.png');
+	background-repeat: no-repeat;
+}
+
+.RadToolBar_Outlook .rtbSplBtnExpanded .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_Outlook .rtbDropDownExpanded .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_Outlook .rtbSplBtnHovered .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_Outlook .rtbItemHovered .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_Outlook .rtbSplBtnClicked .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_Outlook .rtbItemClicked .rtbExpandUp .rtbChoiceArrow
+{
+	background-image: url('ToolBar/rtbHoverUpArrows.png');
+}
+
+/* </Drop Down Arrows> */
+
+.RadToolBar_Outlook_Horizontal li.rtbSeparator 
+{
+	border-left: 1px solid #89aee5;
+	background: #002d96;
+}
+
+.RadToolBar_Outlook_Vertical li.rtbSeparator
+{
+	border-top: 1px solid #89aee5;
+	background: #002d96;
+}
+
+/* </buttons> */
+
+
+/* <disabled states> */
+
+.RadToolBar_Outlook .rtbDisabled .rtbWrap:hover,
+.RadToolBar_Outlook .rtbDisabled .rtbWrap:hover .rtbOut,
+.RadToolBar_Outlook .rtbDisabled .rtbWrap:hover .rtbMid,
+.RadToolBar_Outlook .rtbDisabled .rtbWrap:hover .rtbIn
+{
+	background-image: none;
+}
+
+.RadToolBar_Outlook .rtbDisabled .rtbWrap { color: #C3C3B9\9; }
+
+@media screen and (-webkit-min-device-pixel-ratio:0)  /* WebKit alpha + opacity/cleartype bug, like IE wasn't enough... */
+{
+	.RadToolBar_Outlook .rtbDisabled .rtbWrap { color: #C3C3B9; }
+}
+
+/* </disabled states */ 
+
+/* <drop-down> */
+
+/* <Drop Down rounded corners and shadows> */
+
+.RadToolBarDropDown_Outlook .rtbTopFix,
+.RadToolBarDropDown_Outlook .rtbBottomFix,
+.RadToolBarDropDown_Outlook .rtbGroup
+{
+	background-image: url('ToolBar/rtbDropDownBg.png');
+	background-color: #f6f6f6;
+	background-repeat: repeat-y;
+}
+
+.RadToolBarDropDown_Outlook .rtbBottomLeft,
+.RadToolBarDropDown_Outlook .rtbRoundedCorners
+{
+	background-image:  url('ToolBar/rtbRoundedLeft.png');
+	background-color: transparent;
+	background-repeat: no-repeat;
+}
+
+.RadToolBarDropDown_Outlook .rtbTopRight,
+.RadToolBarDropDown_Outlook .rtbBottomRight
+{
+	background-image:  url('ToolBar/rtbRoundedRight.png');
+	background-color: transparent;
+	background-repeat: no-repeat;
+}
+
+.RadToolBarDropDown_Outlook .rtbTopFix,
+.RadToolBarDropDown_Outlook .rtbBottomFix,
+.RadToolBarDropDown_Outlook .rtbRoundedCorners .rtbFirst
+{
+	border-color: #002d96;
+}
+
+.RadToolBarDropDown_Outlook_rtl .rtbTopFix,
+.RadToolBarDropDown_Outlook_rtl .rtbBottomFix,
+.RadToolBarDropDown_Outlook_rtl .rtbGroup
+{
+	background-image: url('ToolBar/rtbDropDownBg_rtl.png');
+}
+
+.RadToolBarDropDown_Outlook_rtl .rtbBottomLeft,
+.RadToolBarDropDown_Outlook_rtl .rtbRoundedCorners
+{
+	background-image: url('ToolBar/rtbRoundedLeft_rtl.png');
+}
+
+.RadToolBarDropDown_Outlook_rtl .rtbTopRight,
+.RadToolBarDropDown_Outlook_rtl .rtbBottomRight
+{
+	background-image: url('ToolBar/rtbRoundedRight_rtl.png');
+}
+
+.RadToolBarDropDown_Outlook_rtl div.rtbTopFix,
+.RadToolBarDropDown_Outlook_rtl div.rtbBottomFix,
+.RadToolBarDropDown_Outlook_rtl .rtbGroup
+{
+	background-position: 101% 0;
+}
+
+/* </Drop Down rounded corners and shadows> */
+
+.RadToolBarDropDown_Outlook
+{
+	border-color: #002d96;
+	background-color: #f6f6f6;
+	background-image: url('ToolBar/rtbDropDownBg.png');
+}
+
+div.RadToolBarDropDown_Outlook
+{
+	background-position: -1px 0;
+}
+
+div.RadToolBarDropDown_Outlook_rtl
+{
+	background-position: 101% 0;
+}
+
+.RadToolBarDropDown_Outlook .rtbWrap,
+.RadToolBarDropDown_Outlook .rtbTemplate
+{
+	font-weight: normal;
+	font-size: 12px;
+	font-family: "Segoe UI", Arial, sans-serif;
+	color: #000;
+}
+
+.RadToolBarDropDown_Outlook .rtbItemHovered,
+.RadToolBarDropDown_Outlook .rtbItemFocused,
+.RadToolBarDropDown_Outlook .rtbItemHovered .rtbWrap,
+.RadToolBarDropDown_Outlook .rtbItemFocused .rtbWrap
+{
+	color: #0f3789;
+	background-image: url('ToolBar/rtbDropDownHover.png');
+}
+
+.RadToolBarDropDown_Outlook .rtbDisabled .rtbWrap
+{
+	color: #8a8a8a;
+}
+
+.RadToolBarDropDown_Outlook .rtbSeparator
+{
+	border-color: #6a8ccb;
+	background: #fff;
+}
+
+/* </drop-down> */
+
+/* </RadToolBar / Outlook> */

@@ -1,0 +1,173 @@
+/*Telerik RadListView Office2010Silver Skin*/
+
+/*global*/
+
+.RadListView_Office2010Silver
+{
+	border:1px solid #688caf;
+	background:#fff;
+	color:#333;
+	font:12px/16px "segoe ui",arial,sans-serif;
+}
+
+.RadListView_Office2010Silver .rlvA
+{
+	/*background:#ecf4ff;*/
+}
+
+.RadListView_Office2010Silver .rlvISel
+{
+	background:#ffcb60;
+}
+
+.RadListView_Office2010Silver .rlvIEdit
+{
+	background:#ffe5ad;
+}
+
+/*buttons*/
+
+.RadListView_Office2010Silver .rlvBAdd,
+.RadListView_Office2010Silver .rlvBUpdate,
+.RadListView_Office2010Silver .rlvBCancel,
+.RadListView_Office2010Silver .rlvBDel,
+.RadListView_Office2010Silver .rlvBEdit
+{
+	background-image:url('Grid/sprite.png');
+}
+
+* html .RadListView_Office2010Silver .rlvBAdd,
+* html .RadListView_Office2010Silver .rlvBUpdate,
+* html .RadListView_Office2010Silver .rlvBCancel,
+* html .RadListView_Office2010Silver .rlvBDel,
+* html .RadListView_Office2010Silver .rlvBEdit
+{
+	background-image:url('Grid/sprite.gif');
+}
+
+.RadListView_Office2010Silver .rlvBAdd
+{
+	background-position:0 -1648px;
+	width:22px;
+	height:22px;
+}
+.RadListView_Office2010Silver .rlvBUpdate
+{
+	background-position:0 -1798px;
+	width:23px;
+	height:22px;
+}
+.RadListView_Office2010Silver .rlvBCancel
+{
+	background-position:0 -1848px;
+	width:23px;
+	height:22px;
+}
+.RadListView_Office2010Silver .rlvBSel
+{
+	background-image:url('FormDecorator/CheckBoxSprites.gif');
+	background-position:-2px -2px;
+}
+.RadListView_Office2010Silver .rlvISel .rlvBSel
+{
+	background-position:-2px -422px;
+}
+.RadListView_Office2010Silver .rlvBDel
+{
+	background-position:0 -1750px;
+}
+.RadListView_Office2010Silver .rlvBEdit
+{
+	background-position:0 -1700px;
+}
+
+.RadListView_Office2010Silver .rlvDrag
+{
+	background-image:url('ListView/drag.gif');
+	background-position:center center;
+}
+
+/*flow*/
+
+.RadListView_Office2010Silver div.rlvI,
+.RadListView_Office2010Silver div.rlvA,
+.RadListView_Office2010Silver div.rlvIEmpty,
+.RadListView_Office2010Silver div.rlvIEdit
+{
+	border-color:#d0d7e5;
+}
+
+.RadListView_Office2010Silver div.rlvISel
+{
+	border-color:#ff9b35;
+}
+
+/*grid*/
+
+.RadListView_Office2010Silver tr.rlvHeader th
+{
+	border:solid #5d8cc9;
+	border-width:0 0 1px 1px;
+	background:0 -2300px repeat-x #c3d8f1 url('Grid/sprite.png');
+	color:#00156e;
+}
+
+.RadListView_Office2010Silver tr.rlvI td,
+.RadListView_Office2010Silver tr.rlvA td,
+.RadListView_Office2010Silver tr.rlvISel td,
+.RadListView_Office2010Silver tr.rlvIEmpty td,
+.RadListView_Office2010Silver tr.rlvIEdit td
+{
+	border:1px solid;
+	border-top:0;
+	border-right:0;
+}
+
+.RadListView_Office2010Silver tr.rlvI td,
+.RadListView_Office2010Silver tr.rlvA td,
+.RadListView_Office2010Silver tr.rlvIEmpty td,
+.RadListView_Office2010Silver tr.rlvIEdit td
+{
+	border-color:#d0d7e5;
+}
+
+.RadListView_Office2010Silver tr.rlvISel td
+{
+	border-color:#ff9b35;
+}
+
+/*single row*/
+
+.RadListView_Office2010Silver td.rlvI,
+.RadListView_Office2010Silver td.rlvA,
+.RadListView_Office2010Silver td.rlvISel,
+.RadListView_Office2010Silver td.rlvIEmpty,
+.RadListView_Office2010Silver td.rlvIEdit
+{
+	border:0;
+	border-right:1px solid #d0d7e5;
+}
+
+.RadListView_Office2010Silver td.rlvISel
+{
+	border-color:#ff9b35;
+}
+
+/*floated*/
+
+.RadListView_Office2010Silver .rlvFloated .rlvI,
+.RadListView_Office2010Silver .rlvFloated .rlvA,
+.RadListView_Office2010Silver .rlvFloated .rlvISel,
+.RadListView_Office2010Silver .rlvFloated .rlvIEdit
+{
+	border-color:#688caf;
+}
+
+/*edit*/
+
+.RadListView_Office2010Silver .rlvInput
+{
+	border-color:#abc1de;
+	background:#fff;
+	color:#000;
+}

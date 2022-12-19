@@ -1,0 +1,170 @@
+/* RadSplitter for ASP.NET AJAX - Telerik Skin */
+
+/* Borders */
+.RadSplitter_Telerik,
+.RadSplitter_Telerik .rspPaneTabContainer,
+
+/* Vertical RadSplitter items */
+.RadSplitter_Telerik .rspPane, 
+.RadSplitter_Telerik .rspResizeBar,
+.RadSplitter_Telerik .rspSlideContainerResize,
+
+/* Horizontal RadSplitter items */
+.RadSplitter_Telerik .rspPaneHorizontal,
+.RadSplitter_Telerik .rspResizeBarHorizontal,
+.RadSplitter_Telerik .rspSlideContainerResizeHorizontal
+{
+	border-color:#828282;
+}
+
+/* When ShowContentDuringLoad="false" */
+.RadSplitter_Telerik .rspLoading
+{
+    background-image: url('Common/loading.gif');
+}
+
+/* RadSplitBar/RadSlidingPane resize elements */
+.RadSplitter_Telerik .rspResizeBar,
+.RadSplitter_Telerik .rspSlideContainerResize
+{
+	background:#f3f3f3 url('Splitter/ResizeBarVerticalSprites.gif') repeat-y 0 0;
+}
+
+.RadSplitter_Telerik .rspResizeBarOver,
+.RadSplitter_Telerik .rspSlideContainerResizeOver
+{
+    background-position:-4px 0;
+}
+
+.RadSplitter_Telerik .rspResizeBarHorizontal,
+.RadSplitter_Telerik .rspSlideContainerResizeHorizontal
+{
+	background:#f3f3f3 url('Splitter/ResizeBarHorizontalSprites.gif') repeat-x 0 0;
+}
+
+.RadSplitter_Telerik .rspResizeBarOverHorizontal,
+.RadSplitter_Telerik .rspSlideContainerResizeOverHorizontal
+{
+    background-position:0 -4px;
+}
+
+/* RadSlidingPane tab */
+.RadSplitter_Telerik .rspPaneTabContainer,
+/* RadSlidingPane buttons */
+.RadSplitter_Telerik .rspSlideHeaderDockIcon,
+.RadSplitter_Telerik .rspSlideHeaderUndockIcon,
+.RadSplitter_Telerik .rspSlideHeaderCollapseIcon,
+/* RadSplitBar buttons */
+.RadSplitter_Telerik .rspCollapseBarExpand,
+.RadSplitter_Telerik .rspCollapseBarCollapse,
+
+.RadSplitter_Telerik .rspCollapseBarHorizontalExpand,
+.RadSplitter_Telerik .rspCollapseBarHorizontalCollapse
+{
+    background-image:url('Splitter/ExpandCollapseBarsCommands.gif');
+    background-repeat:no-repeat;
+}
+
+/* RadSlidingPane tab */
+.RadSplitter_Telerik .rspPaneTabContainer
+{
+    background-position:-81px 0;
+    background-repeat:repeat-y;
+}
+
+/* RadSplitBar buttons */
+.RadSplitter_Telerik .rspCollapseBarCollapse
+{	
+	background-position:0 0;
+}
+.RadSplitter_Telerik .rspCollapseBarCollapseOver
+{
+    background-position:-192px 0;
+}
+
+.RadSplitter_Telerik .rspCollapseBarExpand
+{	
+	background-position:-4px 0;
+}
+.RadSplitter_Telerik .rspCollapseBarExpandOver
+{
+    background-position:-196px 0;
+}
+
+.RadSplitter_Telerik .rspCollapseBarHorizontalExpand
+{
+    background-position:-8px -4px;
+}
+.RadSplitter_Telerik .rspCollapseBarHorizontalExpandOver
+{
+    background-position:-8px -12px;
+}
+
+.RadSplitter_Telerik .rspCollapseBarHorizontalCollapse
+{
+    background-position:-8px 0;
+}
+.RadSplitter_Telerik .rspCollapseBarHorizontalCollapseOver
+{
+    background-position:-8px -8px;
+}
+
+/* RadSlidingPane buttons */
+.RadSplitter_Telerik .rspSlideHeaderUndockIcon
+{
+	background-position:-50px 0;
+}
+
+.RadSplitter_Telerik .rspSlideHeaderDockIcon
+{
+	background-position:-35px 0;
+}
+
+.RadSplitter_Telerik .rspSlideHeaderCollapseIcon
+{
+	background-position:-65px 0;
+}
+
+/* RadSlidingPane header */
+.RadSplitter_Telerik .rspSlideHeader, 
+/* RadSlidingPane title */
+.RadSplitter_Telerik .rspSlideTitleContainer,
+/* RadSlidingPane tab, SlideDirection=Top/Bottom */
+.RadSplitter_Telerik .rspBottom .rspPaneTabContainer,
+.RadSplitter_Telerik .rspTop .rspPaneTabContainer
+{
+	background-image:url('Splitter/slideTitleContainerBgr.gif');
+	background-repeat:repeat-x;
+}
+
+.RadSplitter_Telerik .rspBottom .rspPaneTabContainer,
+.RadSplitter_Telerik .rspTop .rspPaneTabContainer
+{
+    background-position:0 -1px;
+}
+
+/* RadSlidingPane header elements */
+.RadSplitter_Telerik .rspSlideTitleContainer,
+.RadSplitter_Telerik .rspSlideHeaderIconWrapper
+{
+	border-bottom:solid 1px #828282;
+}
+
+/* RadSlidingPane title text */
+.RadSplitter_Telerik .rspSlideTitle,
+/* RadSlidingPane tab text */
+.RadSplitter_Telerik .rspPaneTabText
+{
+	font:normal 10px "Segoe UI", Arial, Sans-serif;
+	color:#000;
+}
+.RadSplitter_Telerik .rspSlideTitle
+{	
+	font-size:12px;
+}
+
+/* RadSlidingPane content - this element should not be transparent as it shows above content in adjacent RadPanes */
+.RadSplitter_Telerik .rspSlideContent
+{
+	background-color:#fff;
+}

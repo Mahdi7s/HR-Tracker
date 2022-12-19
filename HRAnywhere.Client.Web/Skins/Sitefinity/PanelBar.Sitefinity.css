@@ -1,0 +1,225 @@
+div.RadPanelBar_Sitefinity .rpRootGroup
+{
+	border: 0;
+	background-color: #efefef;
+}
+
+.RadPanelBar_Sitefinity a.rpLink,
+.RadPanelBar_Sitefinity div.rpHeaderTemplate,
+.RadPanelBar_Sitefinity .rpTemplate
+{
+	color: #000;
+	font: bold 12px/24px Arial, Helvetica, sans-serif;
+}
+
+* + html div.RadPanelBar_Sitefinity .rpItem
+{
+	display: inline-block;
+	font-size: 0;
+	line-height: 0;
+}
+
+* html div.RadPanelBar_Sitefinity .rpItem
+{
+	display: inline-block;
+	font-size: 0;
+	line-height: 0;
+}
+
+div.RadPanelBar_Sitefinity .rpLast
+{
+	border-width: 1px 0;
+}
+
+div.RadPanelBar_Sitefinity a.rpLink,
+div.RadPanelBar_Sitefinity div.rpHeaderTemplate,
+div.RadPanelBar_Sitefinity ul.rpGroup .rpLink
+{
+	border: 0;
+	padding: 1px;
+}
+
+div.RadPanelBar_Sitefinity a.rpLink .rpOut,
+div.RadPanelBar_Sitefinity .rpGroup a.rpLink .rpOut
+{
+	padding-bottom: 1px;
+	border-bottom: 0;
+}
+
+div.RadPanelBar_Sitefinity .rpGroup a.rpLink .rpOut
+{
+	padding-bottom: 0;
+}
+
+/* compensate for borders */
+
+div.RadPanelBar_Sitefinity div.rpHeaderTemplate
+{
+	padding: 1px;
+}
+
+
+div.RadPanelBar_Sitefinity a.rpLink:hover,
+div.RadPanelBar_Sitefinity .rpGroup a.rpLink:hover
+{
+	padding: 0;
+	border: 1px solid #d6d6d6;
+	background: transparent url('PanelBar/RootItemBg.png') no-repeat 0 0;
+}
+
+div.RadPanelBar_Sitefinity ul.rpRootGroup .rpFocused,
+div.RadPanelBar_Sitefinity .rpRootGroup a.rpFocused:hover,
+div.RadPanelBar_Sitefinity ul.rpRootGroup .rpSelected,
+div.RadPanelBar_Sitefinity .rpRootGroup a.rpSelected:hover
+{
+	border: 0;
+	padding: 1px;
+	background-color: #999;
+	background-image: none;
+	color: #FFF;
+}
+
+/* <disabled items> */
+div.RadPanelBar_Sitefinity a.rpDisabled,
+div.RadPanelBar_Sitefinity div.rpDisabled,
+div.RadPanelBar_Sitefinity a.rpDisabled:hover
+{
+	color: #bbb;
+	cursor: default;
+	background-image: none;
+	border: 0;
+	padding: 1px;
+}
+
+div.RadPanelBar_Sitefinity a.rpDisabled .rpOut,
+div.RadPanelBar_Sitefinity a.rpDisabled:hover .rpOut
+{
+	padding-bottom: 1px;
+	border: 0;
+}
+
+/* </disabled items> */
+
+/* <subitems> */
+
+div.RadPanelBar_Sitefinity .rpGroup a.rpLink,
+div.RadPanelBar_Sitefinity .rpGroup div.rpHeaderTemplate,
+div.RadPanelBar_Sitefinity .rpGroup .rpTemplate
+{
+	background-image: none;
+	font-weight: normal;
+}
+
+/* <subitems (disabled)> */
+div.RadPanelBar_Sitefinity ul.rpGroup .rpDisabled,
+div.RadPanelBar_Sitefinity .rpGroup a.rpDisabled:hover
+{
+	background-image: none;
+	color: #bbb;
+	border: 0;
+	padding: 1px;
+}
+/* </subitems (disabled)> */
+
+/* <subitems> */
+
+/*      <expand arrows> */
+.RadPanelBar_Sitefinity .rpRootGroup .rpOut
+{ 
+	padding-left: 7px;
+}
+
+div.RadPanelBar_Sitefinity .rpLevel2 .rpTemplate,
+div.RadPanelBar_Sitefinity .rpLevel2 .rpOut,
+div.RadPanelBar_Sitefinity .rpLevel3 .rpTemplate,
+div.RadPanelBar_Sitefinity .rpLevel3 .rpOut
+{
+	padding-left: 7px;
+}
+
+.RadPanelBar_Sitefinity .rpSlide
+{
+	padding-left: 10px;
+}
+
+.RadPanelBar_Sitefinity_rtl .rpRootGroup .rpOut
+{ 
+	padding-left: auto;
+	padding-right: 7px;
+}
+
+div.RadPanelBar_Sitefinity_rtl .rpLevel2 .rpTemplate,
+div.RadPanelBar_Sitefinity_rtl .rpLevel2 .rpOut,
+div.RadPanelBar_Sitefinity_rtl .rpLevel3 .rpTemplate,
+div.RadPanelBar_Sitefinity_rtl .rpLevel3 .rpOut
+{
+	padding-left: auto;
+	padding-right: 7px;
+}
+
+.RadPanelBar_Sitefinity_rtl .rpSlide
+{
+	padding-left: auto;
+	padding-right: 10px;
+}
+
+div.RadPanelBar_Sitefinity .rpText
+{
+	padding: 0 0 0 10px;
+}
+
+div.RadPanelBar_Sitefinity_rtl .rpText
+{
+	padding: 0 10px 0 0;
+}
+
+div.RadPanelBar_Sitefinity .rpImage
+{
+	padding: 4px 5px 3px 0;
+}
+
+div.RadPanelBar_Sitefinity_rtl .rpImage
+{
+	padding: 4px 0 3px 5px;
+}
+
+/* <expand arrows> */
+div.RadPanelBar_Sitefinity .rpExpandable span.rpExpandHandle,
+div.RadPanelBar_Sitefinity .rpExpanded span.rpExpandHandle
+{
+	background-color: transparent;
+	background-image: url('PanelBar/Expandable.png');
+	background-repeat: no-repeat;
+	float: left;
+	margin: 4px 0 0 -5px;
+}
+
+div.RadPanelBar_Sitefinity_rtl .rpExpandable span.rpExpandHandle,
+div.RadPanelBar_Sitefinity_rtl .rpExpanded span.rpExpandHandle
+{
+	background-image: url('PanelBar/ExpandableRTL.png');
+	float: right;
+	margin: 4px -5px 0 0;
+}
+
+.RadPanelBar_Sitefinity .rpExpandable span.rpExpandHandle { background-position: -1px -4px; }
+.RadPanelBar_Sitefinity .rpExpanded span.rpExpandHandle { background-position: -1px -180px; }
+
+.RadPanelBar_Sitefinity ul.rpGroup .rpExpandable span.rpExpandHandle { background-position: -1px -342px; margin: 4px 0 0 -5px;}
+.RadPanelBar_Sitefinity ul.rpGroup .rpExpanded span.rpExpandHandle { background-position: -1px -482px; margin: 4px 0 0 -5px; }
+
+.RadPanelBar_Sitefinity_rtl ul.rpGroup .rpExpandable span.rpExpandHandle,
+.RadPanelBar_Sitefinity_rtl ul.rpGroup .rpExpanded span.rpExpandHandle
+{
+	margin: 4px -5px 0 0;
+}
+
+.RadPanelBar_Sitefinity .rpRootGroup div.rpExpandable span.rpExpandHandle,
+.RadPanelBar_Sitefinity .rpRootGroup div.rpExpanded span.rpExpandHandle { margin-left: 2px; }
+
+.RadPanelBar_Sitefinity_rtl .rpRootGroup div.rpExpandable span.rpExpandHandle,
+.RadPanelBar_Sitefinity_rtl .rpRootGroup div.rpExpanded span.rpExpandHandle { margin-left: 0; margin-right: 2px; }
+
+/*      </expand arrows> */
+
+/* </background positioning> */

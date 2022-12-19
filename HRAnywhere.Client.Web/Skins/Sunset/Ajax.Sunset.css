@@ -1,0 +1,18 @@
+/* Telerik RadAjaxLoadingPanel Sunset Skin */
+
+.RadAjax_Sunset .raDiv
+{
+	background-image:url('Common/loading.gif');
+}
+
+.RadAjax_Sunset .raColor
+{
+	background-color:#fff;
+}
+
+.RadAjax_Sunset .raTransp
+{
+	opacity:0.5;
+	-moz-opacity:0.5;
+	filter:alpha(opacity=50);
+}

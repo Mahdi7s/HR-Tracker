@@ -1,0 +1,77 @@
+
+.RecurrenceEditor_Sitefinity
+{
+	color: #333;
+	font: normal 12px/14px Arial, Helvetica, sans-serif;
+}
+
+/* <xref input skins> */
+
+.RecurrenceEditor_Sitefinity .rsAdvInput,
+.RecurrenceEditor_Sitefinity select
+{
+	border-color: #ccc;
+}
+
+.RecurrenceEditor_Sitefinity .rsInvalid input,
+.RecurrenceEditor_Sitefinity .rsAdvTimePicker .riEmpty
+{
+	background-image: url('Input/sprite.gif');
+}
+
+.RecurrenceEditor_Sitefinity .rsInvalid
+{
+	border-color: #F32800;
+	color: #F32800;
+}
+
+/* </xref input skins> */
+
+.RecurrenceEditor_Sitefinity h2,
+.RecurrenceEditor_Sitefinity h3
+{
+	color: #6d8ebb;
+}
+
+.RecurrenceEditor_Sitefinity h2
+{
+	border-bottom: 1px solid #ccc;
+}
+
+.RecurrenceEditor_Sitefinity h2 span
+{
+	background: #fff;
+}
+
+.RecurrenceEditor_Sitefinity .rsAdvRecurrenceFreq
+{
+	border-right: 1px solid #fff;
+}
+
+.RecurrenceEditor_Sitefinity ul.rsRecurrenceOptionList   /* ??? */
+{
+	border-right: 1px solid #ccc;
+}
+
+.RecurrenceEditor_Sitefinity div.rsAdvPatternPanel
+{
+	border-left: 0;
+}
+
+/* <date/time picker> */
+
+.RecurrenceEditor_Sitefinity .rsTimePick .RadInput_Sitefinity input.riEnabled,
+.RecurrenceEditor_Sitefinity .rsTimePick .RadInput_Sitefinity input.riHover,
+.RecurrenceEditor_Sitefinity .rsTimePick .RadInput_Sitefinity input.riFocused
+{
+	background-image: url('Scheduler/rsSprites.png');
+}
+
+* html .RecurrenceEditor_Sitefinity .rsTimePick .RadInput_Sitefinity input.riEnabled,
+* html .RecurrenceEditor_Sitefinity .rsTimePick .RadInput_Sitefinity input.riHover,
+* html .RecurrenceEditor_Sitefinity .rsTimePick .RadInput_Sitefinity input.riFocused
+{
+	background-image: url('Scheduler/rsSpritesIE6.png');
+}
+
+/* </date/time picker> */

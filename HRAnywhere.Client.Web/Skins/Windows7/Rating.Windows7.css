@@ -1,0 +1,13 @@
+/* RadRating for ASP.NET AJAX Windows7 Skin */
+
+.RadRating_Windows7 a,
+.RadRating_Windows7 a span
+{
+	background-image: url('Rating/Sprite.png');
+}
+
+* html .RadRating_Windows7 a,
+* html .RadRating_Windows7 a span
+{
+	background-image: url('Rating/Sprite.gif');
+}

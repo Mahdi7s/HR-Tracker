@@ -1,0 +1,7 @@
+/* RadRating for ASP.NET AJAX Transparent Skin */
+
+.RadRating_Transparent a,
+.RadRating_Transparent a span
+{
+	background-image: url('Rating/Sprite.png');
+}

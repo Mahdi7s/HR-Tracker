@@ -1,0 +1,276 @@
+/* Telerik RadTreeList Office2007 Skin */
+
+/*global*/
+
+.RadTreeList_Office2010Blue,
+.rtlCEdit div.RadTreeList_Office2010Blue
+{
+	border-color:#8ba0bc;
+	background:#fff;
+	color:#333;
+}
+
+.RadTreeList_Office2010Blue .rtlAdd,
+.RadTreeList_Office2010Blue .rtlEdit,
+.RadTreeList_Office2010Blue .rtlUpdate,
+.RadTreeList_Office2010Blue .rtlCancel,
+.RadTreeList_Office2010Blue .rtlDel
+{
+	background-image:url('Grid/sprite.png');
+}
+
+.RadTreeList_Office2010Blue .rtlTable
+{
+	font:12px/16px "segoe ui",arial,sans-serif;
+}
+
+.RadTreeList_Office2010Blue .rtlHeader
+{
+	background:#bdcbde 0 -2300px repeat-x url('Grid/sprite.png');
+}
+
+.RadTreeList_Office2010Blue .rtlHeader,
+.RadTreeList_Office2010Blue .rtlHeader a
+{
+	color:#242424;
+}
+
+.RadTreeList_Office2010Blue .rtlScroller,
+.RadTreeList_Office2010Blue .rtlHeader,
+.RadTreeList_Office2010Blue .rtlHeader th
+{
+	border-color:#8ba0bc;
+}
+
+.RadTreeList_Office2010Blue .rtlA
+{
+	background-color:#f8f8f8;
+}
+
+.RadTreeList_Office2010Blue .rtlRSel
+{
+	background:#f8d05c 0 -3900px repeat-x url('Grid/sprite.png');
+}
+
+.RadTreeList_Office2010Blue .rtlRActive
+{
+	background:#fff4cb 0 -2900px repeat-x url('Grid/sprite.png');
+}
+
+.RadTreeList_Office2010Blue .rtlRFooter
+{
+	background-color:#e5e5e5;
+}
+
+.RadTreeList_Office2010Blue .rtlREdit
+{
+    background-color:#ffe5ad;
+}
+
+.rtlCEdit .RadTreeList_Office2010Blue 
+{
+    border-right:1px solid;
+    border-top:1px solid;
+}
+
+.RadTreeList_Office2010Blue .rtlRActive td,
+.RadTreeList_Office2010Blue .rtlR td,
+.RadTreeList_Office2010Blue .rtlA td,
+.RadTreeList_Office2010Blue .rtlREdit td,
+.RadTreeList_Office2010Blue .rtlRFooter td,
+.RadTreeList_Office2010Blue .rtlEditForm
+{
+	border-color:#d0d7e5;
+}
+
+.RadTreeList_Office2010Blue .rtlRSel td
+{
+    border-color: #f7c840;    
+}
+
+.RadTreeList_Office2010Blue .rtlR a,
+.RadTreeList_Office2010Blue .rtlA a,
+.RadTreeList_Office2010Blue .rtlREdit a,
+.RadTreeList_Office2010Blue .rtlEditForm a
+{
+	color:#00156e;
+}
+
+.RadTreeList_Office2010Blue .rtlVBorders td.rtlL,
+.RadTreeList_Office2010Blue .rtlLines td.rtlL
+{
+	background-color:#fff;
+}
+
+.RadTreeList_Office2010Blue .rtlExpand,
+.RadTreeList_Office2010Blue .rtlCollapse
+{
+	background-image:url('TreeList/sprite.gif');
+}
+
+.RadTreeList_Office2010Blue .rtlExpand
+{
+	background-position:0 0;
+}
+
+.RadTreeList_Office2010Blue .rtlCollapse
+{
+	background-position:0 -50px;
+}
+
+.RadTreeList_Office2010Blue .rtlSortAsc,
+.RadTreeList_Office2010Blue .rtlSortDesc
+{
+	background-image:url('Grid/sprite.png');
+}
+
+.RadTreeList_Office2010Blue .rtlSortAsc
+{
+	background-position:3px -147px;
+}
+
+.RadTreeList_Office2010Blue .rtlSortDesc
+{
+	background-position:3px -196px;
+}
+
+.RadTreeList_Office2010Blue .rtlLines td.rtlL0
+{
+	background-image:url('TreeList/rtlSingle.gif');
+}
+
+.RadTreeList_Office2010Blue .rtlLines td.rtlL1
+{
+	background-image:url('TreeList/rtlTop.gif');
+}
+
+.RadTreeList_Office2010Blue .rtlLines td.rtlL2
+{
+	background-image:url('TreeList/rtlMiddle.gif');
+}
+
+.RadTreeList_Office2010Blue .rtlLines td.rtlL3
+{
+	background-image:url('TreeList/rtlBottom.gif');
+}
+
+/*rtl*/
+
+.RadTreeListRTL_Office2010Blue .rtlLines td.rtlL1
+{
+	background-image:url('TreeList/rtlTopRTL.gif');
+}
+
+.RadTreeListRTL_Office2010Blue .rtlLines td.rtlL2
+{
+	background-image:url('TreeList/rtlMiddleRTL.gif');
+}
+
+.RadTreeListRTL_Office2010Blue .rtlLines td.rtlL3
+{
+	background-image:url('TreeList/rtlBottomRTL.gif');
+}
+
+/*pager*/
+
+.RadTreeList_Office2010Blue .rtlPager
+{
+	background:#b5c5d9 0 -7000px repeat-x url('Grid/sprite.png');
+	color:#384e73;
+}
+
+.RadTreeList_Office2010Blue .rtlPagerCell
+{
+	border-color:#8ba0bc;
+}
+
+.RadTreeList_Office2010Blue .rtlPager .rtlInfoPart
+{
+	color:#3e69a3;
+}
+
+.RadTreeList_Office2010Blue .rtlPager .rtlPageFirst,
+.RadTreeList_Office2010Blue .rtlPager .rtlPagePrev,
+.RadTreeList_Office2010Blue .rtlPager .rtlPageNext,
+.RadTreeList_Office2010Blue .rtlPager .rtlPageLast
+{
+	background:transparent no-repeat url('Grid/sprite.png');
+}
+
+.RadTreeList_Office2010Blue .rtlPager .rtlPageFirst
+{
+	background-position:0 -550px;
+}
+.RadTreeList_Office2010Blue .rtlPager .rtlPageFirst:hover
+{
+	background-position:0 -600px;
+}
+.RadTreeList_Office2010Blue .rtlPager .rtlPagePrev
+{
+	background-position:0 -700px;
+}
+.RadTreeList_Office2010Blue .rtlPager .rtlPagePrev:hover
+{
+	background-position:0 -750px;
+}
+.RadTreeList_Office2010Blue .rtlPager .rtlPageNext
+{
+	background-position:0 -850px;
+}
+.RadTreeList_Office2010Blue .rtlPager .rtlPageNext:hover
+{
+	background-position:0 -900px;
+}
+.RadTreeList_Office2010Blue .rtlPager .rtlPageLast
+{
+	background-position:0 -1000px;
+}
+.RadTreeList_Office2010Blue .rtlPager .rtlPageLast:hover
+{
+	background-position:0 -1050px;
+}
+
+.RadTreeList_Office2010Blue .rtlPager .rtlPagerButton
+{
+	border-color:#c2cedb;
+	background:#dde8f6 repeat-x 0 -1550px url('Grid/sprite.png');
+	color:#000;
+	font-family:"segoe ui",arial,sans-serif;
+}
+
+.RadTreeList_Office2010Blue .rtlPager .rtlNumPart a:hover,
+.RadTreeList_Office2010Blue .rtlPager .rtlNumPart a:hover span,
+.RadTreeList_Office2010Blue .rtlPager .rtlNumPart a.rtlCurrentPage,
+.RadTreeList_Office2010Blue .rtlPager .rtlNumPart a.rtlCurrentPage span
+{
+	background:no-repeat url('Grid/sprite.png');
+}
+
+.RadTreeList_Office2010Blue .rtlPager .rtlNumPart a
+{
+	color:#384e73;
+}
+
+.RadTreeList_Office2010Blue .rtlPager .rtlNumPart a:hover
+{
+	background-position:100% -1250px;
+	color:#000;
+}
+
+.RadTreeList_Office2010Blue .rtlPager .rtlNumPart a:hover span
+{
+	background-position:0 -1150px;
+}
+
+.RadTreeList_Office2010Blue .rtlPager .rtlNumPart a.rtlCurrentPage,
+.RadTreeList_Office2010Blue .rtlPager .rtlNumPart a.rtlCurrentPage:hover
+{
+	background-position:100% -1450px;
+	color:#384e73;
+}
+
+.RadTreeList_Office2010Blue .rtlPager .rtlNumPart a.rtlCurrentPage span,
+.RadTreeList_Office2010Blue .rtlPager .rtlNumPart a.rtlCurrentPage:hover span
+{
+	background-position:0 -1350px;
+}

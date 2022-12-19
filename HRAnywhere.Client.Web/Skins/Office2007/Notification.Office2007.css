@@ -1,0 +1,40 @@
+/*RadNotification Office2007 Skin*/
+
+.RadNotification_Office2007
+{
+	border: 1px solid #9eb6ce;
+	background-color: #c3d8f1;
+}
+
+.RadNotification_Office2007.rnShadows
+{
+	box-shadow: 2px 2px 3px #d8e5f3;
+	-webkit-box-shadow: 2px 2px 3px #d8e5f3;
+}
+
+.RadNotification_Office2007 .rnTitleBar,
+.RadNotification_Office2007 .rnCommands a
+{
+	background-image: url('Notification/NotificationSprite.png');
+}
+
+.RadNotification_Office2007 .rnTitleBar
+{
+	border-top: 1px solid #fff;
+}
+
+.RadNotification_Office2007 .rnTitleBarTitle
+{
+	color: #00156e;
+}
+
+.RadNotification_Office2007 .rnContentWrapper
+{
+	border-top: 1px solid transparent;
+}
+
+
+
+
+
+

@@ -1,0 +1,671 @@
+/* RadEditor for ASP.NET AJAX Office2010Black Skin */
+
+.Office2010Black.RadEditor
+{
+    background-color: #4b4b4b;
+}
+
+/* reWrapper */
+.Office2010Black.reWrapper
+{
+    border: solid 1px #080808;
+}
+
+.Office2010Black .reContentCell
+{
+    border: solid 1px #080808;
+}
+
+/* common settings for .reModule, .reEditorModes and .reWrapper */
+.Office2010Black.reColorPicker,
+.Office2010Black.reInsertTable,
+.Office2010Black.reDropDownBody,
+.Office2010Black.reCustomLinks a:hover
+{
+	border: solid 1px #9199a4;
+	background-color: #f6f6f6;
+}
+
+.Office2010Black.reColorPicker td, 
+.Office2010Black.reInsertTable td,
+.Office2010Black.reDropDownBody td,
+.Office2010Black.reCustomLinks a:hover
+{
+    color: #000;
+}
+
+.Office2010Black.reDropDownBody table
+{
+    background: transparent;
+}
+
+.Office2010Black .reModule,
+.Office2010Black .reEditorModes,
+.Office2010Black .reWrapper
+{
+	background-color: #4b4b4b;
+}
+
+/*NEW: Only in the Bottom zone - where the Statistics module is commonly set, remove uppper border, because it looks ugly*/
+.Office2010Black .reBottomZone .reModule
+{
+    border-top: 0;
+}
+
+
+.Office2010Black .reModule
+{
+    border-top: solid 1px #2c2c2c;  
+    color: #fff;
+}
+
+.Office2010Black .reModuleLabel
+{
+    color: #fff;
+}
+
+.Office2010Black.reDropDownBody.reCustomLinks ul.reCustomLinks a,
+.Office2010Black.reDropDownBody.reCustomLinks ul.reCustomLinks span
+{
+    border: 1px solid #F6F6F6; /* should be the same as the background of the dropdown */
+    color: #000 !important;
+    text-decoration: none;
+}
+
+.Office2010Black.reDropDownBody.reCustomLinks ul.reCustomLinks a:hover,
+.Office2010Black.reDropDownBody.reCustomLinks ul.reCustomLinks span:hover
+{
+    background-color: #ffe483 !important;
+    border: 1px solid #f7c840;
+}
+
+/* end of module */
+
+.reToolbar li
+{
+    background-image: url('Editor/ToolBarSprites.gif');
+    background-position: 0 -26px;
+    color: #000;
+}
+
+.Office2010Black .reSpinBox a
+{
+    background-image: url('Editor/ToolBarSprites.gif');
+    -moz-user-select: none;
+    outline: none;
+}
+
+/* separator */
+.reToolbar.Office2010Black .reSeparator
+{
+    background-position: center -148px;
+    background-image: url('Editor/ToolBarSprites.gif');
+}
+
+/* common settings for left and right grip */
+.reToolbar.Office2010Black .reGrip
+{
+	background-image: url('Editor/ToolBarSprites.gif');
+}
+
+/* reTool */
+.reTool span
+{
+    background-image: url('../Common/CommandSpritesLight.png');
+}
+
+/* IE6 does not support PNG alpha channel, so we use gifs for the command sprites instead */
+* html .reTool span,
+* html .reTool_text span,
+* html .reTlbVertical .reTool_text span,
+* html .reToolbar .reSplitButton.reTool_text span
+{
+    _background-image: url('../Common/CommandSpritesLightIE6.gif');
+}
+
+.reDialog .reTool,
+.reModule .reTool
+{
+    background-image: url('Editor/ToolBarSprites.gif');
+    background-position: 0 -242px;
+}
+
+.reDialog .reTool:hover,
+.reToolbar .reTool:hover,
+.reModule .reTool:hover
+{
+    background-image: url('Editor/ToolBarSprites.gif');
+    background-position: 0 -52px;
+}
+
+.reToolbar .reTool.reTool_selected,
+.reToolbar .reTool.reTool_selected:hover
+{
+    background-image: url('Editor/ToolBarSprites.gif');
+    background-position: 0 -124px;
+    background-repeat: no-repeat;
+}
+
+/* .reTool_text */
+.reToolbar .reTool_text span
+{
+    background-image: url('../Common/CommandSpritesLight.png');
+}
+
+.reToolbar .reTool_text:hover
+{
+    background-image: url('Editor/ToolBarSprites.gif');
+    background-repeat: repeat-x;
+    background-position: 0 -100px;
+    margin-left: 0;
+    margin-right: 0;
+    border-left: solid 1px #5c5c5c;
+    border-right: solid 1px #5c5c5c;
+}
+
+.reToolbar .reTool_text.reTool_selected,
+.reToolbar .reTool_text.reTool_selected:hover
+{
+    background-image: url('Editor/ToolBarSprites.gif');
+    background-repeat: repeat-x;
+    background-position: 0 -174px;
+    margin-left: 0;
+    margin-right: 0;
+    border-left: solid 1px #5c5c5c;
+    border-right: solid 1px #5c5c5c;
+}
+
+/* these settings will not be included in the common CSS file of RadEditor */
+.reToolbar .reTool_text.reTool_disabled,
+.reToolbar .reTool_text.reTool_disabled:hover
+{
+    margin-left: 0;
+    margin-right: 0;
+    border: 0;
+}
+/* end of reTool_text */
+
+.reTool.reSplitButton:hover
+{
+    background: url('Editor/ToolBarSprites.gif') no-repeat 0 -76px;
+}
+
+/* add weight to the selector for IE6 so it is applied */
+* html .reToolbar .reTool.reSplitButton:hover
+{
+    background: url('Editor/ToolBarSprites.gif') no-repeat 0 -76px;
+}
+
+.Office2010Black .reTool .split_arrow
+{
+    background-image: url('Editor/ToolBarSprites.gif');
+    background-position: -28px -362px;
+}
+
+.Office2010Black .reTool:hover .split_arrow
+{
+    background-position: -28px -387px;
+}
+
+.Office2010Black .reSplitButton.reTool_text .split_arrow
+{
+    background-image: url('Editor/ToolBarSprites.gif');
+    background-position: -28px -362px;
+}
+
+/* add weight to the selector for IE6 so it is applied */
+* html .Office2010Black .reToolbar .reTool_text .split_arrow
+{
+    background-image: url('Editor/ToolBarSprites.gif');
+    background-position: -28px -362px;
+}
+
+/* add weight to the selector for IE6 so it is applied */
+* html .reToolbar .reTool_text:hover
+{
+    background: url('Editor/ToolBarSprites.gif');
+    background-position: 0 -100px;
+}
+
+.reDialog .reTool.reSplitButton,
+.reModule .reTool.reSplitButton
+{
+    background-image: url('Editor/ToolBarSprites.gif');
+    background-position: 0 -218px;
+}
+
+.reDialog .reTool.reSplitButton:hover,
+.reModule .reTool.reSplitButton:hover
+{
+    background-position: 0 -76px;
+}
+
+/* add weight to the selector for IE6 so it is applied */
+* html .reToolbar .reTool.reSplitButton.reTool_disabled:hover
+{
+    background: none;
+}
+/* end of reSplitButton */
+
+/* reDropdown */
+.reDropdown:link,
+.reDropdown:visited
+{
+    color: #000 !important;
+}
+
+.reDropdown,
+.reTool_disabled.reDropdown:hover
+{
+    border: solid 1px #8f8989;
+    background-color: #f6f6f6;
+    background-image: url('Editor/ToolBarSprites.gif') !important;
+    background-position: right -360px !important;
+}
+
+.reDropdown:hover
+{
+    border: solid 1px #ffe175;
+    background-position: right -385px !important;
+    background-color: #ffe175;
+}
+
+.reDropdown span
+{
+    color: #000;
+}
+
+
+
+.reDropdown:hover span
+{
+    color: #464343;
+}
+
+/* add weight to the selector for IE6 so it is applied */
+* html .reTool_disabled.reDropdown
+{
+    background-image: url('Editor/ToolBarSprites.gif');
+    background-position: right -380px;
+    background-repeat: no-repeat;
+}
+/* end of reDropdown */
+
+/* vertical toolbar */
+.RadEditor.Office2010Black .reTlbVertical li
+{
+    background-image: url('Editor/ToolbarVerticalSprites.gif');
+    background-repeat: repeat-y;
+    background-position: -26px 0;
+}
+
+.RadEditor.Office2010Black .reTlbVertical .reToolbar.Default .reGrip
+{
+    background-image: url('Editor/ToolbarVerticalSprites.gif');
+}
+
+.RadEditor.Office2010Black .reTlbVertical .reToolbar.Office2010Black .grip_first
+{
+    background-position: 0 0;
+}
+
+.RadEditor.Office2010Black .reTlbVertical .reToolbar.Office2010Black .grip_last
+{
+    background-position: 0 -4px;
+}
+
+.RadEditor.Office2010Black .reTlbVertical .reToolbar.Office2010Black .reSeparator
+{
+    background-image: url('Editor/ToolbarVerticalSprites.gif');
+    background-position: -99px -12px;
+}
+
+.reTlbVertical .reTool:hover,
+.reTlbVertical .reTool_text.reSplitButton:hover,
+.reTlbVertical .reTool_text:hover
+{
+    background-image: url('Editor/ToolbarVerticalSprites.gif');
+    background-position: -76px 0;
+}
+
+/* add weight to the selector for IE6 so it is applied */
+* html .reTlbVertical .reTool_text:hover
+{
+	background-image: url('Editor/ToolbarVerticalSprites.gif');
+    background-repeat: no-repeat;
+    background-position: -76px 0;
+}
+
+.reTlbVertical .reTool.reTool_selected,
+.reTlbVertical .reTool_text.reTool_selected,
+.reTlbVertical .reTool_text.reTool_selected:hover
+{
+    background-image: url('Editor/ToolbarVerticalSprites.gif');
+    background-position: -52px 0;
+}
+
+/* add weight to the selector for IE6 so it is applied */
+* html .reTlbVertical .reSplitButton:hover
+{
+    background-image: url('Editor/ToolbarVerticalSprites.gif');
+    background-position: -76px 0;
+    background-repeat: no-repeat;
+}
+/* end of vertical toolbar */
+
+.reDropDownBody .reTlbVertical ul li a:hover
+{
+    background-image: url('Editor/ToolbarVerticalSprites.gif');
+    background-position: -602px 0;
+}
+
+/* InsertTable itself is a kind of tool strip, so it must be styled as a toolstrip */
+.Office2010Black.reInsertTable
+{
+    background-color: #f6f6f6;
+}
+
+.reDropDownBody .reTlbVertical .reToolbar
+{
+    background-image: url('Editor/ToolbarVerticalSprites.gif');
+    background-color: #f6f6f6;
+    background-position: -126px 0;
+}
+
+.reDropDownBody .reTlbVertical .reToolbar a span
+{
+    color: #000;
+}
+/* end of context menu and toolstrip */
+
+/* spinbox */
+.Office2010Black table.reSpinBox input
+{
+    background: none transparent;
+}
+
+.Office2010Black table.reSpinBox
+{
+	border: solid 1px #919191;
+	background-color: #f6f6f6;
+}
+
+.Office2010Black table.reSpinBox:hover
+{
+    border-color: #f7c840;
+}
+
+.Office2010Black .reSpinBoxIncrease
+{
+	background-position: 0 -198px;
+}
+
+.Office2010Black .reSpinBoxIncrease:hover
+{
+	background-position: 0 -208px;
+}
+
+.Office2010Black .reSpinBoxDecrease
+{
+	background-position: -11px -198px;
+}
+
+.Office2010Black .reSpinBoxDecrease:hover
+{
+	background-position: -11px -208px;
+}
+/* end of spinbox */
+
+/* editor input elements */
+.Office2010Black.RadEditor input
+{
+	border: solid 1px #080808;
+	background-color: #454545;
+	color: #fff;
+}
+
+.Office2010Black.RadEditor input:hover
+{
+    border: solid 1px #5c5c5c;
+}
+/* editor input elements */
+
+/* editing modes */
+.Office2010Black .reEditorModes a.reMode_selected
+{
+    background-image: url('Editor/ToolbarVerticalSprites.gif');
+    background-position: -948px 0;
+    color: #000;
+}
+
+.Office2010Black .reEditorModes a
+{
+    color: #fff;
+}
+
+.Office2010Black .reEditorModes .reMode_design span,
+.Office2010Black .reEditorModes .reMode_selected.reMode_design span
+{
+	background-position: -6px -5px;
+}
+
+.Office2010Black .reEditorModes .reMode_html span,
+.Office2010Black .reEditorModes .reMode_selected.reMode_html span
+{
+	background-position: -6px -36px;
+}
+
+.Office2010Black .reEditorModes .reMode_preview span,
+.Office2010Black .reEditorModes .reMode_selected.reMode_preview span
+{
+	background-position: -6px -69px;
+}
+/* end of editing modes */
+
+/* DOM inspector */
+.Office2010Black .reModule_domlink_selected,
+.Office2010Black .reModule_domlink
+{
+    color: #fff;
+}
+/* end of DOM inspector */
+
+.Office2010Black.reDropDownBody td
+{
+	background-color: #f6f6f6;
+}
+
+.Office2010Black.reDropDownBody .reItemOver
+{
+	background: #ffe175;
+	color: #000;
+}
+/* end of expanded dropdowns */
+
+* html .reTool_selected.reTool
+{
+    border-left-width: 0 !important;
+    border-right-width: 0 !important;
+}
+
+/* color picker */
+.Office2010Black.reColorPicker table div
+{
+	border: solid 1px #c5c5c5;
+}
+
+.Office2010Black.reColorPicker table td.reItemOver div
+{
+	border-color: #000;
+}
+
+.Office2010Black.reColorPicker span
+{
+	border: solid 1px #c5c5c5;
+}
+/* end of color picker */
+
+/* ajax spellchecker */
+.reAjaxspell_button
+{
+    border: solid 1px #000;
+    background: #2e2e2e;
+    color: #fff;
+}
+
+.Office2010Black .reAjaxSpellCheckSuggestions table
+{
+    border-width: 0;
+    width: 100%;
+}
+
+.Office2010Black .reAjaxSpellCheckSeparator
+{
+    background-color: #979797;
+}
+/* ajax spellchecker */
+
+/* custom links */
+.Office2010Black.reCustomLinks,
+.Office2010Black.reCustomLinks ul
+{
+	color: #000;
+}
+
+.Office2010Black.reCustomLinks a,
+.Office2010Black.reCustomLinks a:link,
+.Office2010Black.reCustomLinks a:visited
+{
+    background: none transparent;
+    color: #000 !important;
+	cursor: default !important;
+}
+/* end of custom links */
+
+/* insert table dropdown */
+.reInsertTable table
+{
+    background: #fff;
+}
+
+.reInsertTable table td
+{
+    border: solid 1px #8F8989;
+    background: #2e2e2e;
+}
+
+.reInsertTable .reTlbVertical ul
+{
+    background-color: #f6f6f6;
+}
+
+.Office2010Black.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text,
+.Office2010Black.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text:link
+.Office2010Black.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text:visited
+{
+    color: #d7d7d7 !important;
+    background: transparent none;
+    _background: none !important;
+}
+
+.Office2010Black.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text span
+{
+    color: #000 !important;
+}
+
+.Office2010Black.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text:hover
+{
+    background: url('Editor/ToolbarVerticalSprites.gif');
+    background-position: -1403px 0;
+}
+
+.reInsertTable .reTlbVertical ul .reTool_text span
+{
+    background-image: url('../Common/CommandSpritesLight.png');
+    background-position: -3575 center;
+}
+
+.reInsertTable .reToolbar li .reTool:hover
+{
+    background-image: url('Editor/ToolBarSprites.gif');
+    background-position: 0 -52px;
+}
+/* end of insert table dropdown */
+
+/* modules selector */
+.reModule_visible_icon,
+.reModule_hidden_icon
+{
+	display: block;
+	float: left;
+	height: 18px;
+	width: 18px;
+	background-image: url('../Common/CommonIcons.gif');
+	background-repeat: no-repeat;
+}
+
+.reModule_visible_icon
+{
+	background-position: -8px -199px;
+}
+
+.reModule_hidden_icon
+{
+	background-position: -8px -103px;
+	
+}
+/* end of modules selector */
+
+/* resize cell */
+.reResizeCell div
+{
+    background-image: url('Editor/ToolBarSprites.gif');
+    background-position: center -301px;
+}
+
+/* reTool_disabled */
+.reDialog .reTool_disabled,
+.reDialog .reTool_disabled:hover,
+.reToolbar .reTool_disabled,
+.reToolbar .reTool_disabled:hover,
+.reModule .reTool_disabled,
+.reModule .reTool_disabled:hover
+{
+    filter: alpha(opacity=40);
+    opacity: .4;
+    -moz-opacity: .4;
+    background-image: none;
+}
+/* reTool_disabled */
+
+/* color picker */
+.Office2010Black.reColorPicker table td div
+{
+    border-color: #9199a4;
+}
+
+.Office2010Black.reColorPicker table td.reItemOver div
+{
+    border-color: #ffe175;
+}
+
+.Office2010Black .reColorPickerFooter span
+{
+    border-color: #9199a4;
+}
+/* end of color picker */
+
+.reTool_text .reButton_text
+{
+    color: #d8d8d8;
+}
+.reControlsLayout .reDialogLabelLight span,
+.lightTable legend
+{
+	color: #fff;
+}
+
+.Office2010Black .reCustomColor
+{
+	color: #000;
+}

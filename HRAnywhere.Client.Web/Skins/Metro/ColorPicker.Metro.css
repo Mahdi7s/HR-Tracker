@@ -1,0 +1,90 @@
+/* RadColorPicker Metro skin */
+.RadColorPicker_Metro .rcpViews,
+.RadColorPicker_Metro .rcpHeader,
+.RadColorPicker_Metro .rcpPageView
+{
+	background-color:#fff;
+}
+
+.RadColorPicker_Metro .rcpColorPreview,
+.RadColorPicker_Metro .rcpInput,
+.RadColorPicker_Metro .rcpHexInput,
+.RadColorPicker_Metro .rcpMillionColorsPalette,
+.RadColorPicker_Metro .rcpMillionColorsSlider div.rslTrack
+{
+	border:1px solid #e5e5e5;
+}
+
+.RadColorPicker_Metro .rcpPalette,
+.RadColorPicker_Metro input,
+.RadColorPicker_Metro a,
+.RadColorPicker_Metro .rcpTabs a span
+{
+	color:#767676;
+}
+
+.RadColorPicker_Metro .rcpApplyButton:hover,
+.RadColorPicker_Metro .rcpButton:hover
+{
+    border-color:#e5e5e5;
+    background-color:#e5e5e5;
+    color: #000;
+}
+
+.RadColorPicker_Metro .rcpApplyButton:hover span,
+.RadColorPicker_Metro .rcpButton:hover span,
+.RadColorPicker_Metro .rcpTabs .rcpSelectedTab a span
+{
+    color:#000;
+}
+
+.RadColorPicker_Metro .RadSlider_Metro a.rslDraghandle,
+.RadColorPicker_Metro .RadSlider_Metro a.rslDraghandle:hover,
+.RadColorPicker_Metro .RadSlider_Metro a.rslDraghandle:active, 
+.RadColorPicker_Metro .RadSlider_Metro a.rslDraghandle:focus 
+{
+	background:#fff;
+	border: 0;
+}
+
+.RadColorPicker_Metro .rcpHeader,
+.RadColorPicker_Metro .rcpHeader .rcpImageButton,
+.RadColorPicker_Metro .rcpRecentColors,
+.RadColorPicker_Metro .rcpIcon a,
+.RadColorPicker_Metro .rcpTabs a,
+.RadColorPicker_Metro .rcpTabs a span,
+.RadColorPicker_Metro .rcpButton,
+.RadColorPicker_Metro .rcpButton span,
+.RadColorPicker_Metro .rcpMillionColorsHandle,
+.RadColorPicker_Metro .rcpSlider div.rslTrack,
+/* overwrite sliders */
+.RadColorPicker_Metro .rcpSlider .rslTrack a.rslDraghandle,
+.RadColorPicker_Metro div.rcpMillionColorsSlider div.rslVertical a.rslDraghandle
+{
+	background-image: url('ColorPicker/ColorPickerSprites.png');
+	background-repeat:no-repeat;
+}
+
+/* Rounded corners and shadows */
+.RadColorPicker_Metro .rcpPalette,
+.RadColorPicker_Metro .rcpRoundedRight,
+.RadColorPicker_Metro .rcpRoundedBottomRight,
+.RadColorPicker_Metro .rcpRightShadow,
+.RadColorPicker_Metro .rcpCornerShadow
+{
+	background-image: url('ColorPicker/rcpVerticalSprites.png');
+}
+
+.RadColorPicker_Metro .rcpRoundedBottomLeft,
+.RadColorPicker_Metro .rcpBottomShadow
+{
+	background-image: url('ColorPicker/ColorPickerSprites.png');
+}
+
+* html .RadColorPicker_Metro .rcpPalette,
+* html .RadColorPicker_Metro .rcpRoundedRight,
+* html .RadColorPicker_Metro .rcpRoundedBottomRight,
+* html .RadColorPicker_Metro .rcpRoundedBottomLeft
+{
+	background-image: url('ColorPicker/rcpVerticalSpritesIE6.png');
+}

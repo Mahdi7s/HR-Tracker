@@ -1,0 +1,549 @@
+/*Telerik RadTreeList Common CSS*/
+
+.RadTreeList
+{
+	border-style:solid;
+	border-width:1px;
+}
+
+.RadTreeList .rtlTable
+{
+	width:100%;
+	border-spacing:0;
+	border-collapse:separate;
+	table-layout:fixed;
+}
+
+.RadTreeList .rtlHeader th
+{
+	border-style:solid;
+	border-width:0 0 1px 0;
+	text-align:left;
+	font-weight:normal;
+}
+
+.RadTreeList .rtlVBorders .rtlHeader th
+{
+	border-left-width:1px;
+	overflow:hidden;
+}
+
+.RadTreeList .rtlVBorders .rtlHeader th.rtlCF
+{
+	border-left-width:0;
+}
+
+.RadTreeList .rtlHeader a
+{
+	text-decoration:none;
+}
+
+.RadTreeList .rtlR td,
+.RadTreeList .rtlA td,
+.RadTreeList .rtlREdit td,
+.RadTreeList .rtlRFooter td
+{
+	padding:3px 7px 5px 7px;
+}
+
+.RadTreeList .rtlRL td
+{
+	padding-bottom:4px;
+}
+
+.RadTreeList .rtlROut td
+{
+	padding-top:4px;
+}
+
+.RadTreeList .rtlHeader th
+{
+	padding:3px 7px 4px 7px;
+}
+
+.RadTreeList .rtlHBorders .rtlR>td,
+.RadTreeList .rtlHBorders .rtlA>td,
+.RadTreeList .rtlHBorders .rtlREdit>td,
+.RadTreeList .rtlHBorders .rtlRFooter>td
+
+{
+	padding:3px 7px 4px 7px;
+}
+
+.RadTreeList .rtlR,
+.RadTreeList .rtlA,
+.RadTreeList .rtlREdit,
+.RadTreeList .rtlRFooter
+{
+	vertical-align:top;
+}
+
+.RadTreeList .rtlR td,
+.RadTreeList .rtlA td,
+.RadTreeList .rtlREdit td,
+.RadTreeList .rtlRFooter td
+{
+	border-style:solid;
+	border-width:0;
+}
+
+.RadTreeList .rtlHBorders .rtlR td,
+.RadTreeList .rtlHBorders .rtlA td,
+.RadTreeList .rtlHBorders .rtlREdit td,
+.RadTreeList .rtlHBorders .rtlRFooter td
+{
+	border-bottom-width:1px;
+}
+
+.RadTreeList .rtlVBorders .rtlR td,
+.RadTreeList .rtlVBorders .rtlA td,
+.RadTreeList .rtlVBorders .rtlREdit td,
+.RadTreeList .rtlVBorders .rtlRFooter td
+{
+	border-left-width:1px;
+	overflow:hidden;
+}
+
+.RadTreeList .rtlR td.rtlCF,
+.RadTreeList .rtlA td.rtlCF,
+.RadTreeList .rtlREdit td.rtlCF,
+.RadTreeList .rtlRFooter td.rtlCF
+{
+	border-left-width:0;
+}
+
+.RadTreeList .rtlHVBorders .rtlR td.rtlCF,
+.RadTreeList .rtlHVBorders .rtlA td.rtlCF,
+.RadTreeList .rtlHVBorders .rtlREdit td.rtlCF,
+.RadTreeList .rtlHVBorders .rtlRFooter td.rtlCF
+{
+	border-left-width:1px;
+}
+
+.RadTreeList .rtlHBorders .rtlRL td,
+.RadTreeList .rtlTable .rtlRBtm td,
+.RadTreeList .rtlTable .rtlRFooter td
+{
+	border-bottom-width:0;
+}
+
+.RadTreeList .rtlHBorders .rtlROut td
+{
+	border-top-width:1px;
+}
+
+/*expand column cells*/
+
+.RadTreeList .rtlTable td.rtlL
+{
+	/*width:23px;*/ /*doesn't work in IE*/
+	padding-left:0;
+	padding-right:0;
+	text-align:center;
+	vertical-align:top;
+}
+
+.RadTreeList .rtlLines td.rtlL
+{
+    background-image:none;
+    background-repeat:no-repeat;
+	background-position:100% 0;
+}
+
+.RadTreeList .rtlLines td.rtlL0
+{
+	background-repeat:repeat-y;
+}
+
+.RadTreeList table.rtlLines td.rtlL,
+.RadTreeList table.rtlVBorders td.rtlL
+{
+	border-width:0;
+}
+
+.RadTreeList table.rtlLines td.rtlL,
+.RadTreeList table.rtlVBorders td.rtlL
+{
+	border-width:0;
+}
+
+/*buttons*/
+
+.RadTreeList .rtlExpand,
+.RadTreeList .rtlCollapse,
+.RadTreeList .rtlSortAsc,
+.RadTreeList .rtlSortDesc
+{
+	margin:0;
+	padding:0;
+	border:0;
+	background-color:transparent;
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+.RadTreeList .rtlExpand,
+.RadTreeList .rtlCollapse
+{
+	display:block;
+	width:16px;
+	height:16px;
+	margin:0 auto;
+}
+
+.RadTreeList .rtlSortAsc,
+.RadTreeList .rtlSortDesc
+{
+	width:16px;
+	height:10px;
+	vertical-align:middle;
+}
+
+.RadTreeList .rtlAdd,
+.RadTreeList .rtlEdit,
+.RadTreeList .rtlUpdate,
+.RadTreeList .rtlCancel,
+.RadTreeList .rtlDel
+{
+	width:16px;
+	height:16px;
+	border:0;
+	margin:0;
+	padding:0;
+	vertical-align:middle;
+	font-size:1px;
+	cursor:pointer;
+	background:transparent url('Grid/sprite.gif') no-repeat;
+}
+
+.RadTreeList .rtlAdd
+{
+	margin-right:3px;
+	height:18px;
+	width:18px;
+	background-position:-17px -1682px;
+}
+
+.RadTreeList .rtlHeader .rtlAdd
+{
+	background-position:0 -1650px;
+}
+
+.RadTreeList .rtlEdit
+{
+	background-position:1px -1699px;
+}
+
+.RadTreeList .rtlUpdate
+{
+	width:18px;
+	height:18px;
+	background-position:0 -1800px;
+}
+
+.RadTreeList .rtlCancel
+{
+	width:18px;
+	height:18px;
+	background-position:0 -1850px;
+}
+
+.RadTreeList .rtlDel
+{
+	background-position:0 -1749px;
+}
+
+
+/*no wrapper border*/
+
+.RadTreeListNoBorder
+{
+	border-width:0;
+}
+
+.RadTreeListNoBorder .rtlHeader th
+{
+	border-top-width:1px;
+}
+
+.RadTreeListNoBorder .rtlTable .rtlHeader th.rtlCF
+{
+	border-left-width:1px;
+}
+
+.RadTreeListNoBorder .rtlTable .rtlCL
+{
+	border-right-width:1px;
+}
+
+.RadTreeListNoBorder .rtlTable .rtlRBtm td
+{
+	border-bottom-width:1px;
+}
+
+/*rtl*/
+
+.RadTreeListRTL .rtlHeader th
+{
+	text-align:right;
+}
+
+.RadTreeListRTL .rtlVBorders .rtlHeader th
+{
+	border-left-width:0;
+	border-right-width:1px;
+}
+
+.RadTreeListRTL .rtlVBorders .rtlHeader th.rtlCF
+{
+	border-right-width:0;
+}
+
+.RadTreeListRTL .rtlVBorders .rtlR td,
+.RadTreeListRTL .rtlVBorders .rtlA td,
+.RadTreeListRTL .rtlVBorders .rtlREdit td,
+.RadTreeListRTL .rtlVBorders .rtlRFooter td
+{
+	border-left-width:0;
+	border-right-width:1px;
+}
+
+.RadTreeListRTL .rtlR td.rtlCF,
+.RadTreeListRTL .rtlA td.rtlCF,
+.RadTreeListRTL .rtlREdit td.rtlCF,
+.RadTreeListRTL .rtlRFooter td.rtlCF
+{
+	border-right-width:0;
+}
+
+.RadTreeListRTL .rtlHVBorders .rtlR td.rtlCF,
+.RadTreeListRTL .rtlHVBorders .rtlA td.rtlCF,
+.RadTreeListRTL .rtlHVBorders .rtlREdit td.rtlCF,
+.RadTreeListRTL .rtlHVBorders .rtlRFooter td.rtlCF
+{
+	border-left-width:0;
+	border-right-width:1px;
+}
+
+.RadTreeListRTL .rtlLines td.rtlL
+{
+	background-position:0 0;
+}
+
+.RadTreeListNoBorderRTL .rtlTable .rtlHeader .rtlCL,
+.RadTreeListNoBorderRTL .rtlTable .rtlR td.rtlCL,
+.RadTreeListNoBorderRTL .rtlTable .rtlA td.rtlCL,
+.RadTreeListNoBorderRTL .rtlTable .rtlREdit td.rtlCL,
+.RadTreeListNoBorderRTL .rtlTable .rtlRFooter td.rtlCL
+{
+	border-right-width:0;
+	border-left-width:1px;
+}
+
+.RadTreeListNoBorderRTL .rtlVBorders .rtlHeader .rtlCL,
+.RadTreeListNoBorderRTL .rtlVBorders .rtlR td.rtlCL,
+.RadTreeListNoBorderRTL .rtlVBorders .rtlA td.rtlCL,
+.RadTreeListNoBorderRTL .rtlVBorders .rtlREdit td.rtlCL,
+.RadTreeListNoBorderRTL .rtlVBorders .rtlRFooter td.rtlCL
+{
+	border-right-width:1px;
+}
+
+.RadTreeListNoBorderRTL .rtlTable .rtlHeader th.rtlCF
+{
+	border-left-width:0;
+	border-right-width:1px;
+}
+
+/*pager*/
+
+.RadTreeList .rtlPager
+{
+	min-height:22px;
+	/*padding:3px 0;*/
+}
+
+.RadTreeList .rtlPagerCell
+{
+	border-style:solid;
+	border-width:1px 0 0;
+	padding:3px 0;
+}
+
+.RadTreeList thead .rtlPagerCell
+{
+	border-width:0 0 1px;
+}
+
+.RadTreeList .rtlPager .rtlWrap
+{
+	float:left;
+	padding:0 10px;
+	line-height:22px;
+	white-space:nowrap;
+}
+
+.RadTreeList .rtlPager .rtlInfoPart
+{
+	float:right;
+}
+
+.RadTreeList .rtlPager .rtlInfoPart strong
+{
+	font-weight:normal;
+}
+
+.RadTreeList .rtlPager .rtlPageFirst,
+.RadTreeList .rtlPager .rtlPagePrev,
+.RadTreeList .rtlPager .rtlPageNext,
+.RadTreeList .rtlPager .rtlPageLast
+{
+	width:22px;
+	height:22px;
+	border:0;
+	margin:0;
+	padding:0;
+	background-color:transparent;
+	background-repeat:no-repeat;
+	vertical-align:bottom;
+	font-size:1px;
+	cursor:pointer;
+}
+
+.RadTreeList .rtlPager .rtlPageFirst,
+.RadTreeList .rtlPager .rtlPagePrev
+{
+	margin-right:1px;
+}
+
+.RadTreeList .rtlPager .rtlPageNext,
+.RadTreeList .rtlPager .rtlPageLast
+{
+	margin-left:1px;
+}
+
+.RadTreeList .rtlPager .rtlPagerButton
+{
+	height:22px;
+	border-style:solid;
+	border-width:1px;
+	margin:0 14px 0 0;
+	padding:0 4px 2px;
+	font-size:12px;
+	line-height:12px;
+	vertical-align:middle;
+	cursor:pointer;
+}
+
+.RadTreeList .rtlPager .rtlNumPart a
+{
+	float:left;
+	margin:0;
+	padding:0 5px 0 0;
+	line-height:22px;
+	text-decoration:none;
+}
+
+.RadTreeList .rtlPager .rtlNumPart span
+{
+	float:left;
+	padding:0 0 0 5px;
+}
+
+.RadTreeList .rtlPager .rtlNumPart a:hover span
+{
+	cursor:pointer;
+}
+
+.RadTreeList .rtlPager .rtlNumPart a.rtlCurrentPage,
+.RadTreeList .rtlPager .rtlNumPart a.rtlCurrentPage:hover,
+.RadTreeList .rtlPager .rtlNumPart a.rtlCurrentPage span,
+.RadTreeList .rtlPager .rtlNumPart a.rtlCurrentPage:hover span
+{
+	cursor:default;
+}
+
+.RadTreeList .rtlPager .rtlWrap a img
+{
+	border:0;
+	margin:0 8px;
+}
+
+.RadTreeList .rtlPager .RadSlider
+{
+	float:left;
+	margin:0 10px 0 0;
+}
+
+.RadTreeList .rtlPager .rtlPagerLabel,
+.RadTreeList .rtlPager .rtlPager .RadComboBox,
+.RadTreeList .rtlPager .rtlPager .RadInput
+{
+	margin:0 4px 0 0;
+	vertical-align:middle;
+}
+
+*+html .RadTreeList .rtlPager .rtlPager .RadComboBox{margin-top:-1px;}
+* html .RadTreeList .rtlPager .rtlPager .RadComboBox{margin-top:-1px;padding:1px 0;}
+
+.RadTreeList .rtlPager .rtlPagerTextBox
+{
+	text-align:center;
+}
+
+.RadTreeList .rtlEditForm
+{
+    border-bottom:1px solid;
+    border-left:1px solid;
+    margin:-1px;
+}
+
+.RadTreeList .rtlEditForm table
+{
+    font-size:12px;    
+}
+
+.RadTreeList .rtlEditForm table label
+{
+    float:right;
+    padding-right:2px;
+}
+
+.RadTreeList .rtlEditForm .rtlHeader
+{
+    padding:5px 7px 4px;
+	text-align:left;
+	font-weight:normal;
+}
+
+.rtlDrag
+{
+    background:no-repeat 50% -100px;
+    position:absolute;
+    left:-16px;
+    top:6px;
+    width:16px;
+    height:10px;
+}
+
+/*Scroller Mode*/
+.RadTreeList div.rtlHeader
+{
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    overflow:hidden;
+}
+
+.RadTreeList .rtlScroller
+{
+    overflow:hidden;
+    margin-bottom:-1px;
+    border-right-width:1px;
+    border-right-style:solid;
+    width:100%;
+}
+        
+.RadTreeList div.rtlFooter
+{
+    overflow:hidden;
+}

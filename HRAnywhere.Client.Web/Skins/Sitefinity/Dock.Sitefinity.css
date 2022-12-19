@@ -1,0 +1,91 @@
+div.RadDock_Sitefinity .rdContent
+{
+	font: normal 12px Arial, Helvetica, sans-serif;
+}
+
+div.RadDock_Sitefinity .rdTitleBar em
+{
+	font: normal normal 12px/27px Arial, Helvetica, Sans-serif;
+}
+
+.RadDock_Sitefinity .rdTop .rdLeft,
+.RadDock_Sitefinity .rdTop .rdRight,
+.RadDock_Sitefinity .rdTop .rdCenter,
+.RadDock_Sitefinity .rdBottom .rdLeft,
+.RadDock_Sitefinity .rdBottom .rdRight,
+.RadDock_Sitefinity .rdBottom .rdCenter
+{
+	background-image: url('Dock/HorizontalSprite.png');
+}
+
+.RadDock_Sitefinity .rdMiddle .rdLeft,
+.RadDock_Sitefinity .rdMiddle .rdRight
+{
+	background-image: url('Dock/VerticalSprite.gif');
+}
+
+.RadDock_Sitefinity .rdCenter .rdCommands a span
+{
+	background-image: url('Dock/CommandSprite.gif');
+}
+
+.RadDock_Sitefinity .rdCenter .rdCommands a,
+.RadDock_Sitefinity .rdCenter .rdCommands a span
+{
+    cursor: pointer;
+}
+
+.RadDock_Sitefinity .rdMiddle .rdCenter,
+.RadDock_Sitefinity .rdBottom .rdCenter
+{
+	background-color: #fff;
+}
+
+.RadDock_Sitefinity .rdContent
+{
+	color: black;
+}
+
+div.RadDock_Sitefinity table.rdTable tr td.rdLeft,
+div.RadDock_Sitefinity table.rdTable tr td.rdRight
+{
+    width: 2px;
+}
+
+div.RadDock_Sitefinity table.rdTable tr td.rdRight
+{
+    background-position: -12px -68px;
+}
+
+div.RadDock_Sitefinity table.rdTable tr.rdBottom td.rdRight
+{
+    background-position: -12px -95px;
+}
+
+.RadDock_Sitefinity .rdTitleBar em
+{
+	color: #000;
+	text-indent: 12px;
+}
+
+div.RadDock_Sitefinity tr.rdTop td.rdCenter
+{
+    background: url('Dock/TitleBarBgr.gif') no-repeat 0 0;
+}
+
+/* rounded corner settings */
+div.RadDock_Sitefinity table.rdTable td.rdRoundedCorner.rdLeft,
+div.RadDock_Sitefinity table.rdTable td.rdRoundedCorner.rdRight
+{
+    width: 7px;
+}
+
+div.RadDock_Sitefinity table.rdTable tr.rdBottom td.rdRoundedCorner.rdRight
+{
+    background-position: -7px -54px;
+}
+
+div.RadDock_Sitefinity table.rdTable tr.rdMiddle td.rdRoundedCorner.rdRight
+{
+    background-position: -7px 0;
+}

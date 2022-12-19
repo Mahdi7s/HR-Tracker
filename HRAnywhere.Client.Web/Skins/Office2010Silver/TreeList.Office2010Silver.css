@@ -1,0 +1,276 @@
+/* Telerik RadTreeList Office2007 Skin */
+
+/*global*/
+
+.RadTreeList_Office2010Silver,
+.rtlCEdit div.RadTreeList_Office2010Silver
+{
+	border-color:#a4abb2;
+	background:#fff;
+	color:#333;
+}
+
+.RadTreeList_Office2010Silver .rtlAdd,
+.RadTreeList_Office2010Silver .rtlEdit,
+.RadTreeList_Office2010Silver .rtlUpdate,
+.RadTreeList_Office2010Silver .rtlCancel,
+.RadTreeList_Office2010Silver .rtlDel
+{
+	background-image:url('Grid/sprite.png');
+}
+
+.RadTreeList_Office2010Silver .rtlTable
+{
+	font:12px/16px "segoe ui",arial,sans-serif;
+}
+
+.RadTreeList_Office2010Silver .rtlHeader
+{
+	background:#dbdfe4 0 -2300px repeat-x url('Grid/sprite.png');
+}
+
+.RadTreeList_Office2010Silver .rtlHeader,
+.RadTreeList_Office2010Silver .rtlHeader a
+{
+	color:#242424;
+}
+
+.RadTreeList_Office2010Silver .rtlScroller,
+.RadTreeList_Office2010Silver .rtlHeader,
+.RadTreeList_Office2010Silver .rtlHeader th
+{
+	border-color:#a4abb2;
+}
+
+.RadTreeList_Office2010Silver .rtlA
+{
+	background-color:#f8f8f8;
+}
+
+.RadTreeList_Office2010Silver .rtlRSel
+{
+	background:#f8d05c 0 -3900px repeat-x url('Grid/sprite.png');
+}
+
+.RadTreeList_Office2010Silver .rtlRActive
+{
+	background:#fff4cb 0 -2900px repeat-x url('Grid/sprite.png');
+}
+
+.RadTreeList_Office2010Silver .rtlRFooter
+{
+	background-color:#e5e5e5;
+}
+
+.RadTreeList_Office2010Silver .rtlREdit
+{
+    background-color:#ffe5ad;
+}
+
+.rtlCEdit .RadTreeList_Office2010Silver 
+{
+    border-right:1px solid;
+    border-top:1px solid;
+}
+
+.RadTreeList_Office2010Silver .rtlRActive td,
+.RadTreeList_Office2010Silver .rtlR td,
+.RadTreeList_Office2010Silver .rtlA td,
+.RadTreeList_Office2010Silver .rtlREdit td,
+.RadTreeList_Office2010Silver .rtlRFooter td,
+.RadTreeList_Office2010Silver .rtlEditForm
+{
+	border-color:#d0d7e5;
+}
+
+.RadTreeList_Office2010Silver .rtlRSel td
+{
+    border-color: #f7c840;    
+}
+
+.RadTreeList_Office2010Silver .rtlR a,
+.RadTreeList_Office2010Silver .rtlA a,
+.RadTreeList_Office2010Silver .rtlREdit a,
+.RadTreeList_Office2010Silver .rtlEditForm a
+{
+	color:#00156e;
+}
+
+.RadTreeList_Office2010Silver .rtlVBorders td.rtlL,
+.RadTreeList_Office2010Silver .rtlLines td.rtlL
+{
+	background-color:#fff;
+}
+
+.RadTreeList_Office2010Silver .rtlExpand,
+.RadTreeList_Office2010Silver .rtlCollapse
+{
+	background-image:url('TreeList/sprite.gif');
+}
+
+.RadTreeList_Office2010Silver .rtlExpand
+{
+	background-position:0 0;
+}
+
+.RadTreeList_Office2010Silver .rtlCollapse
+{
+	background-position:0 -50px;
+}
+
+.RadTreeList_Office2010Silver .rtlSortAsc,
+.RadTreeList_Office2010Silver .rtlSortDesc
+{
+	background-image:url('Grid/sprite.png');
+}
+
+.RadTreeList_Office2010Silver .rtlSortAsc
+{
+	background-position:3px -147px;
+}
+
+.RadTreeList_Office2010Silver .rtlSortDesc
+{
+	background-position:3px -196px;
+}
+
+.RadTreeList_Office2010Silver .rtlLines td.rtlL0
+{
+	background-image:url('TreeList/rtlSingle.gif');
+}
+
+.RadTreeList_Office2010Silver .rtlLines td.rtlL1
+{
+	background-image:url('TreeList/rtlTop.gif');
+}
+
+.RadTreeList_Office2010Silver .rtlLines td.rtlL2
+{
+	background-image:url('TreeList/rtlMiddle.gif');
+}
+
+.RadTreeList_Office2010Silver .rtlLines td.rtlL3
+{
+	background-image:url('TreeList/rtlBottom.gif');
+}
+
+/*rtl*/
+
+.RadTreeListRTL_Office2010Silver .rtlLines td.rtlL1
+{
+	background-image:url('TreeList/rtlTopRTL.gif');
+}
+
+.RadTreeListRTL_Office2010Silver .rtlLines td.rtlL2
+{
+	background-image:url('TreeList/rtlMiddleRTL.gif');
+}
+
+.RadTreeListRTL_Office2010Silver .rtlLines td.rtlL3
+{
+	background-image:url('TreeList/rtlBottomRTL.gif');
+}
+
+/*pager*/
+
+.RadTreeList_Office2010Silver .rtlPager
+{
+	background:#b9bec3 0 -7000px repeat-x url('Grid/sprite.png');
+	color:#3b3b3b;
+}
+
+.RadTreeList_Office2010Silver .rtlPagerCell
+{
+	border-color:#a4abb2;
+}
+
+.RadTreeList_Office2010Silver .rtlPager .rtlInfoPart
+{
+	color:#3e69a3;
+}
+
+.RadTreeList_Office2010Silver .rtlPager .rtlPageFirst,
+.RadTreeList_Office2010Silver .rtlPager .rtlPagePrev,
+.RadTreeList_Office2010Silver .rtlPager .rtlPageNext,
+.RadTreeList_Office2010Silver .rtlPager .rtlPageLast
+{
+	background:transparent no-repeat url('Grid/sprite.png');
+}
+
+.RadTreeList_Office2010Silver .rtlPager .rtlPageFirst
+{
+	background-position:0 -550px;
+}
+.RadTreeList_Office2010Silver .rtlPager .rtlPageFirst:hover
+{
+	background-position:0 -600px;
+}
+.RadTreeList_Office2010Silver .rtlPager .rtlPagePrev
+{
+	background-position:0 -700px;
+}
+.RadTreeList_Office2010Silver .rtlPager .rtlPagePrev:hover
+{
+	background-position:0 -750px;
+}
+.RadTreeList_Office2010Silver .rtlPager .rtlPageNext
+{
+	background-position:0 -850px;
+}
+.RadTreeList_Office2010Silver .rtlPager .rtlPageNext:hover
+{
+	background-position:0 -900px;
+}
+.RadTreeList_Office2010Silver .rtlPager .rtlPageLast
+{
+	background-position:0 -1000px;
+}
+.RadTreeList_Office2010Silver .rtlPager .rtlPageLast:hover
+{
+	background-position:0 -1050px;
+}
+
+.RadTreeList_Office2010Silver .rtlPager .rtlPagerButton
+{
+	border-color:#c2cedb;
+	background:#dde8f6 repeat-x 0 -1550px url('Grid/sprite.png');
+	color:#000;
+	font-family:"segoe ui",arial,sans-serif;
+}
+
+.RadTreeList_Office2010Silver .rtlPager .rtlNumPart a:hover,
+.RadTreeList_Office2010Silver .rtlPager .rtlNumPart a:hover span,
+.RadTreeList_Office2010Silver .rtlPager .rtlNumPart a.rtlCurrentPage,
+.RadTreeList_Office2010Silver .rtlPager .rtlNumPart a.rtlCurrentPage span
+{
+	background:no-repeat url('Grid/sprite.png');
+}
+
+.RadTreeList_Office2010Silver .rtlPager .rtlNumPart a
+{
+	color:#3b3b3b;
+}
+
+.RadTreeList_Office2010Silver .rtlPager .rtlNumPart a:hover
+{
+	background-position:100% -1250px;
+	color:#000;
+}
+
+.RadTreeList_Office2010Silver .rtlPager .rtlNumPart a:hover span
+{
+	background-position:0 -1150px;
+}
+
+.RadTreeList_Office2010Silver .rtlPager .rtlNumPart a.rtlCurrentPage,
+.RadTreeList_Office2010Silver .rtlPager .rtlNumPart a.rtlCurrentPage:hover
+{
+	background-position:100% -1450px;
+	color:#3b3b3b;
+}
+
+.RadTreeList_Office2010Silver .rtlPager .rtlNumPart a.rtlCurrentPage span,
+.RadTreeList_Office2010Silver .rtlPager .rtlNumPart a.rtlCurrentPage:hover span
+{
+	background-position:0 -1350px;
+}

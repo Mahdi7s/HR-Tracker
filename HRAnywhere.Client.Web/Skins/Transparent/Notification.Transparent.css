@@ -1,0 +1,47 @@
+/*RadNotification Transparent Skin*/
+
+.RadNotification_Transparent
+{
+	border: 1px solid #dad2d2;
+	background-color: transparent;
+}
+
+.RadNotification_Transparent.rnShadows
+{
+	box-shadow: 2px 2px 3px #ebe9e9;
+	-webkit-box-shadow: 2px 2px 3px #ebe9e9;
+}
+
+.RadNotification_Transparent .rnTitleBar,
+.RadNotification_Transparent .rnCommands a
+{
+	background-image: url('Notification/NotificationSprite.png');
+}
+
+.RadNotification_Transparent .rnTitleBarTitle,
+.RadNotification_Transparent .rnContentWrapper
+{
+	color: #3b3b3b;
+}
+
+.RadNotification_Transparent .rnContentWrapper
+{
+	background-image: url('../Common/TransContent.png');
+}
+
+.RadNotification_Transparent.rnRoundedCorners  .rnContentWrapper
+{
+	border-radius: 0 0 5px 5px;
+}
+
+.RadNotification_Transparent .rnContentWrapper
+{
+	border-top: 1px solid #b6b6b6;
+}
+
+/* base overwrites */
+
+.RadNotification_Transparent .rnCommands 
+{
+	margin: 3px 0 0;
+}

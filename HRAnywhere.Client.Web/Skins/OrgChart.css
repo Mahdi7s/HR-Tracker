@@ -1,0 +1,299 @@
+/**
+ * Organizational Chart
+ */
+
+
+
+
+/*----------------------------------------------------------------------------*/
+
+
+
+
+/** Global wrapper */
+.RadOrgChart {}
+
+
+
+
+	/** Self clearing */
+	.RadOrgChart,
+	.RadOrgChart .rocViewport,
+	.RadOrgChart .rocNodeList,
+	.RadOrgChart .rocNode,
+	.RadOrgChart .rocGroup,
+	.RadOrgChart .rocItemList,
+	.RadOrgChart .rocItemWrap,
+	.RadOrgChart .rocItem,
+	.RadOrgChart .rocItemContent,
+	.RadOrgChart .rocItemTemplate {
+		min-height: 0;
+		_zoom: 1;
+	}
+	.RadOrgChart:after,
+	.RadOrgChart .rocViewport:after,
+	.RadOrgChart .rocNodeList:after,
+	.RadOrgChart .rocNode:after,
+	.RadOrgChart .rocGroup:after,
+	.RadOrgChart .rocItemList:after,
+	.RadOrgChart .rocItemWrap:after,
+	.RadOrgChart .rocItem:after,
+	.RadOrgChart .rocItemContent:after,
+	.RadOrgChart .rocItemTemplate:after {
+		content: "";
+		height: 0;
+		clear: both;
+		display: block;
+	}
+
+
+
+
+/** Viewport */
+.rocViewPort {
+	margin: 0 auto;
+	padding: 1em 0;
+}
+
+
+
+
+/** NodeList */
+.RadOrgChart .rocNodeList {
+	margin: 50px auto 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	z-index: 10;
+}
+
+
+
+
+/** Node */
+.RadOrgChart .rocNode {
+	margin: 0 5px;
+	float: left;
+	_display: inline;
+	position: relative;
+	z-index: 10;
+}
+
+
+	.RadOrgChart .rocRootNode {}
+
+
+
+
+/** Group */
+.RadOrgChart .rocGroup {
+	margin: 0 auto;
+	padding: 10px;
+}
+
+
+
+
+/** ItemList */
+.RadOrgChart .rocItemList {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	z-index: 10;
+}
+
+
+
+
+/** ItemWrap */
+.RadOrgChart .rocItemWrap {
+	margin: 5px;
+	width: 200px;
+	float: left;
+	_display: inline;
+	position: relative;
+	z-index: 10;
+}
+
+
+
+
+/** Items */
+.RadOrgChart .rocItem {
+	margin: 0 auto;
+	width: 200px;
+	height: 100px;
+	display: block;
+	position: relative;
+}
+
+
+	.RadOrgChart .rocItemContent,
+	.RadOrgChart .rocItemTemplate {
+		padding: 10px;
+		height: 78px;
+		border: 1px solid;
+		background-position: 0 0;
+		background-repeat: repeat-x;
+		overflow: hidden;
+	}
+
+
+	.RadOrgChart .rocItemContent {
+		padding-left: 68px;
+	}
+	.RadOrgChart .rocNoOwnImage .rocItemContent {
+		padding-left: 10px;
+	}
+
+
+	.RadOrgChart .rocImageWrap {
+		margin: 0 10px 0 -58px;
+		width: 48px;
+		height: 48px;
+		overflow: hidden;
+		float: left;
+		_display: inline;
+	}
+
+
+
+
+/** Toggle handle *//* NOT IMPLEMENTED
+.RadOrgChart .rocToggleHandle {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: auto;
+	bottom: -25px;
+}
+.RadOrgChart .rocToggleHandleWrapper {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}*/
+
+
+
+
+/** Modifiers */
+.RadOrgChart .rocFirst,
+.RadOrgChart .rocFirstInRow {
+	clear: left;
+	margin-left: 0;
+}
+.RadOrgChart .rocLast,
+.RadOrgChart .rocLastInRow {
+	margin-right: 0;
+}
+.RadOrgChart .rocOnly,
+.RadOrgChart .rocOnlyInRow {
+	margin-left: 0;
+	margin-right: 0;
+	float: none;
+	_display: block;
+}
+
+
+
+
+/** Node lines */
+.RadOrgChart .rocNodeLines {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+
+	.RadOrgChart .rocLineUp,
+	.RadOrgChart .rocLineDown,
+	.RadOrgChart .rocLineHorizontal {
+		background-position: 0 0;
+		position: absolute;
+		width: 1px;
+		height: 1px;
+	}
+
+
+	.RadOrgChart .rocLineUp {
+		height: 25px;
+		background-repeat: repeat-y;
+		position: absolute;
+		top: -25px;
+		left: 50%;
+	}
+	.RadOrgChart .rocLineDown {
+		height: 25px;
+		background-position: 0 1px;
+		background-repeat: repeat-y;
+		position: absolute;
+		top: 100px;
+		left: 50%;
+	}
+	.RadOrgChart .rocLineHorizontal {
+		padding: 0 5px;
+		width: 100%;
+		background-repeat: repeat-x;
+		top: -25px;
+		left: -6px;
+	}
+
+
+
+
+	/** Lines in root node */
+	.RadOrgChart .rocRootNode > .rocNodeLines > .rocLineUp,
+	.RadOrgChart .rocRootNode > .rocNodeLines > .rocLineHorizontal {
+		display: none;
+	}
+
+
+
+
+	/** Lines for first / last node */
+	.RadOrgChart .rocFirst > .rocNodeLines > .rocLineHorizontal,
+	.RadOrgChart .rocLast > .rocNodeLines > .rocLineHorizontal {
+		width: 50%;
+	}
+
+
+	.RadOrgChart .rocFirst > .rocNodeLines > .rocLineHorizontal {
+		padding-right: 0;
+		left: 50%;
+		right: auto;
+	}
+	.RadOrgChart .rocLast > .rocNodeLines > .rocLineHorizontal {
+		padding-left: 1px;
+		left: auto;
+		right: 50%;
+	}
+	.RadOrgChart .rocFirst + .rocLast > .rocNodeLines > .rocLineHorizontal {
+		padding-left: 0;
+	}
+
+
+
+
+	/** Lines in only node */
+	.RadOrgChart .rocOnly > .rocNodeLines > .rocLineHorizontal {
+		display: none;
+	}
+
+
+
+
+	/** Lines and group */
+	.RadOrgChart .rocGroup .rocNodeLines {
+		display: none;
+	}
+	.RadOrgChart .rocGroup + .rocNodeLines .rocLineDown,
+	.RadOrgChart .rocGroup + .rocNodeList + .rocNodeLines .rocLineDown {
+		top: 120px;
+	}

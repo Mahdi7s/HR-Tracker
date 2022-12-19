@@ -1,0 +1,209 @@
+/*Telerik RadFilter Sunset skin*/
+
+/*sprite*/
+
+.RadFilter_Sunset .rfLeft,
+.RadFilter_Sunset .rfMid,
+.RadFilter_Sunset .rfTools,
+.RadFilter_Sunset .rfRight,
+.RadFilter_Sunset .rfOper:hover,
+.RadFilter_Sunset .rfField:hover,
+.RadFilter_Sunset .rfExp:hover,
+.RadFilter_Sunset .rfOper:focus,
+.RadFilter_Sunset .rfField:focus,
+.RadFilter_Sunset .rfExp:focus,
+.RadFilter_Sunset .rfOper:active,
+.RadFilter_Sunset .rfField:active,
+.RadFilter_Sunset .rfExp:active,
+.RadFilter_Sunset .rfAddGr,
+.RadFilter_Sunset .rfAddExp,
+.RadFilter_Sunset .rfDel,
+.RadFilter_Sunset .rfApply a,
+.RadFilter_Sunset .rfApply input
+{
+	background-image:url('Filter/sprite.gif');
+}
+
+/*global*/
+
+.RadFilter_Sunset,
+.RadFilter_Sunset .rfText,
+.RadFilter_Sunset .rfApply input
+{
+	font-size:12px;
+	font-family:"segoe ui",arial,sans-serif;
+}
+
+.RadFilter_Sunset,
+.RadFilter_Sunset a
+{
+	color:#982e00;
+}
+
+/*lines*/
+
+.RadFilter_Sunset .rfLines li li
+{
+	background-image:url('Filter/rfLine.gif');
+}
+
+.RadFilter_Sunset .rfLines li li .rfDiv
+{
+	background-image:url('Filter/rfMiddle.gif');
+}
+
+.RadFilter_Sunset .rfLines li li.rfLast .rfDiv
+{
+	background-image:url('Filter/rfLast.gif');
+}
+
+/*item elements*/
+
+.RadFilter_Sunset .rfLeft
+{
+	background-position:0 0;
+}
+
+.RadFilter_Sunset .rfRight
+{
+	background-position:100% 0;
+}
+
+.RadFilter_Sunset .rfMid,
+.RadFilter_Sunset .rfTools
+{
+	background-position:0 -100px;
+}
+
+.RadFilter_Sunset .rfField
+{
+	color:#333;
+}
+
+.RadFilter_Sunset .rfOper:hover,
+.RadFilter_Sunset .rfField:hover,
+.RadFilter_Sunset .rfExp:hover,
+.RadFilter_Sunset .rfOper:focus,
+.RadFilter_Sunset .rfField:focus,
+.RadFilter_Sunset .rfExp:focus,
+.RadFilter_Sunset .rfOper:active,
+.RadFilter_Sunset .rfField:active,
+.RadFilter_Sunset .rfExp:active
+{
+	background-position:100% -76px;
+	color:#982e00;
+}
+
+.RadFilter_Sunset .rfText
+{
+	border-color:#938879;
+	background-color:#fff;
+	color:#272722;
+}
+
+.RadFilter_Sunset .rfAddExp,
+.RadFilter_Sunset .rfAddGr,
+.RadFilter_Sunset .rfDel
+{
+	height:20px;
+	margin-top:3px;
+}
+
+.RadFilter_Sunset .rfAddExp
+{
+	background-position:-300px 0;
+}
+.RadFilter_Sunset .rfAddExp:hover
+{
+	background-position:-350px 0;
+}
+
+.RadFilter_Sunset .rfAddGr
+{
+	background-position:-400px 0;
+}
+.RadFilter_Sunset .rfAddGr:hover
+{
+	background-position:-450px 0;
+}
+
+.RadFilter_Sunset .rfDel
+{
+	background-position:-150px 0;
+}
+.RadFilter_Sunset .rfDel:hover
+{
+	background-position:-200px 0;
+}
+
+/*preview*/
+
+.RadFilter_Sunset .rfPreview strong
+{
+	color:#000;
+}
+
+.RadFilter_Sunset .rfPreview em,
+.RadFilter_Sunset .rfPreview .rfBr
+{
+	color:#5a5a5a;
+}
+
+/*apply*/
+
+.RadFilter_Sunset .rfApply a
+{
+	background-position:100% -29px;
+}
+.RadFilter_Sunset .rfApply input
+{
+	background-position:0 -50px;
+}
+.RadFilter_Sunset .rfApply input
+{
+	color:#000;
+}
+.RadFilter_Sunset .rfApply a:hover input
+{
+	color:#3d1400;
+}
+
+/*rtl*/
+
+.RadFilterRTL_Sunset .rfLines li li
+{
+	background-image:url('Filter/rfLine-rtl.gif');
+}
+
+.RadFilterRTL_Sunset .rfLines li li .rfDiv
+{
+	background-image:url('Filter/rfMiddle-rtl.gif');
+}
+
+.RadFilterRTL_Sunset .rfLines li li.rfLast .rfDiv
+{
+	background-image:url('Filter/rfLast-rtl.gif');
+}
+
+.RadFilterRTL_Sunset .rfLeft
+{
+	background-position:100% 0;
+}
+
+.RadFilterRTL_Sunset .rfRight
+{
+	background-position:0 0;
+}
+
+.RadFilterRTL_Sunset .rfOper:hover,
+.RadFilterRTL_Sunset .rfField:hover,
+.RadFilterRTL_Sunset .rfExp:hover,
+.RadFilterRTL_Sunset .rfOper:focus,
+.RadFilterRTL_Sunset .rfField:focus,
+.RadFilterRTL_Sunset .rfExp:focus,
+.RadFilterRTL_Sunset .rfOper:active,
+.RadFilterRTL_Sunset .rfField:active,
+.RadFilterRTL_Sunset .rfExp:active
+{
+	background-position:-586px -76px;
+}

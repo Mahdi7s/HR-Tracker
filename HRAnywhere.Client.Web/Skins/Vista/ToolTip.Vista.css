@@ -1,0 +1,47 @@
+/* RadToolTip Vista Skin */
+
+.RadToolTip_Vista.rtLoading
+{	
+	background: url('Common/loading.gif') no-repeat center;
+}
+
+div.RadToolTip_Vista table.rtWrapper td.rtWrapperTopLeft,
+div.RadToolTip_Vista table.rtWrapper td.rtWrapperTopRight,
+div.RadToolTip_Vista table.rtWrapper td.rtWrapperBottomLeft,
+div.RadToolTip_Vista table.rtWrapper td.rtWrapperBottomRight,
+div.RadToolTip_Vista table.rtWrapper td.rtWrapperTopCenter,
+div.RadToolTip_Vista table.rtWrapper td.rtWrapperBottomCenter,
+div.RadToolTip_Vista table.rtShadow td.rtWrapperTopLeft,
+div.RadToolTip_Vista table.rtShadow td.rtWrapperTopRight,
+div.RadToolTip_Vista table.rtShadow td.rtWrapperBottomLeft,
+div.RadToolTip_Vista table.rtShadow td.rtWrapperBottomRight,
+div.RadToolTip_Vista table.rtShadow td.rtWrapperTopCenter,
+div.RadToolTip_Vista table.rtShadow td.rtWrapperBottomCenter,
+div.RadToolTip_Vista a.rtCloseButton
+{
+	background-image: url('ToolTip/ToolTipSprites.png');
+}
+
+div.RadToolTip_Vista table.rtWrapper td.rtWrapperLeftMiddle,
+div.RadToolTip_Vista table.rtWrapper td.rtWrapperRightMiddle,
+div.RadToolTip_Vista table.rtShadow td.rtWrapperLeftMiddle,
+div.RadToolTip_Vista table.rtShadow td.rtWrapperRightMiddle
+{
+	background-image:  url('ToolTip/ToolTipVerticalSprites.png');
+}
+
+div.RadToolTip_Vista table.rtWrapper td.rtWrapperContent
+{
+	background-color: #e4e5f0;	
+	color: #666;
+}
+
+div.RadToolTip_Vista div.rtTitlebar
+{	
+	color: #666;
+}
+
+div.RadToolTip_Vista div.rtCallout
+{
+	background-image: url('ToolTip/Callouts.gif');
+}

@@ -1,0 +1,154 @@
+.RadTabStrip_Transparent .rtsLI,
+.RadTabStrip_Transparent .rtsLink
+{
+	color: #000000;
+	font: 12px/26px Tahoma, Arial, sans-serif;
+}
+
+.RadTabStrip_Transparent .rtsLevel1 .rtsLI,
+.RadTabStrip_Transparent .rtsLevel1 .rtsLink
+{
+	color: #000000;
+}
+
+.RadTabStrip_Transparent .rtsLevel .rtsLink:hover,
+.RadTabStrip_Transparent .rtsLevel .rtsSelected,
+.RadTabStrip_Transparent .rtsLevel .rtsSelected:hover
+{
+	text-decoration: underline;
+}
+
+.RadTabStrip_Transparent .rtsLevel1 .rtsLink:hover,
+.RadTabStrip_Transparent .rtsLevel1 .rtsSelected,
+.RadTabStrip_Transparent .rtsLevel1 .rtsSelected:hover
+{
+	text-decoration: none;
+}
+
+.RadTabStrip_Transparent .rtsLevel .rtsSelected,
+.RadTabStrip_Transparent .rtsLevel .rtsSelected:hover {
+	color: #000000;
+}
+
+.RadTabStripLeft_Transparent .rtsSeparator,
+.RadTabStripRight_Transparent .rtsSeparator
+{
+	background: transparent;
+}
+
+/* <focus cue> */
+div.RadTabStrip_Transparent a.rtsLink:focus
+{
+	outline-color: #6f6f6f;
+}
+
+div.RadTabStrip_Transparent a.rtsLink:focus:after
+{
+	border-color /*\**/: #6f6f6f\9;
+}
+/* </focus cue> */
+
+/* <disabled tabs> */
+.RadTabStrip_Transparent .rtsLevel .rtsDisabled
+{
+	color: #666;
+}
+/* </disabled tabs> */
+
+/* <scrolling arrows> */
+.RadTabStrip_Transparent .rtsNextArrow,
+.RadTabStrip_Transparent .rtsPrevArrow,
+.RadTabStrip_Transparent .rtsPrevArrowDisabled,
+.RadTabStrip_Transparent .rtsNextArrowDisabled
+{
+	background-image: url('TabStrip/TabStripStates.png');
+}
+/* </scrolling arrows> */
+
+/* <tab backgrounds> */
+
+.RadTabStrip_Transparent .rtsLevel { background: transparent; }
+
+.RadTabStrip_Transparent .rtsLevel1 { background-color: transparent; }
+.RadTabStripTop_Transparent .rtsLevel2 { background: transparent url('TabStrip/Level2Bg.png') repeat-x 0 0; }
+
+.RadTabStripTop_Transparent .rtsLevel .rtsLink,
+.RadTabStripTop_Transparent .rtsLevel .rtsOut { background-image: none; }
+
+.RadTabStripTop_Transparent .rtsLevel1 .rtsLink,
+.RadTabStripTop_Transparent .rtsLevel1 .rtsOut,
+.RadTabStripBottom_Transparent .rtsLevel1 .rtsLink,
+.RadTabStripBottom_Transparent .rtsLevel1 .rtsOut,
+.RadTabStripTop_Transparent .rtsLevel1,
+.RadTabStripBottom_Transparent .rtsLevel1 { background-image: url('TabStrip/TabStripStates.png'); }
+
+.RadTabStripLeft_Transparent .rtsLink,
+.RadTabStripRight_Transparent .rtsLink { background-image: url('TabStrip/TabStripVStates.png'); }
+
+.RadTabStripLeft_Transparent .rtsLast .rtsLink,
+.RadTabStripRight_Transparent .rtsLast .rtsLink
+{
+	border-bottom: 1px solid #5e5e5e;
+}
+
+.RadTabStripRight_Transparent .rtsLink,
+.RadTabStripRight_Transparent .rtsLI .rtsDisabled:hover { background-position: 100% 0; }
+.RadTabStripRight_Transparent .rtsLink:hover { background-position: 100% -200px; }
+.RadTabStripRight_Transparent .rtsSelected,
+.RadTabStripRight_Transparent .rtsSelected:hover { background-position: 100% -400px; }
+/* </tab backgrounds> */
+
+
+/* <background positioning: tabs with hovers> */
+
+/* <orientation: top> */
+
+.RadTabStripTop_Transparent .rtsLevel1 .rtsLink { background-position: 0 0; }
+.RadTabStripTop_Transparent .rtsLevel1 .rtsOut { background-position: 100% 0; }
+
+.RadTabStripTop_Transparent .rtsLevel1 .rtsLink:hover { background-position: 0 -52px; }
+.RadTabStripTop_Transparent .rtsLevel1 .rtsLink:hover .rtsOut { background-position: 100% -52px; }
+
+.RadTabStripTop_Transparent .rtsLevel1 .rtsSelected,
+.RadTabStripTop_Transparent .rtsLevel1 .rtsSelected:hover { background-position: 0 -26px; }
+.RadTabStripTop_Transparent .rtsLevel1 .rtsSelected .rtsOut,
+.RadTabStripTop_Transparent .rtsLevel1 .rtsSelected:hover .rtsOut { background-position: 100% -26px; }
+
+.RadTabStripTop_Transparent .rtsLevel1 .rtsDisabled:hover { background-position: 0 0; }
+.RadTabStripTop_Transparent .rtsLevel1 .rtsDisabled:hover .rtsOut { background-position: 100% 0; }
+
+.RadTabStripTop_Transparent .rtsLevel1 { background-position: 0 100%; background-repeat: repeat-x; }
+
+/* </orientation: top> */
+
+/* <orientation: bottom> */
+
+.RadTabStripBottom_Transparent .rtsLevel1 .rtsLink { background-position: 0 -182px; }
+.RadTabStripBottom_Transparent .rtsLevel1 .rtsOut { background-position: 100% -182px; }
+
+.RadTabStripBottom_Transparent .rtsLevel1 .rtsLink:hover { background-position: 0 -130px; }
+.RadTabStripBottom_Transparent .rtsLevel1 .rtsLink:hover .rtsOut { background-position: 100% -130px; }
+
+.RadTabStripBottom_Transparent .rtsLevel1 .rtsSelected,
+.RadTabStripBottom_Transparent .rtsLevel1 .rtsSelected:hover { background-position: 0 -156px; }
+.RadTabStripBottom_Transparent .rtsLevel1 .rtsSelected .rtsOut,
+.RadTabStripBottom_Transparent .rtsLevel1 .rtsSelected:hover .rtsOut { background-position: 100% -156px; }
+
+.RadTabStripBottom_Transparent .rtsLevel1 .rtsDisabled:hover { background-position: 0 -182px; }
+.RadTabStripBottom_Transparent .rtsLevel1 .rtsDisabled:hover .rtsOut { background-position: 100% -182px; }
+
+.RadTabStripBottom_Transparent .rtsLevel1 { background-position: 0 -599px; background-repeat: repeat-x; }
+
+/* </orientation: bottom> */
+
+/* <orientation: right> */
+
+.RadTabStripRight_Transparent .rtsUL .rtsLink,
+.RadTabStripRight_Transparent .rtsUL .rtsLI .rtsDisabled:hover { background-position: 100% 0; text-align: left; }
+.RadTabStripRight_Transparent .rtsUL .rtsLink:hover { background-position: 100% -200px; }
+.RadTabStripRight_Transparent .rtsUL .rtsSelected,
+.RadTabStripRight_Transparent .rtsUL .rtsSelected:hover { background-position: 100% -400px; }
+
+/* </orientation: right> */
+
+/* </background positioning: tabs with hovers> */

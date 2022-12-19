@@ -1,0 +1,257 @@
+/* RadWindow for ASP.NET AJAX Black Skin */
+
+/* Window Background */
+
+/* Horiznotal */
+.RadWindow_Black .rwTopLeft,
+.RadWindow_Black .rwTopRight,
+.RadWindow_Black .rwTitlebar,
+.RadWindow_Black .rwFooterLeft,
+.RadWindow_Black .rwFooterRight,
+.RadWindow_Black .rwFooterCenter,
+.RadWindow_Black .rwTopResize,
+.RadWindow_Black .rwStatusbar div,
+.RadWindow_Black .rwStatusbar,
+.RadWindow_Black .rwPopupButton,
+.RadWindow_Black .rwPopupButton span,
+.RadWindow_Black.rwMinimizedWindow .rwCorner
+{
+    background-image: url('Window/WindowHorizontalSprites.gif');
+}
+
+/* Vertical */
+.RadWindow_Black .rwBodyLeft,
+.RadWindow_Black .rwBodyRight,
+.RadWindow_Black .rwStatusbarRow .rwCorner
+{
+	background-image: url('Window/WindowVerticalSprites.gif');
+}
+
+/* Window Shadows */
+
+/* Horiznotal */
+.RadWindow_Black .rwShadow .rwTopLeft,
+.RadWindow_Black .rwShadow .rwTopRight,
+.RadWindow_Black .rwShadow .rwTitlebar,
+.RadWindow_Black .rwShadow .rwFooterLeft,
+.RadWindow_Black .rwShadow .rwFooterRight,
+.RadWindow_Black .rwShadow .rwFooterCenter,
+.RadWindow_Black .rwShadow .rwTopResize,
+.RadWindow_Black .rwShadow .rwStatusbar div,
+.RadWindow_Black .rwShadow .rwStatusbar,
+.RadWindow_Black .rwShadow .rwPopupButton,
+.RadWindow_Black .rwShadow .rwPopupButton span,
+.RadWindow_Black .rwShadow .rwBodyLeft,
+.RadWindow_Black .rwShadow .rwBodyRight,
+.RadWindow_Black .rwShadow .rwStatusbarRow .rwBodyLeft,
+.RadWindow_Black .rwShadow .rwStatusbarRow .rwBodyRight
+{
+	background-image: url('Window/WindowHorizontalSprites.png');
+}
+
+/* Vertical */
+.RadWindow_Black .rwShadow .rwBodyLeft,
+.RadWindow_Black .rwShadow .rwBodyRight,
+.RadWindow_Black .rwShadow .rwStatusbarRow .rwBodyLeft,
+.RadWindow_Black .rwShadow .rwStatusbarRow .rwBodyRight
+{
+	background-image: url('Window/WindowVerticalSprites.png');
+}
+
+/* Shadows End */
+
+.RadWindow_Black .rwStatusbar input
+{
+    color: #d7d7d7;
+}
+
+.RadWindow_Black .rwControlButtons
+{
+    margin-top: 1px;
+}
+
+.RadWindow_Black .rwControlButtons a
+{
+    background-image: url('Window/CommandButtonSprites.gif');
+}
+
+.RadWindow_Black a.rwIcon
+{
+	background-image: url('Window/WindowHorizontalSprites.gif');
+}
+
+div.RadWindow_Black .rwTitlebarControls em
+{
+	color: #d7d7d7;
+}
+
+div.RadWindow_Black .rwDialogInput
+{
+	border: solid 1px #080808;
+	background-color: #454545;
+	background-position: 0 -322px;
+	background-repeat: repeat-x;
+	color: white;
+}
+
+div.RadWindow_Black .rwDialogInput:hover
+{
+	border: solid 1px #5c5c5c;
+	background-position: 0 -360px;
+	background-color: #444;
+	background-repeat: repeat-x;
+}
+
+.RadWindow_Black .rwPopupButton span
+{
+    color: #fff;
+}
+
+.RadWindow_Black .rwPopupButton:hover span
+{
+    color: #9eda29;
+}
+
+.RadWindow_Black td.rwWindowContent,
+.RadWindow_Black .rwStatusbar 
+{
+    background-color: #080808;
+}
+
+/* Set white background for the IFRAME parent */
+.RadWindow_Black td.rwExternalContent{
+	background-color: #fff;
+}
+
+.RadWindow_Black .rwDialogPopup
+{
+    color: #fff;
+}
+
+/* Loading Indicators */
+.RadWindow_Black tr td.rwLoading
+{
+	background-color: #000;
+}
+
+/* When ShowContentDuringLoad="true" */
+.RadWindow_Black td.rwWindowContent.rwLoading
+{
+    background-image: url('Common/loading.gif');
+}
+
+/* When ShowContentDuringLoad="false" */
+.RadWindow_Black input.rwLoading
+{
+    background-image: url('Common/loading_small.gif');
+}
+
+div.RadWindow_Black a.rwCancel,
+div.RadWindow_Black a.rwCancel span
+{
+    background: none;
+    cursor: pointer;
+}
+
+div.RadWindow_Black a.rwCancel span span
+{
+    color: #9eda29;
+}
+
+/* Shadow Control Buttons */
+
+.RadWindow_Black .rwShadow .rwControlButtons 
+{
+	margin: 5px -2px 0 0;
+}
+
+.RadWindow_Black .rwShadow .rwControlButtons 
+{
+	margin: 5px -1px 0 0\9;
+}
+
+/* ctrl buttons when winodw is minimized */
+.RadWindow_Black.rwMinimizedWindowShadow .rwShadow .rwControlButtons 
+{
+	margin: 9px -8px 0 0;
+}
+
+
+/* Icon when winodw is minimized */
+.RadWindow_Black.rwMinimizedWindowShadow .rwShadow .rwIcon 
+{
+	margin: 9px 6px 0 0;
+}
+
+/*title buttons when winodw is minimized */
+.RadWindow_Black.rwMinimizedWindowShadow .rwShadow em 
+{
+	margin: 4px 0 0 -1px;
+}
+
+.RadWindow_Black .rwShadow .rwControlButtons li
+{
+	float: left;
+	padding: 0;
+}
+
+.RadWindow_Black .rwShadow .rwControlButtons a
+{
+	width: 26px; 
+}
+
+/*overwriting some positions from the base css when window is minimized*/
+
+.RadWindow.rwMinimizedWindow .rwShadow .rwFooterLeft 
+{
+	background-position: 0 -431px !important;
+}
+.RadWindow.rwMinimizedWindow .rwShadow .rwFooterCenter 
+{
+	background-position: 0 -461px !important;
+}
+.RadWindow.rwMinimizedWindow .rwShadow .rwFooterRight 
+{
+	background-position: 0 -446px !important;
+}
+
+.rwInactiveWindow .rwShadow .rwTopLeft,
+.rwInactiveWindow .rwShadow .rwTopRight,
+.rwInactiveWindow .rwShadow .rwTitlebar,
+.rwInactiveWindow .rwShadow .rwFooterLeft,
+.rwInactiveWindow .rwShadow .rwFooterRight,
+.rwInactiveWindow .rwShadow .rwFooterCenter,
+.rwInactiveWindow .rwShadow .rwTopResize,
+.rwInactiveWindow .rwShadow .rwStatusbar div,
+.rwInactiveWindow .rwShadow .rwStatusbar,
+.rwInactiveWindow .rwShadow .rwPopupButton,
+.rwInactiveWindow .rwShadow .rwPopupButton span,
+.rwInactiveWindow .rwShadow.rwMinimizedWindow .rwCorner,
+.RadWindow_Black.rwNoTitleBar.rwInactiveWindow .rwShadow .rwTopLeft,
+.RadWindow_Black.rwNoTitleBar.rwInactiveWindow .rwShadow .rwTitlebar,
+.RadWindow_Black.rwNoTitleBar.rwInactiveWindow .rwShadow .rwTopRight,
+.RadWindow_Black.rwNoTitleBar.rwInactiveWindow .rwShadow .rwFooterLeft,
+.RadWindow_Black.rwNoTitleBar.rwInactiveWindow .rwShadow .rwFooterCenter,
+.RadWindow_Black.rwNoTitleBar.rwInactiveWindow .rwShadow .rwFooterRight
+{
+    background-image: url('Window/WindowHorizontalSprites.gif') !important;
+}
+
+.rwInactiveWindow .rwShadow .rwBodyLeft,
+.rwInactiveWindow .rwShadow .rwBodyRight,
+.rwInactiveWindow .rwShadow .rwStatusbarRow .rwCorner,
+.RadWindow_Black.rwNoTitleBar.rwInactiveWindow .rwShadow .rwBodyLeft,
+.RadWindow_Black.rwNoTitleBar.rwInactiveWindow .rwShadow .rwBodyRight
+{
+	background-image: url('Window/WindowVerticalSprites.gif') !important;
+}
+
+div.RadWindow_Black .rwWindowContent .radconfirm
+{
+    background-image: url('../Common/ModalDialogConfirmDark.gif');	
+}
+
+div.RadWindow_Black .rwWindowContent .radalert
+{
+    background-image: url('../Common/ModalDialogAlertDark.gif');	
+}

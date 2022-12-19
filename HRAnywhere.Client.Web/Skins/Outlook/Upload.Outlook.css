@@ -1,0 +1,161 @@
+/* RadUpload / Outlook skin */
+
+/* <general styles> */
+
+.RadUpload_Outlook,
+.RadUpload_Outlook a,
+.RadUpload_Outlook input,
+.RadUploadProgressArea_Outlook,
+.RadUploadProgressArea_Outlook input
+{
+    font: normal 11px/10px "Segoe UI", Arial, sans-serif;
+}
+
+/* </general styles> */
+
+/* <file inputs> */
+
+.RadUpload_Outlook .ruStyled .ruFileInput
+{
+    border-color: #abc1de;
+}
+
+.RadUpload_Outlook input.ruFakeInput
+{
+    border-color: #abc1de;
+    color: #000;
+    background-image: url('Upload/ruSprite.png');
+}
+* html .RadUpload_Outlook .ruFileWrap .ruInputHover { border-color: #7b91ae; }
+*+html .RadUpload_Outlook .ruFileWrap .ruInputHover { border-color: #7b91ae; }
+
+.RadUpload_Outlook .ruReadOnly .ruFakeInput
+{
+	background: #f3f3f3;
+}
+
+/* </file inputs> */
+
+/* <buttons> */
+
+.RadUpload_Outlook .ruButton,
+.RadUploadProgressArea_Outlook .ruButton
+{
+    background-image: url('Upload/ruSprite.png');
+    color: #212120;
+}
+
+.RadUpload_Outlook .ruRemove
+{
+	color: #000;
+}
+
+div.RadUpload_Outlook .ruInputs .ruButtonHover,
+div.RadUpload_Outlook .ruActions .ruButtonHover,
+div.RadUploadProgressArea_Outlook .ruActions .ruButtonHover
+{
+    background-position: 100% -23px;
+    color: #000;
+}
+
+div.RadUpload_Outlook .ruFileWrap .ruButtonHover
+{
+    background-position: 100% 0;
+    color: #000;
+}
+
+/* </buttons> */
+
+/* <submit button> */
+/* (use this class to style a single button for uploads) */
+
+.RadUploadSubmit
+{
+    background-image: url('Upload/ruSprite.png');
+    color: #212120;
+}
+
+/* </submit button> */
+
+/* <progress area> */
+
+.RadUploadProgressArea_Outlook .ruProgress
+{
+    border-color: #002d96;
+    background-image: url('Upload/ruSprite.png');
+    background-color: #fff;
+}
+
+.RadUploadProgressArea_Outlook .ruProgress li
+{
+    color: #000;
+}
+
+.RadUploadProgressArea_Outlook li.ruProgressHeader
+{
+    color: #0045d6;
+}
+
+.RadUploadProgressArea_Outlook .ruProgress li.ruCurrentFile
+{
+    color: #000;
+}
+
+.RadUploadProgressArea_Outlook .ruProgress .ruBar
+{
+    border-color: #abc1de;
+    background-image: url('Upload/ruSprite.png');
+}
+ 
+.RadUploadProgressArea_Outlook .ruProgress .ruBar div
+{
+    background-image: url('Upload/ruProgress.gif');
+    border-right: 1px solid #eab96e;
+}
+
+.RadUploadProgressArea_Outlook_rtl .ruProgress .ruBar div
+{
+    background-image: url('Upload/ruProgress.gif');
+    border-right: 0;
+    border-left: 1px solid #eab96e;
+}
+ 
+.RadUploadProgressArea_Outlook .ruProgress .ruActions
+{
+	border-top-color: #89aee5;
+	background: #d6e5f3;
+}
+
+/* </progress area> */
+
+/* <RadAsyncUpload> */
+
+.RadUpload_Outlook input.ruUploadInvalid
+{
+    background-repeat: no-repeat;
+    background-position: 100% -297px;
+    background-image: url('Input/sprite.gif');
+}
+
+.RadUpload_Outlook_rtl input.ruUploadInvalid
+{
+    background-position: 3px -297px;
+}
+
+.RadUpload_Outlook .ruFileProgress,
+.RadUpload_Outlook .ruFileProgressWrap
+{
+    background-image: url('Upload/AsyncProgress.png');
+}
+
+.RadUpload_Outlook .ruFileProgress,
+.RadUpload_Outlook_rtl .ruFileProgressWrap { background-position: 0 0; }
+.RadUpload_Outlook .ruFileProgressWrap,
+.RadUpload_Outlook_rtl .ruFileProgress { background-position: 100% 0; }
+
+.RadUpload_Outlook .ruProgressStarted,
+.RadUpload_Outlook_rtl .ruProgressComplete { background-position: 0 -5px; }
+.RadUpload_Outlook .ruProgressComplete,
+.RadUpload_Outlook_rtl .ruProgressStarted { background-position: 100% -5px; }
+
+/* </RadAsyncUpload> */

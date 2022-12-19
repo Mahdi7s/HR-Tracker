@@ -1,0 +1,66 @@
+/* RadColorPicker Default skin */
+.RadColorPicker_Default .rcpViews,
+.RadColorPicker_Default .rcpHeader,
+.RadColorPicker_Default .rcpPageView
+{
+	background-color: #f5f5f5;
+}
+
+.RadColorPicker_Default .rcpColorPreview,
+.RadColorPicker_Default .rcpInput,
+.RadColorPicker_Default .rcpHexInput,
+.RadColorPicker_Default .rcpMillionColorsPalette,
+.RadColorPicker_Default .rcpMillionColorsSlider div.rslTrack
+{
+	border:1px solid;
+	border-color:#bbb #fff #fff #bbb;
+}
+
+.RadColorPicker_Default .rcpPalette,
+.RadColorPicker_Default input,
+.RadColorPicker_Default a
+{
+	color:#000;
+}
+
+.RadColorPicker_Default .rcpHeader,
+.RadColorPicker_Default .rcpHeader .rcpImageButton,
+.RadColorPicker_Default .rcpRecentColors,
+.RadColorPicker_Default .rcpIcon a,
+.RadColorPicker_Default .rcpTabs a,
+.RadColorPicker_Default .rcpTabs a span,
+.RadColorPicker_Default .rcpButton,
+.RadColorPicker_Default .rcpButton span,
+.RadColorPicker_Default .rcpMillionColorsHandle,
+.RadColorPicker_Default .rcpSlider div.rslTrack,
+/* overwrite sliders */
+.RadColorPicker_Default .rcpSlider .rslTrack a.rslDraghandle,
+.RadColorPicker_Default div.rcpMillionColorsSlider div.rslVertical a.rslDraghandle
+{
+	background-image:url('ColorPicker/ColorPickerSprites.png');
+	background-repeat:no-repeat;
+}
+
+/* Rounded corners and shadows */
+.RadColorPicker_Default .rcpPalette,
+.RadColorPicker_Default .rcpRoundedRight,
+.RadColorPicker_Default .rcpRoundedBottomRight,
+.RadColorPicker_Default .rcpRightShadow,
+.RadColorPicker_Default .rcpCornerShadow
+{
+	background-image:url('ColorPicker/rcpVerticalSprites.png');
+}
+
+.RadColorPicker_Default .rcpRoundedBottomLeft,
+.RadColorPicker_Default .rcpBottomShadow
+{
+	background-image:url('ColorPicker/ColorPickerSprites.png');
+}
+
+* html .RadColorPicker_Default .rcpPalette,
+* html .RadColorPicker_Default .rcpRoundedRight,
+* html .RadColorPicker_Default .rcpRoundedBottomRight,
+* html .RadColorPicker_Default .rcpRoundedBottomLeft
+{
+	background-image:url('ColorPicker/rcpVerticalSpritesIE6.png');
+}

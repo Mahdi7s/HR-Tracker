@@ -1,0 +1,235 @@
+.RadPanelBar_Office2010Blue
+{
+	background: #bccadd;
+}
+
+.RadPanelBar_Office2010Blue .rpRootGroup
+{
+	border-color: #384e73;
+}
+
+.RadPanelBar_Office2010Blue a.rpLink,
+.RadPanelBar_Office2010Blue div.rpHeaderTemplate,
+.RadPanelBar_Office2010Blue .rpTemplate
+{
+	color: #384e73;
+	font: normal 12px/24px "Segoe UI", Arial, sans-serif;
+}
+
+.RadPanelBar_Office2010Blue div.rpHeaderTemplate,
+.RadPanelBar_Office2010Blue a.rpLink
+{
+	background-color: #bdcbde;
+	background-image: url('PanelBar/RootItemBg.png');
+	border-color: #8ba0bc;
+}
+
+.RadPanelBar_Office2010Blue .rpOut
+{
+	border-color: #8ba0bc;
+}
+
+.RadPanelBar_Office2010Blue a.rpLink:hover
+{
+	color: #1e395b;
+	background-color: #fcf5d9;
+	border-color: #f3d64a;
+}
+
+.RadPanelBar_Office2010Blue a.rpFocused,
+.RadPanelBar_Office2010Blue a.rpExpanded,
+.RadPanelBar_Office2010Blue a.rpSelected,
+.RadPanelBar_Office2010Blue div.rpFocused,
+.RadPanelBar_Office2010Blue div.rpExpanded,
+.RadPanelBar_Office2010Blue div.rpSelected,
+.RadPanelBar_Office2010Blue a.rpSelected:hover
+{
+	background-color: #9fb7d6;
+	border-color: #8ba0bc;
+}
+
+/* <disabled items> */
+.RadPanelBar_Office2010Blue a.rpDisabled,
+.RadPanelBar_Office2010Blue div.rpDisabled,
+.RadPanelBar_Office2010Blue a.rpDisabled:hover
+{
+	color: #bbb;
+}
+
+.RadPanelBar_Office2010Blue a.rpDisabled:hover .rpOut
+{
+	border-color: #8ba0bc;
+}
+/* </disabled items> */
+
+/* <subitems> */
+.RadPanelBar_Office2010Blue .rpGroup
+{
+	background-color: #bccadd;
+}
+
+.RadPanelBar_Office2010Blue .rpGroup a.rpLink,
+.RadPanelBar_Office2010Blue .rpGroup div.rpHeaderTemplate,
+.RadPanelBar_Office2010Blue .rpGroup .rpTemplate
+{
+	color: #384e73;
+	background-color: transparent;
+	background-image: none;
+}
+
+.RadPanelBar_Office2010Blue .rpGroup a.rpLink:hover,
+.RadPanelBar_Office2010Blue .rpGroup a.rpSelected
+{
+	color: #1e395b;
+}
+
+.RadPanelBar_Office2010Blue .rpGroup a.rpLink,
+.RadPanelBar_Office2010Blue .rpGroup .rpOut
+{
+	background-color: transparent;
+	background-image: url('PanelBar/SubItemStates.png');
+	background-repeat: no-repeat;
+}
+
+.RadPanelBar_Office2010Blue .rpGroup a.rpLink:hover
+{
+    background-color: transparent;
+}
+
+/* <subitems (disabled)> */
+.RadPanelBar_Office2010Blue ul.rpGroup .rpDisabled,
+.RadPanelBar_Office2010Blue .rpGroup a.rpDisabled:hover,
+.RadPanelBar_Office2010Blue .rpGroup a.rpDisabled:hover .rpOut
+{
+	background-image: none;
+}
+
+.RadPanelBar_Office2010Blue ul.rpGroup .rpDisabled,
+.RadPanelBar_Office2010Blue .rpGroup a.rpDisabled:hover
+{
+	color: #bbb;
+	text-decoration: none;
+	/*background-color: #fff;*/
+}
+/* </subitems (disabled)> */
+
+/* <subitems> */
+
+/* <background positioning> */
+.RadPanelBar_Office2010Blue a.rpFocused,
+.RadPanelBar_Office2010Blue div.rpFocused,
+.RadPanelBar_Office2010Blue a.rpLink:hover,
+.RadPanelBar_Office2010Blue a.rpExpanded:hover
+{
+	background-position: 0 -200px;
+}
+
+.RadPanelBar_Office2010Blue a.rpLink,
+.RadPanelBar_Office2010Blue div.rpHeaderTemplate,
+.RadPanelBar_Office2010Blue a.rpExpanded,
+.RadPanelBar_Office2010Blue div.rpExpanded,
+.RadPanelBar_Office2010Blue .rpItem a.rpLinkExpandHovered
+{
+	background-position: 0 0;
+}
+
+.RadPanelBar_Office2010Blue a.rpSelected,
+.RadPanelBar_Office2010Blue div.rpSelected,
+.RadPanelBar_Office2010Blue a.rpSelected:hover
+{
+	background-position: 0 -400px;
+}
+
+.RadPanelBar_Office2010Blue .rpFirst a.rpLink,
+.RadPanelBar_Office2010Blue .rpFirst div.rpHeaderTemplate,
+.RadPanelBar_Office2010Blue li.rpFirst .rpExpanded
+{
+	background-position: 0 -1px;
+}
+
+.RadPanelBar_Office2010Blue li.rpFirst .rpFocused,
+.RadPanelBar_Office2010Blue .rpFirst a.rpLink:hover
+{
+	background-position: 0 -201px;
+}
+
+.RadPanelBar_Office2010Blue li.rpFirst .rpSelected,
+.RadPanelBar_Office2010Blue .rpFirst a.rpSelected:hover
+{
+	background-position: 0 -401px;
+}
+
+/* <root items (disabled)> */
+.RadPanelBar_Office2010Blue a.rpDisabled:hover
+{
+	cursor: default;
+}
+
+.RadPanelBar_Office2010Blue a.rpDisabled,
+.RadPanelBar_Office2010Blue div.rpDisabled,
+.RadPanelBar_Office2010Blue a.rpDisabled:hover,
+.RadPanelBar_Office2010Blue a.rpDisabled:hover .rpOut
+{
+	background-position: 0 0;
+}
+/* </root items (disabled)> */
+
+/*      <expand arrows> */
+/* <expand arrows> */
+.RadPanelBar_Office2010Blue .rpExpandable span.rpExpandHandle,
+.RadPanelBar_Office2010Blue .rpExpanded span.rpExpandHandle
+{
+	background-color: transparent;
+	background-image: url('PanelBar/Expandable.png');
+	background-repeat: no-repeat;
+}
+
+.RadPanelBar_Office2010Blue_rtl .rpGroup .rpText
+{
+	padding: 0 10px;
+}
+
+.RadPanelBar_Office2010Blue .rpExpandable span.rpExpandHandle,
+.RadPanelBar_Office2010Blue a.rpExpandable:hover .rpNavigation .rpExpandHandle { background-position: 0 -5px; }
+.RadPanelBar_Office2010Blue a.rpExpandable:hover .rpExpandHandle,
+.RadPanelBar_Office2010Blue a.rpExpandable:hover .rpNavigation .rpExpandHandleHovered { background-position: 100% -5px; }
+.RadPanelBar_Office2010Blue .rpExpanded span.rpExpandHandle,
+.RadPanelBar_Office2010Blue a.rpExpanded:hover .rpNavigation .rpExpandHandle { background-position: 0 -181px; }
+.RadPanelBar_Office2010Blue a.rpExpanded:hover .rpExpandHandle,
+.RadPanelBar_Office2010Blue a.rpExpanded:hover .rpNavigation .rpExpandHandleHovered { background-position: 100% -181px; }
+
+.RadPanelBar_Office2010Blue div.rpExpandable .rpExpandHandleHovered { background-position: 0 -5px; }
+.RadPanelBar_Office2010Blue div.rpExpanded .rpExpandHandleHovered { background-position: 0 -181px; }
+
+/*      </expand arrows> */
+
+.RadPanelBar_Office2010Blue .rpGroup a.rpLink,
+.RadPanelBar_Office2010Blue .rpGroup div.rpHeaderTemplate,
+.RadPanelBar_Office2010Blue .rpGroup a.rpLink .rpOut { background-position: 0 200px; }
+
+.RadPanelBar_Office2010Blue .rpGroup a.rpLink:hover,
+.RadPanelBar_Office2010Blue ul.rpGroup .rpFocused { background-position: 100% -22px; }
+.RadPanelBar_Office2010Blue .rpGroup a.rpLink:hover .rpOut,
+.RadPanelBar_Office2010Blue .rpGroup a.rpFocused .rpOut { background-position: 0 0; }
+
+/*      <subitems (selected)> */
+.RadPanelBar_Office2010Blue ul.rpGroup .rpSelected,
+.RadPanelBar_Office2010Blue .rpGroup a.rpSelected:hover { background-position: 100% -222px; background-color: transparent; }
+.RadPanelBar_Office2010Blue .rpGroup a.rpSelected .rpOut,
+.RadPanelBar_Office2010Blue .rpGroup a.rpSelected:hover .rpOut { background-position: 0 -200px; }
+/*      </subitems (selected)> */
+
+/*      <subitems (expand arrows)> */
+.RadPanelBar_Office2010Blue ul.rpGroup .rpExpandable .rpExpandHandle,
+.RadPanelBar_Office2010Blue .rpGroup a.rpExpandable:hover .rpNavigation .rpExpandHandle { background-position: 0 -343px; }
+.RadPanelBar_Office2010Blue .rpGroup a.rpExpandable:hover .rpExpandHandle,
+.RadPanelBar_Office2010Blue .rpGroup a.rpExpandable:hover .rpNavigation .rpExpandHandleHovered { background-position: 100% -343px; }
+.RadPanelBar_Office2010Blue ul.rpGroup .rpExpanded .rpExpandHandle,
+.RadPanelBar_Office2010Blue .rpGroup a.rpExpanded:hover .rpNavigation .rpExpandHandle { background-position: 0 -482px; }
+.RadPanelBar_Office2010Blue .rpGroup a.rpExpanded:hover .rpExpandHandle,
+.RadPanelBar_Office2010Blue .rpGroup a.rpExpanded:hover .rpNavigation .rpExpandHandleHovered { background-position: 100% -482px; }
+
+.RadPanelBar_Office2010Blue .rpGroup div.rpExpandable .rpExpandHandleHovered { background-position: 0 -343px; }
+.RadPanelBar_Office2010Blue .rpGroup div.rpExpanded .rpExpandHandleHovered { background-position: 0 -482px; }
+/*      </subitems (expand arrows)> */
+/* </background positioning> */

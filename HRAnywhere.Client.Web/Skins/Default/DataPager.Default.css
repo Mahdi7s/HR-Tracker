@@ -1,0 +1,93 @@
+/*Telerik RadDataPager Default Skin*/
+
+.RadDataPager_Default
+{
+	border:1px solid #828282;
+	background:#eee;
+	color:#333;
+}
+
+.RadDataPager_Default .rdpPageFirst,
+.RadDataPager_Default .rdpPagePrev,
+.RadDataPager_Default .rdpPageNext,
+.RadDataPager_Default .rdpPageLast
+{
+	background:transparent no-repeat url('Grid/sprite.gif');
+}
+
+.RadDataPager_Default .rdpPageFirst
+{
+	background-position:0 -550px;
+}
+.RadDataPager_Default .rdpPageFirst:hover
+{
+	background-position:0 -600px;
+}
+.RadDataPager_Default .rdpPagePrev
+{
+	background-position:0 -700px;
+}
+.RadDataPager_Default .rdpPagePrev:hover
+{
+	background-position:0 -750px;
+}
+.RadDataPager_Default .rdpPageNext
+{
+	background-position:0 -850px;
+}
+.RadDataPager_Default .rdpPageNext:hover
+{
+	background-position:0 -900px;
+}
+.RadDataPager_Default .rdpPageLast
+{
+	background-position:0 -1000px;
+}
+.RadDataPager_Default .rdpPageLast:hover
+{
+	background-position:0 -1050px;
+}
+
+.RadDataPager_Default .rdpPagerButton
+{
+	border:1px solid;
+	border-color:#d0d0d0 #aeaeae #8b8b8b;
+	background:#e8e8e8 repeat-x 0 -1550px url('Grid/sprite.gif');
+	color:#000;
+	font:12px/12px "segoe ui",arial,sans-serif;
+}
+
+.RadDataPager_Default .rdpNumPart a:hover,
+.RadDataPager_Default .rdpNumPart a:hover span,
+.RadDataPager_Default .rdpNumPart a.rdpCurrentPage,
+.RadDataPager_Default .rdpNumPart a.rdpCurrentPage span
+{
+	background:no-repeat url('Grid/sprite.gif');
+}
+
+.RadDataPager_Default .rdpNumPart a
+{
+	color:#000;
+}
+
+.RadDataPager_Default .rdpNumPart a:hover
+{
+	background-position:100% -1250px;
+}
+
+.RadDataPager_Default .rdpNumPart a:hover span
+{
+	background-position:0 -1150px;
+}
+
+.RadDataPager_Default .rdpNumPart a.rdpCurrentPage,
+.RadDataPager_Default .rdpNumPart a.rdpCurrentPage:hover
+{
+	background-position:100% -1450px;
+}
+
+.RadDataPager_Default .rdpNumPart a.rdpCurrentPage span,
+.RadDataPager_Default .rdpNumPart a.rdpCurrentPage:hover span
+{
+	background-position:0 -1350px;
+}

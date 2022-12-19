@@ -1,0 +1,127 @@
+/* RadSlider for ASP.NET AJAX Telerik Skin */
+.RadSlider_Telerik .rslTrack
+{
+	border-color:#b9b9b9 #939393 #939393 #b9b9b9;
+}
+
+.RadSlider_Telerik .rslHorizontal a.rslHandle
+{
+	background-image:url('Slider/Handles.gif');
+}
+
+.RadSlider_Telerik .rslHorizontal a.rslDraghandle
+{
+	background-image:url('Slider/DragHandle.gif');
+}
+
+.RadSlider_Telerik .rslTop a.rslDraghandle
+{
+	background-image:url('Slider/DragHandleDown.gif');
+}
+
+.RadSlider_Telerik .rslHorizontal .rslTrack
+{
+	background:url('Slider/TrackBgr.gif') repeat-x;
+}
+
+.RadSlider_Telerik .rslHorizontal .rslSelectedregion
+{
+	background:url('Slider/SelectedRegionHorizontalBgr.gif') right top no-repeat;
+}
+
+/* vertical slider */
+.RadSlider_Telerik .rslVertical a.rslHandle
+{
+	background-image:url('Slider/HandlesVertical.gif');
+}
+
+.RadSlider_Telerik .rslVertical .rslTrack
+{
+	background:url('Slider/TrackVerticalBgr.gif') repeat-y;
+}
+
+.RadSlider_Telerik .rslVertical .rslSelectedregion
+{
+	background:url('Slider/SelectedRegionVerticalBgr.gif') left bottom no-repeat;
+}
+
+.RadSlider_Telerik .rslVertical a.rslDraghandle
+{
+	background:url('Slider/DragVerticalHandle.gif') no-repeat;
+}
+
+.RadSlider_Telerik .rslLeft a.rslDraghandle
+{
+	background:url('Slider/DragVerticalHandleRight.gif') no-repeat;
+}
+
+.RadSlider_Telerik .rslItem,
+.RadSlider_Telerik .rslLargeTick span
+{
+	color:#333;
+}
+
+.RadSlider_Telerik .rslItemsWrapper .rslItemSelected
+{
+	color:#000;
+}
+
+/* horizontal slider items */
+.RadSlider_Telerik .rslHorizontal .rslItem
+{
+	background-image:url('Slider/ItemHorizontalBgr.gif');
+}
+
+/* vertical slider items */
+.RadSlider_Telerik .rslVertical .rslItem
+{
+	background-image:url('Slider/ItemVerticalBgr.gif');
+}
+
+/* horizontal slider - TrackPosition=Top/Bottom */
+.RadSlider_Telerik .rslTop .rslSmallTick,
+.RadSlider_Telerik .rslBottom .rslSmallTick
+{
+	background-image:url('Slider/SmallChangeHorizontal.gif');
+}
+
+.RadSlider_Telerik .rslTop .rslLargeTick,
+.RadSlider_Telerik .rslBottom .rslLargeTick
+{
+	background-image:url('Slider/LargeChangeHorizontal.gif');
+}
+
+/* vertical slider - TrackPosition=Left/Right */
+.RadSlider_Telerik .rslLeft .rslSmallTick,
+.RadSlider_Telerik .rslRight .rslSmallTick
+{
+	background-image:url('Slider/SmallChangeVertical.gif');
+}
+
+.RadSlider_Telerik .rslLeft .rslLargeTick,
+.RadSlider_Telerik .rslRight .rslLargeTick
+{
+	background-image:url('Slider/LargelChangeVertical.gif');
+}
+
+/* horizontal slider - TrackPosition=Center */
+.RadSlider_Telerik .rslMiddle .rslSmallTick
+{
+	background-image:url('Slider/SmallChangeMiddleHorizontal.gif');
+}
+
+.RadSlider_Telerik .rslMiddle .rslLargeTick
+{
+	background-image:url('Slider/LargeChangeMiddleHorizontal.gif');
+}
+
+/* vertical slider - TrackPosition=Center */
+.RadSlider_Telerik .rslCenter .rslSmallTick
+{
+	background-image:url('Slider/SmallChangeCenterVertical.gif');
+}
+
+.RadSlider_Telerik .rslCenter .rslLargeTick
+{
+	background-image:url('Slider/LargelChangeCenterVertical.gif');
+}

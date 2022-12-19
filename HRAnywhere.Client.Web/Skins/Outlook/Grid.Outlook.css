@@ -1,0 +1,716 @@
+/*Telerik RadGrid Outlook Skin*/
+
+/*global*/
+
+.RadGrid_Outlook
+{
+    border:1px solid #002d96;
+    background:#fff;
+    color:#000;
+}
+
+.RadGrid_Outlook,
+.RadGrid_Outlook .rgMasterTable,
+.RadGrid_Outlook .rgDetailTable,
+.RadGrid_Outlook .rgGroupPanel table,
+.RadGrid_Outlook .rgCommandRow table,
+.RadGrid_Outlook .rgEditForm table,
+.RadGrid_Outlook .rgPager table,
+.GridToolTip_Outlook
+{
+    font:12px/16px "segoe ui",arial,sans-serif;
+}
+
+.RadGrid_Outlook .rgHeader:first-child,
+.RadGrid_Outlook th.rgResizeCol:first-child,
+.RadGrid_Outlook .rgFilterRow>td:first-child,
+.RadGrid_Outlook .rgRow>td:first-child,
+.RadGrid_Outlook .rgAltRow>td:first-child
+{
+	border-left-width:0;
+	padding-left:8px;
+}
+
+.RadGrid_Outlook .rgAdd,
+.RadGrid_Outlook .rgRefresh,
+.RadGrid_Outlook .rgEdit,
+.RadGrid_Outlook .rgDel,
+.RadGrid_Outlook .rgFilter,
+.RadGrid_Outlook .rgPagePrev,
+.RadGrid_Outlook .rgPageNext,
+.RadGrid_Outlook .rgPageFirst,
+.RadGrid_Outlook .rgPageLast,
+.RadGrid_Outlook .rgExpand,
+.RadGrid_Outlook .rgCollapse,
+.RadGrid_Outlook .rgSortAsc,
+.RadGrid_Outlook .rgSortDesc,
+.RadGrid_Outlook .rgUpdate,
+.RadGrid_Outlook .rgCancel,
+.RadGrid_Outlook .rgUngroup,
+.RadGrid_Outlook .rgExpXLS,
+.RadGrid_Outlook .rgExpDOC,
+.RadGrid_Outlook .rgExpPDF,
+.RadGrid_Outlook .rgExpCSV
+{
+	background-image:url('Grid/sprite.gif');
+}
+
+/*header*/
+
+.RadGrid_Outlook .rgHeaderDiv
+{
+	background:#d6e5f3 0 -7750px repeat-x url('Grid/sprite.gif');
+}
+.rgTwoLines .rgHeaderDiv
+{
+	background-position:0 -7250px;
+}
+
+.RadGrid_Outlook .rgHeader,
+.RadGrid_Outlook th.rgResizeCol
+{
+	border:0;
+	border-left:1px solid #89aee5;
+	border-bottom:1px solid #5d8cc9;
+	background:0 -2300px repeat-x #7da5e0 url('Grid/sprite.gif');
+}
+
+.RadGrid_Outlook th.rgSorted
+{
+	background-color:#ef9718;
+	background-position:0 -2600px;
+}
+
+.RadGrid_Outlook .rgHeader,
+.RadGrid_Outlook .rgHeader a
+{
+    color:#000;
+}
+
+/*rows*/
+
+.RadGrid_Outlook .rgRow td,
+.RadGrid_Outlook .rgAltRow td,
+.RadGrid_Outlook .rgEditRow td,
+.RadGrid_Outlook .rgFooter td
+{
+	border-style:solid;
+	border-width:0 0 1px 1px;
+}
+
+.RadGrid_Outlook .rgRow td,
+.RadGrid_Outlook .rgAltRow td
+{
+	border-color:#d0d7e5;
+}
+
+.RadGrid_Outlook .rgRow .rgSorted,
+.RadGrid_Outlook .rgAltRow .rgSorted
+{
+	background-color:#f2f2f2;
+}
+
+.RadGrid_Outlook .rgSelectedRow .rgSorted,
+.RadGrid_Outlook .rgActiveRow .rgSorted,
+.RadGrid_Outlook .rgHoveredRow .rgSorted,
+.RadGrid_Outlook .rgEditRow .rgSorted
+{
+	background-color:transparent;
+}
+
+.RadGrid_Outlook .rgRow a,
+.RadGrid_Outlook .rgAltRow a,
+.RadGrid_Outlook .rgEditRow a,
+.RadGrid_Outlook .rgFooter a,
+.RadGrid_Outlook .rgEditForm a
+{
+	color:#000;
+}
+
+.RadGrid_Outlook .rgSelectedRow
+{
+    background:#97b8e8 0 -3900px repeat-x url('Grid/sprite.gif');
+}
+*+html .RadGrid_Outlook .rgSelectedRow .rgSorted{background-color:#97b8e8}
+* html .RadGrid_Outlook .rgSelectedRow .rgSorted{background-color:#97b8e8}
+
+.RadGrid_Outlook .rgActiveRow,
+.RadGrid_Outlook .rgHoveredRow
+{
+    background:#ffd192 0 -2900px repeat-x url('Grid/sprite.gif');
+}
+*+html .RadGrid_Outlook .rgActiveRow .rgSorted,
+*+html .RadGrid_Outlook .rgHoveredRow .rgSorted{background-color:#ffd192}
+* html .RadGrid_Outlook .rgActiveRow .rgSorted,
+* html .RadGrid_Outlook .rgHoveredRow .rgSorted{background-color:#ffd192}
+
+.RadGrid_Outlook .rgEditRow
+{
+	background:#c8dbf6;
+}
+*+html .RadGrid_Outlook .rgEditRow .rgSorted{background-color:#c8dbf6}
+* html .RadGrid_Outlook .rgEditRow .rgSorted{background-color:#c8dbf6}
+
+.RadGrid_Outlook .rgSelectedRow td,
+.RadGrid_Outlook .rgActiveRow td,
+.RadGrid_Outlook .rgHoveredRow td,
+.RadGrid_Outlook .rgEditRow td
+{
+	border-left-width:0;
+	padding-left:8px;
+}
+
+.RadGrid_Outlook .rgSelectedRow td
+{
+	border-bottom-color:#002d96;
+}
+
+.RadGrid_Outlook .rgActiveRow td,
+.RadGrid_Outlook .rgHoveredRow td
+{
+	border-color:#d0d7e5;
+}
+
+.RadGrid_Outlook .rgDrag
+{
+	background-image:url('Grid/rgDrag.gif');
+}
+
+/*footer*/
+
+.RadGrid_Outlook .rgFooterDiv,
+.RadGrid_Outlook .rgFooter
+{
+	background:#d5e4f3 0 -6500px repeat-x url('Grid/sprite.gif');
+}
+
+.RadGrid_Outlook .rgFooter td
+{
+	border-width:1px 0;
+	border-color:#567db0 #fff #fff;
+	padding-left:8px;
+}
+
+/*status*/
+
+.RadGrid_Outlook .rgPager .rgStatus
+{
+	border:1px solid;
+	border-width:1px 1px 0 0;
+	border-color:#5d8cc9 #9cb9dc;
+}
+
+.RadGrid_Outlook .rgStatus div
+{
+	background-image:url('Common/loading_small.gif');
+}
+
+/*pager*/
+
+.RadGrid_Outlook .rgPager
+{
+	background:#d6e5f3;
+}
+
+.RadGrid_Outlook td.rgPagerCell
+{
+	border:0;
+	border-top:1px solid #5d8cc9;
+	border-left:1px solid #fff;
+}
+
+.RadGrid_Outlook .rgInfoPart
+{
+	color:#333;
+}
+
+.RadGrid_Outlook .rgInfoPart strong
+{
+	color:#000;
+}
+
+.RadGrid_Outlook .rgPageFirst
+{
+	margin:0 3px 0 0;
+	background-position:0 -550px;
+}
+.RadGrid_Outlook .rgPageFirst:hover
+{
+	background-position:0 -600px;
+}
+.RadGrid_Outlook .rgPagePrev
+{
+	margin:0 3px 0 0;
+	background-position:0 -700px;
+}
+.RadGrid_Outlook .rgPagePrev:hover
+{
+	background-position:0 -750px;
+}
+.RadGrid_Outlook .rgPageNext
+{
+	margin:0 0 0 3px;
+	background-position:0 -850px;
+}
+.RadGrid_Outlook .rgPageNext:hover
+{
+	background-position:0 -900px;
+}
+.RadGrid_Outlook .rgPageLast
+{
+	margin:0 0 0 3px;
+	background-position:0 -1000px;
+}
+.RadGrid_Outlook .rgPageLast:hover
+{
+	background-position:0 -1050px;
+}
+
+.RadGrid_Outlook .rgPager .rgPagerButton
+{
+	border-color:#003c74;
+	background:#ebe8e3 repeat-x 0 -1550px url('Grid/sprite.gif');
+	color:#000;
+	font:12px/12px "segoe ui",arial,sans-serif;
+}
+
+.RadGrid_Outlook .rgNumPart a:hover,
+.RadGrid_Outlook .rgNumPart a:hover span,
+.RadGrid_Outlook .rgNumPart a.rgCurrentPage,
+.RadGrid_Outlook .rgNumPart a.rgCurrentPage span
+{
+	background:no-repeat url('Grid/sprite.gif');
+}
+
+.RadGrid_Outlook .rgNumPart a
+{
+	color:#000;
+}
+
+.RadGrid_Outlook .rgNumPart a:hover
+{
+	background-position:100% -1250px;
+}
+
+.RadGrid_Outlook .rgNumPart a:hover span
+{
+	background-position:0 -1150px;
+}
+
+.RadGrid_Outlook .rgNumPart a.rgCurrentPage,
+.RadGrid_Outlook .rgNumPart a.rgCurrentPage:hover
+{
+	background-position:100% -1450px;
+}
+
+.RadGrid_Outlook .rgNumPart a.rgCurrentPage span,
+.RadGrid_Outlook .rgNumPart a.rgCurrentPage:hover span
+{
+	background-position:0 -1350px;
+}
+
+/*sorting, reordering*/
+
+.RadGrid_Outlook .rgHeader .rgSortAsc
+{
+	background-position:3px -146px;
+	height:10px;
+}
+
+.RadGrid_Outlook .rgHeader .rgSortDesc
+{
+	background-position:3px -96px;
+	height:10px;
+}
+
+.GridReorderTop_Outlook,
+.GridReorderBottom_Outlook
+{
+	height:12px;
+	background:0 0 no-repeat url('Grid/sprite.gif');
+}
+
+.GridReorderBottom_Outlook
+{
+	background-position:0 -50px;
+}
+
+/*filtering*/
+
+.RadGrid_Outlook .rgFilterRow
+{
+	background:#d6e5f3;
+}
+
+.RadGrid_Outlook .rgFilterRow td
+{
+    border:solid #89aee5;
+    border-width:0 0 1px 1px;
+}
+
+.RadGrid_Outlook .rgFilter
+{
+	background-position:0 -300px;
+}
+
+.RadGrid_Outlook .rgFilter:hover
+{
+	background-position:0 -350px;
+}
+
+.RadGrid_Outlook .rgFilterActive,
+.RadGrid_Outlook .rgFilterActive:hover
+{
+	background-position:0 -400px;
+}
+
+.RadGrid_Outlook .rgFilterBox
+{
+	border-color:#c3d9f9;
+	font:12px "segoe ui",arial,sans-serif;
+	color:#000;
+}
+
+/*filter context menu*/
+
+.RadMenu_Outlook .rgHCMClear,
+.RadMenu_Outlook .rgHCMFilter
+{
+	border-color:#003c74;
+	background:#ebe8e2 center -23px repeat-x url('FormDecorator/ButtonSprites.gif');
+	color:#000;
+	font-family:"segoe ui",arial,sans-serif;
+}
+
+/*context menu*/
+
+.GridContextMenu_Outlook .rmLeftImage
+{
+	background-image:url('../Common/Grid/contextMenu.gif');
+}
+
+.GridContextMenu_Outlook .rgHCMSortAsc .rmLeftImage
+{
+	background-position:0 0;
+}
+
+.GridContextMenu_Outlook .rgHCMSortDesc .rmLeftImage
+{
+	background-position:0 -40px;
+}
+
+.GridContextMenu_Outlook .rgHCMUnsort .rmLeftImage
+{
+	background-position:0 -80px;
+}
+
+.GridContextMenu_Outlook .rgHCMGroup .rmLeftImage
+{
+	background-position:0 -120px;
+}
+
+.GridContextMenu_Outlook .rgHCMUngroup .rmLeftImage
+{
+	background-position:0 -160px;
+}
+
+.GridContextMenu_Outlook .rgHCMCols .rmLeftImage
+{
+	background-position:0 -200px;
+}
+
+.GridContextMenu_Outlook .rgHCMFilter .rmLeftImage
+{
+	background-position:0 -240px;
+}
+
+.GridContextMenu_Outlook .rgHCMUnfilter .rmLeftImage
+{
+	background-position:0 -280px;
+}
+
+/*grouping*/
+
+.RadGrid_Outlook .rgGroupPanel
+{
+	border:0;
+	border-bottom:1px solid #002d96;
+	background:#d5e4f3 -1900px repeat-x url('Grid/sprite.gif');
+}
+
+.RadGrid_Outlook .rgGroupPanel td
+{
+	border:0;
+	padding:3px 4px;
+	vertical-align:middle;
+}
+
+.RadGrid_Outlook .rgGroupPanel td td
+{
+	padding:0;
+}
+
+.RadGrid_Outlook .rgGroupPanel .rgSortAsc
+{
+	height:12px;
+	background-position:4px -146px;
+}
+
+.RadGrid_Outlook .rgGroupPanel .rgSortDesc
+{
+	height:12px;
+	background-position:4px -96px;
+}
+
+.RadGrid_Outlook .rgUngroup
+{
+	background-position:0 -7200px;
+}
+
+.RadGrid_Outlook .rgGroupItem
+{
+	border:1px solid #4b78ca;
+	background:#eae7e2 0 -7000px repeat-x url('Grid/sprite.gif');
+	color:#000;
+}
+
+.RadGrid_Outlook .rgGroupHeader
+{
+    background:#d7e6f7;
+    font-size:1.1em;
+    line-height:21px;
+	color:#0045d6;
+}
+
+.RadGrid_Outlook .rgGroupHeader td
+{
+	border-top:1px solid #fcfdfe;
+	border-bottom:1px solid #8fb2e6;
+    padding-left:8px;
+}
+
+.RadGrid_Outlook td.rgGroupCol,
+.RadGrid_Outlook td.rgExpandCol
+{
+	background:#d7e6f7 none;
+	border-color:#d7e6f7;
+}
+
+.RadGrid_Outlook .rgGroupHeader .rgExpand
+{
+	background-position:5px -495px;
+}
+
+.RadGrid_Outlook .rgGroupHeader .rgCollapse
+{
+	background-position:3px -93px;
+}
+
+/*editing*/
+
+.RadGrid_Outlook .rgEditForm
+{
+	border-bottom:1px solid #d0d7e5;
+}
+
+.RadGrid_Outlook .rgUpdate
+{
+	background-position:0 -1800px;
+}
+
+.RadGrid_Outlook .rgCancel
+{
+	background-position:0 -1850px;
+}
+
+/*hierarchy*/
+
+.RadGrid_Outlook .rgDetailTable
+{
+	border-color:#002d96;
+}
+
+.RadGrid_Outlook .rgExpand
+{
+	background-position:5px -496px;
+}
+
+.RadGrid_Outlook .rgCollapse
+{
+	background-position:3px -94px;
+}
+
+/*command row*/
+
+.RadGrid_Outlook .rgCommandRow
+{
+	background:#043199 0 -2100px repeat-x url('Grid/sprite.gif');
+	color:#fff;
+}
+
+.RadGrid_Outlook .rgCommandCell
+{
+	border:0;
+	padding:0;
+}
+
+.RadGrid_Outlook thead .rgCommandCell
+{
+	border-bottom:1px solid #002d96;
+}
+
+.RadGrid_Outlook tfoot .rgCommandCell,
+.RadGrid_Outlook .rgMasterTable>tbody>tr.rgCommandRow .rgCommandCell
+{
+	border-top:1px solid #002d96;
+}
+
+.RadGrid_Outlook .rgCommandTable
+{
+	border:0;
+	border-bottom:1px solid #6797d1;
+}
+
+.RadGrid_Outlook .rgCommandTable td
+{
+	border:0;
+	padding:2px 7px;
+}
+
+.RadGrid_Outlook .rgCommandTable td td
+{
+	padding:0;
+}
+
+.RadGrid_Outlook .rgCommandRow a
+{
+	color:#fff;
+	text-decoration:none;
+}
+
+.RadGrid_Outlook .rgAdd
+{
+	margin-right:3px;
+	background-position:0 -1650px;
+}
+
+.RadGrid_Outlook .rgRefresh
+{
+	margin-right:3px;
+	background-position:0 -1600px;
+}
+
+.RadGrid_Outlook .rgEdit
+{
+	background-position:0 -1700px;
+}
+
+.RadGrid_Outlook .rgDel
+{
+	background-position:0 -1750px;
+}
+
+.RadGrid_Outlook .rgExpXLS,
+.RadGrid_Outlook .rgExpDOC,
+.RadGrid_Outlook .rgExpPDF,
+.RadGrid_Outlook .rgExpCSV
+{
+	background-image:url('../Common/Grid/export.gif');
+}
+
+.RadGrid_Outlook .rgExpXLS
+{
+	background-position:0 0;
+}
+.RadGrid_Outlook .rgExpDOC
+{
+	background-position:0 -50px;
+}
+.RadGrid_Outlook .rgExpPDF
+{
+	background-position:0 -100px;
+}
+.RadGrid_Outlook .rgExpCSV
+{
+	background-position:0 -150px;
+}
+
+/*multirow select*/
+
+.GridRowSelector_Outlook
+{
+	background:#002d96;
+}
+
+/*row drag n drop*/
+
+.GridItemDropIndicator_Outlook
+{
+    border-top:1px dashed #002d96;
+}
+
+/*tooltip*/
+
+.GridToolTip_Outlook
+{
+	border:1px solid #6187b8;
+	padding:3px;
+	background:#ccddf5;
+	color:#000;
+}
+
+/*rtl*/
+
+.RadGridRTL_Outlook .rgHeader:first-child,
+.RadGridRTL_Outlook th.rgResizeCol:first-child,
+.RadGridRTL_Outlook .rgFilterRow>td:first-child,
+.RadGridRTL_Outlook .rgRow>td:first-child,
+.RadGridRTL_Outlook .rgAltRow>td:first-child
+{
+	border-left-width:1px;
+	padding-left:7px;
+}
+
+.RadGridRTL_Outlook .rgPageFirst
+{
+	background-position:0 -1000px;
+}
+.RadGridRTL_Outlook .rgPageFirst:hover
+{
+	background-position:0 -1050px;
+}
+.RadGridRTL_Outlook .rgPagePrev
+{
+	margin:0 0 0 3px;
+	background-position:0 -850px;
+}
+.RadGridRTL_Outlook .rgPagePrev:hover
+{
+	background-position:0 -900px;
+}
+.RadGridRTL_Outlook .rgPageNext
+{
+	margin:0 3px 0 0;
+	background-position:0 -700px;
+}
+.RadGridRTL_Outlook .rgPageNext:hover
+{
+	background-position:0 -750px;
+}
+.RadGridRTL_Outlook .rgPageLast
+{
+	background-position:0 -550px;
+}
+.RadGridRTL_Outlook .rgPageLast:hover
+{
+	background-position:0 -600px;
+}
+
+.RadGridRTL_Outlook .rgGroupHeader .rgExpand
+{
+	background-position:-20px -495px;
+}
+.RadGridRTL_Outlook .rgExpand
+{
+	background-position:-20px -496px;
+}

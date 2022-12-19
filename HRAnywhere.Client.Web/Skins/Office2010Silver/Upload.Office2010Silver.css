@@ -1,0 +1,161 @@
+/* RadUpload / Office2010Silver skin */
+
+/* <general styles> */
+
+.RadUpload_Office2010Silver,
+.RadUpload_Office2010Silver a,
+.RadUpload_Office2010Silver input,
+.RadUploadProgressArea_Office2010Silver,
+.RadUploadProgressArea_Office2010Silver input
+{
+	font: normal 11px/10px "Segoe UI", Arial, sans-serif;
+}
+
+/* </general styles> */
+
+/* <file inputs> */
+
+.RadUpload_Office2010Silver .ruStyled .ruFileInput
+{
+	border-color: #9aa0a6;
+}
+
+.RadUpload_Office2010Silver input.ruFakeInput
+{
+	border-color: #9aa0a6;
+	color: #3b3b3b;
+	background: #ffffff;
+}
+* html .RadUpload_Office2010Silver .ruFileWrap .ruInputHover { border-color: #9aa0a6; }
+*+html .RadUpload_Office2010Silver .ruFileWrap .ruInputHover { border-color: #9aa0a6; }
+
+.RadUpload_Office2010Silver .ruReadOnly .ruFakeInput
+{
+	background: #ffffff;
+}
+
+/* </file inputs> */
+
+/* <buttons> */
+
+.RadUpload_Office2010Silver .ruButton,
+.RadUploadProgressArea_Office2010Silver .ruButton
+{
+	background-image: url('Upload/ruSprite.png');
+	color: #3b3b3b;
+}
+
+.RadUpload_Office2010Silver .ruRemove
+{
+	color: #3b3b3b;
+}
+
+div.RadUpload_Office2010Silver .ruInputs .ruButtonHover,
+div.RadUpload_Office2010Silver .ruActions .ruButtonHover,
+div.RadUploadProgressArea_Office2010Silver .ruActions .ruButtonHover
+{
+	background-position: 100% -23px;
+	color: #3b3b3b;
+}
+
+div.RadUpload_Office2010Silver .ruFileWrap .ruButtonHover
+{
+	background-position: 100% 0;
+	color: #3b3b3b;
+}
+
+/* </buttons> */
+
+/* <submit button> */
+/* (use this class to style a single button for uploads) */
+
+.RadUploadSubmit
+{
+	background-image: url('Upload/ruSprite.png');
+	color: #3b3b3b;
+}
+
+/* </submit button> */
+
+/* <progress area> */
+
+.RadUploadProgressArea_Office2010Silver .ruProgress
+{
+	border-color: #9aa0a6;
+	background-image: url('Upload/ruSprite.png');
+	background-color: #ffffff;
+}
+
+.RadUploadProgressArea_Office2010Silver .ruProgress li
+{
+	color: #3b3b3b;
+}
+
+.RadUploadProgressArea_Office2010Silver li.ruProgressHeader
+{
+	color: #3b3b3b;
+}
+
+.RadUploadProgressArea_Office2010Silver .ruProgress li.ruCurrentFile
+{
+	color: #3b3b3b;
+}
+
+.RadUploadProgressArea_Office2010Silver .ruProgress .ruBar
+{
+	border-color: #9aa0a6;
+	background-image: url('Upload/ruSprite.png');
+}
+ 
+.RadUploadProgressArea_Office2010Silver .ruProgress .ruBar div
+{
+	background-image: url('Upload/ruProgress.gif');
+	border-right: 1px solid #9aa0a6;
+}
+
+.RadUploadProgressArea_Office2010Silver_rtl .ruProgress .ruBar div
+{
+	background-image: url('Upload/ruProgress.gif');
+	border-right: 0;
+	border-left: 1px solid #9aa0a6;
+}
+ 
+.RadUploadProgressArea_Office2010Silver .ruProgress .ruActions
+{
+	border-top-color: #9aa0a6;
+	background: #b4c4d8;
+}
+
+/* </progress area> */
+
+/* <RadAsyncUpload> */
+
+.RadUpload_Office2010Silver input.ruUploadInvalid
+{
+	background-repeat: no-repeat;
+	background-position: 100% -297px;
+	background-image: url('Input/sprite.gif');
+}
+
+.RadUpload_Office2010Silver_rtl input.ruUploadInvalid
+{
+	background-position: 3px -297px;
+}
+
+.RadUpload_Office2010Silver .ruFileProgress,
+.RadUpload_Office2010Silver .ruFileProgressWrap
+{
+	background-image: url('Upload/AsyncProgress.png');
+}
+
+.RadUpload_Office2010Silver .ruFileProgress,
+.RadUpload_Office2010Silver_rtl .ruFileProgressWrap { background-position: 0 0; }
+.RadUpload_Office2010Silver .ruFileProgressWrap,
+.RadUpload_Office2010Silver_rtl .ruFileProgress { background-position: 100% 0; }
+
+.RadUpload_Office2010Silver .ruProgressStarted,
+.RadUpload_Office2010Silver_rtl .ruProgressComplete { background-position: 0 -5px; }
+.RadUpload_Office2010Silver .ruProgressComplete,
+.RadUpload_Office2010Silver_rtl .ruProgressStarted { background-position: 100% -5px; }
+
+/* </RadAsyncUpload> */

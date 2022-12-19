@@ -1,0 +1,36 @@
+.RadDock_Forest .rdMiddle .rdLeft,
+.RadDock_Forest .rdMiddle .rdRight
+{
+	background-image: url('Dock/VerticalSprite.gif');
+}
+
+.RadDock_Forest .rdTop .rdLeft,
+.RadDock_Forest .rdTop .rdRight,
+.RadDock_Forest .rdTop .rdCenter,
+.RadDock_Forest .rdBottom .rdLeft,
+.RadDock_Forest .rdBottom .rdRight,
+.RadDock_Forest .rdBottom .rdCenter
+{
+	background-image: url('Dock/HorizontalSprite.png');
+}
+
+.RadDock_Forest .rdCenter .rdCommands a span
+{
+	background-image: url('Dock/CommandSprite.gif');
+}
+
+.RadDock_Forest .rdMiddle .rdCenter,
+.RadDock_Forest .rdBottom .rdCenter
+{
+	background-color: #c2d197;
+}
+
+.RadDock_Forest .rdContent
+{
+	color: black;
+}
+
+.RadDock_Forest .rdTitleBar em
+{
+	color: #2b2c20;
+}

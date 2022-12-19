@@ -1,0 +1,84 @@
+/**
+ * Organizational Chart Windows7 Skin
+ */
+
+
+
+
+/*----------------------------------------------------------------------------*/
+
+
+
+
+/** Global wrapper */
+.RadOrgChart_Windows7 {
+	color: #4c607a;
+	font: normal 12px/22px "Segoe UI", Arial, sans-serif;
+}
+
+
+
+
+/** Viewport */
+.RadOrgChart_Windows7 .rocViewport {}
+
+
+
+
+/** NodeList */
+.RadOrgChart_Windows7 .rocNodeList {}
+
+
+
+
+/** Node */
+.RadOrgChart_Windows7 .rocNode {}
+
+
+
+
+/** Group */
+.RadOrgChart_Windows7 .rocGroup {
+	border-radius: 10px;
+	background-color: #e5e5e5;
+	background-color: rgba(0, 0, 0, .1);
+	*background-color: #e5e5e5;
+}
+
+
+
+
+/** ItemList */
+.RadOrgChart_Windows7 .rocItemList {}
+
+
+
+
+/** ItemWrap */
+.RadOrgChart_Windows7 .rocItemWrap {}
+
+
+
+
+/** Items */
+.RadOrgChart_Windows7 .rocItem {}
+
+
+	.RadOrgChart_Windows7 .rocItemContent,
+	.RadOrgChart_Windows7 .rocItemTemplate {
+		border-color: #c2cedb;
+		border-radius: 5px;
+		background-color: #e1eaf3;
+		background-image: url('../Common/OrgChart/rocItemTileLight.png');
+		_background-image: none;
+	}
+
+
+
+
+/** Node lines */
+.RadOrgChart_Windows7 .rocLineUp,
+.RadOrgChart_Windows7 .rocLineDown,
+.RadOrgChart_Windows7 .rocLineHorizontal {
+	background-image: url('../Common/OrgChart/rocLinesDark.png');
+}

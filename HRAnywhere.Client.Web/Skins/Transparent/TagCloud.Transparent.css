@@ -1,0 +1,30 @@
+div.RadTagCloud_Transparent {
+    font-family: Tahoma,Arial,sans-serif;
+}
+
+.RadTagCloud_Transparent
+{
+	background: url('../Common/TransContent.png');
+}
+.RadTagCloud_Transparent .rtcTagList .rtcTagItem
+{
+	color: #010101;
+}
+.RadTagCloud_Transparent .rtcTagList .rtcTagItem:hover
+{
+	color: #999;
+}
+.RadTagCloud_Transparent .rtcTagList .rtcTagItem a
+{
+	color: #010101;
+}
+.RadTagCloud_Transparent .rtcTagList .rtcTagItem a:hover
+{
+	color: #666;
+}
+
+/* Loading image */
+.rtcLoading.RadTagCloud_Transparent
+{
+	background-image: url('Common/loading_small.gif');
+}

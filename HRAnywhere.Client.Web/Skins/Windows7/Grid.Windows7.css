@@ -1,0 +1,723 @@
+/*Telerik RadGrid Windows7 Skin*/
+
+/*global*/
+
+.RadGrid_Windows7
+{
+    border:1px solid #a5b3c5;
+    background:#fcfcfc;
+    color:#000;
+}
+
+.RadGrid_Windows7,
+.RadGrid_Windows7 .rgMasterTable,
+.RadGrid_Windows7 .rgDetailTable,
+.RadGrid_Windows7 .rgGroupPanel table,
+.RadGrid_Windows7 .rgCommandRow table,
+.RadGrid_Windows7 .rgEditForm table,
+.RadGrid_Windows7 .rgPager table,
+.GridToolTip_Windows7
+{
+    font:12px/16px "segoe ui",arial,sans-serif;
+}
+
+.RadGrid_Windows7 .rgHeader:first-child,
+.RadGrid_Windows7 th.rgResizeCol:first-child,
+.RadGrid_Windows7 .rgFilterRow>td:first-child,
+.RadGrid_Windows7 .rgRow>td:first-child,
+.RadGrid_Windows7 .rgAltRow>td:first-child
+{
+	border-left-width:0;
+	padding-left:8px;
+}
+
+.RadGrid_Windows7 .rgAdd,
+.RadGrid_Windows7 .rgRefresh,
+.RadGrid_Windows7 .rgEdit,
+.RadGrid_Windows7 .rgDel,
+.RadGrid_Windows7 .rgFilter,
+.RadGrid_Windows7 .rgPagePrev,
+.RadGrid_Windows7 .rgPageNext,
+.RadGrid_Windows7 .rgPageFirst,
+.RadGrid_Windows7 .rgPageLast,
+.RadGrid_Windows7 .rgExpand,
+.RadGrid_Windows7 .rgCollapse,
+.RadGrid_Windows7 .rgSortAsc,
+.RadGrid_Windows7 .rgSortDesc,
+.RadGrid_Windows7 .rgUpdate,
+.RadGrid_Windows7 .rgCancel,
+.RadGrid_Windows7 .rgUngroup,
+.RadGrid_Windows7 .rgExpXLS,
+.RadGrid_Windows7 .rgExpDOC,
+.RadGrid_Windows7 .rgExpPDF,
+.RadGrid_Windows7 .rgExpCSV
+{
+	background-image:url('Grid/sprite.gif');
+}
+
+/*header*/
+
+.RadGrid_Windows7 .rgHeaderDiv
+{
+	background:#f1f5fb;
+}
+
+.RadGrid_Windows7 .rgHeader,
+.RadGrid_Windows7 th.rgResizeCol
+{
+	border:1px solid;
+	border-color:#f6f9fb #fff #c2cedb #e1eaf3;
+	border-top-width:0;
+	background:#f1f5fb;
+}
+
+.RadGrid_Windows7 th.rgSorted
+{
+	background:0 -2600px repeat-x #dde8f7 url('Grid/sprite.gif');
+}
+
+.RadGrid_Windows7 .rgHeader,
+.RadGrid_Windows7 .rgHeader a
+{
+    color:#4c607a;
+}
+
+/*rows*/
+
+.RadGrid_Windows7 .rgRow td,
+.RadGrid_Windows7 .rgAltRow td,
+.RadGrid_Windows7 .rgEditRow td,
+.RadGrid_Windows7 .rgFooter td
+{
+	border-style:solid;
+	border-width:0 1px 1px;
+}
+
+.RadGrid_Windows7 .rgRow
+{
+	background-color:#ebeff3;
+}
+
+.RadGrid_Windows7 .rgRow td
+{
+	border-color:#ebeff3;
+}
+
+.RadGrid_Windows7 .rgAltRow td
+{
+	border-color:#fff;
+}
+
+.RadGrid_Windows7 .rgRow .rgSorted,
+.RadGrid_Windows7 .rgAltRow .rgSorted
+{
+	background-color:#e5ecf5;
+	border-color:#e5ecf5;
+}
+
+.RadGrid_Windows7 .rgSelectedRow .rgSorted,
+.RadGrid_Windows7 .rgActiveRow .rgSorted,
+.RadGrid_Windows7 .rgHoveredRow .rgSorted,
+.RadGrid_Windows7 .rgEditRow .rgSorted
+{
+	background-color:transparent;
+}
+
+.RadGrid_Windows7 .rgRow a,
+.RadGrid_Windows7 .rgAltRow a,
+.RadGrid_Windows7 .rgEditRow a,
+.RadGrid_Windows7 .rgFooter a,
+.RadGrid_Windows7 .rgEditForm a
+{
+	color:#1e3287;
+}
+
+.RadGrid_Windows7 .rgSelectedRow
+{
+    background:#d7e8fe 0 -3900px repeat-x url('Grid/sprite.gif');
+}
+*+html .RadGrid_Windows7 .rgSelectedRow .rgSorted{background-color:#d7e8fe}
+* html .RadGrid_Windows7 .rgSelectedRow .rgSorted{background-color:#d7e8fe}
+
+.RadGrid_Windows7 .rgActiveRow,
+.RadGrid_Windows7 .rgHoveredRow
+{
+    background:#e7eef6 0 -2900px repeat-x url('Grid/sprite.gif');
+}
+*+html .RadGrid_Windows7 .rgActiveRow .rgSorted,
+*+html .RadGrid_Windows7 .rgHoveredRow .rgSorted{background-color:#e7eef6}
+* html .RadGrid_Windows7 .rgActiveRow .rgSorted,
+* html .RadGrid_Windows7 .rgHoveredRow .rgSorted{background-color:#e7eef6}
+
+.RadGrid_Windows7 .rgEditRow
+{
+	background:#e6f0fd 0 -4900px repeat-x url('Grid/sprite.gif');
+}
+*+html .RadGrid_Windows7 .rgEditRow .rgSorted{background-color:#e6f0fd}
+* html .RadGrid_Windows7 .rgEditRow .rgSorted{background-color:#e6f0fd}
+
+.RadGrid_Windows7 .rgSelectedRow td,
+.RadGrid_Windows7 .rgActiveRow td,
+.RadGrid_Windows7 .rgHoveredRow td,
+.RadGrid_Windows7 .rgEditRow td
+{
+	border-left-width:0;
+	border-right-width:0;
+	padding-left:8px;
+	padding-right:8px;
+}
+
+.RadGrid_Windows7 .rgSelectedRow td,
+.RadGrid_Windows7 .rgSelectedRow .rgSorted
+{
+	border-bottom-color:#8daed5;
+}
+
+.RadGrid_Windows7 .rgActiveRow td,
+.RadGrid_Windows7 .rgActiveRow .rgSorted,
+.RadGrid_Windows7 .rgHoveredRow td,
+.RadGrid_Windows7 .rgHoveredRow .rgSorted
+{
+	border-bottom-color:#a8d8eb;
+}
+
+.RadGrid_Windows7 .rgEditRow td,
+.RadGrid_Windows7 .rgEditRow .rgSorted
+{
+	border-bottom-color:#8daed5;
+}
+
+.RadGrid_Windows7 .rgDrag
+{
+	background-image:url('Grid/rgDrag.gif');
+}
+
+/*footer*/
+
+.RadGrid_Windows7 .rgFooterDiv,
+.RadGrid_Windows7 .rgFooter
+{
+	background:#e2eaf4;
+}
+
+.RadGrid_Windows7 .rgFooter td
+{
+	border-top-width:1px;
+	border-color:#e2eaf4;
+}
+
+/*status*/
+
+.RadGrid_Windows7 .rgPager .rgStatus
+{
+	border:1px solid;
+	border-color:#fcfcfc #c2cedb #f1f5fb #f1f5fb;
+	border-left-width:0;
+}
+
+.RadGrid_Windows7 .rgStatus div
+{
+	background-image:url('Common/loading_small.gif');
+}
+
+/*pager*/
+
+.RadGrid_Windows7 .rgPager
+{
+	background:#f1f5fb 0 -5900px repeat-x url('Grid/sprite.gif');
+}
+
+.RadGrid_Windows7 td.rgPagerCell
+{
+	border:1px solid;
+	border-color:#fcfcfc #fff #f1f5fb;
+	border-right-width:0;
+}
+
+.RadGrid_Windows7 .rgInfoPart
+{
+	color:#5a6779;
+}
+
+.RadGrid_Windows7 .rgInfoPart strong
+{
+	color:#1e395b;
+}
+
+.RadGrid_Windows7 .rgPageFirst
+{
+	background-position:0 -550px;
+}
+.RadGrid_Windows7 .rgPageFirst:hover
+{
+	background-position:0 -600px;
+}
+.RadGrid_Windows7 .rgPagePrev
+{
+	background-position:0 -700px;
+}
+.RadGrid_Windows7 .rgPagePrev:hover
+{
+	background-position:0 -750px;
+}
+.RadGrid_Windows7 .rgPageNext
+{
+	background-position:0 -850px;
+}
+.RadGrid_Windows7 .rgPageNext:hover
+{
+	background-position:0 -900px;
+}
+.RadGrid_Windows7 .rgPageLast
+{
+	background-position:0 -1000px;
+}
+.RadGrid_Windows7 .rgPageLast:hover
+{
+	background-position:0 -1050px;
+}
+
+.RadGrid_Windows7 .rgPager .rgPagerButton
+{
+	border-color:#c2cedb;
+	background:#dde8f6 repeat-x 0 -1550px url('Grid/sprite.gif');
+	color:#1e395b;
+	font:12px/12px "segoe ui",arial,sans-serif;
+}
+
+.RadGrid_Windows7 .rgNumPart a:hover,
+.RadGrid_Windows7 .rgNumPart a:hover span,
+.RadGrid_Windows7 .rgNumPart a.rgCurrentPage,
+.RadGrid_Windows7 .rgNumPart a.rgCurrentPage span
+{
+	background:no-repeat url('Grid/sprite.gif');
+}
+
+.RadGrid_Windows7 .rgNumPart a
+{
+	color:#1e395b;
+}
+
+.RadGrid_Windows7 .rgNumPart a:hover
+{
+	background-position:100% -1250px;
+	color:#4c607a;
+}
+
+.RadGrid_Windows7 .rgNumPart a:hover span
+{
+	background-position:0 -1150px;
+}
+
+.RadGrid_Windows7 .rgNumPart a.rgCurrentPage,
+.RadGrid_Windows7 .rgNumPart a.rgCurrentPage:hover
+{
+	background-position:100% -1450px;
+	color:#4c607a;
+}
+
+.RadGrid_Windows7 .rgNumPart a.rgCurrentPage span,
+.RadGrid_Windows7 .rgNumPart a.rgCurrentPage:hover span
+{
+	background-position:0 -1350px;
+}
+
+/*sorting, reordering*/
+
+.RadGrid_Windows7 .rgHeader .rgSortAsc
+{
+	background-position:3px -248px;
+	height:10px;
+}
+
+.RadGrid_Windows7 .rgHeader .rgSortDesc
+{
+	background-position:3px -198px;
+	height:10px;
+}
+
+.GridReorderTop_Windows7,
+.GridReorderBottom_Windows7
+{
+	height:11px;
+	background:0 0 no-repeat url('Grid/sprite.gif');
+}
+
+.GridReorderBottom_Windows7
+{
+	background-position:0 -50px;
+}
+
+/*filtering*/
+
+.RadGrid_Windows7 .rgFilterRow
+{
+	background:#f1f5fb;
+}
+
+.RadGrid_Windows7 .rgFilterRow td
+{
+    border-left:1px solid #f1f5fb;
+    border-right:1px solid #f1f5fb;
+}
+
+.RadGrid_Windows7 .rgFilter
+{
+	background-position:0 -300px;
+}
+
+.RadGrid_Windows7 .rgFilter:hover
+{
+	background-position:0 -350px;
+}
+
+.RadGrid_Windows7 .rgFilterActive,
+.RadGrid_Windows7 .rgFilterActive:hover
+{
+	background-position:0 -400px;
+}
+
+.RadGrid_Windows7 .rgFilterBox
+{
+	border-color:#b8cbde;
+	font:12px "segoe ui",arial,sans-serif;
+	color:#000;
+}
+
+/*filter context menu*/
+
+.RadMenu_Windows7 .rgHCMClear,
+.RadMenu_Windows7 .rgHCMFilter
+{
+	border-color:#c2cedb;
+	background:#dde8f6 center -23px repeat-x url('FormDecorator/ButtonSprites.gif');
+	color:#1e395b;
+	font-family:"segoe ui",arial,sans-serif;
+}
+
+.RadMenu_Windows7 .rgHCMClear:hover,
+.RadMenu_Windows7 .rgHCMFilter:hover
+{
+	border-color:#c2dbfb;
+	background-position:center -67px;
+	background-color:#e7edf5;
+}
+
+/*context menu*/
+
+.GridContextMenu_Windows7 .rmLeftImage
+{
+	background-image:url('../Common/Grid/contextMenu.gif');
+}
+
+.GridContextMenu_Windows7 .rgHCMSortAsc .rmLeftImage
+{
+	background-position:0 0;
+}
+
+.GridContextMenu_Windows7 .rgHCMSortDesc .rmLeftImage
+{
+	background-position:0 -40px;
+}
+
+.GridContextMenu_Windows7 .rgHCMUnsort .rmLeftImage
+{
+	background-position:0 -80px;
+}
+
+.GridContextMenu_Windows7 .rgHCMGroup .rmLeftImage
+{
+	background-position:0 -120px;
+}
+
+.GridContextMenu_Windows7 .rgHCMUngroup .rmLeftImage
+{
+	background-position:0 -160px;
+}
+
+.GridContextMenu_Windows7 .rgHCMCols .rmLeftImage
+{
+	background-position:0 -200px;
+}
+
+.GridContextMenu_Windows7 .rgHCMFilter .rmLeftImage
+{
+	background-position:0 -240px;
+}
+
+.GridContextMenu_Windows7 .rgHCMUnfilter .rmLeftImage
+{
+	background-position:0 -280px;
+}
+
+/*grouping*/
+
+.RadGrid_Windows7 .rgGroupPanel
+{
+	border:1px solid;
+	border-color:#f2f5fa #f6f9fb #f6f9fb;
+	background:#eef3f8 0 -1900px repeat-x url('Grid/sprite.gif');
+}
+
+.RadGrid_Windows7 .rgGroupPanel td
+{
+	border:0;
+	padding:0;
+}
+
+.RadGrid_Windows7 .rgGroupPanel td td
+{
+	padding:2px 3px 1px;
+}
+
+.RadGrid_Windows7 .rgGroupPanel td td td
+{
+	padding:0;
+}
+
+.RadGrid_Windows7 .rgGroupPanel .rgSortAsc
+{
+	background-position:4px -144px;
+}
+
+.RadGrid_Windows7 .rgGroupPanel .rgSortDesc
+{
+	background-position:4px -94px;
+}
+
+.RadGrid_Windows7 .rgUngroup
+{
+	background-position:0 -7200px;
+}
+
+.RadGrid_Windows7 .rgGroupItem
+{
+	border:1px solid #9bc9ff;
+	background:#dde8f6 0 -7000px repeat-x url('Grid/sprite.gif');
+}
+
+.RadGrid_Windows7 .rgGroupHeader
+{
+    background:0 -6489px repeat-x url('Grid/sprite.gif');
+    font-size:1.1em;
+    line-height:21px;
+	color:#1e3287;
+}
+
+.RadGrid_Windows7 .rgGroupHeader td
+{
+    padding:0 8px;
+}
+
+.RadGrid_Windows7 .rgExpand
+{
+	background-position:5px -496px;
+}
+
+.RadGrid_Windows7 .rgCollapse
+{
+	background-position:3px -444px;
+}
+
+.RadGrid_Windows7 .rgGroupHeader .rgExpand,
+.RadGrid_Windows7 .rgGroupHeader .rgCollapse
+{
+	background-color:#fcfcfc;
+}
+
+.RadGrid_Windows7 .rgGroupHeader td p
+{
+    background:#fcfcfc;
+}
+
+.RadGrid_Windows7 .rgGroupHeader td div div
+{
+	background:#fcfcfc;
+}
+
+/*editing*/
+
+.RadGrid_Windows7 .rgEditForm
+{
+	border-bottom:1px solid #666;
+}
+
+.RadGrid_Windows7 .rgUpdate
+{
+	background-position:0 -1800px;
+}
+
+.RadGrid_Windows7 .rgCancel
+{
+	background-position:0 -1850px;
+}
+
+/*hierarchy*/
+
+.RadGrid_Windows7 .rgDetailTable
+{
+	border-color:#a5b3c5;
+}
+
+/*command row*/
+
+.RadGrid_Windows7 .rgCommandRow
+{
+	background:#e4edf8 0 -2099px repeat-x url('Grid/sprite.gif');
+	color:#1e395b;
+}
+
+.RadGrid_Windows7 .rgCommandCell
+{
+	border:1px solid;
+	border-color:#fbfdfe #f1f7fc #ebf3fb;
+	padding:0;
+}
+
+.RadGrid_Windows7 tfoot .rgCommandCell,
+.RadGrid_Windows7 .rgMasterTable>tbody>tr.rgCommandRow .rgCommandCell
+{
+	border-top:1px solid #c2cedb;
+}
+
+.RadGrid_Windows7 .rgCommandTable td
+{
+	border:0;
+	padding:2px 7px;
+}
+
+.RadGrid_Windows7 .rgCommandTable
+{
+	border:0;
+}
+
+.RadGrid_Windows7 .rgCommandRow a
+{
+	color:#1e395b;
+	text-decoration:none;
+}
+
+.RadGrid_Windows7 .rgAdd
+{
+	margin-right:3px;
+	background-position:0 -1650px;
+}
+
+.RadGrid_Windows7 .rgRefresh
+{
+	margin-right:3px;
+	background-position:0 -1600px;
+}
+
+.RadGrid_Windows7 .rgEdit
+{
+	background-position:0 -1700px;
+}
+
+.RadGrid_Windows7 .rgDel
+{
+	background-position:0 -1750px;
+}
+
+.RadGrid_Windows7 .rgExpXLS,
+.RadGrid_Windows7 .rgExpDOC,
+.RadGrid_Windows7 .rgExpPDF,
+.RadGrid_Windows7 .rgExpCSV
+{
+	background-image:url('../Common/Grid/export.gif');
+}
+
+.RadGrid_Windows7 .rgExpXLS
+{
+	background-position:0 0;
+}
+.RadGrid_Windows7 .rgExpDOC
+{
+	background-position:0 -50px;
+}
+.RadGrid_Windows7 .rgExpPDF
+{
+	background-position:0 -100px;
+}
+.RadGrid_Windows7 .rgExpCSV
+{
+	background-position:0 -150px;
+}
+
+/*multirow select*/
+
+.GridRowSelector_Windows7
+{
+	background:#039;
+}
+
+/*row drag n drop*/
+
+.GridItemDropIndicator_Windows7
+{
+    border-top:1px dashed #039;
+}
+
+/*tooltip*/
+
+.GridToolTip_Windows7
+{
+	border:1px solid #a0afc3;
+	padding:3px;
+	background:#eef4fb;
+	color:#4c607a;
+}
+
+/*rtl*/
+
+.RadGridRTL_Windows7 .rgHeader:first-child,
+.RadGridRTL_Windows7 th.rgResizeCol:first-child,
+.RadGridRTL_Windows7 .rgFilterRow>td:first-child,
+.RadGridRTL_Windows7 .rgRow>td:first-child,
+.RadGridRTL_Windows7 .rgAltRow>td:first-child
+{
+	border-left-width:1px;
+	padding-left:7px;
+}
+
+.RadGridRTL_Windows7 .rgPageFirst
+{
+	background-position:0 -1000px;
+}
+.RadGridRTL_Windows7 .rgPageFirst:hover
+{
+	background-position:0 -1050px;
+}
+.RadGridRTL_Windows7 .rgPagePrev
+{
+	background-position:0 -850px;
+}
+.RadGridRTL_Windows7 .rgPagePrev:hover
+{
+	background-position:0 -900px;
+}
+.RadGridRTL_Windows7 .rgPageNext
+{
+	background-position:0 -700px;
+}
+.RadGridRTL_Windows7 .rgPageNext:hover
+{
+	background-position:0 -750px;
+}
+.RadGridRTL_Windows7 .rgPageLast
+{
+	background-position:0 -550px;
+}
+.RadGridRTL_Windows7 .rgPageLast:hover
+{
+	background-position:0 -600px;
+}
+
+.RadGridRTL_Windows7 .rgExpand
+{
+	background-position:-20px -496px;
+}
+.RadGridRTL_Windows7 .rgCollapse
+{
+	background-position:-22px -444px;
+}

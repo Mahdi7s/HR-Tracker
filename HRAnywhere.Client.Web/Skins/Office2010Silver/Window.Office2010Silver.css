@@ -1,0 +1,209 @@
+/* RadWindow for ASP.NET AJAX Office2010Silver Skin */
+
+/* Window Background */
+
+/* Horiznotal */
+.RadWindow_Office2010Silver .rwTopLeft,
+.RadWindow_Office2010Silver .rwTopRight,
+.RadWindow_Office2010Silver .rwTitlebar,
+.RadWindow_Office2010Silver .rwFooterLeft,
+.RadWindow_Office2010Silver .rwFooterRight,
+.RadWindow_Office2010Silver .rwFooterCenter,
+.RadWindow_Office2010Silver .rwTopResize,
+.RadWindow_Office2010Silver .rwStatusbar div,
+.RadWindow_Office2010Silver .rwStatusbar,
+.RadWindow_Office2010Silver .rwPopupButton,
+.RadWindow_Office2010Silver .rwPopupButton span,
+.RadWindow_Office2010Silver.rwMinimizedWindow .rwCorner
+{
+    background-image: url('Window/WindowHorizontalSprites.gif');
+}
+
+
+/* Vertical */
+.RadWindow_Office2010Silver .rwBodyLeft,
+.RadWindow_Office2010Silver .rwBodyRight,
+.RadWindow_Office2010Silver .rwStatusbarRow .rwCorner
+{
+	background-image: url('Window/WindowVerticalSprites.gif');
+}
+
+/* Window Shadows */
+
+/* Horiznotal */
+.RadWindow_Office2010Silver .rwShadow .rwTopLeft,
+.RadWindow_Office2010Silver .rwShadow .rwTopRight,
+.RadWindow_Office2010Silver .rwShadow .rwTitlebar,
+.RadWindow_Office2010Silver .rwShadow .rwFooterLeft,
+.RadWindow_Office2010Silver .rwShadow .rwFooterRight,
+.RadWindow_Office2010Silver .rwShadow .rwFooterCenter,
+.RadWindow_Office2010Silver .rwShadow .rwTopResize,
+.RadWindow_Office2010Silver .rwShadow .rwStatusbar div,
+.RadWindow_Office2010Silver .rwShadow .rwStatusbar,
+.RadWindow_Office2010Silver .rwShadow .rwPopupButton,
+.RadWindow_Office2010Silver .rwShadow .rwPopupButton span,
+.RadWindow_Office2010Silver .rwShadow .rwBodyLeft,
+.RadWindow_Office2010Silver .rwShadow .rwBodyRight,
+.RadWindow_Office2010Silver .rwShadow .rwStatusbarRow .rwBodyLeft,
+.RadWindow_Office2010Silver .rwShadow .rwStatusbarRow .rwBodyRight
+{
+	background-image: url('Window/WindowHorizontalSprites.png');
+}
+
+/* Vertical */
+.RadWindow_Office2010Silver .rwShadow .rwBodyLeft,
+.RadWindow_Office2010Silver .rwShadow .rwBodyRight,
+.RadWindow_Office2010Silver .rwShadow .rwStatusbarRow .rwBodyLeft,
+.RadWindow_Office2010Silver .rwShadow .rwStatusbarRow .rwBodyRight
+{
+	background-image: url('Window/WindowVerticalSprites.png');
+}
+
+/* Shadows End */
+
+.RadWindow_Office2010Silver .rwStatusbar input
+{
+    background-color: #f7f3e9;
+}
+
+.RadWindow_Office2010Silver .rwControlButtons a
+{
+    background-image: url('Window/CommandButtonSprites.gif');
+}
+
+.RadWindow_Office2010Silver a.rwIcon
+{
+	background-image: url('Window/WindowHorizontalSprites.gif');
+}
+
+div.RadWindow_Office2010Silver .rwTitlebarControls em
+{
+	color: #3b3b3b;
+}
+
+div.RadWindow_Office2010Silver .rwDialogInput
+{
+	border-top: solid 1px #abadb3;
+	border-right: solid 1px #dbdfe6;
+	border-bottom: solid 1px #e3e9ef;
+	border-left: solid 1px #e2e3ea;
+}
+
+div.RadWindow_Office2010Silver .rwDialogInput:hover
+{
+	border-top: solid 1px #5794bf;
+	border-right: solid 1px #b7d5ea;
+	border-bottom: solid 1px #c7e2f1;
+	border-left: solid 1px #c5daed;
+	color: #565656;
+}
+
+.RadWindow_Office2010Silver td.rwWindowContent
+{
+    background-color: #fff;
+}
+
+/* Loading Indicators */
+div.RadWindow_Office2010Silver tr td.rwLoading
+{
+	background-color: #fff;
+}
+
+/* When ShowContentDuringLoad="true" */
+.RadWindow_Office2010Silver td.rwWindowContent.rwLoading
+{
+    background-image: url('Common/loading.gif');
+}
+
+/* When ShowContentDuringLoad="false" */
+.RadWindow_Office2010Silver input.rwLoading
+{
+    background-image: url('Common/loading_small.gif');
+}
+
+div.RadWindow_Office2010Silver a.rwCancel,
+div.RadWindow_Office2010Silver a.rwCancel span
+{
+    background: none;
+    cursor: pointer;
+}
+
+div.RadWindow_Office2010Silver a.rwCancel span span
+{
+    color: #000000;
+    text-decoration: underline;
+}
+
+/* Shadow Control Buttons */
+
+.RadWindow_Office2010Silver .rwShadow .rwControlButtons 
+{
+	margin: 5px -2px 0 0;
+}
+
+.RadWindow_Office2010Silver .rwShadow .rwControlButtons 
+{
+	margin: 5px -1px 0 0\9;
+}
+
+/* ctrl buttons when winodw is minimized */
+.RadWindow_Office2010Silver.rwMinimizedWindowShadow .rwShadow .rwControlButtons 
+{
+	margin: 7px -8px 0 0;
+}
+
+/* Icon when winodw is minimized */
+.RadWindow_Office2010Silver.rwMinimizedWindowShadow .rwShadow .rwIcon 
+{
+	margin: 9px 6px 0 0;
+}
+
+/*title buttons when winodw is minimized */
+.RadWindow_Office2010Silver.rwMinimizedWindowShadow .rwShadow em 
+{
+	margin: 4px 0 0 -1px;
+}
+
+.RadWindow_Office2010Silver .rwShadow .rwControlButtons li
+{
+	float: left;
+	padding: 0;
+}
+
+div.RadWindow_Office2010Silver .rwControlButtons a
+{
+	width: 26px; 
+}
+
+.rwInactiveWindow .rwShadow .rwTopLeft,
+.rwInactiveWindow .rwShadow .rwTopRight,
+.rwInactiveWindow .rwShadow .rwTitlebar,
+.rwInactiveWindow .rwShadow .rwFooterLeft,
+.rwInactiveWindow .rwShadow .rwFooterRight,
+.rwInactiveWindow .rwShadow .rwFooterCenter,
+.rwInactiveWindow .rwShadow .rwTopResize,
+.rwInactiveWindow .rwShadow .rwStatusbar div,
+.rwInactiveWindow .rwShadow .rwStatusbar,
+.rwInactiveWindow .rwShadow .rwPopupButton,
+.rwInactiveWindow .rwShadow .rwPopupButton span,
+.rwInactiveWindow .rwShadow.rwMinimizedWindow .rwCorner,
+.RadWindow_Office2010Silver.rwNoTitleBar.rwInactiveWindow .rwShadow .rwTopLeft,
+.RadWindow_Office2010Silver.rwNoTitleBar.rwInactiveWindow .rwShadow .rwTitlebar,
+.RadWindow_Office2010Silver.rwNoTitleBar.rwInactiveWindow .rwShadow .rwTopRight,
+.RadWindow_Office2010Silver.rwNoTitleBar.rwInactiveWindow .rwShadow .rwFooterLeft,
+.RadWindow_Office2010Silver.rwNoTitleBar.rwInactiveWindow .rwShadow .rwFooterCenter,
+.RadWindow_Office2010Silver.rwNoTitleBar.rwInactiveWindow .rwShadow .rwFooterRight
+{
+    background-image: url('Window/WindowHorizontalSprites.gif') !important;
+}
+
+.rwInactiveWindow .rwShadow .rwBodyLeft,
+.rwInactiveWindow .rwShadow .rwBodyRight,
+.rwInactiveWindow .rwShadow .rwStatusbarRow .rwCorner,
+.RadWindow_Office2010Silver.rwNoTitleBar.rwInactiveWindow .rwShadow .rwBodyLeft,
+.RadWindow_Office2010Silver.rwNoTitleBar.rwInactiveWindow .rwShadow .rwBodyRight
+{
+	background-image: url('Window/WindowVerticalSprites.gif') !important;
+}
+
+

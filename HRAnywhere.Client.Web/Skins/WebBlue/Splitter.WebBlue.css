@@ -1,0 +1,188 @@
+/* RadSplitter for ASP.NET AJAX - WebBlue Skin */
+
+/* Borders */
+.RadSplitter_WebBlue,
+
+/* Vertical RadSplitter items */
+.RadSplitter_WebBlue .rspPane, 
+.RadSplitter_WebBlue .rspResizeBar,
+.RadSplitter_WebBlue .rspSlideContainerResize,
+
+/* Horizontal RadSplitter items */
+.RadSplitter_WebBlue .rspPaneHorizontal,
+.RadSplitter_WebBlue .rspResizeBarHorizontal,
+.RadSplitter_WebBlue .rspSlideContainerResizeHorizontal
+{
+	border-color:#e1e6ea;
+}
+
+.RadSplitter_WebBlue .rspPaneTabContainer
+{
+	border-color:#768ca5;
+}
+
+/* When ShowContentDuringLoad="false" */
+.RadSplitter_WebBlue .rspLoading
+{
+    background-image: url('Common/loading.gif');
+}
+
+/* RadSplitBar/RadSlidingPane resize elements */
+.RadSplitter_WebBlue .rspResizeBar,
+.RadSplitter_WebBlue .rspSlideContainerResize
+{
+	background:#e1e6ea url('Splitter/ResizeBarVerticalSprites.gif') repeat-y 0 0;
+    border-right-color:#a2b3c7;
+}
+
+.RadSplitter_WebBlue .rspResizeBarOver,
+.RadSplitter_WebBlue .rspSlideContainerResizeOver
+{
+    background-position:-4px 0;
+    border-right-color:#5d9fb7;
+}
+
+.RadSplitter_WebBlue .rspResizeBarHorizontal,
+.RadSplitter_WebBlue .rspSlideContainerResizeHorizontal
+{
+	background:#e1e6ea url('Splitter/ResizeBarHorizontalSprites.gif') repeat-x 0 0;
+    border-bottom-color:#a2b3c7;
+}
+
+.RadSplitter_WebBlue .rspResizeBarOverHorizontal,
+.RadSplitter_WebBlue .rspSlideContainerResizeOverHorizontal
+{
+    background-position:0 -4px;
+    border-bottom-color:#5d9fb7;
+}
+
+/* RadSlidingPane tab */
+.RadSplitter_WebBlue .rspPaneTabContainer,
+/* RadSlidingPane buttons */
+.RadSplitter_WebBlue .rspSlideHeaderDockIcon,
+.RadSplitter_WebBlue .rspSlideHeaderUndockIcon,
+.RadSplitter_WebBlue .rspSlideHeaderCollapseIcon,
+/* RadSplitBar buttons */
+.RadSplitter_WebBlue .rspCollapseBarExpand,
+.RadSplitter_WebBlue .rspCollapseBarCollapse,
+
+.RadSplitter_WebBlue .rspCollapseBarHorizontalExpand,
+.RadSplitter_WebBlue .rspCollapseBarHorizontalCollapse
+{
+    background-image:url('Splitter/ExpandCollapseBarsCommands.gif');
+    background-repeat:no-repeat;
+}
+
+/* RadSlidingPane tab */
+.RadSplitter_WebBlue .rspPaneTabContainer
+{
+    background-position:-81px 0;
+    background-repeat:repeat-y;
+    background-color:#9bafc1;
+}
+
+/* RadSplitBar buttons */
+.RadSplitter_WebBlue .rspCollapseBarCollapse
+{	
+	background-position:0 0;
+}
+.RadSplitter_WebBlue .rspCollapseBarCollapseOver
+{
+    background-position:-192px 0;
+}
+
+.RadSplitter_WebBlue .rspCollapseBarExpand
+{	
+	background-position:-4px 0;
+}
+.RadSplitter_WebBlue .rspCollapseBarExpandOver
+{
+    background-position:-196px 0;
+}
+
+.RadSplitter_WebBlue .rspCollapseBarHorizontalExpand
+{
+    background-position:-8px -4px;
+}
+.RadSplitter_WebBlue .rspCollapseBarHorizontalExpandOver
+{
+    background-position:-8px -12px;
+}
+
+.RadSplitter_WebBlue .rspCollapseBarHorizontalCollapse
+{
+    background-position:-8px 0;
+}
+.RadSplitter_WebBlue .rspCollapseBarHorizontalCollapseOver
+{
+    background-position:-8px -8px;
+}
+
+/* RadSlidingPane buttons */
+.RadSplitter_WebBlue .rspSlideHeaderUndockIcon
+{
+	background-position:-50px 0;
+}
+
+.RadSplitter_WebBlue .rspSlideHeaderDockIcon
+{
+	background-position:-35px 0;
+}
+
+.RadSplitter_WebBlue .rspSlideHeaderCollapseIcon
+{
+	background-position:-65px 0;
+}
+
+/* RadSlidingPane header */
+.RadSplitter_WebBlue .rspSlideHeader, 
+/* RadSlidingPane title */
+.RadSplitter_WebBlue .rspSlideTitleContainer,
+/* RadSlidingPane tab, SlideDirection=Top/Bottom */
+.RadSplitter_WebBlue .rspBottom .rspPaneTabContainer,
+.RadSplitter_WebBlue .rspTop .rspPaneTabContainer
+{
+	background-image:url('Splitter/slideTitleContainerBgr.gif');
+	background-repeat:repeat-x;
+}
+
+.RadSplitter_WebBlue .rspBottom .rspPaneTabContainer,
+.RadSplitter_WebBlue .rspTop .rspPaneTabContainer
+{
+    background-position:0 -1px;
+}
+
+.RadSplitter_WebBlue .rspTabsContainer .rspPaneTabContainerDocked
+{
+    background:#fff none;
+}
+
+/* RadSlidingPane header elements */
+.RadSplitter_WebBlue .rspSlideTitleContainer,
+.RadSplitter_WebBlue .rspSlideHeaderIconWrapper
+{
+	border-bottom:solid 1px #768ca5;
+}
+
+/* RadSlidingPane title text */
+.RadSplitter_WebBlue .rspSlideTitle,
+/* RadSlidingPane tab text */
+.RadSplitter_WebBlue .rspPaneTabText
+{
+	font:normal 10px "Segoe UI", Arial, Sans-serif;
+	color:#fff;
+}
+.RadSplitter_WebBlue .rspSlideTitle
+{	
+	font-size:12px;
+}
+.RadSplitter_WebBlue .rspPaneTabContainerDocked .rspPaneTabText
+{
+    color:#000;
+}
+
+/* RadSlidingPane content - this element should not be transparent as it shows above content in adjacent RadPanes */
+.RadSplitter_WebBlue .rspSlideContent
+{
+	background-color:#fff;
+}

@@ -1,0 +1,69 @@
+
+.RecurrenceEditor_Vista
+{
+	color: #333;
+	font: normal 12px/14px "Segoe UI", Arial, sans-serif;
+}
+
+/* <xref input skins> */
+
+.RecurrenceEditor_Vista .rsAdvInput,
+.RecurrenceEditor_Vista select
+{
+	border-color: #ABADB3 #DBDFE6 #DBDFE6 #ABADB3;
+}
+
+.RecurrenceEditor_Vista .rsInvalid input,
+.RecurrenceEditor_Vista .rsAdvTimePicker .riEmpty
+{
+	background-image: url('Input/sprite.gif');
+}
+
+.RecurrenceEditor_Vista .rsInvalid
+{
+	border-color: #F32800;
+	color: #F32800;
+}
+/* </xref input skins> */
+
+.RecurrenceEditor_Vista h2,
+.RecurrenceEditor_Vista h3
+{
+	color: #567db0;
+}
+
+.RecurrenceEditor_Vista h2
+{
+	border-bottom: 1px solid #CCC;
+}
+
+.RecurrenceEditor_Vista h2 span
+{
+	background: #f0f0f0;
+}
+
+.RecurrenceEditor_Vista .rsAdvRecurrenceFreq
+{
+	border-right: 1px solid #fff;
+}
+
+.RecurrenceEditor_Vista ul.rsRecurrenceOptionList 
+{
+	border-right: 1px solid #CCC;
+}
+
+.RecurrenceEditor_Vista div.rsAdvPatternPanel
+{
+	border-left: 0;
+}
+
+/* <date/time picker> */
+
+.RecurrenceEditor_Vista .rsTimePick .RadInput_Vista input.riEnabled,
+.RecurrenceEditor_Vista .rsTimePick .RadInput_Vista input.riHover,
+.RecurrenceEditor_Vista .rsTimePick .RadInput_Vista input.riFocused
+{
+	background-image: url('Scheduler/rsSprites.png');
+}
+
+/* </date/time picker> */

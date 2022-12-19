@@ -1,0 +1,142 @@
+/*Telerik RadInput Office2007 Skin*/
+
+/*global*/
+
+.RadInput_Office2007,
+.RadInputMgr_Office2007
+{
+	font:12px "segoe ui",arial,sans-serif;
+}
+
+/*textbox states*/
+
+html body .RadInput_Office2007 .riTextBox,
+html body .RadInputMgr_Office2007
+{
+	border-color:#abc1de;
+	background:#fff;
+	color:#000;
+	font:12px "segoe ui",arial,sans-serif;
+}
+
+html body .RadInput_Office2007 .riEmpty,
+html body .RadInput_Empty_Office2007
+{
+	color:#8d8d8d;
+}
+
+html body .RadInput_Office2007 .riHover,
+html body .RadInput_Hover_Office2007,
+html body .RadInput_Office2007 .riFocused,
+html body .RadInput_Focused_Office2007
+{
+	border-color:#305090;
+}
+
+html body .RadInput_Office2007 .riRead,
+html body .RadInput_Read_Office2007
+{
+	border-color:#ccdbed;
+}
+
+html body .RadInput_Office2007 .riDisabled,
+html body .RadInput_Disabled_Office2007
+{
+	border-color:#ccdbed;
+	color:#8d8d8d;
+	cursor:default;
+}
+
+html body .RadInput_Office2007 .riError,
+html body .RadInput_Error_Office2007
+{
+	border-color:#b32d34 #dc643f #ea8541;
+	background:#fff 100% -298px no-repeat url('Input/sprite.gif');
+	color:#b32d34;
+}
+
+.RadForm.rfdTextbox .RadInput_Office2007 .riError[type="text"],
+.RadForm.rfdTextbox .RadInput_Error_Office2007[type="text"]
+{
+	border-color:#b32d34 #dc643f #ea8541;
+	background:#fff 100% -298px no-repeat url('Input/sprite.gif');
+	color:#b32d34;
+}
+
+html body .RadInput_Office2007 .riNegative,
+html body .RadInput_Negative_Office2007
+{
+	color:#565656;
+}
+
+/*buttons*/
+
+.RadInput_Office2007 a
+{
+	background:transparent no-repeat url('Input/sprite.gif');
+}
+
+/*go*/
+
+.RadInput_Office2007 .riBtn a
+{
+	width:20px;
+	height:18px;
+	line-height:18px;
+	background-position:3px 5px;
+}
+
+.RadInput_Office2007 .riBtn a:hover
+{
+	background-position:3px -45px;
+}
+
+/*spin*/
+
+.RadInput_Office2007 .riSpin a
+{
+	width:15px;
+	height:7px;
+	line-height:7px;
+}
+
+.RadInput_Office2007 a.riUp
+{
+	background-position:4px -98px;
+}
+
+.RadInput_Office2007 a.riUp:hover
+{
+	background-position:4px -148px;
+}
+
+.RadInput_Office2007 a.riDown
+{
+	background-position:4px -199px;
+}
+
+.RadInput_Office2007 a.riDown:hover
+{
+	background-position:4px -249px;
+}
+
+/*label*/
+
+.RadInput_Office2007 .riLabel
+{
+	color:#000;
+}
+
+/*rtl*/
+
+html body .RadInputRTL_Office2007 .riError,
+html body .RadInputRTL_Error_Office2007
+{
+	background-position:3px -298px;
+}
+
+.RadForm.rfdTextbox .RadInputRTL_Office2007 .riError[type="text"],
+.RadForm.rfdTextbox .RadInputRTL_Error_Office2007[type="text"]
+{
+	background-position:3px -298px;
+}

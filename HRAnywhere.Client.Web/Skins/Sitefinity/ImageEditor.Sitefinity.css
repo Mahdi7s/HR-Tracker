@@ -1,0 +1,194 @@
+/* RadImageEdiotr Sitefinity Skin */
+
+.RadImageEditor_Sitefinity,
+.RadDock_Sitefinity.rieDialogs .riePrintContent
+{
+	border-color: #dee2e7;
+	background-color: #dee2e7;
+}
+
+.RadImageEditor_Sitefinity .rieStatusBarInfo .rieLabel
+{
+	color: #8a8a8a;
+}
+
+.RadImageEditor_Sitefinity .rieStatusBarInfo span
+{
+	color: #4c4e54;
+}
+
+.RadDock_Sitefinity.rieDialogs .rdContent
+{
+	color: #000;
+}
+
+.RadImageEditor_Sitefinity .rieContentArea
+{
+	border-color: #dee2e7;
+}
+
+/* Base overrides */
+div.RadImageEditor .RadToolBar_Sitefinity .rtbWrap
+{
+	width: 30px;
+	height: 30px;
+}
+
+.RadImageEditor .RadToolBar_Sitefinity .rtbIcon
+{
+	top: 7px;
+}
+
+.RadImageEditor .RadToolBar_Sitefinity .rtbItemHovered .rtbIcon,
+.RadImageEditor .RadToolBar_Sitefinity .rtbChecked .rtbIcon,
+.RadImageEditor .RadToolBar_Sitefinity .rtbSplBtnExpanded .rtbIcon
+{
+	top: -11px;
+}
+
+.RadImageEditor .RadToolBar_Sitefinity a.rtbWrap.rtbExpandDown
+{
+	width: auto;
+}
+
+.RadImageEditor .RadToolBar_Sitefinity .rieCrop .rtbIcon
+{
+	left: 5px;
+}
+
+.RadImageEditor .RadToolBar_Sitefinity .rieRotateRight .rtbIcon
+{
+	left: -11px;
+}
+
+.RadImageEditor .RadToolBar_Sitefinity .rieRotateLeft .rtbIcon
+{
+	left: -27px;
+}
+
+.RadImageEditor .RadToolBar_Sitefinity .rieFlipHorizontal .rtbIcon
+{
+	left: -59px;
+}
+
+.RadImageEditor .RadToolBar_Sitefinity .rieFlipVertical .rtbIcon
+{
+	left: -75px;
+}
+
+.RadImageEditor .RadToolBar_Sitefinity .rieFlip .rtbIcon
+{
+	left: -92px;
+}
+
+.RadImageEditor .RadToolBar_Sitefinity .rieResize .rtbIcon
+{
+	left: -107px;
+}
+
+.RadImageEditor .RadToolBar_Sitefinity .rtbItemHovered .rieResize .rtbIcon,
+.RadImageEditor .RadToolBar_Sitefinity .rtbChecked .rieResize .rtbIcon
+{
+	top: -9px;
+}
+
+.RadImageEditor .RadToolBar_Sitefinity .rieOpen .rtbIcon
+{
+	left: -123px;
+}
+
+.RadImageEditor .RadToolBar_Sitefinity .rieSave .rtbIcon
+{
+	left: -171px;
+}
+
+.RadImageEditor .RadToolBar_Sitefinity .riePrint .rtbIcon
+{
+	left: -187px;
+}
+
+.RadImageEditor .RadToolBar_Sitefinity .rieRotate .rtbIcon
+{
+	left: -203px;
+}
+
+.RadImageEditor .RadToolBar_Sitefinity .rieZoom .rtbIcon
+{
+	left: -219px;
+}
+
+.RadImageEditor .RadToolBar_Sitefinity .rieZoomIn .rtbIcon
+{
+	left: -235px;
+}
+
+.RadImageEditor .RadToolBar_Sitefinity .rieZoomOut .rtbIcon
+{
+	left: -251px;
+}
+
+.RadImageEditor .RadToolBar_Sitefinity .rieReset .rtbIcon
+{
+	left: -267px;
+}
+
+.RadImageEditor .RadToolBar_Sitefinity .rieAddText .rtbIcon
+{
+	left: -283px;
+}
+
+.RadImageEditor .RadToolBar_Sitefinity .rieOpacity .rtbIcon
+{
+	left: -299px;
+}
+
+.RadImageEditor .RadToolBar_Sitefinity .rieInsertImage .rtbIcon
+{
+	left: -395px;
+}
+
+/* ImageEditor Dialogs using RadDock as Wrapper */
+.RadDock_Sitefinity.rieDialogs .rbPrimaryIcon,
+.RadImageEditor_Sitefinity .rieResizeHandle,
+.RadImageEditor_Sitefinity .rieBackgroundImg .rtbIcon /* Custom skin */
+{
+	background-image: url('ImageEditor/ImageEditorTools.png');
+}
+
+*html .RadDock_Sitefinity.rieDialogs .rbPrimaryIcon,
+*html .RadImageEditor_Sitefinity .rieResizeHandle,
+*html .RadImageEditor_Sitefinity .rieBackgroundImg .rtbIcon /* Custom skin */
+{
+	background-image: url('ImageEditor/ImageEditorToolsIE6.gif');
+}
+
+.RadDock_Sitefinity.rieDialogs .rieThumbsBottomRow td,
+.RadDock_Sitefinity.rieDialogs .rieDialogsThumbsLeft,
+.RadDock_Sitefinity.rieDialogs .riePrintContent img
+{
+	border-color: #abadb3;
+}
+
+.RadDock_Sitefinity.rieDialogs .rieThumbsLink
+{
+	border-color: #abadb3;
+	background-color: #efefef;
+}
+
+.RadDock_Sitefinity.rieDialogs .rieActiveThumbsLink,
+.RadDock_Sitefinity.rieDialogs .rieThumbsLink:hover,
+.RadImageEditor_Sitefinity .rieHighlightVertical, 
+.RadImageEditor_Sitefinity .rieHighlightHorizontal
+{
+	border-color: #abadb3;
+	background-color: #fff;
+}
+
+/*Custom skin*/
+.RadImageEditor_Sitefinity li.rtbItem .rieBackgroundImg span.rtbIcon 
+{
+	left: 6px;
+	overflow: hidden;
+	top: 6px !important;
+	width: 13px;
+}

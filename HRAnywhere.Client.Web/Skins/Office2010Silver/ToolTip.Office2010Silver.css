@@ -1,0 +1,47 @@
+/* RadToolTip Office2010Silver Skin */
+
+.RadToolTip_Office2010Silver.rtLoading
+{	
+	background: url('Common/loading.gif') no-repeat center;
+}
+
+div.RadToolTip_Office2010Silver table.rtWrapper td.rtWrapperTopLeft,
+div.RadToolTip_Office2010Silver table.rtWrapper td.rtWrapperTopRight,
+div.RadToolTip_Office2010Silver table.rtWrapper td.rtWrapperBottomLeft,
+div.RadToolTip_Office2010Silver table.rtWrapper td.rtWrapperBottomRight,
+div.RadToolTip_Office2010Silver table.rtWrapper td.rtWrapperTopCenter,
+div.RadToolTip_Office2010Silver table.rtWrapper td.rtWrapperBottomCenter,
+div.RadToolTip_Office2010Silver table.rtShadow td.rtWrapperTopLeft,
+div.RadToolTip_Office2010Silver table.rtShadow td.rtWrapperTopRight,
+div.RadToolTip_Office2010Silver table.rtShadow td.rtWrapperBottomLeft,
+div.RadToolTip_Office2010Silver table.rtShadow td.rtWrapperBottomRight,
+div.RadToolTip_Office2010Silver table.rtShadow td.rtWrapperTopCenter,
+div.RadToolTip_Office2010Silver table.rtShadow td.rtWrapperBottomCenter,
+div.RadToolTip_Office2010Silver a.rtCloseButton
+{
+	background-image: url('ToolTip/ToolTipSprites.png');
+}
+
+div.RadToolTip_Office2010Silver table.rtWrapper td.rtWrapperLeftMiddle,
+div.RadToolTip_Office2010Silver table.rtWrapper td.rtWrapperRightMiddle,
+div.RadToolTip_Office2010Silver table.rtShadow td.rtWrapperLeftMiddle,
+div.RadToolTip_Office2010Silver table.rtShadow td.rtWrapperRightMiddle
+{
+	background-image: url('ToolTip/ToolTipVerticalSprites.png');
+}
+
+div.RadToolTip_Office2010Silver table.rtWrapper td.rtWrapperContent
+{
+	background-color: #f1f3f5;
+	color: #000;
+}
+
+div.RadToolTip_Office2010Silver div.rtTitlebar
+{	
+	color: #3b3b3b;
+}
+
+div.RadToolTip_Office2010Silver div.rtCallout
+{
+	background-image: url('ToolTip/Callouts.gif');
+}

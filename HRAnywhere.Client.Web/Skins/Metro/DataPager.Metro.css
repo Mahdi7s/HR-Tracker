@@ -1,0 +1,75 @@
+/*Telerik RadDataPager Metro Skin*/
+
+.RadDataPager_Metro
+{
+	border:1px solid #e5e5e5;
+	background:#fff;
+	color:#000;
+}
+
+.RadDataPager_Metro .rdpPageFirst,
+.RadDataPager_Metro .rdpPagePrev,
+.RadDataPager_Metro .rdpPageNext,
+.RadDataPager_Metro .rdpPageLast
+{
+	background:transparent no-repeat url('Grid/sprite.gif');
+}
+
+.RadDataPager_Metro .rdpPageFirst
+{
+	background-position:0 -550px;
+}
+.RadDataPager_Metro .rdpPageFirst:hover
+{
+	background-position:0 -600px;
+}
+.RadDataPager_Metro .rdpPagePrev
+{
+	background-position:0 -700px;
+}
+.RadDataPager_Metro .rdpPagePrev:hover
+{
+	background-position:0 -750px;
+}
+.RadDataPager_Metro .rdpPageNext
+{
+	background-position:0 -850px;
+}
+.RadDataPager_Metro .rdpPageNext:hover
+{
+	background-position:0 -900px;
+}
+.RadDataPager_Metro .rdpPageLast
+{
+	background-position:0 -1000px;
+}
+.RadDataPager_Metro .rdpPageLast:hover
+{
+	background-position:0 -1050px;
+}
+
+.RadDataPager_Metro .rdpPagerButton
+{
+	border:1px solid #25a0da;
+	background:#25a0da;
+	color:#fff;
+	font:12px/12px "segoe ui",arial,sans-serif;
+}
+
+.RadDataPager_Metro .rdpNumPart a
+{
+	border:1px solid #fff;
+	color:#767676;
+}
+
+.RadDataPager_Metro .rdpNumPart a:hover
+{
+	color:#000;
+	background-color:#e5e5e5;
+}
+
+.RadDataPager_Metro .rdpNumPart a.rdpCurrentPage,
+.RadDataPager_Metro .rdpNumPart a.rdpCurrentPage:hover
+{
+	border-color:#25a0da;
+}

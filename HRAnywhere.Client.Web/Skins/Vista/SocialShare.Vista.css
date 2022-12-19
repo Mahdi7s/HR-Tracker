@@ -1,0 +1,18 @@
+/* RadSocialShare Vista Skin */
+
+.RadSocialShare_Vista
+{
+	border: 1px solid #dfdfdf;
+	background-color: #f0f0f0;
+}
+
+.RadSocialShare_Vista .sshLinkItem .sshText,
+.RadComboBoxDropDown_Vista .rcbItem .sshLinkItem .sshText
+{
+	color: #333;
+}
+
+.RadComboBoxDropDown_Vista .rcbHovered .sshLinkItem .sshText
+{
+	color: #fff;
+}

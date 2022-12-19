@@ -1,0 +1,117 @@
+/* RadSlider for ASP.NET AJAX Web20 Skin */
+.RadSlider_Web20 .rslTrack
+{
+	border-color:#7996c6 #fff #fff #7996c6;
+}
+
+.RadSlider_Web20 .rslHorizontal a.rslHandle
+{
+	background-image:url('Slider/Handles.gif');
+}
+
+.RadSlider_Web20 .rslHorizontal a.rslDraghandle
+{
+	background-image:url('Slider/DragHandle.gif');
+}
+
+.RadSlider_Web20 .rslHorizontal .rslTrack
+{	
+	background:url('Slider/TrackBgr.gif') repeat-x;
+}
+
+.RadSlider_Web20 .rslHorizontal .rslSelectedregion
+{
+	background:url('Slider/SelectedRegionHorizontalBgr.gif') right top no-repeat;
+}
+
+/* vertical slider */
+.RadSlider_Web20 .rslVertical a.rslHandle
+{
+	background-image:url('Slider/HandlesVertical.gif');
+}
+
+.RadSlider_Web20 .rslVertical .rslTrack
+{
+	background:url('Slider/TrackVerticalBgr.gif') repeat-y;
+}
+
+.RadSlider_Web20 .rslVertical .rslSelectedregion
+{
+	background:url('Slider/SelectedRegionVerticalBgr.gif') left bottom no-repeat;
+}
+
+.RadSlider_Web20 .rslVertical a.rslDraghandle
+{
+	background:url('Slider/DragVerticalHandle.gif') no-repeat 0 0;
+}
+
+.RadSlider_Web20 .rslItem,
+.RadSlider_Web20 .rslLargeTick span
+{
+	color:#333;
+}
+
+.RadSlider_Web20 .rslItemsWrapper .rslItemSelected
+{
+	color:#000;
+}
+
+/* horizontal slider items */
+.RadSlider_Web20 .rslHorizontal .rslItem
+{
+	background-image:url('Slider/ItemHorizontalBgr.gif');
+}
+
+/* vertical slider items */
+.RadSlider_Web20 .rslVertical .rslItem
+{
+	background-image:url('Slider/ItemVerticalBgr.gif');
+}
+
+/* horizontal slider - TrackPosition=Top/Bottom */
+.RadSlider_Web20 .rslTop .rslSmallTick,
+.RadSlider_Web20 .rslBottom .rslSmallTick
+{
+	background-image:url('Slider/SmallChangeHorizontal.gif');
+}
+
+.RadSlider_Web20 .rslTop .rslLargeTick,
+.RadSlider_Web20 .rslBottom .rslLargeTick
+{
+	background-image:url('Slider/LargeChangeHorizontal.gif');
+}
+
+/* vertical slider - TrackPosition=Left/Right */
+.RadSlider_Web20 .rslLeft .rslSmallTick,
+.RadSlider_Web20 .rslRight .rslSmallTick
+{
+	background-image:url('Slider/SmallChangeVertical.gif');
+}
+
+.RadSlider_Web20 .rslLeft .rslLargeTick,
+.RadSlider_Web20 .rslRight .rslLargeTick
+{
+	background-image:url('Slider/LargelChangeVertical.gif');
+}
+
+/* horizontal slider - TrackPosition=Center */
+.RadSlider_Web20 .rslMiddle .rslSmallTick
+{
+	background-image:url('Slider/SmallChangeMiddleHorizontal.gif');
+}
+
+.RadSlider_Web20 .rslMiddle .rslLargeTick
+{
+	background-image:url('Slider/LargeChangeMiddleHorizontal.gif');
+}
+
+/* vertical slider - TrackPosition=Center */
+.RadSlider_Web20 .rslCenter .rslSmallTick
+{
+	background-image:url('Slider/SmallChangeCenterVertical.gif');
+}
+
+.RadSlider_Web20 .rslCenter .rslLargeTick
+{
+	background-image:url('Slider/LargelChangeCenterVertical.gif');
+}

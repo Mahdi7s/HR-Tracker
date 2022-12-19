@@ -1,0 +1,453 @@
+/* RadFormDecorator Metro Skin */
+
+/* CSS class for styling the decoration zone or the <html /> tag of the page */
+.RadForm_Metro.rfdZone
+{
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0)
+{
+    .RadForm_Metro.rfdButton a.rfdSkinnedButton input.rfdDecorated,
+    .RadForm_Metro.rfdButton a.rfdSkinnedButton input.rfdDecorated,
+    .RadForm_Metro.rfdButton a.rfdSkinnedButton input.rfdDecorated:active,
+    .RadForm_Metro.rfdButton a.rfdSkinnedButton input.rfdDecorated:focus
+    {
+    	background-color: transparent;
+    	border: 0;
+    }
+}
+
+/* Decorate scrollbars */
+.RadForm_Metro.rfdScrollBars
+{
+	scrollbar-3dlight-color: #e5e5e5; 
+	scrollbar-arrow-color: #000;
+	scrollbar-base-color: #e5e5e5; 
+	scrollbar-darkshadow-color: #e5e5e5; 
+	scrollbar-face-color: #e5e5e5;
+	scrollbar-highlight-color: #e5e5e5; 
+	scrollbar-shadow-color: #000;
+	scrollbar-track-color: #d5d4d4;
+}
+
+/* Decorate <input type="button | submit | reset" /> and <button type="button | submit | reset" /> - look if there is a secondary .rfdButton class applied to the root element */
+.RadForm_Metro.rfdButton a.rfdSkinnedButton,
+.RadForm_Metro.rfdButton input[type="button"].rfdDecorated,
+.RadForm_Metro.rfdButton input[type="reset"].rfdDecorated,
+.RadForm_Metro.rfdButton input[type="submit"].rfdDecorated,
+.RadForm_Metro.rfdButton .rfdSkinnedButton button,
+.RadForm_Metro.rfdButton a.rfdInputDisabled.rfdSkinnedButton:hover,
+.RadForm_Metro.rfdButton a.rfdInputDisabled.rfdSkinnedButton:hover *
+{
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	color: #767676;
+}
+
+*html .RadForm_Metro a.rfdSkinnedButton,
+*html .RadForm_Metro .rfdSkinnedButton button,
+*html .RadForm_Metro .rfdSkinnedButton input.rfdDecorated 
+{
+	background: #fff;
+	color: #767676;
+}
+
+/*.RadForm_Metro.rfdButton a.rfdSkinnedButton *
+{
+    padding-left: 4px !important;
+}*/
+
+.RadForm_Metro.rfdButton a.rfdSkinnedButton,
+.RadForm_Metro.rfdButton a.rfdInputDisabled.rfdSkinnedButton:hover
+{
+    border: solid 1px #e5e5e5 !important;
+}
+
+.RadForm_Metro.rfdButton a.rfdSkinnedButton:hover
+{
+    border-color: #e5e5e5 !important;
+} 
+
+.RadForm_Metro.rfdButton a.rfdSkinnedButton:hover,
+.RadForm_Metro.rfdButton a.rfdSkinnedButton:hover *
+{
+    background: #e5e5e5;
+    color: #000;
+}
+
+.RadForm_Metro.rfdButton a.rfdClickedButton,
+.RadForm_Metro.rfdButton a.rfdClickedButton:hover
+{
+    border-color: #25a0da !important;
+}
+
+.RadForm_Metro.rfdButton a.rfdClickedButton,
+.RadForm_Metro.rfdButton a.rfdClickedButton *
+{
+    background-color: #25a0da !important;
+    color: #fff !important;
+}
+
+/* below are the IE6 fixes - should not be combined with the other CSS */
+.RadForm_Metro.rfdButton a.rfdSkinnedButton:link,
+.RadForm_Metro.rfdButton a.rfdSkinnedButton:visited
+{
+    _border: solid 1px #e5e5e5 !important;
+    _background-color: #fff !important;
+	_color: #767676 !important;
+}
+
+.RadForm_Metro.rfdButton a.rfdSkinnedButton *
+{
+    _background-color: #fff !important;
+}
+
+.RadForm_Metro.rfdButton a.rfdSkinnedButton:hover
+{
+    _border: solid 1px #e5e5e5 !important;
+    _background-color: #e5e5e5 !important;
+}
+
+.RadForm_Metro.rfdButton a.rfdSkinnedButton:hover *
+{
+    _background-color: #ffe79c !important;
+    _color: #882501 !important;
+}
+
+.RadForm_Metro.rfdButton a.rfdInputDisabled:hover
+{
+    _border: solid 1px #e5e5e5 !important;
+}
+
+.RadForm_Metro.rfdButton a.rfdInputDisabled:hover,
+.RadForm_Metro.rfdButton a.rfdInputDisabled:hover *
+{
+    _background-color: #fff !important;
+}
+
+/* OPERA width fix - do not remove (and check if it is still necessary) */
+@media screen and (min-width:1px)  
+{
+	/* 
+       the hack below fixes a strange behavior under Opera - 
+       input and button have a different CSS display when in anchor tag 
+    */
+	.RadForm_Metro.rfdButton a.rfdSkinnedButton input
+	{
+	    display: block;
+	    float: left;
+	}
+}
+
+/* Decorate <h4|5|6 /> */
+.RadForm_Metro.rfdHeading h4,
+.RadForm_Metro.rfdHeading h5,
+.RadForm_Metro.rfdHeading h6
+{
+	color: #767676;	
+	border-bottom: solid 1px #767676;
+	text-transform: uppercase;
+}
+
+/* Decorate <label /> */
+.RadForm_Metro.rfdLabel label,
+.RadForm_Metro.rfdLabel .rfdAspLabel
+{	
+	color: #767676;
+}
+
+/* Decorate <input type="checkbox" /> */
+.RadForm_Metro .rfdCheckboxUnchecked,
+.RadForm_Metro .rfdCheckboxChecked,
+.RadForm_Metro .rfdInputDisabled.rfdCheckboxUnchecked,
+.RadForm_Metro .rfdInputDisabled.rfdCheckboxChecked
+{
+	background-image: url('FormDecorator/CheckBoxSprites.gif');
+}
+
+/* Decorate <input type="radio" /> */
+.RadForm_Metro .rfdRadioUnchecked,
+.RadForm_Metro .rfdRadioChecked,
+.RadForm_Metro .rfdInputDisabled.rfdRadioUnchecked,
+.RadForm_Metro .rfdInputDisabled.rfdRadioChecked
+{
+	background-image: url('FormDecorator/RadioButtonSprites.png');
+}
+
+/* IE6 - we set .gif")%> image instead of .png")%> due to the lack RGBA support */
+.RadForm_Metro .rfdRadioUnchecked,
+.RadForm_Metro .rfdInputDisabled.rfdRadioUnchecked:hover,
+.RadForm_Metro .rfdRadioUnchecked:hover,
+.RadForm_Metro .rfdRadioChecked,
+.RadForm_Metro .rfdInputDisabled.rfdRadioChecked:hover,
+.RadForm_Metro .rfdRadioChecked:hover
+{
+    _background-image: url('FormDecorator/RadioButtonSprites.gif'); /* IE6 hack */
+}
+
+/* <fieldset /> and <legend /> */
+
+.RadForm_Metro.rfdFieldset table.rfdRoundedWrapper_fieldset legend,
+.RadForm_Metro.rfdFieldset fieldset legend
+{
+	color: #767676;
+}
+
+.RadForm_Metro table.rfdRoundedWrapper:hover div.rfdRoundedInner
+{
+    background-color: #fff;
+    border-color: #767676 !important;
+}
+
+/* this selector styles the hover of the side bars of the rounded elements */
+.RadForm_Metro table.rfdRoundedWrapper:hover .rfdRoundedOuter
+{	
+	background-color: #767676 !important;
+}
+
+/* Decorate <input type="text | password" /> and <textarea /> */
+/* For all browsers except IE6 we are using attribute selectors - single or double */
+.RadForm_Metro.rfdTextbox input[type="text"],
+.RadForm_Metro.rfdTextbox input[type="password"],
+.RadForm_Metro.rfdTextarea textarea,
+.RadForm_Metro.rfdTextarea textarea[disabled]:hover,
+.RadForm_Metro.rfdTextbox input[disabled][type="text"]:hover,
+.RadForm_Metro.rfdTextbox input[disabled][type="password"]:hover
+{
+    border: solid 1px #e5e5e5;
+    background-color: #fff;
+}
+
+
+.RadForm_Metro.rfdTextbox .rfdDecorated:hover,
+.RadForm_Metro.rfdTextbox .rfdDecorated:hover,
+.RadForm_Metro.rfdTextarea textarea:hover
+{
+    border: solid 1px #767676;
+}
+
+.RadForm_Metro.rfdTextbox .rfdDecorated:focus,
+.RadForm_Metro.rfdTextbox .rfdDecorated:focus,
+.RadForm_Metro.rfdTextarea textarea:focus,
+.RadForm_Metro.rfdTextbox .rfdDecorated:active,
+.RadForm_Metro.rfdTextbox .rfdDecorated:active,
+.RadForm_Metro.rfdTextarea textarea:active
+{
+    border: solid 1px #25a0da;
+}
+
+/* Decorate <fieldset /> and <legend /> */
+.RadForm_Metro.rfdFieldset table.rfdRoundedWrapper_fieldset legend,
+.RadForm_Metro.rfdFieldset fieldset.rfdFieldset legend
+{
+	color: #767676;
+}
+
+.RadForm_Metro.rfdFieldset table.rfdRoundedWrapper_fieldset fieldset,
+.RadForm_Metro.rfdFieldset fieldset
+{	
+	border: solid 1px #e5e5e5;
+}
+
+/* Because of a glitch in IE the following 2 CSS classes must be declared separately for correct parsing of the textarea class in IE6*/
+.RadForm_Metro table.rfdRoundedWrapper input,
+.RadForm_Metro table.rfdRoundedWrapper textarea,
+.RadForm_Metro input.rfdInput, 
+.RadForm_Metro textarea.rfdTextarea
+{
+	border: solid 1px #e5e5e5;
+	background: #fff;	
+	color: #767676;
+}
+
+.RadForm_Metro textarea.rfdTextarea,
+.RadForm_Metro table.rfdRoundedWrapper textarea
+{
+    overflow: auto;
+}
+
+/* <select /> */
+.rfdSelect_Metro,
+.rfdSelect_Metro:hover,
+.rfdSelect_Metro .rfdSelectOuter,
+.rfdSelect_Metro:hover .rfdSelectOuter,
+.rfdSelect_Metro .rfdSelectArrow span,
+.rfdSelectBox_Metro .rfdSelect_selected,
+.rfdSelectBox_Metro li:hover,
+.rfdSelect_Metro.rfdSelectDisabled:hover,
+.rfdRtl .rfdSelect_Metro,
+.rfdRtl .rfdSelect_Metro:hover,
+.rfdRtl .rfdSelect_Metro .rfdSelectOuter,
+.rfdRtl .rfdSelect_Metro .rfdSelectOuter:hover
+{
+    background-image: url('FormDecorator/ComboSprites.gif');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.rfdSelect_Metro .rfdSelectOuter,
+.rfdSelect_Metro.rfdSelectDisabled:hover .rfdSelectOuter
+{
+    color: #767676;
+}
+
+.rfdSelect_Metro:hover .rfdSelectOuter
+{
+    color: #000;
+}
+
+/* dropdown settings */
+.rfdSelectBox_Metro
+{
+    background: #fff;
+    border: solid 1px #e5e5e5;
+    color: #767676;
+     border-radius: 0;
+    -webkit-border-radius: 0;
+	-moz-border-radius: 0;
+}
+
+.rfdSelectBox_Metro li
+{
+    padding: 0 0 0 3px;
+    background-image: none !important;
+}
+
+.rfdSelectBox_Metro li:hover
+{
+    background-color: #e5e5e5;
+    color: #000;
+}
+
+.rfdSelectBox_Metro .rfdSelectBox_optgroup_label:hover
+{
+    background: none;
+    color: #000;
+}
+
+.rfdSelectBox_Metro .rfdSelect_selected
+{
+	background-color: #25a0da;
+	color: #fff;
+}
+
+/* IE6 disabled state fix - this should not be added to the base stylesheet, but at the bottom of the skin file */
+* html .RadForm_Metro.rfdButton a.rfdInputDisabled:hover
+{
+	_background-position: 0 0;
+}
+
+* html .RadForm_Metro.rfdButton a.rfdInputDisabled:hover *
+{
+	_background-position: right -21px;
+	_color: #824703;
+}
+
+/* IE6 only settings - should be at the bottom of the file */
+.RadForm_Metro.rfdTextbox input.rfdIE6TextBox,
+.RadForm_Metro.rfdTextbox textarea.rfdIE6TextBox
+{
+    _border: solid 1px #e5e5e5;
+    _background-color: #fff;
+}
+
+/* the styling of radiobuttons and checkboxes in Safari and Chrome is already fully achieved with CSS */
+@media screen and (-webkit-min-device-pixel-ratio: 0)
+{
+    /* checkboxes */
+    .rfdCheckbox input[type="checkbox"],
+    .rfdCheckbox input[type="checkbox"][disabled]:hover
+    {
+        background-image: url('FormDecorator/CheckBoxSprites.gif');
+    }
+    
+    /* radio buttons */
+    .rfdRadio input[type="radio"],
+    .rfdRadio input[type="radio"][disabled="disabled"]:hover
+    {
+        background-image: url('FormDecorator/RadioButtonSprites.png');
+    }
+}
+
+/* ----------------------------------------------- Skin-specific Scrollbar Settings for WebKit ----------------------------------------------- */
+
+/* the scrollbar face color */
+.RadForm.rfdScrollBars.RadForm_Metro body::-webkit-scrollbar,
+.RadForm.rfdScrollBars.RadForm_Metro body::-webkit-scrollbar-thumb:vertical,
+.RadForm.rfdScrollBars.RadForm_Metro body::-webkit-scrollbar-thumb:horizontal,
+.RadForm.rfdScrollBars.RadForm_Metro div::-webkit-scrollbar,
+.RadForm.rfdScrollBars.RadForm_Metro div::-webkit-scrollbar-thumb:vertical,
+.RadForm.rfdScrollBars.RadForm_Metro div::-webkit-scrollbar-thumb:horizontal
+.RadForm.rfdScrollBars.RadForm_Metro form::-webkit-scrollbar,
+.RadForm.rfdScrollBars.RadForm_Metro form::-webkit-scrollbar-thumb:vertical,
+.RadForm.rfdScrollBars.RadForm_Metro form::-webkit-scrollbar-thumb:horizontal
+{
+    background-color: #e5e5e5;
+}
+
+/* scrollbar track background color */
+.RadForm.rfdScrollBars.RadForm_Metro ::-webkit-scrollbar-track-piece,
+.RadForm.rfdScrollBars.RadForm_Metro ::-webkit-scrollbar-corner
+{
+    background-color: #d5d4d4;
+}
+
+.RadForm.rfdScrollBars.RadForm_Metro ::-webkit-scrollbar-button:vertical:decrement, 
+.RadForm.rfdScrollBars.RadForm_Metro ::-webkit-scrollbar-button:vertical:increment, 
+.RadForm.rfdScrollBars.RadForm_Metro ::-webkit-scrollbar-button:horizontal:decrement, 
+.RadForm.rfdScrollBars.RadForm_Metro ::-webkit-scrollbar-button:horizontal:increment, 
+.RadForm.rfdScrollBars.RadForm_Metro ::-webkit-scrollbar-thumb:vertical, 
+.RadForm.rfdScrollBars.RadForm_Metro ::-webkit-scrollbar-thumb:horizontal
+{
+    border-color: #e5e5e5 #000 #000 #e5e5e5;
+}
+
+/* increment / decrement button settings */
+.RadForm.rfdScrollBars.RadForm_Metro ::-webkit-scrollbar-button:vertical:decrement, 
+.RadForm.rfdScrollBars.RadForm_Metro ::-webkit-scrollbar-button:vertical:increment, 
+.RadForm.rfdScrollBars.RadForm_Metro ::-webkit-scrollbar-button:horizontal:decrement, 
+.RadForm.rfdScrollBars.RadForm_Metro ::-webkit-scrollbar-button:horizontal:increment
+{
+    background-image: url('FormDecorator/ButtonSprites.gif');
+    background-color: #e5e5e5;
+}
+
+/*GridView, FormView, DetailsView*/
+.RadForm_Metro.rfdGrids .rfdTable
+{
+    border:1px solid #e5e5e5;
+    background:#fff;
+    color:#c7c7c7;
+    font:12px "segoe ui",arial,sans-serif;
+}
+
+.RadForm_Metro.rfdGrids .rfdTable th
+{
+    border-bottom:1px solid #e5e5e5;
+    border-left:1px solid #e5e5e5;
+    background:#fff;
+    color:#000;
+}
+
+.RadForm_Metro.rfdGrids .rfdTable a
+{
+    color:#c7c7c7;
+}
+
+/* Validation Summary Control and Login Control  */
+
+.RadForm_Metro .rfdValidationSummaryControl,
+.RadForm_Metro .rfdLoginControl
+{
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+}
+
+.RadForm_Metro a.rfdLoginControl,
+.RadForm_Metro a.rfdLoginControl:active,
+.RadForm_Metro a.rfdLoginControl:hover,
+.RadForm_Metro a.rfdLoginControl:visited
+{
+	color: #000;
+}

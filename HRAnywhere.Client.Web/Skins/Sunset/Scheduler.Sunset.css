@@ -1,0 +1,577 @@
+/* RadScheduler Sunset skin */
+
+/* common */
+.RadScheduler_Sunset,
+.RadScheduler_Sunset a,
+.RadScheduler_Sunset input,
+.RadScheduler_Sunset select,
+.RadScheduler_Sunset textarea
+{
+	color: #333;
+	font: normal 12px/14px "Segoe UI", Arial, sans-serif;
+}
+
+/* header */
+
+/* header sprites */
+.RadScheduler_Sunset .rsHeader,
+.RadScheduler_Sunset .rsHeader ul a:hover,
+.RadScheduler_Sunset .rsHeader ul a:hover span,
+.RadScheduler_Sunset .rsHeader .rsSelected,
+.RadScheduler_Sunset .rsHeader .rsSelected em,
+.RadScheduler_Sunset .rsHeader .rsDatePickerActivator,
+.RadScheduler_Sunset .rsHeader .rsPrevDay,
+.RadScheduler_Sunset .rsHeader .rsNextDay
+{
+	background-image: url('Scheduler/rsSprites.png');
+}
+
+.RadScheduler_Sunset .rsHeader
+{
+	border: 1px solid #504a41;
+}
+
+.RadScheduler_Sunset .rsHeader,
+.RadScheduler_Sunset .rsHeader a,
+.RadScheduler_Sunset .rsDateHeader
+{
+	color: #fff;
+}
+
+.RadScheduler_Sunset .rsHeader a:hover,
+.RadScheduler_Sunset .rsHeader em
+{
+	color: #5d1f00;
+}
+
+.RadScheduler_Sunset .rsHeader a.rsToday:hover
+{
+	color: #CCC;
+}
+
+.RadScheduler .rsHeader a.rsDatePickerActivator {
+	margin: 2px 0 0 5px;
+}
+
+.RadScheduler_Sunset div.rsHeader .rsPrevDay
+{
+	width: 18px;
+	height: 19px;
+	margin: 5px 0 0 3px;
+}
+
+.RadScheduler_Sunset div.rsHeader .rsNextDay
+{
+	width: 18px;
+	height: 19px;
+	margin: 5px 6px 0 3px;
+	background-position: -17px -48px;
+}
+
+.RadScheduler_Sunset div.rsHeader a.rsNextDay:hover
+{
+	background-position: -87px -48px;
+}
+
+/* content */
+
+.RadScheduler_Sunset .rsContent
+{
+	background: #fff;
+}
+
+/* <headers> */
+
+.RadScheduler_Sunset .rsHorizontalHeaderTable
+{
+	color: #fff;
+	background: #f4eee6;
+}
+
+.RadScheduler_Sunset .rsHorizontalHeaderWrapper {
+	border-color: #9cb16a;
+	background: #f4eee6;
+}
+
+.RadScheduler_Sunset .rsSpacerCell,
+.RadScheduler_Sunset .rsAllDayHeader,
+.RadScheduler_Sunset .rsVerticalHeaderWrapper,
+.RadScheduler_Sunset .rsVerticalHeaderTable
+{
+	background: #e1dac7;
+}
+
+.RadScheduler_Sunset .rsVerticalHeaderTable th
+{
+	color: #333;
+}
+
+.RadScheduler_Sunset .rsHorizontalHeaderTable th
+{
+	border-color: #872b07;
+	background-color: #f4eee6;
+	background-image: url('Scheduler/rsSprites.png');
+}
+
+.RadScheduler_Sunset .rsVerticalHeaderTable th
+{
+	border-color: transparent #958a85;
+	border-top: 0;
+}
+
+.RadScheduler_Sunset .rsVerticalHeaderTable .rsAlt th
+{
+	border-color: #958a85;
+}
+
+/* </headers> */
+
+/* <all-day-row> */
+
+.RadScheduler_Sunset .rsAllDayRow
+{
+	background: #f4eee6;
+}
+
+.RadScheduler_Sunset .rsSpacerCell,
+.RadScheduler_Sunset .rsAllDayHeader,
+.RadScheduler_Sunset .rsVerticalHeaderTable .rsAllDayHeader
+{
+	color: #333;
+	border-color: #958a85;
+}
+
+.RadScheduler_Sunset .rsAllDayRow td,
+.RadScheduler_Sunset .rsContentTable .rsAllDayRow td
+{
+	border-color: #c5c3ac;
+	border-style: solid;
+}
+
+.RadScheduler_Sunset .rsVerticalHeaderTable .rsMainHeader th
+{
+	border-bottom-color: #9cb16a;
+}
+
+.RadScheduler_Sunset .rsSpacerCell,
+.RadScheduler_Sunset .rsContent .rsAllDayHeader
+{
+	border-bottom-color: #958a85;
+}
+
+/* </all-day-row> */
+
+.RadScheduler_Sunset .rsContent,
+.RadScheduler_Sunset .rsTopWrap .rsFooter
+{
+	border: 1px solid #cabaab;
+	border-top: 0;
+}
+
+.RadScheduler_Sunset div.rsContent
+{
+	border-bottom-color: #cabaab;
+}
+
+.RadScheduler_Sunset .rsContentTable td
+{
+	border-color: #e9e0d2;
+	border-bottom-style: dotted;
+}
+
+.RadScheduler_Sunset .rsContentTable .rsAlt td
+{
+	border-color: #d2c4b8 #e9e0d2;
+	border-bottom-style: solid;
+}
+
+.RadScheduler_Sunset .rsMonthView .rsOtherMonth
+{
+	background-color: #f5f5f5;
+}
+
+/* <appointments> */
+.RadScheduler_Sunset .rsApt .rsArrowTop,
+.RadScheduler_Sunset .rsApt .rsArrowBottom,
+.RadScheduler_Sunset .rsApt .rsArrowLeft,
+.RadScheduler_Sunset .rsApt .rsArrowRight,
+.RadScheduler_Sunset .rsApt .rsAptDelete,
+.RadScheduler_Sunset .rsApt .rsAptResize,
+.RadScheduler_Sunset .rsApt .rsAptReminder,
+.RadScheduler_Sunset .rsApt .rsAptRecurrence,
+.RadScheduler_Sunset .rsApt .rsAptRecurrenceException
+{
+	background-color: transparent;
+	background-image: url('Scheduler/rsSprites.png');
+	background-repeat: no-repeat;
+}
+
+.RadScheduler_Sunset .rsApt .rsAptDelete
+{
+	width: 22px;
+}
+
+.RadScheduler_Sunset .rsAptCreate,
+.RadScheduler_Sunset .rsMonthView .rsAptCreate
+{
+	background-color: #fff396;
+	background-image: url('Scheduler/rsSprites.png');
+	background-repeat: repeat-x;
+}
+
+.RadScheduler_Sunset .rsAptCreateRow2,
+.RadScheduler_Sunset .rsMonthView .rsAptCreateRow2
+{
+	background-color: #fff396;
+	background-image: url('Scheduler/rsSprites.png');
+	background-repeat: repeat-x;
+}
+
+.RadScheduler_Sunset .rsNonWorkHour,
+.RadScheduler_Sunset .rsSunCol,
+.RadScheduler_Sunset .rsSatCol
+{
+	background-color: #f7f5f0;
+}
+
+.RadScheduler_Sunset .rsAptCreateRow3,
+.RadScheduler_Sunset .rsMonthView .rsAptCreateRow3,
+.RadScheduler_Sunset .rsAptCreateRow4,
+.RadScheduler_Sunset .rsMonthView .rsAptCreateRow4,
+.RadScheduler_Sunset .rsAptCreateRow5,
+.RadScheduler_Sunset .rsMonthView .rsAptCreateRow5
+{
+	background: #fff396;
+}
+
+.RadScheduler_Sunset .rsSelectedSlot,
+.RadScheduler_Sunset .rsMonthView .rsSelectedSlot
+{
+    background: #f0af71;
+    border-color: #e09f61;
+}
+
+.RadScheduler_Sunset .rsContentTable td.rsAptCreate.rsSelectedSlot
+{
+    background: #e09f61;
+    border-color: #d08f51;
+}
+
+.RadScheduler_Sunset .rsContentTable td.rsSelectedSlot
+{
+    background: #f0af71;
+    border-color: #e09f61;
+}
+
+/* <New appointment imageless rendering */
+.RadScheduler_Sunset .rsAptIn, 
+.RadScheduler_Sunset .rsAptMid, 
+.RadScheduler_Sunset .rsAptContent
+{
+    background-color: #ffefb1;
+}
+
+.RadScheduler_Sunset .rsAptMid
+{
+	border-color: #c3b64c;
+}
+
+.RadScheduler_Sunset .rsAptIn
+{
+    border-color: #D2C27B;
+    background-color: #fff8db;
+}
+
+.RadScheduler_Sunset .rsAptContent
+{
+    border-color: #D2C27B;
+    background-image: url('Scheduler/rsAppointmentBg.png');
+}
+/* </New appointment imageless rendering> */
+
+.RadScheduler_Sunset .rsAptSimple
+{
+	background-color: #ffefb1;
+	border-color: #bfb340;
+}
+
+.RadScheduler_Sunset .rsMonthView .rsDateHeader
+{
+	color: #555;
+}
+
+/* </appointments> */
+
+/* <footer> */
+
+.RadScheduler_Sunset div.rsFooter
+{
+	background-color: #b2c780;
+	background-image: url('Scheduler/rsSprites.png');
+	background-repeat: repeat-x;
+}
+
+.RadScheduler_Sunset div.rsFooter .rsFullTime
+{
+	color: #3b3f2b;
+	background-position: 0 -248px;
+	padding: 3px 0 4px 17px;
+	background-color: transparent;
+	background-image: url('Scheduler/rsSprites.png');
+	background-repeat: no-repeat;
+}
+
+.RadScheduler_Sunset div.rsFooter a.rsFullTime:hover
+{
+	color: #5b5f4b;
+	background-position: 0 -271px;
+}
+
+/* </footer> */
+
+/* <inline edit form> */
+
+.RadScheduler_Sunset .rsAptEditResizeHandle,
+.RadScheduler_Sunset .rsAptEditFormWrapper
+{
+	background-image: url('Scheduler/rsSprites.png');
+}
+
+.RadScheduler_Sunset .rsAptEditFormOuter, /* top */
+.RadScheduler_Sunset .rsAptEditFormInner  /* bottom */
+{
+	background-image: url('Scheduler/rsInlineEditHSprite.png');
+}
+
+.RadScheduler_Sunset .rsAptEditFormMiddle, /* left */
+.RadScheduler_Sunset .rsAptEditFormMiddle2 /* right */
+{
+	background-image: url('Scheduler/rsInlineEditVSprite.png');
+}
+
+.RadScheduler_Sunset .rsAptEditFormWrapper .rsAptEditTextareaWrapper
+{
+	border-color: #938879;
+	background: #fff;
+}
+
+.RadScheduler_Sunset .rsAptEditFormWrapper .rsAptEditTextareaWrapper textarea
+{
+	background: #fff;
+}
+
+/* <inline edit form template and edit background> */
+
+.RadScheduler_Sunset .rsAptEditFormWrapper .rsTemplateWrapper,
+.RadScheduler_Sunset .rsAptEditFormWrapper .rsEditOptions 
+{
+	background: #ffefb1;
+}
+
+/* </inline edit form template and edit background> */
+
+/* </inline edit form> */
+
+/* <advanced edit form> */
+
+.RadScheduler_Sunset .rsAdvancedEdit .rsAdvContentWrapper
+{
+	background: #eae5d7;
+	border: 1px solid #bcae9b;
+	border-top-color: #71250A;
+}
+
+.RadScheduler_Sunset div.rsAdvancedModal div.rsAdvContentWrapper
+{
+    border-top: 0;
+}
+
+.RadScheduler_Sunset div.rsAdvancedModal .rsAdvButtonWrapper
+{
+    padding: 10px 10px 18px 0;
+}
+
+* html .RadScheduler_Sunset div.rsAdvancedModal .rsAdvButtonWrapper
+{
+    padding: 10px 10px 10px 0;
+}
+
+* html .RadScheduler_Sunset div.rsAdvancedModal .rsAdvContentWrapper
+{
+    margin-top: -1px;
+	background: #eae5d7;
+    border: 1px solid #71250A;
+}
+
+/* <xref input skins> */
+
+.RadScheduler_Sunset .rsAdvancedEdit .rsAdvInput,
+.RadScheduler_Sunset .rsAdvancedEdit select,
+.RadScheduler_Sunset .rsAdvancedEdit .textareaWrapper
+{
+	border-color: #bcae9b;
+}
+
+.RadScheduler_Sunset .rsAdvancedEdit .rsInvalid textarea,
+.RadScheduler_Sunset .rsAdvancedEdit .rsInvalid input,
+.RadScheduler_Sunset .rsAdvancedEdit .rsAdvTimePicker .riEmpty
+{
+	background-image: url('Input/sprite.gif');
+}
+
+.RadScheduler_Sunset .rsAdvancedEdit .textareaWrapper,
+.RadScheduler_Sunset .rsAdvancedEdit .textareaWrapper textarea
+{
+	background: #fff;
+}
+
+.RadScheduler_Sunset .rsAdvancedEdit .rsInvalid
+{
+	border-color: #e92600;
+	color: #e92600;
+}
+/* </xref input skins> */
+
+.RadScheduler_Sunset .rsAdvancedEdit h2,
+.RadScheduler_Sunset .rsAdvancedEdit h3
+{
+	color: #ba3d01;
+}
+
+.RadScheduler_Sunset .rsAdvancedEdit h2
+{
+	border-bottom: 1px solid #bcae9b;
+}
+
+.RadScheduler_Sunset .rsAdvancedEdit h2 span
+{
+	background: #eae5d7;
+}
+
+.RadScheduler_Sunset .rsAdvancedEdit .rsAdvancedSubmitArea
+{
+	border-color: #bcae9b;
+}
+
+/* </advanced edit form> */
+
+/* <date/time picker> */
+
+.RadScheduler_Sunset .rsTimePick .RadInput_Sunset input.riEnabled,
+.RadScheduler_Sunset .rsTimePick .RadInput_Sunset input.riHover,
+.RadScheduler_Sunset .rsTimePick .RadInput_Sunset input.riFocused
+{
+	background-image: url('Scheduler/rsSprites.png');
+}
+
+/* </date/time picker> */
+
+/* <modal dialogs> */
+
+.RadScheduler_Sunset .rsModalBgTopLeft,
+.RadScheduler_Sunset .rsModalBgTopRight,
+.RadScheduler_Sunset .rsModalBgBottomLeft,
+.RadScheduler_Sunset .rsModalBgBottomRight
+{
+    background-image: url('Scheduler/rsModalBg.png');
+}
+
+div.RadScheduler_Sunset .rsAnimating
+{
+    background-image: url('Scheduler/rsModalBgIE6.png');
+}
+
+* html .RadScheduler_Sunset .rsModalBgTopLeft,
+* html .RadScheduler_Sunset .rsModalBgTopRight,
+* html .RadScheduler_Sunset .rsModalBgBottomLeft,
+* html .RadScheduler_Sunset .rsModalBgBottomRight
+{
+    background-image: url('Scheduler/rsModalBgIE6.png');
+}
+
+.RadScheduler_Sunset .rsAdvancedEdit .rsAdvTitle,
+.RadScheduler_Sunset .rsAdvancedEdit .rsAdvInnerTitle
+{
+    background-image: url('Scheduler/rsModalTitleBg.png');
+}
+
+.RadScheduler_Sunset .rsAdvancedEdit .rsAdvInnerTitle
+{
+	color: #FFF;
+}
+
+.RadScheduler_Sunset .rsAdvancedEdit a.rsAdvEditClose,
+.RadScheduler_Sunset div.rsModalWrapper .rsModalWindowClose
+{
+	background-image: url('Scheduler/rsSprites.png');
+    background-position: -40px -526px;
+	margin-top: -24px;
+	width: 30px;
+	height: 20px;
+	opacity: 0.8;
+	-moz-opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+
+.RadScheduler_Sunset .rsAdvancedEdit a.rsAdvEditClose:hover,
+.RadScheduler_Sunset .rsModalWrapper a.rsModalWindowClose:hover
+{
+	opacity: 1;
+	-moz-opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.RadScheduler_Sunset .rsModalWrapper .rsModalTitle
+{
+	color: #fff;
+	background-image: url('Scheduler/rsSprites.png');
+}
+
+.RadScheduler_Sunset .rsModalWrapper .rsModalInner
+{
+	border-color: #71250a;
+	background: #fff;
+}
+
+.RadScheduler_Sunset .rsModalWrapper .rsModalIcon
+{
+	background-image: url('Scheduler/rsSprites.png');
+}
+
+/* Inline Edit buttons + ModalDialog buttons */
+.RadScheduler_Sunset .rsModalWrapper .rsModalButtons a,
+.RadScheduler_Sunset .rsAdvancedEdit div.rsAdvancedSubmitArea a,
+.RadScheduler_Sunset .rsTopWrap .rsAptEditFormWrapper .rsEditOptions a
+{
+	color: #5d1f00;
+	background-image: url('Scheduler/rsSprites.png');
+}
+
+.RadScheduler_Sunset .rsModalWrapper .rsModalButtons a:hover,
+.RadScheduler_Sunset .rsAdvancedEdit div.rsAdvancedSubmitArea a:hover,
+.RadScheduler_Sunset .rsTopWrap .rsAptEditFormWrapper .rsEditOptions a:hover
+{
+	color: #5d1f00;
+}
+
+/* </modal dialogs> */
+
+.RadScheduler_Sunset .rsBottomIndicator .rsOvertimeArrow
+{
+	background: transparent url('Scheduler/rsSprites.png') no-repeat -180px -31px;
+}        	
+
+.RadScheduler_Sunset .rsTopIndicator .rsOvertimeArrow
+{
+	background: transparent url('Scheduler/rsSprites.png') no-repeat -134px -31px;
+}
+
+
+
+
+.RadScheduler_Sunset .rsAptSelected .rsAptIn,
+.RadScheduler_Sunset .rsAptSelected .rsAptMid,
+.RadScheduler_Sunset .rsAptSelected .rsAptContent {
+	border-color: #36332c;
+	background-image: none;
+}

@@ -1,0 +1,145 @@
+/* RadSlider for ASP.NET AJAX Office2010Black Skin */
+.RadSlider_Office2010Black .rslTrack
+{
+	border-color:#2c2c2c;
+}
+
+/*base style overwrites*/
+div.RadSlider_Office2010Black, 
+div.RadSlider_Office2010Black .rslItem, 
+div.RadSlider_Office2010Black .rslLargeTick span 
+{
+	color: #fff;
+}
+
+div.RadSlider_Office2010Black .rslHorizontal a.rslDraghandle
+{
+	width: 9px;
+}
+div.RadSlider_Office2010Black .rslVertical a.rslDraghandle
+{
+	height: 9px;
+}
+/*base style overwrites end*/
+
+.RadSlider_Office2010Black .rslHorizontal a.rslHandle
+{
+	background-image: url('Slider/Handles.gif');
+}
+
+.RadSlider_Office2010Black .rslHorizontal a.rslDraghandle
+{
+	background-image: url('Slider/DragHandle.gif');
+}
+
+.RadSlider_Office2010Black .rslTop a.rslDraghandle
+{
+	background-image: url('Slider/DragHandleDown.gif');
+}
+
+.RadSlider_Office2010Black .rslHorizontal .rslTrack
+{
+	background: url('Slider/TrackBgr.gif') repeat-x;
+}
+
+.RadSlider_Office2010Black .rslHorizontal .rslSelectedregion
+{
+	background: url('Slider/SelectedRegionHorizontalBgr.gif') right top no-repeat;
+}
+
+/* vertical slider */
+.RadSlider_Office2010Black .rslVertical a.rslHandle
+{
+	background-image: url('Slider/HandlesVertical.gif');
+}
+
+.RadSlider_Office2010Black .rslVertical .rslTrack
+{
+	background: url('Slider/TrackVerticalBgr.gif') repeat-y;
+}
+
+.RadSlider_Office2010Black .rslVertical .rslSelectedregion
+{
+	background: url('Slider/SelectedRegionVerticalBgr.gif') left bottom no-repeat;
+}
+
+.RadSlider_Office2010Black .rslVertical a.rslDraghandle
+{
+	background: url('Slider/DragVerticalHandle.gif') no-repeat;
+}
+
+.RadSlider_Office2010Black .rslLeft a.rslDraghandle
+{
+	background: url('Slider/DragVerticalHandleRight.gif') no-repeat;
+}
+
+.RadSlider_Office2010Black .rslItem,
+.RadSlider_Office2010Black .rslLargeTick span
+{
+	color:#333;
+}
+
+.RadSlider_Office2010Black .rslItemsWrapper .rslItemSelected
+{
+	color:#000;
+}
+
+/* horizontal slider items */
+.RadSlider_Office2010Black .rslHorizontal .rslItem
+{
+	background-image: url('Slider/ItemHorizontalBgr.gif');
+}
+
+/* vertical slider items */
+.RadSlider_Office2010Black .rslVertical .rslItem
+{
+	background-image: url('Slider/ItemVerticalBgr.gif');
+}
+
+/* horizontal slider - TrackPosition=Top/Bottom */
+.RadSlider_Office2010Black .rslTop .rslSmallTick,
+.RadSlider_Office2010Black .rslBottom .rslSmallTick
+{
+	background-image: url('Slider/SmallChangeHorizontal.gif');
+}
+
+.RadSlider_Office2010Black .rslTop .rslLargeTick,
+.RadSlider_Office2010Black .rslBottom .rslLargeTick
+{
+	background-image: url('Slider/LargeChangeHorizontal.gif');
+}
+
+/* vertical slider - TrackPosition=Left/Right */
+.RadSlider_Office2010Black .rslLeft .rslSmallTick,
+.RadSlider_Office2010Black .rslRight .rslSmallTick
+{
+	background-image: url('Slider/SmallChangeVertical.gif');
+}
+
+.RadSlider_Office2010Black .rslLeft .rslLargeTick,
+.RadSlider_Office2010Black .rslRight .rslLargeTick 
+{
+	background-image: url('Slider/LargelChangeVertical.gif');
+}
+
+/* horizontal slider - TrackPosition=Center */
+.RadSlider_Office2010Black .rslMiddle .rslSmallTick
+{
+	background-image: url('Slider/SmallChangeMiddleHorizontal.gif');
+}
+
+.RadSlider_Office2010Black .rslMiddle .rslLargeTick  
+{
+	background-image: url('Slider/LargeChangeMiddleHorizontal.gif');
+}
+
+/* vertical slider - TrackPosition=Center */
+.RadSlider_Office2010Black .rslCenter .rslSmallTick
+{
+	background-image: url('Slider/SmallChangeCenterVertical.gif');
+}
+
+.RadSlider_Office2010Black .rslCenter .rslLargeTick
+{
+	background-image: url('Slider/LargelChangeCenterVertical.gif');
+}

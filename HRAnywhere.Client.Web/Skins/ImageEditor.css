@@ -1,0 +1,1114 @@
+/* ImageEditor Base Stylesheet */
+
+.RadImageEditor
+{
+	position: relative;
+	border: 1px solid;
+	padding: 5px;
+	font-size: 12px;
+	font-family: "Segoe UI" , Arial, Helvetica, sans-serif;
+}
+
+.rieContentArea
+{
+	clear: both;
+	overflow: auto;
+	background:url('Common/ImageEditor/rieContentArea.gif');
+	border: 1px solid;
+}
+
+.rieContentArea img
+{
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+
+.rieStatusBar
+{
+	position: relative;
+	height: 22px;
+	line-height: 22px;
+	padding: 4px 0 0;
+}
+
+.rieStatusBarInfo .rieLabel
+{ 
+	padding: 0 2px;
+}
+
+.rieStatusBarInfo span
+{ 
+	padding: 0 14px 0 2px;
+}
+ 
+.rieStatusBarInfo span span
+{
+	padding: 0 2px;
+} 
+
+.rieNoStatusBar .rieStatusBar
+{
+	height: 12px;
+	height: 12px;
+	line-height: 12px;
+	padding: 0;
+}
+		
+.rieNoStatusBar .rieResizeHandle
+{
+	width: 11px;
+	height: 13px;
+	right: -1px;
+	top: 0;
+	background-position: -384px -1px;
+}
+		
+.rieResizeHandle
+{
+	width: 14px;
+	height: 16px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: -2px;
+	top: 13px;
+	background-position: -386px -1px;
+	cursor: se-resize;
+}
+
+.RadImageEditor .rtbItem 
+{
+	position: relative;
+}
+
+.RadImageEditor .rtbIcon
+{
+	position: absolute;
+}
+
+.RadImageEditor .RadToolBar .rtbWrap
+{
+	width: 26px;
+	height: 26px;
+	overflow: hidden;
+	line-height: normal;
+}
+
+.RadImageEditor .rtbWrap .rtbText
+{
+	width: 14px;
+	height: 20px;
+	display: inline-block;
+	visibility: hidden;
+}
+
+.rieDropDown.RadToolBarDropDown .rtbGroup
+{
+	width: 100%;
+}
+
+x:-moz-any-link, x:default, .RadImageEditor .rtbWrap .rtbText 
+{
+	height: 18px;
+}
+
+*html .RadImageEditor .rtbText
+{
+	white-space: normal;
+}
+
+
+.RadImageEditor .rtbItemHovered .rtbIcon,
+.RadImageEditor .rtbChecked .rtbIcon,
+.RadImageEditor .rtbSplBtnExpanded .rtbIcon
+{
+	top: -13px;
+}
+
+.RadImageEditor .rtbItemHovered a.rieCustomizedIconClass .rtbIcon, 
+.RadImageEditor .rtbChecked a.rieCustomizedIconClass .rtbIcon
+{
+	top: 3px;
+}
+
+.RadImageEditor .rieCrop .rtbIcon
+{
+	clip: rect(0 18px 18px 2px);
+	left: 3px;
+}
+
+.RadImageEditor .rtbItemHovered .rieCrop .rtbIcon,
+.RadImageEditor .rtbChecked .rieCrop .rtbIcon
+{
+	clip: rect(18px 18px 34px 2px);
+}
+
+.RadImageEditor .rieRotateRight .rtbIcon
+{
+	clip: rect(0 34px 18px 18px);
+	left: -13px;
+}
+
+.RadImageEditor .rtbItemHovered .rieRotateRight .rtbIcon,
+.RadImageEditor .rtbChecked .rieRotateRight .rtbIcon
+{
+	clip: rect(18px 34px 34px 18px);
+}
+
+.RadImageEditor .rieRotateLeft .rtbIcon
+{
+	clip: rect(0 50px 18px 34px);
+	left: -29px;
+}
+
+.RadImageEditor .rtbItemHovered .rieRotateLeft .rtbIcon,
+.RadImageEditor .rtbChecked .rieRotateLeft .rtbIcon
+{
+	clip: rect(18px 50px 34px 34px);
+}
+
+.RadImageEditor .rieFlipHorizontal .rtbIcon
+{
+	clip: rect(0 82px 18px 66px);
+	left: -61px;
+}
+
+.RadImageEditor .rtbItemHovered .rieFlipHorizontal .rtbIcon,
+.RadImageEditor .rtbChecked .rieFlipHorizontal .rtbIcon
+{
+	clip: rect(18px 82px 34px 66px);
+}
+
+.RadImageEditor .rieFlipVertical .rtbIcon
+{
+	clip: rect(0 98px 18px 82px);
+	left: -77px;
+}
+
+.RadImageEditor .rtbItemHovered .rieFlipVertical .rtbIcon,
+.RadImageEditor .rtbChecked .rieFlipVertical .rtbIcon
+{
+	clip: rect(18px 98px 34px 82px);
+}
+
+.RadImageEditor .rieFlip .rtbIcon
+{
+	clip: rect(0 114px 18px 98px);
+	left: -94px;
+}
+
+.RadImageEditor .rtbItemHovered .rieFlip .rtbIcon,
+.RadImageEditor .rtbChecked .rieFlip .rtbIcon
+{
+	clip: rect(18px 114px 34px 98px);
+}
+
+.RadImageEditor .rieResize .rtbIcon
+{
+	clip: rect(0 130px 18px 114px);
+	left: -109px;
+}
+
+.RadImageEditor .rtbItemHovered .rieResize .rtbIcon,
+.RadImageEditor .rtbChecked .rieResize .rtbIcon
+{
+	clip: rect(18px 130px 34px 114px);
+}
+
+.RadImageEditor .rieOpen .rtbIcon
+{
+	clip: rect(0 146px 18px 130px);
+	left: -125px;
+}
+
+.RadImageEditor .rtbItemHovered .rieOpen .rtbIcon,
+.RadImageEditor .rtbChecked .rieOpen .rtbIcon
+{
+	clip: rect(18px 146px 34px 130px);
+}
+
+.RadImageEditor .rieSave .rtbIcon
+{
+	clip: rect(0 194px 18px 178px);
+	left: -173px;
+}
+
+.RadImageEditor .rtbItemHovered .rieSave .rtbIcon,
+.RadImageEditor .rtbChecked .rieSave .rtbIcon
+{
+	clip: rect(18px 194px 34px 178px);
+}
+
+.RadImageEditor .riePrint .rtbIcon
+{
+	clip: rect(0 210px 18px 194px);
+	left: -189px;
+}
+
+.RadImageEditor .rtbItemHovered .riePrint .rtbIcon,
+.RadImageEditor .rtbChecked .riePrint .rtbIcon
+{
+	clip: rect(18px 210px 34px 194px);
+}
+
+.RadImageEditor .rieRotate .rtbIcon
+{
+	clip: rect(0 226px 18px 210px);
+	left: -205px;
+}
+
+.RadImageEditor .rtbItemHovered .rieRotate .rtbIcon,
+.RadImageEditor .rtbChecked .rieRotate .rtbIcon
+{
+	clip: rect(18px 226px 34px 210px);
+}
+
+.RadImageEditor .rieZoom .rtbIcon
+{
+	clip: rect(0 242px 18px 226px);
+	left: -221px;
+}
+
+.RadImageEditor .rtbItemHovered .rieZoom .rtbIcon,
+.RadImageEditor .rtbChecked .rieZoom .rtbIcon
+{
+	clip: rect(18px 242px 34px 226px);
+}
+
+.RadImageEditor .rieZoomIn .rtbIcon
+{
+	clip: rect(0 258px 18px 242px);
+	left: -237px;
+}
+
+.RadImageEditor .rtbItemHovered .rieZoomIn .rtbIcon,
+.RadImageEditor .rtbChecked .rieZoomIn .rtbIcon
+{
+	clip: rect(18px 258px 34px 242px);
+}
+
+.RadImageEditor .rieZoomOut .rtbIcon
+{
+	clip: rect(0 274px 18px 258px);
+	left: -253px;
+}
+
+.RadImageEditor .rtbItemHovered .rieZoomOut .rtbIcon,
+.RadImageEditor .rtbChecked .rieZoomOut .rtbIcon
+{
+	clip: rect(18px 274px 34px 258px);
+}
+
+.RadImageEditor .rieReset .rtbIcon
+{
+	clip: rect(0 290px 18px 274px);
+	left: -269px;
+}
+
+.RadImageEditor .rtbItemHovered .rieReset .rtbIcon,
+.RadImageEditor .rtbChecked .rieReset .rtbIcon
+{
+	clip: rect(18px 290px 34px 274px);
+}
+
+.RadImageEditor .rieAddText .rtbIcon
+{
+	clip: rect(0 306px 18px 290px);
+	left: -285px;
+}
+
+.RadImageEditor .rtbItemHovered .rieAddText .rtbIcon,
+.RadImageEditor .rtbChecked .rieAddText .rtbIcon
+{
+	clip: rect(18px 306px 34px 290px);
+}
+
+.RadImageEditor .rieOpacity .rtbIcon
+{
+	clip: rect(0 322px 18px 306px);
+	left: -301px;
+}
+
+.RadImageEditor .rtbItemHovered .rieOpacity .rtbIcon,
+.RadImageEditor .rtbChecked .rieOpacity .rtbIcon
+{
+	clip: rect(18px 322px 34px 306px);
+}
+
+.RadImageEditor .rieInsertImage .rtbIcon
+{
+	clip: rect(0 417px 18px 400px);
+	left: -397px;
+}
+
+.RadImageEditor .rtbItemHovered .rieInsertImage .rtbIcon,
+.RadImageEditor .rtbChecked .rieInsertImage .rtbIcon
+{
+	clip: rect(18px 417px 34px 400px);
+}
+
+/* Split Buttons */
+.RadImageEditor .RadToolBar a.rtbExpandDown
+{
+	width: auto;
+	height: 26px;
+	overflow: hidden;
+}
+
+.RadImageEditor .rieUndo .rtbIcon
+{
+	clip: rect(0 162px 18px 146px);
+	left: -142px;
+}
+
+.RadImageEditor .rtbItemHovered .rieUndo .rtbIcon,
+.RadImageEditor .rtbChecked .rieUndo .rtbIcon,
+.RadImageEditor .rtbSplBtnExpanded .rieUndo .rtbIcon
+{
+	clip: rect(18px 162px 34px 146px);
+}
+
+.RadImageEditor .rieRedo .rtbIcon
+{
+	clip: rect(0 178px 18px 162px);
+	left: -157px;
+}
+
+.RadImageEditor .rtbItemHovered .rieRedo .rtbIcon,
+.RadImageEditor .rtbChecked .rieRedo .rtbIcon,
+.RadImageEditor .rtbSplBtnExpanded .rieRedo .rtbIcon
+{
+	clip: rect(18px 178px 34px 162px);
+}
+
+/* Image Editor Toolbar Vertical Orientation */
+
+x:-moz-any-link, x:default, .RadImageEditor .RadToolBar_Vertical .rtbWrap .rtbText 
+{
+	height: 20px;
+}
+
+/* Dialogs */
+div.rieDialogs div.rdContent
+{
+	overflow: visible !important;/* the color picker in the PERO: added !important */
+}
+.rieDialogsTable
+{
+	width: 100%;
+	margin: 5px auto;
+}
+
+.rieDialogsTable td
+{
+	padding: 3px;
+}
+
+.rieRightAligned
+{
+	text-align: right;
+}
+
+.rieResizeButtons
+{
+	width: 70px;
+	height: 38px;
+	margin: 5px 0 0;
+	padding: 7px 0 0 0;
+	background:url('Common/ImageEditor/rieResizeBgr.gif') -1px 0 no-repeat;
+}
+
+.rieClearResizeButtons
+{
+	position: static;
+	background-image: none;
+	width: auto;
+	height: auto;
+	padding: 0;
+}
+
+.rieClearResizeButtons label
+{
+	padding: 5px 0 0 0;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+}
+
+*html .rieRiseizeButtons
+{
+	left: 167px;
+	top: 73px; 
+}
+
+*+html .rieRiseizeButtons
+{
+	left: 167px;
+	top: 73px; 
+}
+
+.rieInputDimension
+{
+	width: 68px;
+}
+
+.rieColorPicker
+{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+}
+
+.rieDialogsTable textarea
+{
+	width: 240px;
+	resize: none;
+}
+
+.rieDialogsTable .rieFileName
+{
+	padding-left: 24px;
+}
+		
+.rieDialogsTable .rieFileName label
+{
+	vertical-align: middle;
+}
+		
+.rieDialogsTable .rieOverwriteFile
+{
+	padding: 1px 3px 3px 0;
+}
+
+.rieDialogsTable .rieColorValue .rfdDecorated
+{
+    vertical-align: top;
+}
+.rieDialogsTable .RadButton,
+.rieDialogsTable .rcpIcon
+{
+	margin: 0 2px;
+}
+
+.rieResizeButtons .RadButton
+{
+	margin: 0 2px 0 0;
+}
+
+.rieConstrainBtn
+{
+	background-position: -320px 0;
+}
+
+.rieConstrainBtn:hover,
+.RadButton:hover .rieConstrainBtn
+{
+	background-position: -320px -16px;
+}
+
+.rieRemoveConstrainBtn
+{
+	background-position: -336px -1px;
+}
+
+.rieRemoveConstrainBtn:hover,
+.RadButton:hover .rieRemoveConstrainBtn
+{
+	background-position: -336px -17px;
+}
+
+.rieSwapValues
+{
+	background-position: -48px -1px;
+}
+
+.rieSwapValues:hover,
+.RadButton:hover .rieSwapValues
+{
+	background-position: -48px -17px;
+}
+
+.rieActualSize
+{
+	background-position: -353px -1px;
+}
+
+.rieActualSize:hover,
+.RadButton:hover .rieActualSize
+{
+	background-position: -353px -17px;
+}
+
+.rieBestFit
+{
+	background-position: -369px -1px;
+}
+
+.rieBestFit:hover,
+.RadButton:hover .rieBestFit
+{
+	background-position: -369px -17px;
+}
+
+.rieRotateRight
+{
+	background-position: -16px -1px;
+}
+
+.rieRotateRight:hover,
+.RadButton:hover .rieRotateRight
+{
+	background-position: -16px -17px;
+}
+
+.rieRotateLeft
+{
+	background-position: -32px -1px;
+}
+
+.rieRotateLeft:hover,
+.RadButton:hover .rieRotateLeft
+{
+	background-position: -32px -17px;
+}
+
+
+/*PERO: FIX IE9 buttons disappear*/
+._Telerik_IE9 .rieDialogsTable .rieZIndex_IE9,
+._Telerik_IE9 .rieToolbarDock.RadDock .rtbIcon
+{
+	z-index:1;
+}
+._Telerik_IE9 .RadDockZone .rieToolbarDock.RadDock .rtbIcon
+{
+	z-index: auto;
+}
+
+/* Dialog Thumbs */
+.rieDialogsThumbs td
+{
+	text-align: center;
+	vertical-align: middle;
+	width: 95px;
+	height: 95px;
+	padding: 10px 2px;
+}
+
+.rieDialogsThumbs td .rieThumbsLink
+{
+	display: block;
+	width: 90px;
+	height: 90px;
+	padding: 10px 7px 0;
+	margin: auto;
+	text-align: center;
+	border: 1px solid;
+}
+
+*html .rieDialogsThumbs td .rieThumbsLink
+{
+	margin: 0 0 0 5px;
+}
+
+.rieDialogsThumbs td .rieThumbsLink img
+{
+	border: 0;
+	width: 80px;
+	height: 80px;
+}
+
+/* Dialog table borders */
+.rieDialogsThumbsLeft
+{
+	border-right: 1px dashed;
+}
+
+.rieThumbsBottomRow td
+{
+	border-top: 1px dashed;
+}
+
+.rieActiveThumbsLink,
+.rieThumbsLink:hover,
+.riePrintContent,
+.riePrintContent img
+{
+	border: 1px solid;
+}
+
+/* Dialog table borders end */
+.riePrintContent
+{
+	text-align: center;
+}
+
+.riePrintContent img
+{
+	margin: 15px 0;
+}
+
+/* Vertical Toolbar */
+div.rieZoneLeft,
+div.rieZoneRight
+{
+	position: absolute;
+	width:32px;
+	top: 5px;
+}
+
+div.rieZoneLeft
+{
+	left: 5px;
+}
+
+div.rieZoneRight
+{
+	right: 5px;
+}
+
+div.RadDock div.RadImageEditor
+{
+	border: 0;
+	padding: 0;
+}
+
+.rieHighlightHorizontal
+{
+	height: 30px;
+}
+
+div.rieDockToolbar
+{
+	padding-top: 2px;
+}
+
+.rieDockToolbar .rieZoneTop,
+.rieDockToolbar .rieZoneBottom
+{
+	margin: auto 5px;
+	z-index: 1;
+}
+
+.RadImageEditor .rieHighlightVertical, 
+.RadImageEditor .rieHighlightHorizontal
+{
+	border: 1px dashed !important;
+}
+
+/* sets top and left to zero and resizing */
+.rieTopLeftZero
+{
+	top: 0 !important;
+	left: 0 !important;
+}
+
+div.RadImageEditor div.RadDockZone
+{
+	padding: 0;
+	border: 0;
+}
+
+.rieToolbarDock .rdContent
+{
+	overflow: hidden !important;
+}
+
+.rieToolbarDock .rdMiddle .rdLeft,
+.rieToolbarDock .rdMiddle .rdRight,
+.rieToolbarDock .rdBottom
+{
+	display: none;
+}
+
+/* Hide expand arrow on Undo/Redo */
+.RadToolBar_Vertical .rieUndo .rtbChoiceArrow,
+.RadToolBar_Vertical .rieRedo .rtbChoiceArrow
+{
+	display: none;
+}
+div.RadToolBar_Vertical .rieUndo .rtbText,
+div.RadToolBar_Vertical .rieRedo .rtbText
+{
+	width: 17px;
+}
+
+/* Undo/Redo VerticalToolBar RTL */
+.rieRtl .RadToolBar_Vertical .rieUndo .rtbIcon
+{
+	left: -142px;
+}
+.rieRtl .RadToolBar_Vertical .rieRedo .rtbIcon
+{
+	left: -157px;
+}
+
+/* Rtl Support */
+/* need to set it LTR in order to make callculation */
+.rieRtl .rieContentArea
+{
+	direction: ltr;
+}
+
+.rdRtl .rieRightAligned
+{
+	text-align: left;
+}
+
+.rieDialogs.rdRtl div.rieResizeButtons
+{
+	width: 53px;
+	left: 57px;
+	background-position: 43px 0;
+}
+
+.rdRtl .rieDialogsThumbsLeft
+{
+	border-left: 1px dashed;
+	border-right: 0;
+}
+
+.rieRtl .rieStatusBar
+{
+	text-align: right;
+}
+
+.rieRtl .rieResizeHandle
+{
+	left: -1px;
+	right: auto;
+	top: 13px;
+	background-position: -386px -17px;
+	cursor: sw-resize;
+}
+
+.rieRtl .rieDialogsTable textarea
+{
+	text-align: right;
+}
+
+.rieNoStatusBar.rieRtl .rieResizeHandle
+{
+	top: 0;
+	background-position: -386px -13px;
+}
+
+.rieDialogs.rdRtl .rieResizeButtons .RadButton
+{
+	margin: 0 0 0 2px;
+}
+
+/* Crop box */
+.rieDraggableResizeBox
+{
+	position: absolute;
+	border: 1px dashed #333;
+}
+.rieDraggableResizeBox .rieDraggableBoxMove
+{
+	width:100%;
+	height:100%;
+	background-color: #fff;
+	opacity: 0;
+	filter: alpha(opacity:0);
+}
+.rieDraggableResizeBox .rieDraggableBoxImage
+{
+	background-color: transparent;
+	opacity: 1;
+	filter: alpha(opacity:100);
+}
+.rieDraggableResizeBox .rieDraggableResizeHandle {
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	font-size: 6px;
+	background: #999;
+}
+.rieDraggableResizeBox .rieTop { top: 0; }
+.rieDraggableResizeBox .rieLeft { left: 0; }
+.rieDraggableResizeBox .rieBottom { bottom: 0; }
+.rieDraggableResizeBox .rieRight { right: 0; }
+
+.rieDraggableResizeBox .rieMiddleH { left: 50%; margin-left: -3px; }
+.rieDraggableResizeBox .rieMiddleV { top: 50%; margin-top: -3px; }
+
+/* AddText box */
+.rieDraggableTextBox
+{
+	position: absolute;
+	border: 1px dashed #333;
+	padding: 0 0px;
+	padding-left: 0;
+	margin: 0;
+}
+.rieDraggableTextBoxContent
+{
+	margin: 0;
+	padding: 0;
+}
+
+/*Undo/Redo buttons right to left*/
+div.rieRtl .rieUndo .rtbIcon
+{
+	left: -117px;
+}
+
+div.rieRtl .rieRedo .rtbIcon
+{
+	left: -136px;
+}
+
+/* Custom sprite button */
+.RadImageEditor li.rtbItem .rieBackgroundImg .rtbIcon
+{
+	background-repeat: no-repeat;
+	clip: auto;
+    left: 4px ;
+    top: 4px;
+}
+
+.RadImageEditor li.rtbItem .riePrint.rieBackgroundImg .rtbIcon,
+.RadImageEditor li.rtbItem .rieSave.rieBackgroundImg .rtbIcon
+{
+	left: 5px;
+}
+
+.rieCrop .rtbIcon
+{
+	background-position: 1px 1px;
+}
+
+.rtbItemHovered .rieCrop .rtbIcon,
+.rtbChecked .rieCrop .rtbIcon
+{
+	background-position: 1px -15px;
+}
+
+.rieRotateRight .rtbIcon
+{
+	background-position: -16px 1px;
+}
+
+.rtbItemHovered .rieRotateRight .rtbIcon,
+.rtbChecked .rieRotateRight .rtbIcon
+{
+	background-position: -16px -15px;
+}
+
+.rieRotateLeft .rtbIcon
+{
+	background-position: -31px 1px;
+}
+
+.rtbItemHovered .rieRotateLeft .rtbIcon,
+.rtbChecked .rieRotateLeft .rtbIcon
+{
+	background-position: -31px -15px;
+}
+
+.rieFlipHorizontal .rtbIcon
+{
+	background-position: -63px 1px;
+}
+
+.rtbItemHovered .rieFlipHorizontal .rtbIcon,
+.rtbChecked .rieFlipHorizontal .rtbIcon
+{
+	background-position: -63px -15px;
+}
+
+.rieFlipVertical .rtbIcon
+{
+	background-position: -79px 1px;
+}
+
+.rtbItemHovered .rieFlipVertical .rtbIcon,
+.rtbChecked .rieFlipVertical .rtbIcon
+{
+	background-position: -79px -15px;
+}
+
+.rieFlip .rtbIcon
+{
+	background-position: -96px 1px;
+}
+
+.rtbItemHovered .rieFlip .rtbIcon,
+.rtbChecked .rieFlip .rtbIcon
+{
+	background-position: -96px -15px;
+}
+
+.rieResize .rtbIcon
+{
+	background-position: -112px 1px;
+}
+
+.rtbItemHovered .rieResize .rtbIcon,
+.rtbChecked .rieResize .rtbIcon
+{
+	background-position: -112px -15px;
+}
+
+.rieOpen .rtbIcon
+{
+	background-position: -128px 1px;
+}
+
+.rtbItemHovered .rieOpen .rtbIcon,
+.rtbChecked .rieOpen .rtbIcon
+{
+	background-position: -128px -15px;
+}
+
+.rieSave .rtbIcon
+{
+	background-position: -176px 0;
+}
+
+.rtbItemHovered .rieSave .rtbIcon,
+.rtbChecked .rieSave .rtbIcon
+{
+	background-position: -176px -16px;
+}
+
+.riePrint .rtbIcon
+{
+	background-position: -192px 0;
+}
+
+.rtbItemHovered .riePrint .rtbIcon,
+.rtbChecked .riePrint .rtbIcon
+{
+	background-position: -192px -16px;
+}
+
+.rieRotate .rtbIcon
+{
+	background-position: -208px 0;
+}
+
+.rtbItemHovered .rieRotate .rtbIcon,
+.rtbChecked .rieRotate .rtbIcon
+{
+	background-position: -208px -16px;
+}
+
+.rieZoom .rtbIcon
+{
+	background-position: -223px 1px;
+}
+
+.rtbItemHovered .rieZoom .rtbIcon,
+.rtbChecked .rieZoom .rtbIcon
+{
+	background-position: -223px -15px;
+}
+
+.rieZoomIn .rtbIcon
+{
+	background-position: -239px 1px;
+}
+
+.rtbItemHovered .rieZoomIn .rtbIcon,
+.rtbChecked .rieZoomIn .rtbIcon
+{
+	background-position: -239px -15px;
+}
+
+.rieZoomOut .rtbIcon
+{
+	background-position: -255px 1px;
+}
+
+.rtbItemHovered .rieZoomOut .rtbIcon,
+.rtbChecked .rieZoomOut .rtbIcon
+{
+	background-position: -255px -15px;
+}
+
+.rieReset .rtbIcon
+{
+	background-position: -271px 1px;
+}
+
+.rtbItemHovered .rieReset .rtbIcon,
+.rtbChecked .rieReset .rtbIcon
+{
+	background-position: -271px -15px;
+}
+
+.rieAddText .rtbIcon
+{
+	background-position: -287px 1px;
+}
+
+.rtbItemHovered .rieAddText .rtbIcon,
+.rtbChecked .rieAddText .rtbIcon
+{
+	background-position: -287px -15px;
+}
+
+.rieOpacity .rtbIcon
+{
+	background-position: -303px 1px;
+}
+
+.rtbItemHovered .rieOpacity .rtbIcon,
+.rtbChecked .rieOpacity .rtbIcon
+{
+	background-position: -303px -15px;
+}
+
+.rieInsertImage .rtbIcon
+{
+	background-position: -400px 1px;
+}
+
+.rtbItemHovered .rieInsertImage .rtbIcon,
+.rtbChecked .rieInsertImage .rtbIcon
+{
+	background-position: -400px -15px;
+}
+
+/* Custom sprite split button */
+.rieUndo .rtbIcon
+{
+	background-position: -143px 1px;
+}
+
+.rtbItemHovered .rieUndo .rtbIcon,
+.rtbChecked .rieUndo .rtbIcon,
+.rtbSplBtnExpanded .rieUndo .rtbIcon
+{
+	background-position: -143px -15px;
+}
+
+.rieRedo .rtbIcon
+{
+	background-position: -159px 1px;
+}
+
+.rtbItemHovered .rieRedo .rtbIcon,
+.rtbChecked .rieRedo .rtbIcon,
+.rtbSplBtnExpanded .rieRedo .rtbIcon
+{
+	background-position: -159px -15px;
+}
+
+/* Custom sprite split button right to left */
+.rieRtl .rieBackgroundImg .rtbSplBtnActivator .rtbIcon
+{
+	left: 25px !important;
+}
+
+/* Add default icon for custom commands */
+.rieCustomizedIconClass.rieBackgroundImg span.rtbIcon
+{
+	background: url('Common/ImageEditor/rieCustomIconDefault.png') no-repeat 0 0;
+}
+
+*html .rieCustomizedIconClass span.rtbIcon
+{
+	background: url('Common/ImageEditor/rieCustomIconDefault.png') no-repeat 0 0 !important;
+}

@@ -1,0 +1,45 @@
+/*RadNotification Windows7 Skin*/
+
+.RadNotification_Windows7
+{
+	border: 1px solid #a5b3c5;
+	background-color: #fff;
+}
+
+.RadNotification_Windows7.rnShadows
+{
+	box-shadow: 2px 2px 3px #dde6f1;
+	-webkit-box-shadow: 2px 2px 3px #dde6f1;
+}
+
+.RadNotification_Windows7 .rnTitleBar,
+.RadNotification_Windows7 .rnCommands a
+{
+	background-image: url('Notification/NotificationSprite.png');
+}
+
+.RadNotification_Windows7 .rnTitleBar
+{
+	border-top: 1px solid #fff;
+}
+
+.RadNotification_Windows7 .rnTitleBarTitle
+{
+	color: #000;
+}
+
+.RadNotification_Windows7 .rnContentWrapper
+{
+	border-top: 1px solid #c2cedb;
+}
+
+/* base overwrites */
+
+.RadNotification_Windows7 .rnCommands li
+{
+	margin-right: 1px;
+}
+
+
+
+

@@ -1,0 +1,13 @@
+/* RadRating for ASP.NET AJAX Outlook Skin */
+
+.RadRating_Outlook a,
+.RadRating_Outlook a span
+{
+	background-image: url('Rating/Sprite.png');
+}
+
+* html .RadRating_Outlook a,
+* html .RadRating_Outlook a span
+{
+	background-image: url('Rating/Sprite.gif');
+}

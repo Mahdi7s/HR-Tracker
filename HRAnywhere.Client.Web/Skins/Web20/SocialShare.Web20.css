@@ -1,0 +1,33 @@
+/* RadSocialShare Web20 Skin */
+
+.RadSocialShare_Web20
+{
+	border: 1px solid #bcd2f1;
+	background-color: #e7f1ff;
+}
+
+.RadSocialShare_Web20 .sshLinkItem .sshText
+{
+	color: #000;
+}
+
+.RadSocialShare_Web20 .sshLinkItem:hover .sshText
+{
+	color: #25507b;
+}
+
+.RadComboBoxDropDown_Web20 .rcbItem .sshLinkItem .sshText
+{
+	color: #000;
+}
+
+.RadComboBoxDropDown_Web20 .rcbHovered .sshLinkItem .sshText
+{
+	color: #0f3789;
+}
+
+.RadComboBox_Web20.sshComboWrapper td.rcbArrowCellRight,
+.RadComboBox_Web20.sshComboWrapper .rcbFocused td.rcbArrowCellRight
+{
+	background-position: right -154px;
+}

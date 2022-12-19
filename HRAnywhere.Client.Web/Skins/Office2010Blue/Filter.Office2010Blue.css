@@ -1,0 +1,207 @@
+/*Telerik RadFilter Office2010Blue skin*/
+
+/*sprite*/
+
+.RadFilter_Office2010Blue .rfLeft,
+.RadFilter_Office2010Blue .rfMid,
+.RadFilter_Office2010Blue .rfTools,
+.RadFilter_Office2010Blue .rfRight,
+.RadFilter_Office2010Blue .rfOper:hover,
+.RadFilter_Office2010Blue .rfField:hover,
+.RadFilter_Office2010Blue .rfExp:hover,
+.RadFilter_Office2010Blue .rfOper:focus,
+.RadFilter_Office2010Blue .rfField:focus,
+.RadFilter_Office2010Blue .rfExp:focus,
+.RadFilter_Office2010Blue .rfOper:active,
+.RadFilter_Office2010Blue .rfField:active,
+.RadFilter_Office2010Blue .rfExp:active,
+.RadFilter_Office2010Blue .rfAddGr,
+.RadFilter_Office2010Blue .rfAddExp,
+.RadFilter_Office2010Blue .rfDel,
+.RadFilter_Office2010Blue .rfApply a,
+.RadFilter_Office2010Blue .rfApply input
+{
+	background-image:url('Filter/sprite.gif');
+}
+
+/*global*/
+
+.RadFilter_Office2010Blue,
+.RadFilter_Office2010Blue .rfText,
+.RadFilter_Office2010Blue .rfApply input
+{
+	font-size:12px;
+	font-family:"segoe ui",arial,sans-serif;
+}
+
+.RadFilter_Office2010Blue,
+.RadFilter_Office2010Blue a,
+.RadFilter_Office2010Blue .rfText
+{
+	color:#384e73;
+}
+
+/*lines*/
+
+.RadFilter_Office2010Blue .rfLines li li
+{
+	background-image:url('Filter/rfLine.gif');
+}
+
+.RadFilter_Office2010Blue .rfLines li li .rfDiv
+{
+	background-image:url('Filter/rfMiddle.gif');
+}
+
+.RadFilter_Office2010Blue .rfLines li li.rfLast .rfDiv
+{
+	background-image:url('Filter/rfLast.gif');
+}
+
+/*item elements*/
+
+.RadFilter_Office2010Blue .rfLeft
+{
+	background-position:0 0;
+}
+
+.RadFilter_Office2010Blue .rfRight
+{
+	background-position:100% 0;
+}
+
+.RadFilter_Office2010Blue .rfMid,
+.RadFilter_Office2010Blue .rfTools
+{
+	background-position:0 -100px;
+}
+
+.RadFilter_Office2010Blue .rfField
+{
+	color:#384e73;
+}
+
+.RadFilter_Office2010Blue .rfOper:hover,
+.RadFilter_Office2010Blue .rfField:hover,
+.RadFilter_Office2010Blue .rfExp:hover,
+.RadFilter_Office2010Blue .rfOper:focus,
+.RadFilter_Office2010Blue .rfField:focus,
+.RadFilter_Office2010Blue .rfExp:focus,
+.RadFilter_Office2010Blue .rfOper:active,
+.RadFilter_Office2010Blue .rfField:active,
+.RadFilter_Office2010Blue .rfExp:active
+{
+	background-position:100% -76px;
+	color:#000;
+}
+
+.RadFilter_Office2010Blue .rfExp
+{
+    color:#555;
+}
+
+.RadFilter_Office2010Blue .rfText
+{
+	border-color:#919191;
+	background-color:#fff;
+}
+
+.RadFilter_Office2010Blue .rfAddExp
+{
+	background-position:-300px 0;
+}
+.RadFilter_Office2010Blue .rfAddExp:hover
+{
+	background-position:-350px 0;
+}
+
+.RadFilter_Office2010Blue .rfAddGr
+{
+	background-position:-400px 0;
+}
+.RadFilter_Office2010Blue .rfAddGr:hover
+{
+	background-position:-450px 0;
+}
+
+.RadFilter_Office2010Blue .rfDel
+{
+	background-position:-150px 0;
+}
+.RadFilter_Office2010Blue .rfDel:hover
+{
+	background-position:-200px 0;
+}
+
+/*preview*/
+
+.RadFilter_Office2010Blue .rfPreview strong
+{
+	color:#000;
+}
+
+.RadFilter_Office2010Blue .rfPreview .rfBr
+{
+	color:#000;
+}
+
+.RadFilter_Office2010Blue .rfPreview em
+{
+    color:#c6c6c6;
+}
+/*apply*/
+
+.RadFilter_Office2010Blue .rfApply a
+{
+	background-position:100% -28px;
+	height: 22px;
+}
+.RadFilter_Office2010Blue .rfApply input
+{
+	background-position:0 -50px;
+	height: 22px;
+}
+.RadFilter_Office2010Blue .rfApply input
+{
+	color:#384e73;
+}
+
+/*rtl*/
+
+.RadFilterRTL_Office2010Black .rfLines li li
+{
+	background-image:url('Filter/rfLine-rtl.gif');
+}
+
+.RadFilterRTL_Office2010Black .rfLines li li .rfDiv
+{
+	background-image:url('Filter/rfMiddle-rtl.gif');
+}
+
+.RadFilterRTL_Office2010Black .rfLines li li.rfLast .rfDiv
+{
+	background-image:url('Filter/rfLast-rtl.gif');
+}
+
+.RadFilterRTL_Office2010Black .rfLeft
+{
+	background-position:100% 0;
+}
+
+.RadFilterRTL_Office2010Black .rfRight
+{
+	background-position:0 0;
+}
+
+.RadFilterRTL_Office2010Black .rfOper:hover,
+.RadFilterRTL_Office2010Black .rfField:hover,
+.RadFilterRTL_Office2010Black .rfExp:hover,
+.RadFilterRTL_Office2010Black .rfOper:focus,
+.RadFilterRTL_Office2010Black .rfField:focus,
+.RadFilterRTL_Office2010Black .rfExp:focus,
+.RadFilterRTL_Office2010Black .rfOper:active,
+.RadFilterRTL_Office2010Black .rfField:active,
+.RadFilterRTL_Office2010Black .rfExp:active
+{
+	background-position:-586px -76px;
+}

@@ -1,0 +1,271 @@
+/* Telerik RadTreeList Metro Skin */
+
+/*global*/
+
+.RadTreeList_Metro,
+.rtlCEdit div.RadTreeList_Metro
+{
+	border-color:#e5e5e5;
+	background:#fff;
+	color:#000;
+}
+
+.RadTreeList_Metro .rtlAdd,
+.RadTreeList_Metro .rtlEdit,
+.RadTreeList_Metro .rtlUpdate,
+.RadTreeList_Metro .rtlCancel,
+.RadTreeList_Metro .rtlDel
+{
+	background-image:url('Grid/sprite.gif');
+}
+
+.RadTreeList_Metro .rtlTable
+{
+	font:12px/16px "segoe ui",arial,sans-serif;
+}
+
+.RadTreeList_Metro .rtlHeader a
+{
+	color:#000;
+}
+
+.RadTreeList_Metro .rtlHeader th
+{
+	border-color:#e5e5e5;
+}
+
+.RadTreeList div.rtlHeader,
+.RadTreeList .rtlScroller
+{
+	border-color:#e5e5e5;
+}
+
+.RadTreeList_Metro .rtlA
+{
+	background-color:#ededed;
+}
+
+.RadTreeList_Metro .rtlRFooter
+{
+	background-color:#e4e4e4;
+}
+
+.RadTreeList_Metro .rtlRFooter td
+{
+	border-color:#eaeaea;
+}
+
+.RadTreeList_Metro .rtlREdit
+{
+    background-color:#ffe79c;
+}
+
+.rtlCEdit .RadTreeList_Metro 
+{
+    border-right:1px solid;
+    border-top:1px solid;
+}
+
+.RadTreeList_Metro .rtlR td,
+.RadTreeList_Metro .rtlA td,
+.RadTreeList_Metro .rtlREdit td,
+.RadTreeList_Metro .rtlEditForm
+{
+	border-color:#e5e5e5;
+}
+
+.RadTreeList_Metro .rtlR a,
+.RadTreeList_Metro .rtlA a,
+.RadTreeList_Metro .rtlREdit a,
+.RadTreeList_Metro .rtlEditForm a
+{
+	color:#767676;
+	font-weight:800;
+}
+
+.RadTreeList_Metro .rtlRSel
+{
+	background:#25a0da;
+	color:#fff;
+}
+
+.RadTreeList_Metro .rtlRSel a
+{
+	color:#fff;
+}
+
+.RadTreeList_Metro .rtlRSel td
+{
+	border-color:#fff;
+}
+
+.RadTreeList_Metro .rtlRActive
+{
+	background:#fff 0 -5200px repeat-x url('Grid/sprite.gif');
+    color:#000;
+}
+
+.RadTreeList_Metro .rtlRActive td
+{
+    border-color:#25a0da;
+}
+
+.RadTreeList_Metro .rtlVBorders td.rtlL,
+.RadTreeList_Metro .rtlLines td.rtlL
+{
+	background-color:#fff;
+}
+
+.RadTreeList_Metro .rtlExpand,
+.RadTreeList_Metro .rtlCollapse
+{
+	background-image:url('TreeList/sprite.gif');
+}
+
+.RadTreeList_Metro .rtlExpand
+{
+	background-position:0 0;
+}
+
+.RadTreeList_Metro .rtlCollapse
+{
+	background-position:0 -50px;
+}
+
+.RadTreeList_Metro .rtlSortAsc,
+.RadTreeList_Metro .rtlSortDesc
+{
+	background-image:url('Grid/sprite.gif');
+}
+
+.RadTreeList_Metro .rtlSortAsc
+{
+	background-position:3px -248px;
+}
+
+.RadTreeList_Metro .rtlSortDesc
+{
+	background-position:3px -198px;
+}
+
+.RadTreeList_Metro .rtlLines td.rtlL0
+{
+	background-image:url('TreeList/rtlSingle.gif');
+}
+
+.RadTreeList_Metro .rtlLines td.rtlL1
+{
+	background-image:url('TreeList/rtlTop.gif');
+}
+
+.RadTreeList_Metro .rtlLines td.rtlL2
+{
+	background-image:url('TreeList/rtlMiddle.gif');
+}
+
+.RadTreeList_Metro .rtlLines td.rtlL3
+{
+	background-image:url('TreeList/rtlBottom.gif');
+}
+
+/*rtl*/
+
+.RadTreeListRTL_Metro .rtlLines td.rtlL1
+{
+	background-image:url('TreeList/rtlTopRTL.gif');
+}
+
+.RadTreeListRTL_Metro .rtlLines td.rtlL2
+{
+	background-image:url('TreeList/rtlMiddleRTL.gif');
+}
+
+.RadTreeListRTL_Metro .rtlLines td.rtlL3
+{
+	background-image:url('TreeList/rtlBottomRTL.gif');
+}
+
+/*pager*/
+
+.RadTreeList_Metro .rtlPagerCell
+{
+	border-color:#e5e5e5;
+}
+
+.RadTreeList_Metro .rtlPager .rtlInfoPart
+{
+	color:#8a8a8a;
+}
+
+.RadTreeList_Metro .rtlPager .rtlInfoPart strong
+{
+	color:#4c4e54;
+}
+
+.RadTreeList_Metro .rtlPager .rtlPageFirst,
+.RadTreeList_Metro .rtlPager .rtlPagePrev,
+.RadTreeList_Metro .rtlPager .rtlPageNext,
+.RadTreeList_Metro .rtlPager .rtlPageLast
+{
+	background:transparent no-repeat url('Grid/sprite.gif');
+}
+
+.RadTreeList_Metro .rtlPager .rtlPageFirst
+{
+	background-position:0 -550px;
+}
+.RadTreeList_Metro .rtlPager .rtlPageFirst:hover
+{
+	background-position:0 -600px;
+}
+.RadTreeList_Metro .rtlPager .rtlPagePrev
+{
+	background-position:0 -700px;
+}
+.RadTreeList_Metro .rtlPager .rtlPagePrev:hover
+{
+	background-position:0 -750px;
+}
+.RadTreeList_Metro .rtlPager .rtlPageNext
+{
+	background-position:0 -850px;
+}
+.RadTreeList_Metro .rtlPager .rtlPageNext:hover
+{
+	background-position:0 -900px;
+}
+.RadTreeList_Metro .rtlPager .rtlPageLast
+{
+	background-position:0 -1000px;
+}
+.RadTreeList_Metro .rtlPager .rtlPageLast:hover
+{
+	background-position:0 -1050px;
+}
+
+.RadTreeList_Metro .rtlPager .rtlPagerButton
+{
+	border-color:#25a0da;
+	background:#25a0da;
+	color:#fff;
+	font-family:"segoe ui",arial,sans-serif;
+}
+
+.RadTreeList_Metro .rtlPager .rtlNumPart a
+{
+	border:1px solid #fff;
+	color:#767676;
+}
+
+.RadTreeList_Metro .rtlPager .rtlNumPart a:hover
+{
+	color:#000;
+	background-color:#e5e5e5;
+}
+
+.RadTreeList_Metro .rtlPager .rtlNumPart a.rtlCurrentPage,
+.RadTreeList_Metro .rtlPager .rtlNumPart a.rtlCurrentPage:hover
+{
+	border-color:#25a0da;
+	background:transparent;
+}

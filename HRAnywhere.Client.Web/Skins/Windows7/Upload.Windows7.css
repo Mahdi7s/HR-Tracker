@@ -1,0 +1,184 @@
+/* RadUpload / Vista skin */
+
+/* <general styles> */
+
+.RadUpload_Windows7,
+.RadUpload_Windows7 a,
+.RadUpload_Windows7 input,
+.RadUploadProgressArea_Windows7,
+.RadUploadProgressArea_Windows7 input
+{
+    font: normal 11px/11px "Segoe UI", Arial, sans-serif;
+}
+
+/* </general styles> */
+
+/* <file inputs> */
+
+.RadUpload_Windows7 .ruStyled .ruFileInput
+{
+    border-color: #abadb3;
+}
+
+.RadUpload_Windows7 .ruFakeInput
+{
+    border-color: #abadb3 #dbdfe6 #e3e9ef #e2e3ea;
+    color: #000;
+}
+* html .RadUpload_Windows7 .ruFileWrap .ruInputHover { border-color: #abadb3; }
+*+html .RadUpload_Windows7 .ruFileWrap .ruInputHover { border-color: #abadb3; }
+
+.RadUpload_Windows7 .ruReadOnly .ruFakeInput
+{
+	background: #f3f3f3;
+}
+
+/* </file inputs> */
+
+/* <buttons> */
+
+.RadUpload_Windows7 .ruButton,
+.RadUploadProgressArea_Windows7 .ruButton
+{
+    background-image: url('Upload/ruSprite.png');
+    color: #1e395b;
+}
+
+* html .RadUpload_Windows7 .ruButton,
+* html .RadUploadProgressArea_Windows7 .ruButton
+{
+    background-image: url('Upload/ruSpriteIE6.png');
+}
+
+.RadUpload_Windows7 .ruRemove
+{
+	color: #5a6779;
+}
+
+div.RadUpload_Windows7 .ruInputs .ruButtonHover,
+div.RadUpload_Windows7 .ruActions .ruButtonHover,
+div.RadUploadProgressArea_Windows7 .ruActions .ruButtonHover
+{
+    background-position: 100% -23px;
+}
+
+div.RadUpload_Windows7 .ruFileWrap .ruButtonHover
+{
+    background-position: 100% 0;
+}
+
+/* </buttons> */
+
+/* <submit button> */
+/* (use this class to style a single button for uploads) */
+
+.RadUploadSubmit
+{
+    background-image: url('Upload/ruSprite.png');
+    color: #000;
+}
+
+* html .RadUploadSubmit
+{
+    background-image: url('Upload/ruSpriteIE6.png');
+}
+
+/* </submit button> */
+
+/* <progress area> */
+
+.RadUploadProgressArea_Windows7 .ruProgress
+{
+    border-color: #a5b3c5;
+    background-image: url('Upload/ruProgressArea.png');
+    background-color: #fff;
+}
+
+.RadUploadProgressArea_Windows7 ul.ruProgress
+{
+    background-position: 100% 0;
+}
+
+.RadUploadProgressArea_Windows7 .ruProgress li
+{
+    color: #4c607a;
+}
+
+.RadUploadProgressArea_Windows7 li.ruProgressHeader
+{
+    color: #1e395b;
+}
+
+.RadUploadProgressArea_Windows7 .ruProgress li.ruCurrentFile span
+{
+    color: #06c;
+}
+
+.RadUploadProgressArea_Windows7 .ruProgress .ruBar
+{
+    border-color: #abc1de;
+    background-image: url('Upload/ruSprite.png');
+}
+ 
+* html .RadUploadProgressArea_Windows7 .ruProgress .ruBar
+{
+    background-image: url('Upload/ruSpriteIE6.png');
+}
+ 
+.RadUploadProgressArea_Windows7 .ruProgress .ruBar div
+{
+    background-image: url('Upload/ruProgress.gif');
+	border-right: 1px solid #FFF;
+}
+
+.RadUploadProgressArea_Windows7_rtl .ruProgress .ruBar div
+{
+	border-right: 0;
+	border-left: 1px solid #FFF;
+    background-image: url('Upload/ruProgress.gif');
+}
+ 
+.RadUploadProgressArea_Windows7 .ruProgress .ruActions
+{
+	border-top-color: #dfdfdf;
+	background: #F1F5FB url('Upload/ruSprite.png') repeat-x 0 -112px;
+}
+
+* html .RadUploadProgressArea_Windows7 .ruProgress .ruActions
+{
+	background: #F1F5FB url('Upload/ruSpriteIE6.png') repeat-x 0 -112px;
+}
+
+/* </progress area> */
+
+/* <RadAsyncUpload> */
+
+.RadUpload_Windows7 .ruUploadInvalid
+{
+    background-repeat: no-repeat;
+    background-position: 100% -297px;
+    background-image: url('Input/sprite.gif');
+}
+
+.RadUpload_Windows7_rtl .ruUploadInvalid
+{
+    background-position: 3px -297px;
+}
+
+.RadUpload_Windows7 .ruFileProgress,
+.RadUpload_Windows7 .ruFileProgressWrap
+{
+    background-image: url('Upload/AsyncProgress.png');
+}
+
+.RadUpload_Windows7 .ruFileProgress,
+.RadUpload_Windows7_rtl .ruFileProgressWrap { background-position: 0 0; }
+.RadUpload_Windows7 .ruFileProgressWrap,
+.RadUpload_Windows7_rtl .ruFileProgress { background-position: 100% 0; }
+
+.RadUpload_Windows7 .ruProgressStarted,
+.RadUpload_Windows7_rtl .ruProgressComplete { background-position: 0 -5px; }
+.RadUpload_Windows7 .ruProgressComplete,
+.RadUpload_Windows7_rtl .ruProgressStarted { background-position: 100% -5px; }
+
+/* </RadAsyncUpload> */

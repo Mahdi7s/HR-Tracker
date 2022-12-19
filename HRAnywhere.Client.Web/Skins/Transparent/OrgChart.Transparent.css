@@ -1,0 +1,84 @@
+/**
+ * Organizational Chart Transparent Skin
+ */
+
+
+
+
+/*----------------------------------------------------------------------------*/
+
+
+
+
+/** Global wrapper */
+.RadOrgChart_Transparent {
+	color: #333333;
+	font: normal 12px/22px "Segoe UI", Arial, sans-serif;
+}
+
+
+
+
+/** Viewport */
+.RadOrgChart_Transparent .rocViewport {}
+
+
+
+
+/** NodeList */
+.RadOrgChart_Transparent .rocNodeList {}
+
+
+
+
+/** Node */
+.RadOrgChart_Transparent .rocNode {}
+
+
+
+
+/** Group */
+.RadOrgChart_Transparent .rocGroup {
+	border-radius: 10px;
+	background-color: #e5e5e5;
+	background-color: rgba(0, 0, 0, .1);
+	*background-color: #e5e5e5;
+}
+
+
+
+
+/** ItemList */
+.RadOrgChart_Transparent .rocItemList {}
+
+
+
+
+/** ItemWrap */
+.RadOrgChart_Transparent .rocItemWrap {}
+
+
+
+
+/** Items */
+.RadOrgChart_Transparent .rocItem {}
+
+
+	.RadOrgChart_Transparent .rocItemContent,
+	.RadOrgChart_Transparent .rocItemTemplate {
+		border-color: #ffffff;
+		border-radius: 5px;
+		background-color: rgba(255, 255, 255, .2);
+		background-image: url('../Common/OrgChart/rocItemTileLight.png');
+		_background-image: none;
+	}
+
+
+
+
+/** Node lines */
+.RadOrgChart_Transparent .rocLineUp,
+.RadOrgChart_Transparent .rocLineDown,
+.RadOrgChart_Transparent .rocLineHorizontal {
+	background-image: url('../Common/OrgChart/rocLinesDark.png');
+}

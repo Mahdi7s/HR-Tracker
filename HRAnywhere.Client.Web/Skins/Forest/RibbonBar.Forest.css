@@ -1,0 +1,538 @@
+.RadRibbonBar_Forest
+{
+	font: 11px "Segoe UI", Arial, sans-serif;
+}
+
+.RadRibbonBar_Forest .rrbContentWrapIn,
+.RadRibbonBar_Forest .rrbButtonArea,
+.RadRibbonBar_Forest .rrbGroupTitle,
+.RadRibbonBar_Forest .rrbButtonGroupIn,
+.RadRibbonBar_Forest .rrbCollapsedGroup .rrbButtonIn,
+.RadRibbonBar_Forest a.rrbButtonOut:hover .rrbButtonIn,
+.RadRibbonBar_Forest .rrbButtonOut .rrbButtonTextHover,
+.RadRibbonBar_Forest div.rrbButtonStrip a.rrbDisabled .rrbButtonIn,
+.RadRibbonBar_Forest .rrbButtonStrip .rrbButtonIn,
+.RadRibbonBar_Forest .rrbButtonClicked .rrbButtonIn,
+.RadRibbonBar_Forest .rrbButtonClicked .rrbButtonTextHover,
+.RadRibbonBar_Forest .rrbToggled .rrbButtonIn,
+.RadRibbonBar_Forest .rrbToggled .rrbButtonTextHover,
+.RadRibbonBar_Forest .rrbExpanded .rrbButtonIn,
+.RadRibbonBar_Forest .rrbExpanded .rrbButtonTextHover
+{
+	background-image: url('RibbonBar/rrbGradients.png');
+}
+
+.RadRibbonBar_Forest .rrbButtonArrow,
+.RadRibbonBar_Forest .rrbResizeHandle,
+.RadRibbonBar_Forest .rrbGroupLauncher
+{
+	background-image: url('RibbonBar/rrbArrowSprite.png');
+}
+
+.RadRibbonBar_Forest div.rrbGroupTitle
+{
+	background-image: none;
+}
+
+.RadRibbonBar_Forest div.rrbButtonGroupIn
+{
+	background-position: 0 0;
+}
+
+.RadRibbonBar_Forest a.rrbCollapsedGroup span.rrbButtonMid .rrbButtonIn
+{
+	background-position: 0 -1px;
+}
+
+.RadRibbonBar_Forest span.rrbDecoration span.rrbButtonMid .rrbButtonIn
+{
+	background-image: none;
+}
+
+.RadRibbonBar_Forest .rrbContentWrapOut,
+.RadRibbonBar_Forest .rrbContentWrapMid,
+.RadRibbonBar_Forest .rrbContentWrapIn
+{
+	background-color: #bfd299;
+	border-color: #588a4d;
+	background-image: none;
+}
+
+.RadRibbonBar_Forest span.rrbButtonIn
+{
+	top: 0;
+}
+
+.RadRibbonBar_Forest .rrbContentWrapIn,
+.RadRibbonBar_Forest .rrbButtonArea
+{
+	background-color: #bfd299;
+}
+
+.RadRibbonBar_Forest .rrbButtonArea
+{
+	background-position: 0 -633px;
+}
+
+.RadRibbonBar_Forest a.rrbButtonOut:hover .rrbButtonIn,
+.RadRibbonBar_Forest .rrbButtonClicked .rrbButtonIn,
+.RadRibbonBar_Forest .rrbButtonClicked:hover .rrbButtonIn,
+.RadRibbonBar_Forest .rrbButtonClicked .rrbButtonTextHover,
+.RadRibbonBar_Forest .rrbToggled .rrbButtonIn,
+.RadRibbonBar_Forest .rrbToggled:hover .rrbButtonIn,
+.RadRibbonBar_Forest .rrbToggled .rrbButtonTextHover,
+.RadRibbonBar_Forest .rrbExpanded .rrbButtonIn,
+.RadRibbonBar_Forest .rrbExpanded:hover .rrbButtonIn,
+.RadRibbonBar_Forest .rrbExpanded .rrbButtonTextHover
+{
+	background-position: 0 -200px;
+}
+
+.RadRibbonBar_Forest .rrbButtonStripPart .rrbButtonIn,
+.RadRibbonBar_Forest .rrbButtonStripPart:hover .rrbButtonIn
+{
+	background-position: 0 -640px;
+}
+
+.RadRibbonBar_Forest .rrbButtonOut,
+.RadRibbonBar_Forest .rrbButtonMid,
+.RadRibbonBar_Forest .rrbButtonIn
+{
+	border-color: transparent;
+}
+
+.RadRibbonBar_Forest .rrbButtonArea .rrbCollapsedGroup,
+.RadRibbonBar_Forest .rrbCollapsedGroup .rrbButtonMid
+{
+	background-color: #468413;
+	border-color: #588a4d;
+}
+
+.RadRibbonBar_Forest .rrbDecoration,
+.RadRibbonBar_Forest .rrbDecoration .rrbButtonMid
+{
+	background-color: #bfd29a;
+	border-color: #588a4d;
+}
+
+.RadRibbonBar_Forest .rrbMenuGroupMid,
+.RadRibbonBar_Forest .rrbMenuGroupIn
+{
+	background-color: #e7f1d7;
+	border-color: #588a4d;
+}
+
+.RadRibbonBar_Forest .rrbButtonGroup,
+.RadRibbonBar_Forest .rrbButtonGroupIn
+{
+	background-color: #468413;
+	border-color: #588a4d;
+}
+
+.RadRibbonBar_Forest a.rrbButtonStripPart,
+.RadRibbonBar_Forest a.rrbButtonStripPart .rrbButtonMid,
+.RadRibbonBar_Forest div.rrbButtonStrip a.rrbDisabled,
+.RadRibbonBar_Forest div.rrbButtonStrip a.rrbDisabled .rrbButtonMid
+
+{
+	background-color: #497425;
+	border-color: #497425;
+}
+
+.RadRibbonBar_Forest a.rrbButtonOut:hover,
+.RadRibbonBar_Forest a.rrbButtonOut:hover .rrbButtonMid,
+.RadRibbonBar_Forest a.rrbButtonStripPart:hover,
+.RadRibbonBar_Forest a.rrbButtonStripPart:hover .rrbButtonMid
+{
+	color: #7a1b05;
+	background-color: #ef9523;
+	border-color: #8c6721;
+}
+
+.RadRibbonBar_Forest .rrbButtonArea a.rrbCollapsedGroup:hover,
+.RadRibbonBar_Forest a.rrbCollapsedGroup:hover .rrbButtonMid
+{
+	background-color: #ff9c00;
+	border-color: #6f4c06;
+}
+
+.RadRibbonBar_Forest a.rrbCollapsedGroup:hover .rrbDecoration,
+.RadRibbonBar_Forest a.rrbCollapsedGroup:hover .rrbDecoration .rrbButtonMid
+{
+	background-color: #f2b658;
+	border-color: #ce7e00;
+}
+
+.RadRibbonBar_Forest .rrbButtonClicked,
+.RadRibbonBar_Forest .rrbButtonClicked .rrbButtonMid,
+.RadRibbonBar_Forest div.rrbButtonGroup .rrbToggled,
+.RadRibbonBar_Forest div.rrbButtonGroup .rrbToggled .rrbButtonMid,
+.RadRibbonBar_Forest a.rrbExpanded,
+.RadRibbonBar_Forest a.rrbExpanded .rrbButtonMid,
+.RadRibbonBar_Forest a.rrbButtonClicked:hover,
+.RadRibbonBar_Forest a.rrbButtonClicked:hover .rrbButtonMid,
+.RadRibbonBar_Forest a.rrbButtonClicked:hover .rrbButtonOut
+{
+	color: #FFF;
+	background-color: #de5e17;
+	border-color: #751a04;
+}
+
+.RadRibbonBar_Forest .rrbButton:hover .rrbButtonIn,
+.RadRibbonBar_Forest .rrbMediumButton:hover .rrbButtonIn,
+.RadRibbonBar_Forest .rrbButtonClicked .rrbButtonIn,
+.RadRibbonBar_Forest .rrbToggled .rrbButtonIn,
+.RadRibbonBar_Forest .rrbExpanded .rrbButtonIn,
+.RadRibbonBar_Forest .rrbButtonStripPart .rrbButtonIn
+{
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+.RadRibbonBar_Forest .rrbLargeButton .rrbButtonIn,
+.RadRibbonBar_Forest .rrbCollapsedGroup .rrbButtonIn
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.RadRibbonBar_Forest .rrbButtonArea a.rrbButtonClicked.rrbCollapsedGroup,
+.RadRibbonBar_Forest .rrbButtonArea a.rrbButtonClicked.rrbCollapsedGroup .rrbButtonMid
+{
+	background-color: #ff5b00;
+	border-color: #7a1b05;
+}
+
+.RadRibbonBar_Forest a.rrbButtonClicked.rrbCollapsedGroup .rrbDecoration,
+.RadRibbonBar_Forest a.rrbButtonClicked.rrbCollapsedGroup .rrbDecoration .rrbButtonMid
+{
+	background-color: #fa9d6a;
+	border-color: #e06d2e;
+}
+
+.RadRibbonBar_Forest a.rrbButtonOut:hover .rrbButtonText
+{
+	border-color: #8c6721;
+}
+
+.RadRibbonBar_Forest .rrbButtonTextHover
+{
+	background-color: #ef9523;
+}
+
+.RadRibbonBar_Forest a.rrbButtonClicked:hover .rrbButtonText
+{
+	border-color: #751a04;
+}
+
+.RadRibbonBar_Forest .rrbButtonClicked .rrbButtonTextHover
+{
+	background-color: #de5e17;
+}
+
+.RadRibbonBar_Forest .rrbButtonGroupHover .rrbButtonGroupIn
+{
+	background-color: #569423;
+}
+
+.RadRibbonBar_Forest .rrbGroupTitle
+{
+	color: #e7f1d7;
+	background-color: #5b8940;
+}
+
+.RadRibbonBar_Forest .rrbButtonOut,
+.RadRibbonBar_Forest .rrbButtonStripPart,
+.RadRibbonBar_Forest .rrbLargeButton .rrbButtonArrow,
+.RadRibbonBar_Forest .rrbCollapsedGroup .rrbButtonArrow
+{
+	color: #e7f1d7;
+}
+
+.RadRibbonBar_Forest .rrbMenuGroupOut .rrbButtonOut
+{
+	color: #2b2c20;
+}
+
+.RadRibbonBar_Forest a.rrbDisabled .rrbButtonMid,
+.RadRibbonBar_Forest a.rrbDisabled:hover .rrbButtonMid
+{
+	color: #b7c1a7;
+}
+
+.RadRibbonBar_Forest .rrbMenuGroupMid,
+.RadRibbonBar_Forest .rrbDetachedContainer .rrbContentWrapOut
+{
+	box-shadow: 3px 2px 3px #333;
+	-moz-box-shadow: 3px 2px 3px #333;
+	-webkit-box-shadow: 3px 2px 3px #333;
+}
+
+.RadRibbonBar_Forest .rrbDetachedContainer .rrbGroupTitle
+{
+	bottom: 0;
+}
+
+.RadRibbonBar_Forest .rrbButtonClicked span.rrbButtonArrow,
+.RadRibbonBar_Forest .rrbButtonClicked:hover span.rrbButtonArrow,
+.RadRibbonBar_Forest .rrbToggled span.rrbButtonArrow,
+.RadRibbonBar_Forest .rrbToggled:hover span.rrbButtonArrow,
+.RadRibbonBar_Forest .rrbExpanded span.rrbButtonArrow,
+.RadRibbonBar_Forest .rrbExpanded:hover span.rrbButtonArrow
+{
+	background-position: 50% -57px;
+}
+
+.RadRibbonBar_Forest .rrbMenuGroupOut span.rrbButtonArrow
+{
+	background-position: -48px 50%;
+}
+
+.RadRibbonBar_Forest .rrbMenuGroupOut .rrbButtonClicked span.rrbButtonArrow,
+.RadRibbonBar_Forest .rrbMenuGroupOut .rrbButtonClicked:hover span.rrbButtonArrow,
+.RadRibbonBar_Forest .rrbMenuGroupOut .rrbToggled span.rrbButtonArrow,
+.RadRibbonBar_Forest .rrbMenuGroupOut .rrbToggled:hover span.rrbButtonArrow,
+.RadRibbonBar_Forest .rrbMenuGroupOut .rrbExpanded span.rrbButtonArrow,
+.RadRibbonBar_Forest .rrbMenuGroupOut .rrbExpanded:hover span.rrbButtonArrow
+{
+	background-position: -32px 50%;
+}
+
+.RadRibbonBar_Forest div.rrbResizeHandle
+{
+	background-position: -19px -7px;
+}
+
+.RadRibbonBar_Forest a.rrbGroupLauncher
+{
+	width: 11px;
+	height: 11px;
+	margin-top: 2px;
+	background-position: -17px -21px;
+}
+
+.RadRibbonBar_Forest a.rrbGroupLauncher:hover
+{
+	background-position: -17px -37px;
+}
+
+
+/* RadTabStrip styles */
+.RadRibbonBar_Forest .rrbTabStrip .rtsUL,
+.RadRibbonBar_Forest .rrbTabStrip.RadTabStripBottom_Forest .rtsUL
+{
+	border-color: #588a4d;
+}
+
+.RadRibbonBar_Forest .rrbTabStrip .rtsUL
+{
+	border-top: 0;
+}
+
+.RadRibbonBar_Forest .rrbTabStrip.RadTabStripBottom_Forest .rtsUL
+{
+	border-bottom: 0;
+}
+
+
+
+
+/** Tabstrip */
+.RadRibbonBar_Forest .rrbTabs {
+	line-height: 26px;
+	border-bottom-color: #588a4d;
+}
+
+
+
+
+/** Application Tab */
+.RadRibbonBar_Forest .rrbApplicationTab {
+	color: #ffffff;
+	line-height: 22px;
+}
+
+
+	.RadRibbonBar_Forest .rrbApplicationTab .rrbTabLabel {
+		background-image: url('RibbonBar/rrbApplicationTabSprite.png');
+		_background-image: url('RibbonBar/rrbApplicationTabSprite_IE6.png');
+		background-position: left 0;
+	}
+
+
+	.RadRibbonBar_Forest .rrbApplicationTab .rrbTabText {
+		background-image: url('RibbonBar/rrbApplicationTabSprite.png');
+		_background-image: url('RibbonBar/rrbApplicationTabSprite_IE6.png');
+		background-position: right 0;
+	}
+
+
+
+
+/** Hovered Application Tab */
+.RadRibbonBar_Forest .rrbHoveredApplicationTab {}
+
+
+	.RadRibbonBar_Forest .rrbHoveredApplicationTab .rrbTabLabel {
+		background-position: left -26px;
+	}
+
+
+	.RadRibbonBar_Forest .rrbHoveredApplicationTab .rrbTabText {
+		background-position: right -26px;
+	}
+
+
+
+
+/** Selected Application Tab */
+.RadRibbonBar_Forest .rrbSelectedApplicationTab {
+	color: #000000;
+}
+
+
+	.RadRibbonBar_Forest .rrbSelectedApplicationTab .rrbTabLabel {
+		background-position: left -52px;
+	}
+
+
+	.RadRibbonBar_Forest .rrbSelectedApplicationTab .rrbTabText {
+		background-position: right -52px;
+	}
+
+
+
+
+/** Contextual Tab */
+.RadRibbonBar_Forest .rrbContextualTab {}
+
+
+	.RadRibbonBar_Forest .rrbContextualTab .rrbContextualTabLabel {
+		border-radius: 2px 2px 0 0;
+		color: #ffffff;
+		background-image: url('../Common/RibbonBar/rrbContextualTabGlassTile.png');
+	}
+
+
+
+
+/** Tab */
+.RadRibbonBar_Forest .rrbTab {
+	color: #2b2c20;
+}
+
+
+	.RadRibbonBar_Forest .rrbTabLabel {
+		background-image: url('RibbonBar/rrbTabSprite.png');
+		_background-image: url('RibbonBar/rrbTabSprite_IE6.png');
+		background-position: left 0;
+	}
+
+
+	.RadRibbonBar_Forest .rrbTabText {
+		background-image: url('RibbonBar/rrbTabSprite.png');
+		_background-image: url('RibbonBar/rrbTabSprite_IE6.png');
+		background-position: right 0;
+	}
+
+
+
+
+/** Hovered Tab */
+.RadRibbonBar_Forest .rrbHoveredTab {}
+
+
+	.RadRibbonBar_Forest .rrbHoveredTab .rrbTabLabel {
+		background-position: left -26px;
+	}
+
+
+	.RadRibbonBar_Forest .rrbHoveredTab .rrbTabText {
+		background-position: right -26px;
+	}
+
+
+
+
+/** Selected Tab */
+.RadRibbonBar_Forest .rrbSelectedTab {
+	color: #2b2c20;
+}
+
+
+	.RadRibbonBar_Forest .rrbSelectedTab .rrbTabLabel {
+		background-position: left -52px;
+	}
+
+
+	.RadRibbonBar_Forest .rrbSelectedTab .rrbTabText {
+		background-position: right -52px;
+	}
+
+
+
+
+
+/** QuickAccessToolbar */
+.RadRibbonBar_Forest .rrbQuickAccessToolbar {}
+
+
+	.RadRibbonBar_Forest .rrbQatItem {}
+	.RadRibbonBar_Forest .rrbQatButton {}
+
+
+	.RadRibbonBar_Forest .rrbQatDropDown {}
+	.RadRibbonBar_Forest .rrbQatDropDown .rrbQatButton {}
+	.RadRibbonBar_Forest .rrbQatDropDown .rrbQatButton:hover {
+		border-color: #8f610a;
+		background-color: #d57a08;
+	}
+	
+	
+	.RadRibbonBar_Forest .rrbQatDropDown .rrbSlide {}
+
+
+
+
+/** RadRibbonBar Menu */
+.RadRibbonBar_Forest .rrbMenu {
+	border-color: #588a4d;
+	color: #2b2c20;
+	background-color: #c7d6a7;
+}
+
+
+	.RadRibbonBar_Forest .rrbSlide {}
+	.RadRibbonBar_Forest .rrbMenu .rrbMenuGroup {}
+	.RadRibbonBar_Forest .rrbMenu .rrbMenuLabel {
+		background-color: #b1c67f;
+	}
+	.RadRibbonBar_Forest .rrbMenu .rrbMenuSeparator {}
+
+
+
+
+	/** Menu items */
+	.RadRibbonBar_Forest .rrbMenu .rrbMenuItem {}
+	.RadRibbonBar_Forest .rrbMenu .rrbMenuItem:hover,
+	.RadRibbonBar_Forest .rrbMenu .rrbMenuItemHovered {
+		border-color: #8f610a;
+		color: #7a1b05;
+		background-color: #d57a08;
+	}
+
+
+	.RadRibbonBar_Forest .rrbMenu .rrbMenuItemCheckbox {}
+	.RadRibbonBar_Forest .rrbMenu .rrbMenuItemCheckbox label {}
+	.RadRibbonBar_Forest .rrbMenu .rrbMenuItemCheckbox input {}
+	.RadRibbonBar_Forest .rrbMenu .rrbMenuItemCheckboxChecked {}
+	.RadRibbonBar_Forest .rrbMenu .rrbMenuItemCheckboxChecked label {}
+
+
+	.RadRibbonBar_Forest .rrbMenu .rrbMenuItemRadio {}
+	.RadRibbonBar_Forest .rrbMenu .rrbMenuItemRadio label {}
+	.RadRibbonBar_Forest .rrbMenu .rrbMenuItemRadio input {}
+	.RadRibbonBar_Forest .rrbMenu .rrbMenuItemRadioChecked {}
+	.RadRibbonBar_Forest .rrbMenu .rrbMenuItemRadioChecked label {}

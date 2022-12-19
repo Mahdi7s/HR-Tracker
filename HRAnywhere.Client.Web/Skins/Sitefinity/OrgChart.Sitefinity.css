@@ -1,0 +1,82 @@
+/**
+ * Organizational Chart Sitefinity Skin
+ */
+
+
+
+
+/*----------------------------------------------------------------------------*/
+
+
+
+
+/** Global wrapper */
+.RadOrgChart_Sitefinity {
+	color: #333333;
+	font: normal 12px/22px "Segoe UI", Arial, sans-serif;
+}
+
+
+
+
+/** Viewport */
+.RadOrgChart_Sitefinity .rocViewport {}
+
+
+
+
+/** NodeList */
+.RadOrgChart_Sitefinity .rocNodeList {}
+
+
+
+
+/** Node */
+.RadOrgChart_Sitefinity .rocNode {}
+
+
+
+
+/** Group */
+.RadOrgChart_Sitefinity .rocGroup {
+	border-radius: 10px;
+	background-color: #999999;
+}
+
+
+
+
+/** ItemList */
+.RadOrgChart_Sitefinity .rocItemList {}
+
+
+
+
+/** ItemWrap */
+.RadOrgChart_Sitefinity .rocItemWrap {}
+
+
+
+
+/** Items */
+.RadOrgChart_Sitefinity .rocItem {}
+
+
+	.RadOrgChart_Sitefinity .rocItemContent,
+	.RadOrgChart_Sitefinity .rocItemTemplate {
+		border-color: #cccccc;
+		border-radius: 5px;
+		background-color: #fafafa;
+		background-image: url('../Common/OrgChart/rocItemTileDark.png');
+		_background-image: none;
+	}
+
+
+
+
+/** Node lines */
+.RadOrgChart_Sitefinity .rocLineUp,
+.RadOrgChart_Sitefinity .rocLineDown,
+.RadOrgChart_Sitefinity .rocLineHorizontal {
+	background-image: url('../Common/OrgChart/rocLinesDark.png');
+}

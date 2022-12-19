@@ -1,0 +1,21 @@
+.RadSiteMap_Sitefinity .rsmLink,
+.RadSiteMap_Sitefinity .rsmTemplate
+{
+	font-family: Arial, Helvetica, sans-serif;
+	border-bottom: 0;
+	color: #000;
+}
+
+.RadSiteMap_Sitefinity .rsmLevel2 .rsmLink,
+.RadSiteMap_Sitefinity .rsmLevel2 .rsmTemplate,
+.RadSiteMap_Sitefinity .rsmThreeLevels .rsmLevel1 .rsmLink,
+.RadSiteMap_Sitefinity .rsmTwoLevels .rsmLevel1 .rsmLink
+{
+	color: #125cb1;
+}
+
+.RadSiteMap_Sitefinity .rsmLink:hover
+{
+	color: #125cb1;
+	text-decoration: underline;
+}

@@ -1,0 +1,25 @@
+/* RadSocialShare Hay Skin */
+
+.RadSocialShare_Hay
+{
+	border: 1px solid #cac8ab;
+	background-color: #f6f6e8;
+}
+
+.RadSocialShare_Hay .sshLinkItem .sshText,
+.RadComboBoxDropDown_Hay .rcbItem .sshLinkItem .sshText
+{
+	color: #272722;
+}
+
+.RadSocialShare_Hay .sshLinkItem:hover .sshText,
+.RadComboBoxDropDown_Hay .rcbHovered .sshLinkItem .sshText
+{
+	color: #279500;
+}
+
+.RadComboBox_Hay.sshComboWrapper td.rcbArrowCellRight,
+.RadComboBox_Hay.sshComboWrapper .rcbFocused td.rcbArrowCellRight
+{
+	background-position: right -154px;
+}

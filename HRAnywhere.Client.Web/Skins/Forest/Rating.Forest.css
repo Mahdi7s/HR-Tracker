@@ -1,0 +1,13 @@
+/* RadRating for ASP.NET AJAX Forest Skin */
+
+.RadRating_Forest a,
+.RadRating_Forest a span
+{
+	background-image: url('Rating/Sprite.png');
+}
+
+* html .RadRating_Forest a,
+* html .RadRating_Forest a span
+{
+	background-image: url('Rating/Sprite.gif');
+}

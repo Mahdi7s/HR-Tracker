@@ -1,0 +1,29 @@
+.RadTagCloud_Metro
+{
+	border: 1px dotted #e5e5e5;
+}
+.RadTagCloud_Metro .rtcTagList .rtcTagItem
+{
+	color: #25a0da;
+}
+.RadTagCloud_Metro .rtcTagList .rtcTagItem a
+{
+	color: #767676;
+}
+.RadTagCloud_Metro .rtcTagList .rtcTagItem a:hover
+{
+	background: #e5e5e5;
+	color: #000;
+}
+
+.RadTagCloud_Metro .rtcTagList .rtcTagItem a:active
+{
+	background: #25a0da;
+	color: #fff;
+}
+
+/* Loading image */
+.rtcLoading.RadTagCloud_Metro
+{
+	background-image: url('Common/loading_small.gif');
+}

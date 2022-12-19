@@ -1,0 +1,174 @@
+/* RadSplitter for ASP.NET AJAX - Sitefinity Skin */
+
+/* Borders */
+.RadSplitter_Sitefinity,
+.RadSplitter_Sitefinity .rspPaneTabContainer,
+
+/* Vertical RadSplitter items */
+.RadSplitter_Sitefinity .rspPane, 
+.RadSplitter_Sitefinity .rspResizeBar,
+.RadSplitter_Sitefinity .rspSlideContainerResize,
+
+/* Horizontal RadSplitter items */
+.RadSplitter_Sitefinity .rspPaneHorizontal,
+.RadSplitter_Sitefinity .rspResizeBarHorizontal,
+.RadSplitter_Sitefinity .rspSlideContainerResizeHorizontal
+{
+	border-color:#ccc;
+}
+
+/* When ShowContentDuringLoad="false" */
+.RadSplitter_Sitefinity .rspLoading
+{
+    background-image: url('Common/loading.gif');
+}
+
+/* RadSplitBar/RadSlidingPane resize elements */
+.RadSplitter_Sitefinity .rspResizeBar,
+.RadSplitter_Sitefinity .rspSlideContainerResize
+{
+	background:#ececec url('Splitter/ResizeBarVerticalSprites.gif') repeat-y 0 0;
+    border-right-color:#ccc;
+}
+
+.RadSplitter_Sitefinity .rspResizeBarOver,
+.RadSplitter_Sitefinity .rspSlideContainerResizeOver
+{
+    background-position:-4px 0;
+}
+
+.RadSplitter_Sitefinity .rspResizeBarHorizontal,
+.RadSplitter_Sitefinity .rspSlideContainerResizeHorizontal
+{
+	background:#ececec url('Splitter/ResizeBarHorizontalSprites.gif') repeat-x 0 0;
+    border-bottom-color:#ccc;
+}
+
+.RadSplitter_Sitefinity .rspResizeBarOverHorizontal,
+.RadSplitter_Sitefinity .rspSlideContainerResizeOverHorizontal
+{
+    background-position:0 -4px;
+}
+
+/* RadSlidingPane tab */
+.RadSplitter_Sitefinity .rspPaneTabContainer,
+/* RadSlidingPane buttons */
+.RadSplitter_Sitefinity .rspSlideHeaderDockIcon,
+.RadSplitter_Sitefinity .rspSlideHeaderUndockIcon,
+.RadSplitter_Sitefinity .rspSlideHeaderCollapseIcon,
+/* RadSplitBar buttons */
+.RadSplitter_Sitefinity .rspCollapseBarExpand,
+.RadSplitter_Sitefinity .rspCollapseBarCollapse,
+
+.RadSplitter_Sitefinity .rspCollapseBarHorizontalExpand,
+.RadSplitter_Sitefinity .rspCollapseBarHorizontalCollapse
+{
+    background-image:url('Splitter/ExpandCollapseBarsCommands.gif');
+    background-repeat:no-repeat;
+}
+
+/* RadSlidingPane tab */
+.RadSplitter_Sitefinity .rspPaneTabContainer
+{
+    background-position:-81px 0;
+    background-repeat:repeat-y;
+}
+
+/* RadSplitBar buttons */
+.RadSplitter_Sitefinity .rspCollapseBarCollapse
+{	
+	background-position:0 0;
+}
+.RadSplitter_Sitefinity .rspCollapseBarCollapseOver
+{
+    background-position:-192px 0;
+}
+
+.RadSplitter_Sitefinity .rspCollapseBarExpand
+{	
+	background-position:-4px 0;
+}
+.RadSplitter_Sitefinity .rspCollapseBarExpandOver
+{
+    background-position:-196px 0;
+}
+
+.RadSplitter_Sitefinity .rspCollapseBarHorizontalExpand
+{
+    background-position:-8px -4px;
+}
+.RadSplitter_Sitefinity .rspCollapseBarHorizontalExpandOver
+{
+    background-position:-8px -12px;
+}
+
+.RadSplitter_Sitefinity .rspCollapseBarHorizontalCollapse
+{
+    background-position:-8px 0;
+}
+.RadSplitter_Sitefinity .rspCollapseBarHorizontalCollapseOver
+{
+    background-position:-8px -8px;
+}
+
+/* RadSlidingPane buttons */
+.RadSplitter_Sitefinity .rspSlideHeaderUndockIcon
+{
+	background-position:-50px 0;
+}
+
+.RadSplitter_Sitefinity .rspSlideHeaderDockIcon
+{
+	background-position:-35px 0;
+}
+
+.RadSplitter_Sitefinity .rspSlideHeaderCollapseIcon
+{
+	background-position:-65px 0;
+}
+
+/* RadSlidingPane header */
+.RadSplitter_Sitefinity .rspSlideHeader, 
+/* RadSlidingPane title */
+.RadSplitter_Sitefinity .rspSlideTitleContainer,
+/* RadSlidingPane tab, SlideDirection=Top/Bottom */
+.RadSplitter_Sitefinity .rspBottom .rspPaneTabContainer,
+.RadSplitter_Sitefinity .rspTop .rspPaneTabContainer
+{
+	background-image:url('Splitter/slideTitleContainerBgr.gif');
+	background-repeat:repeat-x;
+}
+
+.RadSplitter_Sitefinity .rspBottom .rspPaneTabContainer,
+.RadSplitter_Sitefinity .rspTop .rspPaneTabContainer
+{
+    background-position:0 -1px;
+}
+
+/* RadSlidingPane header elements */
+.RadSplitter_Sitefinity .rspSlideTitleContainer,
+.RadSplitter_Sitefinity .rspSlideHeaderIconWrapper
+{
+	border-bottom:solid 1px #828282;
+}
+
+/* RadSlidingPane title text */
+.RadSplitter_Sitefinity .rspSlideTitle,
+/* RadSlidingPane tab text */
+.RadSplitter_Sitefinity .rspPaneTabText,
+.RadSplitter_Sitefinity .rspPane
+{
+	font:normal 10px Arial, Helvetica, Sans-serif;
+	color:#000;
+}
+.RadSplitter_Sitefinity .rspSlideTitle,
+.RadSplitter_Sitefinity .rspPane
+{	
+	font-size:12px;
+}
+
+/* RadSlidingPane content - this element should not be transparent as it shows above content in adjacent RadPanes */
+.RadSplitter_Sitefinity .rspSlideContent
+{
+	background-color:#fff;
+}

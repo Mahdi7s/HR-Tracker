@@ -1,0 +1,172 @@
+/* RadSplitter for ASP.NET AJAX - Windows7 Skin */
+
+/* Borders */
+.RadSplitter_Windows7,
+.RadSplitter_Windows7 .rspPaneTabContainer,
+
+/* Vertical RadSplitter items */
+.RadSplitter_Windows7 .rspPane, 
+.RadSplitter_Windows7 .rspResizeBar,
+.RadSplitter_Windows7 .rspSlideContainerResize,
+
+/* Horizontal RadSplitter items */
+.RadSplitter_Windows7 .rspPaneHorizontal,
+.RadSplitter_Windows7 .rspResizeBarHorizontal,
+.RadSplitter_Windows7 .rspSlideContainerResizeHorizontal
+{
+	border-color:#c2cedb;
+}
+
+/* When ShowContentDuringLoad="false" */
+.RadSplitter_Windows7 .rspLoading
+{
+    background-image: url('Common/loading.gif');
+}
+
+/* RadSplitBar/RadSlidingPane resize elements */
+.RadSplitter_Windows7 .rspResizeBar,
+.RadSplitter_Windows7 .rspSlideContainerResize
+{
+	background:#ececec url('Splitter/ResizeBarVerticalSprites.gif') repeat-y 0 0;
+    border-right-color:#c2cedb;
+}
+
+.RadSplitter_Windows7 .rspResizeBarOver,
+.RadSplitter_Windows7 .rspSlideContainerResizeOver
+{
+    background-position:-4px 0;
+}
+
+.RadSplitter_Windows7 .rspResizeBarHorizontal,
+.RadSplitter_Windows7 .rspSlideContainerResizeHorizontal
+{
+	background:#ececec url('Splitter/ResizeBarHorizontalSprites.gif') repeat-x 0 0;
+    border-bottom-color:#c2cedb;
+}
+
+.RadSplitter_Windows7 .rspResizeBarOverHorizontal,
+.RadSplitter_Windows7 .rspSlideContainerResizeOverHorizontal
+{
+    background-position:0 -4px;
+}
+
+/* RadSlidingPane tab */
+.RadSplitter_Windows7 .rspPaneTabContainer,
+/* RadSlidingPane buttons */
+.RadSplitter_Windows7 .rspSlideHeaderDockIcon,
+.RadSplitter_Windows7 .rspSlideHeaderUndockIcon,
+.RadSplitter_Windows7 .rspSlideHeaderCollapseIcon,
+/* RadSplitBar buttons */
+.RadSplitter_Windows7 .rspCollapseBarExpand,
+.RadSplitter_Windows7 .rspCollapseBarCollapse,
+
+.RadSplitter_Windows7 .rspCollapseBarHorizontalExpand,
+.RadSplitter_Windows7 .rspCollapseBarHorizontalCollapse
+{
+    background-image:url('Splitter/ExpandCollapseBarsCommands.gif');
+    background-repeat:no-repeat;
+}
+
+/* RadSlidingPane tab */
+.RadSplitter_Windows7 .rspPaneTabContainer
+{
+    background-position:-81px 0;
+    background-repeat:repeat-y;
+}
+
+/* RadSplitBar buttons */
+.RadSplitter_Windows7 .rspCollapseBarCollapse
+{	
+	background-position:0 0;
+}
+.RadSplitter_Windows7 .rspCollapseBarCollapseOver
+{
+    background-position:-192px 0;
+}
+
+.RadSplitter_Windows7 .rspCollapseBarExpand
+{	
+	background-position:-4px 0;
+}
+.RadSplitter_Windows7 .rspCollapseBarExpandOver
+{
+    background-position:-196px 0;
+}
+
+.RadSplitter_Windows7 .rspCollapseBarHorizontalExpand
+{
+    background-position:-8px -4px;
+}
+.RadSplitter_Windows7 .rspCollapseBarHorizontalExpandOver
+{
+    background-position:-8px -12px;
+}
+
+.RadSplitter_Windows7 .rspCollapseBarHorizontalCollapse
+{
+    background-position:-8px 0;
+}
+.RadSplitter_Windows7 .rspCollapseBarHorizontalCollapseOver
+{
+    background-position:-8px -8px;
+}
+
+/* RadSlidingPane buttons */
+.RadSplitter_Windows7 .rspSlideHeaderUndockIcon
+{
+	background-position:-50px 0;
+}
+
+.RadSplitter_Windows7 .rspSlideHeaderDockIcon
+{
+	background-position:-35px 0;
+}
+
+.RadSplitter_Windows7 .rspSlideHeaderCollapseIcon
+{
+	background-position:-65px 0;
+}
+
+/* RadSlidingPane header */
+.RadSplitter_Windows7 .rspSlideHeader, 
+/* RadSlidingPane title */
+.RadSplitter_Windows7 .rspSlideTitleContainer,
+/* RadSlidingPane tab, SlideDirection=Top/Bottom */
+.RadSplitter_Windows7 .rspBottom .rspPaneTabContainer,
+.RadSplitter_Windows7 .rspTop .rspPaneTabContainer
+{
+	background-image:url('Splitter/slideTitleContainerBgr.gif');
+	background-repeat:repeat-x;
+}
+
+.RadSplitter_Windows7 .rspBottom .rspPaneTabContainer,
+.RadSplitter_Windows7 .rspTop .rspPaneTabContainer
+{
+    background-position:0 -1px;
+}
+
+/* RadSlidingPane header elements */
+.RadSplitter_Windows7 .rspSlideTitleContainer,
+.RadSplitter_Windows7 .rspSlideHeaderIconWrapper
+{
+	border-bottom:solid 1px #c2cedb;
+}
+
+/* RadSlidingPane title text */
+.RadSplitter_Windows7 .rspSlideTitle,
+/* RadSlidingPane tab text */
+.RadSplitter_Windows7 .rspPaneTabText
+{
+	font:normal 10px "Segoe UI", Arial, Sans-serif;
+	color:#000;
+}
+.RadSplitter_Windows7 .rspSlideTitle
+{	
+	font-size:12px;
+}
+
+/* RadSlidingPane content - this element should not be transparent as it shows above content in adjacent RadPanes */
+.RadSplitter_Windows7 .rspSlideContent
+{
+	background-color:#fff;
+}

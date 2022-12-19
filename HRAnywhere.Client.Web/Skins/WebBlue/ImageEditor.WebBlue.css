@@ -1,0 +1,73 @@
+/* RadImageEdiotr WebBlue Skin */
+
+.RadImageEditor_WebBlue,
+.RadDock_WebBlue.rieDialogs .riePrintContent
+{
+	border-color: #768ca5;
+	background-color: #dae2e8;
+}
+
+.RadImageEditor_WebBlue .rieStatusBarInfo .rieLabel
+{
+	color: #8a8a8a;
+}
+
+.RadImageEditor_WebBlue .rieStatusBarInfo span
+{
+	color: #4c4e54;
+}
+
+.RadDock_WebBlue.rieDialogs .rdContent
+{
+	color: #000;
+}
+
+/* ImageEditor Dialogs using RadDock as Wrapper */
+.RadDock_WebBlue.rieDialogs .rbPrimaryIcon,
+.RadImageEditor_WebBlue .rieResizeHandle,
+.RadImageEditor_WebBlue .rieBackgroundImg .rtbIcon /* Custom skins */
+{
+	background-image: url('ImageEditor/ImageEditorTools.png');
+}
+
+*html .RadDock_WebBlue.rieDialogs .rbPrimaryIcon,
+*html .RadImageEditor_WebBlue .rieResizeHandle,
+*html .RadImageEditor_WebBlue .rieBackgroundImg .rtbIcon /* Custom skins */
+{
+	background-image: url('ImageEditor/ImageEditorToolsIE6.gif');
+}
+
+.RadDock_WebBlue.rieDialogs .rieThumbsBottomRow td,
+.RadDock_WebBlue.rieDialogs .rieDialogsThumbsLeft,
+.RadDock_WebBlue.rieDialogs .riePrintContent img
+{
+	border-color: #5d9fb7;
+}
+
+.RadDock_WebBlue.rieDialogs .rieThumbsLink,
+.RadImageEditor_WebBlue .rieContentArea
+{
+	border-color: #768ca5;
+}
+
+.RadDock_WebBlue.rieDialogs .rieActiveThumbsLink,
+.RadDock_WebBlue.rieDialogs .rieThumbsLink:hover,
+.RadImageEditor_WebBlue .rieHighlightVertical, 
+.RadImageEditor_WebBlue .rieHighlightHorizontal
+{
+	border-color: #5d9fb7;
+	background-color: #cde7f7;
+}
+
+/* Button nomral positions overrides */
+.RadDock_WebBlue.rieDialogs .rieRotateRight,
+.RadDock_WebBlue.rieDialogs .RadButton:hover .rieRotateRight
+{
+	background-position: -16px -17px;
+}
+
+.RadDock_WebBlue.rieDialogs .rieRotateLeft,
+.RadDock_WebBlue.rieDialogs .RadButton:hover .rieRotateLeft
+{
+	background-position: -32px -17px;
+}

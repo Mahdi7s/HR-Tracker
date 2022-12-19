@@ -1,0 +1,136 @@
+/*Telerik RadInput Office2010Silver Skin*/
+
+/*global*/
+
+.RadInput_Office2010Silver,
+.RadInputMgr_Office2010Silver
+{
+	font:12px "segoe ui",arial,sans-serif;
+}
+
+/*textbox states*/
+
+html body .RadInput_Office2010Silver .riTextBox,
+html body .RadInputMgr_Office2010Silver
+{
+	border-color:#9aa0a6;
+	background:#fff;
+	color:#000;
+	font:12px "segoe ui",arial,sans-serif;
+}
+
+html body .RadInput_Office2010Silver .riEmpty,
+html body .RadInput_Empty_Office2010Silver
+{
+	color:#8d8d8d;
+}
+
+html body .RadInput_Office2010Silver .riHover,
+html body .RadInput_Hover_Office2010Silver,
+html body .RadInput_Office2010Silver .riFocused,
+html body .RadInput_Focused_Office2010Silver
+{
+	border-color:#f3d64a;
+}
+
+html body .RadInput_Office2010Silver .riRead,
+html body .RadInput_Read_Office2010Silver
+{
+	border-color:#ccdbed;
+}
+
+html body .RadInput_Office2010Silver .riDisabled,
+html body .RadInput_Disabled_Office2010Silver
+{
+	color:#a4abb2;
+	cursor:default;
+}
+
+html body .RadInput_Office2010Silver .riError,
+html body .RadInput_Error_Office2010Silver
+{
+	border-color:#e50000 #dc643f #ea8541;
+	background:#f6f6f6 100% -298px no-repeat url('Input/sprite.gif');
+	color:#b32d34;
+}
+
+.RadForm.rfdTextbox .RadInput_Office2010Silver .riError[type="text"],
+.RadForm.rfdTextbox .RadInput_Error_Office2010Silver[type="text"]
+{
+	border-color:#b32d34 #dc643f #ea8541;
+	background:#fff 100% -298px no-repeat url('Input/sprite.gif');
+	color:#b32d34;
+}
+
+/*buttons*/
+
+.RadInput_Office2010Silver a
+{
+	background:transparent no-repeat url('Input/sprite.gif');
+}
+
+/*go*/
+
+.RadInput_Office2010Silver .riBtn a
+{
+	width:21px;
+	height:18px;
+	line-height:18px;
+	background-position:3px 6px;
+}
+
+.RadInput_Office2010Silver .riBtn a:hover
+{
+	background-position:3px -44px;
+}
+
+/*spin*/
+
+.RadInput_Office2010Silver .riSpin a
+{
+	width:13px;
+	height:11px;
+	line-height:10px;
+}
+
+.RadInput_Office2010Silver a.riUp
+{
+	background-position:0 -96px;
+}
+
+.RadInput_Office2010Silver a.riUp:hover
+{
+	background-position:0 -146px;
+}
+
+.RadInput_Office2010Silver a.riDown
+{
+	background-position:0 -198px;
+	margin-top:0;
+}
+
+.RadInput_Office2010Silver a.riDown:hover
+{
+	background-position:0 -247px;
+}
+
+/*label*/
+
+.RadInput_Office2010Silver .riLabel
+{
+	color:#000;
+}
+
+/*rtl*/
+
+html body .RadInputRTL_Office2010Silver .riError,
+html body .RadInputRTL_Error_Office2010Silver
+{
+	background-position:3px -298px;
+}
+
+.RadForm.rfdTextbox .RadInputRTL_Office2010Silver .riError[type="text"],
+.RadForm.rfdTextbox .RadInputRTL_Error_Office2010Silver[type="text"]
+{
+	background-position:3px -298px;
+}

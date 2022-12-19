@@ -1,0 +1,73 @@
+/* RadColorPicker Telerik skin */
+.RadColorPicker_Telerik .rcpViews,
+.RadColorPicker_Telerik .rcpHeader,
+.RadColorPicker_Telerik .rcpPageView
+{
+	background-color:#fff;
+}
+
+.RadColorPicker_Telerik .rcpPageView
+{
+	background-position: 0 -2005px;
+	background-repeat: repeat-x;
+}
+
+.RadColorPicker_Telerik .rcpColorPreview,
+.RadColorPicker_Telerik .rcpInput,
+.RadColorPicker_Telerik .rcpHexInput,
+.RadColorPicker_Telerik .rcpMillionColorsPalette,
+.RadColorPicker_Telerik .rcpMillionColorsSlider div.rslTrack
+{
+	border:1px solid;
+	border-color:#9e9fa3 #c7c7c9 #c7c9cb #bdbdc1;
+}
+
+.RadColorPicker_Telerik .rcpPalette,
+.RadColorPicker_Telerik input,
+.RadColorPicker_Telerik a
+{
+	color:#000;
+}
+
+.RadColorPicker_Telerik .rcpHeader,
+.RadColorPicker_Telerik .rcpHeader .rcpImageButton,
+.RadColorPicker_Telerik .rcpRecentColors,
+.RadColorPicker_Telerik .rcpIcon a,
+.RadColorPicker_Telerik .rcpTabs a,
+.RadColorPicker_Telerik .rcpTabs a span,
+.RadColorPicker_Telerik .rcpButton,
+.RadColorPicker_Telerik .rcpButton span,
+.RadColorPicker_Telerik .rcpMillionColorsHandle,
+.RadColorPicker_Telerik .rcpSlider div.rslTrack,
+/* overwrite sliders */
+.RadColorPicker_Telerik .rcpSlider .rslTrack a.rslDraghandle,
+.RadColorPicker_Telerik div.rcpMillionColorsSlider div.rslVertical a.rslDraghandle
+{
+	background-image:url('ColorPicker/ColorPickerSprites.png');
+	background-repeat:no-repeat;
+}
+
+/* Rounded corners and shadows */
+.RadColorPicker_Telerik .rcpPalette,
+.RadColorPicker_Telerik .rcpRoundedRight,
+.RadColorPicker_Telerik .rcpRoundedBottomRight,
+.RadColorPicker_Telerik .rcpRightShadow,
+.RadColorPicker_Telerik .rcpCornerShadow,
+.RadColorPicker_Telerik .rcpPageView
+{
+	background-image:url('ColorPicker/rcpVerticalSprites.png');
+}
+
+.RadColorPicker_Telerik .rcpRoundedBottomLeft,
+.RadColorPicker_Telerik .rcpBottomShadow
+{
+	background-image:url('ColorPicker/ColorPickerSprites.png');
+}
+
+* html .RadColorPicker_Telerik .rcpPalette,
+* html .RadColorPicker_Telerik .rcpRoundedRight,
+* html .RadColorPicker_Telerik .rcpRoundedBottomRight,
+* html .RadColorPicker_Telerik .rcpRoundedBottomLeft
+{
+	background-image:url('ColorPicker/rcpVerticalSpritesIE6.png');
+}

@@ -1,0 +1,40 @@
+/*RadNotification Outlook Skin*/
+
+.RadNotification_Outlook
+{
+	border: 1px solid #173f87;
+	background-color: #c6dbf8;
+}
+
+.RadNotification_Outlook.rnShadows
+{
+	box-shadow: 2px 2px 3px #b6caf8;
+	-webkit-box-shadow: 2px 2px 3px #b6caf8;
+}
+
+.RadNotification_Outlook .rnTitleBar,
+.RadNotification_Outlook .rnCommands a
+{
+	background-image: url('Notification/NotificationSprite.png');
+}
+
+.RadNotification_Outlook .rnTitleBar
+{
+	border-top: 1px solid transparent;
+}
+
+.RadNotification_Outlook .rnTitleBarTitle
+{
+	color: #000;
+}
+
+.RadNotification_Outlook .rnContentWrapper
+{
+	border-top: 1px solid transparent;
+}
+
+
+
+
+
+

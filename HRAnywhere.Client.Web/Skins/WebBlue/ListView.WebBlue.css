@@ -1,0 +1,175 @@
+/*Telerik RadListView WebBlue Skin*/
+
+/*global*/
+
+.RadListView_WebBlue
+{
+	border:1px solid #768ca5;
+	background:#fff;
+	color:#000;
+	font:12px/16px "segoe ui",arial,sans-serif;
+}
+
+.RadListView_WebBlue .rlvA
+{
+	background:#dae2e8;
+}
+
+.RadListView_WebBlue .rlvISel
+{
+	background:#7bbbcf;
+}
+
+/*buttons*/
+
+.RadListView_WebBlue .rlvBAdd,
+.RadListView_WebBlue .rlvBUpdate,
+.RadListView_WebBlue .rlvBCancel,
+.RadListView_WebBlue .rlvBDel,
+.RadListView_WebBlue .rlvBEdit
+{
+	background-image:url('Grid/sprite.gif');
+}
+
+.RadListView_WebBlue .rlvBAdd
+{
+	background-position:0 -1650px;
+}
+.RadListView_WebBlue .rlvBUpdate
+{
+	background-position:0 -1800px;
+}
+.RadListView_WebBlue .rlvBCancel
+{
+	background-position:0 -1850px;
+}
+.RadListView_WebBlue .rlvBSel
+{
+	background-image:url('FormDecorator/CheckBoxSprites.gif');
+	background-position:-2px -2px;
+}
+.RadListView_WebBlue .rlvISel .rlvBSel
+{
+	background-position:-2px -422px;
+}
+.RadListView_WebBlue .rlvBDel
+{
+	background-position:0 -1750px;
+}
+.RadListView_WebBlue .rlvBEdit
+{
+	background-position:0 -1700px;
+}
+
+.RadListView_WebBlue .rlvDrag
+{
+	background-image:url('ListView/drag.gif');
+	background-position:center center;
+}
+
+/*flow*/
+
+.RadListView_WebBlue div.rlvI,
+.RadListView_WebBlue div.rlvIEmpty
+{
+	border-color:#fff;
+}
+
+.RadListView_WebBlue div.rlvA,
+.RadListView_WebBlue div.rlvIEdit
+{
+	border-color:#dae2e8;
+}
+
+.RadListView_WebBlue div.rlvISel
+{
+	border-color:#133c44;
+}
+
+/*grid*/
+
+.RadListView_WebBlue tr.rlvHeader th
+{
+	border:1px solid;
+	border-top:0;
+	border-color:#98acbf #728ba1 #3d556c #455f77;
+	background:0 -2300px repeat-x #718ca1 url('Grid/sprite.gif');
+	color:#fff;
+}
+
+.RadListView_WebBlue tr.rlvI td,
+.RadListView_WebBlue tr.rlvA td,
+.RadListView_WebBlue tr.rlvISel td,
+.RadListView_WebBlue tr.rlvIEmpty td
+{
+	border:1px solid;
+	border-top:0;
+}
+
+.RadListView_WebBlue tr.rlvI td,
+.RadListView_WebBlue tr.rlvIEmpty td
+{
+	border-color:#fff #fff #fff #dae2e8;
+}
+
+.RadListView_WebBlue tr.rlvA td
+{
+	border-color:#dae2e8;
+}
+
+.RadListView_WebBlue tr.rlvISel td
+{
+	border-color:#7bbbcf #7bbbcf #133c44;
+}
+
+.RadListView_WebBlue tr.rlvIEdit td
+{
+	border-color:#fff #fff #768ca5 #dae2e8;
+}
+
+/*single row*/
+
+.RadListView_WebBlue td.rlvI,
+.RadListView_WebBlue td.rlvA,
+.RadListView_WebBlue td.rlvISel,
+.RadListView_WebBlue td.rlvIEmpty
+{
+	border:0;
+	border-right:1px solid;
+}
+
+.RadListView_WebBlue td.rlvI,
+.RadListView_WebBlue td.rlvIEmpty
+{
+	border-color:#fff;
+}
+
+.RadListView_WebBlue td.rlvA,
+.RadListView_WebBlue td.rlvIEdit
+{
+	border-color:#dae2e8;
+}
+
+.RadListView_WebBlue td.rlvISel
+{
+	border-color:#133c44;
+}
+
+/*floated*/
+
+.RadListView_WebBlue .rlvFloated .rlvI,
+.RadListView_WebBlue .rlvFloated .rlvA,
+.RadListView_WebBlue .rlvFloated .rlvISel,
+.RadListView_WebBlue .rlvFloated .rlvIEdit
+{
+	border-color:#768ca5;
+}
+
+/*edit*/
+
+.RadListView_WebBlue .rlvInput
+{
+	border-color:#768ca5;
+	background:#fff;
+	color:#000;
+}

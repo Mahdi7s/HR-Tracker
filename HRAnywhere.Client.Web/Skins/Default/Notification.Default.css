@@ -1,0 +1,35 @@
+/*RadNotification Default Skin*/
+
+.RadNotification_Default
+{
+	border: 1px solid #c4c4c4;
+	background-color: #ebebeb;
+}
+
+.RadNotification_Default.rnShadows
+{
+	box-shadow: 2px 2px 3px #b0b0b0;
+	-webkit-box-shadow: 2px 2px 3px #b0b0b0;
+}
+
+.RadNotification_Default .rnTitleBar,
+.RadNotification_Default .rnCommands a
+{
+	background-image: url('Notification/NotificationSprite.png');
+}
+
+.RadNotification_Default .rnTitleBar
+{
+	border-bottom: 1px solid transparent;
+}
+
+.RadNotification_Default .rnContentWrapper
+{
+	border-top: 1px solid transparent;
+}
+
+/* base style overwrites */
+.RadNotification_Default .rnCommands
+{
+	margin: 4px 0 0;
+}

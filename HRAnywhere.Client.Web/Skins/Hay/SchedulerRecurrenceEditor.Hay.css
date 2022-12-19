@@ -1,0 +1,69 @@
+
+.RecurrenceEditor_Hay
+{
+	color: #333;
+	font: normal 12px/14px "Segoe UI", Arial, sans-serif;
+}
+
+/* <xref input skins> */
+
+.RecurrenceEditor_Hay .rsAdvInput,
+.RecurrenceEditor_Hay select
+{
+	border-color: #bbb99d;
+}
+
+.RecurrenceEditor_Hay .rsInvalid input,
+.RecurrenceEditor_Hay .rsAdvTimePicker .riEmpty
+{
+	background-image: url('Input/sprite.gif');
+}
+
+.RecurrenceEditor_Hay .rsInvalid
+{
+	border-color: #e92600;
+	color: #e92600;
+}
+/* </xref input skins> */
+
+.RecurrenceEditor_Hay h2,
+.RecurrenceEditor_Hay h3
+{
+	color: #279500;
+}
+
+.RecurrenceEditor_Hay h2
+{
+	border-bottom: 1px solid #bbb99d;
+}
+
+.RecurrenceEditor_Hay h2 span
+{
+	background: #ececd8;
+}
+
+.RecurrenceEditor_Hay .rsAdvRecurrenceFreq
+{
+	border-right: 1px solid #fff;
+}
+
+.RecurrenceEditor_Hay ul.rsRecurrenceOptionList   /* ??? */
+{
+	border-right: 1px solid #bbb99d;
+}
+
+.RecurrenceEditor_Hay div.rsAdvPatternPanel
+{
+	border-left: 0;
+}
+
+/* <date/time picker> */
+
+.RecurrenceEditor_Hay .rsTimePick .RadInput_Hay input.riEnabled,
+.RecurrenceEditor_Hay .rsTimePick .RadInput_Hay input.riHover,
+.RecurrenceEditor_Hay .rsTimePick .RadInput_Hay input.riFocused
+{
+	background-image: url('Scheduler/rsSprites.png');
+}
+
+/* </date/time picker> */

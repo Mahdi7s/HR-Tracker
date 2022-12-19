@@ -1,0 +1,41 @@
+/* RadImageEditor Transparent Skin */
+
+.RadImageEditor_Transparent,
+.RadDock_Transparent.rieDialogs .riePrintContent
+{
+	background: url('../Common/TransContent.png');
+}
+
+.RadImageEditor_Transparent .rieStatusBarInfo .rieLabel,
+.RadImageEditor_Transparent .rieStatusBarInfo span,
+.RadDock_Transparent.rieDialogs .rdContent
+{
+	color: #000;
+}
+
+/* ImageEditor Dialogs using RadDock as Wrapper */
+.RadDock_Transparent.rieDialogs .rbPrimaryIcon,
+.RadImageEditor_Transparent .rieResizeHandle,
+.RadImageEditor_Transparent .rieBackgroundImg .rtbIcon /* Custom skins */
+{
+	background-image: url('ImageEditor/ImageEditorTools.png');
+}
+
+.RadDock_Transparent.rieDialogs .rieThumbsBottomRow td,
+.RadDock_Transparent.rieDialogs .rieDialogsThumbsLeft,
+.RadDock_Transparent.rieDialogs .riePrintContent img,
+.RadDock_Transparent.rieDialogs .rieThumbsLink,
+.RadDock_Transparent.rieDialogs .rieActiveThumbsLink,
+.RadDock_Transparent.rieDialogs .rieThumbsLink:hover,
+.RadDock_Transparent.rieDialogs .riePrintContent,
+.RadImageEditor_Transparent .rieContentArea,
+.RadImageEditor_Transparent,
+.RadImageEditor_Transparent .rieHighlightVertical, 
+.RadImageEditor_Transparent .rieHighlightHorizontal
+{
+	border-color: #d9d9d9;
+}
+
+
+
+

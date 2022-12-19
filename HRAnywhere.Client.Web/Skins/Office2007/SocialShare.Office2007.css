@@ -1,0 +1,18 @@
+/* RadSocialShare Office2007 Skin */
+
+.RadSocialShare_Office2007
+{
+	border: 1px solid #688caf;
+}
+
+.RadSocialShare_Office2007 .sshLinkItem .sshText,
+.RadComboBoxDropDown_Office2007 .rcbItem .sshLinkItem .sshText
+{
+	color: #333;
+}
+
+.RadSocialShare_Office2007 .sshLinkItem:hover .sshText,
+.RadComboBoxDropDown_Office2007 .rcbHovered .sshLinkItem .sshText
+{
+	color: #000;
+}

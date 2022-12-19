@@ -1,0 +1,86 @@
+.RadTagCloud
+{
+	margin: 0;
+	padding: 5px 5px 10px 5px;
+	overflow: hidden;
+	font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.RadTagCloud .rtcTagList
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.RadTagCloud .rtcTagList .rtcTagItem
+{
+	position: relative;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	padding:3px;
+}
+
+.RadTagCloud .rtcTagList .rtcTagItem:hover
+{
+	cursor: default;
+}
+
+.RadTagCloud .rtcTagList .rtcTagItem a
+{
+	padding: 2px 4px;
+}
+.RadTagCloud .rtcTagList .rtcTagItem a,
+.RadTagCloud .rtcTagList .rtcTagItem a:hover
+{
+	text-decoration: none;
+}
+
+/* Right to Left Support */
+.rtcRtl
+{
+text-align: right;
+direction: ltr;
+}
+
+div.rtcRtl .rtcTagList .rtcTagItem span
+{
+	float: left;
+}
+
+*html div.rtcRtl .rtcTagList .rtcTagItem span
+{
+	float: none
+}
+
+*+html div.rtcRtl .rtcTagList .rtcTagItem span
+{
+	float: none
+}
+
+/* Disabled state - only Black skin has skin specific styles */
+div.rtcDisabled .rtcTagList .rtcTagItem, 
+div.rtcDisabled .rtcTagList .rtcTagItem a
+{
+	border: none !important;
+	color: #ccc !important;
+	cursor: text !important;
+}
+
+div.rtcDisabled .rtcTagList .rtcTagItem:hover, 
+div.rtcDisabled .rtcTagList .rtcTagItem a:hover
+{
+	background: none !important;
+	border: none !important;
+	text-decoration: none !important;
+	color: #ccc !important;
+}
+
+/* loading image styles */
+div.rtcLoading
+{
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+

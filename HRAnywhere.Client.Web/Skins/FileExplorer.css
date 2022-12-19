@@ -1,0 +1,818 @@
+.RadFileExplorer
+{
+	border-style: solid;
+	border-width: 1px;
+}
+
+.rfeCopyCursor .RadGrid .rgDataDiv, .rfeCopyCursor .RadGrid .rgDataDiv .rgRow, .rfeCopyCursor .RadTreeView, .rfeCopyCursor .RadTreeView .rtIn
+{
+	cursor: all-scroll !important;
+}
+
+.rfeCopyCursorCSS3 .RadGrid .rgDataDiv, .rfeCopyCursorCSS3 .RadGrid .rgDataDiv .rgRow, .rfeCopyCursorCSS3 .RadTreeView, .rfeCopyCursorCSS3 .RadTreeView .rtIn
+{
+	cursor: copy !important;
+}
+
+/*========================== Address box ===================================*/
+* + html .rfeAddressBox, * html .rfeAddressBox
+{
+	margin-top: -4px;
+}
+
+.rfeAddressBox
+{
+	width: 100%;
+	border-width: 1px;
+	border-style: solid;
+	border-left: 0 !important;
+	border-right: 0 !important;
+	margin: 0;
+	padding: 0;
+	font-size: 9pt;
+	_margin-top: -4px;
+}
+
+/* Fixes the input width in IE7 */
+*+html .rfeAddressBox
+{
+	width: 99.3%;
+}
+
+/*========================== Upload panel styles ===========================*/
+.rfeUploadContainer
+{
+	font-size: 12px;
+	font-family: "Segoe UI" , Arial, Helvetica, sans-serif;
+	margin: 5px 0 0 5px;
+}
+
+*+html .rfeUploadContainer .RadUpload .ruInputs
+{
+	padding: 1px 0 0 0;
+}
+
+*+html .rfeUploadContainer .RadUpload .ruInputs input.ruFileInput 
+{
+	font: 12px monospace !important;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0)
+{
+    .rfeUploadContainer .RadUpload .ruInputs
+		{
+			padding: 1px 0 0 0;
+		}
+	.rfeUploadContainer .RadUpload .ruInputs input.ruFileInput 
+		{
+			font: 12px monospace !important;
+		}
+}
+
+.rfeUploadInfoPanel
+{
+	border: solid 1px #d7d7d7;
+	background: #f5f5f5;
+	padding: 2px;
+	margin: 5px 5px 5px 0;
+}
+
+.rfeUploadInfoPanel dt
+{
+	font-weight: bold;
+	float: left;
+	padding-right: 4px;
+}
+
+.ruActions
+{
+	padding: 5px 0;
+}
+
+.rfeUploadButtonContainer
+{
+	margin-top: 5px 0 0 0;
+}
+
+.rfeUploadButtonContainer input
+{
+	width: 75px;
+}
+
+/* file extension sprites (manager dialogs)===================================================================================================== */
+.rfeFileExtension
+{
+	height: 18px;
+	line-height: 18px;
+	background: transparent url('Common/FileExtensionSprites.png') no-repeat -7px -681px;
+	padding: 0 0 0 20px !important;
+	white-space: nowrap;
+}
+
+/* IE6 does not support the alpha channel of png files, so we force it to use gif */
+* html .rfeFileExtension
+{
+	background-image: url('Common/FileExtensionSpritesIE6.gif') !important;
+}
+
+.folder
+{
+	background-position: -7px -1224px !important;
+}
+
+/*========================================= Toolbar related CSS ========================*/
+
+.RadFileExplorer .RadToolBar .rtbDisabled
+{
+	opacity: .4;
+	filter: alpha(opacity=40)\9;
+	-ms-filter: "alpha(opacity=40)"\9;
+}
+
+/* Opacity hack for IE7 */
+
+.RadFileExplorer .RadToolBar, .RadFileExplorer .RadToolBar .rtbOuter, .RadFileExplorer .RadToolBar .rtbMiddle, .RadFileExplorer .RadToolBar .rtbInner
+{
+	display: block;
+	float: none;
+}
+
+.RadFileExplorer .RadToolBar .rtbWrap, .RadFileExplorer .RadToolBar .rtbText
+{
+	line-height: 17px; /* icon height */
+}
+
+.RadFileExplorer .RadToolBar .rtbText
+{
+	padding: 0 2px 0 22px; /* assuming that the space is 3px wide *gasp* */
+	display: block;
+}
+
+.RadFileExplorer .RadToolBar .rtbUL
+{
+	display: block;
+}
+
+.RadFileExplorer .RadToolBar .rtbIconOnly .rtbText
+{
+	padding: 0 0 0 16px; /* assuming that the space is 3px wide *gasp* */
+	font-size: 17px; /* icon height */
+}
+
+.RadFileExplorer .RadToolBar .icnRefresh .rtbText
+{
+	background-position: 0 0;
+}
+.RadFileExplorer .RadToolBar .icnNewFolder .rtbText
+{
+	background-position: 0 -17px;
+}
+.RadFileExplorer .RadToolBar .icnDelete .rtbText
+{
+	background-position: 0 -34px;
+}
+.RadFileExplorer .RadToolBar .icnUpload .rtbText
+{
+	background-position: 0 -51px;
+}
+.RadFileExplorer .RadToolBar .icnBack .rtbText
+{
+	background-position: 0 -313px;
+}
+.RadFileExplorer .RadToolBar .icnForward .rtbText
+{
+	background-position: 0 -333px;
+}
+.RadFileExplorer .RadToolBar .icnOpen .rtbText
+{
+	background-position: 0 -351px;
+}
+
+.RadFileExplorer .RadToolBar .NoIcon .rtbText
+{
+	padding-left: 0 !important;
+	background: none !important;
+	zoom: 1;
+}
+
+.RadFileExplorer .RadToolBar .NoIcon.rtbChecked
+{
+	color: White;
+}
+
+/*There are different colors of the grid master table and the grid itself?!?! Cool */
+.RadFileExplorer .RadGrid
+{
+	background-color: Transparent !important;
+	border-width: 0px !important;
+	cursor: default !important;
+	outline: none;
+}
+
+.RadFileExplorer .RadGrid div
+{
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+
+/* Eliminate the useless border between cells */
+.RadFileExplorer .RadGrid td
+{
+	border: 0px solid red !important;
+	overflow: hidden;
+}
+
+.RadFileExplorer .RadGrid td.rfeFileExtension
+{
+	width: auto;
+	height: auto;
+}
+
+.RadFileExplorer .RadGrid .rgNoRecords div
+{
+	padding: 4px;
+}
+
+.RadFileExplorer .RadGrid .rgSliderLabel
+{
+	display: none;
+}
+/*========================================= TreeView related CSS ========================*/
+.RadFileExplorer .RadTreeView
+{
+	margin-top: 2px !important;
+}
+
+.RadFileExplorer .RadTreeView .rtIn
+{
+	margin-left: 0 !important;
+}
+
+/* Hacks to display the loading image correctly on all browsers*/
+.RadFileExplorer .rtTemplate
+{
+	display: inline-block;
+}
+
+* + html .RadFileExplorer .rtLoadingBefore
+{
+	float: left;
+}
+
+
+.RadFileExplorer .RadTreeView .rfeFileExtension
+{
+	display: inline-block;
+}
+
+/*========================================= Context Menu related CSS - TODO: RadContextMenu does not allow for CSS items - this must be fixed in the menu in the future ========================*/
+
+
+
+
+/*==============================================================================================*/
+
+.RadFileExplorer .folderup
+{
+	background-position: -7px -1256px !important;
+}
+
+.RadFileExplorer .gif
+{
+	background-position: -7px -39px !important;
+}
+
+.RadFileExplorer .html, .RadFileExplorer .htm, .RadFileExplorer .xhtml, .RadFileExplorer .hta
+{
+	background-position: -7px -71px !important;
+}
+
+.RadFileExplorer .exe, .RadFileExplorer .bat
+{
+	background-position: -7px -967px !important;
+}
+
+.RadFileExplorer .rar, .RadFileExplorer .zip, .RadFileExplorer .ace
+{
+	background-position: -7px -102px !important;
+}
+
+.RadFileExplorer .psd, .RadFileExplorer .pdd
+{
+	background-position: -7px -135px !important;
+}
+
+.RadFileExplorer .js
+{
+	background-position: -7px -167px !important;
+}
+
+.RadFileExplorer .vbs
+{
+	background-position: -7px -999px !important;
+}
+
+.RadFileExplorer .css
+{
+	background-position: -7px -200px !important;
+}
+
+.RadFileExplorer .txt
+{
+	background-position: -7px -232px !important;
+}
+
+.RadFileExplorer .asp
+{
+	background-position: -7px -264px !important;
+}
+
+.RadFileExplorer .aspx
+{
+	background-position: -7px -296px !important;
+}
+
+.RadFileExplorer .sln
+{
+	background-position: -7px -327px !important;
+}
+
+.RadFileExplorer .suo
+{
+	background-position: -7px -1344px !important;
+}
+
+.RadFileExplorer .config
+{
+	background-position: -7px -360px !important;
+}
+
+.RadFileExplorer .cs
+{
+	background-position: -7px -392px !important;
+}
+
+.RadFileExplorer .vb
+{
+	background-position: -7px -424px !important;
+}
+
+.RadFileExplorer .doc, .RadFileExplorer .docx, .RadFileExplorer .rtf, .RadFileExplorer .dot
+{
+	background-position: -7px -456px !important;
+}
+
+.RadFileExplorer .ppt, .RadFileExplorer .pptx
+{
+	background-position: -7px -488px !important;
+}
+
+.RadFileExplorer .xls, .RadFileExplorer .xlsx
+{
+	background-position: -7px -519px !important;
+}
+
+.RadFileExplorer .ascx
+{
+	background-position: -7px -550px !important;
+}
+
+.RadFileExplorer .jpg, .RadFileExplorer .jpeg, .RadFileExplorer .jpe
+{
+	background-position: -7px -584px !important;
+}
+
+.RadFileExplorer .png
+{
+	background-position: -7px -615px !important;
+}
+
+.RadFileExplorer .mdb
+{
+	background-position: -7px -648px !important;
+}
+
+.RadFileExplorer .csproj
+{
+	background-position: -7px -711px !important;
+}
+
+.RadFileExplorer .webinfo
+{
+	background-position: -7px -744px !important;
+}
+
+.RadFileExplorer .vbproj
+{
+	background-position: -7px -775px !important;
+}
+
+.RadFileExplorer .pdf
+{
+	background-position: -7px -808px !important;
+}
+
+.RadFileExplorer .bmp
+{
+	background-position: -7px -840px !important;
+}
+
+.RadFileExplorer .swf
+{
+	background-position: -7px -872px !important;
+}
+
+.RadFileExplorer .tif, .RadFileExplorer .tiff
+{
+	background-position: -7px -904px !important;
+}
+
+.RadFileExplorer .mpg, .RadFileExplorer .mpeg, .RadFileExplorer .avi, .RadFileExplorer .gp3, .RadFileExplorer .mov, .RadFileExplorer .mpeg4, .RadFileExplorer .aif, .RadFileExplorer .aiff, .RadFileExplorer .rm, .RadFileExplorer .wmv
+{
+	background-position: -7px -936px !important;
+}
+
+.RadFileExplorer .mp3, .RadFileExplorer .mp4, .RadFileExplorer .mid, .RadFileExplorer .midi, .RadFileExplorer .wav, .RadFileExplorer .gp3, .RadFileExplorer .gp4, .RadFileExplorer .gp5, .RadFileExplorer .wma, .RadFileExplorer .ogg
+{
+	background-position: -7px -1031px !important;
+}
+
+.RadFileExplorer .fla, .RadFileExplorer .flv
+{
+	background-position: -7px -1063px !important;
+}
+
+.RadFileExplorer .dll
+{
+	background-position: -7px -1095px !important;
+}
+
+.RadFileExplorer .xml
+{
+	background-position: -7px -1127px !important;
+}
+
+.RadFileExplorer .xslt
+{
+	background-position: -7px -1159px !important;
+}
+
+.RadFileExplorer .xsl
+{
+	background-position: -7px -1191px !important;
+}
+
+.RadFileExplorer .bac
+{
+	background-position: -7px -681px;
+}
+
+/* --- SKIN-SPECIFIC SETTINGS --- */
+/* --- The rules below contain skin-specific settings for RadFileExplorer --- */
+/* --- You may set border, color and background to the RadFileExplorer wrapper and the address bar --- */
+/* From Q2, 2010, skin specific CSS files has been created for RFE and all skin specific rules has been removed to the related files */
+
+
+/* Overwrites treeview padding for the specific requiermnet in FileExplorer */
+.RadFileExplorer .RadTreeView .rtIn
+{
+	padding: 1px 4px 0 3px !important;
+}
+
+.RadFileExplorer .RadTreeView .rtHover .rtIn,
+.RadFileExplorer .RadTreeView .rtSelected .rtIn
+{
+	padding: 0 4px 0 2px !important;
+}
+
+.RadFileExplorer .RadTreeView .rtTop,
+.RadFileExplorer .RadTreeView .rtMid,
+.RadFileExplorer .RadTreeView .rtBot
+{
+padding: 0 0 0 20px;
+}
+
+
+/* Overwrites padding for better presentation and space saving */
+.RadFileExplorer .RadGrid .rgRow td, 
+.RadFileExplorer .RadGrid .rgAltRow td, 
+.RadFileExplorer .RadGrid .rgEditRow td, 
+.RadFileExplorer .RadGrid .rgFooter td 
+{
+padding-bottom:2px;
+padding-top:2px;
+}
+
+/* Filter TextBox */
+
+.rfeFilterWrapper
+{
+	float: right;
+}
+		
+.rfeFilterLbl
+{
+	float: left;
+	margin: 3px 2px 0 0;
+	text-align: right;
+}
+
+.rfeFilterTxt
+{
+	float: left;
+	height: 16px !important;
+	line-height: 16px !important;
+	margin: 2px;
+	font: 12px/16px "segoe ui",arial,sans-serif;
+	border: 1px solid;
+}
+
+/* The text in the Filter TextBox should be selectable in Firefox */
+.RadFileExplorer .RadGrid .rfeFilterWrapper,
+.RadFileExplorer .RadGrid div .rfeFilterTxt
+{
+	-moz-user-select: text;
+}
+
+/* IE7 toolbar hover fix vertical-align middle problem */
+*+html .RadFileExplorer .RadToolBar .rtbIn
+{
+	vertical-align: top !important;
+}
+
+/* IE6 toolbar hover fix vertical-align middle problem */
+*html .RadFileExplorer .RadToolBar .rtbIn
+{
+	vertical-align: top !important;
+}
+
+/* Rtl Support */
+/* Overwrites treeview padding for the specific requiermnet in FileExplorer */
+div.rfeRtl .RadTreeView .rtIn
+{
+	padding: 1px 3px 0 4px !important;
+}
+
+div.rfeRtl .RadTreeView .rtHover .rtIn,
+div.rfeRtl .RadTreeView .rtSelected .rtIn
+{
+	padding: 0 2px 0 4px !important;
+}
+
+div.rfeRtl .RadGrid .rfeFileExtension
+{
+	padding: 0 30px 0 0 !important;
+	background-position: right -681px;
+}
+
+div.rfeRtl .rtTemplate .rfeFileExtension
+{
+	padding: 0 0 0 25px !important;
+	margin-right: -7px;
+}
+
+div.rfeRtl .folder
+{
+	background-position: right -1224px !important;
+}
+
+div.rfeRtl .folderup
+{
+	background-position: right -1256px !important;
+}
+
+div.rfeRtl .gif
+{
+	background-position: right -39px !important;
+}
+
+div.rfeRtl .html, 
+div.rfeRtl .htm, 
+div.rfeRtl .xhtml, 
+div.rfeRtl .hta
+{
+	background-position: right -71px !important;
+}
+
+div.rfeRtl .exe, 
+div.rfeRtl .bat
+{
+	background-position: right -967px !important;
+}
+
+div.rfeRtl .rar, 
+div.rfeRtl .zip, 
+div.rfeRtl .ace
+{
+	background-position: right -102px !important;
+}
+
+div.rfeRtl .psd, 
+div.rfeRtl .pdd
+{
+	background-position: right -135px !important;
+}
+
+div.rfeRtl .js
+{
+	background-position: right -167px !important;
+}
+
+div.rfeRtl .vbs
+{
+	background-position: right -999px !important;
+}
+
+div.rfeRtl .css
+{
+	background-position: right -200px !important;
+}
+
+div.rfeRtl .txt
+{
+	background-position: right -232px !important;
+}
+
+div.rfeRtl .asp
+{
+	background-position: right -264px !important;
+}
+
+div.rfeRtl .aspx
+{
+	background-position: right -296px !important;
+}
+
+div.rfeRtl .sln
+{
+	background-position: right -327px !important;
+}
+
+div.rfeRtl .config
+{
+	background-position: right -360px !important;
+}
+
+div.rfeRtl .cs
+{
+	background-position: right -392px !important;
+}
+
+div.rfeRtl .vb
+{
+	background-position: right -424px !important;
+}
+
+div.rfeRtl .doc, 
+div.rfeRtl .docx, 
+div.rfeRtl .rtf, 
+div.rfeRtl .dot
+{
+	background-position: right -456px !important;
+}
+
+div.rfeRtl .ppt, 
+div.rfeRtl .pptx
+{
+	background-position: right -488px !important;
+}
+
+div.rfeRtl .xls, 
+div.rfeRtl .xlsx
+{
+	background-position: right -519px !important;
+}
+
+div.rfeRtl .ascx
+{
+	background-position: right -550px !important;
+}
+
+div.rfeRtl .jpg, 
+div.rfeRtl .jpeg, 
+div.rfeRtl .jpe
+{
+	background-position: right -584px !important;
+}
+
+div.rfeRtl .png
+{
+	background-position: right -615px !important;
+}
+
+div.rfeRtl .mdb
+{
+	background-position: right -648px !important;
+}
+
+div.rfeRtl .csproj
+{
+	background-position: right -711px !important;
+}
+
+div.rfeRtl .webinfo
+{
+	background-position: right -744px !important;
+}
+
+div.rfeRtl .vbproj
+{
+	background-position: right -775px !important;
+}
+
+div.rfeRtl .pdf
+{
+	background-position: right -808px !important;
+}
+
+div.rfeRtl .bmp
+{
+	background-position: right -840px !important;
+}
+
+div.rfeRtl .swf
+{
+	background-position: right -872px !important;
+}
+
+div.rfeRtl .tif, 
+div.rfeRtl .tiff
+{
+	background-position: right -904px !important;
+}
+
+div.rfeRtl .mpg, 
+div.rfeRtl .mpeg, 
+div.rfeRtl .avi, 
+div.rfeRtl .gp3, 
+div.rfeRtl .mov, 
+div.rfeRtl .mpeg4,	
+div.rfeRtl .aif, 
+div.rfeRtl .aiff, 
+div.rfeRtl .rm, 
+div.rfeRtl .wmv
+{
+	background-position: right -936px !important;
+}
+
+div.rfeRtl .mp3, 
+div.rfeRtl .mp4, 
+div.rfeRtl .mid, 
+div.rfeRtl .midi, 
+div.rfeRtl .wav, 
+div.rfeRtl .gp3,	
+div.rfeRtl .gp4, 
+div.rfeRtl .gp5, 
+div.rfeRtl .wma, 
+div.rfeRtl .ogg
+{
+	background-position: right -1031px !important;
+}
+
+div.rfeRtl .fla, 
+div.rfeRtl .flv
+{
+	background-position: right -1063px !important;
+}
+
+div.rfeRtl .dll
+{
+	background-position: right -1095px !important;
+}
+
+div.rfeRtl .xml
+{
+	background-position: right -1127px !important;
+}
+
+div.rfeRtl .xslt
+{
+	background-position: right -1159px !important;
+}
+
+div.rfeRtl .xsl
+{
+	background-position: right -1191px !important;
+}
+
+div.rfeRtl .bac
+{
+	background-position: right -681px;
+}
+
+/*========================================= TreeView related CSS ========================*/
+div.rfeRtl .RadTreeView
+{
+	margin-right: -19px !important;
+}
+
+div.rfeRtl .RadTreeView .rtPlus, 
+div.rfeRtl .RadTreeView .rtMinus
+{
+	margin: 5px auto -19px 3px;
+}
+
+div.rfeRtl .RadTreeView .rtSp 
+{
+    margin-left: 21px;
+}

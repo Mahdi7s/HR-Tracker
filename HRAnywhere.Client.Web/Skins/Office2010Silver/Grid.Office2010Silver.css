@@ -1,0 +1,773 @@
+/*Telerik RadGrid Office2010Silver Skin*/
+
+/*global*/
+
+.RadGrid_Office2010Silver
+{
+    border:1px solid #a4abb2;
+    background:#fff;
+    color:#3b3b3b;
+}
+
+.RadGrid_Office2010Silver,
+.RadGrid_Office2010Silver .rgMasterTable,
+.RadGrid_Office2010Silver .rgDetailTable,
+.RadGrid_Office2010Silver .rgGroupPanel table,
+.RadGrid_Office2010Silver .rgCommandRow table,
+.RadGrid_Office2010Silver .rgEditForm table,
+.RadGrid_Office2010Silver .rgPager table,
+.GridToolTip_Office2010Silver
+{
+    font:12px/16px "segoe ui",arial,sans-serif;
+}
+
+.RadGrid_Office2010Silver .rgHeader:first-child,
+.RadGrid_Office2010Silver th.rgResizeCol:first-child,
+.RadGrid_Office2010Silver .rgFilterRow>td:first-child,
+.RadGrid_Office2010Silver .rgRow>td:first-child,
+.RadGrid_Office2010Silver .rgAltRow>td:first-child
+{
+	border-left-width:0;
+	padding-left:8px;
+}
+
+.RadGrid_Office2010Silver .rgAdd,
+.RadGrid_Office2010Silver .rgRefresh,
+.RadGrid_Office2010Silver .rgEdit,
+.RadGrid_Office2010Silver .rgDel,
+.RadGrid_Office2010Silver .rgFilter,
+.RadGrid_Office2010Silver .rgPagePrev,
+.RadGrid_Office2010Silver .rgPageNext,
+.RadGrid_Office2010Silver .rgPageFirst,
+.RadGrid_Office2010Silver .rgPageLast,
+.RadGrid_Office2010Silver .rgExpand,
+.RadGrid_Office2010Silver .rgCollapse,
+.RadGrid_Office2010Silver .rgSortAsc,
+.RadGrid_Office2010Silver .rgSortDesc,
+.RadGrid_Office2010Silver .rgUpdate,
+.RadGrid_Office2010Silver .rgCancel,
+.RadGrid_Office2010Silver .rgUngroup,
+.RadGrid_Office2010Silver .rgExpXLS,
+.RadGrid_Office2010Silver .rgExpDOC,
+.RadGrid_Office2010Silver .rgExpPDF,
+.RadGrid_Office2010Silver .rgExpCSV
+{
+	background-image:url('Grid/sprite.png');
+}
+
+/* Fix, IE6 does not support PNG alpha channel, so we use gifs for the command sprites instead */
+* html .RadGrid_Office2010Silver .rgAdd,
+* html .RadGrid_Office2010Silver .rgRefresh,
+* html .RadGrid_Office2010Silver .rgEdit,
+* html .RadGrid_Office2010Silver .rgDel,
+* html .RadGrid_Office2010Silver .rgFilter,
+* html .RadGrid_Office2010Silver .rgPagePrev,
+* html .RadGrid_Office2010Silver .rgPageNext,
+* html .RadGrid_Office2010Silver .rgPageFirst,
+* html .RadGrid_Office2010Silver .rgPageLast,
+* html .RadGrid_Office2010Silver .rgExpand,
+* html .RadGrid_Office2010Silver .rgCollapse,
+* html .RadGrid_Office2010Silver .rgSortAsc,
+* html .RadGrid_Office2010Silver .rgSortDesc,
+* html .RadGrid_Office2010Silver .rgUpdate,
+* html .RadGrid_Office2010Silver .rgCancel,
+* html .RadGrid_Office2010Silver .rgUngroup,
+* html .RadGrid_Office2010Silver .rgExpXLS,
+* html .RadGrid_Office2010Silver .rgExpDOC,
+* html .RadGrid_Office2010Silver .rgExpPDF,
+* html .RadGrid_Office2010Silver .rgExpCSV,
+* html .RadGrid_Office2010Silver .rgHeaderDiv,
+* html .RadGrid_Office2010Silver .rgHeader,
+* html .RadGrid_Office2010Silver th.rgResizeCol,
+* html .RadGrid_Office2010Silver .rgSelectedRow,
+* html .RadGrid_Office2010Silver .rgSelectedRow.rgHoveredRow
+* html .RadGrid_Office2010Silver .rgActiveRow,
+* html .RadGrid_Office2010Silver .rgHoveredRow,
+* html .RadGrid_Office2010Silver .rgFooterDiv,
+* html .RadGrid_Office2010Silver .rgFooter,
+* html .RadGrid_Office2010Silver .rgPager,
+* html .RadGrid_Office2010Silver .rgPager .rgPagerButton,
+* html .RadGrid_Office2010Silver .rgNumPart a:hover,
+* html .RadGrid_Office2010Silver .rgNumPart a:hover span,
+* html .RadGrid_Office2010Silver .rgNumPart a.rgCurrentPage,
+* html .RadGrid_Office2010Silver .rgNumPart a.rgCurrentPage span,
+* html .GridReorderTop_Office2010Silver,
+* html .GridReorderBottom_Office2010Silver,
+* html .RadGrid_Office2010Silver .rgGroupItem,
+* html .RadGrid_Office2010Silver .rgCommandRow
+{
+	background-image:url('Grid/sprite.gif');
+}
+
+/*header*/
+
+.RadGrid_Office2010Silver .rgHeaderDiv
+{
+	background:#d6e5f3 0 -8050px repeat-x url('Grid/sprite.png');
+}
+.rgTwoLines .rgHeaderDiv
+{
+	background-position:0 -7550px;
+}
+
+.RadGrid_Office2010Silver .rgHeader,
+.RadGrid_Office2010Silver th.rgResizeCol
+{
+	border:solid #a4abb2;
+	border-width:0 0 1px 1px;
+	background:#dbdfe4 0 -2300px repeat-x url('Grid/sprite.png');
+}
+
+.RadGrid_Office2010Silver th.rgSorted
+{
+	border-bottom-color:#c28a30;
+	background-color:#ffee70;
+	background-position:0 -2600px;
+}
+
+.RadGrid_Office2010Silver .rgHeader,
+.RadGrid_Office2010Silver .rgHeader a
+{
+    color:#3b3b3b;
+}
+
+.RadGrid_Office2010Silver th.rgSorted,
+.RadGrid_Office2010Silver th.rgSorted a
+{
+    color:#000;
+}
+
+/*rows*/
+
+.RadGrid_Office2010Silver .rgRow td,
+.RadGrid_Office2010Silver .rgAltRow td,
+.RadGrid_Office2010Silver .rgEditRow td,
+.RadGrid_Office2010Silver .rgFooter td
+{
+	border-style:solid;
+	border-width:0 0 1px 1px;
+}
+
+.RadGrid_Office2010Silver .rgRow td,
+.RadGrid_Office2010Silver .rgAltRow td
+{
+	border-color:#d0d7e5;
+}
+
+.RadGrid_Office2010Silver .rgRow .rgSorted,
+.RadGrid_Office2010Silver .rgAltRow .rgSorted
+{
+	background-color:#eceef1;
+}
+
+.RadGrid_Office2010Silver .rgSelectedRow .rgSorted,
+.RadGrid_Office2010Silver .rgActiveRow .rgSorted,
+.RadGrid_Office2010Silver .rgHoveredRow .rgSorted,
+.RadGrid_Office2010Silver .rgEditRow .rgSorted
+{
+	background-color:transparent;
+}
+
+.RadGrid_Office2010Silver .rgRow a,
+.RadGrid_Office2010Silver .rgAltRow a,
+.RadGrid_Office2010Silver .rgEditRow a,
+.RadGrid_Office2010Silver .rgFooter a,
+.RadGrid_Office2010Silver .rgEditForm a
+{
+	color:#a4abb2;
+}
+
+.RadGrid_Office2010Silver .rgSelectedRow
+{
+    background:#f8d05c 0 -3900px repeat-x url('Grid/sprite.png');
+}
+
+.RadGrid_Office2010Silver .rgSelectedRow > td
+{
+    background-image:url('Grid/sprite.png');
+    background-position:0 100%;
+    background-repeat:repeat-x;
+}
+
+.RadGrid_Office2010Silver .rgSelectedRow.rgHoveredRow
+{
+    background:#fcebb9 0 -3200px repeat-x url('Grid/sprite.png');
+}
+
+.RadGrid_Office2010Silver .rgSelectedRow.rgHoveredRow td
+{
+    background-image:none;
+}
+
+*+html .RadGrid_Office2010Silver .rgSelectedRow .rgSorted{background-color:#ffcb60}
+* html .RadGrid_Office2010Silver .rgSelectedRow .rgSorted{background-color:#ffcb60}
+
+.RadGrid_Office2010Silver .rgActiveRow,
+.RadGrid_Office2010Silver .rgHoveredRow
+{
+    background:#fff4cb 0 -2900px repeat-x url('Grid/sprite.png');
+}
+
+*+html .RadGrid_Office2010Silver .rgActiveRow .rgSorted,
+*+html .RadGrid_Office2010Silver .rgHoveredRow .rgSorted{background-color:#ecf4ff}
+* html .RadGrid_Office2010Silver .rgActiveRow .rgSorted,
+* html .RadGrid_Office2010Silver .rgHoveredRow .rgSorted{background-color:#ecf4ff}
+
+.RadGrid_Office2010Silver .rgEditRow
+{
+	background:#ebebeb;
+}
+
+*+html .RadGrid_Office2010Silver .rgEditRow .rgSorted{background-color:#ffe5ad}
+* html .RadGrid_Office2010Silver .rgEditRow .rgSorted{background-color:#ffe5ad}
+
+.RadGrid_Office2010Silver .rgSelectedRow td,
+.RadGrid_Office2010Silver .rgActiveRow td,
+.RadGrid_Office2010Silver .rgHoveredRow td,
+.RadGrid_Office2010Silver .rgEditRow td
+{
+	border-left-width:0;
+	padding-left:8px;
+}
+
+.RadGrid_Office2010Silver .rgSelectedRow td
+{
+	border-bottom-color:#ff9b35;
+}
+
+.RadGrid_Office2010Silver .rgActiveRow td,
+.RadGrid_Office2010Silver .rgHoveredRow td,
+.RadGrid_Office2010Silver .rgEditRow td
+{
+	border-bottom-color:#d0d7e5;
+}
+
+.RadGrid_Office2010Silver .rgDrag
+{
+	background-image:url('Grid/rgDrag.gif');
+}
+
+/*footer*/
+
+.RadGrid_Office2010Silver .rgFooterDiv,
+.RadGrid_Office2010Silver .rgFooter
+{
+	background:#d8dce0 0 -6500px repeat-x url('Grid/sprite.png');
+}
+
+.RadGrid_Office2010Silver .rgFooter td
+{
+	border-width:1px 0 0;
+	border-color:#a4abb2 #fff #fff;
+	padding-left:8px;
+}
+
+/*status*/
+
+.RadGrid_Office2010Silver .rgPager .rgStatus
+{
+	border:1px solid;
+	border-width:1px 1px 0 0;
+	border-color:#a4abb2;
+}
+
+.RadGrid_Office2010Silver .rgStatus div
+{
+	background-image:url('Common/loading_small.gif');
+}
+
+/*pager*/
+
+.RadGrid_Office2010Silver .rgPager
+{
+	background:#b8bdc2 0 -6999px repeat-x url('Grid/sprite.png');
+	color:#3b3b3b;
+}
+
+.RadGrid_Office2010Silver td.rgPagerCell
+{
+	border-top:1px solid #a4abb2;
+	border-left:1px solid #fff;
+}
+
+.RadGrid_Office2010Silver .rgPageFirst
+{
+	margin:0 3px 0 0;
+	background-position:0 -550px;
+}
+.RadGrid_Office2010Silver .rgPageFirst:hover
+{
+	background-position:0 -600px;
+}
+.RadGrid_Office2010Silver .rgPagePrev
+{
+	margin:0 3px 0 0;
+	background-position:0 -700px;
+}
+.RadGrid_Office2010Silver .rgPagePrev:hover
+{
+	background-position:0 -750px;
+}
+.RadGrid_Office2010Silver .rgPageNext
+{
+	margin:0 0 0 3px;
+	background-position:0 -850px;
+}
+.RadGrid_Office2010Silver .rgPageNext:hover
+{
+	background-position:0 -900px;
+}
+.RadGrid_Office2010Silver .rgPageLast
+{
+	margin:0 0 0 3px;
+	background-position:0 -1000px;
+}
+.RadGrid_Office2010Silver .rgPageLast:hover
+{
+	background-position:0 -1050px;
+}
+
+.RadGrid_Office2010Silver .rgPager .rgPagerButton
+{
+	border-color:#a4abb2;
+	color:#3b3b3b;
+	font:12px/12px "segoe ui",arial,sans-serif;
+}
+
+.RadGrid_Office2010Silver .rgNumPart a:hover,
+.RadGrid_Office2010Silver .rgNumPart a:hover span,
+.RadGrid_Office2010Silver .rgNumPart a.rgCurrentPage,
+.RadGrid_Office2010Silver .rgNumPart a.rgCurrentPage span
+{
+	background:no-repeat url('Grid/sprite.png');
+}
+
+.RadGrid_Office2010Silver .rgNumPart a
+{
+	color:#3b3b3b;
+}
+
+.RadGrid_Office2010Silver .rgNumPart a:hover
+{
+	background-position:100% -1250px;
+	color: #1e395b;
+}
+
+.RadGrid_Office2010Silver .rgNumPart a:hover span
+{
+	background-position:0 -1150px;
+}
+
+.RadGrid_Office2010Silver .rgNumPart a.rgCurrentPage,
+.RadGrid_Office2010Silver .rgNumPart a.rgCurrentPage:hover
+{
+	background-position:100% -1450px;
+	color: #384e73;
+}
+
+.RadGrid_Office2010Silver .rgNumPart a.rgCurrentPage span,
+.RadGrid_Office2010Silver .rgNumPart a.rgCurrentPage:hover span
+{
+	background-position:0 -1350px;
+}
+
+/*sorting, reordering*/
+
+.RadGrid_Office2010Silver .rgHeader .rgSortAsc
+{
+	background-position:3px -147px;
+	height:10px;
+}
+
+.RadGrid_Office2010Silver .rgHeader .rgSortDesc
+{
+	background-position:3px -197px;
+	height:10px;
+}
+
+.GridReorderTop_Office2010Silver,
+.GridReorderBottom_Office2010Silver
+{
+	height:12px;
+	background:0 0 no-repeat url('Grid/sprite.png');
+}
+
+.GridReorderBottom_Office2010Silver
+{
+	background-position:0 -50px;
+}
+
+/*filtering*/
+
+.RadGrid_Office2010Silver .rgFilterRow
+{
+	background:#dfe3e8;
+}
+
+.RadGrid_Office2010Silver .rgFilterRow td
+{
+    border-style:solid;
+    border-color:#a4abb2;
+    border-width:0 0 1px 1px;
+}
+
+.RadGrid_Office2010Silver .rgFilter
+{
+	background-position:0 -300px;
+}
+
+.RadGrid_Office2010Silver .rgFilter:hover
+{
+	background-position:0 -350px;
+}
+
+.RadGrid_Office2010Silver .rgFilterActive,
+.RadGrid_Office2010Silver .rgFilterActive:hover
+{
+	background-position:0 -400px;
+}
+
+.RadGrid_Office2010Silver .rgFilterBox
+{
+	border-color:#9babc2;
+	font:12px "segoe ui",arial,sans-serif;
+	color:#000;
+}
+
+/*filter context menu*/
+
+.RadMenu_Office2010Silver .rgHCMClear,
+.RadMenu_Office2010Silver .rgHCMFilter
+{
+	border-color:#a7bedb #7d98bd #a3bad8;
+	background:#e8f1fc center -23px repeat-x url('FormDecorator/ButtonSprites.gif');
+	color:#00156e;
+	font-family:"segoe ui",arial,sans-serif;
+}
+
+.RadMenu_Office2010Silver .rgHCMClear:hover,
+.RadMenu_Office2010Silver .rgHCMFilter:hover
+{
+	border-color:#d8ca95 #b9a073 #c6ba9d;
+	background-position:center -67px;
+	background-color:#ffe18a;
+	color:#000;
+}
+
+/*context menu*/
+
+.GridContextMenu_Office2010Silver .rmLeftImage
+{
+	background-image:url('../Common/Grid/contextMenu.gif');
+}
+
+.GridContextMenu_Office2010Silver .rgHCMSortAsc .rmLeftImage
+{
+	background-position:0 0;
+}
+
+.GridContextMenu_Office2010Silver .rgHCMSortDesc .rmLeftImage
+{
+	background-position:0 -40px;
+}
+
+.GridContextMenu_Office2010Silver .rgHCMUnsort .rmLeftImage
+{
+	background-position:0 -80px;
+}
+
+.GridContextMenu_Office2010Silver .rgHCMGroup .rmLeftImage
+{
+	background-position:0 -120px;
+}
+
+.GridContextMenu_Office2010Silver .rgHCMUngroup .rmLeftImage
+{
+	background-position:0 -160px;
+}
+
+.GridContextMenu_Office2010Silver .rgHCMCols .rmLeftImage
+{
+	background-position:0 -200px;
+}
+
+.GridContextMenu_Office2010Silver .rgHCMFilter .rmLeftImage
+{
+	background-position:0 -240px;
+}
+
+.GridContextMenu_Office2010Silver .rgHCMUnfilter .rmLeftImage
+{
+	background-position:0 -280px;
+}
+
+/*grouping*/
+
+.RadGrid_Office2010Silver .rgGroupPanel
+{
+    border:0 solid #a4abb2;
+	border-bottom-width:1px;
+	background:#e7e9eb;
+}
+
+.RadGrid_Office2010Silver .rgGroupPanel td
+{
+	border:0;
+	padding:3px 4px;
+	vertical-align:middle;
+}
+
+.RadGrid_Office2010Silver .rgGroupPanel td td
+{
+	padding:0;
+}
+
+.RadGrid_Office2010Silver .rgGroupPanel .rgSortAsc
+{
+	background-position:4px -144px;
+}
+
+.RadGrid_Office2010Silver .rgGroupPanel .rgSortDesc
+{
+	background-position:4px -194px;
+}
+
+.RadGrid_Office2010Silver .rgUngroup
+{
+	background-position:0 -7500px;
+}
+
+.RadGrid_Office2010Silver .rgGroupItem
+{
+	border:1px solid #a4abb2;
+	color:#3b3b3b;
+}
+
+.RadGrid_Office2010Silver .rgGroupHeader
+{
+    background:#dbdfe4;
+    font-size:1.1em;
+    line-height:21px;
+    color:#3b3b3b;
+}
+
+.RadGrid_Office2010Silver .rgGroupHeader td
+{
+	border-bottom:1px solid #dadcdd;
+    padding-left:8px;
+}
+
+.RadGrid_Office2010Silver td.rgGroupCol,
+.RadGrid_Office2010Silver td.rgExpandCol
+{
+	background:#dbdfe4;
+	border-color:#dbdfe4;
+}
+
+.RadGrid_Office2010Silver .rgGroupHeader .rgExpand
+{
+	background-position:5px -495px;
+}
+
+.RadGrid_Office2010Silver .rgGroupHeader .rgCollapse
+{
+	background-position:3px -93px;
+}
+
+/*editing*/
+
+.RadGrid_Office2010Silver .rgEditForm
+{
+	border-bottom:1px solid #a4abb2;
+}
+
+.RadGrid_Office2010Silver .rgUpdate
+{
+	background-position:0 -1800px;
+}
+
+.RadGrid_Office2010Silver .rgCancel
+{
+	background-position:0 -1850px;
+}
+
+/*hierarchy*/
+
+.RadGrid_Office2010Silver .rgDetailTable
+{
+	border-color:#688caf;
+}
+
+.RadGrid_Office2010Silver .rgExpand
+{
+	background-position:5px -496px;
+}
+
+.RadGrid_Office2010Silver .rgCollapse
+{
+	background-position:3px -94px;
+}
+
+/*command row*/
+
+.RadGrid_Office2010Silver .rgCommandRow
+{
+	background:#dbdfe4 0 -2100px repeat-x url('Grid/sprite.png');
+	color:#333;
+}
+
+.RadGrid_Office2010Silver .rgCommandCell
+{
+	border:0;
+	padding:0;
+}
+
+.RadGrid_Office2010Silver thead .rgCommandCell
+{
+	border-bottom:1px solid #a4abb2;
+}
+
+.RadGrid_Office2010Silver .rgCommandTable td
+{
+	border:0;
+	padding:2px 7px;
+}
+
+.RadGrid_Office2010Silver .rgCommandRow a
+{
+	color:#242424;
+	text-decoration:none;
+}
+
+.RadGrid_Office2010Silver .rgAdd
+{
+	margin-right:3px;
+	background-position:0 -1650px;
+}
+
+.RadGrid_Office2010Silver .rgRefresh
+{
+	margin-right:3px;
+	background-position:0 -1600px;
+}
+
+.RadGrid_Office2010Silver .rgEdit
+{
+	background-position:0 -1700px;
+}
+
+.RadGrid_Office2010Silver .rgDel
+{
+	background-position:0 -1750px;
+}
+
+.RadGrid_Office2010Silver .rgExpXLS,
+.RadGrid_Office2010Silver .rgExpDOC,
+.RadGrid_Office2010Silver .rgExpPDF,
+.RadGrid_Office2010Silver .rgExpCSV
+{
+	background-image:url('../Common/Grid/export.gif');
+}
+
+.RadGrid_Office2010Silver .rgExpXLS
+{
+	background-position:0 0;
+}
+.RadGrid_Office2010Silver .rgExpDOC
+{
+	background-position:0 -50px;
+}
+.RadGrid_Office2010Silver .rgExpPDF
+{
+	background-position:0 -100px;
+}
+.RadGrid_Office2010Silver .rgExpCSV
+{
+	background-position:0 -150px;
+}
+
+/*multirow select*/
+
+.GridRowSelector_Office2010Silver
+{
+	background:#00156e;
+}
+
+/*row drag n drop*/
+
+.GridItemDropIndicator_Office2010Silver
+{
+    border-top:1px dashed #00156e;
+}
+
+/*tooltip*/
+
+.GridToolTip_Office2010Silver
+{
+	border:1px solid #6187b8;
+	padding:3px;
+	background:#d7e3f2;
+	color:#333;
+}
+
+/*rtl*/
+
+.RadGridRTL_Office2010Silver .rgHeader:first-child,
+.RadGridRTL_Office2010Silver th.rgResizeCol:first-child,
+.RadGridRTL_Office2010Silver .rgFilterRow>td:first-child,
+.RadGridRTL_Office2010Silver .rgRow>td:first-child,
+.RadGridRTL_Office2010Silver .rgAltRow>td:first-child
+{
+	border-left-width:1px;
+	padding-left:7px;
+}
+
+.RadGridRTL_Office2010Silver .rgPageFirst
+{
+	background-position:0 -1000px;
+}
+.RadGridRTL_Office2010Silver .rgPageFirst:hover
+{
+	background-position:0 -1050px;
+}
+.RadGridRTL_Office2010Silver .rgPagePrev
+{
+	margin:0 0 0 3px;
+	background-position:0 -850px;
+}
+.RadGridRTL_Office2010Silver .rgPagePrev:hover
+{
+	background-position:0 -900px;
+}
+.RadGridRTL_Office2010Silver .rgPageNext
+{
+	margin:0 3px 0 0;
+	background-position:0 -700px;
+}
+.RadGridRTL_Office2010Silver .rgPageNext:hover
+{
+	background-position:0 -750px;
+}
+.RadGridRTL_Office2010Silver .rgPageLast
+{
+	background-position:0 -550px;
+}
+.RadGridRTL_Office2010Silver .rgPageLast:hover
+{
+	background-position:0 -600px;
+}
+
+.RadGridRTL_Office2010Silver .rgGroupHeader .rgExpand
+{
+	background-position:-20px -495px;
+}
+
+.RadGridRTL_Office2010Silver .rgExpand
+{
+	background-position:-20px -496px;
+}
+
+.RadGridRTL_Office2010Silver .rgGroupHeader .rgCollapse
+{
+	background-position:-20px -93px;
+}

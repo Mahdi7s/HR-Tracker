@@ -1,0 +1,71 @@
+/* RadColorPicker Windows7 skin */
+.RadColorPicker_Windows7 .rcpViews,
+.RadColorPicker_Windows7 .rcpHeader,
+.RadColorPicker_Windows7 .rcpPageView
+{
+	background-color: #eee;
+}
+
+.RadColorPicker_Windows7 .rcpColorPreview,
+.RadColorPicker_Windows7 .rcpInput,
+.RadColorPicker_Windows7 .rcpHexInput,
+.RadColorPicker_Windows7 .rcpMillionColorsPalette,
+.RadColorPicker_Windows7 .rcpMillionColorsSlider div.rslTrack
+{
+	border:1px solid #b8cbde;
+}
+
+.RadColorPicker_Windows7 .rcpPalette,
+.RadColorPicker_Windows7 input,
+.RadColorPicker_Windows7 a
+{
+	color: #1e395b;
+}
+
+.RadColorPicker_Windows7 .rcpApplyButton,
+.RadColorPicker_Windows7 .rcpButton
+{
+    color: #1e395b;
+}
+
+.RadColorPicker_Windows7 .rcpHeader,
+.RadColorPicker_Windows7 .rcpHeader .rcpImageButton,
+.RadColorPicker_Windows7 .rcpRecentColors,
+.RadColorPicker_Windows7 .rcpIcon a,
+.RadColorPicker_Windows7 .rcpTabs a,
+.RadColorPicker_Windows7 .rcpTabs a span,
+.RadColorPicker_Windows7 .rcpButton,
+.RadColorPicker_Windows7 .rcpButton span,
+.RadColorPicker_Windows7 .rcpMillionColorsHandle,
+.RadColorPicker_Windows7 .rcpSlider div.rslTrack,
+/* overwrite sliders */
+.RadColorPicker_Windows7 .rcpSlider .rslTrack a.rslDraghandle,
+.RadColorPicker_Windows7 div.rcpMillionColorsSlider div.rslVertical a.rslDraghandle
+{
+	background-image:url('ColorPicker/ColorPickerSprites.png');
+	background-repeat:no-repeat;
+}
+
+/* Rounded corners and shadows */
+.RadColorPicker_Windows7 .rcpPalette,
+.RadColorPicker_Windows7 .rcpRoundedRight,
+.RadColorPicker_Windows7 .rcpRoundedBottomRight,
+.RadColorPicker_Windows7 .rcpRightShadow,
+.RadColorPicker_Windows7 .rcpCornerShadow
+{
+	background-image:url('ColorPicker/rcpVerticalSprites.png');
+}
+
+.RadColorPicker_Windows7 .rcpRoundedBottomLeft,
+.RadColorPicker_Windows7 .rcpBottomShadow
+{
+	background-image:url('ColorPicker/ColorPickerSprites.png');
+}
+
+* html .RadColorPicker_Windows7 .rcpPalette,
+* html .RadColorPicker_Windows7 .rcpRoundedRight,
+* html .RadColorPicker_Windows7 .rcpRoundedBottomRight,
+* html .RadColorPicker_Windows7 .rcpRoundedBottomLeft
+{
+	background-image:url('ColorPicker/rcpVerticalSpritesIE6.png');
+}

@@ -1,0 +1,393 @@
+/* RadFormDecorator Sitefinity Skin */
+
+/* CSS class for styling the decoration zone or the <html /> tag of the page */
+.RadForm_Sitefinity.rfdZone
+{
+    
+}
+
+/* Decorate scrollbars */
+.RadForm_Sitefinity.rfdScrollBars
+{
+	scrollbar-3dlight-color: #dbdbdb; 
+	scrollbar-arrow-color: #606060;
+	scrollbar-base-color: #ff6347; 
+	scrollbar-darkshadow-color: #aeaeae; 
+	scrollbar-face-color: #dee2e7;
+	scrollbar-highlight-color: #fff; 
+	scrollbar-shadow-color: #aeaeae;
+	scrollbar-track-color: #f4f4f4;
+}
+
+/* Decorate <input type="button | submit | reset" /> and <button type="button | submit | reset" /> - look if there is a secondary .rfdButton class applied to the root element */
+.RadForm_Sitefinity.rfdButton a.rfdSkinnedButton,
+.RadForm_Sitefinity.rfdButton input[type="button"].rfdDecorated,
+.RadForm_Sitefinity.rfdButton input[type="reset"].rfdDecorated,
+.RadForm_Sitefinity.rfdButton input[type="submit"].rfdDecorated,
+.RadForm_Sitefinity.rfdButton .rfdSkinnedButton button
+{
+	background-image: url('FormDecorator/ButtonSprites.gif');
+	color: #000;
+}
+
+*html .RadForm_Sitefinity a.rfdSkinnedButton,
+*html .RadForm_Sitefinity .rfdSkinnedButton button,
+*html .RadForm_Sitefinity .rfdSkinnedButton input.rfdDecorated,
+.RadForm_Sitefinity.rfdButton a.rfdSkinnedButton,
+.RadForm_Sitefinity.rfdButton a.rfdSkinnedButton *
+{
+	background-image: url('FormDecorator/ButtonSprites.gif');
+	color: #000;
+}
+
+/* OPERA width fix - do not remove (and check if it is still necessary) */
+@media screen and (min-width:1px)  
+{
+	/* 
+       the hack below fixes a strange behavior under Opera - 
+       input and button have a different CSS display when in anchor tag 
+    */
+	.RadForm_Sitefinity.rfdButton a.rfdSkinnedButton input
+	{
+	    display: block;
+	    float: left;
+	}
+}
+
+/* Decorate <h4|5|6 /> */
+.RadForm_Sitefinity.rfdHeading h4
+{
+	color: #000;	
+	border-bottom: solid 1px #a0a0a0;	
+}
+
+.RadForm_Sitefinity.rfdHeading h5
+{
+	color: #000;	
+	border-bottom: solid 1px #a0a0a0;	
+}
+
+.RadForm_Sitefinity.rfdHeading h6
+{
+	color: #000;	
+}
+
+/* Decorate <label /> */
+.RadForm_Sitefinity.rfdLabel label
+{	
+	color: #000;
+}
+
+/* Decorate <input type="checkbox" /> */
+.RadForm_Sitefinity .rfdCheckboxUnchecked,
+.RadForm_Sitefinity .rfdCheckboxChecked,
+.RadForm_Sitefinity .rfdInputDisabled.rfdCheckboxUnchecked,
+.RadForm_Sitefinity .rfdInputDisabled.rfdCheckboxChecked
+{
+	background-image: url('FormDecorator/CheckBoxSprites.gif');
+}
+
+/* Decorate <input type="radio" /> */
+.RadForm_Sitefinity .rfdRadioUnchecked,
+.RadForm_Sitefinity .rfdRadioChecked,
+.RadForm_Sitefinity .rfdInputDisabled.rfdRadioUnchecked,
+.RadForm_Sitefinity .rfdInputDisabled.rfdRadioChecked
+{
+	background-image: url('FormDecorator/RadioButtonSprites.png');
+}
+
+/* IE6 - we set .gif")%>")%> image instead of .png")%> due to the lack RGBA support */
+.RadForm_Sitefinity .rfdRadioUnchecked,
+.RadForm_Sitefinity .rfdInputDisabled.rfdRadioUnchecked:hover,
+.RadForm_Sitefinity .rfdRadioUnchecked:hover,
+.RadForm_Sitefinity .rfdRadioChecked,
+.RadForm_Sitefinity .rfdInputDisabled.rfdRadioChecked:hover,
+.RadForm_Sitefinity .rfdRadioChecked:hover
+{
+    _background-image: url('FormDecorator/RadioButtonSprites.gif'); /* IE6 hack */
+}
+
+/* <fieldset /> and <legend /> */
+
+.RadForm_Sitefinity.rfdFieldset table.rfdRoundedWrapper_fieldset legend,
+.RadForm_Sitefinity fieldset.rfdFieldset legend,
+.RadForm_Sitefinity.rfdFieldset fieldset legend
+{
+	color: #000;
+}
+
+.RadForm_Sitefinity table.rfdRoundedWrapper:hover div.rfdRoundedInner
+{
+    background-color: #fff;
+    border-color: #abadb3 !important;
+}
+
+/* this selector styles the hover of the side bars of the rounded elements */
+.RadForm_Sitefinity table.rfdRoundedWrapper:hover .rfdRoundedOuter
+{	
+	background-color: #abadb3 !important;
+}
+
+/* Decorate <input type="text | password" /> and <textarea /> */
+/* For all browsers except IE6 we are using attribute selectors - single or double */
+.RadForm_Sitefinity.rfdTextbox input[type="text"],
+.RadForm_Sitefinity.rfdTextbox input[type="password"],
+.RadForm_Sitefinity.rfdTextarea textarea,
+.RadForm_Sitefinity.rfdTextarea textarea[disabled]:hover,
+.RadForm_Sitefinity.rfdTextbox input[disabled][type="text"]:hover,
+.RadForm_Sitefinity.rfdTextbox input[disabled][type="password"]:hover
+{
+    border: solid 1px #e2e3ea;
+    background-color: #fff;
+}
+
+.RadForm_Sitefinity.rfdTextbox .rfdDecorated:hover,
+.RadForm_Sitefinity.rfdTextarea textarea:hover,
+.RadForm_Sitefinity.rfdTextbox .rfdDecorated:focus,
+.RadForm_Sitefinity.rfdTextarea textarea:focus
+{
+    border: solid 1px #abadb3;
+}
+
+/* Decorate <fieldset /> and <legend /> */
+.RadForm_Sitefinity.rfdFieldset table.rfdRoundedWrapper_fieldset legend,
+.RadForm_Sitefinity.rfdFieldset fieldset.rfdFieldset legend
+{
+	color: #000;
+}
+
+.RadForm_Sitefinity.rfdFieldset table.rfdRoundedWrapper_fieldset fieldset,
+.RadForm_Sitefinity.rfdFieldset fieldset.rfdFieldset
+{	
+	border: solid 1px #e0e0e0;
+	background-image: url('FormDecorator/FieldsetBgr.png'); /* having a background image on a fieldset is not okay with IE */	
+}
+
+.RadForm_Sitefinity.rfdButton a.rfdSkinnedButton,
+.RadForm_Sitefinity.rfdButton a.rfdSkinnedButton input.rfdDecorated,
+.RadForm_Sitefinity.rfdButton a.rfdSkinnedButton button.rfdDecorated,
+.RadForm_Sitefinity .rfdSelectBox_Sitefinity,
+.RadForm_Sitefinity .rfdLabel label,
+.RadForm_Sitefinity .rfdCheckboxChecked,
+.RadForm_Sitefinity .rfdCheckboxUnchecked,
+.RadForm_Sitefinity .rfdRadioUnchecked,
+.RadForm_Sitefinity .rfdRadioChecked,
+.RadForm_Sitefinity .rfdHeading,
+.RadForm_Sitefinity .rfdTextbox,
+.RadForm_Sitefinity .rfdTextarea,
+.RadForm_Sitefinity .rfdFieldset fieldset,
+.RadForm_Sitefinity .rfdFieldset fieldset legend,
+.RadForm_Sitefinity.rfdHeading h4,
+.RadForm_Sitefinity.rfdHeading h5,
+.RadForm_Sitefinity.rfdHeading h6
+{
+    font-family: Arial, Sans-Serif !important;
+}
+
+.RadForm_Sitefinity.rfdButton a.rfdSkinnedButton,
+.RadForm_Sitefinity.rfdButton a.rfdSkinnedButton *
+{
+    cursor: pointer;
+}
+
+/* Because of a glitch in IE the following 2 CSS classes must be declared separately for correct parsing of the textarea class in IE6*/
+.RadForm_Sitefinity table.rfdRoundedWrapper input,
+.RadForm_Sitefinity table.rfdRoundedWrapper textarea,
+.RadForm_Sitefinity input.rfdInput, 
+.RadForm_Sitefinity textarea.rfdTextarea
+{
+	border: solid 1px #dbdfe6;
+	background: #fff;	
+	color: #000;
+}
+
+.RadForm_Sitefinity textarea.rfdTextarea,
+.RadForm_Sitefinity table.rfdRoundedWrapper textarea
+{
+    overflow: auto;
+}
+
+/* <select /> */
+.rfdSelect_Sitefinity,
+.rfdSelect_Sitefinity:hover,
+.rfdSelect_Sitefinity .rfdSelectOuter,
+.rfdSelect_Sitefinity:hover .rfdSelectOuter,
+.rfdSelect_Sitefinity .rfdSelectArrow span,
+.rfdSelectBox_Sitefinity .rfdSelect_selected,
+.rfdSelectBox_Sitefinity li:hover,
+.rfdSelect_Sitefinity.rfdSelectDisabled:hover,
+.rfdRtl .rfdSelect_Sitefinity,
+.rfdRtl .rfdSelect_Sitefinity:hover,
+.rfdRtl .rfdSelect_Sitefinity .rfdSelectOuter,
+.rfdRtl .rfdSelect_Sitefinity .rfdSelectOuter:hover
+{
+    background-image: url('FormDecorator/ComboSprites.gif');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.rfdSelect_Sitefinity .rfdSelectOuter,
+.rfdSelect_Sitefinity.rfdSelectDisabled:hover .rfdSelectOuter
+{
+    color: black;
+}
+
+/* dropdown settings */
+.rfdSelectBox_Sitefinity
+{
+    background: #fff;
+    border: solid 1px #828282;
+    color: #000;
+     border-radius: 0;
+    -webkit-border-radius: 0;
+	-moz-border-radius: 0;
+}
+
+.rfdSelectBox_Sitefinity li
+{
+    padding: 0 0 0 3px;
+    background-image: none !important;
+}
+
+.rfdSelectBox_Sitefinity .rfdSelect_selected,
+.rfdSelectBox_Sitefinity li:hover
+{
+    color: #000;
+    background-color: #ffffe1;
+}
+
+.rfdSelectBox_Sitefinity .rfdSelectBox_optgroup_label:hover
+{
+    background: none;
+    color: #000;
+}
+
+/* IE6 disabled state fix - this should not be added to the base stylesheet, but at the bottom of the skin file */
+* html .RadForm_Sitefinity.rfdButton a.rfdInputDisabled:hover
+{
+	_background-position: 0 0;
+}
+
+* html .RadForm_Sitefinity.rfdButton a.rfdInputDisabled:hover *
+{
+	_background-position: right -21px;
+	_color: #824703;
+}
+
+.RadForm_Sitefinity.rfdTextbox input.rfdIE6TextBox,
+.RadForm_Sitefinity.rfdTextbox textarea.rfdIE6TextBox
+{
+    _border: solid 1px #938879;
+    _background-color: #fff;
+}
+
+/* the styling of radiobuttons and checkboxes in Safari and Chrome is already fully achieved with CSS */
+@media screen and (-webkit-min-device-pixel-ratio: 0)
+{
+    /* checkboxes */
+    .rfdCheckbox input[type="checkbox"],
+    .rfdCheckbox input[type="checkbox"][disabled]:hover
+    {
+        background-image: url('FormDecorator/CheckBoxSprites.gif');
+    }
+    
+    /* radio buttons */
+    .rfdRadio input[type="radio"],
+    .rfdRadio input[type="radio"][disabled="disabled"]:hover
+    {
+        background-image: url('FormDecorator/RadioButtonSprites.png');
+    }
+}
+
+/* ----------------------------------------------- Skin-specific Scrollbar Settings for WebKit ----------------------------------------------- */
+
+/* the scrollbar face color */
+.RadForm.rfdScrollBars.RadForm_Sitefinity body::-webkit-scrollbar,
+.RadForm.rfdScrollBars.RadForm_Sitefinity body::-webkit-scrollbar-thumb:vertical,
+.RadForm.rfdScrollBars.RadForm_Sitefinity body::-webkit-scrollbar-thumb:horizontal,
+.RadForm.rfdScrollBars.RadForm_Sitefinity div::-webkit-scrollbar,
+.RadForm.rfdScrollBars.RadForm_Sitefinity div::-webkit-scrollbar-thumb:vertical,
+.RadForm.rfdScrollBars.RadForm_Sitefinity div::-webkit-scrollbar-thumb:horizontal
+.RadForm.rfdScrollBars.RadForm_Sitefinity form::-webkit-scrollbar,
+.RadForm.rfdScrollBars.RadForm_Sitefinity form::-webkit-scrollbar-thumb:vertical,
+.RadForm.rfdScrollBars.RadForm_Sitefinity form::-webkit-scrollbar-thumb:horizontal
+{
+    background-color: #dee2e7;
+}
+
+/* scrollbar track background color */
+.RadForm.rfdScrollBars.RadForm_Sitefinity ::-webkit-scrollbar-track-piece,
+.RadForm.rfdScrollBars.RadForm_Sitefinity ::-webkit-scrollbar-corner
+{
+    background-color: #f4f4f4;
+}
+
+.RadForm.rfdScrollBars.RadForm_Sitefinity ::-webkit-scrollbar-button:vertical:decrement, 
+.RadForm.rfdScrollBars.RadForm_Sitefinity ::-webkit-scrollbar-button:vertical:increment, 
+.RadForm.rfdScrollBars.RadForm_Sitefinity ::-webkit-scrollbar-button:horizontal:decrement, 
+.RadForm.rfdScrollBars.RadForm_Sitefinity ::-webkit-scrollbar-button:horizontal:increment, 
+.RadForm.rfdScrollBars.RadForm_Sitefinity ::-webkit-scrollbar-thumb:vertical, 
+.RadForm.rfdScrollBars.RadForm_Sitefinity ::-webkit-scrollbar-thumb:horizontal
+{
+    border-color: #fff #aeaeae #aeaeae #fff;
+}
+
+/* increment / decrement button settings */
+.RadForm.rfdScrollBars.RadForm_Sitefinity ::-webkit-scrollbar-button:vertical:decrement, 
+.RadForm.rfdScrollBars.RadForm_Sitefinity ::-webkit-scrollbar-button:vertical:increment, 
+.RadForm.rfdScrollBars.RadForm_Sitefinity ::-webkit-scrollbar-button:horizontal:decrement, 
+.RadForm.rfdScrollBars.RadForm_Sitefinity ::-webkit-scrollbar-button:horizontal:increment
+{
+    background-image: url('FormDecorator/ButtonSprites.gif');
+    background-color: #dee2e7;
+}
+
+/*GridView, FormView, DetailsView*/
+.RadForm_Sitefinity.rfdGrids .rfdTable
+{
+    border:1px solid #ccc;
+    background:#fff;
+    color:#000;
+    font:12px "segoe ui",arial,sans-serif;
+}
+
+.RadForm_Sitefinity.rfdGrids .rfdTable th
+{
+    border-bottom:1px solid #ccc;
+    border-left:1px solid #ccc;
+    background:#fff;
+    color:#787878;
+	font-size:9px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+}
+
+.RadForm_Sitefinity.rfdGrids .rfdTable a
+{
+    color:#105cd6;
+}
+
+/* Validation Summary Control and Login Control  */
+
+.RadForm_Sitefinity .rfdValidationSummaryControl,
+.RadForm_Sitefinity .rfdLoginControl
+{
+	background-color: #fff;
+	border: 1px solid #848484;
+}
+
+.RadForm_Sitefinity a.rfdLoginControl
+{
+	color: #105cb6;
+}
+
+.RadForm_Sitefinity a.rfdLoginControl:hover
+{
+	color: #3c4c30;
+}
+
+.RadForm_Sitefinity a.rfdLoginControl:active,
+.RadForm_Sitefinity a.rfdLoginControl:visited
+{
+	color: #333;
+}

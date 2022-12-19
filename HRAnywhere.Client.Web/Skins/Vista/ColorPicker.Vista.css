@@ -1,0 +1,73 @@
+/* RadColorPicker Vista skin */
+.RadColorPicker_Vista .rcpViews,
+.RadColorPicker_Vista .rcpHeader,
+.RadColorPicker_Vista .rcpPageView
+{
+	background-color:#fff;
+}
+
+.RadColorPicker_Vista .rcpColorPreview,
+.RadColorPicker_Vista .rcpInput,
+.RadColorPicker_Vista .rcpHexInput,
+.RadColorPicker_Vista .rcpMillionColorsPalette,
+.RadColorPicker_Vista .rcpMillionColorsSlider div.rslTrack
+{
+	border:1px solid;
+	border-color:#abadb3 #e2e3ea #e3e9ef #e2e3ea;
+}
+
+.RadColorPicker_Vista .rcpPalette,
+.RadColorPicker_Vista input,
+.RadColorPicker_Vista a
+{
+	color:#000;
+}
+
+.RadColorPicker_Vista .rcpApplyButton span,
+.RadColorPicker_Vista .rcpButton span
+{
+
+    color:#434343;
+}
+
+.RadColorPicker_Vista .rcpHeader,
+.RadColorPicker_Vista .rcpHeader .rcpImageButton,
+.RadColorPicker_Vista .rcpRecentColors,
+.RadColorPicker_Vista .rcpIcon a,
+.RadColorPicker_Vista .rcpTabs a,
+.RadColorPicker_Vista .rcpTabs a span,
+.RadColorPicker_Vista .rcpButton,
+.RadColorPicker_Vista .rcpButton span,
+.RadColorPicker_Vista .rcpMillionColorsHandle,
+.RadColorPicker_Vista .rcpSlider div.rslTrack,
+/* overwrite sliders */
+.RadColorPicker_Vista .rcpSlider .rslTrack a.rslDraghandle,
+.RadColorPicker_Vista div.rcpMillionColorsSlider div.rslVertical a.rslDraghandle
+{
+	background-image:url('ColorPicker/ColorPickerSprites.png');
+	background-repeat:no-repeat;
+}
+
+/* Rounded corners and shadows */
+.RadColorPicker_Vista .rcpPalette,
+.RadColorPicker_Vista .rcpRoundedRight,
+.RadColorPicker_Vista .rcpRoundedBottomRight,
+.RadColorPicker_Vista .rcpRightShadow,
+.RadColorPicker_Vista .rcpCornerShadow
+{
+	background-image:url('ColorPicker/rcpVerticalSprites.png');
+}
+
+.RadColorPicker_Vista .rcpRoundedBottomLeft,
+.RadColorPicker_Vista .rcpBottomShadow
+{
+	background-image:url('ColorPicker/ColorPickerSprites.png');
+}
+
+* html .RadColorPicker_Vista .rcpPalette,
+* html .RadColorPicker_Vista .rcpRoundedRight,
+* html .RadColorPicker_Vista .rcpRoundedBottomRight,
+* html .RadColorPicker_Vista .rcpRoundedBottomLeft
+{
+	background-image:url('ColorPicker/rcpVerticalSpritesIE6.png');
+}

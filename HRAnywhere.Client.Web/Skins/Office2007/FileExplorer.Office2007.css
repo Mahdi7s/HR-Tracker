@@ -1,0 +1,43 @@
+
+/*========================================= Toolbar related CSS ========================*/
+
+.RadFileExplorer_Office2007 .RadToolBar .rtbText
+{
+	background-image: url('FileExplorer/FileExplorerToolbarSprites.png');
+	background-repeat: no-repeat;
+}
+
+/* IE6 does not support the alpha channel of png files, so we force it to use gif */
+* html .RadFileExplorer_Office2007 .RadToolBar .rtbText
+{
+	background-image: url('FileExplorer/FileExplorerToolbarSpritesIE6.gif') !important;
+}
+
+.RadFileExplorer_Office2007, 
+.RadFileExplorer_Office2007 .rfeAddressBox,
+.RadFileExplorer_Office2007 .rfeFilterTxt
+{
+	border-color: #9eb6ce;
+}
+
+.DialogSeparator
+{
+    border-left: solid 1px #dde8ee;
+    border-right: solid 1px #f6f9fb;
+    background-color: #dfe9f2;
+}
+
+div.selectedFileName
+{
+    border-top: solid 1px #abc1de;
+}
+
+/* Overwrites padding for better presentation and space saving */
+.RadFileExplorer_Office2007 .RadGrid .rgRow td, 
+.RadFileExplorer_Office2007 .RadGrid .rgAltRow td, 
+.RadFileExplorer_Office2007 .RadGrid .rgEditRow td, 
+.RadFileExplorer_Office2007 .RadGrid .rgFooter td 
+{
+padding-left: 8px;
+padding-right: 8px;
+}

@@ -1,0 +1,173 @@
+/*Telerik RadListView Windows7 Skin*/
+
+/*global*/
+
+.RadListView_Windows7
+{
+	border:1px solid #a5b3c5;
+	background:#fcfcfc;
+	color:#000;
+	font:12px/16px "segoe ui",arial,sans-serif;
+}
+
+.RadListView_Windows7 .rlvI
+{
+	background:#ebeff3;
+}
+
+.RadListView_Windows7 .rlvISel
+{
+	background:#d4e7fe;
+}
+
+.RadListView_Windows7 .rlvIEdit
+{
+	background:#cadffa;
+}
+
+/*buttons*/
+
+.RadListView_Windows7 .rlvBAdd,
+.RadListView_Windows7 .rlvBUpdate,
+.RadListView_Windows7 .rlvBCancel,
+.RadListView_Windows7 .rlvBDel,
+.RadListView_Windows7 .rlvBEdit
+{
+	background-image:url('Grid/sprite.gif');
+}
+
+.RadListView_Windows7 .rlvBAdd
+{
+	background-position:0 -1650px;
+}
+.RadListView_Windows7 .rlvBUpdate
+{
+	background-position:0 -1800px;
+}
+.RadListView_Windows7 .rlvBCancel
+{
+	background-position:0 -1850px;
+}
+.RadListView_Windows7 .rlvBSel
+{
+	background-image:url('FormDecorator/CheckBoxSprites.gif');
+	background-position:-2px -2px;
+}
+.RadListView_Windows7 .rlvISel .rlvBSel
+{
+	background-position:-2px -422px;
+}
+.RadListView_Windows7 .rlvBDel
+{
+	background-position:0 -1750px;
+}
+.RadListView_Windows7 .rlvBEdit
+{
+	background-position:0 -1700px;
+}
+
+.RadListView_Windows7 .rlvDrag
+{
+	background-image:url('ListView/drag.gif');
+	background-position:center center;
+}
+
+/*flow*/
+
+.RadListView_Windows7 div.rlvA,
+.RadListView_Windows7 div.rlvIEmpty
+{
+	border-color:#fcfcfc;
+}
+
+.RadListView_Windows7 div.rlvI
+{
+	border-color:#ebeff3;
+}
+
+.RadListView_Windows7 div.rlvISel
+{
+	border-color:#8daed5;
+}
+
+.RadListView_Windows7 div.rlvIEdit
+{
+	border-color:#8daed5;
+}
+
+/*grid*/
+
+.RadListView_Windows7 tr.rlvHeader th
+{
+	border:1px solid;
+	border-color:#f1f5fb #f8f9fc #c2cedb #e1eaf3;
+	background:#f1f5fb;
+	color:#4c607a;
+}
+
+.RadListView_Windows7 tr.rlvI td,
+.RadListView_Windows7 tr.rlvA td,
+.RadListView_Windows7 tr.rlvISel td,
+.RadListView_Windows7 tr.rlvIEmpty td
+{
+	border:1px solid;
+	border-top:0;
+}
+
+.RadListView_Windows7 tr.rlvA td,
+.RadListView_Windows7 tr.rlvIEmpty td
+{
+	border-color:#fcfcfc;
+}
+
+.RadListView_Windows7 tr.rlvI td
+{
+	border-color:#ebeff3;
+}
+
+.RadListView_Windows7 tr.rlvISel td
+{
+	border-color:#8daed5 #d4e7fe;
+}
+
+.RadListView_Windows7 tr.rlvIEdit td
+{
+	border-color:#8daed5;
+}
+
+/*single row*/
+
+.RadListView_Windows7 td.rlvI,
+.RadListView_Windows7 td.rlvA,
+.RadListView_Windows7 td.rlvISel,
+.RadListView_Windows7 td.rlvIEmpty,
+.RadListView_Windows7 td.rlvIEdit
+{
+	border:0;
+	border-right:1px solid #ebeff3;
+}
+
+.RadListView_Windows7 td.rlvISel,
+.RadListView_Windows7 td.rlvIEdit
+{
+	border-color:#8daed5;
+}
+
+/*floated*/
+
+.RadListView_Windows7 .rlvFloated .rlvI,
+.RadListView_Windows7 .rlvFloated .rlvA,
+.RadListView_Windows7 .rlvFloated .rlvISel,
+.RadListView_Windows7 .rlvFloated .rlvIEdit
+{
+	border-color:#a5b3c5;
+}
+
+/*edit*/
+
+.RadListView_Windows7 .rlvInput
+{
+	border-color:#b8cbde;
+	background:#fff;
+	color:#000;
+}

@@ -1,0 +1,170 @@
+/* RadUpload / Transparent skin */
+
+/* <general styles> */
+
+.RadUpload_Transparent,
+.RadUpload_Transparent a,
+.RadUpload_Transparent input,
+.RadUploadProgressArea_Transparent,
+.RadUploadProgressArea_Transparent input
+{
+	font: normal 11px/10px Tahoma, Arial, sans-serif;
+}
+
+/* </general styles> */
+
+/* <file inputs> */
+
+.RadUpload_Transparent .ruStyled .ruFileInput
+{
+	border-color: #919191;
+	border: 0;
+}
+
+.RadUpload_Transparent input.ruFakeInput
+{
+	border: 0;
+	color: #000;
+	background: url('Upload/ruFakeInputBg.png') 0 0 no-repeat;
+}
+* html .RadUpload_Transparent .ruFileWrap .ruInputHover { border: 0; }
+*+html .RadUpload_Transparent .ruFileWrap .ruInputHover { border: 0; }
+
+.RadUpload_Transparent .ruReadOnly .ruFakeInput
+{
+	background: #ffffff;
+	background: none;
+}
+
+/* </file inputs> */
+
+/* <buttons> */
+
+.RadUpload_Transparent .ruButton,
+.RadUploadProgressArea_Transparent .ruButton
+{
+	background-image: url('Upload/ruSprite.png');
+	color: #000000;
+}
+
+.RadUpload_Transparent .ruRemove
+{
+	color: #000000;
+}
+
+div.RadUpload_Transparent .ruInputs .ruButtonHover,
+div.RadUpload_Transparent .ruActions .ruButtonHover,
+div.RadUploadProgressArea_Transparent .ruActions .ruButtonHover
+{
+	background-position: 100% -23px;
+	color: #000000;
+}
+
+div.RadUpload_Transparent .ruFileWrap .ruButtonHover
+{
+	background-position: 100% 0;
+	color: #000000;
+}
+
+/* </buttons> */
+
+/* <submit button> */
+/* (use this class to style a single button for uploads) */
+
+.RadUploadSubmit
+{
+	background-image: url('Upload/ruSprite.png');
+	color: #000000;
+}
+
+/* </submit button> */
+
+/* <progress area> */
+
+.RadUploadProgressArea_Transparent .ruProgress
+{
+	border-color: #9ebfdb;
+	border: 0;
+	background-image: url('Upload/ruSprite.png');
+	background-color: #ffffff;
+	background-color: transparent;
+}
+
+.RadUploadProgressArea_Transparent .ruProgress li
+{
+	color: #000000;
+}
+
+.RadUploadProgressArea_Transparent li.ruProgressHeader
+{
+	color: #000000;
+}
+
+.RadUploadProgressArea_Transparent .ruProgress li.ruCurrentFile
+{
+	color: #000000;
+}
+
+.RadUploadProgressArea_Transparent .ruProgress .ruBar
+{
+	border-color: #abc1de;
+	border: 0;
+	background-image: url('Upload/ruSprite.png');
+}
+ 
+.RadUploadProgressArea_Transparent .ruProgress .ruBar div
+{
+	background-image: url('Upload/ruProgress.gif');
+	border-right: 1px solid #e99d4a;
+	border: 0;
+}
+
+.RadUploadProgressArea_Transparent_rtl .ruProgress .ruBar div
+{
+	background-image: url('Upload/ruProgress.gif');
+	border-right: 0;
+	border-left: 1px solid #e99d4a;
+	border: 0;
+}
+ 
+.RadUploadProgressArea_Transparent .ruProgress .ruActions
+{
+	border-top-color: #9ebfdb;
+	background: #d6e6f4;
+	border: 0;
+	background: none;
+}
+
+/* </progress area> */
+
+/* <RadAsyncUpload> */
+
+.RadUpload_Transparent input.ruUploadInvalid
+{
+	background-repeat: no-repeat;
+	background-position: 100% -297px;
+	background-image: url('Input/sprite.png');
+}
+
+.RadUpload_Transparent_rtl input.ruUploadInvalid
+{
+	background-position: 3px -297px;
+}
+
+.RadUpload_Transparent .ruFileProgress,
+.RadUpload_Transparent .ruFileProgressWrap
+{
+	background-image: url('Upload/AsyncProgress.png');
+}
+
+.RadUpload_Transparent .ruFileProgress,
+.RadUpload_Transparent_rtl .ruFileProgressWrap { background-position: 0 0; }
+.RadUpload_Transparent .ruFileProgressWrap,
+.RadUpload_Transparent_rtl .ruFileProgress { background-position: 100% 0; }
+
+.RadUpload_Transparent .ruProgressStarted,
+.RadUpload_Transparent_rtl .ruProgressComplete { background-position: 0 -5px; }
+.RadUpload_Transparent .ruProgressComplete,
+.RadUpload_Transparent_rtl .ruProgressStarted { background-position: 100% -5px; }
+
+/* </RadAsyncUpload> */

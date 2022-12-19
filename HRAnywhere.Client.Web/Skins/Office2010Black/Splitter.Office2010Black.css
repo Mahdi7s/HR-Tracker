@@ -1,0 +1,166 @@
+/* RadSplitter for ASP.NET AJAX - Office2010Black Skin */
+
+/* Borders */
+.RadSplitter_Office2010Black,
+.RadSplitter_Office2010Black .rspPaneTabContainer,
+
+/* Vertical RadSplitter items */
+.RadSplitter_Office2010Black .rspPane, 
+.RadSplitter_Office2010Black .rspResizeBar,
+.RadSplitter_Office2010Black .rspSlideContainerResize,
+
+/* Horizontal RadSplitter items */
+.RadSplitter_Office2010Black .rspPaneHorizontal,
+.RadSplitter_Office2010Black .rspResizeBarHorizontal,
+.RadSplitter_Office2010Black .rspSlideContainerResizeHorizontal
+{
+	border-color:#2c2c2c;
+}
+
+/* When ShowContentDuringLoad="false" */
+.RadSplitter_Office2010Black .rspLoading
+{
+    background-image: url('Common/loading.gif');
+}
+
+/* RadSplitBar/RadSlidingPane resize elements */
+.RadSplitter_Office2010Black .rspResizeBar,
+.RadSplitter_Office2010Black .rspSlideContainerResize
+{
+	background:#ececec url('Splitter/ResizeBarVerticalSprites.gif') repeat-y 0 0;
+    border-right-color:#2c2c2c;
+}
+
+.RadSplitter_Office2010Black .rspResizeBarOver,
+.RadSplitter_Office2010Black .rspSlideContainerResizeOver
+{
+    background-position:-4px 0;
+}
+
+.RadSplitter_Office2010Black .rspResizeBarHorizontal,
+.RadSplitter_Office2010Black .rspSlideContainerResizeHorizontal
+{
+	background:#ececec url('Splitter/ResizeBarHorizontalSprites.gif') repeat-x 0 0;
+    border-bottom-color:#2c2c2c;
+}
+
+.RadSplitter_Office2010Black .rspResizeBarOverHorizontal,
+.RadSplitter_Office2010Black .rspSlideContainerResizeOverHorizontal
+{
+    background-position:0 -4px;
+}
+
+/* RadSlidingPane tab */
+.RadSplitter_Office2010Black .rspPaneTabContainer,
+/* RadSlidingPane buttons */
+.RadSplitter_Office2010Black .rspSlideHeaderDockIcon,
+.RadSplitter_Office2010Black .rspSlideHeaderUndockIcon,
+.RadSplitter_Office2010Black .rspSlideHeaderCollapseIcon,
+/* RadSplitBar buttons */
+.RadSplitter_Office2010Black .rspCollapseBarExpand,
+.RadSplitter_Office2010Black .rspCollapseBarCollapse,
+
+.RadSplitter_Office2010Black .rspCollapseBarHorizontalExpand,
+.RadSplitter_Office2010Black .rspCollapseBarHorizontalCollapse
+{
+    background-image:url('Splitter/ExpandCollapseBarsCommands.gif');
+    background-repeat:no-repeat;
+}
+
+/* RadSlidingPane tab */
+.RadSplitter_Office2010Black .rspPaneTabContainer
+{
+    background-position:-81px 0;
+    background-repeat:repeat-y;
+}
+
+/* RadSplitBar buttons */
+.RadSplitter_Office2010Black .rspCollapseBarCollapse
+{	
+	background-position:0 0;
+}
+.RadSplitter_Office2010Black .rspCollapseBarCollapseOver
+{
+    background-position:-192px 0;
+}
+
+.RadSplitter_Office2010Black .rspCollapseBarExpand
+{	
+	background-position:-4px 0;
+}
+table.RadSplitter_Office2010Black .rspCollapseBarExpandOver
+{
+    background-position:-196px 0;
+}
+
+.RadSplitter_Office2010Black .rspCollapseBarHorizontalExpand
+{
+    background-position:-8px -4px;
+}
+.RadSplitter_Office2010Black .rspCollapseBarHorizontalExpandOver
+{
+    background-position:-8px -12px;
+}
+
+.RadSplitter_Office2010Black .rspCollapseBarHorizontalCollapse
+{
+    background-position:-8px 0;
+}
+.RadSplitter_Office2010Black .rspCollapseBarHorizontalCollapseOver
+{
+    background-position:-8px -8px;
+}
+
+/* RadSlidingPane buttons */
+.RadSplitter_Office2010Black .rspSlideHeaderUndockIcon
+{
+	background-position:-50px 0;
+}
+
+.RadSplitter_Office2010Black .rspSlideHeaderDockIcon
+{
+	background-position:-35px 0;
+}
+
+.RadSplitter_Office2010Black .rspSlideHeaderCollapseIcon
+{
+	background-position:-65px 0;
+}
+
+/* RadSlidingPane header */
+.RadSplitter_Office2010Black .rspSlideHeader, 
+/* RadSlidingPane title */
+.RadSplitter_Office2010Black .rspSlideTitleContainer,
+/* RadSlidingPane tab, SlideDirection=Top/Bottom */
+.RadSplitter_Office2010Black .rspBottom .rspPaneTabContainer,
+.RadSplitter_Office2010Black .rspTop .rspPaneTabContainer
+{
+	background-image:url('Splitter/slideTitleContainerBgr.gif');
+	background-repeat:repeat-x;
+}
+
+.RadSplitter_Office2010Black .rspBottom .rspPaneTabContainer,
+.RadSplitter_Office2010Black .rspTop .rspPaneTabContainer
+{
+    background-position:0 -1px;
+}
+
+/* RadSlidingPane title text */
+.RadSplitter_Office2010Black .rspSlideTitle,
+/* RadSlidingPane tab text */
+.RadSplitter_Office2010Black .rspPaneTabText
+{
+	font:normal 10px "Segoe UI", Arial, Sans-serif;
+	color:#fff;
+}
+.RadSplitter_Office2010Black .rspSlideTitle
+{	
+	font-size:12px;
+}
+
+/* RadSlidingPane content - this element should not be transparent as it shows above content in adjacent RadPanes */
+.RadSplitter_Office2010Black .rspSlideContent
+{
+	background-color:#4b4b4b;
+	color: #fff;
+}

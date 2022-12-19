@@ -1,0 +1,78 @@
+/*Telerik RadDataPager Simple Skin*/
+
+.RadDataPager_Simple
+{
+	border:1px solid #999;
+	background:#e4e4e4;
+	color:#000;
+}
+
+.RadDataPager_Simple .rdpPageFirst,
+.RadDataPager_Simple .rdpPagePrev,
+.RadDataPager_Simple .rdpPageNext,
+.RadDataPager_Simple .rdpPageLast
+{
+	background:transparent no-repeat url('Grid/sprite.gif');
+}
+
+.RadDataPager_Simple .rdpPageFirst
+{
+	background-position:0 -550px;
+}
+.RadDataPager_Simple .rdpPageFirst:hover
+{
+	background-position:0 -600px;
+}
+.RadDataPager_Simple .rdpPagePrev
+{
+	background-position:0 -700px;
+}
+.RadDataPager_Simple .rdpPagePrev:hover
+{
+	background-position:0 -750px;
+}
+.RadDataPager_Simple .rdpPageNext
+{
+	background-position:0 -850px;
+}
+.RadDataPager_Simple .rdpPageNext:hover
+{
+	background-position:0 -900px;
+}
+.RadDataPager_Simple .rdpPageLast
+{
+	background-position:0 -1000px;
+}
+.RadDataPager_Simple .rdpPageLast:hover
+{
+	background-position:0 -1050px;
+}
+
+.RadDataPager_Simple .rdpPagerButton
+{
+	border:1px solid #7e7e7e;
+	background:#c6c6c6;
+	color:#000;
+	font:12px/12px "segoe ui",arial,sans-serif;
+}
+
+.RadDataPager_Simple .rdpNumPart a
+{
+	border:1px solid #e4e4e4;
+	color:#000;
+}
+
+.RadDataPager_Simple .rdpNumPart a:hover
+{
+	border-color:#c98400;
+	background:#ffe79c;
+	color:#892500;
+}
+
+.RadDataPager_Simple .rdpNumPart a.rdpCurrentPage,
+.RadDataPager_Simple .rdpNumPart a.rdpCurrentPage:hover
+{
+	border-color:#ca4b0c;
+	background:transparent;
+	color:#892500;
+}

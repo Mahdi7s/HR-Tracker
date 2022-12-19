@@ -1,0 +1,49 @@
+
+.ReminderDialog_Default,
+.ReminderDialog_Default a
+{
+    color: #333;
+    font: normal 12px/14px "Segoe UI", Arial, sans-serif;
+}
+
+.ReminderDialog_Default .rsRemContentPanel
+{
+    border-color: #828282;
+}
+
+/* <advanced edit title> */
+
+.ReminderDialog_Default .rsModalBgTopLeft,
+.ReminderDialog_Default .rsModalBgTopRight,
+.ReminderDialog_Default .rsModalBgBottomLeft,
+.ReminderDialog_Default .rsModalBgBottomRight
+{
+    background-image: url('Scheduler/rsModalBg.png');
+}
+
+* html .ReminderDialog_Default .rsModalBgTopLeft,
+* html .ReminderDialog_Default .rsModalBgTopRight,
+* html .ReminderDialog_Default .rsModalBgBottomLeft,
+* html .ReminderDialog_Default .rsModalBgBottomRight
+{
+    background-image: url('Scheduler/rsModalBgIE6.png');
+}
+
+.ReminderDialog_Default a.rsRemTitleBarCloseBtn:hover
+{
+    background-position: -30px -341px;
+}
+
+.ReminderDialog_Default .rsRemTitleIcon,
+.ReminderDialog_Default .rsRemTitleBarIcon,
+.ReminderDialog_Default a.rsRemTitleBarCloseBtn,
+.ReminderDialog_Default .rsRemActions a.rsRemDismissAllBtn,
+.ReminderDialog_Default .rsRemActions a.rsRemOpenItemBtn,
+.ReminderDialog_Default .rsRemActions a.rsRemDismissBtn,
+.ReminderDialog_Default .rsRemSnoozePanel a.rsRemSnoozeBtn
+{
+    color: #333;
+    background-image: url('Scheduler/rsSprites.png');
+}
+
+/* </advanced edit title> */

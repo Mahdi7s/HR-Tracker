@@ -1,0 +1,26 @@
+.RadTagCloud_Vista
+{
+	border: 1px dotted #6e9ded;
+}
+.RadTagCloud_Vista .rtcTagList .rtcTagItem
+{
+	color: #6e9ded;
+}
+.RadTagCloud_Vista .rtcTagList .rtcTagItem:hover
+{
+	color: #0c94a3;
+}
+.RadTagCloud_Vista .rtcTagList .rtcTagItem a
+{
+	color: #000;
+}
+.RadTagCloud_Vista .rtcTagList .rtcTagItem a:hover
+{
+	background: #ecf6fd;
+}
+
+/* Loading image */
+.rtcLoading.RadTagCloud_Vista
+{
+	background-image: url('Common/loading_small.gif');
+}

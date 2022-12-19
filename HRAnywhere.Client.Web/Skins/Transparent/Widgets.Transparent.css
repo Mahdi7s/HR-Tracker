@@ -1,0 +1,22 @@
+/* this is the topmost cell of the dialogs that have RadTabStrip */
+
+.reSpinBox .radfd_skipme,
+.selectedFileName,
+.reTableWizardSelectAllBtn
+{
+    color: #000;
+}
+
+.rfeUploadInfoPanel
+{
+    background: transparent !important;
+    border: solid 1px #cbcbcb !important;
+}
+
+/*Sprite from RFE*/
+
+.RadToolBar_Transparent .rtbText
+{
+	background-image: url('FileExplorer/FileExplorerToolbarSprites.png');
+	background-repeat: no-repeat;
+}

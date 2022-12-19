@@ -1,0 +1,21 @@
+.RadSiteMap_Default .rsmLink,
+.RadSiteMap_Default .rsmTemplate
+{
+	font-family: "Segoe UI", Arial, sans-serif;
+	border-bottom: 2px solid #CCC;
+	color: #333;
+}
+
+.RadSiteMap_Default .rsmLink:hover
+{
+	color: #888;
+}
+
+.RadSiteMap_Default .rsmLevel2 .rsmLink:hover,
+.RadSiteMap_Default .rsmThreeLevels .rsmLevel1 .rsmLink:hover,
+.RadSiteMap_Default .rsmTwoLevels .rsmLevel1 .rsmLink:hover,
+.RadSiteMap_Default .rsmOneLevel .rsmItem .rsmLink:hover
+{
+	color: #333;
+	background: #c5c5c5 url('SiteMap/rsmHover.png') repeat-x 0 0;
+}

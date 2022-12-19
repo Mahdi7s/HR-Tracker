@@ -1,0 +1,271 @@
+/* RadButton Simple Skin */
+
+.RadButton_Simple.rbSkinnedButton,
+.RadButton_Simple .rbDecorated,
+.RadButton_Simple .rbSecondaryIcon,
+.RadButton_Simple.rbVerticalButton,
+.RadButton_Simple.rbVerticalButton .rbDecorated
+{
+	background-image: none;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0)
+{
+    a.RadButton_Simple.RadButton input.rbDecorated,
+    a.RadButton_Simple.RadButton input.rbDecorated,
+    a.RadButton_Simple.RadButton input.rbDecorated:active,
+    a.RadButton_Simple.RadButton input.rbDecorated:focus
+    {
+    	background-color: transparent;
+    	border: 0;
+    }
+}
+
+/*Simple Split Button Overrides*/
+.RadButton_Simple .rbSplitRight,
+.RadButton_Simple .rbSplitLeft
+{
+	background-image:url('Button/ButtonSprites.gif');
+}
+
+.RadButton_Simple .rbSplitRight,
+.RadButton_Simple.rbLinkButton .rbSplitRight
+{
+	background-position: 0 0;
+	background-color: #c6c6c6;
+	border-left: 1px solid #959595;
+}
+
+.RadButton_Simple.rbLinkButton.rbDisabled .rbSplitRight
+{
+	background-position: 0 0;
+}
+
+*html .RadButton_Simple .rbSplitRight
+{
+	right: -1px;
+}
+
+*html .RadButton_Simple.rbDisabled .rbSplitRight
+{
+	right: 0;
+}
+
+.RadButton_Simple.rbLinkButton .rbSplitRight
+{
+	background-color: #fff;
+	border-left: 1px solid #eee;
+}
+
+.RadButton_Simple .rbSplitRight:hover,
+.RadButton_Simple.rbLinkButton .rbSplitRight:hover
+{
+	background-color: #ffe79c;
+	border-left: 1px solid #c98400;
+}
+
+.RadButton_Simple .rbSplitRight:focus,
+.RadButton_Simple .rbSplitRight:active,
+.RadButton_Simple.rbLinkButton .rbSplitRight:focus,
+.RadButton_Simple.rbLinkButton .rbSplitRight:active
+{
+	background-color: #ffa517;
+	border-left: 1px solid #ca4b0c;
+}
+
+.RadButton_Simple .rbSplitLeft,
+.RadButton_Simple.rbLinkButton .rbSplitLeft
+{
+	background-position: 0 0;
+	background-color: #c6c6c6;
+	border-right: 1px solid #959595;
+}
+
+.RadButton_Simple.rbLinkButton .rbSplitLeft
+{
+	background-color: #fff;
+	border-right: 1px solid #eee;
+}
+
+.RadButton_Simple .rbSplitLeft:hover,
+.RadButton_Simple.rbLinkButton .rbSplitLeft:hover
+{
+	background-color: #ffe79c;
+	border-right: 1px solid #c98400;
+}
+
+.RadButton_Simple.rbDisabled .rbSplitLeft,
+.RadButton_Simple.rbDisabled .rbSplitLeft:hover,
+.RadButton_Simple.rbDisabled .rbSplitLeft:focus,
+.RadButton_Simple.rbDisabled .rbSplitLeft:active,
+.RadButton_Simple.rbLinkButton.rbDisabled .rbSplitLeft,
+.RadButton_Simple.rbLinkButton.rbDisabled .rbSplitLeft:hover,
+.RadButton_Simple.rbLinkButton.rbDisabled .rbSplitLeft:active,
+.RadButton_Simple.rbLinkButton.rbDisabled .rbSplitLeft:focus,
+.RadButton_Simple.rbDisabled .rbSplitRight,
+.RadButton_Simple.rbLinkButton.rbDisabled .rbSplitRight
+{
+	background-position: 0 0;
+	background-color: #F9F8F8;
+}
+
+/* Needed fo IE6 */
+*html .rbDisabled .rbSplitRight,
+*html .rbDisabled .rbSplitRight:hover,
+*html .rbDisabled .rbSplitRight:focus,
+*html .rbDisabled .rbSplitRight:active,
+*html .rbDisabled .rbSplitLeft,
+*html .rbDisabled .rbSplitLeft:hover,
+*html .rbDisabled .rbSplitLeft:focus,
+*html .rbDisabled .rbSplitLeft:active
+{
+	background-position: 0 0 !important;
+}
+
+.RadButton_Simple.rbDisabled .rbSplitLeft,
+.RadButton_Simple.rbDisabled .rbSplitLeft:hover,
+.RadButton_Simple.rbDisabled .rbSplitLeft:focus,
+.RadButton_Simple.rbDisabled .rbSplitLeft:active,
+.RadButton_Simple.rbLinkButton.rbDisabled .rbSplitLeft,
+.RadButton_Simple.rbLinkButton.rbDisabled .rbSplitLeft:hover,
+.RadButton_Simple.rbLinkButton.rbDisabled .rbSplitLeft:active,
+.RadButton_Simple.rbLinkButton.rbDisabled .rbSplitLeft:focus
+{
+	border-right: 1px solid #D0D0D0;
+}
+
+.RadButton_Simple.rbDisabled .rbSplitRight,
+.RadButton_Simple.rbLinkButton.rbDisabled .rbSplitRight
+{
+	border-left: 1px solid #D0D0D0;
+}
+
+.RadButton_Simple .rbSplitLeft:focus,
+.RadButton_Simple .rbSplitLeft:active,
+.RadButton_Simple.rbLinkButton .rbSplitLeft:focus,
+.RadButton_Simple.rbLinkButton .rbSplitLeft:active
+{
+	background-color: #ffa517;
+	border-right: 1px solid #ca4b0c;
+}
+
+.RadButton_Simple.rbSkinnedButton,
+.RadButton_Simple.rbVerticalButton,
+.RadButton_Simple .rbDecorated
+{
+	background-color: #c6c6c6;
+}
+
+.RadButton_Simple.rbSkinnedButton,
+.RadButton_Simple.rbVerticalButton
+{
+	border: 1px solid #7e7e7e;
+}
+
+*html .RadButton_Simple.rbSkinnedButton,
+*html .RadButton_Simple.rbVerticalButton
+{
+	border: 1px solid #7e7e7e !important;
+}
+
+.RadButton_Simple.rbSkinnedButton:hover,
+.RadButton_Simple.rbVerticalButton:hover,
+.RadButton_Simple:hover .rbDecorated
+{
+	background-color: #ffe79c;
+	color: #b12524;
+}
+
+.RadButton_Simple.rbSkinnedButton:hover,
+.RadButton_Simple.rbVerticalButton:hover
+{
+	border: 1px solid #c98400;
+}
+
+.RadButton_Simple.rbSkinnedButtonChecked,
+.RadButton_Simple.rbSkinnedButtonChecked:hover,
+.RadButton_Simple.rbSkinnedButtonChecked .rbDecorated,
+.RadButton_Simple.rbSkinnedButtonChecked:hover .rbDecorated
+{
+	background-color: #ffa517;
+}
+
+.RadButton_Simple .rbToggleCheckbox,
+.RadButton_Simple .rbToggleCheckboxChecked,
+.RadButton_Simple .rbToggleCheckboxFilled,
+.RadButton_Simple .rbToggleRadio,
+.RadButton_Simple .rbToggleRadioChecked
+{
+		background-image:url('Button/ToggleSprite.gif');
+}
+
+.RadButton_Simple.rbToggleButton,
+.RadButton_Simple.rbToggleButton.rbDisabled,
+.RadButton_Simple.rbToggleButton.rbDisabled:hover
+{
+	color: #000;
+}
+
+.RadButton_Simple.rbDisabled .rbDecorated,
+.RadButton_Simple.rbDisabled:hover .rbDecorated,
+.RadButton_Simple.rbToggleButton:hover
+{
+	color: #6a6a6a;
+}
+
+.RadButton_Simple.rbLinkButton
+{
+	border: 1px solid #eee;
+	text-decoration: none;
+	color: #000;
+}
+
+.RadButton_Simple.rbLinkButton:hover
+{
+	background-color: #ffe79c;
+	color: #000;
+}
+
+.RadButton_Simple.rbLinkButtonChecked,
+.RadButton_Simple.rbLinkButtonChecked:hover
+{
+	background-color: #ffa517;
+	border: 1px solid #7e7e7e;
+}
+.RadButton_Simple.rbLinkButtonChecked:hover
+{
+	color: #b12524;
+	border: 1px solid #c98400;
+}
+
+.RadButton_Simple.rbSkinnedButton,
+.RadButton_Simple .rbDecorated
+{
+	height: 20px;
+}
+
+.RadButton_Simple.rbSkinnedButton.rbDisabled,
+.RadButton_Simple.rbVerticalSkinnedButton.rbDisabled,
+.RadButton_Simple.rbLinkButton.rbDisabled,
+.RadButton_Simple.rbLinkButton.rbDisabled:hover
+{
+	background-color: #f9f8f8;
+	border: 1px solid #d0d0d0;
+	color: #6a6a6a;
+	cursor: default;
+}
+
+.RadButton_Simple.rbSkinnedButton.rbDisabled .rbDecorated,
+.RadButton_Simple.rbLinkButton.rbDisabled,
+.RadButton_Simple.rbLinkButton.rbDisabled:hover
+{
+	background-color: #f9f8f8;
+	color: #6a6a6a;
+}
+
+/* IE6 Fix, should be important to override the joint selectors */
+*html .RadButton_Simple.rbLinkButton,
+*html .RadButton_Simple.rbLinkButton:hover
+{
+	border: 1px solid #eee !important;
+}

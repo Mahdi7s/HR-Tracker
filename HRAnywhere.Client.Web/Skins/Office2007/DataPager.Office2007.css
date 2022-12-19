@@ -1,0 +1,96 @@
+/*Telerik RadDataPager Office2007 Skin*/
+
+.RadDataPager_Office2007
+{
+	border:1px solid #688caf;
+	background:#ecf3fc 0 -7000px repeat-x url('Grid/sprite.gif');
+	color:#333;
+}
+
+.RadDataPager_Office2007 .rdpPageFirst,
+.RadDataPager_Office2007 .rdpPagePrev,
+.RadDataPager_Office2007 .rdpPageNext,
+.RadDataPager_Office2007 .rdpPageLast
+{
+	background:transparent no-repeat url('Grid/sprite.gif');
+}
+
+.RadDataPager_Office2007 .rdpPageFirst
+{
+	margin:0 3px 0 0;
+	background-position:0 -550px;
+}
+.RadDataPager_Office2007 .rdpPageFirst:hover
+{
+	background-position:0 -600px;
+}
+.RadDataPager_Office2007 .rdpPagePrev
+{
+	margin:0 3px 0 0;
+	background-position:0 -700px;
+}
+.RadDataPager_Office2007 .rdpPagePrev:hover
+{
+	background-position:0 -750px;
+}
+.RadDataPager_Office2007 .rdpPageNext
+{
+	margin:0 0 0 3px;
+	background-position:0 -850px;
+}
+.RadDataPager_Office2007 .rdpPageNext:hover
+{
+	background-position:0 -900px;
+}
+.RadDataPager_Office2007 .rdpPageLast
+{
+	margin:0 0 0 3px;
+	background-position:0 -1000px;
+}
+.RadDataPager_Office2007 .rdpPageLast:hover
+{
+	background-position:0 -1050px;
+}
+
+.RadDataPager_Office2007 .rdpPagerButton
+{
+	border:1px solid #7793b9;
+	background:#e8f1fc repeat-x 0 -1550px url('Grid/sprite.gif');
+	color:#00156e;
+	font:12px/12px "segoe ui",arial,sans-serif;
+}
+
+.RadDataPager_Office2007 .rdpNumPart a:hover,
+.RadDataPager_Office2007 .rdpNumPart a:hover span,
+.RadDataPager_Office2007 .rdpNumPart a.rdpCurrentPage,
+.RadDataPager_Office2007 .rdpNumPart a.rdpCurrentPage span
+{
+	background:no-repeat url('Grid/sprite.gif');
+}
+
+.RadDataPager_Office2007 .rdpNumPart a
+{
+	color:#00156e;
+}
+
+.RadDataPager_Office2007 .rdpNumPart a:hover
+{
+	background-position:100% -1250px;
+}
+
+.RadDataPager_Office2007 .rdpNumPart a:hover span
+{
+	background-position:0 -1150px;
+}
+
+.RadDataPager_Office2007 .rdpNumPart a.rdpCurrentPage,
+.RadDataPager_Office2007 .rdpNumPart a.rdpCurrentPage:hover
+{
+	background-position:100% -1450px;
+}
+
+.RadDataPager_Office2007 .rdpNumPart a.rdpCurrentPage span,
+.RadDataPager_Office2007 .rdpNumPart a.rdpCurrentPage:hover span
+{
+	background-position:0 -1350px;
+}

@@ -1,0 +1,205 @@
+/*Telerik RadFilter Outlook skin*/
+
+/*sprite*/
+
+.RadFilter_Outlook .rfLeft,
+.RadFilter_Outlook .rfMid,
+.RadFilter_Outlook .rfTools,
+.RadFilter_Outlook .rfRight,
+.RadFilter_Outlook .rfOper:hover,
+.RadFilter_Outlook .rfField:hover,
+.RadFilter_Outlook .rfExp:hover,
+.RadFilter_Outlook .rfOper:focus,
+.RadFilter_Outlook .rfField:focus,
+.RadFilter_Outlook .rfExp:focus,
+.RadFilter_Outlook .rfOper:active,
+.RadFilter_Outlook .rfField:active,
+.RadFilter_Outlook .rfExp:active,
+.RadFilter_Outlook .rfAddGr,
+.RadFilter_Outlook .rfAddExp,
+.RadFilter_Outlook .rfDel,
+.RadFilter_Outlook .rfApply a,
+.RadFilter_Outlook .rfApply input
+{
+	background-image:url('Filter/sprite.gif');
+}
+
+/*global*/
+
+.RadFilter_Outlook,
+.RadFilter_Outlook .rfText,
+.RadFilter_Outlook .rfApply input
+{
+	font-size:12px;
+	font-family:"segoe ui",arial,sans-serif;
+}
+
+.RadFilter_Outlook,
+.RadFilter_Outlook a,
+.RadFilter_Outlook .rfText
+{
+	color:#000;
+}
+
+/*lines*/
+
+.RadFilter_Outlook .rfLines li li
+{
+	background-image:url('Filter/rfLine.gif');
+}
+
+.RadFilter_Outlook .rfLines li li .rfDiv
+{
+	background-image:url('Filter/rfMiddle.gif');
+}
+
+.RadFilter_Outlook .rfLines li li.rfLast .rfDiv
+{
+	background-image:url('Filter/rfLast.gif');
+}
+
+/*item elements*/
+
+.RadFilter_Outlook .rfLeft
+{
+	background-position:0 0;
+}
+
+.RadFilter_Outlook .rfRight
+{
+	background-position:100% 0;
+}
+
+.RadFilter_Outlook .rfMid,
+.RadFilter_Outlook .rfTools
+{
+	background-position:0 -100px;
+}
+
+.RadFilter_Outlook .rfField
+{
+	color:#00156e;
+}
+
+.RadFilter_Outlook .rfOper:hover,
+.RadFilter_Outlook .rfField:hover,
+.RadFilter_Outlook .rfExp:hover,
+.RadFilter_Outlook .rfOper:focus,
+.RadFilter_Outlook .rfField:focus,
+.RadFilter_Outlook .rfExp:focus,
+.RadFilter_Outlook .rfOper:active,
+.RadFilter_Outlook .rfField:active,
+.RadFilter_Outlook .rfExp:active
+{
+	background-position:100% -76px;
+	color:#000;
+}
+
+.RadFilter_Outlook .rfText
+{
+	border-color:#c3d9f9;
+	background-color:#fff;
+}
+
+.RadFilter_Outlook .rfAddExp,
+.RadFilter_Outlook .rfAddGr,
+.RadFilter_Outlook .rfDel
+{
+	height:20px;
+	margin-top:3px;
+}
+
+.RadFilter_Outlook .rfAddExp
+{
+	background-position:-300px 0;
+}
+.RadFilter_Outlook .rfAddExp:hover
+{
+	background-position:-350px 0;
+}
+
+.RadFilter_Outlook .rfAddGr
+{
+	background-position:-400px 0;
+}
+.RadFilter_Outlook .rfAddGr:hover
+{
+	background-position:-450px 0;
+}
+
+.RadFilter_Outlook .rfDel
+{
+	background-position:-150px 0;
+}
+.RadFilter_Outlook .rfDel:hover
+{
+	background-position:-200px 0;
+}
+
+/*preview*/
+
+.RadFilter_Outlook .rfPreview strong
+{
+	color:#00156e;
+}
+
+.RadFilter_Outlook .rfPreview em,
+.RadFilter_Outlook .rfPreview .rfBr
+{
+	color:#5e83b8;
+}
+
+/*apply*/
+
+.RadFilter_Outlook .rfApply a
+{
+	background-position:100% -29px;
+}
+.RadFilter_Outlook .rfApply input
+{
+	background-position:0 -50px;
+}
+.RadFilter_Outlook .rfApply input
+{
+	color:#000;
+}
+
+/*rtl*/
+
+.RadFilterRTL_Outlook .rfLines li li
+{
+	background-image:url('Filter/rfLine-rtl.gif');
+}
+
+.RadFilterRTL_Outlook .rfLines li li .rfDiv
+{
+	background-image:url('Filter/rfMiddle-rtl.gif');
+}
+
+.RadFilterRTL_Outlook .rfLines li li.rfLast .rfDiv
+{
+	background-image:url('Filter/rfLast-rtl.gif');
+}
+
+.RadFilterRTL_Outlook .rfLeft
+{
+	background-position:100% 0;
+}
+
+.RadFilterRTL_Outlook .rfRight
+{
+	background-position:0 0;
+}
+
+.RadFilterRTL_Outlook .rfOper:hover,
+.RadFilterRTL_Outlook .rfField:hover,
+.RadFilterRTL_Outlook .rfExp:hover,
+.RadFilterRTL_Outlook .rfOper:focus,
+.RadFilterRTL_Outlook .rfField:focus,
+.RadFilterRTL_Outlook .rfExp:focus,
+.RadFilterRTL_Outlook .rfOper:active,
+.RadFilterRTL_Outlook .rfField:active,
+.RadFilterRTL_Outlook .rfExp:active
+{
+	background-position:-586px -76px;
+}

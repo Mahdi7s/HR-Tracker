@@ -1,0 +1,69 @@
+
+.RecurrenceEditor_Sunset
+{
+	color: #333;
+	font: normal 12px/14px "Segoe UI", Arial, sans-serif;
+}
+
+/* <xref input skins> */
+
+.RecurrenceEditor_Sunset .rsAdvInput,
+.RecurrenceEditor_Sunset select
+{
+	border-color: #bcae9b;
+}
+
+.RecurrenceEditor_Sunset .rsInvalid input,
+.RecurrenceEditor_Sunset .rsAdvTimePicker .riEmpty
+{
+	background-image: url('Input/sprite.gif');
+}
+
+.RecurrenceEditor_Sunset .rsInvalid
+{
+	border-color: #e92600;
+	color: #e92600;
+}
+/* </xref input skins> */
+
+.RecurrenceEditor_Sunset h2,
+.RecurrenceEditor_Sunset h3
+{
+	color: #ba3d01;
+}
+
+.RecurrenceEditor_Sunset h2
+{
+	border-bottom: 1px solid #bcae9b;
+}
+
+.RecurrenceEditor_Sunset h2 span
+{
+	background: #eae5d7;
+}
+
+.RecurrenceEditor_Sunset .rsAdvRecurrenceFreq
+{
+	border-right: 1px solid #fff;
+}
+
+.RecurrenceEditor_Sunset ul.rsRecurrenceOptionList
+{
+	border-right: 1px solid #bcae9b;
+}
+
+.RecurrenceEditor_Sunset div.rsAdvPatternPanel
+{
+	border-left: 0;
+}
+
+/* <date/time picker> */
+
+.RecurrenceEditor_Sunset .rsTimePick .RadInput_Sunset input.riEnabled,
+.RecurrenceEditor_Sunset .rsTimePick .RadInput_Sunset input.riHover,
+.RecurrenceEditor_Sunset .rsTimePick .RadInput_Sunset input.riFocused
+{
+	background-image: url('Scheduler/rsSprites.png');
+}
+
+/* </date/time picker> */

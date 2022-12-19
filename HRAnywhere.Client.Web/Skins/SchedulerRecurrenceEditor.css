@@ -1,0 +1,368 @@
+/* RecurrenceEditor base stylesheet */
+
+.RecurrenceEditor *
+{
+	margin:0;
+	padding:0;
+}
+
+.RecurrenceEditor ul
+{
+	zoom: 1;
+	list-style: none outside;
+}
+
+.RecurrenceEditor label 
+{
+	vertical-align: middle;
+	line-height: 23px;
+	width: 75px;
+	padding: 0 6px 0 0;
+	margin: 0;
+	display: -moz-inline-block;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	text-align: right;
+}
+
+.RecurrenceEditor select
+{
+	border-width: 1px;
+	border-style: solid;
+	vertical-align: middle;
+}
+
+.RecurrenceEditor .rsAdvInput
+{
+	padding: 3px 0 2px 1px;
+	outline: 0;
+	vertical-align: middle;
+}
+
+.RecurrenceEditor .rfdSelect 
+{
+	vertical-align: top;
+	overflow: visible;
+}
+
+.RecurrenceEditor .rfdSelect .rfdSelectOuter
+{
+	float: none;
+	height: 18px;
+}
+
+.RecurrenceEditor .rsAdvRecurrencePatterns input,
+.RecurrenceEditor .rsAdvRecurrencePatterns select,
+.RecurrenceEditor .rsAdvRecurrenceRangePanel input,
+.RecurrenceEditor .rsAdvMoreControls input
+{
+	vertical-align: baseline;
+}
+
+.RecurrenceEditor .rsAdvRecurrence
+{
+	position: relative;
+}
+
+.RecurrenceEditor .rsAdvResetExceptions
+{
+	position: relative;
+	float: right;
+	right: 10px;
+	text-decoration: underline;
+}
+
+.RadScheduler .rsValidatorTooltip
+{
+	position:absolute;
+	border: 1px solid #f32800;
+	background: #fffdbb;
+	color: #f32800;
+	white-space: nowrap;
+	padding: 2px 4px;
+	margin-top: 1px;
+}
+
+.RecurrenceEditor input.rsInvalid
+{
+	border-width: 1px;
+	border-style: solid;
+	background: #fff;
+}
+
+.RecurrenceEditor .rsInvalid input
+{
+	background-repeat: no-repeat;
+	background-position: 100% -298px;
+}
+
+/*     </common>     */
+
+/*     <basic controls>     */
+
+.RecurrenceEditor .rsAdvBasicControls li
+{
+	float: left;
+	white-space: nowrap;
+}
+
+.RecurrenceEditor .rsAdvRecurrenceRangePanel
+{
+	clear: both;
+}
+
+.RecurrenceEditor .rsAdvRecurrenceRangePanel li
+{
+	float: left;
+	height: 23px;
+	line-height: 23px;
+	margin-right: 28px;
+}
+
+.RecurrenceEditor .rsAdvRecurrenceRangePanel .rsTimePick
+{
+	margin-right: 0;
+}
+
+.RecurrenceEditor .rsAdvChkWrap 
+{
+	float: left;
+	padding-right: 8px;
+}
+
+.RecurrenceEditor div.rsAdvRecurrencePatterns label,
+.RecurrenceEditor div.rsAdvRecurrenceRangePanel label
+{
+	width: auto;
+	display: inline;
+	text-align: left;
+	float: none;
+}
+
+.RecurrenceEditor .rsAdvChkWrap label.rfdCheckboxChecked,
+.RecurrenceEditor .rsAdvChkWrap label.rfdCheckboxUnchecked
+{
+	padding-left: 20px; /* override for form-decorated checkboxes */
+}
+
+.RecurrenceEditor .rsAdvRadio
+{
+	display: -moz-inline-block;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+}
+
+.RecurrenceEditor .rsAdvRadio label
+{
+	vertical-align: baseline;
+}
+
+.RecurrenceEditor .rsAdvChkWrap input,
+.RecurrenceEditor .rsRecurrenceOptionList input,
+.RecurrenceEditor .rsAdvRadio input,
+.RecurrenceEditor .rsAdvWeekly_WeekDays input
+{
+	display: -moz-inline-block;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	vertical-align: middle;
+	margin-right: 3px;
+}
+
+* html .RecurrenceEditor .rsAdvChkWrap input,
+* html .RecurrenceEditor .rsRecurrenceOptionList input,
+* html .RecurrenceEditor .rsAdvRadio input,
+* html .RecurrenceEditor .rsAdvWeekly_WeekDays input
+{
+	margin: 0;
+}
+
+*+html .RecurrenceEditor .rsAdvChkWrap input,
+*+html .RecurrenceEditor .rsRecurrenceOptionList input,
+*+html .RecurrenceEditor .rsAdvRadio input,
+*+html .RecurrenceEditor .rsAdvWeekly_WeekDays input
+{
+	margin: 0;
+}
+
+* html .RecurrenceEditor .rsAdvDatePicker { margin-right: 5px; }
+* html .RecurrenceEditor .rsAdvDatePicker .rdfd_ { display: none !important; }
+
+*+html .RecurrenceEditor .rsAdvDatePicker { margin-right: 8px; }
+*+html .RecurrenceEditor .rsAdvDatePicker .rdfd_ { display: none !important; }
+
+.RecurrenceEditor .rsAdvDatePicker
+{
+	zoom: 1;
+}
+
+.RecurrenceEditor .rsAdvTimePicker
+{
+	display: inline;
+}
+
+.RecurrenceEditor .rsAdvBasicControls .rsAdvTimePicker .riTextBox,
+.RecurrenceEditor .rsAdvDatePicker input
+{
+	vertical-align: top;
+}
+
+.RecurrenceEditor .rsAdvRecurrence
+{
+	margin-bottom: 9px;
+}
+
+/*     </basic controls>     */
+
+/*     <recurrence frequency>     */
+
+.RecurrenceEditor .rsAdvRecurrenceFreq
+{
+	float: left;
+	width: 118px;
+	height: 100px;
+}
+
+.RecurrenceEditor div.rsAdvRecurrenceFreq label
+{
+	line-height: 20px;
+}
+ 
+.RecurrenceEditor .rsAdvPatternPanel
+{
+	float: left;
+	height: 100px;
+	width: 400px;
+	padding-left: 20px;
+	line-height: 23px;
+	border-left: 1px solid #dfdfdf;
+}
+
+.RecurrenceEditor .rsAdvRecurrencePatterns p
+{
+	padding: 4px 0 5px;
+}
+
+* html .RecurrenceEditor .rsAdvRecurrencePatterns .rsAdvHourly .RadInput,
+* html .RecurrenceEditor .rsAdvRecurrencePatterns .rsAdvWeekly .RadInput { vertical-align: middle; }
+* html .RecurrenceEditor .rsAdvRecurrencePatterns .rsAdvYearly .RadInput { margin: -1px 0 0 5px; }
+
+*+html .RecurrenceEditor .rsAdvRecurrencePatterns .rsAdvHourly .RadInput,
+*+html .RecurrenceEditor .rsAdvRecurrencePatterns .rsAdvWeekly .RadInput { vertical-align: middle; }
+*+html .RecurrenceEditor .rsAdvRecurrencePatterns .rsAdvYearly .RadInput { margin: -1px 0 0 5px; }
+
+.RecurrenceEditor .rsAdvWeekly_WeekDays li
+{
+	float: left;
+	width: 95px;
+}
+
+.RecurrenceEditor .rsAdvRecurrencePatterns,
+.RecurrenceEditor .rsAdvRecurrenceRangePanel
+{
+	overflow: hidden;
+	border: 1px solid #ababab;
+	padding: 8px 0 7px 10px;
+	zoom: 1;
+}
+
+.RecurrenceEditor .rsAdvRecurrencePatterns
+{
+	margin: 11px 0 5px;
+}
+
+.RecurrenceEditor .rsAdvRecurrenceRangePanel .rsAdvInput,
+.RecurrenceEditor .rsAdvRecurrencePatterns .rsAdvInput
+{
+	width: 26px;
+	padding-right: 2px;
+}
+
+.RecurrenceEditor .rsAdvRecurrenceRangePanel .RadInput,
+.RecurrenceEditor .rsAdvRecurrencePatterns .RadInput,
+.RecurrenceEditor .rsAdvRecurrenceRangePanel .RadComboBox,
+.RecurrenceEditor .rsAdvRecurrencePatterns .RadComboBox
+{
+	vertical-align: top;
+}
+
+.RecurrenceEditor .riUp
+{
+	margin-top: 2px;
+}
+
+.RecurrenceEditor .rsAdvDaily li,
+.RecurrenceEditor .rsAdvMonthly li,
+.RecurrenceEditor .rsAdvYearly li
+{
+	line-height: 23px;
+	height: 23px;
+	margin-bottom: 5px;
+}
+
+/*     </recurrence frequency>     */
+
+/* <date/time picker> */
+
+.RecurrenceEditor .rsDatePickerCalendar .rcRow a
+{
+	line-height: inherit;
+}
+
+.RecurrenceEditor .rsTimePickers
+{
+	display: -moz-inline-block;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	margin: 5px 0;
+}
+
+.RecurrenceEditor .rsTimePick
+{
+	width: 244px;
+}
+
+.RecurrenceEditor .rsTimePick .RadPicker
+{
+	display: -moz-inline-block;
+	display: inline-block;
+	*display: inline;
+}
+
+* html .RecurrenceEditor .rsTimePick .RadPicker { zoom: 1; }
+
+.RecurrenceEditor .rsAttributeControls li,
+.RecurrenceEditor .rsResourceControls li
+{
+	padding-bottom: 5px;
+}
+.RecurrenceEditor .rsAttributeControls li li,
+.RecurrenceEditor .rsResourceControls li li
+{
+	padding-bottom: 0;
+}
+
+.RecurrenceEditor .rsAllDayWrapper
+{
+	float: right;
+	margin-left: 25px;
+}
+
+.RecurrenceEditor .rsTimePick input.riEnabled,
+.RecurrenceEditor .rsTimePick input.riHover,
+.RecurrenceEditor .rsTimePick input.riFocused
+{
+	background-repeat: no-repeat;
+	background-position: 100% -254px;
+}
+
+/* </date/time picker> */
+
+* html .RecurrenceEditor .rsAdvRecurrenceDropDown { margin-right: 5px; }
+*+html .RecurrenceEditor .rsAdvRecurrenceDropDown { margin-right: 5px; }
+
+/* </advanced edit form> */

@@ -1,0 +1,40 @@
+/*RadNotification Telerik Skin*/
+
+.RadNotification_Telerik
+{
+	border: 1px solid #828282;
+	background-color: #fff;
+}
+
+.RadNotification_Telerik.rnShadows
+{
+	box-shadow: 2px 2px 3px #b8b7b7;
+	-webkit-box-shadow: 2px 2px 3px #b8b7b7;
+}
+
+.RadNotification_Telerik .rnTitleBar,
+.RadNotification_Telerik .rnCommands a
+{
+	background-image: url('Notification/NotificationSprite.png');
+}
+
+.RadNotification_Telerik .rnTitleBar
+{
+	border-top: 1px solid #fff;
+}
+
+.RadNotification_Telerik .rnTitleBarTitle
+{
+	color: #000;
+}
+
+.RadNotification_Telerik .rnContentWrapper
+{
+	border-top: 1px solid #c4c4c4;
+}
+
+/* base style overwrites */
+.RadNotification_Telerik .rnCommands
+{
+	margin: 2px 0 0;
+}

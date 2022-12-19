@@ -1,0 +1,211 @@
+/* RadWindow for ASP.NET AJAX Forest Skin */
+
+/* Window Background */
+
+/* Horiznotal */
+.RadWindow_Forest .rwTopLeft,
+.RadWindow_Forest .rwTopRight,
+.RadWindow_Forest .rwTitlebar,
+.RadWindow_Forest .rwFooterLeft,
+.RadWindow_Forest .rwFooterRight,
+.RadWindow_Forest .rwFooterCenter,
+.RadWindow_Forest .rwTopResize,
+.RadWindow_Forest .rwStatusbar div,
+.RadWindow_Forest .rwStatusbar,
+.RadWindow_Forest .rwPopupButton,
+.RadWindow_Forest .rwPopupButton span,
+.RadWindow_Forest.rwMinimizedWindow .rwCorner
+{
+    background-image: url('Window/WindowHorizontalSprites.gif');
+}
+
+/* Vertical */
+.RadWindow_Forest .rwBodyLeft,
+.RadWindow_Forest .rwBodyRight,
+.RadWindow_Forest .rwStatusbarRow .rwCorner
+{
+	background-image: url('Window/WindowVerticalSprites.gif');
+}
+
+/* Window Shadows */
+
+/* Horiznotal */
+.RadWindow_Forest .rwShadow .rwTopLeft,
+.RadWindow_Forest .rwShadow .rwTopRight,
+.RadWindow_Forest .rwShadow .rwTitlebar,
+.RadWindow_Forest .rwShadow .rwFooterLeft,
+.RadWindow_Forest .rwShadow .rwFooterRight,
+.RadWindow_Forest .rwShadow .rwFooterCenter,
+.RadWindow_Forest .rwShadow .rwTopResize,
+.RadWindow_Forest .rwShadow .rwStatusbar div,
+.RadWindow_Forest .rwShadow .rwStatusbar,
+.RadWindow_Forest .rwShadow .rwPopupButton,
+.RadWindow_Forest .rwShadow .rwPopupButton span,
+.RadWindow_Forest .rwShadow .rwBodyLeft,
+.RadWindow_Forest .rwShadow .rwBodyRight,
+.RadWindow_Forest .rwShadow .rwStatusbarRow .rwBodyLeft,
+.RadWindow_Forest .rwShadow .rwStatusbarRow .rwBodyRight
+{
+	background-image: url('Window/WindowHorizontalSprites.png');
+}
+
+/* Vertical */
+.RadWindow_Forest .rwShadow .rwBodyLeft,
+.RadWindow_Forest .rwShadow .rwBodyRight,
+.RadWindow_Forest .rwShadow .rwStatusbarRow .rwBodyLeft,
+.RadWindow_Forest .rwShadow .rwStatusbarRow .rwBodyRight
+{
+	background-image: url('Window/WindowVerticalSprites.png');
+}
+
+/* Shadows End */
+
+.RadWindow_Forest .rwStatusbar input
+{
+    background-color: #f7f3e9;
+}
+
+.RadWindow_Forest .rwControlButtons a
+{
+    background-image: url('Window/CommandButtonSprites.gif');
+}
+
+.RadWindow_Forest a.rwIcon
+{
+	background-image: url('Window/WindowHorizontalSprites.gif');
+}
+
+div.RadWindow_Forest .rwTitlebarControls em
+{
+	color: #e7f1d7;
+}
+
+div.RadWindow_Forest .rwDialogInput
+{
+	border: solid 1px #618740;
+}
+
+div.RadWindow_Forest .rwDialogInput:hover
+{
+	border: solid 1px #3c4c30;
+}
+
+div.RadWindow_Forest .rwPopupButton span
+{
+    color: #e7f1d7;
+}
+
+div.RadWindow_Forest .rwPopupButton:hover span
+{
+    color: #fff;
+}
+
+.RadWindow_Forest td.rwWindowContent
+{
+    background-color: #fff;
+}
+
+/* Loading Indicators */
+div.RadWindow_Forest tr td.rwLoading
+{
+	background-color: #d1deb6;
+}
+
+/* When ShowContentDuringLoad="true" */
+.RadWindow_Forest td.rwWindowContent.rwLoading
+{
+    background-image: url('Common/loading.gif');
+}
+
+/* When ShowContentDuringLoad="false" */
+.RadWindow_Forest input.rwLoading
+{
+    background-image: url('Common/loading_small.gif');
+}
+
+div.RadWindow_Forest a.rwCancel,
+div.RadWindow_Forest a.rwCancel span
+{
+    background: none;
+    cursor: pointer;
+}
+
+div.RadWindow_Forest a.rwCancel span span,
+div.RadWindow_Forest a.rwCancel:hover span span
+{
+    color: #324721;
+    text-decoration: underline;
+}
+
+/* Shadow Control Buttons */
+
+.RadWindow_Forest .rwShadow .rwControlButtons 
+{
+	margin: 6px -2px 0 0;
+}
+
+.RadWindow_Forest .rwShadow .rwControlButtons 
+{
+	margin: 6px -1px 0 0\9;
+}
+
+/* ctrl buttons when winodw is minimized */
+.RadWindow_Forest.rwMinimizedWindowShadow .rwShadow .rwControlButtons 
+{
+	margin: 10px -8px 0 0;
+}
+
+
+/* Icon when winodw is minimized */
+.RadWindow_Forest.rwMinimizedWindowShadow .rwShadow .rwIcon 
+{
+	margin: 9px 6px 0 0;
+}
+
+/*title buttons when winodw is minimized */
+.RadWindow_Forest.rwMinimizedWindowShadow .rwShadow em 
+{
+	margin: 4px 0 0 -1px;
+}
+
+.RadWindow_Forest .rwShadow .rwControlButtons li
+{
+	float: left;
+	padding: 0;
+}
+
+.RadWindow_Forest .rwShadow .rwControlButtons a
+{
+	width: 30px; 
+}
+
+.rwInactiveWindow .rwShadow .rwTopLeft,
+.rwInactiveWindow .rwShadow .rwTopRight,
+.rwInactiveWindow .rwShadow .rwTitlebar,
+.rwInactiveWindow .rwShadow .rwFooterLeft,
+.rwInactiveWindow .rwShadow .rwFooterRight,
+.rwInactiveWindow .rwShadow .rwFooterCenter,
+.rwInactiveWindow .rwShadow .rwTopResize,
+.rwInactiveWindow .rwShadow .rwStatusbar div,
+.rwInactiveWindow .rwShadow .rwStatusbar,
+.rwInactiveWindow .rwShadow .rwPopupButton,
+.rwInactiveWindow .rwShadow .rwPopupButton span,
+.rwInactiveWindow .rwShadow.rwMinimizedWindow .rwCorner,
+.RadWindow_Forest.rwNoTitleBar.rwInactiveWindow .rwShadow .rwTopLeft,
+.RadWindow_Forest.rwNoTitleBar.rwInactiveWindow .rwShadow .rwTitlebar,
+.RadWindow_Forest.rwNoTitleBar.rwInactiveWindow .rwShadow .rwTopRight,
+.RadWindow_Forest.rwNoTitleBar.rwInactiveWindow .rwShadow .rwFooterLeft,
+.RadWindow_Forest.rwNoTitleBar.rwInactiveWindow .rwShadow .rwFooterCenter,
+.RadWindow_Forest.rwNoTitleBar.rwInactiveWindow .rwShadow .rwFooterRight
+{
+    background-image: url('Window/WindowHorizontalSprites.gif') !important;
+}
+
+.rwInactiveWindow .rwShadow .rwBodyLeft,
+.rwInactiveWindow .rwShadow .rwBodyRight,
+.rwInactiveWindow .rwShadow .rwStatusbarRow .rwCorner,
+.RadWindow_Forest.rwNoTitleBar.rwInactiveWindow .rwShadow .rwBodyLeft,
+.RadWindow_Forest.rwNoTitleBar.rwInactiveWindow .rwShadow .rwBodyRight
+{
+	background-image: url('Window/WindowVerticalSprites.gif') !important;
+}

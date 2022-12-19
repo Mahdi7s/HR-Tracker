@@ -1,0 +1,40 @@
+/*RadNotification Vista Skin*/
+
+.RadNotification_Vista
+{
+	border: 1px solid #a7bac5;
+	background-color: #fff;
+}
+
+.RadNotification_Vista.rnShadows
+{
+	box-shadow: 2px 2px 3px #b4b6b8;
+	-webkit-box-shadow: 2px 2px 3px #b4b6b8s;
+}
+
+.RadNotification_Vista .rnTitleBar,
+.RadNotification_Vista .rnCommands a
+{
+	background-image: url('Notification/NotificationSprite.png');
+}
+
+.RadNotification_Vista .rnTitleBar
+{
+	border-bottom: 1px solid #e8f5fc;
+}
+
+.RadNotification_Vista .rnTitleBarTitle
+{
+	color: #039;
+}
+
+.RadNotification_Vista .rnContentWrapper
+{
+	border-top: 1px solid #3c7fb1;
+}
+
+
+
+
+
+

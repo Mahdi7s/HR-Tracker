@@ -1,0 +1,475 @@
+.RadListBox
+{
+	position: relative;
+    vertical-align: top;
+    display: block;
+    display: inline-block;
+    *display: inline;	
+    zoom:1;
+	width: 140px;
+}
+
+/* Fix for FF2 padding on top and bottom buttons */
+.RadListBox, x:-moz-any-link { float: left; }
+.RadListBox, x:-moz-any-link, x:default { float: none; }
+
+.RadListBox .rlbGroup
+{
+	outline: none;
+}
+
+.RadListBox .rlbGroup,
+.RadListBox .rlbButtonAreaTop,
+.RadListBox .rlbButtonAreaBottom,
+.RadListBox .rlbButtonAreaLeft,
+.RadListBox .rlbButtonAreaRight
+{
+    -moz-user-select:-moz-none;
+    -khtml-user-select:none;
+}
+
+* html .RadListBox .rlbGroup
+{
+	top: auto;
+	bottom: auto;
+	zoom: 1;
+}
+
+.RadListBox .rlbList
+{
+    list-style: none outside;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height:100%;
+}
+
+*+html .RadListBox .rlbList
+{
+	zoom: 1;
+}
+
+.RadListBox .rlbItem
+{
+	cursor: default;
+	padding: 2px 5px;
+	white-space: nowrap;
+}
+
+.RadListBox .rlbGroup .rlbActive
+{
+	border: 1px dotted #555;
+	padding: 1px 4px;
+}
+
+*+html .RadListBox .rlbItem
+{
+	overflow: visible;
+}
+
+* html .RadListBox .rlbItem
+{
+	white-space /**/: normal;
+}
+
+.RadListBox .rlbText,
+.RadListBox .rlbTemplate
+{
+    display: inline;
+	white-space: normal;
+}
+
+.RadListBox .rlbTemplate /* Templates should be able to contain floated elements. */
+{
+    -moz-user-select:text;
+	-khtml-user-select:text;
+    display: block;
+    overflow: hidden;
+}
+
+* html .RadListBox .rlbGroupTop .rlbText,
+* html .RadListBox .rlbGroupBottom .rlbText,
+* html .RadListBoxScrollable .rlbText
+{
+    zoom: 1;
+}
+
+.RadListBox .rlbImage
+{
+	padding-right: 2px;
+}
+
+.RadListBox .rlbCheck,
+.RadListBox .rlbImage,
+.RadListBox .rlbText
+{
+	vertical-align: middle;
+}
+
+.RadListBoxButtonArea
+{
+	width: 170px;
+}
+
+.RadListBox .rlbButtonAreaRight
+{
+	float: right;
+}
+
+.RadListBox .rlbButtonAreaLeft
+{
+	float: left;
+}
+
+.RadListBoxScrollable .rlbGroup
+{
+	overflow: auto;
+}
+
+.RadListBoxScrollable .rlbGroupLeft,
+.RadListBoxScrollable .rlbGroupRight,
+.RadListBoxScrollable .rlbGroupTop,
+.RadListBoxScrollable .rlbGroupBottom
+{
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+}
+* html .RadListBoxScrollable .rlbGroupLeft,
+* html .RadListBoxScrollable .rlbGroupRight
+{
+	height: 100%;
+}
+* html .RadListBoxScrollable .rlbGroupTop,
+* html .RadListBoxScrollable .rlbGroupBottom
+{
+	width: 100%;
+}
+
+.RadListBox .rlbTemplateContainer
+{
+    height: 100%;
+    position: relative;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.RadListBoxScrollable .rlbTemplateContainer
+{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.RadListBox .rlbTemplateTable
+{
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.RadListBox .rlbTemplateCell
+{
+    height: 1px;
+}
+* html .RadListBox .rlbTemplateCell { height /**/: auto; }
+
+.RadListBox .rlbGroupCell,
+.RadListBox .rlbGroupContainer
+{
+    height: 100%;
+}
+
+.RadListBox .rlbGroupCell
+{
+    height: auto\9;
+    position: relative\9;
+}
+
+.RadListBox .rlbGroupContainer
+{
+    position: relative;
+}
+
+.RadListBox .rlbGroupContainer
+{
+    position: static\9;
+}
+
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0)
+{
+    .RadListBox .rlbGroupCell
+    {
+        height: auto;
+        position: relative;
+    }
+
+    .RadListBox .rlbGroupContainer
+    {
+        position: static;
+    }
+}
+
+.RadListBox .rlbTemplateContainer .rlbGroup
+{
+    border-left: none;
+    border-right: none;
+}
+
+.RadListBoxScrollable .rlbButtonAreaBottom
+{
+	position: absolute;
+	bottom: 0;
+}
+
+.RadListBox .rlbButton
+{
+	display: block;
+	width: auto;
+	height: 21px;
+	line-height: 15px;
+	margin: 0 7px 5px 3px;
+	padding-right: 5px;
+	position: relative;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+* html .RadListBox .rlbButton
+{
+	margin: 0 8px 5px 2px;
+}
+
+.RadListBox .rlbButton:hover
+{
+	zoom: 1;
+}
+
+.RadListBox .rlbNoButtonText
+{
+	padding: 0;
+    margin: 0 0 5px 6px;
+}
+.rlbButtonAreaLeft .rlbNoButtonText
+{
+    margin: 0 4px 5px 2px;
+}
+* html div.RadListBox .rlbNoButtonText { margin: 0 2px 5px 2px; }
+*+html .RadListBox .rlbNoButtonText { margin: 0 5px 5px 5px; }
+
+.RadListBox .rlbButtonAreaTop,
+.RadListBox .rlbButtonAreaBottom
+{
+	width: 100%;
+}
+
+.RadListBox .rlbButtonAreaTop .rlbButton,
+.RadListBox .rlbButtonAreaBottom .rlbButton
+{
+	vertical-align: middle;
+    display: -moz-inline-stack;
+    display: inline-block;
+}
+
+/* Fix for FF2 padding on top and bottom buttons */
+.RadListBox .rlbButtonAreaTop .rlbButton, .RadListBox .rlbButtonAreaBottom .rlbButton, x:-moz-any-link { padding: 0; }
+.RadListBox .rlbButtonAreaTop .rlbButton, .RadListBox .rlbButtonAreaBottom .rlbButton, x:-moz-any-link, x:default { padding-right: 5px; }
+
+.RadListBox .rlbCenter,
+.RadListBox .rlbRight
+{
+	width: 100%;
+}
+
+.RadListBox .rlbCenter
+{
+	text-align: center;
+}
+
+.RadListBox .rlbRight
+{
+	text-align: right;
+}
+
+.RadListBox .rlbRight .rlbButton
+{
+	margin: 5px 0px 5px 5px;
+}
+
+.RadListBox .rlbButtonAreaTop .rlbButton
+{
+	margin: 0 3px 5px;
+}
+
+.RadListBox .rlbButtonAreaBottom .rlbButton
+{
+	margin: 5px 3px 1px;
+}
+
+.RadListBox .rlbMiddle,
+.RadListBox .rlbBottom
+{
+	height:100%;
+}
+.RadListBox .rlbMiddle td
+{
+	vertical-align: middle;
+}
+
+.RadListBox .rlbBottom td
+{
+	vertical-align: bottom;
+}
+
+.RadListBox .rlbButtonTL,
+.RadListBox .rlbButtonTR,
+.RadListBox .rlbButtonBL,
+.RadListBox .rlbButtonBR
+{
+    display: -moz-inline-block;
+    display: inline-block;
+	position: relative;
+}
+
+.RadListBox .rlbButtonAreaLeft .rlbButtonTL,
+.RadListBox .rlbButtonAreaLeft .rlbButtonTR,
+.RadListBox .rlbButtonAreaLeft .rlbButtonBL,
+.RadListBox .rlbButtonAreaLeft .rlbButtonBR,
+.RadListBox .rlbButtonAreaRight .rlbButtonTL,
+.RadListBox .rlbButtonAreaRight .rlbButtonTR,
+.RadListBox .rlbButtonAreaRight .rlbButtonBL,
+.RadListBox .rlbButtonAreaRight .rlbButtonBR
+{
+	width: 100%;
+}
+
+.RadListBox .rlbNoButtonText .rlbButtonTL,
+.RadListBox .rlbNoButtonText .rlbButtonTR,
+.RadListBox .rlbNoButtonText .rlbButtonBL,
+.RadListBox .rlbNoButtonText .rlbButtonBR
+{
+	width: auto;
+}
+
+.RadListBox .rlbButtonTL
+{
+	left: -4px;
+	background-position: 0 0;
+}
+
+.RadListBox .rlbButtonTR
+{
+	bottom: 4px;
+	right: 0;
+	overflow: visible;
+	background-position: 100% 0;
+}
+
+.RadListBox .rlbButtonBL
+{
+	top: 4px;
+	right: 0;
+	background-position: 0 100%;
+}
+
+.RadListBox .rlbButtonBR
+{
+	right: -4px;
+    display: table;
+    display: inline-block;
+	background-position: 100% 100%;
+}
+
+.RadListBox .rlbButtonText
+{
+	position: relative;
+    display: -moz-inline-box;
+    display: inline-block;
+	z-index: 1;
+	padding-left: 20px;
+	padding-top: 3px;
+	line-height: 15px;
+	background-color: transparent;
+	text-align: left;
+}
+* html .RadListBox .rlbButtonAreaTop .rlbButtonText,
+* html .RadListBox .rlbButtonAreaBottom .rlbButtonText { line-height: 14px; }
+*+html .RadListBox .rlbButtonAreaTop .rlbButtonText,
+*+html .RadListBox .rlbButtonAreaBottom .rlbButtonText { line-height: 14px; }
+
+.RadListBox .rlbNoButtonText .rlbButtonText
+{
+	padding-left: 18px;
+    width: 0;
+    font-size: 0;
+}
+
+@media all and(-webkit-max-device-pixel-ratio: 10000),
+   not all and(-webkit-min-device-pixel-ratio: 0) {
+
+	.RadListBox .rlbNoButtonText .rlbButtonText { margin-top: 2px; height: 12px; }
+}
+
+/* Fix for IE8 Standards Mode. The second selector undoes the fix for IE7 */
+.RadListBox .rlbNoButtonText .rlbButtonText { font-size /*\**/: 12px \9 }
+
+.RadListBox .rlbDisabled
+{
+	cursor: default;
+}
+
+.RadListBox .rlbDropClue
+{
+	position: absolute;
+	height: 9px;
+	z-index: 10;
+}
+
+.RadListBox .rlbGroup .rlbDropClueAbove
+{
+	border-top-width: 1px;
+	padding-top: 1px;
+}
+
+.RadListBox .rlbGroup .rlbDropClueBelow
+{
+	border-bottom-width: 1px;
+	padding-bottom: 1px;
+}
+
+.RadListBox .rlbEmptyMessage
+{
+	text-align: center;
+	color: #999;
+	font-style: italic;
+	position: absolute;
+}
+
+.RadListBox .rlbButton
+{
+	direction: ltr;
+}
+
+/* Touch Styles */
+
+.RadListBox *
+{
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.rlbTouchDragClue
+{
+    margin-top: -50px;
+}
+
+.rlbTouchDragClue .rlbGroup .rlbActive
+{
+    border: 0;
+    padding: 2px 5px;
+}

@@ -1,0 +1,97 @@
+/* RadColorPicker Black skin */
+.RadColorPicker_Black .rcpViews,
+.RadColorPicker_Black .rcpHeader,
+.RadColorPicker_Black .rcpPageView
+{
+	background-color:#161616;
+}
+
+.RadColorPicker_Black .rcpPageView
+{
+	background-position: 0 -2005px;
+	background-repeat: repeat-x;
+}
+
+.RadColorPicker_Black .rcpColorPreview,
+.RadColorPicker_Black .rcpInput,
+.RadColorPicker_Black .rcpHexInput,
+.RadColorPicker_Black .rcpMillionColorsPalette,
+.RadColorPicker_Black .rcpMillionColorsSlider div.rslTrack
+{
+	border:1px solid;
+	border-color:#111 #313131 #111 #313131;
+}
+
+.RadColorPicker_Black .rcpInput,
+.RadColorPicker_Black .rcpHexInput
+{
+	background-color:#212121;
+}
+
+.RadColorPicker_Black .rcpHexInput[readonly]
+{
+	background-color:#333;
+}
+
+.RadColorPicker_Black .rcpPalette,
+.RadColorPicker_Black input,
+.RadColorPicker_Black a,
+.RadColorPicker_Black .rcpTabs .rcpSelectedTab a span
+{
+    color:#fff;
+}
+
+/* colorpicker tabs */
+.RadColorPicker_Black .rcpTabs a span
+{
+    color:#d7d7d7;
+}
+
+.RadColorPicker_Black .rcpApplyButton:hover span,
+.RadColorPicker_Black .rcpButton:hover span
+{
+    color:#9eda29;
+}
+
+.RadColorPicker_Black .rcpHeader,
+.RadColorPicker_Black .rcpHeader .rcpImageButton,
+.RadColorPicker_Black .rcpRecentColors,
+.RadColorPicker_Black .rcpIcon a,
+.RadColorPicker_Black .rcpTabs a,
+.RadColorPicker_Black .rcpTabs a span,
+.RadColorPicker_Black .rcpButton,
+.RadColorPicker_Black .rcpButton span,
+.RadColorPicker_Black .rcpMillionColorsHandle,
+.RadColorPicker_Black .rcpSlider div.rslTrack,
+/* overwrite sliders */
+.RadColorPicker_Black .rcpSlider .rslTrack a.rslDraghandle,
+.RadColorPicker_Black div.rcpMillionColorsSlider div.rslVertical a.rslDraghandle
+{
+	background-image:url('ColorPicker/ColorPickerSprites.png');
+	background-repeat:no-repeat;
+}
+
+/* Rounded corners and shadows */
+.RadColorPicker_Black .rcpPalette,
+.RadColorPicker_Black .rcpRoundedRight,
+.RadColorPicker_Black .rcpRoundedBottomRight,
+.RadColorPicker_Black .rcpRightShadow,
+.RadColorPicker_Black .rcpCornerShadow,
+.RadColorPicker_Black .rcpPageView
+{
+	background-image:url('ColorPicker/rcpVerticalSprites.png');
+}
+
+.RadColorPicker_Black .rcpRoundedBottomLeft,
+.RadColorPicker_Black .rcpBottomShadow
+{
+	background-image:url('ColorPicker/ColorPickerSprites.png');
+}
+
+* html .RadColorPicker_Black .rcpPalette,
+* html .RadColorPicker_Black .rcpRoundedRight,
+* html .RadColorPicker_Black .rcpRoundedBottomRight,
+* html .RadColorPicker_Black .rcpRoundedBottomLeft
+{
+	background-image:url('ColorPicker/rcpVerticalSpritesIE6.png');
+}

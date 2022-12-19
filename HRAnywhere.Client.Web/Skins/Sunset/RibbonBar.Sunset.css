@@ -1,0 +1,453 @@
+.RadRibbonBar_Sunset
+{
+	font: 11px "Segoe UI", Arial, sans-serif;
+}
+
+.RadRibbonBar_Sunset .rrbContentWrapIn,
+.RadRibbonBar_Sunset .rrbButtonArea,
+.RadRibbonBar_Sunset .rrbButtonGroupIn,
+.RadRibbonBar_Sunset .rrbCollapsedGroup .rrbButtonIn,
+.RadRibbonBar_Sunset a.rrbButtonOut:hover .rrbButtonIn,
+.RadRibbonBar_Sunset .rrbButtonOut .rrbButtonTextHover,
+.RadRibbonBar_Sunset .rrbButtonStrip .rrbButtonIn,
+.RadRibbonBar_Sunset div.rrbButtonStrip a.rrbDisabled .rrbButtonIn,
+.RadRibbonBar_Sunset .rrbButtonClicked .rrbButtonIn,
+.RadRibbonBar_Sunset .rrbButtonClicked .rrbButtonTextHover,
+.RadRibbonBar_Sunset .rrbToggled .rrbButtonIn,
+.RadRibbonBar_Sunset .rrbToggled .rrbButtonTextHover,
+.RadRibbonBar_Sunset .rrbExpanded .rrbButtonIn,
+.RadRibbonBar_Sunset .rrbExpanded .rrbButtonTextHover
+{
+	background-image: url('RibbonBar/rrbGradients.png');
+}
+
+.RadRibbonBar_Sunset .rrbButtonArrow,
+.RadRibbonBar_Sunset .rrbResizeHandle,
+.RadRibbonBar_Sunset .rrbGroupLauncher
+{
+	background-image: url('RibbonBar/rrbArrowSprite.png');
+}
+
+.RadRibbonBar_Sunset .rrbContentWrapOut,
+.RadRibbonBar_Sunset .rrbContentWrapMid,
+.RadRibbonBar_Sunset .rrbContentWrapIn
+{
+	background-color: #eae5d7;
+	border-color: #bcae9b;
+}
+
+.RadRibbonBar_Sunset .rrbContentWrapIn,
+.RadRibbonBar_Sunset .rrbButtonArea
+{
+	background-color: #eae5d7;
+}
+
+.RadRibbonBar_Sunset div.rrbButtonArea
+{
+	background-position: 0 -565px;
+}
+
+.RadRibbonBar_Sunset .rrbButtonArea a.rrbCollapsedGroup .rrbButtonIn
+{
+	background-position: 0 -1px;
+}
+
+.RadRibbonBar_Sunset .rrbButtonArea span.rrbDecoration .rrbButtonIn
+{
+	background-position: 0 23px;
+}
+
+.RadRibbonBar_Sunset .rrbButtonClicked span.rrbButtonIn,
+.RadRibbonBar_Sunset a.rrbButtonClicked:hover span.rrbButtonIn,
+.RadRibbonBar_Sunset .rrbButtonClicked span.rrbButtonTextHover,
+.RadRibbonBar_Sunset .rrbToggled span.rrbButtonIn,
+.RadRibbonBar_Sunset a.rrbToggled:hover span.rrbButtonIn,
+.RadRibbonBar_Sunset .rrbExpanded span.rrbButtonIn,
+.RadRibbonBar_Sunset a.rrbExpanded:hover span.rrbButtonIn
+{
+	background-position: 0 -200px;
+}
+
+.RadRibbonBar_Sunset .rrbButtonOut,
+.RadRibbonBar_Sunset .rrbButtonMid,
+.RadRibbonBar_Sunset .rrbButtonIn
+{
+	border-color: transparent;
+}
+
+.RadRibbonBar_Sunset .rrbButtonArea .rrbCollapsedGroup,
+.RadRibbonBar_Sunset .rrbCollapsedGroup .rrbButtonMid
+{
+	background-color: #ddd7c5;
+	border-color: #bcae9b;
+}
+
+.RadRibbonBar_Sunset .rrbDecoration,
+.RadRibbonBar_Sunset .rrbDecoration .rrbButtonMid
+{
+	background-color: #e7e2d5;
+	border-color: #bcae9b;
+}
+
+.RadRibbonBar_Sunset .rrbMenuGroupMid,
+.RadRibbonBar_Sunset .rrbMenuGroupIn,
+.RadRibbonBar_Sunset .rrbButtonGroup,
+.RadRibbonBar_Sunset .rrbButtonGroupIn
+{
+	background-position: 0 0;
+	background-color: #ddd7c5;
+	border-color: #959485;
+}
+
+.RadRibbonBar_Sunset a.rrbButtonStripPart,
+.RadRibbonBar_Sunset a.rrbButtonStripPart .rrbButtonMid,
+.RadRibbonBar_Sunset div.rrbButtonStrip a.rrbDisabled,
+.RadRibbonBar_Sunset div.rrbButtonStrip a.rrbDisabled .rrbButtonMid
+{
+	background-color: #e8e9d8;
+	border-color: #c7c5ae;
+}
+
+.RadRibbonBar_Sunset a.rrbButtonOut:hover,
+.RadRibbonBar_Sunset a.rrbButtonOut:hover .rrbButtonMid,
+.RadRibbonBar_Sunset a.rrbButtonStripPart:hover,
+.RadRibbonBar_Sunset a.rrbButtonStripPart:hover .rrbButtonMid
+{
+	background-color: #f4bf2e;
+	border-color: #9b6e18;
+}
+
+.RadRibbonBar_Sunset .rrbButtonArea a.rrbCollapsedGroup:hover,
+.RadRibbonBar_Sunset a.rrbCollapsedGroup:hover .rrbButtonMid
+{
+	background-color: #f4bf2e;
+	border-color: #9b6e18;
+}
+
+.RadRibbonBar_Sunset a.rrbCollapsedGroup:hover .rrbDecoration,
+.RadRibbonBar_Sunset a.rrbCollapsedGroup:hover .rrbDecoration .rrbButtonMid
+{
+	background-color: #e7e2d5;
+	border-color: #9b6e18;
+}
+
+.RadRibbonBar_Sunset .rrbButtonClicked,
+.RadRibbonBar_Sunset .rrbButtonClicked .rrbButtonMid,
+.RadRibbonBar_Sunset div.rrbButtonGroup .rrbToggled,
+.RadRibbonBar_Sunset div.rrbButtonGroup .rrbToggled .rrbButtonMid,
+.RadRibbonBar_Sunset a.rrbExpanded,
+.RadRibbonBar_Sunset a.rrbExpanded .rrbButtonMid,
+.RadRibbonBar_Sunset a.rrbButtonClicked:hover,
+.RadRibbonBar_Sunset a.rrbButtonClicked:hover .rrbButtonMid,
+.RadRibbonBar_Sunset a.rrbButtonClicked:hover .rrbButtonOut
+{
+	background-color: #cf5301;
+	border-color: #904602;
+}
+
+.RadRibbonBar_Sunset .rrbButton:hover .rrbButtonIn,
+.RadRibbonBar_Sunset .rrbMediumButton:hover .rrbButtonIn,
+.RadRibbonBar_Sunset .rrbButtonClicked .rrbButtonIn,
+.RadRibbonBar_Sunset .rrbToggled .rrbButtonIn,
+.RadRibbonBar_Sunset .rrbExpanded .rrbButtonIn,
+.RadRibbonBar_Sunset .rrbButtonStripPart .rrbButtonIn
+{
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+.RadRibbonBar_Sunset .rrbLargeButton .rrbButtonIn,
+.RadRibbonBar_Sunset .rrbCollapsedGroup .rrbButtonIn
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.RadRibbonBar_Sunset .rrbButtonArea a.rrbButtonClicked.rrbCollapsedGroup,
+.RadRibbonBar_Sunset .rrbButtonArea a.rrbButtonClicked.rrbCollapsedGroup .rrbButtonMid
+{
+	background-color: #bd5006;
+	border-color: #723901;
+}
+
+.RadRibbonBar_Sunset a.rrbButtonClicked.rrbCollapsedGroup .rrbDecoration,
+.RadRibbonBar_Sunset a.rrbButtonClicked.rrbCollapsedGroup .rrbDecoration .rrbButtonMid
+{
+	background-color: #cf5301;
+	border-color: #904602;
+}
+
+.RadRibbonBar_Sunset a.rrbButtonOut:hover .rrbButtonText
+{
+	border-color: #9b6e18;
+}
+
+.RadRibbonBar_Sunset .rrbButtonTextHover
+{
+	background-color: #f4bf2e;
+}
+
+.RadRibbonBar_Sunset a.rrbButtonClicked:hover .rrbButtonText
+{
+	border-color: #904602;
+}
+
+.RadRibbonBar_Sunset .rrbButtonClicked .rrbButtonTextHover
+{
+	background-color: #cf5301;
+}
+
+.RadRibbonBar_Sunset .rrbButtonGroupHover .rrbButtonGroupIn
+{
+	background-color: #e4decc;
+}
+
+.RadRibbonBar_Sunset .rrbGroupTitle
+{
+	color: #756a5c;
+	background-color: #cac2b2;
+}
+
+.RadRibbonBar_Sunset .rrbButtonOut,
+.RadRibbonBar_Sunset .rrbButtonStripPart
+{
+	color: #3d1400;
+}
+
+.RadRibbonBar_Sunset a.rrbDisabled .rrbButtonMid,
+.RadRibbonBar_Sunset a.rrbDisabled:hover .rrbButtonMid
+{
+	color: #999;
+}
+
+.RadRibbonBar_Sunset .rrbDetachedContainer .rrbGroupTitle
+{
+	bottom: 0;
+}
+
+.RadRibbonBar_Sunset .rrbMenuGroupMid,
+.RadRibbonBar_Sunset .rrbDetachedContainer .rrbContentWrapOut
+{
+	box-shadow: 3px 2px 3px #888;
+	-moz-box-shadow: 3px 2px 3px #888;
+	-webkit-box-shadow: 3px 2px 3px #888;
+}
+
+/* RadTabStrip styles */
+.RadRibbonBar_Sunset .rrbTabStrip .rtsUL,
+.RadRibbonBar_Sunset .rrbTabStrip.RadTabStripBottom_Sunset  .rtsUL
+{
+	border-color: #bcae9b;
+}
+
+.RadRibbonBar_Sunset .rrbTabStrip .rtsUL
+{
+	border-top: 0;
+}
+
+.RadRibbonBar_Sunset .rrbTabStrip.RadTabStripBottom_Sunset  .rtsUL
+{
+	border-bottom: 0;
+}
+
+
+
+
+/** Tabstrip */
+.RadRibbonBar_Sunset .rrbTabs {
+	line-height: 26px;
+	border-bottom-color: #82745f;
+}
+
+
+
+
+/** Application Tab */
+.RadRibbonBar_Sunset .rrbApplicationTab {
+	color: #000000;
+	line-height: 22px;
+}
+
+
+	.RadRibbonBar_Sunset .rrbApplicationTab .rrbTabLabel {
+		background-image: url('RibbonBar/rrbApplicationTabSprite.png');
+		_background-image: url('RibbonBar/rrbApplicationTabSprite_IE6.png');
+		background-position: left 0;
+	}
+
+
+	.RadRibbonBar_Sunset .rrbApplicationTab .rrbTabText {
+		background-image: url('RibbonBar/rrbApplicationTabSprite.png');
+		_background-image: url('RibbonBar/rrbApplicationTabSprite_IE6.png');
+		background-position: right 0;
+	}
+
+
+
+
+/** Hovered Application Tab */
+.RadRibbonBar_Sunset .rrbHoveredApplicationTab {}
+
+
+	.RadRibbonBar_Sunset .rrbHoveredApplicationTab .rrbTabLabel {
+		background-position: left -26px;
+	}
+
+
+	.RadRibbonBar_Sunset .rrbHoveredApplicationTab .rrbTabText {
+		background-position: right -26px;
+	}
+
+
+
+
+/** Selected Application Tab */
+.RadRibbonBar_Sunset .rrbSelectedApplicationTab {
+	color: #000000;
+}
+
+
+	.RadRibbonBar_Sunset .rrbSelectedApplicationTab .rrbTabLabel {
+		background-position: left -52px;
+	}
+
+
+	.RadRibbonBar_Sunset .rrbSelectedApplicationTab .rrbTabText {
+		background-position: right -52px;
+	}
+
+
+
+
+/** Contextual Tab */
+.RadRibbonBar_Sunset .rrbContextualTab {}
+
+
+	.RadRibbonBar_Sunset .rrbContextualTab .rrbContextualTabLabel {
+		border-radius: 2px 2px 0 0;
+		color: #ffffff;
+		background-image: url('../Common/RibbonBar/rrbContextualTabGlassTile.png');
+	}
+
+
+
+
+/** Tab */
+.RadRibbonBar_Sunset .rrbTab {
+	color: #333333;
+}
+
+
+	.RadRibbonBar_Sunset .rrbTabLabel {
+		background-image: url('RibbonBar/rrbTabSprite.png');
+		_background-image: url('RibbonBar/rrbTabSprite_IE6.png');
+		background-position: left 0;
+	}
+
+
+	.RadRibbonBar_Sunset .rrbTabText {
+		background-image: url('RibbonBar/rrbTabSprite.png');
+		_background-image: url('RibbonBar/rrbTabSprite_IE6.png');
+		background-position: right 0;
+	}
+
+
+
+
+/** Hovered Tab */
+.RadRibbonBar_Sunset .rrbHoveredTab {}
+
+
+	.RadRibbonBar_Sunset .rrbHoveredTab .rrbTabLabel {
+		background-position: left -26px;
+	}
+
+
+	.RadRibbonBar_Sunset .rrbHoveredTab .rrbTabText {
+		background-position: right -26px;
+	}
+
+
+
+
+/** Selected Tab */
+.RadRibbonBar_Sunset .rrbSelectedTab {}
+
+
+	.RadRibbonBar_Sunset .rrbSelectedTab .rrbTabLabel {
+		background-position: left -52px;
+	}
+
+
+	.RadRibbonBar_Sunset .rrbSelectedTab .rrbTabText {
+		background-position: right -52px;
+	}
+
+
+
+
+
+/** QuickAccessToolbar */
+.RadRibbonBar_Sunset .rrbQuickAccessToolbar {}
+
+
+	.RadRibbonBar_Sunset .rrbQatItem {}
+	.RadRibbonBar_Sunset .rrbQatButton {}
+
+
+	.RadRibbonBar_Sunset .rrbQatDropDown {}
+	.RadRibbonBar_Sunset .rrbQatDropDown .rrbQatButton {}
+	.RadRibbonBar_Sunset .rrbQatDropDown .rrbQatButton:hover {
+		border-color: #ca9a3e;
+		background-color: #f2d429;
+	}
+	
+	
+	.RadRibbonBar_Sunset .rrbQatDropDown .rrbSlide {}
+
+
+
+
+
+/** RadRibbonBar Menu */
+.RadRibbonBar_Sunset .rrbMenu {
+	border-color: #958a85;
+	color: #333333;
+	background-color: #ffffff;
+}
+
+
+	.RadRibbonBar_Sunset .rrbSlide {}
+	.RadRibbonBar_Sunset .rrbMenu .rrbMenuGroup {}
+	.RadRibbonBar_Sunset .rrbMenu .rrbMenuLabel {
+		background-color: #f4eee6;
+	}
+	.RadRibbonBar_Sunset .rrbMenu .rrbMenuSeparator {}
+
+
+
+
+	/** Menu items */
+	.RadRibbonBar_Sunset .rrbMenu .rrbMenuItem {}
+	.RadRibbonBar_Sunset .rrbMenu .rrbMenuItem:hover,
+	.RadRibbonBar_Sunset .rrbMenu .rrbMenuItemHovered {
+		border-color: #ca9a3e;
+		color: #863d02;
+		background-color: #f2d429;
+	}
+
+
+	.RadRibbonBar_Sunset .rrbMenu .rrbMenuItemCheckbox {}
+	.RadRibbonBar_Sunset .rrbMenu .rrbMenuItemCheckbox label {}
+	.RadRibbonBar_Sunset .rrbMenu .rrbMenuItemCheckbox input {}
+	.RadRibbonBar_Sunset .rrbMenu .rrbMenuItemCheckboxChecked {}
+	.RadRibbonBar_Sunset .rrbMenu .rrbMenuItemCheckboxChecked label {}
+
+
+	.RadRibbonBar_Sunset .rrbMenu .rrbMenuItemRadio {}
+	.RadRibbonBar_Sunset .rrbMenu .rrbMenuItemRadio label {}
+	.RadRibbonBar_Sunset .rrbMenu .rrbMenuItemRadio input {}
+	.RadRibbonBar_Sunset .rrbMenu .rrbMenuItemRadioChecked {}
+	.RadRibbonBar_Sunset .rrbMenu .rrbMenuItemRadioChecked label {}

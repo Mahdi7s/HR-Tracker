@@ -1,0 +1,19 @@
+/* this is the topmost cell of the dialogs that have RadTabStrip */
+.reTopcell
+{
+    background-color: #f0f0f0;
+}
+
+/*Sprite from RFE*/
+
+.RadToolBar_Vista .rtbText
+{
+	background-image: url('FileExplorer/FileExplorerToolbarSprites.png');
+	background-repeat: no-repeat;
+}
+
+/* IE6 does not support the alpha channel of png files, so we force it to use gif */
+* html .RadToolBar_Vista .rtbText
+{
+	background-image: url('FileExplorer/FileExplorerToolbarSpritesIE6.gif') !important;
+}

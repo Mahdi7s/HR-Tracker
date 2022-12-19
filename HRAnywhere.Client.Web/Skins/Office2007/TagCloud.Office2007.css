@@ -1,0 +1,27 @@
+.RadTagCloud_Office2007
+{
+	border: 1px dotted #ccc;
+}
+.RadTagCloud_Office2007 .rtcTagList .rtcTagItem
+{
+	color: #ccc;
+}
+.RadTagCloud_Office2007 .rtcTagList .rtcTagItem:hover
+{
+	color: #000;
+}
+.RadTagCloud_Office2007 .rtcTagList .rtcTagItem a
+{
+	color: #00156e;
+}
+.RadTagCloud_Office2007 .rtcTagList .rtcTagItem a:hover
+{
+	color: #000;
+	background: #ffe086;
+}
+
+/* Loading image */
+.rtcLoading.RadTagCloud_Office2007
+{
+	background-image: url('Common/loading_small.gif');
+}

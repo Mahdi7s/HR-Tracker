@@ -1,0 +1,37 @@
+.RadSiteMap_Simple .rsmLink,
+.RadSiteMap_Simple .rsmTemplate
+{
+	font-family: "Segoe UI", Arial, sans-serif;
+	border-bottom: 0;
+	color: #000;
+}
+
+.RadSiteMap_Simple .rsmLink:hover,
+.RadSiteMap_Simple .rsmLevel1 .rsmLink:hover
+{
+	color: #664336;
+}
+
+.RadSiteMap_Simple .rsmLevel2 .rsmLink:hover,
+.RadSiteMap_Simple .rsmLevel1 .rsmLink,
+.RadSiteMap_Simple .rsmLevel1 .rsmTemplate
+{
+	color: #994222;
+}
+
+.RadSiteMap_Simple .rsmLevel2 .rsmLink,
+.RadSiteMap_Simple .rsmLevel2 .rsmTemplate,
+.RadSiteMap_Simple .rsmThreeLevels .rsmLevel1 .rsmLink,
+.RadSiteMap_Simple .rsmTwoLevels .rsmLevel1 .rsmLink,
+.RadSiteMap_Simple .rsmOneLevel .rsmItem .rsmLink
+{
+	color: #000;
+}
+
+.RadSiteMap_Simple .rsmLevel2 .rsmLink:hover,
+.RadSiteMap_Simple .rsmThreeLevels .rsmLevel1 .rsmLink:hover,
+.RadSiteMap_Simple .rsmTwoLevels .rsmLevel1 .rsmLink:hover,
+.RadSiteMap_Simple .rsmOneLevel .rsmItem .rsmLink:hover
+{
+	background: #ffe79c;
+}

@@ -1,0 +1,99 @@
+/* RadColorPicker for ASP.Net AJAX Hay Skin */
+.RadColorPicker_Hay .rcpViews,
+.RadColorPicker_Hay .rcpHeader,
+.RadColorPicker_Hay .rcpPageView
+{
+	background-color:#f9f9f4;
+}
+
+.RadColorPicker_Hay .rcpPageView
+{
+	background-position: 0 -2005px;
+	background-repeat: repeat-x;
+}
+
+.RadColorPicker_Hay .rcpColorPreview,
+.RadColorPicker_Hay .rcpInput,
+.RadColorPicker_Hay .rcpHexInput,
+.RadColorPicker_Hay .rcpMillionColorsPalette,
+.RadColorPicker_Hay .rcpMillionColorsSlider div.rslTrack
+{
+	border:1px solid #898772;
+}
+
+.RadColorPicker_Hay .rcpPalette,
+.RadColorPicker_Hay input,
+.RadColorPicker_Hay a
+{
+    color:#000;
+}
+
+.RadColorPicker_Hay .rcpApplyButton span,
+.RadColorPicker_Hay .rcpButton span
+{
+
+    color:#045100;
+}
+
+.RadColorPicker_Hay .rcpApplyButton:hover span,
+.RadColorPicker_Hay .rcpButton:hover span
+{
+
+    color:#279500;
+}
+
+.RadColorPicker_Hay .rcpHeader,
+.RadColorPicker_Hay .rcpHeader .rcpImageButton,
+.RadColorPicker_Hay .rcpRecentColors,
+.RadColorPicker_Hay .rcpIcon a,
+.RadColorPicker_Hay .rcpTabs a,
+.RadColorPicker_Hay .rcpTabs a span,
+.RadColorPicker_Hay .rcpButton,
+.RadColorPicker_Hay .rcpButton span,
+.RadColorPicker_Hay .rcpMillionColorsHandle,
+.RadColorPicker_Hay .rcpSlider div.rslTrack,
+/* overwrite sliders */
+.RadColorPicker_Hay .rcpSlider .rslTrack a.rslDraghandle,
+.RadColorPicker_Hay div.rcpMillionColorsSlider div.rslVertical a.rslDraghandle
+{
+	background-image:url('ColorPicker/ColorPickerSprites.png');
+	background-repeat:no-repeat;
+}
+
+/* Rounded corners and shadows */
+.RadColorPicker_Hay .rcpPalette,
+.RadColorPicker_Hay .rcpRoundedRight,
+.RadColorPicker_Hay .rcpRoundedBottomRight,
+.RadColorPicker_Hay .rcpRightShadow,
+.RadColorPicker_Hay .rcpCornerShadow,
+.RadColorPicker_Hay .rcpPageView
+{
+	background-image:url('ColorPicker/rcpVerticalSprites.png');
+}
+
+.RadColorPicker_Hay .rcpRoundedBottomLeft,
+.RadColorPicker_Hay .rcpBottomShadow
+{
+	background-image:url('ColorPicker/ColorPickerSprites.png');
+}
+
+* html .RadColorPicker_Hay .rcpPalette,
+* html .RadColorPicker_Hay .rcpRoundedRight,
+* html .RadColorPicker_Hay .rcpRoundedBottomRight,
+* html .RadColorPicker_Hay .rcpRoundedBottomLeft
+{
+	background-image:url('ColorPicker/rcpVerticalSpritesIE6.png');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

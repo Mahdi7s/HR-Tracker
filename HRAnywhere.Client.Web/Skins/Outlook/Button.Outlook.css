@@ -1,0 +1,110 @@
+/* RadButton Outlook Skin */
+
+.RadButton_Outlook.rbSkinnedButton,
+.RadButton_Outlook .rbDecorated,
+.RadButton_Outlook.rbVerticalButton,
+.RadButton_Outlook.rbVerticalButton .rbDecorated,
+.RadButton_Outlook .rbSplitRight,
+.RadButton_Outlook .rbSplitLeft
+{
+	background-image:url('Button/ButtonSprites.gif');
+}
+
+.RadButton_Outlook .rbToggleCheckbox,
+.RadButton_Outlook .rbToggleCheckboxChecked,
+.RadButton_Outlook .rbToggleCheckboxFilled,
+.RadButton_Outlook .rbToggleRadio,
+.RadButton_Outlook .rbToggleRadioChecked
+{
+	background-image:url('Button/ToggleSprite.gif');
+}
+
+.RadButton_Outlook.rbToggleButton,
+.RadButton_Outlook.rbToggleButton.rbDisabled,
+.RadButton_Outlook.rbToggleButton.rbDisabled:hover
+{
+	color: #000;
+}
+
+.RadButton_Outlook.rbDisabled .rbDecorated,
+.RadButton_Outlook.rbDisabled:hover .rbDecorated,
+.RadButton_Outlook.rbToggleButton:hover
+{
+	color: #6a6a6a;
+}
+
+.RadButton_Outlook.rbLinkButton
+{
+	border: 1px solid #d5e3f5;
+	color: #00156E;
+	text-decoration: none;
+}
+
+.RadButton_Outlook.rbLinkButton:hover
+{
+	background-color: #ffefc4;
+	color: #00156E;
+}
+
+.RadButton_Outlook.rbLinkButtonChecked,
+.RadButton_Outlook.rbLinkButtonChecked:hover
+{
+	background-color: #f99a36;
+}
+
+.RadButton_Outlook.rbLinkButton.rbDisabled,
+.RadButton_Outlook.rbLinkButton.rbDisabled:hover
+{
+	background-color: #f9f8f8;
+	border: 1px solid #d0d0d0;
+	color: #6a6a6a;
+}
+
+.RadButton_Outlook.rbLinkButton:hover .rbSplitLeft,
+.RadButton_Outlook.rbLinkButton:hover .rbSplitRight
+{
+	background-color: #fff;
+}
+
+.RadButton_Outlook.rbLinkButton .rbSplitRight
+{
+	border-left: 1px solid #d5e3f5;
+}
+
+.RadButton_Outlook.rbLinkButton .rbSplitRight:hover
+{
+	background-color: #f9d573;
+	border-left: 1px solid #d5e3f5;
+}
+
+.RadButton_Outlook.rbLinkButton .rbSplitRight:active,
+.RadButton_Outlook.rbLinkButton .rbSplitRight:focus
+{
+	background-color: #f4b408;
+	border-left: 1px solid #d5e3f5;
+}
+
+.RadButton_Outlook.rbLinkButton .rbSplitLeft
+{
+	border-right: 1px solid #d5e3f5;
+}
+
+.RadButton_Outlook.rbLinkButton .rbSplitLeft:hover
+{
+	background-color: #f9d573;
+	border-right: 1px solid #d5e3f5;
+}
+
+.RadButton_Outlook.rbLinkButton .rbSplitLeft:active,
+.RadButton_Outlook.rbLinkButton .rbSplitLeft:focus
+{
+	background-color: #f4b408;
+	border-right: 1px solid #d5e3f5;
+}
+
+/* IE6 Fix, should be important to override the joint selectors */
+*html .RadButton_Outlook.rbLinkButton,
+*html .RadButton_Outlook.rbLinkButton:hover
+{
+	border: 1px solid #d5e3f5 !important;
+}

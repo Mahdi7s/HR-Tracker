@@ -1,0 +1,13 @@
+/* RadRating for ASP.NET AJAX Office2007 Skin */
+
+.RadRating_Office2007 a,
+.RadRating_Office2007 a span
+{
+	background-image: url('Rating/Sprite.png');
+}
+
+* html .RadRating_Office2007 a,
+* html .RadRating_Office2007 a span
+{
+	background-image: url('Rating/Sprite.gif');
+}

@@ -1,0 +1,43 @@
+/* RadDock for ASP.NET AJAX Windows7 */
+
+.RadDock_Windows7 .rdMiddle .rdLeft,
+.RadDock_Windows7 .rdMiddle .rdRight
+{
+	background-image: url('Dock/VerticalSprite.gif');
+}
+
+.RadDock_Windows7 .rdTop .rdLeft,
+.RadDock_Windows7 .rdTop .rdRight,
+.RadDock_Windows7 .rdTop .rdCenter,
+.RadDock_Windows7 .rdBottom .rdLeft,
+.RadDock_Windows7 .rdBottom .rdRight,
+.RadDock_Windows7 .rdBottom .rdCenter
+{
+	background-image: url('Dock/HorizontalSprite.png');
+}
+
+.RadDock_Windows7 .rdCenter .rdCommands a span
+{
+	background-image: url('Dock/CommandSprite.gif');
+}
+
+.RadDock_Windows7 .rdMiddle .rdCenter,
+.RadDock_Windows7 .rdBottom .rdCenter
+{
+	background-color: #fff;
+}
+
+.RadDock_Windows7 .rdContent
+{
+	color: black;
+}
+
+.RadDock_Windows7 .rdTitleBar em
+{
+	color: #000;
+}
+
+div.RadDockZone_Windows7
+{
+    border: solid 1px #a5b3c5;
+}

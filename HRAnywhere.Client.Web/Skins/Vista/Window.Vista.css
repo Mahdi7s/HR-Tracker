@@ -1,0 +1,283 @@
+/* RadWindow for ASP.NET AJAX Vista Skin */
+
+/* Window Background */
+
+/* Horiznotal */
+.RadWindow_Vista .rwTopLeft,
+.RadWindow_Vista .rwTopRight,
+.RadWindow_Vista .rwTitlebar,
+.RadWindow_Vista .rwFooterLeft,
+.RadWindow_Vista .rwFooterRight,
+.RadWindow_Vista .rwFooterCenter,
+.RadWindow_Vista .rwTopResize,
+.RadWindow_Vista .rwStatusbar div,
+.RadWindow_Vista .rwStatusbar,
+.RadWindow_Vista .rwPopupButton,
+.RadWindow_Vista .rwPopupButton span,
+.RadWindow_Vista.rwMinimizedWindow .rwCorner
+{
+    background-image: url('Window/WindowHorizontalSprites.gif');
+}
+
+/* Vertical */
+.RadWindow_Vista .rwBodyLeft,
+.RadWindow_Vista .rwBodyRight,
+.RadWindow_Vista .rwStatusbarRow .rwCorner
+{
+	background-image: url('Window/WindowVerticalSprites.gif');
+}
+
+/* Window Shadows */
+
+/* Horiznotal */
+.RadWindow_Vista .rwShadow .rwTopLeft,
+.RadWindow_Vista .rwShadow .rwTopRight,
+.RadWindow_Vista .rwShadow .rwTitlebar,
+.RadWindow_Vista .rwShadow .rwFooterLeft,
+.RadWindow_Vista .rwShadow .rwFooterRight,
+.RadWindow_Vista .rwShadow .rwFooterCenter,
+.RadWindow_Vista .rwShadow .rwTopResize,
+.RadWindow_Vista .rwShadow .rwStatusbar div,
+.RadWindow_Vista .rwShadow .rwStatusbar,
+.RadWindow_Vista .rwShadow .rwPopupButton,
+.RadWindow_Vista .rwShadow .rwPopupButton span,
+.RadWindow_Vista .rwShadow .rwBodyLeft,
+.RadWindow_Vista .rwShadow .rwBodyRight,
+.RadWindow_Vista .rwShadow .rwStatusbarRow .rwBodyLeft,
+.RadWindow_Vista .rwShadow .rwStatusbarRow .rwBodyRight
+{
+	background-image: url('Window/WindowHorizontalSprites.png');
+}
+
+/* Vertical */
+.RadWindow_Vista .rwShadow .rwBodyLeft,
+.RadWindow_Vista .rwShadow .rwBodyRight,
+.RadWindow_Vista .rwShadow .rwStatusbarRow .rwBodyLeft,
+.RadWindow_Vista .rwShadow .rwStatusbarRow .rwBodyRight
+{
+	background-image: url('Window/WindowVerticalSprites.png');
+}
+
+/* Shadows End */
+
+.RadWindow_Vista .rwStatusbar input
+{
+    background-color: #f7f3e9;
+}
+
+.RadWindow_Vista .rwControlButtons a
+{
+    background-image: url('Window/CommandButtonSprites.gif');
+}
+
+.RadWindow_Vista a.rwIcon
+{
+	background-image: url('Window/WindowHorizontalSprites.gif');
+}
+
+div.RadWindow_Vista .rwTitlebarControls em
+{
+	color: black;
+}
+
+/* 
+    This is a hack to achieve "Aero" look and feel for that particular skin.
+    It should be removed for the other skins, as the background coordinates
+    are specified in Window.css and are common for all skins*/
+
+.RadWindow_Vista table .rwTitlebar,
+.RadWindow_Vista table .rwTopResize,
+.rwMinimizedWindow.RadWindow_Vista tr.rwTitleRow td.rwTitlebar,
+.rwMinimizedWindow.RadWindow_Vista tr.rwTitleRow div.rwTopResize
+{
+	background: url('Window/AeroTitleBarBgr.gif') repeat-x !important;
+}
+
+.RadWindow_Vista table .rwTitlebar,
+.RadWindow_Vista table .rwTopLeft,
+.RadWindow_Vista table .rwTopRight,
+.RadWindow_Vista table .rwFooterLeft,
+.RadWindow_Vista table .rwFooterRight,
+.RadWindow_Vista table .rwFooterCenter,
+.RadWindow_Vista table .rwBodyLeft,
+.RadWindow_Vista table .rwBodyRight
+ {
+ 	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=65) !important;
+ 	opacity: .65 !important; 
+ }
+
+.RadWindow_Vista.rwShadow table.rwShadow .rwTitlebar,
+.RadWindow_Vista.rwShadow table.rwShadow .rwTopLeft,
+.RadWindow_Vista.rwShadow table.rwShadow .rwTopRight,
+.RadWindow_Vista.rwShadow table.rwShadow .rwFooterLeft,
+.RadWindow_Vista.rwShadow table.rwShadow .rwFooterRight,
+.RadWindow_Vista.rwShadow table.rwShadow .rwFooterCenter,
+.RadWindow_Vista.rwShadow table.rwShadow .rwBodyLeft,
+.RadWindow_Vista.rwShadow table.rwShadow .rwBodyRight
+ {
+ 	filter: none !important;
+ }
+
+.RadWindow_Vista .rwShadow .rwTitlebar,
+.rwMinimizedWindow.RadWindow_Vista .rwShadow tr.rwTitleRow td.rwTitlebar,
+.rwMinimizedWindow.RadWindow_Vista .rwShadow tr.rwTitleRow div.rwTopResize
+{
+     background: url('Window/AeroTitleBarBgr.png') repeat-x 0 0 !important;
+}
+
+/* End of the "Aero" hack */
+
+/* overlay element should be minimized when the window is minimized */
+iframe.minimizedwindowoverlay_Vista
+{
+	/* take into account the borders of the main <div> of the window when setting width / height */
+	width: 200px !important; 
+	height: 30px !important;
+}
+
+div.RadWindow_Vista .rwDialogInput
+{
+	border-top: solid 1px #abadb3;
+	border-right: solid 1px #dbdfe6;
+	border-bottom: solid 1px #e3e9ef;
+	border-left: solid 1px #e2e3ea;
+}
+
+div.RadWindow_Vista .rwDialogInput:hover
+{
+	border-top: solid 1px #5794bf;
+	border-right: solid 1px #b7d5ea;
+	border-bottom: solid 1px #c7e2f1;
+	border-left: solid 1px #c5daed;
+	color: #565656;
+}
+
+/* set Window Vista "Aero" look and feel to the window */
+* html div.RadWindow.RadWindow_Vista.rwNormalWindow.rwTransparentWindow td.rwCorner,
+* html div.RadWindow.RadWindow_Vista.rwNormalWindow.rwTransparentWindow td.rwTitlebar,
+* html div.RadWindow.RadWindow_Vista.rwTransparentWindow td.rwFooterCenter
+{
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+}
+
+div.RadWindow_Vista td.rwWindowContent
+{
+    background-color: #fff;
+}
+
+/* Loading Indicators */
+div.RadWindow_Vista tr td.rwLoading
+{
+    background-color: #f2f9fc;
+}
+
+/* When ShowContentDuringLoad="true" */
+div.RadWindow_Vista td.rwWindowContent.rwLoading
+{
+    background-image: url('Common/loading.gif');
+}
+
+/* When ShowContentDuringLoad="false" */
+div.RadWindow_Vista input.rwLoading
+{
+    background-image: url('Common/loading_small.gif');
+}
+
+div.RadWindow_Vista.rwNoTitleBar div.rwTopResize
+{
+    background: none !important;
+}
+
+div.RadWindow_Vista.rwNoTitleBar .rwTable.rwShadow tr.rwTitleRow td.rwTitlebar
+{
+    background-image: url('Window/WindowHorizontalSprites.png') !important;
+    background-position: 0 -525px !important;
+    background-repeat: repeat-x !important;
+}
+
+div.RadWindow_Vista.rwNoTitleBar .rwTable tr.rwTitleRow td.rwTitlebar,
+div.RadWindow_Vista.rwNoTitleBar.rwInactiveWindow .rwTable.rwShadow tr.rwTitleRow td.rwTitlebar
+{
+    background-position: 0 -288px !important;
+    background-image: url('Window/WindowHorizontalSprites.gif') !important;
+}
+
+/* Shadow Control Buttons */
+
+.RadWindow_Vista .rwShadow .rwControlButtons 
+{
+	margin: 5px -2px 0 0;
+}
+
+.RadWindow_Vista .rwShadow .rwControlButtons 
+{
+	margin: 5px 0 0 0\9;
+}
+
+/* ctrl buttons when winodw is minimized */
+.RadWindow_Vista.rwMinimizedWindowShadow .rwShadow .rwControlButtons 
+{
+	margin: 9px -8px 0 0;
+}
+
+.RadWindow_Vista .rwShadow .rwControlButtons li
+{
+	float: left;
+	padding: 0;
+}
+
+.RadWindow_Vista .rwShadow .rwControlButtons a
+{
+	width: 30px; 
+}
+
+.rwInactiveWindow .rwShadow .rwTopLeft,
+.rwInactiveWindow .rwShadow .rwTopRight,
+.rwInactiveWindow .rwShadow .rwTitlebar,
+.rwInactiveWindow .rwShadow .rwFooterLeft,
+.rwInactiveWindow .rwShadow .rwFooterRight,
+.rwInactiveWindow .rwShadow .rwFooterCenter,
+.rwInactiveWindow .rwShadow .rwTopResize,
+.rwInactiveWindow .rwShadow .rwStatusbar div,
+.rwInactiveWindow .rwShadow .rwStatusbar,
+.rwInactiveWindow .rwShadow .rwPopupButton,
+.rwInactiveWindow .rwShadow .rwPopupButton span,
+.rwInactiveWindow .rwShadow.rwMinimizedWindow .rwCorner,
+.RadWindow_Vista.rwNoTitleBar.rwInactiveWindow .rwShadow .rwTopLeft,
+.RadWindow_Vista.rwNoTitleBar.rwInactiveWindow .rwShadow .rwTitlebar,
+.RadWindow_Vista.rwNoTitleBar.rwInactiveWindow .rwShadow .rwTopRight,
+.RadWindow_Vista.rwNoTitleBar.rwInactiveWindow .rwShadow .rwFooterLeft,
+.RadWindow_Vista.rwNoTitleBar.rwInactiveWindow .rwShadow .rwFooterCenter,
+.RadWindow_Vista.rwNoTitleBar.rwInactiveWindow .rwShadow .rwFooterRight
+{
+    background-image: url('Window/WindowHorizontalSprites.gif') !important;
+}
+
+.rwInactiveWindow .rwShadow .rwBodyLeft,
+.rwInactiveWindow .rwShadow .rwBodyRight,
+.rwInactiveWindow .rwShadow .rwStatusbarRow .rwCorner,
+.RadWindow_Vista.rwNoTitleBar.rwInactiveWindow .rwShadow .rwBodyLeft,
+.RadWindow_Vista.rwNoTitleBar.rwInactiveWindow .rwShadow .rwBodyRight
+{
+	background-image: url('Window/WindowVerticalSprites.gif') !important;
+}
+
+.RadWindow_Vista.rwInactiveWindow .rwShadow .rwTitlebar,
+.RadWindow_Vista.rwInactiveWindow .rwShadow .rwTopResize,
+.RadWindow_Vista.rwInactiveWindow .rwShadow tr.rwTitleRow td.rwTitlebar,
+.RadWindow_Vista.rwInactiveWindow .rwShadow tr.rwTitleRow div.rwTopResize
+{
+     background-image: url('Window/AeroTitleBarBgr.gif') !important;
+     background-repeat: repeat-x !important;
+     background-position: 0 8px !important;
+}
+
+.RadWindow_Vista.rwNoTitleBar .rwShadow tr.rwTitleRow td.rwTitlebar
+{
+	background-image: url('Window/WindowHorizontalSprites.png') !important;
+}
+
+div.RadWindow_Vista.rwNoTitleBar.rwInactiveWindow table.rwShadow tr.rwTitleRow td.rwTopRight
+{
+	background-position: -8px -280px !important;
+}

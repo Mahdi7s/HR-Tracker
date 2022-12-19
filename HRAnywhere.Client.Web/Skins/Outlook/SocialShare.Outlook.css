@@ -1,0 +1,22 @@
+/* RadSocialShare Outlook Skin */
+
+.RadSocialShare_Outlook
+{
+	border: 1px solid #002d96;
+}
+
+.RadSocialShare_Outlook .sshLinkItem .sshText,
+.RadComboBoxDropDown_Outlook .rcbItem .sshLinkItem .sshText
+{
+	color: #333;
+}
+
+.RadSocialShare_Outlook .sshLinkItem:hover .sshText
+{
+	color: #000;
+}
+
+.RadComboBoxDropDown_Outlook .rcbHovered .sshLinkItem .sshText
+{
+	color: #fff;
+}

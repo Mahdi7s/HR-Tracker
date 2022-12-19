@@ -1,0 +1,40 @@
+/*RadNotification Hay Skin*/
+
+.RadNotification_Hay
+{
+	border: 1px solid #27710a;
+	background-color: #fff;
+}
+
+.RadNotification_Hay.rnShadows
+{
+	box-shadow: 2px 2px 3px #a7b6a4;
+	-webkit-box-shadow: 2px 2px 3px #a7b6a4;
+}
+
+.RadNotification_Hay .rnTitleBar,
+.RadNotification_Hay .rnCommands a
+{
+	background-image: url('Notification/NotificationSprite.png');
+}
+
+.RadNotification_Hay .rnTitleBar
+{
+	border: 1px solid #68bb2b;
+}
+
+.RadNotification_Hay .rnTitleBarTitle
+{
+	color: #fff;
+}
+
+.RadNotification_Hay .rnContentWrapper
+{
+	border-top: 1px solid #27710a;
+}
+
+
+
+
+
+

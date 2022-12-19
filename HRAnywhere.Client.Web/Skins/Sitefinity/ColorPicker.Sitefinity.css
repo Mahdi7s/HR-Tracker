@@ -1,0 +1,92 @@
+/* RadColorPicker Sitefinity skin */
+.RadColorPicker_Sitefinity,
+.RadColorPicker_Sitefinity *,
+.RadColorPicker_Sitefinity .rcpTabs, 
+.RadColorPicker_Sitefinity .rcpHexInput, 
+.RadColorPicker_Sitefinity .rcpInput, 
+.RadColorPicker_Sitefinity label, 
+.RadColorPicker_Sitefinity .rcpButton
+{
+    font-family: Arial, Sans-Serif;
+}
+
+.RadColorPicker_Sitefinity .rcpTabs span
+{
+    color: #105cb6;
+}
+
+.RadColorPicker_Sitefinity .rcpViews,
+.RadColorPicker_Sitefinity .rcpHeader,
+.RadColorPicker_Sitefinity .rcpPageView
+{
+	background-color:#eee;
+}
+
+.RadColorPicker_Sitefinity .rcpColorPreview,
+.RadColorPicker_Sitefinity .rcpInput,
+.RadColorPicker_Sitefinity .rcpHexInput,
+.RadColorPicker_Sitefinity .rcpMillionColorsPalette,
+div.RadColorPicker_Sitefinity .rcpMillionColorsSlider div.rslTrack
+{
+	border:1px solid;
+	border-color:#abadb3 #e2e3ea #e3e9ef #e2e3ea;
+}
+
+.RadColorPicker_Sitefinity .rcpPalette,
+.RadColorPicker_Sitefinity input,
+.RadColorPicker_Sitefinity a,
+.RadColorPicker_Sitefinity .rcpTabs .rcpSelectedTab a span
+{
+	color:#000;
+}
+
+.RadColorPicker_Sitefinity .rcpTabs a,
+.RadColorPicker_Sitefinity .rcpTabs a span,
+.RadColorPicker_Sitefinity .rcpEmptyColor,
+.RadColorPicker_Sitefinity .rcpApplyButton,
+.RadColorPicker_Sitefinity .rcpApplyButton span
+{
+    cursor: pointer;
+}
+
+.RadColorPicker_Sitefinity .rcpHeader,
+.RadColorPicker_Sitefinity .rcpHeader .rcpImageButton,
+.RadColorPicker_Sitefinity .rcpRecentColors,
+.RadColorPicker_Sitefinity .rcpIcon a,
+.RadColorPicker_Sitefinity .rcpTabs a,
+.RadColorPicker_Sitefinity .rcpTabs a span,
+.RadColorPicker_Sitefinity .rcpButton,
+.RadColorPicker_Sitefinity .rcpButton span,
+.RadColorPicker_Sitefinity .rcpMillionColorsHandle,
+.RadColorPicker_Sitefinity .rcpSlider div.rslTrack,
+/* overwrite sliders */
+.RadColorPicker_Sitefinity .rcpSlider .rslTrack a.rslDraghandle,
+.RadColorPicker_Sitefinity div.rcpMillionColorsSlider div.rslVertical a.rslDraghandle
+{
+	background-image:url('ColorPicker/ColorPickerSprites.png');
+	background-repeat:no-repeat;
+}
+
+/* Rounded corners and shadows */
+.RadColorPicker_Sitefinity .rcpPalette,
+.RadColorPicker_Sitefinity .rcpRoundedRight,
+.RadColorPicker_Sitefinity .rcpRoundedBottomRight,
+.RadColorPicker_Sitefinity .rcpRightShadow,
+.RadColorPicker_Sitefinity .rcpCornerShadow
+{
+	background-image:url('ColorPicker/rcpVerticalSprites.png');
+}
+
+.RadColorPicker_Sitefinity .rcpRoundedBottomLeft,
+.RadColorPicker_Sitefinity .rcpBottomShadow
+{
+	background-image:url('ColorPicker/ColorPickerSprites.png');
+}
+
+* html .RadColorPicker_Sitefinity .rcpPalette,
+* html .RadColorPicker_Sitefinity .rcpRoundedRight,
+* html .RadColorPicker_Sitefinity .rcpRoundedBottomRight,
+* html .RadColorPicker_Sitefinity .rcpRoundedBottomLeft
+{
+	background-image:url('ColorPicker/rcpVerticalSpritesIE6.png');
+}

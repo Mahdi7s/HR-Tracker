@@ -1,0 +1,176 @@
+/* RadComboBox Default skin */
+
+/*global*/
+
+.RadComboBox_Outlook,
+.RadComboBox_Outlook .rcbInput,
+.RadComboBoxDropDown_Outlook
+{
+	font: 12px "Segoe UI", Arial, sans-serif;
+	color: #333;
+}
+
+/* combobox */
+
+.RadComboBox_Outlook .rcbInputCellLeft,
+.RadComboBox_Outlook .rcbInputCellRight,
+.RadComboBox_Outlook .rcbArrowCellLeft,
+.RadComboBox_Outlook .rcbArrowCellRight
+{
+	background-image: url('ComboBox/rcbSprite.png');
+	_background-image: url('ComboBox/rcbSpriteIE6.png');
+}
+
+.RadComboBox_Outlook td.rcbInputCellLeft { background-position: 0 0; }
+.RadComboBox_Outlook td.rcbInputCellRight { background-position: 100% 0; }
+
+.RadComboBox_Outlook .rcbHovered .rcbInputCellLeft { background-position: 0 0; }
+.RadComboBox_Outlook .rcbHovered .rcbInputCellRight { background-position: 100% 0; }
+
+.RadComboBox_Outlook .rcbFocused .rcbInputCellLeft { background-position: 0 0; }
+.RadComboBox_Outlook .rcbFocused .rcbInputCellRight { background-position: 100% 0; }
+
+.RadComboBox_Outlook .rcbHovered .rcbReadOnly td.rcbInputCellLeft { background-position: 0 -22px; }
+.RadComboBox_Outlook .rcbHovered .rcbReadOnly td.rcbInputCellRight { background-position: 100% -22px; }
+
+.RadComboBox_Outlook .rcbFocused .rcbReadOnly td.rcbInputCellLeft { background-position: 0 -44px; }
+.RadComboBox_Outlook .rcbFocused .rcbReadOnly td.rcbInputCellRight { background-position: 100% -44px; }
+
+.RadComboBox_Outlook .rcbInputCell .rcbEmptyMessage
+{
+	color: #666;
+}
+
+.RadComboBox_Outlook .rcbHovered .rcbInputCell .rcbInput
+{
+	color: #000;
+}
+
+.RadComboBox_Outlook td.rcbArrowCellLeft { background-position: -18px -88px; }
+.RadComboBox_Outlook td.rcbArrowCellRight { background-position: 0 -88px; }
+
+.RadComboBox_Outlook .rcbHovered .rcbArrowCellLeft { background-position: -54px -88px; }
+.RadComboBox_Outlook .rcbHovered .rcbArrowCellRight { background-position: -36px -88px; }
+
+.RadComboBox_Outlook .rcbFocused .rcbArrowCellLeft { background-position: -90px -88px; }
+.RadComboBox_Outlook .rcbFocused .rcbArrowCellRight { background-position: -72px -88px; }
+
+.RadComboBox_Outlook td.rcbArrowCellHidden,
+.RadComboBox_Outlook .rcbHovered td.rcbArrowCellHidden,
+.RadComboBox_Outlook .rcbFocused td.rcbArrowCellHidden { background-position: -15px -88px; }
+
+.RadComboBox_Outlook_rtl td.rcbArrowCellHidden,
+.RadComboBox_Outlook_rtl .rcbHovered td.rcbArrowCellHidden,
+.RadComboBox_Outlook_rtl .rcbFocused td.rcbArrowCellHidden { background-position: -18px -88px; }
+
+/* Read-only styles */
+
+.RadComboBox_Outlook .rcbReadOnly td.rcbArrowCellLeft { background-position: -18px -88px; }
+.RadComboBox_Outlook .rcbReadOnly td.rcbArrowCellRight { background-position: -2px -88px; }
+
+.RadComboBox_Outlook .rcbHovered .rcbReadOnly .rcbArrowCellLeft { background-position: -54px -88px; }
+.RadComboBox_Outlook .rcbHovered .rcbReadOnly .rcbArrowCellRight { background-position: -38px -88px; }
+
+.RadComboBox_Outlook .rcbFocused .rcbReadOnly .rcbArrowCellLeft { background-position: -90px -88px; }
+.RadComboBox_Outlook .rcbFocused .rcbReadOnly .rcbArrowCellRight { background-position: -74px -88px; }
+
+.RadComboBox_Outlook .rcbReadOnly td.rcbArrowCellHidden { background-position: -15px -88px; }
+.RadComboBox_Outlook .rcbHovered .rcbReadOnly td.rcbArrowCellHidden { background-position: -51px -88px; }
+.RadComboBox_Outlook .rcbFocused .rcbReadOnly td.rcbArrowCellHidden { background-position: -87px -88px; }
+
+.RadComboBox_Outlook_rtl .rcbReadOnly td.rcbArrowCellHidden { background-position: -18px -88px; }
+.RadComboBox_Outlook_rtl .rcbHovered .rcbReadOnly td.rcbArrowCellHidden { background-position: -54px -88px; }
+.RadComboBox_Outlook_rtl .rcbFocused .rcbReadOnly td.rcbArrowCellHidden { background-position: -90px -88px; }
+
+/* dropdown */
+
+.RadComboBoxDropDown_Outlook .rcbHeader,
+.RadComboBoxDropDown_Outlook .rcbFooter,
+.RadComboBoxDropDown_Outlook .rcbMoreResults a
+{
+	background-image: url('ComboBox/rcbSprite.png');
+	_background-image: url('ComboBox/rcbSpriteIE6.png');
+}
+
+.RadComboBoxDropDown_Outlook
+{
+	background: #fff;
+	border-color: #002d96;
+	color: #000;
+}
+
+.RadComboBoxDropDown_Outlook .rcbHeader,
+.RadComboBoxDropDown_Outlook .rcbFooter
+{
+	background-color: #f1f2f4;
+	background-position: 0 -110px;
+}
+
+.RadComboBoxDropDown_Outlook .rcbHeader
+{
+	border-bottom-color: #d5d5d5;
+}
+
+.RadComboBoxDropDown_Outlook .rcbFooter
+{
+	border-top-color: #d5d5d5;
+}
+
+.RadComboBoxDropDown_Outlook .rcbItem em
+{
+	background: #e5e5e5;
+}
+
+.RadComboBoxDropDown_Outlook .rcbHovered
+{
+	background: #306ac5;
+	color: #fff;
+}
+
+.RadComboBoxDropDown_Outlook .rcbCheckAllItems,
+.RadComboBoxDropDown_Outlook .rcbCheckAllItemsHovered {
+	color: #000000;
+	background-color: #ffd294;
+}
+.RadComboBoxDropDown_Outlook .rcbCheckAllItemsHovered {
+	color: #000000;
+}
+
+.RadComboBoxDropDown_Outlook .rcbSeparator
+{
+    background: #ffeec2;
+    color: #000;
+}
+
+.RadComboBox_Outlook .rcbDisabled .rcbInputCell .rcbInput,
+.RadComboBoxDropDown_Outlook .rcbDisabled
+{
+	color: #8d8d8d;
+}
+
+.RadComboBox_Outlook .rcbDisabled td.rcbInputCellLeft { background-position: 0 -66px; }
+.RadComboBox_Outlook .rcbDisabled td.rcbInputCellRight { background-position: 100% -66px; }
+.RadComboBox_Outlook .rcbDisabled td.rcbArrowCellLeft { background-position: -126px -88px; }
+.RadComboBox_Outlook .rcbDisabled td.rcbArrowCellRight { background-position: -108px -88px; }
+.RadComboBox_Outlook .rcbDisabled .rcbReadOnly td.rcbArrowCellRight { background-position: -110px -88px; }
+.RadComboBox_Outlook table.rcbDisabled td.rcbArrowCellHidden,
+.RadComboBox_Outlook .rcbDisabled .rcbReadOnly td.rcbArrowCellHidden { background-position: -123px -88px; }
+.RadComboBox_Outlook_rtl table.rcbDisabled td.rcbArrowCellHidden,
+.RadComboBox_Outlook_rtl .rcbDisabled .rcbReadOnly td.rcbArrowCellHidden { background-position: -126px -88px; }
+
+.RadComboBoxDropDown_Outlook .rcbLoading
+{
+	background: #f0f0f0;
+}
+
+.RadComboBoxDropDown_Outlook .rcbMoreResults
+{
+	border-top-color: #6a8ccb;
+	background-color: #fff;
+	color: #8d8d8d;
+}
+
+.RadComboBoxDropDown_Outlook .rcbMoreResults a
+{
+	background-position: -157px -94px;
+}

@@ -1,0 +1,262 @@
+/* <RadToolBar / Office2007> */
+
+/* <tool wrapper> */
+
+/* <horizontal> */
+
+.RadToolBar_Office2007 .rtbOuter
+{
+	border: 1px solid #688caf;
+}
+
+.RadToolBar_Office2007 .rtbMiddle
+{
+	border: 1px solid #f6f7f9;
+	background: #d6e6f4 url('ToolBar/rtbControlBg.png') repeat-x 0 0;
+}
+
+/* </horizontal> */
+
+/* <vertical> */
+
+.RadToolBar_Office2007_Vertical .rtbMiddle
+{
+	background: #d6e6f4 url('ToolBar/rtbVerticalControlBg.png') repeat-y 0 0;
+}
+
+/* </vertical> */
+
+/* </tool wrapper> */
+
+/* <buttons> */
+
+.RadToolBar_Office2007 .rtbWrap,
+.RadToolBar_Office2007 .rtbTemplate
+{
+	color: #00156e;
+	font: normal 12px/20px "Segoe UI", Arial, sans-serif;
+}
+
+/* <button states> */
+
+.RadToolBar_Office2007 .rtbSplBtnFocused .rtbWrap, .RadToolBar_Office2007 .rtbSplBtnFocused .rtbOut, .RadToolBar_Office2007 .rtbSplBtnFocused .rtbMid, .RadToolBar_Office2007 .rtbSplBtnFocused .rtbIn,
+.RadToolBar_Office2007 .rtbItemFocused .rtbWrap, .RadToolBar_Office2007 .rtbItemFocused .rtbOut, .RadToolBar_Office2007 .rtbItemFocused .rtbMid, .RadToolBar_Office2007 .rtbItemFocused .rtbIn,
+.RadToolBar_Office2007 .rtbItemHovered .rtbWrap, .RadToolBar_Office2007 .rtbItemHovered .rtbOut, .RadToolBar_Office2007 .rtbItemHovered .rtbMid, .RadToolBar_Office2007 .rtbItemHovered .rtbIn
+{
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url('ToolBar/rtbHoverBg.png');
+}
+
+.RadToolBar_Office2007 .rtbItemClicked .rtbWrap, .RadToolBar_Office2007 .rtbItemClicked .rtbOut, .RadToolBar_Office2007 .rtbItemClicked .rtbMid, .RadToolBar_Office2007 .rtbItemClicked .rtbIn
+{
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url('ToolBar/rtbClickedBg.png');
+}
+
+.RadToolBar_Office2007 .rtbSplBtnExpanded .rtbWrap, .RadToolBar_Office2007 .rtbSplBtnExpanded .rtbOut, .RadToolBar_Office2007 .rtbSplBtnExpanded .rtbMid, .RadToolBar_Office2007 .rtbSplBtnExpanded .rtbIn,
+.RadToolBar_Office2007 .rtbDropDownExpanded .rtbWrap, .RadToolBar_Office2007 .rtbDropDownExpanded .rtbOut, .RadToolBar_Office2007 .rtbDropDownExpanded .rtbMid, .RadToolBar_Office2007 .rtbDropDownExpanded .rtbIn,
+.RadToolBar_Office2007 .rtbChecked .rtbWrap, .RadToolBar_Office2007 .rtbChecked .rtbOut, .RadToolBar_Office2007 .rtbChecked .rtbMid, .RadToolBar_Office2007 .rtbChecked .rtbIn,
+.RadToolBar_Office2007 li.rtbChecked .rtbWrap:hover, .RadToolBar_Office2007 li.rtbChecked .rtbWrap:hover .rtbOut, .RadToolBar_Office2007 li.rtbChecked .rtbWrap:hover .rtbMid, .RadToolBar_Office2007 li.rtbChecked .rtbWrap:hover .rtbIn
+{
+	background-image: url('ToolBar/rtbActiveBg.png');
+	background-color: transparent;
+	background-repeat: no-repeat;
+}
+
+.RadToolBar_Office2007 .rtbItemFocused .rtbWrap,
+.RadToolBar_Office2007 .rtbChecked .rtbWrap,
+.RadToolBar_Office2007 .rtbDropDownExpanded .rtbWrap,
+.RadToolBar_Office2007 .rtbSplBtnExpanded .rtbWrap,
+.RadToolBar_Office2007 .rtbItemHovered .rtbWrap,
+.RadToolBar_Office2007 .rtbItemClicked .rtbWrap
+{
+	color: #000;
+}
+
+/* </button states> */
+
+/* <Drop Down Arrows> */
+
+
+.RadToolBar_Office2007 .rtbSplBtn .rtbChoiceArrow,
+.RadToolBar_Office2007 .rtbItem .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_Office2007 .rtbChoiceArrow,
+.RadToolBar_Office2007 .rtbSplBtnExpanded .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_Office2007 .rtbSplBtnExpanded .rtbChoiceArrow,
+.RadToolBar_Office2007 .rtbDropDownExpanded .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_Office2007 .rtbDropDownExpanded .rtbChoiceArrow,
+.RadToolBar_Office2007 .rtbSplBtnHovered .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_Office2007 .rtbSplBtnHovered .rtbChoiceArrow,
+.RadToolBar_Office2007 .rtbItemHovered .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_Office2007 .rtbItemHovered .rtbChoiceArrow,
+.RadToolBar_Office2007 .rtbSplBtnClicked .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_Office2007 .rtbSplBtnClicked .rtbChoiceArrow,
+.RadToolBar_Office2007 .rtbItemClicked .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_Office2007 .rtbItemClicked .rtbChoiceArrow
+{
+	background-image: url('ToolBar/rtbDropArrows.png');
+}
+
+.RadToolBar_Office2007 .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_Office2007 .rtbSplBtn .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_Office2007 .rtbSplBtnExpanded .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_Office2007 .rtbDropDownExpanded .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_Office2007 .rtbSplBtnHovered .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_Office2007 .rtbItemHovered .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_Office2007 .rtbSplBtnClicked .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_Office2007 .rtbItemClicked .rtbExpandUp .rtbChoiceArrow
+{
+	background-image: url('ToolBar/rtbUpArrows.png');
+}
+
+/* </Drop Down Arrows> */
+
+.RadToolBar_Office2007_Horizontal li.rtbSeparator 
+{
+	border-left: 1px solid #80ace6;
+	background: #fff;
+}
+
+.RadToolBar_Office2007_Vertical li.rtbSeparator
+{
+	border-top: 1px solid #80ace6;
+	background: #fff;
+}
+
+/* </buttons> */
+
+
+/* <disabled states> */
+
+.RadToolBar_Office2007 .rtbDisabled .rtbWrap:hover,
+.RadToolBar_Office2007 .rtbDisabled .rtbWrap:hover .rtbOut,
+.RadToolBar_Office2007 .rtbDisabled .rtbWrap:hover .rtbMid,
+.RadToolBar_Office2007 .rtbDisabled .rtbWrap:hover .rtbIn
+{
+	background-image: none;
+}
+
+.RadToolBar_Office2007 .rtbDisabled .rtbWrap { color: #7E8FBC\9; }
+
+@media screen and (-webkit-min-device-pixel-ratio:0)  /* WebKit alpha + opacity/cleartype bug, like IE wasn't enough... */
+{
+	.RadToolBar_Office2007 .rtbDisabled .rtbWrap { color: #7E8FBC; }
+}
+
+/* </disabled states */
+
+/* <drop-down> */
+
+/* <Drop Down rounded corners and shadows> */
+
+.RadToolBarDropDown_Office2007 .rtbTopFix,
+.RadToolBarDropDown_Office2007 .rtbBottomFix,
+.RadToolBarDropDown_Office2007 .rtbGroup
+{
+	background-image: url('ToolBar/rtbDropDownBg.png');
+	background-color: #fff;
+	background-repeat: repeat-y;
+    background-position: -1px 0;
+}
+
+.RadToolBarDropDown_Office2007 div.rtbTopFix,
+.RadToolBarDropDown_Office2007 div.rtbBottomFix
+{
+    background-position: -2px 0;
+}
+
+.RadToolBarDropDown_Office2007 .rtbBottomLeft,
+.RadToolBarDropDown_Office2007 .rtbRoundedCorners
+{
+	background-image:  url('ToolBar/rtbRoundedLeft.png');
+	background-color: transparent;
+	background-repeat: no-repeat;
+}
+
+.RadToolBarDropDown_Office2007 .rtbTopRight,
+.RadToolBarDropDown_Office2007 .rtbBottomRight
+{
+	background-image:  url('ToolBar/rtbRoundedRight.png');
+	background-color: transparent;
+	background-repeat: no-repeat;
+}
+
+.RadToolBarDropDown_Office2007 .rtbTopFix,
+.RadToolBarDropDown_Office2007 .rtbBottomFix,
+.RadToolBarDropDown_Office2007 .rtbRoundedCorners .rtbFirst
+{
+	border-color: #868686;
+}
+
+.RadToolBarDropDown_Office2007_rtl .rtbBottomLeft,
+.RadToolBarDropDown_Office2007_rtl .rtbRoundedCorners
+{
+	background-image: url('ToolBar/rtbRoundedLeft_rtl.png');
+}
+
+.RadToolBarDropDown_Office2007_rtl .rtbTopRight,
+.RadToolBarDropDown_Office2007_rtl .rtbBottomRight
+{
+	background-image: url('ToolBar/rtbRoundedRight_rtl.png');
+}
+
+.RadToolBarDropDown_Office2007_rtl div.rtbTopFix,
+.RadToolBarDropDown_Office2007_rtl div.rtbBottomFix,
+.RadToolBarDropDown_Office2007_rtl .rtbGroup
+{
+	background-position: 101% 0;
+}
+
+/* </Drop Down rounded corners and shadows> */
+
+.RadToolBarDropDown_Office2007
+{
+	border-color: #868686;
+	background-color: #fff;
+	background-image: url('ToolBar/rtbDropDownBg.png');
+	background-position: -1px 0;
+}
+
+.RadToolBarDropDown_Office2007 li.rtbItem {
+	padding:0 0 0 4px;
+}
+
+div.RadToolBarDropDown_Office2007_rtl
+{
+	background-position: 101% 0;
+}
+
+.RadToolBarDropDown_Office2007 .rtbWrap,
+.RadToolBarDropDown_Office2007 .rtbTemplate
+{
+	font-weight: normal;
+	font-size: 12px;
+	font-family: "Segoe UI", Arial, sans-serif;
+	color: #223481;
+}
+
+.RadToolBarDropDown_Office2007 .rtbItemHovered,
+.RadToolBarDropDown_Office2007 .rtbItemFocused,
+.RadToolBarDropDown_Office2007 .rtbItemHovered .rtbWrap,
+.RadToolBarDropDown_Office2007 .rtbItemFocused .rtbWrap
+{
+	color: #000;
+	background-image: url('ToolBar/rtbDropDownHover.png');
+}
+
+.RadToolBarDropDown_Office2007 .rtbDisabled .rtbWrap
+{
+	color: #ababab;
+}
+
+.RadToolBarDropDown_Office2007 .rtbSeparator
+{
+	border-color: #c5c5c5;
+	background: #fff;
+}
+
+/* </drop-down> */
+
+/* </RadToolBar / Office2007> */

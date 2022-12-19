@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- 
+     role="*" show menu for all authnticated users
+     role="anonymous" shows menu for anonymous users
+     if role is empty the menu always will be shown
+-->
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode>
+    <siteMapNode url="Default.aspx" title="صفحه اصلی" />
+    <siteMapNode url="Account/Login.aspx" title="ورود" roles="anonymous" />
+    <siteMapNode url="Account/Register.aspx" title="ثبت نام" roles="anonymous" />
+    <siteMapNode url="Account/ChangePassword.aspx" title="تغییر رمز" roles="*" />
+    <siteMapNode url="Profile/Edit.aspx" title="ویرایش بروفایل" roles="*" />
+    <siteMapNode title="خروج" roles="*" url="Account/Logout.aspx" />
+  </siteMapNode>
+</siteMap>

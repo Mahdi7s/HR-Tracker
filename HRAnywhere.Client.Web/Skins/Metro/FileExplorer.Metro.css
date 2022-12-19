@@ -1,0 +1,40 @@
+
+
+/*========================================= Toolbar related CSS ========================*/
+
+.RadFileExplorer_Metro .RadToolBar .rtbText
+{
+	background-image: url('FileExplorer/FileExplorerToolbarSprites.png');
+	background-repeat: no-repeat;
+}
+
+/* IE6 does not support the alpha channel of png files, so we force it to use gif */
+* html .RadFileExplorer_Metro .RadToolBar .rtbText
+{
+	background-image: url('FileExplorer/FileExplorerToolbarSpritesIE6.gif') !important;
+}
+
+.RadFileExplorer_Metro, 
+.RadFileExplorer_Metro .rfeAddressBox,
+.RadFileExplorer_Metro .rfeFilterTxt
+{
+	border-color: #e5e5e5;
+}
+
+.DialogSeparator
+{
+    border-left: solid 1px #e5e5e5;
+    border-right: solid 1px #e5e5e5;
+    background-color: #fff;
+}
+
+div.selectedFileName
+{
+    border-top: solid 1px #e5e5e5;
+}
+
+.RadFileExplorer_Metro .RadGrid .rgActiveRow td
+{
+	border-bottom: 1px solid #25a0da !important;
+	border-left: 1px solid #25a0da !important;
+}

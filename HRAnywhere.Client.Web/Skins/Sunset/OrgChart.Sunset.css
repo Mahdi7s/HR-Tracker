@@ -1,0 +1,84 @@
+/**
+ * Organizational Chart Sunset Skin
+ */
+
+
+
+
+/*----------------------------------------------------------------------------*/
+
+
+
+
+/** Global wrapper */
+.RadOrgChart_Sunset {
+	color: #272522;
+	font: normal 12px/22px "Segoe UI", Arial, sans-serif;
+}
+
+
+
+
+/** Viewport */
+.RadOrgChart_Sunset .rocViewport {}
+
+
+
+
+/** NodeList */
+.RadOrgChart_Sunset .rocNodeList {}
+
+
+
+
+/** Node */
+.RadOrgChart_Sunset .rocNode {}
+
+
+
+
+/** Group */
+.RadOrgChart_Sunset .rocGroup {
+	border-radius: 10px;
+	background-color: #f1e9dc;
+}
+
+
+
+
+/** ItemList */
+.RadOrgChart_Sunset .rocItemList {}
+
+
+
+
+/** ItemWrap */
+.RadOrgChart_Sunset .rocItemWrap {}
+
+
+
+
+/** Items */
+.RadOrgChart_Sunset .rocItem {
+	color: #ffffff;
+}
+
+
+	.RadOrgChart_Sunset .rocItemContent,
+	.RadOrgChart_Sunset .rocItemTemplate {
+		border-color: #71250a;
+		border-radius: 5px;
+		background-color: #b94d0a;
+		background-image: url('../Common/OrgChart/rocItemTileLight.png');
+		_background-image: none;
+	}
+
+
+
+
+/** Node lines */
+.RadOrgChart_Sunset .rocLineUp,
+.RadOrgChart_Sunset .rocLineDown,
+.RadOrgChart_Sunset .rocLineHorizontal {
+	background-image: url('../Common/OrgChart/rocLinesDark.png');
+}

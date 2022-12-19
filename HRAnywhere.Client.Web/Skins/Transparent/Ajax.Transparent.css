@@ -1,0 +1,18 @@
+/* Telerik RadAjaxLoadingPanel Office2010Silver Skin */
+
+.RadAjax_Transparent .raDiv
+{
+	background-image:url('Ajax/loading.gif');
+}
+
+.RadAjax_Transparent .raColor
+{
+	background-color:#d8dee3;
+}
+
+.RadAjax_Transparent .raTransp
+{
+	opacity:0.7;
+	-moz-opacity:0.7;
+	filter:alpha(opacity=70);
+}

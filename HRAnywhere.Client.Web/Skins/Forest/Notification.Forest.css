@@ -1,0 +1,36 @@
+/*RadNotification Forest Skin*/
+
+.RadNotification_Forest
+{
+	border: 1px solid #588a4d;
+	background-color: #c2d197;
+	color: #2B2C20;
+}
+
+.RadNotification_Forest.rnShadows
+{
+	box-shadow: 2px 2px 3px #a7b6a4;
+	-webkit-box-shadow: 2px 2px 3px #a7b6a4;
+}
+
+.RadNotification_Forest .rnTitleBar,
+.RadNotification_Forest .rnCommands a
+{
+	background-image: url('Notification/NotificationSprite.png');
+}
+
+.RadNotification_Forest .rnTitleBar
+{
+	border-bottom: 1px solid #3c6716;
+}
+
+.RadNotification_Forest .rnContentWrapper
+{
+	border-top: 1px solid #b6c988;
+}
+
+/* base style overwrites */
+.RadNotification_Forest .rnCommands
+{
+	margin: 4px 0 0;
+}

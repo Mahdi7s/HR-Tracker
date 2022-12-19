@@ -1,0 +1,170 @@
+/*Telerik RadFilter Sitefinity skin*/
+
+/*sprite*/
+
+.RadFilter_Sitefinity .rfOper:hover,
+.RadFilter_Sitefinity .rfField:hover,
+.RadFilter_Sitefinity .rfExp:hover,
+.RadFilter_Sitefinity .rfOper:focus,
+.RadFilter_Sitefinity .rfField:focus,
+.RadFilter_Sitefinity .rfExp:focus,
+.RadFilter_Sitefinity .rfOper:active,
+.RadFilter_Sitefinity .rfField:active,
+.RadFilter_Sitefinity .rfExp:active,
+.RadFilter_Sitefinity .rfAddGr,
+.RadFilter_Sitefinity .rfAddExp,
+.RadFilter_Sitefinity .rfDel,
+.RadFilter_Sitefinity .rfApply a,
+.RadFilter_Sitefinity .rfApply input
+{
+	background-image:url('Filter/sprite.gif');
+}
+
+/*global*/
+
+.RadFilter_Sitefinity,
+.RadFilter_Sitefinity .rfText,
+.RadFilter_Sitefinity .rfApply input
+{
+	font-size:12px;
+	font-family:"segoe ui",arial,sans-serif;
+}
+
+.RadFilter_Sitefinity,
+.RadFilter_Sitefinity a
+{
+	color:#3072c0;
+}
+
+/*lines*/
+
+.RadFilter_Sitefinity .rfLines li li
+{
+	background-image:url('Filter/rfLine.gif');
+}
+
+.RadFilter_Sitefinity .rfLines li li .rfDiv
+{
+	background-image:url('Filter/rfMiddle.gif');
+}
+
+.RadFilter_Sitefinity .rfLines li li.rfLast .rfDiv
+{
+	background-image:url('Filter/rfLast.gif');
+}
+
+/*item elements*/
+
+.RadFilter_Sitefinity .rfField
+{
+	color:#000;
+}
+
+.RadFilter_Sitefinity .rfOper:hover,
+.RadFilter_Sitefinity .rfField:hover,
+.RadFilter_Sitefinity .rfExp:hover,
+.RadFilter_Sitefinity .rfOper:focus,
+.RadFilter_Sitefinity .rfField:focus,
+.RadFilter_Sitefinity .rfExp:focus,
+.RadFilter_Sitefinity .rfOper:active,
+.RadFilter_Sitefinity .rfField:active,
+.RadFilter_Sitefinity .rfExp:active
+{
+	background-position:100% -76px;
+	color:#3072c0;
+}
+
+.RadFilter_Sitefinity .rfText
+{
+	border-color:#acadb2 #e4e9ef #e4e9ef #acadb2;
+}
+
+.RadFilter_Sitefinity .rfAddExp,
+.RadFilter_Sitefinity .rfAddGr,
+.RadFilter_Sitefinity .rfDel
+{
+	width:23px;
+	height:21px;
+}
+
+.RadFilter_Sitefinity .rfAddExp
+{
+	background-position:-300px 0;
+}
+.RadFilter_Sitefinity .rfAddExp:hover
+{
+	background-position:-350px 0;
+}
+
+.RadFilter_Sitefinity .rfAddGr
+{
+	background-position:-400px 0;
+}
+.RadFilter_Sitefinity .rfAddGr:hover
+{
+	background-position:-450px 0;
+}
+
+.RadFilter_Sitefinity .rfDel
+{
+	background-position:-150px 0;
+}
+.RadFilter_Sitefinity .rfDel:hover
+{
+	background-position:-200px 0;
+}
+
+/*preview*/
+
+.RadFilter_Sitefinity .rfPreview strong
+{
+	color:#000;
+}
+
+.RadFilter_Sitefinity .rfPreview em,
+.RadFilter_Sitefinity .rfPreview .rfBr
+{
+	color:#5e5e5e;
+}
+
+/*apply*/
+
+.RadFilter_Sitefinity .rfApply a
+{
+	background-position:100% -29px;
+}
+.RadFilter_Sitefinity .rfApply input
+{
+	background-position:0 -100px;
+	color:#333;
+}
+
+/*rtl*/
+
+.RadFilterRTL_Sitefinity .rfLines li li
+{
+	background-image:url('Filter/rfLine-rtl.gif');
+}
+
+.RadFilterRTL_Sitefinity .rfLines li li .rfDiv
+{
+	background-image:url('Filter/rfMiddle-rtl.gif');
+}
+
+.RadFilterRTL_Sitefinity .rfLines li li.rfLast .rfDiv
+{
+	background-image:url('Filter/rfLast-rtl.gif');
+}
+
+.RadFilterRTL_Sitefinity .rfOper:hover,
+.RadFilterRTL_Sitefinity .rfField:hover,
+.RadFilterRTL_Sitefinity .rfExp:hover,
+.RadFilterRTL_Sitefinity .rfOper:focus,
+.RadFilterRTL_Sitefinity .rfField:focus,
+.RadFilterRTL_Sitefinity .rfExp:focus,
+.RadFilterRTL_Sitefinity .rfOper:active,
+.RadFilterRTL_Sitefinity .rfField:active,
+.RadFilterRTL_Sitefinity .rfExp:active
+{
+	background-position:-586px -76px;
+}

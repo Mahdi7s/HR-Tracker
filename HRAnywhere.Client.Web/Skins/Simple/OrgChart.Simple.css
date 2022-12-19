@@ -1,0 +1,80 @@
+/**
+ * Organizational Chart Simple Skin
+ */
+
+
+
+
+/*----------------------------------------------------------------------------*/
+
+
+
+
+/** Global wrapper */
+.RadOrgChart_Simple {
+	color: #333333;
+	font: normal 12px/22px "Segoe UI", Arial, sans-serif;
+}
+
+
+
+
+/** Viewport */
+.RadOrgChart_Simple .rocViewport {}
+
+
+
+
+/** NodeList */
+.RadOrgChart_Simple .rocNodeList {}
+
+
+
+
+/** Node */
+.RadOrgChart_Simple .rocNode {}
+
+
+
+
+/** Group */
+.RadOrgChart_Simple .rocGroup {
+	background-color: #e5e5e5;
+	background-color: rgba(0, 0, 0, .1);
+	*background-color: #e5e5e5;
+}
+
+
+
+
+/** ItemList */
+.RadOrgChart_Simple .rocItemList {}
+
+
+
+
+/** ItemWrap */
+.RadOrgChart_Simple .rocItemWrap {}
+
+
+
+
+/** Items */
+.RadOrgChart_Simple .rocItem {}
+
+
+	.RadOrgChart_Simple .rocItemContent,
+	.RadOrgChart_Simple .rocItemTemplate {
+		border-color: #c98400;
+		background-color: #ffefbd;
+	}
+
+
+
+
+/** Node lines */
+.RadOrgChart_Simple .rocLineUp,
+.RadOrgChart_Simple .rocLineDown,
+.RadOrgChart_Simple .rocLineHorizontal {
+	background-image: url('../Common/OrgChart/rocLinesDark.png');
+}

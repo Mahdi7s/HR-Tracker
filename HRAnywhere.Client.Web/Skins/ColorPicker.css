@@ -1,0 +1,927 @@
+/* RadColorPicker generic css file */
+.RadColorPicker
+{
+	width:37px;
+	font-size:1px;
+	text-align:left;
+}
+
+.RadColorPicker .rcpPalette
+{
+	position:relative;
+	padding-left:4px;
+	margin:0 4px 4px -5px;
+	background-position:top left;
+	background-repeat:no-repeat;
+}
+
+* html .RadColorPicker .rcpPalette
+{
+	border:none;
+}
+
+.rcpDisabled .rcpPalette,
+.rcpDisabled .rcpIcon a,
+.rcpDisabled .rcpIcon em
+{
+	filter:alpha(opacity = 30);
+	opacity:.3;
+	-moz-opacity:.3;
+}
+
+.RadColorPicker .rcpPalette,
+.RadColorPicker .rcpTabs,
+.RadColorPicker .rcpHeader,
+.RadColorPicker .rcpWebPalette,
+.RadColorPicker .rcpRGBPageView ul,
+.RadColorPicker .rcpMillionColorsPageView,
+.RadColorPicker .rcpInputsWrapper ul,
+.RadColorPicker .rcpRecentColors
+{
+	zoom:1;
+}
+
+.RadColorPicker .rcpPalette:after,
+.RadColorPicker .rcpTabs:after,
+.RadColorPicker .rcpHeader:after,
+.RadColorPicker .rcpWebPalette:after,
+.RadColorPicker .rcpRGBPageView ul:after,
+.RadColorPicker .rcpMillionColorsPageView:after,
+.RadColorPicker .rcpInputsWrapper ul:after,
+.RadColorPicker .rcpRecentColors:after
+{
+	content:"";
+	display:block;
+	height:0;
+	overflow:hidden;
+	line-height:0;
+	font-size:0;
+	clear:both;
+	visibility:hidden;
+}
+
+.RadColorPicker ul,
+.RadColorPicker ul li
+{
+	margin:0;
+	padding:0;
+	border:0;
+	list-style:none;
+	height:auto;
+	display:block;
+}
+
+.RadColorPicker a
+{
+	outline:none;
+	text-decoration:none;
+	moz-user-select:none;
+}
+
+.RadColorPicker .rcpTabs,
+.RadColorPicker .rcpHexInput,
+.RadColorPicker .rcpInput,
+.RadColorPicker label,
+.RadColorPicker .rcpButton,
+.RadColorPicker .rcpRecentColorsLabel
+{
+	font:normal 12px "Segoe UI", Arial, Sans-serif;
+}
+
+.RadColorPicker .rcpPalette label,
+.RadColorPicker .rcpRecentColorsLabel
+{
+	width:12px;
+	padding-right:3px;
+	line-height:22px;
+	text-align:right;
+}
+
+/* color picker button */
+.RadColorPicker .rcpIcon,
+.RadColorPicker .rcpIcon a
+{
+	width:37px;
+	height:22px;
+	display:block;
+	overflow:hidden;
+}
+
+.RadColorPicker .rcpIcon
+{
+	position:relative; /* Otherwise in Opera in rtl mode, the absolute A and EM are not positioned correctly. */
+}
+
+.RadColorPicker .rcpIcon a,
+.RadColorPicker .rcpIcon em
+{
+	position:absolute;
+	text-indent:-9999px;
+}
+
+.RadColorPicker .rcpIcon a
+{
+	z-index:9;
+	cursor:default;
+}
+
+.RadColorPicker .rcpIcon em
+{
+	z-index:8;
+	width:12px;
+	height:12px;
+	margin:5px 0 0 5px;
+}
+
+/* IE6 fix as it does not render PNG correctly and the showicon whole is not transparent */
+*html .RadColorPicker .rcpIcon em
+{
+	z-index: 10 !important;
+	line-height: 12px;
+}
+
+/* Right to left support for the show/hide icon */
+.RadColorPickerRTL,
+div.RadColorPickerRTL .rcpInput,
+div.RadColorPickerRTL .rcpHexInput
+{
+	text-align:right;
+}
+
+.RadColorPickerRTL .rcpIcon a
+{
+	-moz-transform:scaleX(-1);/*firefox*/
+	-o-transform:scaleX(-1);/*opera*/
+	-webkit-transform:scaleX(-1);/*safari and chrome*/
+	filter:fliph; /*IE*/
+	transform:scaleX(-1);/*all browsers when support is provided*/
+}
+
+*html .RadColorPickerRTL .rcpIcon a
+{
+	margin-right:1px;
+}
+
+.RadColorPickerRTL .rcpIcon em 
+{
+	margin:5px 5px 0 0;
+}
+
+/* preview panel */
+.RadColorPicker .rcpHeader
+{
+	padding:5px 1px 9px;
+}
+
+.RadColorPicker .rcpEmptyHeader
+{
+	padding:3px 1px 0;
+}
+
+.RadColorPicker .rcpColorPreview
+{
+	width:33px;
+	height:20px;
+	float:left;
+	margin-right:1px;
+}
+
+.RadColorPicker .rcpHexInput,
+.RadColorPicker .rcpInput
+{
+	height:19px;
+	line-height:19px;
+	display:block;
+	padding:1px 1px 0 1px;
+	text-transform:lowercase;
+	text-align:left;
+	cursor:default;
+}
+
+.RadColorPicker .rcpHexInput
+{
+	width:50px;
+	float:left;
+}
+
+div.RadColorPicker .rcpHexInput[readonly]
+{
+	background:none;
+	border: 1px solid transparent;
+}
+
+.RadColorPicker .rcpInput
+{
+	width:22px;
+}
+
+/* no color button */
+.RadColorPicker .rcpHeader .rcpImageButton
+{
+	width:22px;
+	height:22px;
+	display:block;
+	float:left;
+	cursor:pointer;
+	margin-left:2px;
+}
+
+.RadColorPicker .rcpImageButton span
+{
+	display:block;
+	height:22px;
+	line-height:22px;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	font-size:1px;
+	text-indent:-99999px;
+}
+
+/* apply color button */
+.RadColorPicker .rcpButton
+{
+	display:block;
+	width:50px;
+	height:22px;
+	text-align:center;
+	padding-right:6px;
+	float:right;
+	margin-left:2px;
+	cursor:default;
+	white-space:nowrap;
+}
+
+.RadColorPicker .rcpButton span
+{
+	display:block;
+	line-height:22px;
+	padding-left:6px;
+}
+
+/* color picker tabs */
+.RadColorPicker .rcpTabs
+{
+	position:absolute;
+	width:100%;
+	height:auto;
+	bottom:-29px; /* The position should be the Tabs height (26px by design) + the height of the bottom shadow (5px by design) -2px in order to cover the bottom border */
+	left:9px;
+}
+
+*html .RadColorPicker .rcpTabs
+{
+	bottom:-28px;
+}
+
+.RadColorPicker .rcpTabs ul
+{
+	float:left;
+}
+
+.RadColorPicker .rcpTabs ul li
+{
+	float:left;
+	margin:-2px 0 0 -1px;
+}
+
+*html .RadColorPicker .rcpTabs ul li
+{
+	margin-left:0;
+}
+
+.RadColorPicker .rcpTabs ul li.rcpSelectedTab
+{
+	margin-top:0;
+}
+
+.RadColorPicker .rcpTabs ul li a
+{
+	display:block;
+	background-position:right top;
+	padding-right:6px;
+	cursor:default;
+}
+
+.RadColorPicker .rcpTabs ul li a span
+{
+	display:block;
+	padding-left:6px;
+	line-height:26px;
+	white-space:nowrap;
+}
+
+.RadColorPicker .rcpPageView
+{
+	padding:1px;
+}
+
+.RadColorPicker .rcpRecentColors
+{
+	padding:10px 1px 0 1px;
+}
+
+.RadColorPicker .rcpPalette .rcpRecentColorsLabel
+{
+	padding:0 1px;
+}
+
+/* WebPalette color buttons */
+.RadColorPicker .rcpWebPalette li,
+.RadColorPicker .rcpRecentColors li
+{
+	float:left;
+}
+
+.RadColorPicker .rcpRecentColors li
+{
+	margin:0 2px 2px 0;
+	width:12px;
+	height:12px;
+}
+
+/* prevents overlapping LI elements in IE7 and IE8 Compatibility view */
+*+html .RadColorPicker .rcpWebPalette li
+{
+	margin-bottom:0;
+}
+
+
+.RadColorPicker .rcpColorBox,
+.RadColorPicker .rcpSelectedColor
+{
+	cursor:pointer;
+	display:block;
+}
+
+.RadColorPicker .rcpColorBox span,
+.RadColorPicker .rcpSelectedColor span,
+.RadColorPicker .rcpRecentColors span
+{
+	line-height:1px;
+	width:12px;
+	display:block;
+	padding:1px;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+.RadColorPicker .rcpRecentColors span
+{
+	width:10px;
+	height:10px;
+}
+
+/* Opera */
+@media screen and (min-width:550px)
+{
+	.RadColorPicker .rcpRecentColors li {width:12px;}
+}
+
+.RadColorPicker .rcpWebPalette .rcpBreakLine 
+{
+	float:none;
+	clear:both;
+	height:1px;
+	line-height:1px;
+	margin-bottom:-1px;
+	overflow:hidden;
+}
+
+/* RGBSliders palette */
+.RadColorPicker .rcpRGBPageView ul li
+{
+	float:left;
+	margin-bottom:2px;
+}
+
+.RadColorPicker .rcpRGBPageView .rcpInput
+{
+	float:left;
+	margin-left:10px;
+}
+
+.RadColorPicker .rcpRGBPageView ul li label,
+.RadColorPicker .rcpSlider
+{
+	float:left;
+}
+
+.RadColorPickerRTL .rcpRGBPageView .rcpInput
+{
+	margin:0 0 0 5px;
+}
+
+.RadColorPickerRTL .rcpRGBPageView .rcpInput,
+.RadColorPickerRTL .rcpRGBPageView ul li label,
+.RadColorPickerRTL .rcpColorPreview,
+.RadColorPickerRTL .rcpHexInput,
+.RadColorPickerRTL .rcpHeader .rcpImageButton,
+.RadColorPickerRTL .rcpTabs ul,
+.RadColorPickerRTL .rcpTabs ul li,
+div.RadColorPickerRTL .rcpMillionColorsPalette,
+div.RadColorPickerRTL .rcpMillionColorsSlider
+{
+	float:right;
+}
+
+.RadColorPickerRTL .rcpTabs ul
+{
+	margin-right:13px;
+}
+
+/* IE6 fix for TabStrip position */
+*html .RadColorPickerRTL .rcpTabs ul
+{
+	width:100%;
+}
+
+/* IE7 fix for TabStrip position */
+*+html .RadColorPickerRTL .rcpTabs ul
+{
+	float:left;
+}
+
+/* IE6 fix for InputsWrapper position */
+*html .RadColorPickerRTL .rcpInputsWrapper
+{
+	float:right;
+}
+
+/* IE7 fix for InputsWrapper position */
+*+html .RadColorPickerRTL .rcpInputsWrapper
+{
+	margin-left:-15px;
+}
+
+/* IE6 draghande position in RTL */
+*html .RadColorPickerRTL div.rcpMillionColorsSlider div.rslVertical a.rslDraghandle
+{
+	right:-4px;
+}
+
+/* IE7 draghande position in RTL */
+*+html .RadColorPickerRTL div.rcpMillionColorsSlider div.rslVertical a.rslDraghandle
+{
+	right:-4px;
+}
+
+.RadColorPickerRTL .rcpColorPreview
+{
+	margin:0 0 0 1px;
+}
+
+.RadColorPickerRTL .rcpHexInput,
+.RadColorPickerRTL .rcpHeader .rcpImageButton
+{
+	margin:0 0 0 2px;
+}
+
+.RadColorPickerRTL .rcpSlider,
+.RadColorPickerRTL .rcpButton
+{
+	float:left;
+}
+
+/* IE6 fix - the R, G, B inputs do not show */
+* html .RadColorPickerRTL .rcpRGBPageView ul li
+{
+	width:100%;
+}
+
+div.RadColorPickerRTL .rcpMillionColorsSlider
+{
+	margin: 0 5px 0 0;
+}
+
+/* Million colors palettes */
+.RadColorPicker .rcpHsbPageView .rcpVInputWrapper
+{
+	display:none;
+}
+
+.RadColorPicker .rcpMillionColorsPalette
+{
+	width:256px;
+	height:160px;
+	overflow:visible;
+	position:relative;
+	float:left;
+	cursor:crosshair;
+}
+
+/* HSB Mode palette */
+.RadColorPicker .rcpHsbPageView .rcpMillionColorsPalette
+{
+	background:#000 url('Common/hsbPalette.jpg') no-repeat left top;
+}
+
+/* HSB specific */
+.RadColorPicker .rcpHsbPageView .rcpMillionColorsSlider div.rslTrack
+{
+	background:#fff url('Common/hsbSlider.png') no-repeat center center;
+}
+
+.RadColorPicker .rcpHsvPageView .rcpMillionColorsPalette
+{
+	background:red url('Common/hsvPalette.png') no-repeat left top;
+	width:160px;
+}
+
+/* HSV specific */
+.RadColorPicker .rcpHsvPageView .rcpMillionColorsSlider div.rslTrack
+{
+	background:#fff url('Common/hsvSider.jpg') no-repeat left top;
+}
+
+.RadColorPicker div.rcpMillionColorsSlider div.rslVertical a.rslDraghandle
+{
+	width:8px;
+	height:8px;
+	line-height:8px;
+	margin-left:13px;
+	cursor:s-resize;
+}
+
+* html .RadColorPicker div.RadSliderRTL div.rslVertical a.rslDraghandle
+{
+	margin-left:0;
+	margin-right:-5px;
+}
+
+*+html .RadColorPicker div.RadSliderRTL div.rslVertical a.rslDraghandle
+{
+	margin-left:0;
+	margin-right:-5px;
+}
+
+.RadColorPicker .rcpHsvPageView .rcpLInputWrapper
+{
+	display:none;
+}
+
+/* MillionsOfColors color picker */
+.RadColorPicker .rcpMillionColorsSlider
+{
+	float:left;
+	margin:0 0 0 5px;
+}
+
+.RadColorPicker .rcpMillionColorsSlider div.rslTrack
+{
+	width:12px;
+	left:-2px;
+}
+
+.RadColorPicker .rcpMillionColorsSlider div.rslSelectedregion
+{
+	width:12px;
+	background:transparent none;
+}
+
+.RadColorPicker .rcpMillionColorsPageView .rcpInputsWrapper
+{
+	float:left;
+	width:45px;
+	margin-left:10px;
+}
+
+.RadColorPickerRTL .rcpMillionColorsPageView .rcpInputsWrapper
+{
+	margin-left:0;
+}
+
+*+html .RadColorPickerRTL .rcpMillionColorsPageView .rcpInputsWrapper
+{
+	margin-left:-20px;
+}
+
+.RadColorPicker .rcpMillionColorsPageView .rcpInputsWrapper li
+{
+	float:right;
+	margin-bottom:2px;
+}
+
+.RadColorPicker .rcpMillionColorsPageView .rcpInputsWrapper label
+{
+	float:left;
+}
+
+.RadColorPickerRTL .rcpMillionColorsPageView .rcpInputsWrapper label,
+.RadColorPicker .rcpMillionColorsPageView .rcpInputsWrapper .rcpInput
+{
+	float:right;
+}
+
+.RadColorPicker .rcpMillionColorsPageView .rcpInputsWrapper .rcpMillionColorsInputs
+{
+	margin-top:5px;
+}
+
+.RadColorPicker .rcpMillionColorsHandle
+{
+	position:absolute;
+	width:12px;
+	height:12px;
+	top:0;
+	left:0;
+	cursor:crosshair;
+}
+
+/* Custom color */
+div.RadColorPicker.rcpCustomColorWrapper
+{
+	width:345px;
+	height:207px;
+	padding:0px;
+	background-image:none;
+}
+
+/* fix larger space between color button rows under IE6 */
+* html .RadColorPicker .rcpBreakLine
+{
+	margin-top:-2px;
+}
+
+/* fix larger space between color button rows under IE7 */
+*+html .RadColorPicker .rcpBreakLine
+{
+	margin-top:-2px;
+}
+
+/* Fix double margin bug with elements with float in IE6 */
+* html .RadColorPicker .rcpButton
+{
+	display:inline;
+}
+
+/* The B input in IE6 pushes the V input down, even though the V LI has display:none */
+* html .RadColorPicker .rcpMillionColorsPageView .rcpInputsWrapper li
+{
+	float:none;
+}
+
+/* ColorBox Styles */
+.RadColorPicker .rcpColorBox,
+.RadColorPicker .rcpColorBox span,
+.RadColorPicker .rcpSelectedColor,
+.RadColorPicker .rcpSelectedColor span
+{
+	background-image:url('Common/rcpBorderSprite.png');
+	border:0 none;
+}
+
+*html .RadColorPicker .rcpColorBox,
+*html .RadColorPicker .rcpColorBox span,
+*html .RadColorPicker .rcpSelectedColor,
+*html .RadColorPicker .rcpSelectedColor span
+{
+	background-image:url('Common/rcpBorderSprite.gif');
+}
+
+.RadColorPicker .rcpColorBox
+{
+	background-position:right top;
+}
+
+.RadColorPicker .rcpColorBox span
+{
+	background-position:left bottom;
+}
+
+.RadColorPicker .rcpSelectedColor,
+.RadColorPicker .rcpColorBox:hover,
+.RadColorPicker .rcpColorBox:focus,
+.RadColorPicker .rcpColorBox:active
+{
+	background-position:right bottom;
+}
+
+.RadColorPicker .rcpSelectedColor span,
+.RadColorPicker .rcpColorBox span:hover,
+.RadColorPicker .rcpColorBox span:focus,
+.RadColorPicker .rcpColorBox span:active
+{
+	background-position:left top;
+}
+
+.RadColorPicker .rcpEmptyColor
+{
+	background-position:right -52px;
+}
+
+.RadColorPicker .rcpCustomColorButton
+{
+	background-position:-979px -52px;
+}
+
+.RadColorPicker .rcpRecentColors
+{
+	background-position:0 -331px;
+}
+
+.RadColorPickerRTL .rcpEmptyColor
+{
+	background-position:-1002px -52px;
+}
+
+/* color picker button */
+.RadColorPicker .rcpIcon a
+{
+	background-position:0 -52px;
+}
+
+.RadColorPicker .rcpIcon a:hover
+{
+	background-position:0 -74px;
+}
+
+.RadColorPicker .rcpIcon a:active,
+.RadColorPicker .rcpIcon a:focus
+{
+	background-position:0 -96px;
+}
+
+/* rcp header */
+.RadColorPicker .rcpHeader
+{
+	background-position:0 -199px;
+}
+
+/* color picker tabs */
+.RadColorPicker .rcpTabs
+{
+	background-position:0 -169px;
+}
+
+.RadColorPicker .rcpTabs .rcpSelectedTab a
+{
+	background-position:right -289px;
+}
+
+.RadColorPicker .rcpTabs .rcpSelectedTab a span
+{
+    background-position:left -26px;
+}
+
+/* apply color button */
+.RadColorPicker .rcpButton
+{
+    background-position:right -118px;
+}
+
+.RadColorPicker .rcpButton:hover,
+.RadColorPicker .rcpButton:focus,
+.RadColorPicker .rcpButton:active
+{
+    background-position:right -140px;
+}
+
+.RadColorPicker .rcpButton span
+{
+    background-position:0 -118px;
+}
+
+.RadColorPicker .rcpButton:hover span,
+.RadColorPicker .rcpButton:focus span,
+.RadColorPicker .rcpButton:active span
+{
+    background-position:0 -140px;
+}
+
+/* HSB, HSV palette handle */
+.RadColorPicker .rcpMillionColorsHandle
+{
+	background-position:-1010px -76px;
+	background-color:transparent;
+}
+
+* html div.RadColorPicker .rcpMillionColorsHandle
+{
+	background-image:url('Common/rcpCrossHair.gif');
+	background-position:0 0;
+}
+
+/* HSB, HSV slider handle */
+.RadColorPicker div.rcpMillionColorsSlider div.rslVertical .rslTrack a.rslDraghandle
+{
+	background-position:-1018px -90px;
+}
+
+/* Rounded corners and shadows */
+.RadColorPicker .rcpRoundedRight,
+.RadColorPicker .rcpRoundedBottomRight,
+.RadColorPicker .rcpRoundedBottomLeft,
+.RadColorPicker .rcpRightShadow,
+.RadColorPicker .rcpCornerShadow,
+.RadColorPicker .rcpBottomShadow
+{
+	position:absolute;
+	background-repeat:no-repeat;
+}
+
+.RadColorPicker .rcpRoundedRight
+{
+	width:4px;
+	height:100%;
+	right:-4px;
+	top:0;
+	background-position:-6px top;
+}
+
+.RadColorPicker .rcpRoundedBottomRight
+{
+	width:5px;
+	height:5px;
+	right:-5px;
+	bottom:-5px;
+	background-position:-6px -1996px;
+}
+* html .RadColorPicker .rcpRoundedBottomRight
+{
+	width: 9px;
+	background-position: -6px -1996px;
+}
+
+.RadColorPicker .rcpRoundedBottomLeft
+{
+	width:100%;
+	height:4px;
+	bottom:-4px;
+	left:0;
+	background-position:0 -315px;
+}
+
+* html .RadColorPicker .rcpRoundedBottomLeft
+{
+	background-position:-26px bottom;
+}
+
+.RadColorPicker .rcpRightShadow
+{
+	top:0;
+	right:-9px;
+	width:5px;
+	height:100%;
+	background-position:-15px top;
+}
+
+.RadColorPicker .rcpCornerShadow
+{
+	bottom:-9px;
+	right:-9px;
+	width:9px;
+	height:9px;
+	background-position:-27px top;
+}
+
+*html .RadColorPicker .rcpCornerShadow
+{
+	bottom:-9px;
+	right:-2px;
+}
+
+.RadColorPicker .rcpBottomShadow
+{
+	bottom:-9px;
+	left:0;
+	width:100%;
+	height:5px;
+	background-position:left -325px;
+}
+
+/* Overwriting RadSlider styles */
+.RadColorPicker .rcpSlider div.rslHorizontal .rslTrack a.rslDraghandle
+{
+	background-position:right -100px;
+	width:7px;
+	height:4px;
+	line-height:10px;
+	margin-top:7px;
+}
+
+.RadColorPicker .rcpSlider .rslHorizontal .rslTrack
+{
+	background-repeat:no-repeat;
+	height:14px;
+	top:9px;
+	border:0 none;
+}
+
+.RadColorPicker .rcpRedSlider .rslHorizontal .rslTrack,
+.RadColorPicker .rcpRedSlider .rslHorizontal .rslSelectedregion
+{
+	background-position:center -244px;
+}
+
+.RadColorPicker .rcpGreenSlider .rslHorizontal .rslTrack,
+.RadColorPicker .rcpGreenSlider .rslHorizontal .rslSelectedregion
+{
+	background-position:center -258px;
+}
+
+.RadColorPicker .rcpBlueSlider .rslHorizontal .rslTrack,
+.RadColorPicker .rcpBlueSlider .rslHorizontal .rslSelectedregion
+{
+	background-position:center -273px;
+}

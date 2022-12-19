@@ -1,0 +1,59 @@
+
+.ReminderDialog_Telerik,
+.ReminderDialog_Telerik a
+{
+    color: #333;
+    font: normal 12px/14px "Segoe UI", Arial, sans-serif;
+}
+
+.ReminderDialog_Telerik .rsRemContentPanel
+{
+    border-color: #828282;
+}
+
+/* <advanced edit title> */
+
+.ReminderDialog_Telerik .rsModalBgTopLeft,
+.ReminderDialog_Telerik .rsModalBgTopRight,
+.ReminderDialog_Telerik .rsModalBgBottomLeft,
+.ReminderDialog_Telerik .rsModalBgBottomRight
+{
+    background-image: url('Scheduler/rsModalBg.png');
+}
+
+* html .ReminderDialog_Telerik .rsModalBgTopLeft,
+* html .ReminderDialog_Telerik .rsModalBgTopRight,
+* html .ReminderDialog_Telerik .rsModalBgBottomLeft,
+* html .ReminderDialog_Telerik .rsModalBgBottomRight
+{
+    background-image: url('Scheduler/rsModalBgIE6.png');
+}
+
+.ReminderDialog_Telerik a.rsRemTitleBarCloseBtn
+{
+    margin-top: -24px;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.ReminderDialog_Telerik a.rsRemTitleBarCloseBtn:hover
+{
+    opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.ReminderDialog_Telerik .rsRemTitleIcon,
+.ReminderDialog_Telerik .rsRemTitleBarIcon,
+.ReminderDialog_Telerik a.rsRemTitleBarCloseBtn,
+.ReminderDialog_Telerik .rsRemActions a.rsRemDismissAllBtn,
+.ReminderDialog_Telerik .rsRemActions a.rsRemOpenItemBtn,
+.ReminderDialog_Telerik .rsRemActions a.rsRemDismissBtn,
+.ReminderDialog_Telerik .rsRemSnoozePanel a.rsRemSnoozeBtn
+{
+    color: #000;
+    background-image: url('Scheduler/rsSprites.png');
+}
+
+/* </advanced edit title> */

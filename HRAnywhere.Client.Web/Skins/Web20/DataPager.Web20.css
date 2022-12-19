@@ -1,0 +1,95 @@
+/*Telerik RadDataPager Web20 Skin*/
+
+.RadDataPager_Web20
+{
+	border:1px solid #4e75b3;
+	background:#e3eeff;
+	color:#000;
+}
+
+.RadDataPager_Web20 .rdpPageFirst,
+.RadDataPager_Web20 .rdpPagePrev,
+.RadDataPager_Web20 .rdpPageNext,
+.RadDataPager_Web20 .rdpPageLast
+{
+	background:transparent no-repeat url('Grid/sprite.gif');
+}
+
+.RadDataPager_Web20 .rdpPageFirst
+{
+	background-position:0 -550px;
+}
+.RadDataPager_Web20 .rdpPageFirst:hover
+{
+	background-position:0 -600px;
+}
+.RadDataPager_Web20 .rdpPagePrev
+{
+	background-position:0 -700px;
+}
+.RadDataPager_Web20 .rdpPagePrev:hover
+{
+	background-position:0 -750px;
+}
+.RadDataPager_Web20 .rdpPageNext
+{
+	background-position:0 -850px;
+}
+.RadDataPager_Web20 .rdpPageNext:hover
+{
+	background-position:0 -900px;
+}
+.RadDataPager_Web20 .rdpPageLast
+{
+	background-position:0 -1000px;
+}
+.RadDataPager_Web20 .rdpPageLast:hover
+{
+	background-position:0 -1050px;
+}
+
+.RadDataPager_Web20 .rdpPagerButton
+{
+	border:1px solid;
+	border-color:#00002a #00002a #000;
+	background:#466abb repeat-x 0 -1550px url('Grid/sprite.gif');
+	color:#fff;
+	font:12px/12px "segoe ui",arial,sans-serif;
+}
+
+.RadDataPager_Web20 .rdpNumPart a:hover,
+.RadDataPager_Web20 .rdpNumPart a:hover span,
+.RadDataPager_Web20 .rdpNumPart a.rdpCurrentPage,
+.RadDataPager_Web20 .rdpNumPart a.rdpCurrentPage span
+{
+	background:no-repeat url('Grid/sprite.gif');
+}
+
+.RadDataPager_Web20 .rdpNumPart a
+{
+	color:#000;
+}
+
+.RadDataPager_Web20 .rdpNumPart a:hover
+{
+	background-position:100% -1250px;
+	color:#0f3789;
+}
+
+.RadDataPager_Web20 .rdpNumPart a:hover span
+{
+	background-position:0 -1150px;
+}
+
+.RadDataPager_Web20 .rdpNumPart a.rdpCurrentPage,
+.RadDataPager_Web20 .rdpNumPart a.rdpCurrentPage:hover
+{
+	background-position:100% -1450px;
+	color:#0d202b;
+}
+
+.RadDataPager_Web20 .rdpNumPart a.rdpCurrentPage span,
+.RadDataPager_Web20 .rdpNumPart a.rdpCurrentPage:hover span
+{
+	background-position:0 -1350px;
+}

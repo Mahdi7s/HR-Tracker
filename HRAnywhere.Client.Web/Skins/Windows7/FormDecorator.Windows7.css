@@ -1,0 +1,359 @@
+/* RadFormDecorator Windows7 Skin */
+
+/* CSS class for styling the decoration zone or the <html /> tag of the page */
+.RadForm_Windows7.rfdZone
+{
+    
+}
+
+/* Decorate scrollbars */
+.RadForm_Windows7.rfdScrollBars
+{
+	scrollbar-3dlight-color: #ccdaea; 
+	scrollbar-arrow-color: #526680;
+	scrollbar-base-color: #ff6347; 
+	scrollbar-darkshadow-color: #a9bfd6; 
+	scrollbar-face-color: #dce6f4;
+	scrollbar-highlight-color: #f0f0f0; 
+	scrollbar-shadow-color: #dce6f4;
+	scrollbar-track-color: #f6f9fe;
+}
+
+/* Decorate <input type="button | submit | reset" /> and <button type="button | submit | reset" /> - look if there is a secondary .rfdButton class applied to the root element */
+.RadForm_Windows7.rfdButton a.rfdSkinnedButton,
+.RadForm_Windows7.rfdButton input[type="button"].rfdDecorated,
+.RadForm_Windows7.rfdButton input[type="reset"].rfdDecorated,
+.RadForm_Windows7.rfdButton input[type="submit"].rfdDecorated,
+.RadForm_Windows7.rfdButton .rfdSkinnedButton button
+{
+	background-image: url('FormDecorator/ButtonSprites.gif');
+	color: #1e395b;
+}
+
+*html .RadForm_Windows7 a.rfdSkinnedButton,
+*html .RadForm_Windows7 .rfdSkinnedButton button,
+*html .RadForm_Windows7 .rfdSkinnedButton input.rfdDecorated,
+.RadForm_Windows7.rfdButton a.rfdSkinnedButton,
+.RadForm_Windows7.rfdButton a.rfdSkinnedButton * 
+{
+	background-image: url('FormDecorator/ButtonSprites.gif');
+	color: #1e395b;
+}
+
+/* OPERA width fix - do not remove (and check if it is still necessary) */
+@media screen and (min-width:1px)  
+{
+	/* 
+       the hack below fixes a strange behavior under Opera - 
+       input and button have a different CSS display when in anchor tag 
+    */
+	.RadForm_Windows7.rfdButton a.rfdSkinnedButton input
+	{
+	    display: block;
+	    float: left;
+	}
+}
+
+/* Decorate <h4|5|6 /> */
+.RadForm_Windows7.rfdHeading h4
+{
+	color: #567db0;	
+	border-bottom: solid 1px #a0a0a0;	
+}
+
+.RadForm_Windows7.rfdHeading h5
+{
+	color: #000;	
+	border-bottom: solid 1px #a0a0a0;	
+}
+
+.RadForm_Windows7.rfdHeading h6
+{
+	color: #000;	
+}
+
+/* Decorate <label /> */
+.RadForm_Windows7.rfdLabel label
+{	
+	color: #000;
+}
+
+/* Decorate <input type="checkbox" /> */
+.RadForm_Windows7 .rfdCheckboxUnchecked,
+.RadForm_Windows7 .rfdCheckboxChecked,
+.RadForm_Windows7 .rfdInputDisabled.rfdCheckboxUnchecked,
+.RadForm_Windows7 .rfdInputDisabled.rfdCheckboxChecked
+{
+	background-image: url('FormDecorator/CheckBoxSprites.gif');
+}
+
+/* Decorate <input type="radio" /> */
+.RadForm_Windows7 .rfdRadioUnchecked,
+.RadForm_Windows7 .rfdRadioChecked,
+.RadForm_Windows7 .rfdInputDisabled.rfdRadioUnchecked,
+.RadForm_Windows7 .rfdInputDisabled.rfdRadioChecked
+{
+	background-image: url('FormDecorator/RadioButtonSprites.png');
+}
+
+.RadForm_Windows7 .rfdRadioUnchecked,
+.RadForm_Windows7 .rfdInputDisabled.rfdRadioUnchecked:hover,
+.RadForm_Windows7 .rfdRadioUnchecked:hover,
+.RadForm_Windows7 .rfdRadioChecked,
+.RadForm_Windows7 .rfdInputDisabled.rfdRadioChecked:hover,
+.RadForm_Windows7 .rfdRadioChecked:hover
+{
+    _background-image: url('FormDecorator/RadioButtonSprites.gif'); /* IE6 hack */
+}
+
+/* <fieldset /> and <legend /> */
+
+.RadForm_Windows7.rfdFieldset table.rfdRoundedWrapper_fieldset legend,
+.RadForm_Windows7 fieldset.rfdFieldset legend,
+.RadForm_Windows7.rfdFieldset fieldset legend
+{
+	color: #000;
+}
+
+.RadForm_Windows7 table.rfdRoundedWrapper:hover div.rfdRoundedInner
+{
+    background-color: #fff;
+    border-color: #c1dbfc !important;
+}
+
+/* this selector styles the hover of the side bars of the rounded elements */
+.RadForm_Windows7 table.rfdRoundedWrapper:hover .rfdRoundedOuter
+{	
+	background-color: #c1dbfc !important;
+}
+
+/* Decorate <input type="text | password" /> and <textarea /> */
+/* For all browsers except IE6 we are using attribute selectors - single or double */
+.RadForm_Windows7.rfdTextbox input[type="text"],
+.RadForm_Windows7.rfdTextbox input[type="password"],
+.RadForm_Windows7.rfdTextarea textarea,
+.RadForm_Windows7.rfdTextarea textarea[disabled]:hover,
+.RadForm_Windows7.rfdTextbox input[disabled][type="text"]:hover,
+.RadForm_Windows7.rfdTextbox input[disabled][type="password"]:hover
+{
+    border: solid 1px #b8cbde;
+    background-color: #fff;
+}
+
+.RadForm_Windows7.rfdTextbox .rfdDecorated:hover,
+.RadForm_Windows7.rfdTextarea textarea:hover,
+.RadForm_Windows7.rfdTextbox .rfdDecorated:focus,
+.RadForm_Windows7.rfdTextarea textarea:focus
+{
+    border: solid 1px #c1dbfc;
+}
+
+/* Decorate <fieldset /> and <legend /> */
+.RadForm_Windows7.rfdFieldset table.rfdRoundedWrapper_fieldset legend,
+.RadForm_Windows7.rfdFieldset fieldset.rfdFieldset legend
+{
+	color: #000;
+}
+
+.RadForm_Windows7.rfdFieldset table.rfdRoundedWrapper_fieldset fieldset,
+.RadForm_Windows7.rfdFieldset fieldset.rfdFieldset
+{	
+	border: solid 1px #e0e0e0;
+	background-image: url('FormDecorator/FieldsetBgr.png'); /* having a background image on a fieldset is not okay with IE */	
+}
+
+/* Because of a glitch in IE the following 2 CSS classes must be declared separately for correct parsing of the textarea class in IE6*/
+.RadForm_Windows7 table.rfdRoundedWrapper input,
+.RadForm_Windows7 table.rfdRoundedWrapper textarea,
+.RadForm_Windows7 input.rfdInput, 
+.RadForm_Windows7 textarea.rfdTextarea
+{
+	border: solid 1px #b8cbde;
+	background: #fff;	
+	color: #000;
+}
+
+.RadForm_Windows7 textarea.rfdTextarea,
+.RadForm_Windows7 table.rfdRoundedWrapper textarea
+{
+    overflow: auto;
+}
+
+/* <select /> */
+.rfdSelect_Windows7,
+.rfdSelect_Windows7:hover,
+.rfdSelect_Windows7 .rfdSelectOuter,
+.rfdSelect_Windows7:hover .rfdSelectOuter,
+.rfdSelect_Windows7 .rfdSelectArrow span,
+.rfdSelectBox_Windows7 .rfdSelect_selected,
+.rfdSelectBox_Windows7 li:hover,
+.rfdSelect_Windows7.rfdSelectDisabled:hover,
+.rfdRtl .rfdSelect_Windows7,
+.rfdRtl .rfdSelect_Windows7:hover,
+.rfdRtl .rfdSelect_Windows7 .rfdSelectOuter,
+.rfdRtl .rfdSelect_Windows7 .rfdSelectOuter:hover
+{
+    background-image: url('FormDecorator/ComboSprites.gif');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.rfdSelect_Windows7 .rfdSelectOuter,
+.rfdSelect_Windows7.rfdSelectDisabled:hover .rfdSelectOuter
+{
+    color: #1e395b;
+}
+
+/* dropdown settings */
+.rfdSelectBox_Windows7
+{
+    background: #fff;
+    border: solid 1px #a5b3c5;
+    color: #1e395b;
+}
+
+.rfdSelectBox_Windows7 li
+{
+    padding: 0 0 0 3px;
+    background-image: none !important;
+}
+
+.rfdSelectBox_Windows7 .rfdSelect_selected,
+.rfdSelectBox_Windows7 li:hover
+{
+    color: #1e395b;
+    background-color: #c3dcfc;
+}
+
+.rfdSelectBox_Windows7 .rfdSelectBox_optgroup_label:hover
+{
+    background: none;
+    color: #1e395b;
+}
+
+/* IE6 disabled state fix - this should not be added to the base stylesheet, but at the bottom of the skin file */
+* html .RadForm_Windows7.rfdButton a.rfdInputDisabled:hover
+{
+	_background-position: 0 0;
+}
+
+* html .RadForm_Windows7.rfdButton a.rfdInputDisabled:hover *
+{
+	_background-position: right -21px;
+	_color: #824703;
+}
+
+.RadForm_Windows7.rfdTextbox input.rfdIE6TextBox,
+.RadForm_Windows7.rfdTextbox textarea.rfdIE6TextBox
+{
+    _border: solid 1px #938879;
+    _background-color: #fff;
+}
+
+/* the styling of radiobuttons and checkboxes in Safari and Chrome is already fully achieved with CSS */
+@media screen and (-webkit-min-device-pixel-ratio: 0)
+{
+    /* checkboxes */
+    .rfdCheckbox input[type="checkbox"],
+    .rfdCheckbox input[type="checkbox"][disabled]:hover
+    {
+        background-image: url('FormDecorator/CheckBoxSprites.gif');
+    }
+    
+    /* radio buttons */
+    .rfdRadio input[type="radio"],
+    .rfdRadio input[type="radio"][disabled="disabled"]:hover
+    {
+        background-image: url('FormDecorator/RadioButtonSprites.png');
+    }
+}
+
+/* ----------------------------------------------- Skin-specific Scrollbar Settings for WebKit ----------------------------------------------- */
+
+/* the scrollbar face color */
+.RadForm.rfdScrollBars.RadForm_Windows7 body::-webkit-scrollbar,
+.RadForm.rfdScrollBars.RadForm_Windows7 body::-webkit-scrollbar-thumb:vertical,
+.RadForm.rfdScrollBars.RadForm_Windows7 body::-webkit-scrollbar-thumb:horizontal,
+.RadForm.rfdScrollBars.RadForm_Windows7 div::-webkit-scrollbar,
+.RadForm.rfdScrollBars.RadForm_Windows7 div::-webkit-scrollbar-thumb:vertical,
+.RadForm.rfdScrollBars.RadForm_Windows7 div::-webkit-scrollbar-thumb:horizontal
+.RadForm.rfdScrollBars.RadForm_Windows7 form::-webkit-scrollbar,
+.RadForm.rfdScrollBars.RadForm_Windows7 form::-webkit-scrollbar-thumb:vertical,
+.RadForm.rfdScrollBars.RadForm_Windows7 form::-webkit-scrollbar-thumb:horizontal
+{
+    background-color: #dce6f4;
+}
+
+/* scrollbar track background color */
+.RadForm.rfdScrollBars.RadForm_Windows7 ::-webkit-scrollbar-track-piece,
+.RadForm.rfdScrollBars.RadForm_Windows7 ::-webkit-scrollbar-corner
+{
+    background-color: #f6f9fe;
+}
+
+.RadForm.rfdScrollBars.RadForm_Windows7 ::-webkit-scrollbar-button:vertical:decrement, 
+.RadForm.rfdScrollBars.RadForm_Windows7 ::-webkit-scrollbar-button:vertical:increment, 
+.RadForm.rfdScrollBars.RadForm_Windows7 ::-webkit-scrollbar-button:horizontal:decrement, 
+.RadForm.rfdScrollBars.RadForm_Windows7 ::-webkit-scrollbar-button:horizontal:increment, 
+.RadForm.rfdScrollBars.RadForm_Windows7 ::-webkit-scrollbar-thumb:vertical, 
+.RadForm.rfdScrollBars.RadForm_Windows7 ::-webkit-scrollbar-thumb:horizontal
+{
+    border-color: #ccdaea #a9bfd6 #a9bfd6 #ccdaea;
+}
+
+/* increment / decrement button settings */
+.RadForm.rfdScrollBars.RadForm_Windows7 ::-webkit-scrollbar-button:vertical:decrement, 
+.RadForm.rfdScrollBars.RadForm_Windows7 ::-webkit-scrollbar-button:vertical:increment, 
+.RadForm.rfdScrollBars.RadForm_Windows7 ::-webkit-scrollbar-button:horizontal:decrement, 
+.RadForm.rfdScrollBars.RadForm_Windows7 ::-webkit-scrollbar-button:horizontal:increment
+{
+    background-image: url('FormDecorator/ButtonSprites.gif');
+    background-color: #dce6f4;
+}
+
+/*GridView, FormView, DetailsView*/
+.RadForm_Windows7.rfdGrids .rfdTable
+{
+    border:1px solid #a5b3c5;
+    background:#fcfcfc;
+    color:#1e395b;
+    font:12px "segoe ui",arial,sans-serif;
+}
+
+.RadForm_Windows7.rfdGrids .rfdTable th
+{
+    border-bottom:1px solid #c2cedb;
+    border-left:1px solid #a5b3c5;
+    background:#f1f5fb;
+    color:#4c607a;
+}
+
+.RadForm_Windows7.rfdGrids .rfdTable a
+{
+    color:#1e3287;
+}
+
+/* Validation Summary Control and Login Control  */
+
+.RadForm_Windows7 .rfdValidationSummaryControl,
+.RadForm_Windows7 .rfdLoginControl
+{
+	background-color: #fff;
+	border: 1px solid #848484;
+}
+
+.RadForm_Windows7 a.rfdLoginControl,
+.RadForm_Windows7 a.rfdLoginControl:hover
+{
+	color: #06c;
+}
+
+.RadForm_Windows7 a.rfdLoginControl:active
+{
+	color: #000;
+}
+
+.RadForm_Windows7 a.rfdLoginControl:visited
+{
+	color: #1e395b;
+}

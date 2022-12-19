@@ -1,0 +1,176 @@
+/* RadWindow for ASP.NET AJAX Simple Skin */
+
+
+/* Window/WindowHorizontalSprites.gif */
+
+.RadWindow_Simple
+{
+    border: solid 1px #616161;
+}
+
+.RadWindow_Simple .rwTopLeft,
+.RadWindow_Simple .rwTopRight,
+.RadWindow_Simple .rwTitlebar,
+.RadWindow_Simple .rwFooterLeft,
+.RadWindow_Simple .rwFooterRight,
+.RadWindow_Simple .rwFooterCenter,
+.RadWindow_Simple .rwTopResize,
+.RadWindow_Simple .rwStatusbar div,
+.RadWindow_Simple .rwStatusbar,
+.RadWindow_Simple .rwBodyLeft,
+.RadWindow_Simple .rwBodyRight,
+.RadWindow_Simple .rwStatusbarRow .rwCorner
+{
+    background: #e4e4e4;
+}
+
+/* shadows settings */
+.RadWindow_Simple.rwShadow 
+{
+box-shadow: 2px 2px 20px #666;
+-webkit-box-shadow: 2px 2px 20px #666;
+-moz-box-shadow: 2px 2px 20px #666;
+border: none !important;
+}
+
+.RadWindow.RadWindow_Simple .rwShadow .rwBodyLeft, 
+.RadWindow.RadWindow_Simple .rwShadow .rwBodyRight,
+.RadWindow.RadWindow_Simple .rwShadow .rwTopLeft, 
+.RadWindow.RadWindow_Simple .rwShadow .rwTopRight,
+.RadWindow.RadWindow_Simple .rwShadow .rwFooterLeft, 
+.RadWindow.RadWindow_Simple .rwShadow .rwFooterRight
+{
+	width: 7px !important;
+}
+
+div.RadWindow.RadWindow_Simple .rwShadow .rwFooterLeft, 
+div.RadWindow.RadWindow_Simple .rwShadow .rwFooterRight, 
+div.RadWindow.RadWindow_Simple .rwShadow .rwFooterCenter {
+height: 7px;
+}
+
+
+/* end shadows */
+
+.rwWindowContent
+{
+    border: solid 1px #616161;
+}
+
+.RadWindow_Simple iframe
+{
+    display: block;
+}
+
+.RadWindow_Simple a.rwIcon
+{
+    background: url('Window/Icon.gif') no-repeat center;
+}
+
+.RadWindow_Simple ul.rwControlButtons
+{
+    margin: 0 0 0 0;
+}
+
+.RadWindow_Simple .rwControlButtons a
+{
+    background-color: #c6c6c6;
+    background-image: url('Window/CommandButtonSprites.gif');
+    width: 29px;
+    height: 19px;
+    border: solid 1px #7e7e7e;
+}
+
+.RadWindow_Simple .rwControlButtons a:hover
+{
+    border-color: #ad3f16;
+    background-color: #ffe79c;
+}
+
+div.RadWindow_Simple .rwTitlebarControls em
+{
+	color: #000;
+}
+
+div.RadWindow_Simple .rwDialogInput
+{
+	border: solid 1px #616161;
+}
+
+div.RadWindow_Simple .rwDialogInput:hover
+{
+	border: solid 1px #c98400;
+}
+
+div.RadWindow_Simple tr td.rwLoading
+{
+    background-color: #fff;
+}
+
+.RadWindow_Simple td.rwWindowContent.rwLoading
+{
+    background-image: url('Common/loading.gif');
+}
+
+/* When ShowContentDuringLoad="false" */
+.RadWindow_Simple input.rwLoading
+{
+    background-image: url('Common/loading_small.gif');
+}
+
+div.RadWindow_Simple a.rwPopupButton
+{
+    background: #c6c6c6;
+    border: solid 1px #7e7e7e;
+}
+
+div.RadWindow_Simple a.rwPopupButton:hover
+{
+    background: #ffe79c;
+    border-color: #c98400;
+}
+
+div.RadWindow_Simple a.rwCancel,
+div.RadWindow_Simple a.rwCancel span
+{
+    background: none !important;
+    cursor: pointer;
+    border: 0 !important;
+}
+
+div.RadWindow_Simple a.rwCancel span span,
+div.RadWindow_Simple a.rwCancel:hover span span
+{
+    color: #882501;
+    text-decoration: underline;
+}
+
+.RadWindow .rwShadow .rwFooterLeft, .RadWindow .rwShadow .rwFooterRight, .RadWindow .rwShadow .rwFooterCenter
+{
+	height: 5px;
+}
+
+.RadWindow.rwMinimizedWindowShadow .rwFooterRow
+{
+	display: none;
+}
+
+.RadWindow.rwMinimizedWindowShadow .rwTable 
+{
+	width: 200px;
+}
+
+div.RadWindow_Simple .rwShadow .rwIcon 
+{
+	margin: 5px 5px 0 0;
+}
+
+div.RadWindow_Simple .rwShadow em
+{
+	padding:7px 0 0 1px;
+}
+
+.RadWindow.rwMinimizedWindow .rwShadow .rwControlButtons
+{
+	margin: 2px 0 0 0;
+}

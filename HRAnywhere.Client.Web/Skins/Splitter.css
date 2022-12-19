@@ -1,0 +1,339 @@
+/* RadSplitter for ASP.NET AJAX - Base Stylesheet */
+
+/* Borders */
+.RadSplitter,
+.RadSplitter .rspSlideZone,
+.RadSplitter .rspSlideContainer,
+.RadSplitter .rspPaneTabContainer,
+
+/* Vertical RadSplitter items */
+.RadSplitter .rspPane, 
+.RadSplitter .rspResizeBar,
+.RadSplitter .rspSlideContainerResize,
+
+/* Horizontal RadSplitter items */
+.RadSplitter .rspPaneHorizontal, 
+.RadSplitter .rspResizeBarHorizontal,
+.RadSplitter .rspSlideContainerResizeHorizontal
+{
+	border-width:0;
+	border-style:solid;
+}
+
+.RadSplitter
+{
+	border-collapse:separate;
+}
+
+/* We need to use !important here in order to override the inline border settings of a pane in a nested splitter. */
+.rspNested .rspLastItem
+{	
+	border-right-width:0px !important;
+}
+.rspNestedHorizontal .rspLastItem
+{
+	border-bottom-width:0px !important;
+}
+
+/* RadSlidingPane resize element */
+.RadSplitter .rspSlideContainerResize
+{
+	border-width:0 1px;
+}
+
+.RadSplitter .rspSlideContainerResizeHorizontal
+{
+	border-width:1px 0;
+}
+
+/* RadPane */
+.RadSplitter .rspPane,
+.RadSplitter .rspPaneHorizontal 
+{
+	padding:0px;
+}
+
+/* RadSlidingPane elements position */
+.RadSplitter .rspSlidePane,
+.RadSplitter .rspSlideContainer,
+/* QuirksMode support for RadSlidingPanes */
+.RadSlidingPaneQuirksMode
+{
+	position:absolute;
+	top:0;
+	left:0;	
+}
+
+/* hidden RadSlidingPane */
+.RadSplitter .rspSlidePane,
+/* QuirksMode support for RadSlidingPanes */
+.RadSlidingPaneQuirksMode
+{
+	top:-9999px;
+	overflow:hidden;
+}
+
+/* RadSlidingPane title - determines the height of the RadSlidingPane header */
+.RadSplitter .rspSlideHeader .rspSlideTitle
+{	
+	line-height:25px;
+	height:25px;
+	overflow:hidden;
+	margin:0 5px;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+
+/* RadSlidingPane command button wrapper */
+.RadSplitter .rspSlideHeaderIconWrapper
+{
+	width:17px;
+	padding:0 3px;
+}
+
+/* RadSlidingPane command buttons */
+.RadSplitter .rspSlideHeaderDockIcon,
+.RadSplitter .rspSlideHeaderUndockIcon,
+.RadSplitter .rspSlideHeaderCollapseIcon
+{	
+	width:15px;
+	height:15px;
+	cursor:pointer;
+	font-size:1px;
+	line-height:1px;
+	margin-left:3px;
+} 
+
+/* RadSlidingPane tabs container */
+.RadSplitter .rspTabsContainer 
+{
+	vertical-align:top;
+}
+
+/* RadSlidingPane tab - SlideDirection=Right/Left */
+.RadSplitter .rspPaneTabContainer
+{
+	padding:6px 0px;	
+	overflow:hidden;
+	cursor:pointer;
+	text-align:center;
+	font-size:1px;
+	border-width:0 1px 1px 0;
+}
+
+.RadSplitter .rspRight .rspPaneTabContainer
+{
+	border-width:0 0 1px 1px;
+}
+
+/* RadSlidingPane tab - SlideDirection=Top/Bottom */
+.RadSplitter .rspTop .rspPaneTabContainer,
+.RadSplitter .rspBottom .rspPaneTabContainer
+{
+	float:left;
+	padding:0px 6px;
+	border-width:1px 1px 0 0;
+}
+
+.RadSplitter .rspBottom .rspPaneTabContainer
+{
+	border-width:0 1px 1px 0;
+}
+
+/* RadSlidingPane tab text */
+.RadSplitter .rspPaneTabText
+{
+	writing-mode:tb-rl;	
+	white-space:nowrap;
+}
+
+.RadSplitter .rspTop .rspPaneTabText,
+.RadSplitter .rspBottom .rspPaneTabText
+{
+	writing-mode:lr-tb;
+}
+
+/* RadSlidingPane tab icon */
+.RadSplitter .rspPaneTabText,
+.RadSplitter .rspPaneTabIcon
+{
+	margin:2px;
+}
+
+.RadSplitter .rspTop .rspPaneTabIcon,
+.RadSplitter .rspBottom .rspPaneTabIcon
+{
+	display:block; 
+	float:left;
+}
+
+/* RadSplitBar/RadSlidingPane resize elements */
+.RadSplitter .rspResizeBar,
+.RadSplitter .rspResizeBarHorizontal,
+.RadSplitter .rspSlideContainerResize,
+.RadSplitter .rspSlideContainerResizeHorizontal
+{
+	padding:0px;
+	font-size:1px;
+	line-height:1px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.RadSplitter .rspResizeBar,
+.RadSplitter .rspSlideContainerResize
+{
+	cursor:w-resize;
+}
+
+.RadSplitter .rspResizeBarHorizontal,
+.RadSplitter .rspSlideContainerResizeHorizontal
+{
+	cursor:n-resize;
+}
+
+/* RadSplitBar/RadSlidingPane resize helper elements */
+.RadSplitter .rspHelperBarDrag,
+.RadSplitter .rspHelperBarSlideDrag
+{
+	font-size:1px;
+	background-color:#ccc;
+	filter:alpha(opacity=60);
+	opacity:0.6;
+	-moz-opacity:0.6;
+}
+
+/* Cannot move RadSplitBar/RadSlidingPane resize element */
+.RadSplitter .rspHelperBarError,
+.RadSplitter .rspHelperBarSlideError
+{
+	background-color:#f60;
+}
+
+/* RadSplitBar buttons */
+.RadSplitter .rspCollapseBarWrapper
+{
+	width:4px;
+	height:54px;
+	margin:auto;
+}
+
+.RadSplitter .rspCollapseBarHorizontalWrapper
+{
+    height:4px;
+    width:54px;
+    margin:auto;
+}
+
+.RadSplitter .rspCollapseBarExpand,
+.RadSplitter .rspCollapseBarCollapse,
+
+.RadSplitter .rspCollapseBarHorizontalExpand,
+.RadSplitter .rspCollapseBarHorizontalCollapse,
+
+.RadSplitter .rspCollapseBarSpacer
+{
+    margin:0px;
+    padding:0px;
+    border:0px none;
+    font-size:1px;
+    cursor:pointer;
+    outline:none;
+    background-color: transparent;
+}
+
+.RadSplitter .rspCollapseBarExpand:focus::-moz-focus-inner,
+.RadSplitter .rspCollapseBarCollapse:focus::-moz-focus-inner,
+
+.RadSplitter .rspCollapseBarHorizontalExpand:focus::-moz-focus-inner,
+.RadSplitter .rspCollapseBarHorizontalCollapse:focus::-moz-focus-inner
+{
+	border-color:transparent;
+}
+
+.RadSplitter .rspCollapseBarExpand,
+.RadSplitter .rspCollapseBarCollapse
+{	
+	width:4px;
+	height:27px;
+	line-height:27px;
+}
+
+.RadSplitter .rspCollapseBarHorizontalExpand,
+.RadSplitter .rspCollapseBarHorizontalCollapse
+{
+    width:27px;
+	height:4px;
+	line-height:4px;
+}
+
+/* Cannot collapse/expand a pane */
+.RadSplitter .rspCollapseBarExpandError,
+.RadSplitter .rspCollapseBarCollapseError,
+.RadSplitter .rspCollapseBarHorizontalExpandError,
+.RadSplitter .rspCollapseBarHorizontalCollapseError
+{
+    background-color:red;
+}
+
+/* VisibleDuringInit */
+.rspHideRadSplitter
+{
+	position:absolute;
+	top:-9999px;
+}
+
+/* Support for displayng the rspLoading image in the iframe's parent */
+.RadSplitter .rspLoading
+{
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* RadSlidingPane content elements overflow problem in Firefox */
+.rspHideContentOverflow div
+{
+	overflow:hidden !important;
+}
+
+.rspHideContentOverflow iframe
+{
+	visibility:hidden !important;
+}
+
+/* Backwards compatibility */
+
+/* RadSlidingPane title text */
+.RadSplitter .rspSlideTitle,
+/* RadSlidingPane tab text */
+.RadSplitter .rspPaneTabText
+{
+    font:normal 10px "Segoe UI", Arial, Sans-serif;
+}    
+.RadSplitter .rspSlideTitle
+{	
+    font-size:12px;
+}
+
+/* New rendering of splitbar buttons */
+.RadSplitter .rspCollapseBarSpacer
+{
+	visibility:hidden;
+	vertical-align:middle;
+}
+.RadSplitter .rspCollapseBarHorizontalExpand,
+.RadSplitter .rspCollapseBarHorizontalCollapse
+{
+    float:none;
+    vertical-align:middle;
+}
+.RadSplitter .rspCollapseBarCollapse,
+.RadSplitter .rspCollapseBarExpand
+{
+	margin:0 auto;
+	display:block;
+}
+.RadSplitter .rspCollapseBarExpand
+{	
+    background-position:-4px 0;
+}

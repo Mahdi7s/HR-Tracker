@@ -1,0 +1,21 @@
+/* RadSocialShare Sitefinity Skin */
+
+.RadSocialShare_Sitefinity
+{
+	border: 1px solid #d2d4d8;
+}
+
+.RadSocialShare_Sitefinity .sshLinkItem .sshText
+{
+	color: #125cb1;
+}
+
+.RadComboBoxDropDown_Sitefinity .rcbItem .sshLinkItem .sshText
+{
+	color: #333;
+}
+
+.RadComboBoxDropDown_Sitefinity .rcbHovered .sshLinkItem .sshText
+{
+	color: #000;
+}

@@ -1,0 +1,27 @@
+.RadTagCloud_Outlook
+{
+	border: 1px dotted #adc9f7;
+}
+.RadTagCloud_Outlook .rtcTagList .rtcTagItem
+{
+	color: #adc9f7;
+}
+.RadTagCloud_Outlook .rtcTagList .rtcTagItem:hover
+{
+	color: #003cbb;
+}
+.RadTagCloud_Outlook .rtcTagList .rtcTagItem a
+{
+	color: #00156e;
+}
+.RadTagCloud_Outlook .rtcTagList .rtcTagItem a:hover
+{
+	color: #000;
+	background: #ffefc4;
+}
+
+/* Loading image */
+.rtcLoading.RadTagCloud_Outlook
+{
+	background-image: url('Common/loading_small.gif');
+}

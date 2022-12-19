@@ -1,0 +1,13 @@
+/* RadRating for ASP.NET AJAX Metro Skin */
+
+.RadRating_Metro a,
+.RadRating_Metro a span
+{
+	background-image: url('Rating/Sprite.png');
+}
+
+* html .RadRating_Metro a,
+* html .RadRating_Metro a span
+{
+	background-image: url('Rating/Sprite.gif');
+}

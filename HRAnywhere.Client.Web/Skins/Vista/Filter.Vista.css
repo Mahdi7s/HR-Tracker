@@ -1,0 +1,193 @@
+/*Telerik RadFilter Vista skin*/
+
+/*sprite*/
+
+.RadFilter_Vista .rfLeft,
+.RadFilter_Vista .rfMid,
+.RadFilter_Vista .rfTools,
+.RadFilter_Vista .rfRight,
+.RadFilter_Vista .rfOper:hover,
+.RadFilter_Vista .rfField:hover,
+.RadFilter_Vista .rfExp:hover,
+.RadFilter_Vista .rfOper:focus,
+.RadFilter_Vista .rfField:focus,
+.RadFilter_Vista .rfExp:focus,
+.RadFilter_Vista .rfOper:active,
+.RadFilter_Vista .rfField:active,
+.RadFilter_Vista .rfExp:active,
+.RadFilter_Vista .rfAddGr,
+.RadFilter_Vista .rfAddExp,
+.RadFilter_Vista .rfDel,
+.RadFilter_Vista .rfApply a,
+.RadFilter_Vista .rfApply input
+{
+	background-image:url('Filter/sprite.gif');
+}
+
+/*global*/
+
+.RadFilter_Vista,
+.RadFilter_Vista .rfText,
+.RadFilter_Vista .rfApply input
+{
+	font-size:12px;
+	font-family:"segoe ui",arial,sans-serif;
+}
+
+.RadFilter_Vista,
+.RadFilter_Vista a
+{
+	color:#039;
+}
+
+/*lines*/
+
+.RadFilter_Vista .rfLines li li
+{
+	background-image:url('Filter/rfLine.gif');
+}
+
+.RadFilter_Vista .rfLines li li .rfDiv
+{
+	background-image:url('Filter/rfMiddle.gif');
+}
+
+.RadFilter_Vista .rfLines li li.rfLast .rfDiv
+{
+	background-image:url('Filter/rfLast.gif');
+}
+
+/*item elements*/
+
+.RadFilter_Vista .rfLeft
+{
+	background-position:0 0;
+}
+
+.RadFilter_Vista .rfRight
+{
+	background-position:100% 0;
+}
+
+.RadFilter_Vista .rfMid,
+.RadFilter_Vista .rfTools
+{
+	background-position:0 -100px;
+}
+
+.RadFilter_Vista .rfField
+{
+	color:#000;
+}
+
+.RadFilter_Vista .rfOper:hover,
+.RadFilter_Vista .rfField:hover,
+.RadFilter_Vista .rfExp:hover,
+.RadFilter_Vista .rfOper:focus,
+.RadFilter_Vista .rfField:focus,
+.RadFilter_Vista .rfExp:focus,
+.RadFilter_Vista .rfOper:active,
+.RadFilter_Vista .rfField:active,
+.RadFilter_Vista .rfExp:active
+{
+	background-position:100% -76px;
+	color:#000;
+}
+
+.RadFilter_Vista .rfText
+{
+	border-color:#abadb3 #dbdfe6 #dbdfe6 #abadb3;
+	color:#000;
+}
+
+.RadFilter_Vista .rfAddExp
+{
+	background-position:-300px 0;
+}
+.RadFilter_Vista .rfAddExp:hover
+{
+	background-position:-350px 0;
+}
+
+.RadFilter_Vista .rfAddGr
+{
+	background-position:-400px 0;
+}
+.RadFilter_Vista .rfAddGr:hover
+{
+	background-position:-450px 0;
+}
+
+.RadFilter_Vista .rfDel
+{
+	background-position:-150px 0;
+}
+.RadFilter_Vista .rfDel:hover
+{
+	background-position:-200px 0;
+}
+
+/*preview*/
+
+.RadFilter_Vista .rfPreview strong
+{
+	color:#000;
+}
+
+.RadFilter_Vista .rfPreview em,
+.RadFilter_Vista .rfPreview .rfBr
+{
+	color:#1f7109;
+}
+
+/*apply*/
+
+.RadFilter_Vista .rfApply a
+{
+	background-position:100% -29px;
+}
+.RadFilter_Vista .rfApply input
+{
+	background-position:0 -50px;
+	color:#000;
+}
+
+/*rtl*/
+
+.RadFilterRTL_Vista .rfLines li li
+{
+	background-image:url('Filter/rfLine-rtl.gif');
+}
+
+.RadFilterRTL_Vista .rfLines li li .rfDiv
+{
+	background-image:url('Filter/rfMiddle-rtl.gif');
+}
+
+.RadFilterRTL_Vista .rfLines li li.rfLast .rfDiv
+{
+	background-image:url('Filter/rfLast-rtl.gif');
+}
+
+.RadFilterRTL_Vista .rfLeft
+{
+	background-position:100% 0;
+}
+
+.RadFilterRTL_Vista .rfRight
+{
+	background-position:0 0;
+}
+
+.RadFilterRTL_Vista .rfOper:hover,
+.RadFilterRTL_Vista .rfField:hover,
+.RadFilterRTL_Vista .rfExp:hover,
+.RadFilterRTL_Vista .rfOper:focus,
+.RadFilterRTL_Vista .rfField:focus,
+.RadFilterRTL_Vista .rfExp:focus,
+.RadFilterRTL_Vista .rfOper:active,
+.RadFilterRTL_Vista .rfField:active,
+.RadFilterRTL_Vista .rfExp:active
+{
+	background-position:-586px -76px;
+}

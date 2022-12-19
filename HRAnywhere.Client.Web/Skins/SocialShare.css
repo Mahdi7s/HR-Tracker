@@ -1,0 +1,418 @@
+/* Telerik RadSocialShare Base Styles */
+
+.RadSocialShare
+{
+	font-size: 12px;
+	font-family: "Segoe UI" , Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 5px;
+	border-radius: 3px;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+}
+
+.sshContent
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.sshListItem
+{
+	display: inline-block;
+	vertical-align: middle;
+	*display: inline;
+	zoom: 1;
+	padding: 1px;
+}
+
+*html .sshListItem
+{
+	padding: 1px 3px;
+}
+
+*+html .sshListItem
+{
+	padding: 0 3px;
+}
+
+.sshLinkItem
+{
+	text-decoration: none;
+}
+
+.sshLinkItem .sshIcon,
+.sshLinkItem .sshText,
+.sshLinkItem .sshCustomIcon
+{
+	vertical-align: middle;
+}
+
+.sshIcon
+{
+	width: 16px;
+	height: 16px;
+	margin: 0 3px 0 0;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	background-image:url('Common/SocialShare/SocialShareSprite.png');
+	background-repeat: no-repeat;
+}
+
+*html .sshIcon
+{
+	background-image:url('Common/SocialShare/SocialShareSpriteIE6.gif');
+}
+
+/* embedded buttons */
+.sshLinkItem .sshBlogger
+{
+	background-position: 0 0;
+}
+
+.sshLinkItem:hover .sshBlogger
+{
+	background-position: 0 -20px;
+}
+
+.sshLinkItem .sshShareOnTwitter
+{
+	background-position: -20px 0;
+}
+
+.sshLinkItem:hover .sshShareOnTwitter
+{
+	background-position: -20px -20px;
+}
+
+.sshLinkItem .sshMySpace
+{
+	background-position: -40px 0;
+}
+
+.sshLinkItem:hover .sshMySpace
+{
+	background-position: -40px -20px;
+}
+
+.sshLinkItem .sshDelicious
+{
+	background-position: -60px 0;
+}
+
+.sshLinkItem:hover .sshDelicious
+{
+	background-position: -60px -20px;
+}
+
+.sshLinkItem .sshDigg
+{
+	background-position: -80px 0;
+}
+
+.sshLinkItem:hover .sshDigg
+{
+	background-position: -80px -20px;
+}
+
+.sshLinkItem .sshSendEmail
+{
+	background-position: -100px 0;
+}
+
+.sshLinkItem:hover .sshSendEmail
+{
+	background-position: -100px -20px;
+}
+
+.sshLinkItem .sshGoogleBookmarks 
+{
+	background-position: -120px 0;
+}
+
+.sshLinkItem:hover .sshGoogleBookmarks 
+{
+	background-position: -120px -20px;
+}
+
+.sshLinkItem .sshLinkedIn
+{
+	background-position: -140px 0;
+}
+
+.sshLinkItem:hover .sshLinkedIn
+{
+	background-position: -140px -20px;
+}
+
+.sshLinkItem .sshReddit
+{
+	background-position: -160px 0;
+}
+
+.sshLinkItem:hover .sshReddit
+{
+	background-position: -160px -20px;
+}
+
+.sshLinkItem .sshStumbleUpon
+{
+	background-position: -180px 0;
+}
+
+.sshLinkItem:hover .sshStumbleUpon
+{
+	background-position: -180px -20px;
+}
+
+.sshLinkItem .sshTumblr
+{
+	background-position: -200px 0;
+}
+
+.sshLinkItem:hover .sshTumblr
+{
+	background-position: -200px -20px;
+}
+
+.sshLinkItem .sshMailTo
+{
+	background-position: -220px 0;
+}
+
+.sshLinkItem:hover .sshMailTo
+{
+	background-position: -220px -20px;
+}
+
+.sshLinkItem .sshCompactButton
+{
+	background-position: -240px 0;
+}
+
+.sshLinkItem:hover .sshCompactButton
+{
+	background-position: -240px -20px;
+}
+
+.sshLinkItem .sshShareOnFacebook
+{
+	background-position: -260px 0;
+}
+
+.sshLinkItem:hover .sshShareOnFacebook
+{
+	background-position: -260px -20px;
+}
+
+.sshContent .sshLinkItem .sshCustomIcon,
+.sshContent .sshLinkItem:hover .sshCustomIcon
+{
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	background-position: 0 0;
+}
+
+/* Vertical Mode */
+.sshVerticalMode .sshListItem
+{
+	display: block;
+	margin: 0 0 3px 0;
+}
+
+/* Combo Styles */
+
+.sshComboDropDown .RadComboBoxDropDown
+{
+	position: relative;
+	
+}
+
+.sshComboDropDown
+{
+	position: relative !important;
+	top: 0 !important;
+	left: 0 !important;
+}
+
+/* Right to Left Support */
+.sshRtl .sshIcon
+{
+	margin: 0 0 0 3px;
+}
+
+*+html .RadWindow_rtl .RadComboBoxDropDown_rtl
+{
+	float: none !important;
+}
+
+/* Send Form Windows */
+
+.sshSendFormWrap
+{
+	font-size: 12px;
+	font-family: "Segoe UI" , Arial, Helvetica, sans-serif;
+	margin-top: -26px;
+}
+
+.sshForm
+{
+	width: 380px;
+	border: 1px solid #f1faff;
+	padding: 10px 5px;
+}
+
+.sshForm .sshFormRow
+{
+	padding: 10px 0;
+}
+
+.sshForm label
+{
+	width: 100px;
+	text-align: right;
+	color: #000;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	vertical-align: top;
+	padding: 0 5px 0 0;
+}
+
+.sshForm label.sshLabelSingle
+{
+	padding: 3px 5px 0 0;
+}
+
+.sshForm label .sshLabelBellow
+{
+	display: block;
+	color: #a5a5a5;
+	font-style: italic;
+}
+
+.sshForm input,
+.sshForm textarea
+{
+	width: 250px;
+	padding: 2px 4px;
+	border: 1px solid;
+	border-color: #8e8e8e #b8b8b8 #b8b8b8 #8e8e8e;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	font-size: 12px;
+	font-family: "Segoe UI" , Arial, Helvetica, sans-serif;
+}
+
+.sshForm textarea
+{
+	height: 40px;
+	overflow-y: auto;
+}
+
+.sshFormRow .RadCaptcha
+{
+	width: 260px;
+	display: inline-block !important;
+	*display: inline !important;
+	zoom: 1;
+}
+
+.sshFormRow .RadCaptcha label
+{
+	width: 260px;
+	padding: 4px 0;
+	text-align: left;
+}
+
+.sshFormRow .RadCaptcha .rcCaptchaAudioLink,
+.sshFormRow .RadCaptcha .rcRefreshImage
+{
+	color: #05696a;
+}
+
+.sshCaptcha span
+{
+	padding: 0 0 5px 108px;
+	margin: -10px 0 0 0;
+	color: #d51923;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+}
+
+.sshFormRowLast
+{
+	padding: 0;
+	margin-top: -10px;
+}
+
+.sshFormRowLast .sshFormSendBtn,
+.sshFormButtons
+{
+	width: 80px;
+	margin-left: 107px;
+	border-radius: 3px;
+}
+
+.sshFormRowLast .sshFormSendBtn:hover
+{
+	border-color: #b8b8b8 #8e8e8e #8e8e8e #b8b8b8;
+}
+
+.sshSendFormWrap .sshWrongEmail
+{
+	border: 1px solid #d51923;
+	color: #d51923;
+}
+
+.sshValidationError
+{
+	color: #d51923;
+	text-align: center;
+}
+
+.sshFormSuccess,
+.sshFormError
+{
+	padding: 10px 0 10px 50px;
+	background-image:url('Common/SocialShare/sshFormIcons.png');
+	background-repeat: no-repeat;
+	font-family: "Segoe UI" , Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+.sshFormSuccess
+{
+	background-position: 10px 7px;
+}
+
+.sshFormError
+{
+	background-position: 10px -90px;
+}
+
+.sshFormSuccess .sshFormButtons,
+.sshFormError .sshFormButtons
+{
+	border: 1px solid;
+	border-color: #8e8e8e #b8b8b8 #b8b8b8 #8e8e8e;
+	margin: 15px 0 0 0;
+}
+
+.sshFormSuccess .sshFormButtons:hover,
+.sshFormError .sshFormButtons:hover
+{
+	border-color: #b8b8b8 #8e8e8e #8e8e8e #b8b8b8;
+}
+
+.sshBtnConfirm
+{
+	text-align: center;
+	margin: 0 0 0 -50px;
+}

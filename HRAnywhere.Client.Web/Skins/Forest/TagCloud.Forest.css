@@ -1,0 +1,27 @@
+.RadTagCloud_Forest
+{
+	border: 1px dotted #3c6716;
+}
+.RadTagCloud_Forest .rtcTagList .rtcTagItem
+{
+	color: #3c6716;
+}
+.RadTagCloud_Forest .rtcTagList .rtcTagItem:hover
+{
+	color: #7a1b05;
+}
+.RadTagCloud_Forest .rtcTagList .rtcTagItem a
+{
+	color: #2b2c20;
+}
+.RadTagCloud_Forest .rtcTagList .rtcTagItem a:hover
+{
+	color: #7a1b05;
+	background: #edb722;
+}
+
+/* Loading image */
+.rtcLoading.RadTagCloud_Forest
+{
+	background-image: url('Common/loading_small.gif');
+}

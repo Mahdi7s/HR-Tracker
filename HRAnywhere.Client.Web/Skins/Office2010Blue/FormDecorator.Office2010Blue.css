@@ -1,0 +1,361 @@
+/* RadFormDecorator for ASP.NET Office2010Blue Skin */
+
+/* CSS class for styling the decoration zone or the <html /> tag of the page */
+.RadForm_Office2010Blue.rfdZone
+{  
+}
+
+/* Decorate scrollbars */
+.RadForm_Office2010Blue.rfdScrollBars
+{
+	scrollbar-3dlight-color: #8ba0bc; 
+	scrollbar-arrow-color: #1e395b;
+	scrollbar-base-color: #8ba0bc; 
+	scrollbar-darkshadow-color: #e6eef6; 
+	scrollbar-face-color: #bfcddf;
+	scrollbar-highlight-color: #e6eef6; 
+	scrollbar-shadow-color: #8ba0bc;
+	scrollbar-track-color: #b1c7e0;
+}
+
+/* Decorate <input type="button | submit | reset" /> and <button type="button | submit | reset" /> - look if there is a secondary .rfdButton class applied to the root element */
+.RadForm_Office2010Blue.rfdButton a.rfdSkinnedButton,
+.RadForm_Office2010Blue.rfdButton input[type="button"].rfdDecorated,
+.RadForm_Office2010Blue.rfdButton input[type="reset"].rfdDecorated,
+.RadForm_Office2010Blue.rfdButton input[type="submit"].rfdDecorated,
+.RadForm_Office2010Blue.rfdButton .rfdSkinnedButton button
+{
+	background-image: url('FormDecorator/ButtonSprites.gif');
+	color: #384e73;
+}
+
+*html .RadForm_Office2010Blue a.rfdSkinnedButton,
+*html .RadForm_Office2010Blue .rfdSkinnedButton button,
+*html .RadForm_Office2010Blue .rfdSkinnedButton input.rfdDecorated,
+.RadForm_Office2010Blue.rfdButton a.rfdSkinnedButton,
+.RadForm_Office2010Blue.rfdButton a.rfdSkinnedButton *
+{
+	background-image: url('FormDecorator/ButtonSprites.gif');
+	color: #384e73;
+}
+
+/* OPERA width fix - do not remove (and check if it is still necessary) */
+@media screen and (min-width:1px)  
+{
+	/* 
+       the hack below fixes a strange behavior under Opera - 
+       input and button have a different CSS display when in anchor tag 
+    */
+	.RadForm_Office2010Blue.rfdButton a.rfdSkinnedButton input
+	{
+	    display: block;
+	    float: left;
+	}
+}
+
+/* Decorate <h4|5|6 /> */
+.RadForm_Office2010Blue.rfdHeading h4,
+.RadForm_Office2010Blue.rfdHeading h5,
+.RadForm_Office2010Blue.rfdHeading h6
+{
+	color: #384e73;	
+	border-bottom: solid 1px #8ba0bc;	
+}
+
+/* Decorate <label /> */
+.RadForm_Office2010Blue.rfdLabel label,
+.RadForm_Office2010Blue.rfdLabel .rfdAspLabel
+{	
+	color: #384e73;
+}
+
+.RadForm_Office2010Blue.rfdLabel .rfdInputDisabled
+{	
+	color: #3f464f;
+}
+
+/* Decorate <input type="checkbox" /> */
+.RadForm_Office2010Blue .rfdCheckboxUnchecked,
+.RadForm_Office2010Blue .rfdCheckboxChecked,
+.RadForm_Office2010Blue .rfdInputDisabled.rfdCheckboxUnchecked,
+.RadForm_Office2010Blue .rfdInputDisabled.rfdCheckboxChecked
+{
+	background-image: url('FormDecorator/CheckBoxSprites.gif');
+}
+
+/* Decorate <input type="radio" /> */
+.RadForm_Office2010Blue .rfdRadioUnchecked,
+.RadForm_Office2010Blue .rfdRadioChecked,
+.RadForm_Office2010Blue .rfdInputDisabled.rfdRadioUnchecked,
+.RadForm_Office2010Blue .rfdInputDisabled.rfdRadioChecked
+{
+	background-image: url('FormDecorator/RadioButtonSprites.png');
+}
+
+/* IE6 - we set .gif")%> image instead of .png")%> due to the lack RGBA support */
+.RadForm_Office2010Blue .rfdRadioUnchecked,
+.RadForm_Office2010Blue .rfdInputDisabled.rfdRadioUnchecked:hover,
+.RadForm_Office2010Blue .rfdRadioUnchecked:hover,
+.RadForm_Office2010Blue .rfdRadioChecked,
+.RadForm_Office2010Blue .rfdInputDisabled.rfdRadioChecked:hover,
+.RadForm_Office2010Blue .rfdRadioChecked:hover
+{
+    _background-image: url('FormDecorator/RadioButtonSprites.gif'); /* IE6 hack */
+}
+
+/* <fieldset /> and <legend /> */
+
+.RadForm_Office2010Blue table.rfdRoundedWrapper:hover div.rfdRoundedInner
+{
+    background-color: #f3d64a;
+    border-color: #f3d64a !important;
+}
+
+/* this selector styles the hover of the side bars of the rounded elements */
+.RadForm_Office2010Blue table.rfdRoundedWrapper:hover .rfdRoundedOuter
+{	
+	background-color: #f3d64a !important;
+}
+
+/* Decorate <input type="text | password" /> and <textarea /> */
+/* For all browsers except IE6 we are using attribute selectors - single or double */
+.RadForm_Office2010Blue.rfdTextbox input[type="text"],
+.RadForm_Office2010Blue.rfdTextbox input[type="password"],
+.RadForm_Office2010Blue.rfdTextarea textarea,
+.RadForm_Office2010Blue.rfdTextarea textarea[disabled]:hover,
+.RadForm_Office2010Blue.rfdTextbox input[disabled][type="text"]:hover,
+.RadForm_Office2010Blue.rfdTextbox input[disabled][type="password"]:hover
+{
+    border: 1px solid #9babc2;
+    color: #384e73;
+}
+
+.RadForm_Office2010Blue.rfdTextbox .rfdDecorated:hover,
+.RadForm_Office2010Blue.rfdTextbox .rfdDecorated:hover,
+.RadForm_Office2010Blue.rfdTextarea textarea:hover,
+.RadForm_Office2010Blue.rfdTextbox .rfdDecorated:focus,
+.RadForm_Office2010Blue.rfdTextbox .rfdDecorated:focus,
+.RadForm_Office2010Blue.rfdTextarea textarea:focus
+{
+    border: 1px solid #f3d64a;
+}
+
+/* Decorate <fieldset /> */
+.RadForm_Office2010Blue.rfdFieldset fieldset
+{	
+	border: solid 1px #8ba0bc;
+	background-image: url('FormDecorator/FieldsetBgr.gif');/* having a background image on a fieldset is not okay with IE */	
+}
+
+/* Decorate <fieldset /> and <legend /> */
+.RadForm_Office2010Blue.rfdFieldset table.rfdRoundedWrapper_fieldset legend,
+.RadForm_Office2010Blue.rfdFieldset fieldset.rfdFieldset legend,
+.RadForm_Office2010Blue fieldset.rfdFieldset legend,
+.RadForm_Office2010Blue.rfdFieldset fieldset legend
+{
+	color: #384e73;
+}
+
+.RadForm_Office2010Blue.rfdFieldset table.rfdRoundedWrapper_fieldset fieldset,
+.RadForm_Office2010Blue.rfdFieldset fieldset.rfdFieldset
+{	
+	border: solid 1px #8ba0bc;
+	background-image: url('FormDecorator/FieldsetBgr.gif'); /* having a background image on a fieldset is not okay with IE */	
+}
+
+
+/* Because of a glitch in IE the following 2 CSS classes must be declared separately for correct parsing of the textarea class in IE6*/
+.RadForm_Office2010Blue table.rfdRoundedWrapper input,
+.RadForm_Office2010Blue table.rfdRoundedWrapper textarea,
+.RadForm_Office2010Blue input.rfdInput, 
+.RadForm_Office2010Blue textarea.rfdTextarea
+{
+	border: solid 1px #919191;
+	background: #fff;	
+	color: #384e73;
+}
+
+.RadForm_Office2010Blue textarea.rfdTextarea,
+.RadForm_Office2010Blue table.rfdRoundedWrapper textarea
+{
+    overflow: auto;
+}
+
+/* <select /> */
+.rfdSelect_Office2010Blue,
+.rfdSelect_Office2010Blue:hover,
+.rfdSelect_Office2010Blue .rfdSelectOuter,
+.rfdSelect_Office2010Blue:hover .rfdSelectOuter,
+.rfdSelect_Office2010Blue .rfdSelectArrow span,
+.rfdSelectBox_Office2010Blue .rfdSelect_selected,
+.rfdSelectBox_Office2010Blue li:hover,
+.rfdSelect_Office2010Blue.rfdSelectDisabled:hover,
+.rfdRtl .rfdSelect_Office2010Blue,
+.rfdRtl .rfdSelect_Office2010Blue:hover,
+.rfdRtl .rfdSelect_Office2010Blue .rfdSelectOuter,
+.rfdRtl .rfdSelect_Office2010Blue .rfdSelectOuter:hover
+{
+    background-image: url('FormDecorator/ComboSprites.gif');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.rfdSelect_Office2010Blue .rfdSelectOuter,
+.rfdSelect_Office2010Blue.rfdSelectDisabled:hover .rfdSelectOuter
+{
+    color: #384e73;
+}
+
+/* dropdown settings */
+.rfdSelectBox_Office2010Blue
+{
+    background: #fff;
+    border: solid 1px #9babc2;
+    color: #384e73;
+}
+
+.rfdSelectBox_Office2010Blue li
+{
+    padding: 0 0 0 3px;
+    background-image: none !important;
+    color: #384e73;
+}
+
+.rfdSelectBox_Office2010Blue .rfdSelect_selected
+{
+    background-color: #ffd86b;
+}
+
+.rfdSelectBox_Office2010Blue li:hover
+{
+    background-color: #fae185;
+}
+
+.rfdSelectBox_Office2010Blue .rfdSelectBox_optgroup_label:hover
+{
+    background: none;
+    color: #384e73;
+}
+
+/* IE6 disabled state fix - this should not be added to the base stylesheet, but at the bottom of the skin file */
+* html .RadForm_Office2010Blue.rfdButton a.rfdInputDisabled:hover
+{
+	_background-position: 0 0;
+}
+
+* html .RadForm_Office2010Blue.rfdButton a.rfdInputDisabled:hover *
+{
+	_background-position: right -21px;
+	_color: #384e73;
+}
+
+.RadForm_Office2010Blue.rfdTextbox input.rfdIE6TextBox,
+.RadForm_Office2010Blue.rfdTextbox textarea.rfdIE6TextBox
+{
+    _border: solid 1px #9babc2;
+    _background-color: #fff;
+}
+
+/* the styling of radiobuttons and checkboxes in Safari and Chrome is already fully achieved with CSS */
+@media screen and (-webkit-min-device-pixel-ratio: 0)
+{
+    /* checkboxes */
+    .rfdCheckbox input[type="checkbox"],
+    .rfdCheckbox input[type="checkbox"][disabled]:hover
+    {
+        background-image: url('FormDecorator/CheckBoxSprites.gif');
+    }
+    
+    /* radio buttons */
+    .rfdRadio input[type="radio"],
+    .rfdRadio input[type="radio"][disabled="disabled"]:hover
+    {
+        background-image: url('FormDecorator/RadioButtonSprites.png');
+    }
+}
+
+/* ----------------------------------------------- Skin-specific Scrollbar Settings for WebKit ----------------------------------------------- */
+
+/* the scrollbar face color */
+.RadForm.rfdScrollBars.RadForm_Office2010Blue body::-webkit-scrollbar,
+.RadForm.rfdScrollBars.RadForm_Office2010Blue body::-webkit-scrollbar-thumb:vertical,
+.RadForm.rfdScrollBars.RadForm_Office2010Blue body::-webkit-scrollbar-thumb:horizontal,
+.RadForm.rfdScrollBars.RadForm_Office2010Blue div::-webkit-scrollbar,
+.RadForm.rfdScrollBars.RadForm_Office2010Blue div::-webkit-scrollbar-thumb:vertical,
+.RadForm.rfdScrollBars.RadForm_Office2010Blue div::-webkit-scrollbar-thumb:horizontal
+.RadForm.rfdScrollBars.RadForm_Office2010Blue form::-webkit-scrollbar,
+.RadForm.rfdScrollBars.RadForm_Office2010Blue form::-webkit-scrollbar-thumb:vertical,
+.RadForm.rfdScrollBars.RadForm_Office2010Blue form::-webkit-scrollbar-thumb:horizontal
+{
+    background-color: #bfcddf;
+}
+
+/* scrollbar track background color */
+.RadForm.rfdScrollBars.RadForm_Office2010Blue ::-webkit-scrollbar-track-piece,
+.RadForm.rfdScrollBars.RadForm_Office2010Blue ::-webkit-scrollbar-corner
+{
+    background-color: #b1c7e0;
+}
+
+.RadForm.rfdScrollBars.RadForm_Office2010Blue ::-webkit-scrollbar-button:vertical:decrement, 
+.RadForm.rfdScrollBars.RadForm_Office2010Blue ::-webkit-scrollbar-button:vertical:increment, 
+.RadForm.rfdScrollBars.RadForm_Office2010Blue ::-webkit-scrollbar-button:horizontal:decrement, 
+.RadForm.rfdScrollBars.RadForm_Office2010Blue ::-webkit-scrollbar-button:horizontal:increment, 
+.RadForm.rfdScrollBars.RadForm_Office2010Blue ::-webkit-scrollbar-thumb:vertical, 
+.RadForm.rfdScrollBars.RadForm_Office2010Blue ::-webkit-scrollbar-thumb:horizontal
+{
+    border-color: #8ba0bc;
+}
+
+/* increment / decrement button settings */
+.RadForm.rfdScrollBars.RadForm_Office2010Blue ::-webkit-scrollbar-button:vertical:decrement, 
+.RadForm.rfdScrollBars.RadForm_Office2010Blue ::-webkit-scrollbar-button:vertical:increment, 
+.RadForm.rfdScrollBars.RadForm_Office2010Blue ::-webkit-scrollbar-button:horizontal:decrement, 
+.RadForm.rfdScrollBars.RadForm_Office2010Blue ::-webkit-scrollbar-button:horizontal:increment
+{
+    background-image: url('FormDecorator/ButtonSprites.gif');
+    background-color: #bfcddf;
+}
+
+/*GridView, FormView, DetailsView*/
+.RadForm_Office2010Blue.rfdGrids .rfdTable
+{
+    border:1px solid #688caf;
+    background:#fff;
+    color:#333;
+    font:12px "segoe ui",arial,sans-serif;
+}
+
+.RadForm_Office2010Blue.rfdGrids .rfdTable th
+{
+    border-bottom:1px solid #5d8cc9;
+    border-left:1px solid #5d8cc9;
+    background:#c3d8f1;
+    color:#00156e;
+}
+
+.RadForm_Office2010Blue.rfdGrids .rfdTable a
+{
+    color:#00156e;
+}
+
+/* Validation Summary Control and Login Control  */
+
+.RadForm_Office2010Blue .rfdValidationSummaryControl,
+.RadForm_Office2010Blue .rfdLoginControl
+{
+	background-color: #fff;
+	border: 1px solid #9babc2;
+}
+
+.RadForm_Office2010Blue a.rfdLoginControl
+{
+	color: #384e73;
+}
+
+.RadForm_Office2010Blue a.rfdLoginControl:active,
+.RadForm_Office2010Blue a.rfdLoginControl:hover,
+.RadForm_Office2010Blue a.rfdLoginControl:visited
+{
+	color: #1e395b;
+}

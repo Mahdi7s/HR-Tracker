@@ -1,0 +1,168 @@
+/*Telerik RadListView Metro Skin*/
+
+/*global*/
+
+.RadListView_Metro
+{
+	border:1px solid #e5e5e5;
+	background:#fff;
+	color:#000;
+	font:12px/16px "segoe ui",arial,sans-serif;
+}
+
+.RadListView_Metro .rlvA
+{
+	background:#ededed;
+}
+
+.RadListView_Metro .rlvISel
+{
+	background:#25a0da;
+	color:#fff;
+}
+
+/*buttons*/
+
+.RadListView_Metro .rlvBAdd,
+.RadListView_Metro .rlvBUpdate,
+.RadListView_Metro .rlvBCancel,
+.RadListView_Metro .rlvBDel,
+.RadListView_Metro .rlvBEdit
+{
+	background-image:url('Grid/sprite.gif');
+}
+
+.RadListView_Metro .rlvBCancel,
+.RadListView_Metro .rlvBUpdate
+{
+    width:22px;
+    height:22px;
+}
+
+.RadListView_Metro .rlvBAdd
+{
+	background-position:0 -1650px;
+}
+.RadListView_Metro .rlvBUpdate
+{
+	background-position:0 -1798px;
+}
+.RadListView_Metro .rlvBCancel
+{
+	background-position:0 -1848px;
+}
+.RadListView_Metro .rlvBSel
+{
+	background-image:url('FormDecorator/CheckBoxSprites.gif');
+	background-position:-2px -2px;
+}
+.RadListView_Metro .rlvISel .rlvBSel
+{
+	background-position:-2px -422px;
+}
+.RadListView_Metro .rlvBDel
+{
+	background-position:0 -1750px;
+}
+.RadListView_Metro .rlvBEdit
+{
+	background-position:0 -1700px;
+}
+
+.RadListView_Metro .rlvDrag
+{
+	background-image:url('ListView/drag.gif');
+	background-position:center center;
+}
+
+/*flow*/
+
+.RadListView_Metro div.rlvI,
+.RadListView_Metro div.rlvA,
+.RadListView_Metro div.rlvIEmpty,
+.RadListView_Metro div.rlvIEdit
+{
+	border-color:#c3c3c3;
+}
+
+.RadListView_Metro div.rlvISel
+{
+	border-color:#ca4b0c;
+}
+
+/*grid*/
+
+.RadListView_Metro tr.rlvHeader th
+{
+	border:0;
+	border-bottom:1px solid #7c7c7c;
+	border-left:1px solid #9e9e9e;
+	background:#e4e4e4;
+}
+
+.RadListView_Metro tr.rlvI td,
+.RadListView_Metro tr.rlvA td,
+.RadListView_Metro tr.rlvISel td,
+.RadListView_Metro tr.rlvIEmpty td
+{
+	border:1px solid;
+	border-top:0;
+	border-right:0;
+}
+
+.RadListView_Metro tr.rlvI td,
+.RadListView_Metro tr.rlvIEmpty td
+{
+	border-color:#fff #c3c3c3;
+}
+
+.RadListView_Metro tr.rlvA td
+{
+	border-color:#ededed #c3c3c3;
+}
+
+.RadListView_Metro tr.rlvISel td
+{
+	border-color:#ca4b0c #ffa517;
+}
+
+.RadListView_Metro tr.rlvIEdit td
+{
+	border-color:#616161 #c3c3c3;
+}
+
+/*single row*/
+
+.RadListView_Metro td.rlvI,
+.RadListView_Metro td.rlvA,
+.RadListView_Metro td.rlvISel,
+.RadListView_Metro td.rlvIEmpty,
+.RadListView_Metro td.rlvIEdit
+{
+	border:0;
+	border-right:1px solid #c3c3c3;
+}
+
+.RadListView_Metro td.rlvISel
+{
+	border-color:#ca4b0c;
+}
+
+/*floated*/
+
+.RadListView_Metro .rlvFloated .rlvI,
+.RadListView_Metro .rlvFloated .rlvA,
+.RadListView_Metro .rlvFloated .rlvISel,
+.RadListView_Metro .rlvFloated .rlvIEdit
+{
+	border-color:#999;
+}
+
+/*edit*/
+
+.RadListView_Metro .rlvInput
+{
+	border-color:#616161;
+	background:#fff;
+	color:#000;
+}

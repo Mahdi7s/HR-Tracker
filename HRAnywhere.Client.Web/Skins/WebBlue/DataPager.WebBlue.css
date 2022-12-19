@@ -1,0 +1,95 @@
+/*Telerik RadDataPager WebBlue Skin*/
+
+.RadDataPager_WebBlue
+{
+	border:1px solid #768ca5;
+	background:#dae2e8;
+	color:#000;
+}
+
+.RadDataPager_WebBlue .rdpPageFirst,
+.RadDataPager_WebBlue .rdpPagePrev,
+.RadDataPager_WebBlue .rdpPageNext,
+.RadDataPager_WebBlue .rdpPageLast
+{
+	background:transparent no-repeat url('Grid/sprite.gif');
+}
+
+.RadDataPager_WebBlue .rdpPageFirst
+{
+	background-position:0 -550px;
+}
+.RadDataPager_WebBlue .rdpPageFirst:hover
+{
+	background-position:0 -600px;
+}
+.RadDataPager_WebBlue .rdpPagePrev
+{
+	background-position:0 -700px;
+}
+.RadDataPager_WebBlue .rdpPagePrev:hover
+{
+	background-position:0 -750px;
+}
+.RadDataPager_WebBlue .rdpPageNext
+{
+	background-position:0 -850px;
+}
+.RadDataPager_WebBlue .rdpPageNext:hover
+{
+	background-position:0 -900px;
+}
+.RadDataPager_WebBlue .rdpPageLast
+{
+	background-position:0 -1000px;
+}
+.RadDataPager_WebBlue .rdpPageLast:hover
+{
+	background-position:0 -1050px;
+}
+
+.RadDataPager_WebBlue .rdpPagerButton
+{
+	border:1px solid;
+	border-color:#4e667e #476077 #425c71;
+	background:#d6e1e7 repeat-x 0 -1550px url('Grid/sprite.gif');
+	color:#0d202b;
+	font:12px/12px "segoe ui",arial,sans-serif;
+}
+
+.RadDataPager_WebBlue .rdpNumPart a:hover,
+.RadDataPager_WebBlue .rdpNumPart a:hover span,
+.RadDataPager_WebBlue .rdpNumPart a.rdpCurrentPage,
+.RadDataPager_WebBlue .rdpNumPart a.rdpCurrentPage span
+{
+	background:no-repeat url('Grid/sprite.gif');
+}
+
+.RadDataPager_WebBlue .rdpNumPart a
+{
+	color:#000;
+}
+
+.RadDataPager_WebBlue .rdpNumPart a:hover
+{
+	background-position:100% -1250px;
+	color:#0e3d4f;
+}
+
+.RadDataPager_WebBlue .rdpNumPart a:hover span
+{
+	background-position:0 -1150px;
+}
+
+.RadDataPager_WebBlue .rdpNumPart a.rdpCurrentPage,
+.RadDataPager_WebBlue .rdpNumPart a.rdpCurrentPage:hover
+{
+	background-position:100% -1450px;
+	color:#0053a5;
+}
+
+.RadDataPager_WebBlue .rdpNumPart a.rdpCurrentPage span,
+.RadDataPager_WebBlue .rdpNumPart a.rdpCurrentPage:hover span
+{
+	background-position:0 -1350px;
+}

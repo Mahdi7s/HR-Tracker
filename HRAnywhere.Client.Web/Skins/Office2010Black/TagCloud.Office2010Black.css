@@ -1,0 +1,30 @@
+.RadTagCloud_Office2010Black
+{
+	background-color: #4b4b4b;
+	border: 1px dotted #e2e2e2;
+}
+.RadTagCloud_Office2010Black .rtcTagList .rtcTagItem
+{
+	color: #fff;
+}
+.RadTagCloud_Office2010Black .rtcTagList .rtcTagItem:hover
+{
+	color: #f7c840;
+}
+.RadTagCloud_Office2010Black .rtcTagList .rtcTagItem a
+{
+	color: #e2e2e2;
+	border: 1px solid transparent;
+}
+div.RadTagCloud_Office2010Black .rtcTagList .rtcTagItem a:hover
+{
+	color: #ffe175;
+	border: 1px solid transparent;
+	text-decoration: underline;
+}
+
+/* Loading image */
+.rtcLoading.RadTagCloud_Office2010Black
+{
+	background-image: url('Common/loading_small.gif');
+}

@@ -1,0 +1,381 @@
+/* RadFormDecorator for ASP.NET Forest Skin */
+
+/* CSS class for styling the decoration zone or the <html /> tag of the page */
+.RadForm_Forest.rfdZone
+{
+     background-color: #d3e0c2;
+}
+
+/* Decorate scrollbars */
+.RadForm_Forest.rfdScrollBars
+{
+	scrollbar-3dlight-color: #879560; 
+	scrollbar-arrow-color: #425335;
+	scrollbar-base-color: #ff6347; 
+	scrollbar-darkshadow-color: #62703b; 
+	scrollbar-face-color: #c2d197;
+	scrollbar-highlight-color: #fff; 
+	scrollbar-shadow-color: #dae7b5;
+	scrollbar-track-color: #acb790;
+}
+
+/* Decorate <input type="button | submit | reset" /> and <button type="button | submit | reset" /> - look if there is a secondary .rfdButton class applied to the root element */
+.RadForm_Forest.rfdButton a.rfdSkinnedButton,
+.RadForm_Forest.rfdButton input[type="button"].rfdDecorated,
+.RadForm_Forest.rfdButton input[type="reset"].rfdDecorated,
+.RadForm_Forest.rfdButton input[type="submit"].rfdDecorated,
+.RadForm_Forest.rfdButton .rfdSkinnedButton button
+{
+	background-image: url('FormDecorator/ButtonSprites.png');
+	color: #fff;
+}
+
+*html .RadForm_Forest a.rfdSkinnedButton,
+*html .RadForm_Forest .rfdSkinnedButton button,
+*html .RadForm_Forest .rfdSkinnedButton input.rfdDecorated,
+.RadForm_Forest.rfdButton a.rfdSkinnedButton,
+.RadForm_Forest.rfdButton a.rfdSkinnedButton *
+{
+	background-image: url('FormDecorator/ButtonSprites.png');
+	color: #fff;
+}
+
+/* OPERA width fix - do not remove (and check if it is still necessary) */
+@media screen and (min-width:1px)  
+{
+	/* 
+       the hack below fixes a strange behavior under Opera - 
+       input and button have a different CSS display when in anchor tag 
+    */
+	.RadForm_Forest.rfdButton a.rfdSkinnedButton input
+	{
+	    display: block;
+	    float: left;
+	}
+}
+
+/* Decorate <h4|5|6 /> */
+.RadForm_Forest.rfdHeading h4
+{
+	color: #3c4c30;	
+	border-bottom: solid 1px #3c6716;	
+}
+
+.RadForm_Forest.rfdHeading h5
+{
+	color: #3c4c30;	
+	border-bottom: solid 1px #3c6716;	
+}
+
+.RadForm_Forest.rfdHeading h6
+{
+	color: #3c4c30;	
+}
+
+/* Decorate <label /> */
+.RadForm_Forest.rfdLabel label
+{	
+	color: #000;
+}
+
+/* Decorate <input type="checkbox" /> */
+.RadForm_Forest .rfdCheckboxUnchecked,
+.RadForm_Forest .rfdCheckboxChecked,
+.RadForm_Forest .rfdInputDisabled.rfdCheckboxUnchecked,
+.RadForm_Forest .rfdInputDisabled.rfdCheckboxChecked
+{
+	background-image: url('FormDecorator/CheckBoxSprites.gif');
+}
+
+/* Decorate <input type="radio" /> */
+.RadForm_Forest .rfdRadioUnchecked,
+.RadForm_Forest .rfdRadioChecked,
+.RadForm_Forest .rfdInputDisabled.rfdRadioUnchecked,
+.RadForm_Forest .rfdInputDisabled.rfdRadioChecked
+{
+	background-image: url('FormDecorator/RadioButtonSprites.png');
+}
+
+/* IE6 - we set .gif")%> image instead of .png")%> due to the lack RGBA support */
+.RadForm_Forest .rfdRadioUnchecked,
+.RadForm_Forest .rfdInputDisabled.rfdRadioUnchecked:hover,
+.RadForm_Forest .rfdRadioUnchecked:hover,
+.RadForm_Forest .rfdRadioChecked,
+.RadForm_Forest .rfdInputDisabled.rfdRadioChecked:hover,
+.RadForm_Forest .rfdRadioChecked:hover
+{
+    _background-image: url('FormDecorator/RadioButtonSprites.gif'); /* IE6 hack */
+}
+
+/* <fieldset /> and <legend /> */
+
+.RadForm_Forest.rfdFieldset table.rfdRoundedWrapper_fieldset legend,
+.RadForm_Forest fieldset.rfdFieldset legend,
+.RadForm_Forest.rfdFieldset fieldset legend
+{
+	color: #2b2c20;
+}
+
+.RadForm_Forest table.rfdRoundedWrapper:hover div.rfdRoundedInner
+{
+    background-color: #e7f1d7;
+    border-color: #3c4c30 !important;
+}
+
+/* this selector styles the hover of the side bars of the rounded elements */
+.RadForm_Forest table.rfdRoundedWrapper:hover .rfdRoundedOuter
+{	
+	background-color: #3c4c30 !important;
+}
+
+/* Decorate <input type="text | password" /> and <textarea /> */
+/* For all browsers except IE6 we are using attribute selectors - single or double */
+.RadForm_Forest.rfdTextbox input[type="text"],
+.RadForm_Forest.rfdTextbox input[type="password"],
+.RadForm_Forest.rfdTextarea textarea,
+.RadForm_Forest.rfdTextarea textarea[disabled]:hover,
+.RadForm_Forest.rfdTextbox input[disabled][type="text"]:hover,
+.RadForm_Forest.rfdTextbox input[disabled][type="password"]:hover
+{
+    border: solid 1px #618740;
+    background-color: #e7f1d7;
+}
+
+.RadForm_Forest.rfdTextbox .rfdDecorated:hover,
+.RadForm_Forest.rfdTextarea textarea:hover,
+.RadForm_Forest.rfdTextbox .rfdDecorated:focus,
+.RadForm_Forest.rfdTextarea textarea:focus
+{
+    border: solid 1px #3c4c30;
+}
+
+/* Decorate <fieldset /> */
+.RadForm_Forest.rfdFieldset fieldset
+{	
+	border: solid 1px #588a4d;
+	background-image: url('FormDecorator/FieldsetBgr.png'); /* having a background image on a fieldset is not okay with IE */	
+}
+
+/* Decorate <fieldset /> and <legend /> */
+.RadForm_Forest.rfdFieldset table.rfdRoundedWrapper_fieldset legend,
+.RadForm_Forest.rfdFieldset fieldset.rfdFieldset legend
+{
+	color: #2b2c20;
+}
+
+.RadForm_Forest.rfdFieldset table.rfdRoundedWrapper_fieldset fieldset,
+.RadForm_Forest.rfdFieldset fieldset.rfdFieldset
+{	
+	border: solid 1px #588a4d;
+	background-image: url('FormDecorator/FieldsetBgr.png'); /* having a background image on a fieldset is not okay with IE */	
+}
+
+/* Because of a glitch in IE the following 2 CSS classes must be declared separately for correct parsing of the textarea class in IE6*/
+.RadForm_Forest table.rfdRoundedWrapper input,
+.RadForm_Forest table.rfdRoundedWrapper textarea,
+.RadForm_Forest input.rfdInput, 
+.RadForm_Forest textarea.rfdTextarea
+{
+	border: solid 1px #618740;
+	background: #e7f1d7;	
+	color: #000;
+}
+
+.RadForm_Forest textarea.rfdTextarea,
+.RadForm_Forest table.rfdRoundedWrapper textarea
+{
+    overflow: auto;
+}
+
+/* <select /> */
+.rfdSelect_Forest,
+.rfdSelect_Forest:hover,
+.rfdSelect_Forest .rfdSelectOuter,
+.rfdSelect_Forest:hover .rfdSelectOuter,
+.rfdSelect_Forest .rfdSelectArrow span,
+.rfdSelectBox_Forest .rfdSelect_selected,
+.rfdSelectBox_Forest li:hover,
+.rfdSelect_Forest.rfdSelectDisabled:hover,
+.rfdRtl .rfdSelect_Forest,
+.rfdRtl .rfdSelect_Forest:hover,
+.rfdRtl .rfdSelect_Forest .rfdSelectOuter,
+.rfdRtl .rfdSelect_Forest .rfdSelectOuter:hover
+{
+    background-image: url('FormDecorator/ComboSprites.gif');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.rfdSelect_Forest .rfdSelectOuter,
+.rfdSelect_Forest.rfdSelectDisabled:hover .rfdSelectOuter
+{
+    color: #2b2c20;
+}
+
+.rfdSelect_Forest .rfdSelectOuter:hover
+{
+    color: #7a1b05;
+}
+
+/* dropdown settings */
+.rfdSelectBox_Forest
+{
+    background: #c2d197;
+    border: solid 1px #588a4d;
+    color: #2b2c20;
+}
+
+.rfdSelectBox_Forest li
+{
+    padding: 0 0 0 3px;
+    background-image: none !important;
+}
+
+.rfdSelectBox_Forest .rfdSelect_selected,
+.rfdSelectBox_Forest li:hover
+{
+    color: #fff;
+    background-color: #cf4900;
+}
+
+.rfdSelectBox_Forest .rfdSelectBox_optgroup_label:hover
+{
+    background: none;
+    color: #000;
+}
+
+.rfdSelectDisabled.rfdSelectBox_Forest li
+{
+    color: #2b2c20;
+}
+
+/* IE6 disabled state fix - this should not be added to the base stylesheet, but at the bottom of the skin file */
+* html .RadForm_Forest.rfdButton a.rfdInputDisabled:hover
+{
+	_background-position: 0 0;
+}
+
+* html .RadForm_Forest.rfdButton a.rfdInputDisabled:hover *
+{
+	_background-position: right -21px;
+	_color: #000;
+}
+
+.RadForm_Forest.rfdTextbox input.rfdIE6TextBox,
+.RadForm_Forest.rfdTextbox textarea.rfdIE6TextBox
+{
+    _border: solid 1px #618740;
+    _background-color: #fff;
+}
+
+/* the styling of radiobuttons and checkboxes in Safari and Chrome is already fully achieved with CSS */
+@media screen and (-webkit-min-device-pixel-ratio: 0)
+{
+    /* checkboxes */
+    .rfdCheckbox input[type="checkbox"],
+    .rfdCheckbox input[type="checkbox"][disabled]:hover
+    {
+        background-image: url('FormDecorator/CheckBoxSprites.gif');
+    }
+    
+    /* radio buttons */
+    .rfdRadio input[type="radio"],
+    .rfdRadio input[type="radio"][disabled="disabled"]:hover
+    {
+        background-image: url('FormDecorator/RadioButtonSprites.png');
+    }
+}
+
+/* ----------------------------------------------- Skin-specific Scrollbar Settings for WebKit ----------------------------------------------- */
+
+/* the scrollbar face color */
+.RadForm.rfdScrollBars.RadForm_Forest body::-webkit-scrollbar,
+.RadForm.rfdScrollBars.RadForm_Forest body::-webkit-scrollbar-thumb:vertical,
+.RadForm.rfdScrollBars.RadForm_Forest body::-webkit-scrollbar-thumb:horizontal,
+.RadForm.rfdScrollBars.RadForm_Forest div::-webkit-scrollbar,
+.RadForm.rfdScrollBars.RadForm_Forest div::-webkit-scrollbar-thumb:vertical,
+.RadForm.rfdScrollBars.RadForm_Forest div::-webkit-scrollbar-thumb:horizontal
+.RadForm.rfdScrollBars.RadForm_Forest form::-webkit-scrollbar,
+.RadForm.rfdScrollBars.RadForm_Forest form::-webkit-scrollbar-thumb:vertical,
+.RadForm.rfdScrollBars.RadForm_Forest form::-webkit-scrollbar-thumb:horizontal
+{
+    background-color: #c2d197;
+}
+
+/* scrollbar track background color */
+.RadForm.rfdScrollBars.RadForm_Forest ::-webkit-scrollbar-track-piece,
+.RadForm.rfdScrollBars.RadForm_Forest ::-webkit-scrollbar-corner
+{
+    background-color: #acb790;
+}
+
+.RadForm.rfdScrollBars.RadForm_Forest ::-webkit-scrollbar-button:vertical:decrement, 
+.RadForm.rfdScrollBars.RadForm_Forest ::-webkit-scrollbar-button:vertical:increment, 
+.RadForm.rfdScrollBars.RadForm_Forest ::-webkit-scrollbar-button:horizontal:decrement, 
+.RadForm.rfdScrollBars.RadForm_Forest ::-webkit-scrollbar-button:horizontal:increment, 
+.RadForm.rfdScrollBars.RadForm_Forest ::-webkit-scrollbar-thumb:vertical, 
+.RadForm.rfdScrollBars.RadForm_Forest ::-webkit-scrollbar-thumb:horizontal
+{
+    border-color: #fff #dae7b5 #dae7b5 #fff;
+}
+
+/* increment / decrement button settings */
+.RadForm.rfdScrollBars.RadForm_Forest ::-webkit-scrollbar-button:vertical:decrement, 
+.RadForm.rfdScrollBars.RadForm_Forest ::-webkit-scrollbar-button:vertical:increment, 
+.RadForm.rfdScrollBars.RadForm_Forest ::-webkit-scrollbar-button:horizontal:decrement, 
+.RadForm.rfdScrollBars.RadForm_Forest ::-webkit-scrollbar-button:horizontal:increment
+{
+    background-image: url('FormDecorator/ButtonSprites.gif');
+    background-color: #c2d197;
+}
+
+/*GridView, FormView, DetailsView*/
+.RadForm_Forest.rfdGrids .rfdTable
+{
+    border:1px solid #3c4c30;
+    background:#d1deb6;
+    color:#2b2c20;
+    font:12px "segoe ui",arial,sans-serif;
+}
+
+.RadForm_Forest.rfdGrids .rfdTable th
+{
+    border-bottom:1px solid #3c6716;
+    border-left:1px solid #3c6716;
+    background:#76a866;
+    color:#2b2c20;
+}
+
+.RadForm_Forest.rfdGrids .rfdTable a
+{
+    color:#7a1b05;
+}
+
+/* Validation Summary Control and Login Control  */
+
+.RadForm_Forest .rfdValidationSummaryControl,
+.RadForm_Forest .rfdLoginControl
+{
+	background-color: #e7f1d7;
+	border: 1px solid #588a4d;
+}
+
+.RadForm_Forest a.rfdLoginControl
+{
+	color: #2b2c20;
+}
+
+.RadForm_Forest a.rfdLoginControl:active
+{
+	color: #d44c01;
+}
+
+.RadForm_Forest a.rfdLoginControl:hover
+{
+	color: #7a1b05;
+}
+
+.RadForm_Forest a.rfdLoginControl:visited
+{
+	color: #3c4c30;
+}

@@ -1,0 +1,193 @@
+/*Telerik RadFilter Windows7 skin*/
+
+/*sprite*/
+
+.RadFilter_Windows7 .rfLeft,
+.RadFilter_Windows7 .rfMid,
+.RadFilter_Windows7 .rfTools,
+.RadFilter_Windows7 .rfRight,
+.RadFilter_Windows7 .rfOper:hover,
+.RadFilter_Windows7 .rfField:hover,
+.RadFilter_Windows7 .rfExp:hover,
+.RadFilter_Windows7 .rfOper:focus,
+.RadFilter_Windows7 .rfField:focus,
+.RadFilter_Windows7 .rfExp:focus,
+.RadFilter_Windows7 .rfOper:active,
+.RadFilter_Windows7 .rfField:active,
+.RadFilter_Windows7 .rfExp:active,
+.RadFilter_Windows7 .rfAddGr,
+.RadFilter_Windows7 .rfAddExp,
+.RadFilter_Windows7 .rfDel,
+.RadFilter_Windows7 .rfApply a,
+.RadFilter_Windows7 .rfApply input
+{
+	background-image:url('Filter/sprite.gif');
+}
+
+/*global*/
+
+.RadFilter_Windows7,
+.RadFilter_Windows7 .rfText,
+.RadFilter_Windows7 .rfApply input
+{
+	font-size:12px;
+	font-family:"segoe ui",arial,sans-serif;
+}
+
+.RadFilter_Windows7,
+.RadFilter_Windows7 a,
+.RadFilter_Windows7 .rfText,
+.RadFilter_Windows7 .rfApply input
+{
+	color:#1e395b;
+}
+
+/*lines*/
+
+.RadFilter_Windows7 .rfLines li li
+{
+	background-image:url('Filter/rfLine.gif');
+}
+
+.RadFilter_Windows7 .rfLines li li .rfDiv
+{
+	background-image:url('Filter/rfMiddle.gif');
+}
+
+.RadFilter_Windows7 .rfLines li li.rfLast .rfDiv
+{
+	background-image:url('Filter/rfLast.gif');
+}
+
+/*item elements*/
+
+.RadFilter_Windows7 .rfLeft
+{
+	background-position:0 0;
+}
+
+.RadFilter_Windows7 .rfRight
+{
+	background-position:100% 0;
+}
+
+.RadFilter_Windows7 .rfMid,
+.RadFilter_Windows7 .rfTools
+{
+	background-position:0 -100px;
+}
+
+.RadFilter_Windows7 .rfOper:hover,
+.RadFilter_Windows7 .rfField:hover,
+.RadFilter_Windows7 .rfExp:hover,
+.RadFilter_Windows7 .rfOper:focus,
+.RadFilter_Windows7 .rfField:focus,
+.RadFilter_Windows7 .rfExp:focus,
+.RadFilter_Windows7 .rfOper:active,
+.RadFilter_Windows7 .rfField:active,
+.RadFilter_Windows7 .rfExp:active
+{
+	background-position:100% -76px;
+	color:#000;
+}
+
+.RadFilter_Windows7 .rfText
+{
+	border-color:#b8cbde;
+}
+
+.RadFilter_Windows7 .rfAddExp
+{
+	background-position:-300px 0;
+}
+.RadFilter_Windows7 .rfAddExp:hover
+{
+	background-position:-350px 0;
+}
+
+.RadFilter_Windows7 .rfAddGr
+{
+	background-position:-400px 0;
+}
+.RadFilter_Windows7 .rfAddGr:hover
+{
+	background-position:-450px 0;
+}
+
+.RadFilter_Windows7 .rfDel
+{
+	background-position:-150px 0;
+}
+.RadFilter_Windows7 .rfDel:hover
+{
+	background-position:-200px 0;
+}
+
+/*preview*/
+
+.RadFilter_Windows7 .rfPreview
+{
+	color:#375070;
+}
+
+.RadFilter_Windows7 .rfPreview strong
+{
+	color:#2c7916;
+}
+
+.RadFilter_Windows7 .rfPreview em,
+.RadFilter_Windows7 .rfPreview .rfBr
+{
+	color:#003cc4;
+}
+
+/*apply*/
+
+.RadFilter_Windows7 .rfApply a
+{
+	background-position:100% -29px;
+}
+.RadFilter_Windows7 .rfApply input
+{
+	background-position:0 -50px;
+}
+
+/*rtl*/
+
+.RadFilterRTL_Windows7 .rfLines li li
+{
+	background-image:url('Filter/rfLine-rtl.gif');
+}
+
+.RadFilterRTL_Windows7 .rfLines li li .rfDiv
+{
+	background-image:url('Filter/rfMiddle-rtl.gif');
+}
+
+.RadFilterRTL_Windows7 .rfLines li li.rfLast .rfDiv
+{
+	background-image:url('Filter/rfLast-rtl.gif');
+}
+
+.RadFilterRTL_Windows7 .rfLeft
+{
+	background-position:100% 0;
+}
+
+.RadFilterRTL_Windows7 .rfRight
+{
+	background-position:0 0;
+}
+
+.RadFilterRTL_Windows7 .rfOper:hover,
+.RadFilterRTL_Windows7 .rfField:hover,
+.RadFilterRTL_Windows7 .rfExp:hover,
+.RadFilterRTL_Windows7 .rfOper:focus,
+.RadFilterRTL_Windows7 .rfField:focus,
+.RadFilterRTL_Windows7 .rfExp:focus,
+.RadFilterRTL_Windows7 .rfOper:active,
+.RadFilterRTL_Windows7 .rfField:active,
+.RadFilterRTL_Windows7 .rfExp:active
+{
+	background-position:-586px -76px;
+}

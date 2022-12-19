@@ -1,0 +1,84 @@
+/**
+ * Organizational Chart Outlook Skin
+ */
+
+
+
+
+/*----------------------------------------------------------------------------*/
+
+
+
+
+/** Global wrapper */
+.RadOrgChart_Outlook {
+	color: #333333;
+	font: normal 12px/22px "Segoe UI", Arial, sans-serif;
+}
+
+
+
+
+/** Viewport */
+.RadOrgChart_Outlook .rocViewport {}
+
+
+
+
+/** NodeList */
+.RadOrgChart_Outlook .rocNodeList {}
+
+
+
+
+/** Node */
+.RadOrgChart_Outlook .rocNode {}
+
+
+
+
+/** Group */
+.RadOrgChart_Outlook .rocGroup {
+	border-radius: 10px;
+	background-color: #e5e5e5;
+	background-color: rgba(0, 0, 0, .1);
+	*background-color: #e5e5e5;
+}
+
+
+
+
+/** ItemList */
+.RadOrgChart_Outlook .rocItemList {}
+
+
+
+
+/** ItemWrap */
+.RadOrgChart_Outlook .rocItemWrap {}
+
+
+
+
+/** Items */
+.RadOrgChart_Outlook .rocItem {}
+
+
+	.RadOrgChart_Outlook .rocItemContent,
+	.RadOrgChart_Outlook .rocItemTemplate {
+		border-color: #5d8cc9;
+		border-radius: 5px;
+		background-color: #7da5e0;
+		background-image: url('../Common/OrgChart/rocItemTileLight.png');
+		_background-image: none;
+	}
+
+
+
+
+/** Node lines */
+.RadOrgChart_Outlook .rocLineUp,
+.RadOrgChart_Outlook .rocLineDown,
+.RadOrgChart_Outlook .rocLineHorizontal {
+	background-image: url('../Common/OrgChart/rocLinesDark.png');
+}

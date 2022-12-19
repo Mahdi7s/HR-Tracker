@@ -1,0 +1,64 @@
+
+.ReminderDialog_Outlook,
+.ReminderDialog_Outlook a
+{
+    color: #333;
+    font: normal 12px/14px "Segoe UI", Arial, sans-serif;
+}
+
+.ReminderDialog_Outlook .rsRemContentPanel
+{
+    border-color: #89aee5;
+}
+
+/* <advanced edit title> */
+
+.ReminderDialog_Outlook .rsModalBgTopLeft,
+.ReminderDialog_Outlook .rsModalBgTopRight,
+.ReminderDialog_Outlook .rsModalBgBottomLeft,
+.ReminderDialog_Outlook .rsModalBgBottomRight
+{
+    background-image: url('Scheduler/rsModalBg.png');
+}
+
+* html .ReminderDialog_Outlook .rsModalBgTopLeft,
+* html .ReminderDialog_Outlook .rsModalBgTopRight,
+* html .ReminderDialog_Outlook .rsModalBgBottomLeft,
+* html .ReminderDialog_Outlook .rsModalBgBottomRight
+{
+    background-image: url('Scheduler/rsModalBgIE6.png');
+}
+
+.ReminderDialog_Outlook a.rsRemTitleBarCloseBtn
+{
+    height: 19px;
+    margin-top: -24px;
+    width: 31px;
+}
+
+.ReminderDialog_Outlook a.rsRemTitleBarCloseBtn:hover
+{
+    background-position: -70px -526px;
+}
+
+.ReminderDialog_Outlook .rsRemTitleIcon,
+.ReminderDialog_Outlook .rsRemTitleBarIcon,
+.ReminderDialog_Outlook a.rsRemTitleBarCloseBtn,
+.ReminderDialog_Outlook .rsRemActions a.rsRemDismissAllBtn,
+.ReminderDialog_Outlook .rsRemActions a.rsRemOpenItemBtn,
+.ReminderDialog_Outlook .rsRemActions a.rsRemDismissBtn,
+.ReminderDialog_Outlook .rsRemSnoozePanel a.rsRemSnoozeBtn
+{
+    color: #525252;
+    background-image: url('Scheduler/rsSprites.png');
+}
+
+.ReminderDialog_Outlook .rsRemActions a.rsRemDismissAllBtn:hover,
+.ReminderDialog_Outlook .rsRemActions a.rsRemOpenItemBtn:hover,
+.ReminderDialog_Outlook .rsRemActions a.rsRemDismissBtn:hover,
+.ReminderDialog_Outlook .rsRemSnoozePanel a.rsRemSnoozeBtn:hover
+{
+	color: #0f3789;
+}
+
+/* </advanced edit title> */

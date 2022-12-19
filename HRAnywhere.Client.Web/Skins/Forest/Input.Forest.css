@@ -1,0 +1,144 @@
+/*Telerik RadInput Forest Skin*/
+
+/*global*/
+
+.RadInput_Forest,
+.RadInputMgr_Forest
+{
+	font:12px "segoe ui",arial,sans-serif;
+}
+
+/*textbox states*/
+
+html body .RadInput_Forest .riTextBox,
+html body .RadInputMgr_Forest
+{
+	border-color:#618740;
+	background:#e7f1d7;
+	color:#2b2c20;
+	font:12px "segoe ui",arial,sans-serif;
+}
+
+html body .RadInput_Forest .riEmpty,
+html body .RadInput_Empty_Forest
+{
+	color:#8c9f5f;
+}
+
+html body .RadInput_Forest .riHover,
+html body .RadInput_Hover_Forest,
+html body .RadInput_Forest .riFocused,
+html body .RadInput_Focused_Forest
+{
+	border-color:#3c4c30;
+}
+
+html body .RadInput_Forest .riRead,
+html body .RadInput_Read_Forest
+{
+	border-color:#618740;
+	background:#dce5bf;
+}
+
+html body .RadInput_Forest .riDisabled,
+html body .RadInput_Disabled_Forest
+{
+	border-color:#618740;
+	background:#c2d197;
+	color:#8c9f5f;
+	cursor:default;
+}
+
+html body .RadInput_Forest .riError,
+html body .RadInput_Error_Forest
+{
+	border-color:#dc0000;
+	background:#dce5bf 100% -298px no-repeat url('Input/sprite.gif');
+	color:#d51923;
+}
+
+.RadForm.rfdTextbox .RadInput_Forest .riError[type="text"],
+.RadForm.rfdTextbox .RadInput_Error_Forest[type="text"]
+{
+	border-color:#dc0000;
+	background:#dce5bf 100% -298px no-repeat url('Input/sprite.gif');
+	color:#d51923;
+}
+
+html body .RadInput_Forest .riNegative,
+html body .RadInput_Negative_Forest
+{
+	color:#5c6540;
+}
+
+/*buttons*/
+
+.RadInput_Forest a
+{
+	background:transparent no-repeat url('Input/sprite.gif');
+}
+
+/*go*/
+
+.RadInput_Forest .riBtn a
+{
+	width:20px;
+	height:18px;
+	line-height:18px;
+	background-position:3px 5px;
+}
+
+.RadInput_Forest .riBtn a:hover
+{
+	background-position:3px -45px;
+}
+
+/*spin*/
+
+.RadInput_Forest .riSpin a
+{
+	width:15px;
+	height:7px;
+	line-height:7px;
+}
+
+.RadInput_Forest a.riUp
+{
+	background-position:2px -99px;
+}
+
+.RadInput_Forest a.riUp:hover
+{
+	background-position:2px -149px;
+}
+
+.RadInput_Forest a.riDown
+{
+	background-position:2px -199px;
+}
+
+.RadInput_Forest a.riDown:hover
+{
+	background-position:2px -249px;
+}
+
+/*label*/
+
+.RadInput_Forest .riLabel
+{
+	color:#2b2c20;
+}
+
+/*rtl*/
+
+html body .RadInputRTL_Forest .riError,
+html body .RadInputRTL_Error_Forest
+{
+	background-position:3px -298px;
+}
+
+.RadForm.rfdTextbox .RadInputRTL_Forest .riError[type="text"],
+.RadForm.rfdTextbox .RadInputRTL_Error_Forest[type="text"]
+{
+	background-position:3px -298px;
+}

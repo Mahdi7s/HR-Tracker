@@ -1,0 +1,66 @@
+.RadTreeView_Windows7,
+.RadTreeView_Windows7 a.rtIn,
+.RadTreeView_Windows7 .rtEdit .rtIn input
+{
+	color: #1e395b;
+	font: 12px/18px "Segoe UI", Arial, sans-serif;
+}
+
+.RadTreeView_Windows7 .rtPlus, 
+.RadTreeView_Windows7 .rtMinus
+{
+	background-image: url('TreeView/PlusMinus.png');
+}
+
+.RadTreeView_Windows7 .rtChecked,
+.RadTreeView_Windows7 .rtUnchecked,
+.RadTreeView_Windows7 .rtIndeterminate
+{
+	background-image: url('TreeView/TriState.png');
+}
+
+.RadTreeView_Windows7 .rtHover .rtIn
+{
+	border: 1px solid #bdd9fb;
+}
+
+.RadTreeView_Windows7 .rtSelected .rtIn
+{
+	border: 1px solid #8fb0d6;
+}
+
+.RadTreeView_Windows7 .rtHover .rtIn
+{
+	background-color: #edf5fd;
+	background-image: url('TreeView/ItemHoveredBg.png');
+}
+
+.RadTreeView_Windows7 .rtSelected .rtIn
+{
+	background-color: #c4ddfc;
+	background-image: url('TreeView/ItemSelectedBg.png');
+}
+
+.RadTreeView_Windows7 .rtSelected .rtLoadingBefore,
+.RadTreeView_Windows7 .rtSelected .rtLoadingAfter,
+.RadTreeView_Windows7 .rtSelected .rtLoadingBelow
+{
+	color: #1e395b;
+}
+
+.RadTreeView_Windows7 .rtLoadingIcon
+{
+	background-image: url('TreeView/LoadingIcon.gif');
+}
+
+.RadTreeView_Windows7 .rtLI .rtEdit .rtIn
+{
+	border-color: #99defd;
+	background: #fff;
+}
+
+.RadTreeView_Windows7_disabled .rtIn,
+.RadTreeView_Windows7 .rtDisabled .rtIn
+{
+	color: #ccc;
+}

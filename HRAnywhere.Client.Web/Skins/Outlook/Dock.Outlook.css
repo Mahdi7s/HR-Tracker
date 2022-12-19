@@ -1,0 +1,36 @@
+.RadDock_Outlook .rdMiddle .rdLeft,
+.RadDock_Outlook .rdMiddle .rdRight
+{
+	background-image: url('Dock/VerticalSprite.gif');
+}
+
+.RadDock_Outlook .rdTop .rdLeft,
+.RadDock_Outlook .rdTop .rdRight,
+.RadDock_Outlook .rdTop .rdCenter,
+.RadDock_Outlook .rdBottom .rdLeft,
+.RadDock_Outlook .rdBottom .rdRight,
+.RadDock_Outlook .rdBottom .rdCenter
+{
+	background-image: url('Dock/HorizontalSprite.png');
+}
+
+.RadDock_Outlook .rdCenter .rdCommands a span
+{
+	background-image: url('Dock/CommandSprite.gif');
+}
+
+.RadDock_Outlook .rdMiddle .rdCenter,
+.RadDock_Outlook .rdBottom .rdCenter
+{
+	background-color: #fff;
+}
+
+.RadDock_Outlook .rdContent
+{
+	color: black;
+}
+
+.RadDock_Outlook .rdTitleBar em
+{
+	color: #010101;
+}

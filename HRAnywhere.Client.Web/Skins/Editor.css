@@ -1,0 +1,1994 @@
+/* RadEditor for ASP.NET AJAX Base Stylesheet */
+
+/* MVC overrides */
+.RadEditor table,
+.RadEditor.reWrapper table td
+{
+	border:0;
+	padding:0;
+}
+
+/* RadFormDecorator integration */
+* html .rfdTable .reWrapper table td
+{
+	padding: 0;
+}
+
+/* By default 'regular' background should be white*/
+.reDropDownBody
+{
+    background-color: #fff;
+}
+
+/* In FireFox iframes have transparent background */
+.reContentCell, .reContentCell iframe
+{
+    background-color: #fff;
+}
+
+/* Class for the toolbar holder */
+.RadEditor.reWrapper .reToolCell
+{
+	vertical-align: top; /* Needed to position the toolbar wrapper at the top - and then set margin to it! */    
+	padding-bottom: 1px;
+}
+/* this specifyes necessary padding for all browsers excepr IE6, IE7 */
+*|html .RadEditor.reWrapper .reToolCell
+{
+	padding-bottom: 0;
+}
+
+/* Align the Bottom zone with the Statistics module to the right */
+.reBottomZone
+{     
+    text-align: right;
+    vertical-align: bottom;
+}
+
+.reToolbarWrapper
+{
+    margin-top: 0;
+}
+
+.reToolbar
+{
+	padding: 0 !important; /* Reset CSS */
+	margin: 0 0 1px 0 !important; /* Reset CSS */
+	list-style: none !important; /* Reset CSS */
+	float: left;
+}
+
+.reToolbar li
+{
+    padding: 0 !important; /* Reset CSS */
+	margin: 0 !important; /* Reset CSS */
+	list-style: none !important; /* Reset CSS */
+	float: left;
+    background-repeat: repeat-x;
+    height: 26px;
+}
+
+.reToolbar
+{    
+    margin-bottom: 2px;
+}
+
+.reToolbar a,
+.reDropdown,
+.reSpinBox input,
+.RadEditor input,
+.reModule,
+.reModule td,
+.reEditorModes a,
+.reDropDownBody,
+.reDropDownBody td,
+.reAjaxspell_wrapper,
+.reAjaxspell_button,
+.reAjaxspell_addicon,
+.reAjaxspell_ignoreicon,
+.reAjaxspell_okicon,
+.reInsertTable .reTlbVertical ul a.reTool_text span.reButton_text,
+.reColorPicker .reCustomColor
+{
+    font: normal 12px "Segoe UI", Arial, Sans-serif;
+    color: #000;
+    text-decoration: none;
+	cursor: default;
+}
+
+/* ajax spellcheck */
+.reAjaxspell_button
+{
+    white-space: nowrap;
+}
+
+.reAjaxspell_addicon,
+.reAjaxspell_ignoreicon,
+.reAjaxspell_okicon
+{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 0;
+    margin: 2px 4px 2px 2px;
+    background-image: url('Common/CommonIcons.gif');
+    background-repeat: no-repeat;
+}
+
+.reAjaxspell_ignoreicon
+{
+    background-position: center -103px;
+}
+
+.reAjaxspell_okicon
+{
+    background-position: center -134px;
+}
+
+.reAjaxspell_addicon
+{
+    background-position: center -166px;
+}
+
+.reAjaxSpellCheckSuggestions td
+{
+    width: 100%;
+    padding-left: 4px;
+}
+
+.reAjaxSpellCheckSeparator
+{
+    font-size: 1px;
+    height: 1px;
+    margin: 2px 1px;
+}
+
+.reAjaxSpellCheck
+{
+    padding: 2px;
+}
+/* end of ajax spellcheck */
+
+.RadEditor .reTextarea
+{
+    font-size: 11px;
+}
+
+/* separator */
+.reToolbar .reSeparator
+{
+    width: 6px;
+    height: 26px;
+    font-size: 1px;
+}
+/* separator */
+
+/* grip */
+.reToolbar .reGrip
+{
+	height: 26px;
+	width: 4px;
+	font-size: 1px;
+	background-repeat: no-repeat;
+}
+
+.reToolbar .grip_first
+{
+    background-position: 0 0;
+}
+
+.reToolbar .grip_last
+{
+    background-position: -4px 0;
+}
+/* end of grip grip */
+
+.reAlignmentSelector div
+{
+    background-image: url('Common/CommandSpritesLight.png');
+    height: 20px;
+}
+
+/* reTool */
+.reTool,
+.reTool:link,
+.reTool:visited
+{
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 1px 0; /* was: margin: 1px; */
+    text-decoration: none !important;
+    cursor: default;
+}
+
+.reTool span
+{
+    display: block;
+    float: left;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    margin: 3px;
+    cursor: default;
+    _display: inline;
+    background-repeat: no-repeat;
+}
+/* end of reTool */
+
+/* reTool_text */
+.reToolbar .reTool_text
+{
+    height: 24px;
+    width: auto;
+    display: block;
+    margin: 1px;
+    text-decoration: none;
+    cursor: default;
+    float: left;
+    _display: inline;
+}
+
+.reToolbar .reTool_text span
+{
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    margin: 3px;
+    cursor: default;
+    _display: inline;
+}
+
+.reToolbar .reTool_text .reButton_text
+{
+    width: auto;
+    background-image: none;
+    color: black;
+}
+/* end of reTool_text */
+
+/* reSplitButton */
+.reSplitButton,
+.reSplitButton:link,
+.reSplitButton:visited
+{
+    width: 34px; /* was: 36px */
+    height: 24px;
+    text-decoration: none !important;
+}
+
+* html .RadEditor .reSplitButton
+{
+    _display: inline-block;
+}
+
+.reTool .split_arrow
+{
+    width: 5px;
+    height: 18px;
+    margin-left: 1px;
+}
+
+.reSplitButton.reTool_text .split_arrow
+{
+    width: 5px;
+    height: 18px;
+}
+
+* html .reToolbar .reTool_text .split_arrow
+{
+    width: 5px;
+    height: 18px;
+}
+
+.reDialog .reTool.reSplitButton,
+.reModule .reTool.reSplitButton
+{
+    background-repeat: no-repeat;
+}
+/* end of reSplitButton */
+
+/* reDropdown */
+.reToolbar a
+{
+    text-decoration: none !important;
+}
+
+.reDropdown,
+.reTool_disabled.reDropdown:hover
+{
+    display: block;
+    float: left;
+    cursor: default;
+    background-repeat: no-repeat !important;
+    padding-left: 4px;
+    padding-right: 10px;
+    margin: 0; /* was: margin: 2px 1px 0 1px; */
+    margin: 2px 0;
+}
+
+.reDropdown span
+{
+    display: block;
+    width: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 20px;
+}
+/* end of reDropdown */
+
+/* vertical toolbar */
+.reTlbVertical ul.reToolbar
+{
+    float: none;
+    clear: both;
+    width: 26px;
+    height: auto;
+}
+
+.reTlbVertical li
+{
+    clear: both;
+    float: none;
+    margin: 0 !important; /* Reset CSS */
+    font-size: 1px !important; /* Reset CSS */
+    padding: 0 !important; /* Reset CSS */
+    line-height: 1px !important; /* Reset CSS */
+}
+
+.reTlbVertical .reGrip
+{
+    width: 26px;
+    height: 4px;
+    font-size: 1px !important; /* Reset CSS */
+    line-height: 1px !important; /* Reset CSS */
+    background-repeat: no-repeat;
+}
+
+.reTlbVertical .reTool
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.reTlbVertical .reSeparator
+{
+    width: 26px;
+    height: 4px;
+    line-height: 1px;
+    font-size: 1px;
+}
+
+.reTlbVertical .reTool:hover,
+.reTlbVertical .reTool_text.reSplitButton:hover,
+.reTlbVertical .reTool_text:hover
+{
+    background-repeat: no-repeat;
+}
+
+.reTlbVertical .reTool.reTool_selected,
+.reTlbVertical .reTool_text.reTool_selected,
+.reTlbVertical .reTool_text.reTool_selected:hover
+{
+    background-repeat: no-repeat;
+}
+
+.reTlbVertical .reTool_text,
+.reTlbVertical .reSplitButton
+{
+    width: 24px;
+    height: 24px;
+}
+
+.reTlbVertical .reTool_text .reButton_text
+{
+	display: none;
+}
+
+.reTlbVertical .split_arrow,
+.reTlbVertical .reDropdown span,
+.reTlbVertical .reTool_text.reSplitButton .reButton_text,
+.reTlbVertical .reTool_text.reSplitButton .split_arrow
+{
+    display: none;
+}
+
+/* add weight to the selector for IE6 so it is applied */
+*html .reToolbar .reSplitButton.reTool_disabled:hover
+{
+    background-position: -999px 0;
+}
+
+.reTlbVertical .reDropdown,
+.reTlbVertical .reDropdown:hover
+{
+    height: 20px;
+    width: 22px;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+}
+
+* html .reTlbVertical .reDropdown,
+* html .reTlbVertical .reDropdown:hover
+{
+    width: 21px;
+}
+
+.reTlbVertical .reTool,
+.reTlbVertical .reDropdown
+{
+    margin-left: 1px;
+}
+/* end of vertical toolbar */
+
+/* context menu and toolstrip */
+.reDropDownBody
+{
+    float: left;
+    /*_background: none;/* IE6 does not support transparent png and it looks ugly */
+}
+
+.reDropDownBody .reTlbVertical ul li
+{
+    clear: both;
+    float: none;
+    background: none;
+}
+
+/* reDropDownBody */
+.reDropDownBody .reTlbVertical ul li a,
+.reDropDownBody .reTlbVertical ul li .reTool_disabled:hover
+{
+    clear: both;
+    float: none;
+    width: 100%;
+    display: block;
+    border: 0;
+    background: none;
+}
+
+.reDropDownBody .reTlbVertical ul li a:hover
+{
+    background-repeat: no-repeat;
+    border: 0;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+/* IE6 float and double margins fix */
+* html .reDropDownBody .reTlbVertical ul li .reTool_disabled:hover
+{
+    margin-left: 0;
+}
+
+div.RadEditor td.reTlbVertical ul.reToolbar
+{
+    width: 26px !important;
+}
+
+.reDropDownBody .reTlbVertical ul li .reButton_text
+{
+    width: 156px !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: 8px;
+    _zoom: 1;
+	display: block;
+}
+
+.reDropDownBody div.reTlbVertical
+{
+    float: left;
+    height: auto;
+}
+
+.reDropDownBody .reTlbVertical .reToolbar
+{
+    width: 206px;
+    background-repeat: repeat-y;
+}
+/* reDropDownBody */
+
+/* custom links */
+.reCustomLinks,
+.reCustomLinks ul,
+.reCustomLinks li
+{
+	list-style: none !important; /* Reset CSS */
+	padding: 0 !important; /* Reset CSS */
+	margin: 0 !important; /* Reset CSS */
+	cursor: default !important; /* Reset CSS */
+}
+
+ul.reCustomLinks
+{
+    margin-left: 3px !important; /* Reset CSS */
+}
+
+ul.reCustomLinks li ul
+{
+	margin-left: 12px !important; /* Reset CSS */
+}
+
+ul.reCustomLinks a
+{
+    text-decoration: undeline !important; /* Reset CSS */
+}
+
+ul.reCustomLinks a:hover
+{
+    cursor: pointer !important; /* Reset CSS */
+}
+
+ul.reCustomLinks li
+{
+	clear: both;
+	float: none;
+}
+
+ul.reCustomLinks span,
+ul.reCustomLinks a
+{
+	display: block;
+	float: left;
+	cursor: default;
+	zoom: 1;
+}
+
+ul.reCustomLinks .reCustomLinksIcon
+{
+	font-size: 1px !important; /* Reset CSS */
+}
+
+ul.reCustomLinks .reCustomLinksIcon.reIcon_empty
+{
+	cursor: default;
+}
+
+ul.reCustomLinks li
+{
+	padding: 1px 0 !important; /* Reset CSS */
+}
+
+ul.reCustomLinks span,
+ul.reCustomLinks a
+{
+	padding-left: 1px !important; /* Reset CSS */
+	padding-right: 1px !important; /* Reset CSS */
+	cursor: default;
+}
+
+ul.reCustomLinks .reCustomLinksIcon
+{
+	width: 9px;
+	height: 9px;
+	padding: 0 !important; /* Reset CSS */
+	background-image: url('Common/CustomLinksSprites.gif');
+	background-repeat: no-repeat;
+	margin: 2px 4px 0 0 !important; /* Reset CSS */
+}
+
+ul.reCustomLinks span
+{
+    margin-top: 0;
+}
+
+ul.reCustomLinks .reCustomLinksIcon.reIcon_plus
+{
+	background-position: 0 0;
+}
+
+ul.reCustomLinks .reCustomLinksIcon.reIcon_minus
+{
+	background-position: -9px 0;
+}
+
+ul.reCustomLinks .reCustomLinksIcon.reIcon_empty
+{
+	background: none;
+}
+/* end of custom links */
+
+/* spinbox */
+table.reSpinBox
+{
+	border-collapse: collapse;
+	cursor: text;
+}
+
+table.reSpinBox td
+{
+	padding: 0 !important; /* Reset CSS */
+}
+
+.reSpinBox input
+{
+	border: 0 !important;
+	background: none transparent;
+	width: 30px;
+	height: 16px;
+	text-align: right;
+	cursor: text;
+	padding: 0;
+}
+
+* html .reSpinBox input,
+*+html .reSpinBox input
+{
+    width: 30px;
+}
+
+.reSpinBox a
+{
+	display: block;
+	font-size: 1px !important; /* Reset CSS */
+	text-indent: -9999px;
+	width: 11px;
+	height: 10px;
+	cursor: default;
+	background-repeat: no-repeat;
+}
+/* end of spinbox */
+
+/* editor input elements */
+.RadEditor input
+{
+	cursor: text;
+}
+/* editor input elements */
+
+/* module */
+.reModule
+{
+	border-collapse: collapse !important; /* Reset CSS */
+}
+
+td.reModuleLabel
+{
+    vertical-align: middle !important; /* Reset CSS */
+    text-align: right !important; /* Reset CSS */
+    padding-left: 6px !important; /* Reset CSS */
+    padding-right: 3px !important; /* Reset CSS */
+}
+
+td.reModuleText .reEllipsisText
+{
+	max-width: 110px;
+	_width: 110px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: block;
+	white-space: nowrap;
+	float: right;
+}
+
+.reModule .reDropdown,
+.reModule .reTool, 
+.reModule .reSplitButton
+{
+    margin: 1px 0 0 0 !important; /* Reset CSS */
+}
+/* end of module */
+
+/* editing modes */
+.reEditorModes
+{
+    float: left;
+    padding: 1px 0 1px 0 !important; /* Reset CSS */
+}
+
+.reEditorModes ul,
+.reEditorModes li
+{
+    padding: 0 !important; /* Reset CSS */
+    margin: 0 !important; /* Reset CSS */
+    list-style: none !important; /* Reset CSS */
+}
+
+.reEditorModes li
+{
+    float: left !important; /* Reset CSS */
+}
+
+.reEditorModes a,
+.reEditorModes span
+{
+    display: block;
+    cursor: pointer;
+}
+
+.reEditorModes a
+{
+    width: 76px;
+}
+
+.reEditorModes span
+{
+    line-height: 22px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 22px;
+    margin: 0 3px;
+    background-image: url('Common/CommonIcons.gif');
+    background-repeat: no-repeat;
+}
+
+.reMode_selected
+{
+    background-repeat: no-repeat;
+}
+
+.reMode_design span,
+.reMode_selected.reMode_design span
+{
+	background-position: -6px -5px;
+}
+
+.reMode_html span,
+.reMode_selected.reMode_html span
+{
+	background-position: -6px -36px;
+}
+
+.reMode_preview span,
+.reMode_selected.reMode_preview span
+{
+	background-position: -6px -69px;
+}
+/* end of editing modes */
+
+/* reWrapper */
+.reWrapper_corner,
+.reWrapper_center,
+.reLeftVerticalSide,
+.reRightVerticalSide
+{
+    font-size: 1px;
+    line-height: 1px;
+}
+
+/*.reWrapper_corner,-> do not set it, because this requires the layout paddings to be further adjusted in other elements*/
+.reLeftVerticalSide,
+.reRightVerticalSide
+{
+     padding: 1px; 
+}
+
+/* end of reWrapper */
+
+/* DOM inspector */
+.reModule_domlink
+{
+    text-decoration: none;
+    font-size: 11px;
+}
+/* end of DOM inspector */
+
+/* color picker */
+.reColorPicker
+{
+	-moz-user-select: none;
+	padding: 4px;
+}
+
+.reColorPicker table
+{
+	border-collapse: collapse;
+	border: 0 !important;
+	background: transparent !important;
+}
+
+.reColorPicker table td
+{
+	border: 0;
+}
+
+.reColorPicker .reColorPickerFooter
+{
+	overflow: hidden;
+}
+
+.reColorPicker span
+{
+	display: block;
+	text-align: center;
+	float: left;
+	cursor: default;
+}
+
+.reColorPicker table div
+{
+	width: 11px; 
+	height: 11px; 
+	line-height: 11px; 
+	font-size: 1px;
+}
+
+.reColorPicker table td
+{
+	padding: 2px;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+.reDropDownBody.reColorPicker table td.reItemOver
+{
+	border: 0 !important;
+	background: transparent !important;
+}
+
+.reColorPicker .reColorPickerFooter
+{
+	margin:0 auto;
+	height: 22px;
+	height: 18px;
+	width: 166px;
+	padding:4px 0;
+}
+
+.reColorPicker span
+{
+	width: 82px;
+	height: 20px;
+	line-height: 18px;
+}
+
+.reColorPicker .reColorPickerFooter .reDarkColor
+{
+	background: black;
+	color: white;
+	border-right:0;
+}
+
+.reColorPicker .reColorPickerFooter .reLightColor
+{
+	background: white;
+	color: black;
+	border-left:0;
+}
+
+.reColorPicker .reCustomColor:hover
+{
+    text-decoration: underline;
+}
+/* end of color picker */
+
+/* insert symbol */
+.reInsertSymbol td
+{
+    text-align: center;
+    vertical-align: middle;
+}
+/* insert symbol */
+
+/* insert table dropdown */
+.reInsertTable
+{
+    padding: 1px !important; /* Reset CSS */
+}
+
+.reInsertTable table
+{
+    width: 120px;
+    border: 0 !important;
+    margin-left: 2px;
+}
+
+.reInsertTable table a span
+{
+    text-decoration: none;
+}
+
+.reInsertTable table td
+{
+   font-size: 1px;
+}
+
+.reInsertTable table td div
+{
+    height: 13px;
+    width: 13px;
+}
+
+.reInsertTable .reTlbVertical
+{
+    border-width: 0 !important;
+}
+
+.reInsertTable .reTlbVertical ul
+{
+    padding: 0 !important; /* Reset CSS */
+    margin: 0 !important; /* Reset CSS */
+    list-style: none !important; /* Reset CSS */
+    background-image: none !important; /* Reset CSS */
+}
+
+.reInsertTable div.reTlbVertical ul li a.reTool_text,
+.reInsertTable div.reTlbVertical ul li a.reTool_text:hover
+{
+    background-image: url('Common/CommandSpritesLight.png');
+    background-position: -3575 center;
+    margin-top: 1px;  
+    margin-left: 3px;  
+}
+
+.reInsertTable .reTlbVertical ul .reTool_text
+{
+    text-decoration: none;
+    margin: 1px;
+}
+
+.reInsertTable .reTlbVertical ul .reTool_text:hover
+{
+    text-decoration: underline;
+}
+
+.reInsertTable .reTlbVertical ul .reTool_text span
+{
+    height: 18px !important;
+    width: 18px !important;
+    display: block;
+    float: left;
+    margin-top: 1px; 
+}
+
+.reInsertTable .reTlbVertical ul a.reTool_text span.reButton_text
+{
+    height: 18px;
+    line-height: 18px;
+    display: block;
+    float: left;
+    width: 100px !important;
+    background-image: none;
+    text-align: center;
+}
+
+.reInsertTable .reToolbar
+{
+    background-image: none !important;
+}
+
+.reInsertTable .reToolbar li
+{
+    clear: none !important;
+    float: left !important;
+    width: 24px;
+}
+
+.reInsertTable .reToolbar li .reTool
+{
+    width: 24px !important;
+    height: 24px;
+    margin: 0 !important;
+}
+/* end of insert table dropdown */
+
+.reDropDownBody
+{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* resize cell */
+.reResizeCell div
+{
+    background-repeat: no-repeat;
+    height: 17px;/*Helps align it with the statistics module*/
+    width: 16px;
+}
+
+.reAccessibleTool
+{
+    background-image: url('Common/CommandSpritesLight.png');
+    background-repeat: no-repeat;
+    background-color: transparent !important;
+    width: 22px;
+    height: 22px;
+    margin-top: 2px !important;
+    margin: 1px;
+    cursor:pointer !important;
+    cursor:default !important;
+}
+
+/* editor commands begin */
+.CustomDialog
+{
+	background-position: -1448px center;
+}
+
+.FormatCodeBlock
+{
+	background-position: -305px center;
+}
+
+.PageProperties
+{
+	background-position: -756px center;
+}
+
+.SetImageProperties
+{
+	background-position: -1116px center;
+}
+
+.BringToFront
+{
+	background-position: -1606px center;
+}
+
+.AlignmentSelector
+{	
+	background-position: -1647px center;
+}
+
+.Cancel
+{
+	background-position: -1265px center;
+}
+
+.Custom,
+.ViewHtml
+{
+	background-position: -1296px center;
+}
+
+.DecreaseSize
+{
+	background-position: -1886px center;
+}
+
+.DeleteTable
+{
+	background-position: -1445px center;
+}
+
+.FileOpen
+{
+	background-position: -1967px center;
+}
+
+.IncreaseSize
+{
+	background-position: -2046px center;
+}
+
+.InsertAnchor
+{
+	background-position: -2086px center;
+}
+
+.InsertEmailLink
+{
+	background-position: -2246px center;
+}
+
+.InsertFormImageButton
+{
+	background-position: -2486px center;
+}
+
+.ModuleManager
+{
+	background-position: -2376px center;
+}
+
+.RepeatLastCommand
+{
+	background-position: -3248px center;
+}
+
+.SendToBack
+{
+	background-position: -3326px center;
+}
+
+.FormatStripper
+{
+	background-position: -2586px center;
+}
+
+.StyleBuilder
+{
+	background-position: -2946px center;
+}
+
+.ToggleFloatingToolbar
+{
+	background-position: -2974px center;
+}
+
+.XhtmlValidator
+{
+	background-position: -2526px center;
+}
+
+.TrackChangesDialog
+{
+	background-position: -2555px center;
+}
+
+.InsertSymbol
+{
+	background-position: -2196px center;
+}
+
+.InsertFormHidden
+{
+	background-position: -1836px center;
+}
+
+.InsertFormButton,
+.InsertFormReset,
+.InsertFormSubmit
+{
+	background-position: -1716px center;
+}
+
+.InsertFormCheckbox
+{
+	background-position: -1745px center;
+}
+
+.InsertFormPassword
+{
+	background-position: -1896px center;
+}
+
+.InsertFormRadio
+{
+	background-position: -1926px center;
+}
+
+.InsertFormSelect
+{
+	background-position: -3546px center;
+}
+
+.InsertFormTextarea
+{
+	background-position: -1986px center;
+}
+
+.InsertFormText
+{
+	background-position: -1956px center;
+}
+
+.StripAll
+{
+	background-position: -2585px center;
+}
+
+.StripCss
+{
+	background-position: -2644px center;
+}
+
+.StripFont
+{
+	background-position: -2675px center;
+}
+
+.StripSpan
+{
+	background-position: -2705px center;
+}
+
+.StripWord
+{
+	background-position: -2736px center;
+}
+
+.AjaxSpellCheck
+{
+	background-position: -66px center;
+}
+
+.Italic
+{
+	background-position: -486px center;
+}
+
+.ImageManager
+{
+	background-position: -366px center;
+}
+
+.ImageMapDialog
+{
+	background-position: -396px center;
+}
+
+.FlashManager,
+.InsertFlash
+{
+	background-position: -246px center;
+}
+
+.MediaManager,
+.InsertMedia
+{
+	background-position:  -696px center;
+}
+
+.DocumentManager,
+.InsertDocument
+{
+	background-position: -185px center;
+}
+
+.TemplateManager
+{
+	background-position: -2765px center;
+}
+
+.InsertTable,
+.TableWizard
+{
+	background-position: -3575px -5px;
+}
+
+.InsertRowAbove
+{
+	background-position: -1355px -7px;
+}
+
+.InsertRowBelow
+{
+	background-position: -1385px -4px;
+}
+
+.DeleteRow
+{
+	background-position: -3425px center;
+}
+
+.InsertColumnLeft
+{
+	background-position: -1626px center;
+}
+
+.InsertColumnRight
+{
+	background-position: -1595px center;
+}
+
+.DeleteColumn
+{
+	background-position: -3392px center;
+}
+
+.MergeColumns
+{
+	background-position: -2315px center;
+}
+
+.MergeRows
+{
+	background-position: -2345px center;
+}
+
+.SplitCell
+{
+	background-position: -3606px center;
+}
+
+.SplitCellHorizontal
+{
+	background-position: -3335px center;
+}
+
+.DeleteCell
+{
+	background-position: -1325px center;
+}
+
+.SetCellProperties
+{
+	background-position: -2495px center;
+}
+
+.SetTableProperties
+{
+	background-position: -3365px center;
+}
+
+.Help
+{
+	background-position: -336px center;
+}
+
+.Undo
+{
+	background-position: -996px center;
+}
+
+.Redo
+{
+	background-position: -967px center;
+}
+
+.Cut
+{
+	background-position: -155px center;
+}
+
+.Copy
+{
+	background-position: -125px center;
+}
+
+.Paste,
+.PasteStrip
+{
+	background-position: -785px center;
+}
+
+.PasteAsHtml
+{
+	background-position: -815px center;
+}
+
+.PasteHtml
+{
+	background-position: -3757px -6px;
+}
+
+.PasteFromWord
+{
+	background-position: -845px center;
+}
+
+.PasteFromWordNoFontsNoSizes
+{
+	background-position: -875px center;
+}
+
+.PastePlainText
+{
+	background-position: -905px center;
+}
+
+.Print
+{
+	background-position: -936px center;
+}
+
+.FindAndReplace
+{
+	background-position: -215px center;
+}
+
+.SelectAll
+{
+	background-position: -2435px center;
+}
+
+.InsertGroupbox
+{
+	background-position: -2015px -7px;
+}
+
+.InsertCodeSnippet,
+.InsertSnippet
+{
+	background-position: -2164px center;
+}
+
+.InsertDate
+{
+	background-position: -1655px center;
+}
+
+.InsertTime
+{
+	background-position: -2256px center;
+}
+
+.AboutDialog
+{
+	background-position: -6px center;
+}
+
+.Bold
+{
+	background-position: -95px center;
+}
+
+.Underline
+{
+	background-position: -3275px center;
+}
+
+.StrikeThrough
+{
+	background-position: -3306px center;
+}
+
+.JustifyLeft
+{
+	background-position: -576px center;
+}
+
+.JustifyCenter
+{
+	background-position: -516px center;
+}
+
+.JustifyFull
+{
+	background-position: -546px center;
+}
+
+.JustifyNone
+{
+	background-position: -606px center;
+}
+
+.JustifyRight
+{
+	background-position: -636px center;
+}
+
+.InsertParagraph
+{
+	background-position: -454px center;
+}
+
+.InsertHorizontalRule
+{
+	background-position: -2045px center;
+}
+
+.Superscript
+{
+	background-position: -2796px center;
+}
+
+.Subscript
+{
+	background-position: -2826px center;
+}
+
+.ConvertToLower
+{
+	background-position: -1144px center;
+}
+
+.ConvertToUpper
+{
+	background-position: -1174px center;
+}
+
+.Indent
+{
+	background-position: -426px center;
+}
+
+.Outdent
+{
+	background-position: -726px center;
+}
+
+.InsertOrderedList
+{
+	background-position: -2076px center;
+}
+
+.InsertUnorderedList
+{
+	background-position: -2286px center;
+}
+
+.AbsolutePosition
+{
+	background-position: -36px center;
+}
+
+.Custom123
+{
+
+	background-position: -3823px center;
+}
+
+.InsertExternalVideo
+{
+
+	background-position: -3852px center;
+}
+
+.Save,
+.SaveAndClose,
+.FileSave, 
+.FileSaveAs,
+.SaveLocal
+{
+    background-position: -1056px center;
+}
+
+.LinkManager,
+.CreateLink,
+.CustomLinkTool,
+.SetLinkProperties
+{
+	background-position: -665px center;
+}
+
+.Unlink
+{
+	background-position: -2855px center;
+}
+
+.ToggleTableBorder
+{
+	background-position: -2885px center;
+}
+
+.ToggleScreenMode
+{
+	background-position: -2915px center;
+}
+
+.ForeColor
+{
+	background-position: -276px center;
+}
+
+.BackColor,
+.borderColor,
+.bgColor
+{
+	background-position: -1026px center;
+}
+
+.InsertFormElement
+{
+	background-position: -1774px center;
+}
+
+.InsertFormForm
+{
+	background-position: -1805px center;
+}
+
+.reTopCenter
+{
+    background-position: -3036px -6px;
+}
+
+.reMiddleLeft
+{
+    background-position: -3096px -6px;
+}
+
+.reMiddleCenter
+{
+    background-position: -1236px -6px;
+}
+
+.reMiddleRight
+{
+    background-position: -3155px -6px;
+}
+
+.reBottomCenter
+{
+    background-position: -3216px -6px;
+}
+
+.reNoAlignment
+{
+    background-position: -1266px -6px;
+}
+
+.reTopLeft
+{
+    background-position: -3006px -6px;
+}
+
+.reTopRight
+{
+    background-position: -3155px -6px;
+}
+
+.reBottomLeft
+{
+    background-position: -3186px -6px;
+}
+
+.reBottomRight
+{
+    background-position: -3245px -6px;
+}
+
+.SilverlightManager
+{
+    background-position: -3636px -6px;
+}
+
+.ExportToPdf
+{
+    background-position: -3666px -6px;
+}
+
+.InsertLink
+{
+    background-position: -3697px -6px;
+}
+
+.InsertImage
+{
+    background-position: -3727px -6px;
+}
+
+.InsertTableLight
+{
+    background-position: -3791px -5px;
+}
+
+/* alignment settings within the alignment dropdown */
+.reAlignmentSelector .reTopRight
+{
+    background-position: -3062px -5px;
+}
+
+.reAlignmentSelector .reTopLeft
+{
+    background-position: -3004px -5px;
+}
+
+.reAlignmentSelector .reTopCenter
+{
+    background-position: -3033px -5px;
+}
+
+.reAlignmentSelector .reNoAlignment
+{
+    background-position: -1263px -5px;
+}
+
+.reAlignmentSelector .reMiddleLeft
+{
+    background-position: -3094px -5px;
+}
+
+.reAlignmentSelector .reMiddleCenter
+{
+    background-position: -1233px -5px;
+}
+
+.reAlignmentSelector .reMiddleRight
+{
+    background-position: -3151px -5px;
+}
+
+.reAlignmentSelector .reBottomCenter
+{
+    background-position: -3213px -5px;
+}
+
+.reAlignmentSelector .reBottomRight
+{
+    background-position: -3241px -5px;
+}
+
+.reAlignmentSelector .reBottomLeft
+{
+    background-position: -3184px -5px;
+}
+
+/* editor commands end */
+
+/* apply css class dropdown */
+.reApplyClass td
+{
+    vertical-align: middle;
+    height: 22px;
+    padding-left: 3px;
+}
+
+.reApplyClass span
+{
+	width: 14px;
+	height: 14px; 
+	line-height: 13px;
+	background-image: url('Common/ApplyClassSprites.gif');
+	background-repeat: no-repeat;
+	display: block;
+	float: left;
+	margin-right: 4px;
+	text-indent: -9999px;
+}
+
+.reApplyClass .reClass_all
+{
+	background-position: 0 0;
+}
+
+.reApplyClass .reClass_img
+{
+	background-position: 0 -20px;
+}
+
+.reApplyClass .reClass_table
+{
+	background-position: 0 -40px;
+}
+
+.reApplyClass .reClass_ul
+{
+	background-position: 0 -60px;
+}
+
+.reApplyClass .reClass_ol
+{
+	background-position: 0 -80px;
+}
+
+.reApplyClass .reClass_p
+{
+	background-position: 0 -100px;
+}
+
+.reApplyClass .reClass_span
+{
+	background-position: 0 -120px;
+}
+
+.reApplyClass .reClass_a
+{
+	background-position: 0 -140px;
+}
+
+.reApplyClass .reClass_div
+{
+	background-position: 0 -160px;
+}
+
+.reApplyClass .reClass_h1
+{
+	background-position: 0 -180px;
+}
+
+.reApplyClass .reClass_h2
+{
+	background-position: 0 -200px;
+}
+
+.reApplyClass .reClass_h3
+{
+	background-position: 0 -220px;
+}
+
+.reApplyClass .reClass_h4
+{
+	background-position: 0 -240px;
+}
+
+.reApplyClass .reClass_h5
+{
+	background-position: 0 -260px;
+}
+
+.reApplyClass .reClass_h6
+{
+	background-position: 0 -280px;
+}
+
+.reApplyClass .reClass_td
+{
+	background-position: 0 -300px;
+}
+/* end of apply css class dropdown */
+
+td.reTlbVertical
+{
+    vertical-align: top;
+}
+
+.reToolCell .reTool_text span
+{
+    text-indent: -9999px;    
+}
+
+.reToolCell .reTool_text.reSplitButton
+{    
+    width: auto;
+}
+
+.reToolCell .reTool_text.reSplitButton .reButton_text
+{
+    text-indent: 0;
+}
+
+.reTlbVertical li
+{
+    vertical-align: top;
+}
+
+.reTool_text span.reButton_text
+{
+    text-indent: 0;
+}
+
+/* this sets the correct background image to the selected items in the toolstrips */
+.reTlbVertical .reTool_text.reTool_selected
+{
+    background-position: -602px 0 !important;
+    border-color: transparent !important; 
+}
+
+.reTableWizardSelectAllBtn
+{
+	
+}
+
+/*Light dialogs CSS */
+.reInsertImageWrapper, .reInsertLinkWrapper, .reInsertTableLightWrapper
+{
+    padding: 20px 0 0 0;
+    font: 12px "segoe ui" ,arial,sans-serif;
+}
+
+.reControlsLayout
+{
+    width: 100%;
+    height: 100%;
+}
+.reInsertLinkWrapper .reControlsLayout td
+{
+    padding: 3px 0 3px 3px;
+}
+.reInsertLinkWrapper .reControlsLayout td, .reInsertImageWrapper .reControlsLayout td, .reInsertTableLightWrapper .reControlsLayout td, .reControlsLayout .reImgPropertyControlCell td, .reImgPropertyControlCell span, .reImgPropertyControlCell input
+{
+    vertical-align: middle;
+}
+.reInsertImageWrapper .reControlsLayout td
+{
+    padding: 3px 0;
+}
+.reDialogLabelLight span
+{
+    width: 80px;
+    display: block;
+    text-overflow: ellipsis;
+}
+.reDialogLabelLight span, .reImgPropertyControlCell span, .reImgPropertyControlCell input
+{
+    text-align: right;
+}
+.reConfirmCancelButtonsTblLight button
+{
+    width: 75px;
+}
+.reConfirmCancelButtonsTblLight .reAllPropertiesLight button
+{
+    width: 126px;
+}
+.reControlsLayout
+{
+    width: 100%;
+    height: 100%;
+}
+.reControlsLayout .reControlCellLight input
+{
+    width: 215px;
+}
+.reControlsLayout .reControlCellLight select
+{
+    width: 220px;
+}
+.reControlsLayout .reConfirmCancelButtonsTblLight
+{
+    height: auto;
+    margin: 12px 0;
+    text-align: center;
+    width: 100%;
+}
+.reControlsLayout .reImgPropertyControlCell td, 
+.reControlsLayout .reTablePropertyControlCell td
+{
+    padding: 3px;
+}
+.reControlsLayout .reTablePropertyControlCell td input[type="text"], 
+.reControlsLayout .reTablePropertyControlCell td input[type="password"] 
+{
+    padding: 2px 1px 0;
+}
+.reImgPropertyControlCell span, .reImgPropertyControlCell input, 
+.reTablePropertyControlCell input
+{
+    width: 40px;
+}
+.reImgPropertyControlCell table
+{
+    width: 100%;
+    height: 100%;
+}
+.reControlsLayout td.reImgPropertyControlCell
+{
+    padding: 0 22px 0 38px;
+}
+.reInsertImageWrapper .reControlsLayout .reControlCellLight input
+{
+    width: 190px;
+}
+.reTablePropertyControlCell .short
+{
+    width: 80px;
+}
+.reTablePropertyControlCell .lightTable
+{
+    margin: -10px 4px 0 4px;
+}
+* + html .reTablePropertyControlCell .lightTable
+{
+    margin-top: -3px;
+}
+*html .reTablePropertyControlCell .lightTable
+{
+    margin-top: -3px;
+}
+
+/* compliance sheriff integration */
+.CSDialog
+{
+	background-image: url('Common/ComplianceCheck.png') !important;
+}
+
+/* editor content area as div */
+.RadEditor .reContentArea
+{
+	position:relative;
+	overflow:auto;
+	height: 100%;
+	margin: 0px;
+	padding:3px;
+}
+
+.RadEditor .reContentArea .RadEWrongWord
+{
+	background-color: yellow;
+}
+.RadEditor .reContentArea .RadEDomMouseOver
+{
+	background-color:#ffffcc;
+}
+
+.RadEditor .reContentArea body
+{
+	padding:3px;
+	background-image: none;
+	margin: 0px;
+	text-align: left;
+	word-wrap: break-word;
+}
+.RadEditor .reContentArea form
+{
+	background-color:#efefef;
+	border:1px dashed #555555;
+}
+.RadEditor .reContentAreaToggle table
+{
+	BORDER-RIGHT: #999999 1px dashed;
+	BORDER-BOTTOM: #999999 1px dashed;
+}
+.RadEditor .reContentAreaToggle table td
+{
+	PADDING: 1px;
+	BORDER-TOP: #999999 1px dashed;
+	BORDER-LEFT: #999999 1px dashed;
+}
+.RadEditor .reContentAreaToggle table th
+{
+	PADDING: 1px;
+	BORDER-TOP: #000000 1px dashed;
+	BORDER-LEFT: #000000 1px dashed;
+}

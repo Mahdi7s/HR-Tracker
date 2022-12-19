@@ -1,0 +1,40 @@
+/*RadNotification Web20 Skin*/
+
+.RadNotification_Web20
+{
+	border: 1px solid #6788be;
+	background-color: #cfe2fb;
+}
+
+.RadNotification_Web20.rnShadows
+{
+	box-shadow: 2px 2px 3px #c5d3ea;
+	-webkit-box-shadow: 2px 2px 3px #c5d3ea;
+}
+
+.RadNotification_Web20 .rnTitleBar,
+.RadNotification_Web20 .rnCommands a
+{
+	background-image: url('Notification/NotificationSprite.png');
+}
+
+.RadNotification_Web20 .rnTitleBar
+{
+	border-bottom: 1px solid #93b4df;
+}
+
+.RadNotification_Web20 .rnTitleBarTitle
+{
+	color: #fff;
+}
+
+.RadNotification_Web20 .rnContentWrapper
+{
+	border-top: 1px solid #6788be;
+}
+
+
+
+
+
+

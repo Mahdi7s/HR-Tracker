@@ -1,0 +1,28 @@
+.RadTagCloud_Windows7
+{
+	border: 1px dotted #1e395b;
+}
+.RadTagCloud_Windows7 .rtcTagList .rtcTagItem
+{
+	color: #1e395b;
+}
+.RadTagCloud_Windows7 .rtcTagList .rtcTagItem:hover
+{
+	color: #1f81cc;
+}
+.RadTagCloud_Windows7 .rtcTagList .rtcTagItem a
+{
+	color: #1e395b;
+	border: 1px solid transparent;
+}
+.RadTagCloud_Windows7 .rtcTagList .rtcTagItem a:hover
+{
+	background: #f7fafd;
+	border: 1px solid #bdd9fb;
+}
+
+/* Loading image */
+.rtcLoading.RadTagCloud_Windows7
+{
+	background-image: url('Common/loading_small.gif');
+}

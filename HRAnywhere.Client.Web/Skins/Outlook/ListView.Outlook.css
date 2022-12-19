@@ -1,0 +1,157 @@
+/*Telerik RadListView Outlook Skin*/
+
+/*global*/
+
+.RadListView_Outlook
+{
+	border:1px solid #002d96;
+	background:#fff;
+	color:#000;
+	font:12px/16px "segoe ui",arial,sans-serif;
+}
+
+.RadListView_Outlook .rlvA
+{
+	/*background:#ffd192;*/
+}
+
+.RadListView_Outlook .rlvISel
+{
+	background:#97b8e8;
+}
+
+.RadListView_Outlook .rlvIEdit
+{
+	background:#c8dbf6;
+}
+
+/*buttons*/
+
+.RadListView_Outlook .rlvBAdd,
+.RadListView_Outlook .rlvBUpdate,
+.RadListView_Outlook .rlvBCancel,
+.RadListView_Outlook .rlvBDel,
+.RadListView_Outlook .rlvBEdit
+{
+	background-image:url('Grid/sprite.gif');
+}
+
+.RadListView_Outlook .rlvBAdd
+{
+	background-position:0 -1650px;
+}
+.RadListView_Outlook .rlvBUpdate
+{
+	background-position:0 -1800px;
+}
+.RadListView_Outlook .rlvBCancel
+{
+	background-position:0 -1850px;
+}
+.RadListView_Outlook .rlvBSel
+{
+	background-image:url('FormDecorator/CheckBoxSprites.gif');
+	background-position:-2px -2px;
+}
+.RadListView_Outlook .rlvISel .rlvBSel
+{
+	background-position:-2px -422px;
+}
+.RadListView_Outlook .rlvBDel
+{
+	background-position:0 -1750px;
+}
+.RadListView_Outlook .rlvBEdit
+{
+	background-position:0 -1700px;
+}
+
+.RadListView_Outlook .rlvDrag
+{
+	background-image:url('ListView/drag.gif');
+	background-position:center center;
+}
+
+/*flow*/
+
+.RadListView_Outlook div.rlvI,
+.RadListView_Outlook div.rlvA,
+.RadListView_Outlook div.rlvIEmpty,
+.RadListView_Outlook div.rlvIEdit
+{
+	border-color:#d0d7e5;
+}
+
+.RadListView_Outlook div.rlvISel
+{
+	border-color:#002d96;
+}
+
+/*grid*/
+
+.RadListView_Outlook tr.rlvHeader th
+{
+	border:0;
+	border-left:1px solid #89aee5;
+	border-bottom:1px solid #5d8cc9;
+	background:0 -2300px repeat-x #7da5e0 url('Grid/sprite.gif');
+}
+
+.RadListView_Outlook tr.rlvI td,
+.RadListView_Outlook tr.rlvA td,
+.RadListView_Outlook tr.rlvISel td,
+.RadListView_Outlook tr.rlvIEmpty td
+{
+	border:1px solid;
+	border-top:0;
+	border-right:0;
+}
+
+.RadListView_Outlook tr.rlvI td,
+.RadListView_Outlook tr.rlvA td,
+.RadListView_Outlook tr.rlvIEmpty td,
+.RadListView_Outlook tr.rlvIEdit td
+{
+	border-color:#d0d7e5;
+}
+
+.RadListView_Outlook tr.rlvISel td
+{
+	border-color:#97b8e8 #97b8e8 #002d96;
+}
+
+/*single row*/
+
+.RadListView_Outlook td.rlvI,
+.RadListView_Outlook td.rlvA,
+.RadListView_Outlook td.rlvISel,
+.RadListView_Outlook td.rlvIEmpty,
+.RadListView_Outlook td.rlvIEdit
+{
+	border:0;
+	border-right:1px solid #d0d7e5;
+}
+
+.RadListView_Outlook td.rlvISel
+{
+	border-color:#002d96;
+}
+
+/*floated*/
+
+.RadListView_Outlook .rlvFloated .rlvI,
+.RadListView_Outlook .rlvFloated .rlvA,
+.RadListView_Outlook .rlvFloated .rlvISel,
+.RadListView_Outlook .rlvFloated .rlvIEdit
+{
+	border-color:#002d96;
+}
+
+/*edit*/
+
+.RadListView_Outlook .rlvInput
+{
+	border-color:#c3d9f9;
+	background:#fff;
+	color:#000;
+}

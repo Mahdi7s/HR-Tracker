@@ -1,0 +1,80 @@
+/**
+ * Organizational Chart Metro Skin
+ */
+
+
+
+
+/*----------------------------------------------------------------------------*/
+
+
+
+
+/** Global wrapper */
+.RadOrgChart_Metro {
+	color: #767676;
+	font: normal 12px/22px "Segoe UI", Arial, sans-serif;
+}
+
+
+
+
+/** Viewport */
+.RadOrgChart_Metro .rocViewport {}
+
+
+
+
+/** NodeList */
+.RadOrgChart_Metro .rocNodeList {}
+
+
+
+
+/** Node */
+.RadOrgChart_Metro .rocNode {}
+
+
+
+
+/** Group */
+.RadOrgChart_Metro .rocGroup {
+	background-color: #e5e5e5;
+}
+
+
+
+
+/** ItemList */
+.RadOrgChart_Metro .rocItemList {}
+
+
+
+
+/** ItemWrap */
+.RadOrgChart_Metro .rocItemWrap {}
+
+
+
+
+/** Items */
+.RadOrgChart_Metro .rocItem {
+	color: #ffffff;
+}
+
+
+	.RadOrgChart_Metro .rocItemContent,
+	.RadOrgChart_Metro .rocItemTemplate {
+		border-color: #25a0da;
+		background-color: #25a0da;
+	}
+
+
+
+
+/** Node lines */
+.RadOrgChart_Metro .rocLineUp,
+.RadOrgChart_Metro .rocLineDown,
+.RadOrgChart_Metro .rocLineHorizontal {
+	background-image: url('../Common/OrgChart/rocLinesDark.png');
+}

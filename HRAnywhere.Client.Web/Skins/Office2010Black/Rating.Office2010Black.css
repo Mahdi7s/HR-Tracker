@@ -1,0 +1,13 @@
+/* RadRating for ASP.NET AJAX Office2010Black Skin */
+
+.RadRating_Office2010Black a,
+.RadRating_Office2010Black a span
+{
+	background-image: url('Rating/Sprite.png');
+}
+
+* html .RadRating_Office2010Black a,
+* html .RadRating_Office2010Black a span
+{
+	background-image: url('Rating/Sprite.gif');
+}

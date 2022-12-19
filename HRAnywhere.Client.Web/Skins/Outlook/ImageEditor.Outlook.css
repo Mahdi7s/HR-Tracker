@@ -1,0 +1,73 @@
+/* RadImageEditor Outlook Skin */
+
+.RadImageEditor_Outlook,
+.RadDock_Outlook.rieDialogs .riePrintContent
+{
+	border-color: #002d96;
+	background-color: #d6e5f3;
+}
+
+.RadImageEditor_Outlook .rieStatusBarInfo .rieLabel,
+.RadImageEditor_Outlook .rieStatusBarInfo span
+{
+	color: #002d96;
+}
+
+.RadDock_Outlook.rieDialogs .rdContent
+{
+	color: #000;
+}
+
+.RadImageEditor_Outlook .rieContentArea
+{
+	border-color: #5075ac;
+}
+
+/* ImageEditor Dialogs using RadDock as Wrapper */
+.RadDock_Outlook.rieDialogs .rbPrimaryIcon,
+.RadImageEditor_Outlook .rieResizeHandle,
+.RadImageEditor_Outlook .rieBackgroundImg .rtbIcon /* Custom skins */
+{
+	background-image: url('ImageEditor/ImageEditorTools.png');
+}
+
+*html .RadDock_Outlook.rieDialogs .rbPrimaryIcon,
+*html .RadImageEditor_Outlook .rieResizeHandle,
+*html .RadImageEditor_Outlook .rieBackgroundImg .rtbIcon /* Custom skins */
+{
+	background-image: url('ImageEditor/ImageEditorToolsIE6.gif');
+}
+
+.RadDock_Outlook.rieDialogs .rieThumbsBottomRow td,
+.RadDock_Outlook.rieDialogs .rieDialogsThumbsLeft,
+.RadDock_Outlook.rieDialogs .riePrintContent img
+{
+	border-color: #305090;
+}
+
+.RadDock_Outlook.rieDialogs .rieThumbsLink
+{
+	border-color: #9ebfdb;
+}
+
+.RadDock_Outlook.rieDialogs .rieActiveThumbsLink,
+.RadDock_Outlook.rieDialogs .rieThumbsLink:hover,
+.RadImageEditor_Outlook .rieHighlightVertical, 
+.RadImageEditor_Outlook .rieHighlightHorizontal
+{
+	border-color: #305090;
+	background-color: #fff1c6;
+}
+
+/* Button nomral positions overrides */
+.RadDock_Outlook.rieDialogs .rieRotateRight,
+.RadDock_Outlook.rieDialogs .RadButton:hover .rieRotateRight
+{
+	background-position: -16px -17px;
+}
+
+.RadDock_Outlook.rieDialogs .rieRotateLeft,
+.RadDock_Outlook.rieDialogs .RadButton:hover .rieRotateLeft
+{
+	background-position: -32px -17px;
+}

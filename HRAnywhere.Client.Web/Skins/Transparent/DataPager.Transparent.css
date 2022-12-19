@@ -1,0 +1,102 @@
+/*Telerik RadDataPager Transparent Skin*/
+
+.RadDataPager_Transparent
+{
+	border:1px solid #000000;
+	border-color:rgba(0,0,0, 0.15);
+	background:url('../Common/TransContent.png');
+	color:#333;
+}
+
+.RadDataPager_Transparent .rdpPageFirst,
+.RadDataPager_Transparent .rdpPagePrev,
+.RadDataPager_Transparent .rdpPageNext,
+.RadDataPager_Transparent .rdpPageLast
+{
+	background:transparent no-repeat url('Grid/sprite.png');
+}
+
+.RadDataPager_Transparent .rdpPageFirst
+{
+	margin:0 3px 0 0;
+	background-position:0 -550px;
+}
+.RadDataPager_Transparent .rdpPageFirst:hover
+{
+	background-position:0 -600px;
+}
+.RadDataPager_Transparent .rdpPagePrev
+{
+	margin:0 3px 0 0;
+	background-position:0 -700px;
+}
+.RadDataPager_Transparent .rdpPagePrev:hover
+{
+	background-position:0 -750px;
+}
+.RadDataPager_Transparent .rdpPageNext
+{
+	margin:0 0 0 3px;
+	background-position:0 -850px;
+}
+.RadDataPager_Transparent .rdpPageNext:hover
+{
+	background-position:0 -900px;
+}
+.RadDataPager_Transparent .rdpPageLast
+{
+	margin:0 0 0 3px;
+	background-position:0 -1000px;
+}
+.RadDataPager_Transparent .rdpPageLast:hover
+{
+	background-position:0 -1050px;
+}
+
+.RadDataPager_Transparent .rdpPagerButton
+{
+	border:1px solid #7793b9;
+	background:#e8f1fc repeat-x 0 -1550px url('Grid/sprite.png');
+	color:#00156e;
+	font:12px/12px "segoe ui",arial,sans-serif;
+}
+
+.RadDataPager_Transparent .rdpNumPart a:hover,
+.RadDataPager_Transparent .rdpNumPart a:hover span,
+.RadDataPager_Transparent .rdpNumPart a.rdpCurrentPage,
+.RadDataPager_Transparent .rdpNumPart a.rdpCurrentPage span
+{
+	background:no-repeat url('Grid/sprite.png');
+}
+
+.RadDataPager_Transparent .rdpNumPart a
+{
+	color:#000;
+}
+
+.RadDataPager_Transparent .rdpNumPart a.rdpCurrentPage
+{
+	color:#fff;
+}
+
+.RadDataPager_Transparent .rdpNumPart a:hover
+{
+	background-position:100% -1250px;
+}
+
+.RadDataPager_Transparent .rdpNumPart a:hover span
+{
+	background-position:0 -1150px;
+}
+
+.RadDataPager_Transparent .rdpNumPart a.rdpCurrentPage,
+.RadDataPager_Transparent .rdpNumPart a.rdpCurrentPage:hover
+{
+	background-position:100% -1450px;
+}
+
+.RadDataPager_Transparent .rdpNumPart a.rdpCurrentPage span,
+.RadDataPager_Transparent .rdpNumPart a.rdpCurrentPage:hover span
+{
+	background-position:0 -1350px;
+}

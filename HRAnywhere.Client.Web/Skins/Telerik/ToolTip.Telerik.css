@@ -1,0 +1,47 @@
+/* RadToolTip Telerik Skin */
+
+.RadToolTip_Telerik.rtLoading
+{	
+	background: url('Common/loading.gif') no-repeat center;
+}
+
+div.RadToolTip_Telerik table.rtWrapper td.rtWrapperTopLeft,
+div.RadToolTip_Telerik table.rtWrapper td.rtWrapperTopRight,
+div.RadToolTip_Telerik table.rtWrapper td.rtWrapperBottomLeft,
+div.RadToolTip_Telerik table.rtWrapper td.rtWrapperBottomRight,
+div.RadToolTip_Telerik table.rtWrapper td.rtWrapperTopCenter,
+div.RadToolTip_Telerik table.rtWrapper td.rtWrapperBottomCenter,
+div.RadToolTip_Telerik table.rtShadow td.rtWrapperTopLeft,
+div.RadToolTip_Telerik table.rtShadow td.rtWrapperTopRight,
+div.RadToolTip_Telerik table.rtShadow td.rtWrapperBottomLeft,
+div.RadToolTip_Telerik table.rtShadow td.rtWrapperBottomRight,
+div.RadToolTip_Telerik table.rtShadow td.rtWrapperTopCenter,
+div.RadToolTip_Telerik table.rtShadow td.rtWrapperBottomCenter,
+div.RadToolTip_Telerik a.rtCloseButton
+{
+	background-image: url('ToolTip/ToolTipSprites.png');
+}
+
+div.RadToolTip_Telerik table.rtWrapper td.rtWrapperLeftMiddle,
+div.RadToolTip_Telerik table.rtWrapper td.rtWrapperRightMiddle,
+div.RadToolTip_Telerik table.rtShadow td.rtWrapperLeftMiddle,
+div.RadToolTip_Telerik table.rtShadow td.rtWrapperRightMiddle
+{
+	background-image:  url('ToolTip/ToolTipVerticalSprites.png');
+}
+
+div.RadToolTip_Telerik table.rtWrapper td.rtWrapperContent
+{
+	background-color: #fff;	
+	color: #000;
+}
+
+div.RadToolTip_Telerik div.rtTitlebar
+{	
+	color: #000;
+}
+
+div.RadToolTip_Telerik div.rtCallout
+{
+	background-image: url('ToolTip/Callouts.gif');
+}

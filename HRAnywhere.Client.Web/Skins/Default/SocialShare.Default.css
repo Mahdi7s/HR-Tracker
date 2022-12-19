@@ -1,0 +1,18 @@
+/* RadSocialShare Default Skin */
+
+.RadSocialShare_Default
+{
+	border: 1px solid #828282;
+}
+
+.RadSocialShare_Default .sshLinkItem .sshText,
+.RadComboBoxDropDown_Default .rcbItem .sshLinkItem .sshText
+{
+	color: #333;
+}
+
+.RadSocialShare_Default .sshLinkItem:hover .sshText,
+.RadComboBoxDropDown_Default .rcbHovered .sshLinkItem .sshText
+{
+	color: #000;
+}

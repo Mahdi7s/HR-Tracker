@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="HRAnywhere.Client.Web.Site" %>
+
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="~/Styles/Site.css" />
+    <script type="text/javascript" src="~/Scripts/jquery-1.7.2.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <telerik:RadSkinManager ID="RadSkinManager1" runat="server" Skin="Office2010Black">
+    </telerik:RadSkinManager>
+    <telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server">
+    </telerik:RadStyleSheetManager>
+    <telerik:RadScriptManager ID="ScriptManager1" runat="server">
+    </telerik:RadScriptManager>
+    <div>
+        <telerik:RadMenu ID="RadMenu1" runat="server" Width="100%" OnItemDataBound="RadMenu1_ItemDataBound"
+            DataSourceID="RadSiteMapDataSource1">
+        </telerik:RadMenu>
+        <telerik:RadSiteMapDataSource ID="RadSiteMapDataSource1" runat="server"
+            SiteMapFile="map.sitemap" ShowStartingNode="False" />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

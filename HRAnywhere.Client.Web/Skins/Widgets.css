@@ -1,0 +1,898 @@
+html, body, form
+{
+    padding: 0;
+    margin: 0;
+	overflow: hidden;
+	font: normal 12px "Segoe UI", Arial, Sans-serif;
+}
+
+fieldset
+{
+    padding: 0;
+    margin: 0;
+}
+
+/* image manager toolbar icons */
+.RadToolBar .rtbText
+{
+	padding: 0 2px 0 22px; /* assuming that the space is 3px wide *gasp* */
+	line-height: 17px; /* icon height */
+	display: block;
+	background-repeat: no-repeat;
+}
+
+.RadToolBar .rtbIconOnly .rtbText
+{
+	padding: 0 0 0 16px; /* assuming that the space is 3px wide *gasp* */
+	font-size: 17px; /* icon height */
+}
+
+.RadToolBar .icnImageEditor .rtbText { background-position: 2px -369px; } /* CHANGE THIS ONE */
+.RadToolBar .icnBestFit .rtbText { background-position: 0 -68px; }
+.RadToolBar .icnActualSize .rtbText { background-position: 0 -85px; }
+.RadToolBar .icnZoomIn .rtbText { background-position: 0 -102px; }
+.RadToolBar .icnZoomOut .rtbText { background-position: 0 -119px; }
+
+
+.reTopcell
+{
+    padding-top: 7px;
+}
+
+.reDialog ul,
+.reDialog ul li,
+.reDialog_toolbar ul,
+.radECtrlButtonsList ul,
+.reDialog_toolbar_text ul,
+.controlsList
+{
+	padding: 0; 
+	margin: 0; 
+	list-style: none;	
+}
+
+.reConfirmCancelButtonsTbl
+{
+    display: block;
+    float: right;
+    padding: 0;
+    margin: 0;
+    border-collapse: collapse;
+}
+
+.reConfirmCancelButtonsTbl td
+{
+    padding: 6px;
+}
+
+.reConfirmCancelButtonsTbl .reRightMostCell
+{
+    padding-right: 1px;
+}
+
+.reConfirmCancelButtonsTbl button
+{
+    width: 75px;
+}
+
+/* custom settings for RadTabStrip */
+.RadTabStrip ul
+{
+    margin: 8px 0 0 0;
+    position: relative;
+    top: 0;
+    left: 8px;
+}
+
+.controlsList li
+{
+	clear: both;
+}
+
+.controlsList span
+{
+	display: block; 
+	float: left;
+}
+
+.controlsList .shortInput
+{
+	width: 90px; 
+}
+
+.controlsList select.shortInput
+{
+	width: 96px;
+}
+
+.FormattedCodePreview
+{
+    width: 690px;
+    height: 170px;
+    clear: both;
+    overflow: auto;
+}
+
+.reBottomcell
+{
+	text-align: right;
+}
+
+/* LinkManager */
+#hyperlinkFieldset li,
+#emailFieldset li
+{
+    line-height: 26px;
+}
+
+.rightAlignedInputLabel,
+.propertyLabel
+{
+    width: 120px;
+    overflow: hidden;
+    text-align: right;
+    padding-right: 8px;
+    display: inline-block;
+    float: left;
+    line-height: 21px;
+}
+
+.LinkManager .reToolWrapper
+{
+    width: 26px;
+    float: left;
+}
+
+/* End of LinkManager */
+
+/* Constrain Proportions button */
+.ConstrainProportions button
+{
+    padding: 0;
+    margin: 0;
+    font-size: 1px;
+    border: 0;
+    display: block;
+    width: 12px;
+    height: 38px;
+    /* !important is because of the new RadFormDecorator rendering */
+    background-image: url('Common/CommonIcons.gif') !important;
+    background-position: 0 -766px;
+    background-color: transparent;
+    margin-left: 4px;
+}
+
+.ConstrainProportions.toggle button
+{
+    background-position: -20px -766px;
+}
+
+/* FormatCodeBlock */
+.FormatCodeBlock input
+{
+    text-align: right;
+}
+
+/* TableWizardSpinBox */
+.reTableWizardSpinBox
+{
+	font: normal 12px Arial, Verdana, Sans-serif;
+	color: black;
+	-moz-user-select: none;
+}
+
+.reTableWizardSpinBox a
+{
+	margin: 1px;
+	outline: none;
+}
+
+.reTableWizardSpinBox a,
+.reTableWizardSpinBox a span
+{
+	display: block;
+	width: 23px;
+	height: 21px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	
+}
+
+.reTableWizardSpinBox a:hover
+{
+	background-image: url('Common/CommonIcons.gif');
+	background-position: 0 -298px;
+}
+
+.reTableWizardSpinBox a span
+{
+	text-indent: -9999px;
+	background-image: url('Common/CommonIcons.gif');
+}
+
+.reTableWizardSpinBox .reTableWizardSpinBox_Increase
+{
+	background-position: 0 -319px;
+}
+
+.reTableWizardSpinBox .reTableWizardSpinBox_Decrease
+{
+	background-position: 0 -340px;
+}
+
+/* table design */
+.tableDesign
+{
+	table-layout: fixed;
+	width: 382px;
+	height: 344px;
+	border: solid 1px #b0b0b0;
+	border-collapse: collapse;
+}
+
+.tableDesign td
+{
+	border: solid 1px #b0b0b0;
+	vertical-align: top;
+}
+
+.tableDesign td div
+{
+	border: solid 1px white;
+	background: #ececec;
+	height: 122px;
+	cursor: pointer;
+}
+
+.tableDesign .selectedCell
+{
+	background: #cecece;
+}
+
+/* Table Properties Toolbar */
+
+.tblBorderPropsToolbar
+{
+	width: 165px;
+	height: 22px;
+	float: left;
+}
+
+.tblBorderPropsToolbar li
+{
+	float: left;
+	line-height: 20px;
+	clear: none;
+}
+
+.tblBorderPropsToolbar li a
+{
+	display: block;
+	width: 20px;
+	height: 20px; 
+	line-height: 20px;
+	text-indent: -9999px;
+	margin: 1px;
+	text-align: center;
+	cursor: default;
+	background-image: url('Common/CommonIcons.gif');
+	background-repeat: no-repeat;
+}
+
+.tblBorderPropsToolbar li a.reAllFourSides
+{
+	background-position: -6px -367px;
+}
+
+.tblBorderPropsToolbar li a.reAllRowsAndColumns
+{
+	background-position: -6px -387px;
+}
+
+.tblBorderPropsToolbar li a.reNoBorders
+{
+	background-position: -6px -407px;
+}
+
+.tblBorderPropsToolbar li a.reNoInteriorBorders
+{
+	background-position: -7px -427px;
+}
+
+.tblBorderPropsToolbar li a.reTopAndBottomSidesOnly
+{
+	background-position: -7px -446px;
+}
+ 
+.tblBorderPropsToolbar li a.reTopSideOnly
+{
+	background-position: -7px -466px;
+} 
+
+.tblBorderPropsToolbar li a.reBetweenRows
+{
+	background-position: -7px -486px;
+} 
+
+.tblBorderPropsToolbar li a.reBottomSideOnly
+{
+	background-position: -6px -506px;
+} 
+
+.reVerticalIconList li a
+{
+	background-image: url('Common/CommonIcons.gif');
+	background-repeat: no-repeat;
+}
+
+.reVerticalIconList li a.reLeftSide
+{
+	background-position: -6px -532px;
+}
+
+.reVerticalIconList li a.reBetweenColumns
+{
+	background-position: -6px -554px;
+}
+
+.reVerticalIconList li a.reRightAndLeftSidesOnly
+{
+	background-position: -6px -596px;
+}
+
+.reVerticalIconList li a.reRightSide
+{
+	background-position: -6px -574px;
+}
+
+.tblBorderPropsToolbar .textinput
+{
+	width: 20px;
+	height: 18px;
+}
+
+/* bordered table */
+#TableBorder .propertiesLabel,
+#TableBorder .reToolWrapper,
+#TableBorder ul
+{
+    margin: 0 0 0 8px;
+}
+
+#TableBorder ul ul
+{
+    margin: 2px 0 0 0;
+}
+
+.tblBorderTestTable
+{
+	width: 120px;
+	height: 120px;
+	border-collapse: collapse;
+	table-layout: fixed;
+	margin: 0 0 0 66px;
+}
+
+.tableWizardCellProperties .reToolWrapper,
+.tableWizardTableProperties .reToolWrapper
+{
+    display: block;
+    float: left;
+}
+
+/* Find and Replace Dialog Settings */
+
+/* End of Fond and Replace Dialog Settings */
+.reDialogLabel span
+{
+    display: block; 
+    width: 124px; 
+    text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.reDialogLabelShort span
+{
+    display: block; 
+    width: 86px; 
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.reControlsLayout
+{
+    width: 100%;
+    display: block;
+}
+
+.reControlsLayout .reLabelCell,
+.reControlsLayout .reControlCell
+{
+    padding: 3px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.FindAndReplaceDialog .reDialogLabel span,
+.LinkManager .reDialogLabel span
+{
+    width: 90px; 
+    text-align: right;
+}
+
+.FindAndReplaceDialog #find,
+.FindAndReplaceDialog #rFind,
+.FindAndReplaceDialog #rReplace
+{
+    width: 204px;
+}
+
+.FindAndReplaceDialog #FindButton,
+.FindAndReplaceDialog #rFindButton,
+.FindAndReplaceDialog #ReplaceButton,
+.FindAndReplaceDialog #ReplaceAllButton
+{
+    width: 80px;
+}
+
+/* LinkManager */
+.LinkManager .reMiddlecell
+{
+    vertical-align: top;
+    height: 180px;
+    padding-top: 20px;
+}
+
+.LinkManager .reLabelCell
+{
+    width: 90px;
+}
+
+.LinkManager .reControlCell input
+{
+    width: 240px;
+}
+
+.LinkManager .reControlCell select
+{
+    width: 244px;
+}
+
+* html .LinkManager .reControlCell select,
+*+html .LinkManager .reControlCell select
+{
+    width: 250px;
+}
+
+/* Set Image Properties */
+.ImageProperties .reImageDialogCaller input
+{
+    width: 136px;
+}
+
+/* Help Dialog */
+.HelpDialog
+{
+    font-family: "Segoe UI", Arial, Sans-Serif;
+}
+
+.HelpDialog h1, .HelpDialog h2
+{
+    padding: 0;
+    margin: 0;
+}
+
+.HelpDialog h1
+{
+    font-size: 18px;
+}
+
+.HelpDialog h2
+{
+    font-size: 14px;
+    padding: 4px 0;
+}
+
+.HelpDialog .helpTopics
+{
+    width: 695px;
+    height: 340px;
+    overflow: auto;
+}
+
+.HelpDialog .reDescriptionCell
+{
+    padding-left: 8px;
+}
+
+.helpTopics
+{
+    border: solid 1px #ccc;
+}
+
+/* Page Properties */
+.PageProperties .reImageDialogCaller input
+{
+    width: 190px;
+}
+
+.PageProperties .reImageDialogCaller .reTool
+{
+    margin-left: 4px;
+}
+
+/* About Dialog */
+.AboutDialog
+{
+    margin: 4px 0 0 0;
+}
+
+.AboutDialog h6
+{
+    width: 202px;
+	height: 63px; 
+	line-height: 63px;
+	background: transparent url('Common/RadEditorLogo.gif') no-repeat;
+	text-indent: -9999px;
+}
+
+.AboutDialog a
+{
+    color: black;
+}
+
+.reDialog
+{
+    margin: 5px;
+}
+
+.NoMarginDialog
+{
+    margin: 0;
+}
+
+.NoMarginDialog .reConfirmCancelButtonsTbl
+{
+    margin-right: 6px;
+}
+
+* html .TableWizard .reConfirmCancelButtonsTbl
+{
+    margin-right: 50px !important;
+}
+
+/* Image Dialog caller */
+.reImageDialogCaller .reTool
+{
+    margin-left: 4px;
+}
+
+.reImageDialogCaller,
+.reImageDialogCaller td
+{
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+#ImageMap_AreaTarget
+{
+    width: 220px;
+}
+
+/* IE6 and IE7 */
+*+html #ImageMap_AreaTarget,
+* html #ImageMap_AreaTarget
+{
+    width: 226px !important;
+}
+
+/* File Manager dialogs */
+.RadFileExplorer
+{
+    border: 0 !important;
+}
+
+/* ImageManager dialog settings */
+
+/* Image Editor toolbar item */
+.icnImageEditor .rtbText
+{
+    padding-left: 24px !important;
+}
+
+.imagePreview
+{
+    text-align: center;
+	vertical-align: middle;
+	background: transparent;
+	clear: both;
+	overflow: auto;
+	width: 267px;
+	height: 320px;
+}
+
+.noImage
+{    
+    background: transparent url('Common/NoImageSelected.png') no-repeat center;
+}
+
+.imagePreview img
+{
+    /*border: solid 1px #434343 !important;*/
+}
+
+.selectedFileName
+{
+    font: normal 12px "Segoe UI", Arial, Sans-serif;
+    color: black;
+}
+
+.selectedFileName
+{
+    padding: 9px 0;
+    text-align: center;
+    /*border-top: solid 1px #abadb3;*/
+}
+
+.radfe_addressBox
+{
+	float: left;
+}
+
+* html .radfe_addressBox,
+*+html .radfe_addressBox
+{
+    width: 398px !important;
+}
+
+.RadSplitter
+{
+    clear: both;
+}
+
+.FileExplorerPlaceholder
+{
+    width: 400px;
+    vertical-align: top; 
+}
+
+.ManagerDialog
+{
+    table-layout: fixed;
+}
+
+/* Image Properties pane in Image Manager dialog */
+.ManagerDialog .ImageProperties .reDialogLabel span
+{
+    width: 92px;
+}
+
+.ManagerDialog .ImageProperties .reDialogLabelShort span
+{
+    width: 48px;
+}
+
+.ManagerDialog .ImageProperties .reLabelCell
+{
+    width: 40px !important;
+    padding: 0;
+}
+
+.ManagerDialog .ImageProperties #ImageAlt,
+.ManagerDialog .ImageProperties #ImageLongDesc
+{
+    width: 152px !important;
+}
+
+.ManagerDialog .ImageProperties .setMarginsTable .reToolWrapper
+{
+    width: 30px !important;
+}
+
+.ManagerDialog .ImageProperties .setMarginsCell
+{
+    padding: 0;
+}
+
+.ManagerDialog .ImageProperties
+{
+    height: 294px;
+}
+
+.ManagerDialog .ImageProperties .reConstrainProportionsWrapper input
+{
+    width: 30px !important;
+}
+
+.ManagerDialog .ImageProperties
+{
+    margin: 0 0 0 4px;
+}
+
+.DialogSeparator
+{
+    width: 5px;
+    font-size: 1px;
+}
+
+/* Flash Manager */
+
+.FlashManagerCombo,
+.mediaPreviewer select
+{
+    width: 140px;
+}
+
+* html .FlashManagerCombo,
+*+html .FlashManagerCombo,
+* html .mediaPreviewer select,
+*+html .mediaPreviewer select
+{
+    width: 145px;
+}
+
+/* Media Manager */
+
+/* Document Manager */
+.ManagerDialog .LinkManager
+{
+    clear: both;
+}
+
+.ManagerDialog .LinkManager .reControlsLayout
+{
+    display: block !important;
+    margin-top: 70px !important;
+}
+
+.ManagerDialog .LinkManager input,
+.ManagerDialog .LinkManager select
+{
+    width: 146px !important;
+}
+
+* html .ManagerDialog .LinkManager select,
+*+html .ManagerDialog .LinkManager select
+{
+    width: 156px !important;
+}
+
+.ManagerDialog .LinkManager .reTopcell
+{
+    visibility: hidden;
+}
+
+.disabled-button,
+.disabled-button:hover
+{
+    filter: alpha(opacity=40);
+    opacity: .3;
+    -moz-opacity: .3;
+    background: none !important;
+}
+
+#propertiesPage,
+#flashMultiPage,
+#mediaMultiPage
+{
+    clear: both !important;
+}
+
+#propertiesPage,
+div#flashMultiPage,
+#mediaMultiPage,
+iframe#templateIframe
+{
+    height: 354px !important;
+}
+
+#silverlightMultiPage
+{
+    height: 344px !important;
+}
+
+#silverlightMultiPage #previewPage,
+#silverlightMultiPage #propertiesPage
+{
+    height: 344px !important;
+    overflow: auto;
+}
+
+/* insert table dialog test table */
+.tblBorderTestTable
+{
+	border: dotted 1px #abadb3;
+}
+
+.tblBorderTestTable td
+{
+	border: dotted 1px #abadb3;
+}
+
+.reTableDesignPreviewTableHolder
+{
+    height: 344px;
+    overflow: auto;
+    padding: 1px 0 0 0 !important;
+    margin-top: 4px !important;
+}
+
+.tableWizardCellProperties .reImageDialogCaller input
+{
+    width: 100px;
+}
+
+.tableDesign
+{
+    border-collapse: separate;
+}
+
+* html .tableDesign,
+*+html .tableDesign
+{
+    border-collapse: collapse;
+}
+
+.selectedFileName
+{
+    border-top: solid 1px #abadb3;
+}
+
+.radfe_addressBox
+{
+	border-top: solid 1px #abadb3;
+	border-right: solid 1px #dbdfe6;
+	border-bottom: solid 1px #e3e9ef;
+	border-left: solid 1px #e2e3ea;
+	background: white;
+}
+
+/*.RadSplitter
+{
+    border-top: solid 1px #999 !important;
+}*/
+
+/* background for the bottom positioned RadTabStrip */
+.RadTabStripBottom_Black
+{
+    /*background: #d5d5d5;*/
+    width: 264px;
+    /*border-bottom: solid 1px #999;*/
+    padding-bottom: 6px !important;
+}
+
+
+/*.DialogSeparator
+{
+    border-left: solid 1px #222;
+    border-right: solid 1px #222;
+    background-color: #ececec;
+}*/
+
+.rfeUploadContainer
+{
+    height: 300px !important;
+    overflow-y: auto;
+    margin: 0 0 0 2px !important;
+}
+
+.rtbInner
+{
+    width: auto !important;
+}
+
+.RadToolBar .rtbWrap,
+.RadToolBar .rtbText
+{
+    line-height: 17px !important;
+}
+
+.reTableWizardSelectAllBtn
+{
+    display: block;
+    text-align: center;
+    color: black;
+}

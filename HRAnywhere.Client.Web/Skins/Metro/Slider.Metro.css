@@ -1,0 +1,146 @@
+/* RadSlider for ASP.NET AJAX Metro Skin */
+.RadSlider_Metro .rslHorizontal div.rslTrack,
+.RadSlider_Metro .rslVertical div.rslTrack
+{
+	border-width:0;
+}
+
+.RadSlider_Metro .rslVertical ul.rslItemsWrapper,
+.RadSlider_Metro .rslHorizontal ul.rslItemsWrapper
+{
+	margin:0;
+}
+
+.RadSlider_Metro .rslHorizontal a.rslHandle
+{
+	background-image: url('Slider/Handles.gif');
+}
+
+div.RadSlider_Metro .rslHorizontal a.rslDraghandle {
+    margin-top: -5px;
+    width: 4px;
+    height: 14px;
+}
+
+div.RadSlider_Metro .rslVertical a.rslDraghandle {
+    margin-left: -5px;
+    width: 14px;
+    height: 4px;
+}
+
+.RadSlider_Metro a.rslDraghandle
+{
+	background:#767676;
+	border:solid 1px #fff;
+}
+
+.RadSlider_Metro a.rslDraghandle:hover
+{
+	background:#25a0da;
+	border-color:#fff;
+}
+
+.RadSlider_Metro a.rslDraghandle:active,
+.RadSlider_Metro a.rslDraghandle:focus
+{
+	background:#25a0da;
+	border-color:#fff;
+}
+
+.RadSlider_Metro .rslHorizontal .rslTrack
+{	
+	background:#e5e5e5;
+}
+
+.RadSlider_Metro .rslHorizontal .rslSelectedregion
+{
+	background:#25a0da;
+}
+
+/* vertical slider */
+.RadSlider_Metro .rslVertical a.rslHandle
+{
+	background-image: url('Slider/HandlesVertical.gif');
+}
+
+.RadSlider_Metro .rslVertical .rslTrack
+{
+	background:#e5e5e5;
+}
+
+.RadSlider_Metro .rslVertical .rslSelectedregion
+{
+	background:#25a0da;
+}
+
+div.RadSlider_Metro .rslItem,
+div.RadSlider_Metro .rslLargeTick span
+{
+	color:#767676;
+}
+
+.RadSlider_Metro .rslItemsWrapper .rslItemSelected
+{
+	color:#767676;
+}
+
+/* horizontal slider items */
+.RadSlider_Metro .rslHorizontal .rslItem
+{
+	background-image: url('Slider/ItemHorizontalBgr.gif');
+}
+
+/* vertical slider items */
+.RadSlider_Metro .rslVertical .rslItem
+{
+	background-image: url('Slider/ItemVerticalBgr.gif');
+}
+
+/* horizontal slider - TrackPosition=Top/Bottom */
+.RadSlider_Metro .rslTop .rslSmallTick,
+.RadSlider_Metro .rslBottom .rslSmallTick
+{
+    background-image: url('Slider/SmallChangeHorizontal.gif');
+}
+
+.RadSlider_Metro .rslTop .rslLargeTick,
+.RadSlider_Metro .rslBottom .rslLargeTick
+{
+	background-image: url('Slider/LargeChangeHorizontal.gif');
+}
+
+/* vertical slider - TrackPosition=Left/Right */
+
+.RadSlider_Metro .rslLeft .rslSmallTick,
+.RadSlider_Metro .rslRight .rslSmallTick
+{
+	background-image: url('Slider/SmallChangeVertical.gif');
+}
+
+.RadSlider_Metro .rslLeft .rslLargeTick,
+.RadSlider_Metro .rslRight .rslLargeTick
+{
+	background-image: url('Slider/LargelChangeVertical.gif');
+}
+
+/* horizontal slider - TrackPosition=Center */
+.RadSlider_Metro .rslMiddle .rslSmallTick
+{
+	background-image: url('Slider/SmallChangeMiddleHorizontal.gif');
+}
+
+.RadSlider_Metro .rslMiddle .rslLargeTick
+{
+	background-image: url('Slider/LargeChangeMiddleHorizontal.gif');
+}
+
+/* vertical slider - TrackPosition=Center */
+.RadSlider_Metro .rslCenter .rslSmallTick
+{
+	background-image: url('Slider/SmallChangeCenterVertical.gif');
+}
+
+.RadSlider_Metro .rslCenter .rslLargeTick
+{
+	background-image: url('Slider/LargelChangeCenterVertical.gif');
+}

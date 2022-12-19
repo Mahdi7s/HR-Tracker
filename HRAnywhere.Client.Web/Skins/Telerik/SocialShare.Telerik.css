@@ -1,0 +1,14 @@
+/* RadSocialShare Telerik Skin */
+
+.RadSocialShare_Telerik
+{
+	border: 1px solid #cecece;
+	background-color: #eee;
+}
+
+.RadSocialShare_Telerik .sshLinkItem .sshText,
+.RadComboBoxDropDown_Telerik .rcbItem .sshLinkItem .sshText,
+.RadComboBoxDropDown_Telerik .rcbHovered .sshLinkItem .sshText
+{
+	color: #000;
+}

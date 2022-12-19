@@ -1,0 +1,232 @@
+/* this removes the scrollbars from the dialogs */
+html, body, form
+{
+	overflow: hidden;
+}
+
+.RadSpell
+{
+    width: 460px;
+    height: 303px;
+	padding: 0;
+	margin: 0;
+	background: white;
+}
+
+.RadSpell *
+{
+    margin:0;
+    padding:0;
+}
+
+.RadSpell ul
+{
+    list-style-type:none !important;
+}
+
+.RadSpell .RichTextView,
+.RadSpell textarea,
+.RadSpell select,
+.RadSpell .MainOptions
+{
+    margin-left:7px;
+}
+
+.RadSpell .RichTextView
+{
+    overflow: auto;
+}
+
+.RadSpell textarea
+{
+    display: none;
+    overflow: auto;
+}
+
+.RadSpell,
+.RadSpell textarea,
+.RadSpell select
+{
+    font: normal 10px/16px Arial, Sans-serif;
+}
+
+/* the next two must be separate. they fix the hidden textarea position when it becomes visible*/
+/* IE 7 only */
+*:first-child+html .RadSpell textarea
+{
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+
+/*IE 5-6 only*/
+* html .RadSpell textarea
+{
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+
+.RadSpell .SpellOptions a
+{
+    display: block;
+}
+
+.RadSpell .SpellOptions a.disabled
+{
+    cursor: no-drop;
+}
+
+.RadSpell h3:after,
+.RadSpell:after,
+.RadSpell .SpellOptions:after
+{
+    content:".";
+    display:block;
+    clear:both;
+    height:0;
+    visibility:hidden;
+}
+
+/*RadSpell headings start*/
+.RadSpell h3,
+.RadSpell h3 em
+.RadSpell h3 span
+{
+    height: 44px;
+    line-height: 35px;
+}
+
+.RadSpell .RichTextView strong
+{
+    color: #f00;
+    text-decoration: underline;
+}
+
+.RadSpell h3
+{
+    margin: 0 ;
+    padding-left:7px;
+    background: #e5e5e5;
+    font-size:1.1em;
+    overflow:hidden;
+}
+
+.RadSpell h3 em
+{
+    float:left;
+    padding-right:7px;
+    font-style:normal;
+	cursor: default;
+}
+
+.RadSpell h3 span
+{
+	float:left;
+	padding:0 10px;
+	background: #fff;
+	height: 28px;
+	margin-top: 16px;
+	line-height: 28px;
+}
+
+.RadSpell h4
+{
+	margin-top:7px;
+	padding-left:7px;
+    font-size:1.1em;
+    font-weight:normal;
+}
+
+.RadSpell .RichTextView,
+.RadSpell textarea
+{
+    height:70px;
+    border-width:1px;
+    border-style:solid;
+    border-color:#000 #ccc #ccc #000;
+    background:#fff;
+    font-size:1.1em;
+}
+.RadSpell textarea
+{
+    width:318px;
+    padding:3px 5px 3px 3px;
+}
+.RadSpell .RichTextView
+{
+    width: 320px;
+    padding: 3px;
+    font-family: tahoma,sans-serif;
+    cursor: text;
+}
+
+.RadSpell .RichTextView em
+{
+    font-style:normal;
+    color:#000;
+}
+
+.RadSpell select,
+.RadSpell .MainOptions
+{
+    width:328px;
+}
+.RadSpell select
+{
+    height:60px;
+    font-size:1.1em;
+}
+
+*:first-child+html .RadSpell select
+{
+    height:85px;
+}
+
+/*IE 5-6 only*/
+* html .RadSpell select
+{
+    height:85px;
+}
+.RadSpell select option
+{
+    padding:1px 3px 0;
+}
+
+/*RadSpell buttons start*/
+.RadSpell .SpellOptions li
+{
+    height:23px;
+    line-height:23px;
+}
+.RadSpell .SpellOptions li
+{
+    width:83px;
+    text-align:center;
+    font-size:1.1em;
+}
+
+.RadSpell .MainOptions
+{
+    margin-top:10px;
+}
+.RadSpell .MainOptions li
+{
+    float:right;
+    margin-left:10px;
+}
+.RadSpell .AuxOptions
+{
+    float:right;
+    width:90px;
+    margin-top:20px;
+	margin-right: 10px;
+}
+.RadSpell .AuxOptions li
+{
+    margin-top:8px;
+}
+
+.RadSpell button
+{
+    width: 76px !important;
+}
+/*RadSpell buttons end*/

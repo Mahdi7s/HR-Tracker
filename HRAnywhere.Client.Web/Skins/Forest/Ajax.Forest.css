@@ -1,0 +1,18 @@
+/* Telerik RadAjaxLoadingPanel Forest Skin */
+
+.RadAjax_Forest .raDiv
+{
+	background-image:url('Common/loading.gif');
+}
+
+.RadAjax_Forest .raColor
+{
+	background-color:#d1deb6;
+}
+
+.RadAjax_Forest .raTransp
+{
+	opacity:0.5;
+	-moz-opacity:0.5;
+	filter:alpha(opacity=50);
+}

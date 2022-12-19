@@ -1,0 +1,56 @@
+
+.ReminderDialog_Office2007,
+.ReminderDialog_Office2007 a
+{
+    color: #333;
+    font: normal 12px/14px "Segoe UI", Arial, sans-serif;
+}
+
+.ReminderDialog_Office2007 .rsRemContentPanel
+{
+    border-color: #688caf;
+}
+
+/* <advanced edit title> */
+
+.ReminderDialog_Office2007 .rsModalBgTopLeft,
+.ReminderDialog_Office2007 .rsModalBgTopRight,
+.ReminderDialog_Office2007 .rsModalBgBottomLeft,
+.ReminderDialog_Office2007 .rsModalBgBottomRight
+{
+    background-image: url('Scheduler/rsModalBg.png');
+}
+
+* html .ReminderDialog_Office2007 .rsModalBgTopLeft,
+* html .ReminderDialog_Office2007 .rsModalBgTopRight,
+* html .ReminderDialog_Office2007 .rsModalBgBottomLeft,
+* html .ReminderDialog_Office2007 .rsModalBgBottomRight
+{
+    background-image: url('Scheduler/rsModalBgIE6.png');
+}
+
+.ReminderDialog_Office2007 a.rsRemTitleBarCloseBtn
+{
+    height: 19px;
+    margin-top: -25px;
+    width: 30px;
+}
+
+.ReminderDialog_Office2007 a.rsRemTitleBarCloseBtn:hover
+{
+    background-position: -78px -526px;
+}
+
+.ReminderDialog_Office2007 .rsRemTitleIcon,
+.ReminderDialog_Office2007 .rsRemTitleBarIcon,
+.ReminderDialog_Office2007 a.rsRemTitleBarCloseBtn,
+.ReminderDialog_Office2007 .rsRemActions a.rsRemDismissAllBtn,
+.ReminderDialog_Office2007 .rsRemActions a.rsRemOpenItemBtn,
+.ReminderDialog_Office2007 .rsRemActions a.rsRemDismissBtn,
+.ReminderDialog_Office2007 .rsRemSnoozePanel a.rsRemSnoozeBtn
+{
+    color: #333;
+    background-image: url('Scheduler/rsSprites.png');
+}
+
+/* </advanced edit title> */

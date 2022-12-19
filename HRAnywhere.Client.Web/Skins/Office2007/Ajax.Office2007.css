@@ -1,0 +1,18 @@
+/* Telerik RadAjaxLoadingPanel Office2007 Skin */
+
+.RadAjax_Office2007 .raDiv
+{
+	background-image:url('Common/loading.gif');
+}
+
+.RadAjax_Office2007 .raColor
+{
+	background-color:#fff;
+}
+
+.RadAjax_Office2007 .raTransp
+{
+	opacity:0.6;
+	-moz-opacity:0.6;
+	filter:alpha(opacity=60);
+}

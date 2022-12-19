@@ -1,0 +1,39 @@
+.RadTagCloud_Black
+{
+	background: #2e2e2e;
+	border: 1px dotted #3a3a3a;
+}
+.RadTagCloud_Black .rtcTagList .rtcTagItem
+{
+	color: #eee;
+}
+.RadTagCloud_Black .rtcTagList .rtcTagItem:hover
+{
+	color: #96ce28;
+}
+.RadTagCloud_Black .rtcTagList .rtcTagItem a
+{
+	color: #ddd;
+}
+.RadTagCloud_Black .rtcTagList .rtcTagItem a:hover
+{
+	color: #96ce28;
+	background: #4f4f4f;
+}
+/* Disabled state */
+.RadTagCloud_Black.rtcDisabled .rtcTagList .rtcTagItem, 
+.RadTagCloud_Black.rtcDisabled .rtcTagList .rtcTagItem a
+{
+	color: #666 !important;
+}
+.RadTagCloud_Black.rtcDisabled .rtcTagList .rtcTagItem:hover, 
+.RadTagCloud_Black.rtcDisabled .rtcTagList .rtcTagItem a:hover
+{
+	color: #666 !important;
+}
+
+/* Loading image */
+.rtcLoading.RadTagCloud_Black
+{
+	background-image: url('Common/loading_small.gif');
+}

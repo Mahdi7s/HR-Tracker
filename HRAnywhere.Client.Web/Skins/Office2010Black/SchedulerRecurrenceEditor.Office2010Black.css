@@ -1,0 +1,69 @@
+
+.RecurrenceEditor_Office2010Black
+{
+	color: #333;
+	font: normal 12px/14px "Segoe UI", Arial, sans-serif;
+}
+
+/* <xref input skins> */
+
+.RecurrenceEditor_Office2010Black .rsAdvInput,
+.RecurrenceEditor_Office2010Black select
+{
+	border-color: #abc1de;
+}
+
+.RecurrenceEditor_Office2010Black .rsInvalid input,
+.RecurrenceEditor_Office2010Black .rsAdvTimePicker .riEmpty
+{
+	background-image: url('Input/sprite.gif');
+}
+
+.RecurrenceEditor_Office2010Black .rsInvalid
+{
+	border-color: #F32800;
+	color: #F32800;
+}
+/* </xref input skins> */
+
+.RecurrenceEditor_Office2010Black h2,
+.RecurrenceEditor_Office2010Black h3
+{
+	color: #6d8ebb;
+}
+
+.RecurrenceEditor_Office2010Black h2
+{
+	border-bottom: 1px solid #CCC;
+}
+
+.RecurrenceEditor_Office2010Black h2 span
+{
+	background: #fff;
+}
+
+.RecurrenceEditor_Office2010Black .rsAdvRecurrenceFreq
+{
+	border-right: 1px solid #fff;
+}
+
+.RecurrenceEditor_Office2010Black ul.rsRecurrenceOptionList   /* ??? */
+{
+	border-right: 1px solid #CCC;
+}
+
+.RecurrenceEditor_Office2010Black div.rsAdvPatternPanel
+{
+	border-left: 0;
+}
+
+/* <date/time picker> */
+
+.RecurrenceEditor_Office2010Black .rsTimePick .RadInput_Office2010Black input.riEnabled,
+.RecurrenceEditor_Office2010Black .rsTimePick .RadInput_Office2010Black input.riHover,
+.RecurrenceEditor_Office2010Black .rsTimePick .RadInput_Office2010Black input.riFocused
+{
+	background-image: url('Scheduler/rsSprites.png');
+}
+
+/* </date/time picker> */

@@ -1,0 +1,127 @@
+/* RadSlider for ASP.NET AJAX Black Skin */
+.RadSlider_Black .rslTrack
+{
+	border-color:#080808;
+}
+
+.RadSlider_Black .rslHorizontal a.rslHandle
+{
+	background-image:url('Slider/Handles.gif');
+}
+
+.RadSlider_Black .rslHorizontal a.rslDraghandle
+{
+	background-image:url('Slider/DragHandle.gif');
+}
+
+.RadSlider_Black .rslTop a.rslDraghandle
+{
+	background-image:url('Slider/DragHandleDown.gif');
+}
+
+.RadSlider_Black .rslHorizontal .rslTrack
+{
+	background:url('Slider/TrackBgr.gif') repeat-x;
+}
+
+.RadSlider_Black .rslHorizontal .rslSelectedregion
+{
+	background:url('Slider/SelectedRegionHorizontalBgr.gif') right top no-repeat;
+}
+
+/* vertical slider */
+.RadSlider_Black .rslVertical a.rslHandle
+{
+	background-image:url('Slider/HandlesVertical.gif');
+}
+
+.RadSlider_Black .rslVertical .rslTrack
+{
+	background:url('Slider/TrackVerticalBgr.gif') repeat-y;
+}
+
+.RadSlider_Black .rslVertical .rslSelectedregion
+{
+	background:url('Slider/SelectedRegionVerticalBgr.gif') left bottom no-repeat;
+}
+
+.RadSlider_Black .rslVertical a.rslDraghandle
+{
+	background:url('Slider/DragVerticalHandle.gif') no-repeat;
+}
+
+.RadSlider_Black .rslLeft a.rslDraghandle
+{
+	background:url('Slider/DragVerticalHandleRight.gif') no-repeat;
+}
+
+.RadSlider_Black .rslItem,
+.RadSlider_Black .rslLargeTick span
+{
+	color:#d7d7d7;
+}
+
+.RadSlider_Black .rslItemsWrapper .rslItemSelected
+{
+	color:#fff;
+}
+
+/* horizontal slider items */
+.RadSlider_Black .rslHorizontal .rslItem
+{
+	background-image:url('Slider/ItemHorizontalBgr.gif');
+}
+
+/* vertical slider items */
+.RadSlider_Black .rslVertical .rslItem
+{
+	background-image:url('Slider/ItemVerticalBgr.gif');
+}
+
+/* horizontal slider - TrackPosition=Top/Bottom */
+.RadSlider_Black .rslTop .rslSmallTick,
+.RadSlider_Black .rslBottom .rslSmallTick
+{
+	background-image:url('Slider/SmallChangeHorizontal.gif');
+}
+
+.RadSlider_Black .rslTop .rslLargeTick,
+.RadSlider_Black .rslBottom .rslLargeTick
+{
+	background-image:url('Slider/LargeChangeHorizontal.gif');
+}
+
+/* vertical slider - TrackPosition=Left/Right */
+.RadSlider_Black .rslLeft .rslSmallTick,
+.RadSlider_Black .rslRight .rslSmallTick
+{
+	background-image:url('Slider/SmallChangeVertical.gif');
+}
+
+.RadSlider_Black .rslLeft .rslLargeTick,
+.RadSlider_Black .rslRight .rslLargeTick
+{
+	background-image:url('Slider/LargelChangeVertical.gif');
+}
+
+/* horizontal slider - TrackPosition=Center */
+.RadSlider_Black .rslMiddle .rslSmallTick
+{
+	background-image:url('Slider/SmallChangeMiddleHorizontal.gif');
+}
+
+.RadSlider_Black .rslMiddle .rslLargeTick
+{
+	background-image:url('Slider/LargeChangeMiddleHorizontal.gif');
+}
+
+/* vertical slider - TrackPosition=Center */
+.RadSlider_Black .rslCenter .rslSmallTick
+{
+	background-image:url('Slider/SmallChangeCenterVertical.gif');
+}
+
+.RadSlider_Black .rslCenter .rslLargeTick
+{
+	background-image:url('Slider/LargelChangeCenterVertical.gif');
+}

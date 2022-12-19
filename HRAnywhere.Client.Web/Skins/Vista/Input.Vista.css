@@ -1,0 +1,142 @@
+/*Telerik RadInput Vista Skin*/
+
+/*global*/
+
+.RadInput_Vista,
+.RadInputMgr_Vista
+{
+	font:12px "segoe ui",arial,sans-serif;
+}
+
+/*textbox states*/
+
+html body .RadInput_Vista .riTextBox,
+html body .RadInputMgr_Vista
+{
+	border-color:#abadb3 #dbdfe6 #e3e9ef #e2e3ea;
+	background:#fff;
+	color:#000;
+	font:12px "segoe ui",arial,sans-serif;
+}
+
+html body .RadInput_Vista .riEmpty,
+html body .RadInput_Empty_Vista
+{
+	color:#8a8a8a;
+}
+
+html body .RadInput_Vista .riHover,
+html body .RadInput_Hover_Vista,
+html body .RadInput_Vista .riFocused,
+html body .RadInput_Focused_Vista
+{
+	border-color:#5794bf #b7d5ea #c7e2f1 #c5daed;
+}
+
+html body .RadInput_Vista .riRead,
+html body .RadInput_Read_Vista
+{
+	border-color:#e3e9ef;
+}
+
+html body .RadInput_Vista .riDisabled,
+html body .RadInput_Disabled_Vista
+{
+	border-color:#e3e9ef;
+	color:#8a8a8a;
+	cursor:default;
+}
+
+html body .RadInput_Vista .riError,
+html body .RadInput_Error_Vista
+{
+	border-color:#b32d34 #dc643f #ea8541 #e5713e;
+	background:#fff 100% -298px no-repeat url('Input/sprite.gif');
+	color:#b32d34;
+}
+
+.RadForm.rfdTextbox .RadInput_Vista .riError[type="text"],
+.RadForm.rfdTextbox .RadInput_Error_Vista[type="text"]
+{
+	border-color:#b32d34 #dc643f #ea8541 #e5713e;
+	background:#fff 100% -298px no-repeat url('Input/sprite.gif');
+	color:#b32d34;
+}
+
+html body .RadInput_Vista .riNegative,
+html body .RadInput_Negative_Vista
+{
+	color:#565656;
+}
+
+/*buttons*/
+
+.RadInput_Vista a
+{
+	background:transparent no-repeat url('Input/sprite.gif');
+}
+
+/*go*/
+
+.RadInput_Vista .riBtn a
+{
+	width:20px;
+	height:18px; 
+	line-height:18px;
+	background-position:3px 5px;
+}
+
+.RadInput_Vista .riBtn a:hover
+{
+	background-position:3px -45px;
+}
+
+/*spin*/
+
+.RadInput_Vista .riSpin a
+{
+	width:15px;
+	height:7px; 
+	line-height:7px;
+}
+
+.RadInput_Vista a.riUp
+{
+	background-position:4px -98px;
+}
+
+.RadInput_Vista a.riUp:hover
+{
+	background-position:4px -148px;
+}
+
+.RadInput_Vista a.riDown
+{
+	background-position:4px -199px;
+}
+
+.RadInput_Vista a.riDown:hover
+{
+	background-position:4px -249px;
+}
+
+/*label*/
+
+.RadInput_Vista .riLabel
+{
+	color:#000;
+}
+
+/*rtl*/
+
+html body .RadInputRTL_Vista .riError,
+html body .RadInputRTL_Error_Vista
+{
+	background-position:3px -298px;
+}
+
+.RadForm.rfdTextbox .RadInputRTL_Vista .riError[type="text"],
+.RadForm.rfdTextbox .RadInputRTL_Error_Vista[type="text"]
+{
+	background-position:3px -298px;
+}

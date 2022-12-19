@@ -1,0 +1,276 @@
+/* <RadToolBar / Sunset> */
+
+/* <tool wrapper> */
+
+/* <horizontal> */
+
+.RadToolBar_Sunset .rtbOuter
+{
+	border: 1px solid #504a41;
+}
+
+.RadToolBar_Sunset .rtbMiddle
+{
+	border: 1px solid #968f7c;
+	background: #575043 url('ToolBar/rtbControlBg.png') repeat-x 0 0;
+}
+
+/* </horizontal> */
+
+/* <vertical> */
+
+.RadToolBar_Sunset_Vertical .rtbMiddle
+{
+	background: #575043 url('ToolBar/rtbVerticalControlBg.png') repeat-y 0 0;
+}
+
+/* </vertical> */
+
+/* </tool wrapper> */
+
+/* <buttons> */
+
+.RadToolBar_Sunset .rtbWrap,
+.RadToolBar_Sunset .rtbTemplate
+{
+	font: normal 12px/20px "Segoe UI", Arial, sans-serif;
+	color: #fff;
+}
+
+/* <button states> */
+
+.RadToolBar_Sunset .rtbSplBtnFocused .rtbWrap, .RadToolBar_Sunset .rtbSplBtnFocused .rtbOut, .RadToolBar_Sunset .rtbSplBtnFocused .rtbMid, .RadToolBar_Sunset .rtbSplBtnFocused .rtbIn,
+.RadToolBar_Sunset .rtbItemFocused .rtbWrap, .RadToolBar_Sunset .rtbItemFocused .rtbOut, .RadToolBar_Sunset .rtbItemFocused .rtbMid, .RadToolBar_Sunset .rtbItemFocused .rtbIn,
+.RadToolBar_Sunset .rtbItemHovered .rtbWrap, .RadToolBar_Sunset .rtbItemHovered .rtbOut, .RadToolBar_Sunset .rtbItemHovered .rtbMid, .RadToolBar_Sunset .rtbItemHovered .rtbIn
+{
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url('ToolBar/rtbHoverBg.png');
+}
+
+.RadToolBar_Sunset .rtbItemClicked .rtbWrap, .RadToolBar_Sunset .rtbItemClicked .rtbOut, .RadToolBar_Sunset .rtbItemClicked .rtbMid, .RadToolBar_Sunset .rtbItemClicked .rtbIn
+{
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url('ToolBar/rtbClickedBg.png');
+}
+
+.RadToolBar_Sunset .rtbSplBtnExpanded .rtbWrap, .RadToolBar_Sunset .rtbSplBtnExpanded .rtbOut, .RadToolBar_Sunset .rtbSplBtnExpanded .rtbMid, .RadToolBar_Sunset .rtbSplBtnExpanded .rtbIn,
+.RadToolBar_Sunset .rtbDropDownExpanded .rtbWrap, .RadToolBar_Sunset .rtbDropDownExpanded .rtbOut, .RadToolBar_Sunset .rtbDropDownExpanded .rtbMid, .RadToolBar_Sunset .rtbDropDownExpanded .rtbIn,
+.RadToolBar_Sunset .rtbChecked .rtbWrap, .RadToolBar_Sunset .rtbChecked .rtbOut, .RadToolBar_Sunset .rtbChecked .rtbMid, .RadToolBar_Sunset .rtbChecked .rtbIn,
+.RadToolBar_Sunset li.rtbChecked .rtbWrap:hover, .RadToolBar_Sunset li.rtbChecked .rtbWrap:hover .rtbOut, .RadToolBar_Sunset li.rtbChecked .rtbWrap:hover .rtbMid, .RadToolBar_Sunset li.rtbChecked .rtbWrap:hover .rtbIn
+{
+	background-image: url('ToolBar/rtbActiveBg.png');
+	background-color: transparent;
+	background-repeat: no-repeat;
+}
+
+.RadToolBar_Sunset .rtbItemFocused .rtbWrap,
+.RadToolBar_Sunset .rtbChecked .rtbWrap,
+.RadToolBar_Sunset .rtbDropDownExpanded .rtbWrap,
+.RadToolBar_Sunset .rtbSplBtnExpanded .rtbWrap
+{
+	color: #3d1400;
+}
+
+.RadToolBar_Sunset .rtbItemHovered .rtbWrap,
+.RadToolBar_Sunset .rtbItemClicked .rtbWrap
+{
+	color: #863d02;
+}
+
+/* </button states> */
+
+/* <Drop Down Arrows> */
+
+
+.RadToolBar_Sunset .rtbSplBtn .rtbChoiceArrow,
+.RadToolBar_Sunset .rtbItem .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_Sunset .rtbChoiceArrow 
+{
+	background-image: url('ToolBar/rtbDropArrows.png');
+}
+
+.RadToolBar_Sunset .rtbSplBtn .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_Sunset .rtbExpandUp .rtbChoiceArrow 
+{
+	background-image: url('ToolBar/rtbUpArrows.png');
+}
+
+.RadToolBar_Sunset .rtbSplBtnExpanded .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_Sunset .rtbSplBtnExpanded .rtbChoiceArrow,
+.RadToolBar_Sunset .rtbDropDownExpanded .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_Sunset .rtbDropDownExpanded .rtbChoiceArrow,
+.RadToolBar_Sunset .rtbSplBtnHovered .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_Sunset .rtbSplBtnHovered .rtbChoiceArrow,
+.RadToolBar_Sunset .rtbItemHovered .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_Sunset .rtbItemHovered .rtbChoiceArrow,
+.RadToolBar_Sunset .rtbSplBtnClicked .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_Sunset .rtbSplBtnClicked .rtbChoiceArrow,
+.RadToolBar_Sunset .rtbItemClicked .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_Sunset .rtbItemClicked .rtbChoiceArrow
+{
+	background-color: transparent;
+	background-image: url('ToolBar/rtbHoverDropArrows.png');
+	background-repeat: no-repeat;
+}
+
+.RadToolBar_Sunset .rtbSplBtnExpanded .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_Sunset .rtbDropDownExpanded .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_Sunset .rtbSplBtnHovered .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_Sunset .rtbItemHovered .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_Sunset .rtbSplBtnClicked .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_Sunset .rtbItemClicked .rtbExpandUp .rtbChoiceArrow
+{
+	background-image: url('ToolBar/rtbHoverUpArrows.png');
+}
+
+/* </Drop Down Arrows> */
+
+.RadToolBar_Sunset_Horizontal li.rtbSeparator 
+{
+	border-left: 1px solid #433d35;
+	background: #938f83;
+}
+
+.RadToolBar_Sunset_Vertical li.rtbSeparator
+{
+	border-top: 1px solid #433d35;
+	background: #938f83;
+}
+
+/* </buttons> */
+
+
+/* <disabled states> */
+
+.RadToolBar_Sunset .rtbDisabled .rtbWrap:hover,
+.RadToolBar_Sunset .rtbDisabled .rtbWrap:hover .rtbOut,
+.RadToolBar_Sunset .rtbDisabled .rtbWrap:hover .rtbMid,
+.RadToolBar_Sunset .rtbDisabled .rtbWrap:hover .rtbIn
+{
+	background-image: none;
+}
+
+.RadToolBar_Sunset .rtbDisabled .rtbWrap { color: #A8A59B\9; }
+
+@media screen and (-webkit-min-device-pixel-ratio:0)  /* WebKit alpha + opacity/cleartype bug, like IE wasn't enough... */
+{
+	.RadToolBar_Sunset .rtbDisabled .rtbWrap { color: #A8A59B; }
+}
+
+/* </disabled states */
+
+/* <drop-down> */
+
+/* <Drop Down rounded corners and shadows> */
+
+.RadToolBarDropDown_Sunset .rtbTopFix,
+.RadToolBarDropDown_Sunset .rtbBottomFix,
+.RadToolBarDropDown_Sunset .rtbGroup
+{
+	background-image: url('ToolBar/rtbDropDownBg.png');
+	background-color: #fff;
+	background-repeat: repeat-y;
+    background-position: -1px 0;
+}
+
+.RadToolBarDropDown_Sunset div.rtbTopFix,
+.RadToolBarDropDown_Sunset div.rtbBottomFix
+{
+    background-position: -2px 0;
+}
+
+.RadToolBarDropDown_Sunset .rtbBottomLeft,
+.RadToolBarDropDown_Sunset .rtbRoundedCorners
+{
+	background-image:  url('ToolBar/rtbRoundedLeft.png');
+	background-color: transparent;
+	background-repeat: no-repeat;
+}
+
+.RadToolBarDropDown_Sunset .rtbTopRight,
+.RadToolBarDropDown_Sunset .rtbBottomRight
+{
+	background-image:  url('ToolBar/rtbRoundedRight.png');
+	background-color: transparent;
+	background-repeat: no-repeat;
+}
+
+.RadToolBarDropDown_Sunset .rtbTopFix,
+.RadToolBarDropDown_Sunset .rtbBottomFix,
+.RadToolBarDropDown_Sunset .rtbRoundedCorners .rtbFirst
+{
+	border-color: #958a85;
+}
+
+.RadToolBarDropDown_Sunset_rtl .rtbBottomLeft,
+.RadToolBarDropDown_Sunset_rtl .rtbRoundedCorners
+{
+	background-image: url('ToolBar/rtbRoundedLeft_rtl.png');
+}
+
+.RadToolBarDropDown_Sunset_rtl .rtbTopRight,
+.RadToolBarDropDown_Sunset_rtl .rtbBottomRight
+{
+	background-image: url('ToolBar/rtbRoundedRight_rtl.png');
+}
+
+.RadToolBarDropDown_Sunset_rtl div.rtbTopFix,
+.RadToolBarDropDown_Sunset_rtl div.rtbBottomFix,
+.RadToolBarDropDown_Sunset_rtl .rtbGroup
+{
+	background-position: 101% 0;
+}
+
+/* </Drop Down rounded corners and shadows> */
+
+.RadToolBarDropDown_Sunset
+{
+	border-color: #958a85;
+	background-color: #fff;
+	background-image: url('ToolBar/rtbDropDownBg.png');
+}
+
+div.RadToolBarDropDown_Sunset
+{
+	background-position: -1px 0;
+}
+
+div.RadToolBarDropDown_Sunset_rtl
+{
+	background-position: 101% 0;
+}
+
+.RadToolBarDropDown_Sunset .rtbWrap,
+.RadToolBarDropDown_Sunset .rtbTemplate
+{
+	font-weight: normal;
+	font-size: 12px;
+	font-family: "Segoe UI", Arial, sans-serif;
+	color: #333;
+}
+
+.RadToolBarDropDown_Sunset .rtbItemHovered,
+.RadToolBarDropDown_Sunset .rtbItemFocused,
+.RadToolBarDropDown_Sunset .rtbItemHovered .rtbWrap,
+.RadToolBarDropDown_Sunset .rtbItemFocused .rtbWrap
+{
+	color: #863d02;
+	background-image: url('ToolBar/rtbDropDownHover.png');
+}
+
+.RadToolBarDropDown_Sunset .rtbDisabled .rtbWrap
+{
+	color: #a9a9a9;
+}
+
+.RadToolBarDropDown_Sunset .rtbSeparator
+{
+	border-color: #d2c7b4;
+	background: #fff;
+}
+
+/* </drop-down> */
+
+/* </RadToolBar / Sunset> */

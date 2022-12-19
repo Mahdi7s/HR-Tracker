@@ -1,0 +1,533 @@
+/* <RadMenu / Outlook> */
+
+.RadMenu_Outlook a.rmLink,
+.RadMenu_Outlook .rmText,
+.RadMenu_Outlook .rmLeftArrow,
+.RadMenu_Outlook .rmRightArrow,
+.RadMenu_Outlook .rmTopArrow,
+.RadMenu_Outlook .rmBottomArrow
+{
+	background-image: url('Menu/rmSprite.png');
+	background-color: transparent;
+}
+
+.RadMenu_Outlook .rmRootGroup
+{
+	border: 1px solid #b7bdcd;
+	background-color: #adc9f7;
+}
+
+/* <Root items> */
+
+.RadMenu_Outlook,
+.RadMenu_Outlook a.rmLink
+{
+	font: normal 12px/23px "Segoe UI", Arial, sans-serif;
+	color: #000;
+	text-decoration: none;
+}
+
+.RadMenu_Outlook a.rmLink,
+.RadMenu_Outlook .rmText
+{
+	background-position: 0 1050px;
+	background-repeat: no-repeat;
+}
+
+.RadMenu_Outlook a.rmLink:hover,
+.RadMenu_Outlook a.rmFocused,
+.RadMenu_Outlook a.rmSelected
+{
+	background-position: 0 -72px;
+}
+
+.RadMenu_Outlook a.rmLink:hover .rmText,
+.RadMenu_Outlook a.rmFocused .rmText,
+.RadMenu_Outlook a.rmSelected .rmText
+{
+	background-position: 100% -96px;
+}
+
+.RadMenu_Outlook a.rmExpanded,
+.RadMenu_Outlook a.rmExpanded:hover
+{
+	background-position: 0 -120px;
+}
+
+.RadMenu_Outlook a.rmExpanded .rmText,
+.RadMenu_Outlook a.rmExpanded:hover .rmText
+{
+	background-position: 100% -144px;
+}
+
+.RadMenu_Outlook a.rmDisabled,
+.RadMenu_Outlook a.rmDisabled:hover
+{
+	color: #7d7d7d;
+}
+
+.RadMenu_Outlook a.rmDisabled:hover,
+.RadMenu_Outlook a.rmDisabled:hover .rmText
+{
+	background: none;
+}
+
+/* </Root items> */
+
+
+/* <Submenu items> */
+
+.RadMenu_Outlook .rmGroup,
+.RadMenu_Outlook .rmMultiColumn,
+.RadMenu_Outlook .rmGroup .rmVertical
+{
+	border: 1px solid #002d96;
+	background: #f6f6f6 url('Menu/rmVSprite.png') repeat-y 0 0;
+}
+
+.RadMenu_Outlook_rtl .rmGroup,
+.RadMenu_Outlook_rtl .rmMultiColumn,
+.RadMenu_Outlook_rtl .rmGroup .rmVertical
+{
+	background-image: url('Menu/rmVSprite_rtl.png');
+	background-position: 101% 0;
+}
+
+.RadMenu_Outlook .rmTopFix,
+.RadMenu_Outlook .rmBottomFix,
+.RadMenu_Outlook .rmRoundedCorners .rmGroup .rmItem,
+.RadMenu_Outlook .rmRoundedCorners li.rmFirstGroupColumn .rmItem,
+.RadMenu_Outlook .rmRoundedCorners .rmFirstGroupColumn li.rmFirstGroupColumn .rmItem,
+.RadMenu_Outlook .rmRoundedCorners ul.rmHorizontal .rmFirst,
+.RadMenu_Outlook_Context.rmRoundedCorners .rmGroup .rmItem,
+.RadMenu_Outlook_Context.rmRoundedCorners ul.rmHorizontal .rmFirst
+{
+	background-image: url('Menu/rmVSprite.png');
+	background-color: #f6f6f6; 
+	background-repeat: repeat-y;
+	background-position: -2px 0;
+}
+
+* html .rmRoundedCorners_Outlook .rmGroup .rmItem,
+* html .rmRoundedCorners_Outlook ul.rmHorizontal .rmFirst
+{
+	background-image: url('Menu/rmVSprite.png');
+	background-color: #f6f6f6; 
+	background-repeat: repeat-y;
+	background-position: -2px 0;
+}
+
+.RadMenu_Outlook_rtl .rmTopFix,
+.RadMenu_Outlook_rtl .rmBottomFix,
+.RadMenu_Outlook_rtl .rmRoundedCorners .rmGroup .rmItem,
+.RadMenu_Outlook_rtl .rmRoundedCorners li.rmFirstGroupColumn .rmItem,
+.RadMenu_Outlook_rtl .rmRoundedCorners .rmFirstGroupColumn li.rmFirstGroupColumn .rmItem,
+.RadMenu_Outlook_rtl .rmRoundedCorners ul.rmHorizontal .rmFirst,
+.RadMenu_Outlook_Context_rtl.rmRoundedCorners .rmGroup .rmItem,
+.RadMenu_Outlook_Context_rtl.rmRoundedCorners ul.rmHorizontal .rmFirst
+{
+	background-image: url('Menu/rmVSprite_rtl.png');
+	background-position: 101% 0;
+}
+
+* html .rmRoundedCorners.RadMenu_Outlook_Context_rtl .rmGroup .rmItem,
+* html .rmRoundedCorners.RadMenu_Outlook_Context_rtl ul.rmHorizontal .rmFirst
+{
+	background-image: url('Menu/rmVSprite_rtl.png');
+	background-position: 101% 0;
+}
+
+.RadMenu_Outlook .rmRoundedCorners .rmScrollWrapContainer .rmGroup,
+.RadMenu_Outlook .rmRoundedCorners .rmScrollWrap .rmItem,
+.RadMenu_Outlook .rmRoundedCorners .rmGroupColumn .rmItem,
+.RadMenu_Outlook .rmRoundedCorners .rmGroupColumn .rmGroupColumn .rmItem,
+.RadMenu_Outlook .rmRoundedCorners .rmHorizontal .rmItem,
+.RadMenu_Outlook .rmRoundedCorners .rmScrollWrap .rmVertical,
+.RadMenu_Outlook_Context.rmRoundedCorners .rmScrollWrapContainer .rmGroup,
+.RadMenu_Outlook_Context.rmRoundedCorners .rmScrollWrap .rmItem,
+.RadMenu_Outlook_Context.rmRoundedCorners .rmHorizontal .rmItem,
+.RadMenu_Outlook_Context.rmRoundedCorners .rmScrollWrap .rmVertical
+{
+	background-image: none;
+}
+
+* html .rmRoundedCorners_Outlook .rmScrollWrapContainer .rmGroup,
+* html .rmRoundedCorners_Outlook .rmScrollWrap .rmItem,
+* html .rmRoundedCorners_Outlook .rmHorizontal .rmItem,
+* html .rmRoundedCorners_Outlook .rmScrollWrap .rmVertical
+{
+	background-image: none;
+}
+
+.RadMenu_Outlook .rmRoundedCorners .rmGroupColumn
+{
+	background-color: #f6f6f6;
+}
+
+.RadMenu_Outlook .rmBottomLeft,
+.RadMenu_Outlook .rmRoundedCorners .rmScrollWrapContainer,
+.RadMenu_Outlook_Context.rmRoundedCorners .rmScrollWrapContainer,
+.RadMenu_Outlook_Context.rmRoundedCorners ul.rmGroup,
+.RadMenu_Outlook .rmRoundedCorners ul.rmGroup,
+.RadMenu_Outlook .rmRoundedCorners .rmMultiColumn
+{
+	background-image:  url('Menu/rmRoundedLeft.png');
+	background-color: transparent; 
+	background-repeat: no-repeat;
+}
+
+* html .rmRoundedCorners_Outlook .rmScrollWrapContainer,
+* html .rmRoundedCorners_Outlook .rmGroup ul.rmGroup,
+* html .rmRoundedCorners_Outlook ul.rmGroup
+{
+	background-image:  url('Menu/rmRoundedLeft.png');
+	background-color: transparent; 
+	background-repeat: no-repeat;
+}
+
+.RadMenu_Outlook .rmTopRight,
+.RadMenu_Outlook .rmBottomRight
+{
+	background-image:  url('Menu/rmRoundedRight.png');
+	background-color: transparent; 
+	background-repeat: no-repeat;
+}
+
+.RadMenu_Outlook .rmTopFix,
+.RadMenu_Outlook .rmBottomFix,
+.RadMenu_Outlook .rmRoundedCorners .rmGroup .rmFirst,
+.RadMenu_Outlook_Context.rmRoundedCorners .rmGroup .rmFirst,
+.rmRoundedCorners_Outlook .rmGroup .rmFirst
+{
+	border-color: #002d96;
+}
+
+.RadMenu_Outlook .rmRoundedCorners .rmScrollWrapContainer .rmTopFix,
+.RadMenu_Outlook .rmRoundedCorners .rmScrollWrapContainer .rmBottomFix,
+.RadMenu_Outlook_Context.rmRoundedCorners .rmScrollWrapContainer .rmTopFix,
+.RadMenu_Outlook_Context.rmRoundedCorners .rmScrollWrapContainer .rmBottomFix
+{
+	background: #f6f6f6;
+}
+
+* html .rmRoundedCorners_Outlook .rmScrollWrapContainer .rmTopFix,
+* html .rmRoundedCorners_Outlook .rmScrollWrapContainer .rmBottomFix
+{
+	background: #f6f6f6;
+}
+
+.RadMenu_Outlook .rmRoundedCorners .rmScrollWrapContainer .rmTopArrow,
+.RadMenu_Outlook .rmRoundedCorners .rmScrollWrapContainer .rmBottomArrow,
+.RadMenu_Outlook .rmRoundedCorners .rmScrollWrapContainer .rmLeftArrow,
+.RadMenu_Outlook .rmRoundedCorners .rmScrollWrapContainer .rmRightArrow,
+.RadMenu_Outlook_Context.rmRoundedCorners .rmScrollWrapContainer .rmTopArrow,
+.RadMenu_Outlook_Context.rmRoundedCorners .rmScrollWrapContainer .rmBottomArrow,
+.RadMenu_Outlook_Context.rmRoundedCorners .rmScrollWrapContainer .rmLeftArrow,
+.RadMenu_Outlook_Context.rmRoundedCorners .rmScrollWrapContainer .rmRightArrow
+{
+	background-color: #f6f6f6;
+	border: 0;
+}
+
+* html .rmRoundedCorners_Outlook .rmScrollWrapContainer .rmTopArrow,
+* html .rmRoundedCorners_Outlook .rmScrollWrapContainer .rmBottomArrow,
+* html .rmRoundedCorners_Outlook .rmScrollWrapContainer .rmLeftArrow,
+* html .rmRoundedCorners_Outlook .rmScrollWrapContainer .rmRightArrow
+{
+	background-color: #f6f6f6;
+	border: 0;
+}
+
+.RadMenu_Outlook li.rmTopFix,
+.RadMenu_Outlook li.rmBottomFix
+{
+	background-position: -3px 0;
+}
+
+.RadMenu_Outlook_rtl .rmBottomLeft,
+.RadMenu_Outlook_rtl .rmRoundedCorners ul.rmGroup,
+.RadMenu_Outlook_rtl .rmRoundedCorners .rmMultiColumn,
+.RadMenu_Outlook .rmRoundedCorners .rmScrollWrapContainer,
+.RadMenu_Outlook .rmScrollWrapContainer .rmBottomLeft,
+.rmRoundedCorners.RadMenu_Outlook_Context_rtl ul.rmGroup,
+.RadMenu_Outlook_Context.rmRoundedCorners .rmScrollWrapContainer
+{
+	background-image: url('Menu/rmRoundedLeft_rtl.png');
+}
+
+.RadMenu_Outlook_rtl .rmTopRight,
+.RadMenu_Outlook_rtl .rmBottomRight
+{
+	background-image: url('Menu/rmRoundedRight_rtl.png');
+}
+
+.RadMenu_Outlook_rtl li.rmTopFix,
+.RadMenu_Outlook_rtl li.rmBottomFix,
+.RadMenu_Outlook_rtl .rmRoundedCorners .rmGroup .rmItem,
+.rmRoundedCorners.RadMenu_Outlook_Context_rtl .rmGroup .rmItem
+{
+	background-position: 101% 0;
+}
+
+.RadMenu_Outlook .rmSlide .rmScrollWrap
+{
+	background-image: none;
+}
+
+.RadMenu_Outlook_rtl .rmGroup,
+.RadMenu_Outlook_rtl .rmMultiColumn,
+.RadMenu_Outlook_rtl .rmGroup .rmVertical
+{
+	background-position: 100% 0;
+}
+
+.RadMenu_Outlook .rmRootGroup .rmHorizontal
+{
+	background-image: none;
+}
+
+.RadMenu_Outlook .rmScrollWrap .rmVertical
+{
+	border: 0;
+}
+
+.RadMenu_Outlook .rmGroup .rmFirst,
+.RadMenu_Outlook .rmGroup .rmLast,
+.RadMenu_Outlook .rmRoundedCorners .rmScrollWrapContainer li.rmItem,
+.RadMenu_Outlook_Context.rmRoundedCorners .rmScrollWrapContainer li.rmItem,
+.rmRoundedCorners_Outlook .rmScrollWrapContainer li.rmItem
+{
+	background: none;
+}
+
+.RadMenu_Outlook .rmGroup .rmLast
+{
+	padding-bottom: 1px;
+}
+
+.RadMenu_Outlook .rmGroup a.rmLink:hover,
+.RadMenu_Outlook .rmGroup a.rmFocused,
+.RadMenu_Outlook .rmGroup a.rmSelected,
+.RadMenu_Outlook .rmGroup a.rmExpanded
+{
+	background-position: 0 -168px;
+}
+
+.RadMenu_Outlook .rmGroup a.rmLink:hover .rmText,
+.RadMenu_Outlook .rmGroup a.rmFocused .rmText,
+.RadMenu_Outlook .rmGroup a.rmSelected .rmText,
+.RadMenu_Outlook .rmGroup a.rmExpanded .rmText
+{
+	background-position: 100% -192px;
+}
+
+/* <expand arrows> */
+
+.RadMenu_Outlook .rmVertical .rmExpandRight,
+.RadMenu_Outlook_Context .rmGroup .rmExpandRight,
+.RadMenu_Outlook .rmGroup .rmExpandDown
+{
+	background-position: 100% -216px;
+}
+
+.RadMenu_Outlook .rmVertical a.rmLink:hover .rmExpandRight,
+.RadMenu_Outlook .rmVertical a.rmFocused .rmExpandRight,
+.RadMenu_Outlook .rmVertical a.rmExpanded .rmExpandRight,
+.RadMenu_Outlook .rmVertical a.rmSelected .rmExpandRight,
+.RadMenu_Outlook .rmVertical a.rmLink:hover .rmExpandLeft,
+.RadMenu_Outlook .rmVertical a.rmFocused .rmExpandLeft,
+.RadMenu_Outlook .rmVertical a.rmExpanded .rmExpandLeft,
+.RadMenu_Outlook .rmVertical a.rmSelected .rmExpandLeft
+{
+    background-image: url('Menu/rmRootExpand.png');
+}
+
+.RadMenu_Outlook .rmVertical a.rmLink:hover .rmExpandRight,
+.RadMenu_Outlook .rmVertical a.rmSelected .rmExpandRight,
+.RadMenu_Outlook .rmVertical a.rmFocused .rmExpandRight
+{
+	background-position: 100% -2px;
+}
+
+.RadMenu_Outlook .rmVertical a.rmExpanded .rmExpandRight,
+.RadMenu_Outlook .rmVertical a.rmExpanded:hover .rmExpandRight
+{
+	background-position: 100% -29px;
+}
+
+.RadMenu_Outlook .rmGroup a.rmLink:hover .rmExpandRight,
+.RadMenu_Outlook .rmGroup a.rmFocused .rmExpandRight,
+.RadMenu_Outlook .rmGroup a.rmSelected .rmExpandRight,
+.RadMenu_Outlook .rmGroup a.rmExpanded .rmExpandRight,
+.RadMenu_Outlook .rmGroup a.rmLink:hover .rmExpandDown,
+.RadMenu_Outlook .rmGroup a.rmFocused .rmExpandDown,
+.RadMenu_Outlook .rmGroup a.rmSelected .rmExpandDown,
+.RadMenu_Outlook .rmGroup a.rmExpanded .rmExpandDown
+{
+    background-image: url('Menu/rmSprite.png');
+	background-position: 100% -240px;
+}
+
+.RadMenu_Outlook .rmRootGroup a.rmDisabled:hover .rmExpandRight,
+.RadMenu_Outlook_Context .rmGroup a.rmDisabled:hover .rmExpandRight,
+.RadMenu_Outlook_Context .rmGroup a.rmDisabled:hover .rmExpandLeft,
+.RadMenu_Outlook .rmGroup a.rmDisabled:hover .rmExpandDown
+{
+	background-image: url('Menu/rmSprite.png');
+	background-position: 100% -216px;
+}
+
+/* </expand arrows> */
+
+/* <rtl> */
+
+.RadMenu_Outlook_rtl a.rmLink:hover,
+.RadMenu_Outlook_rtl a.rmFocused,
+.RadMenu_Outlook_rtl a.rmSelected
+{
+    background-position: 100% -96px;
+}
+
+.RadMenu_Outlook_rtl a.rmLink:hover .rmText,
+.RadMenu_Outlook_rtl a.rmFocused .rmText,
+.RadMenu_Outlook_rtl a.rmSelected .rmText
+{
+    background-position: 0 -72px;
+}
+
+.RadMenu_Outlook_rtl a.rmExpanded,
+.RadMenu_Outlook_rtl a.rmExpanded:hover
+{
+    background-position: 100% -144px;
+}
+
+.RadMenu_Outlook_rtl a.rmExpanded .rmText,
+.RadMenu_Outlook_rtl a.rmExpanded:hover .rmText
+{
+    background-position: 0 -120px;
+}
+
+.RadMenu_Outlook_rtl .rmGroup a.rmLink:hover,
+.RadMenu_Outlook_rtl .rmGroup a.rmFocused,
+.RadMenu_Outlook_rtl .rmGroup a.rmSelected,
+.RadMenu_Outlook_rtl .rmGroup a.rmExpanded
+{
+	background-position: 100% -264px;
+}
+
+.RadMenu_Outlook_rtl .rmGroup a.rmLink:hover .rmText,
+.RadMenu_Outlook_rtl .rmGroup a.rmFocused .rmText,
+.RadMenu_Outlook_rtl .rmGroup a.rmSelected .rmText,
+.RadMenu_Outlook_rtl .rmGroup a.rmExpanded .rmText
+{
+	background-position: 0 -288px;
+}
+
+.RadMenu_Outlook_Context_rtl .rmVertical .rmExpandLeft,
+.RadMenu_Outlook_rtl .rmRootGroup .rmExpandLeft
+{
+	background-position: 0 -312px;
+}
+
+.RadMenu_Outlook_rtl a.rmLink:hover .rmExpandLeft,
+.RadMenu_Outlook_rtl a.rmSelected .rmExpandLeft,
+.RadMenu_Outlook_rtl a.rmFocused .rmExpandLeft
+{
+	background-position: 0 -2px;
+}
+
+.RadMenu_Outlook_rtl a.rmExpanded .rmExpandLeft,
+.RadMenu_Outlook_rtl a.rmExpanded:hover .rmExpandLeft
+{
+	background-position: 0 -29px;
+}
+
+.RadMenu_Outlook_rtl .rmGroup a.rmLink:hover .rmExpandLeft,
+.RadMenu_Outlook_rtl .rmGroup a.rmFocused .rmExpandLeft,
+.RadMenu_Outlook_rtl .rmGroup a.rmSelected .rmExpandLeft,
+.RadMenu_Outlook_rtl .rmGroup a.rmExpanded .rmExpandLeft
+{
+    background-image: url('Menu/rmSprite.png');
+	background-position: 0 -336px;
+}
+
+.RadMenu_Outlook_Context_rtl .rmGroup a.rmDisabled:hover .rmExpandLeft,
+.RadMenu_Outlook_rtl .rmRootGroup a.rmDisabled:hover .rmExpandLeft
+{
+    background-image: url('Menu/rmSprite.png');
+	background-position: 0 -312px;
+}
+
+/* </rtl> */
+
+/* </Submenu items> */
+
+/* <Submenu offsets (Outlook - specific, overlapping submenus)> */
+
+.RadMenu_Outlook .rmSlide
+{
+	margin: -3px 0 0 1px;
+}
+
+.RadMenu_Outlook .rmVertical .rmSlide,
+.RadMenu_Outlook .rmSlide .rmSlide,
+.RadMenu_Outlook_Context .rmGroup .rmSlide
+{
+	margin: 0 0 0 -5px;
+}
+
+.RadMenu_Outlook_rtl .rmSlide
+{
+	margin: -3px 0 0 -1px;
+}
+
+.RadMenu_Outlook_rtl .rmVertical .rmSlide,
+.RadMenu_Outlook_rtl .rmSlide .rmSlide,
+.RadMenu_Outlook_Context_rtl .rmGroup .rmSlide
+{
+	margin: 0 0 0 5px;
+}
+
+/* </Submenu offsets> */
+
+/* <Scrolling arrows> */
+
+.RadMenu_Outlook .rmLeftArrow,
+.RadMenu_Outlook .rmRightArrow
+{
+	background-color: #E0E5F5;
+}
+
+.RadMenu_Outlook .rmLeftArrow { background-position: -8px -312px; border-right: 1px solid #B7BDCD; }
+.RadMenu_Outlook .rmRightArrow { background-position: -482px -216px; border-left: 1px solid #B7BDCD; }
+
+.RadMenu_Outlook .rmTopArrow,
+.RadMenu_Outlook .rmBottomArrow,
+.RadMenu_Outlook .rmGroup .rmLeftArrow,
+.RadMenu_Outlook .rmGroup .rmRightArrow
+{
+	background-color: #f0f0f0;
+}
+
+.RadMenu_Outlook .rmTopArrow { background-position: 50% -367px; border-bottom: 1px solid #B7BDCD; }
+.RadMenu_Outlook .rmBottomArrow { background-position: 50% -391px; border-top: 1px solid #B7BDCD; }
+
+/* </Scrolling arrows> */
+
+/* <Separators> */
+
+.RadMenu_Outlook .rmVertical .rmSeparator .rmText,
+.RadMenu_Outlook .rmHorizontal .rmVertical .rmSeparator .rmText
+{
+	background-position: 0 -406px;
+}
+
+.RadMenu_Outlook .rmHorizontal .rmSeparator .rmText,
+.RadMenu_Outlook .rmVertical .rmHorizontal .rmSeparator .rmText
+{
+	background-position: 0 -386px;
+}
+
+/* </Separators> */
+
+/* </RadMenu / Outlook> */

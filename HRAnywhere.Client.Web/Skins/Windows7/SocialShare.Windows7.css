@@ -1,0 +1,14 @@
+/* RadSocialShare Windows7 Skin */
+
+.RadSocialShare_Windows7
+{
+	border: 1px solid #d3dde4;
+	background-color: #f0f2f4;
+}
+
+.RadSocialShare_Windows7 .sshLinkItem .sshText,
+.RadComboBoxDropDown_Windows7 .rcbItem .sshLinkItem .sshText,
+.RadComboBoxDropDown_Windows7 .rcbHovered .sshLinkItem .sshText
+{
+	color: #1e395b;
+}

@@ -1,0 +1,50 @@
+.RadSiteMap_Outlook .rsmLink,
+.RadSiteMap_Outlook .rsmTemplate
+{
+	font-family: "Segoe UI", Arial, sans-serif;
+	border-bottom: 0;
+	background: #adc9f7;
+	color: #003cbb;
+}
+
+div.RadSiteMap_Outlook .rsmLink,
+div.RadSiteMap_Outlook .rsmTemplate
+{
+	padding-left: 5px;
+}
+
+div.RadSiteMap_Outlook .rsmLink:hover
+{
+	color: #000;
+}
+
+.RadSiteMap_Outlook .rsmLevel1 .rsmLink,
+.RadSiteMap_Outlook .rsmLevel1 .rsmTemplate
+{
+	color: #225edb;
+	background: none;
+}
+
+.RadSiteMap_Outlook .rsmLevel1 .rsmLink:hover,
+.RadSiteMap_Outlook .rsmLevel2 .rsmLink,
+.RadSiteMap_Outlook .rsmLevel2 .rsmTemplate,
+.RadSiteMap_Outlook .rsmThreeLevels .rsmLevel1 .rsmLink,
+.RadSiteMap_Outlook .rsmTwoLevels .rsmLevel1 .rsmLink,
+.RadSiteMap_Outlook .rsmOneLevel .rsmItem .rsmLink
+{
+	color: #000;
+	background: none;
+}
+
+.RadSiteMap_Outlook .rsmLevel2 .rsmLink:hover,
+.RadSiteMap_Outlook .rsmThreeLevels .rsmLevel1 .rsmLink:hover,
+.RadSiteMap_Outlook .rsmTwoLevels .rsmLevel1 .rsmLink:hover,
+.RadSiteMap_Outlook .rsmOneLevel .rsmItem .rsmLink:hover
+{
+	background: #ffd397 url('SiteMap/rsmHover.png') repeat-x 0 0;
+}
+
+.RadSiteMap_Outlook .rsmLevel .rsmNodeLines .rsmItem
+{
+	background-image: url('SiteMap/NodeLines.png');
+}

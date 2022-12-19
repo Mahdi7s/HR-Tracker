@@ -1,0 +1,406 @@
+/* RadToolTip for ASP.NET AJAX - Simple Skin */
+
+.RadToolTip_Simple.rtLoading
+{	
+	background: url('Common/loading.gif') no-repeat center;
+	width: 100%; 
+	height: 100%;
+}
+
+div.RadToolTip_Simple
+{
+	position: absolute;
+	cursor: default;
+}
+
+div.RadToolTip_Simple table.rtShadow
+{
+box-shadow: 2px 2px 10px #666;
+-webkit-box-shadow: 2px 2px 10px #666;
+-moz-box-shadow: 2px 2px 10px #666;
+border: none !important;
+}
+
+div.RadToolTip_Simple div.rtCallout
+{
+	display: none;
+}
+
+div.RadToolTip_Simple.rtVisibleCallout div.rtCallout
+{
+	display: block;
+}
+
+div.RadToolTip_Simple table.rtWrapper
+{
+	padding: 0; 
+	margin: 0;
+	border-collapse: collapse;
+}
+
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperTopLeft,
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperTopRight,
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperBottomLeft,
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperBottomRight
+{
+	width: 3px; 
+	height: 3px; 
+	line-height: 1px; 
+	font-size: 1px;
+}
+
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperTopCenter,
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperBottomCenter,
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperTopLeft,
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperTopRight,
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperBottomLeft,
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperBottomRight,
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperTopCenter,
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperBottomCenter,
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperLeftMiddle,
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperRightMiddle
+{
+    background-color: #ffefbd;
+}
+
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperTopCenter,
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperBottomCenter
+{
+	height: 3px; 
+	line-height: 0px; 
+	font-size: 1px;
+}
+
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperTopCenter
+{
+	background-position: 0 -66px;
+}
+
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperBottomCenter
+{
+	background-position: 0 -120px;
+}
+
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperLeftMiddle,
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperRightMiddle
+{
+	font-size: 1px;
+	width: 3px;
+}
+
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperLeftMiddle
+{
+	background-position: 0 0;
+}
+
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperRightMiddle
+{
+	background-position: -3px 0;
+}
+
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperContent
+{
+	font: normal 12px "Segoe UI", Arial, Sans-serif;
+	height: 100%;
+	background-color: #ffefbd;	
+	padding: 10px 0 0 0 !important;
+	color: #c98400;
+}
+
+div.RadToolTip_Simple div.rtTitlebar
+{	
+	color: #c98400;
+	font: normal 18px "Segoe UI", Arial, Sans-serif;
+	float: left;
+	line-height: 22px;
+}
+
+div.RadToolTip_Simple a.rtCloseButton
+{
+	display: block; 
+	float: right;
+	position: absolute;
+	right: 2px;
+	width: 13px; 
+	height: 11px;
+	font-size: 1px; 
+	line-height: 1px;
+	margin-top: 5px;
+	margin-right: 3px;
+	background-image: url('ToolTip/ToolTipSprites.gif');
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	outline: none;
+}
+
+/* RTL support begin */
+div.RadToolTip_Simple_rtl a.rtCloseButton,
+div.RadToolTip_Simple_rtl a.rtCloseButton:hover
+{
+	float: left ;
+	text-decoration: none ;
+    outline: none;
+    left: 2px;
+    margin-left: 1px;
+    right: auto;
+    margin-right: auto;
+}
+
+div.RadToolTip_Simple_rtl div.rtTitlebar,
+div.RadToolTip_Simple_rtl table.rtWrapper td.rtWrapperTopCenter div.rtTitlebar div
+{
+	float: right ;
+}
+
+/* position="rtCalloutCenter" */
+div.RadToolTip_Simple_rtl .rtCalloutCenter
+{
+	right: 0;
+	left: auto;
+}
+
+/* position="rtCalloutBottomRight" */
+.RadToolTip_Simple_rtl .rtCalloutTopLeft
+{
+	margin-right: -8px;
+	left: 0;
+}
+
+/* position="rtCalloutBottomCenter" */
+.RadToolTip_Simple_rtl .rtCalloutTopCenter
+{
+	margin-right: 10px;
+}
+
+/* position="rtCalloutBottomLeft" */
+.RadToolTip_Simple_rtl .rtCalloutTopRight
+{
+	margin-right: 20px;
+}
+
+/* position="rtCalloutTopCenter" */
+.RadToolTip_Simple_rtl .rtCalloutBottomCenter
+{
+	margin-right: 10px ;
+}
+
+/* position="rtCalloutTopLeft" */
+.RadToolTip_Simple_rtl .rtCalloutBottomRight
+{
+	margin-right: 40px ;
+}
+
+/* position="rtCalloutTopRight" */
+.RadToolTip_Simple_rtl .rtCalloutBottomLeft
+{
+	margin-right: -20px;
+	left: 0;
+}
+
+/* position="rtCalloutMiddleRight" */
+.RadToolTip_Simple_rtl .rtCalloutMiddleLeft
+{
+	margin-right: 10px;
+	left: 0;
+}
+
+/* position="rtCalloutMiddleLeft" */
+.RadToolTip_Simple_rtl .rtCalloutMiddleRight
+{
+	margin-right: 1px;
+}
+
+/* RTL Shadows */
+*+html div.RadToolTip_Simple.RadToolTip_rtl.rtShadow .rtCalloutMiddleLeft
+{
+	margin-right: 10px !important;
+}
+
+div.RadToolTip_Simple.RadToolTip_rtl.rtShadow a.rtCloseButton,
+div.RadToolTip_Simple.RadToolTip_rtl.rtShadow a.rtCloseButton:hover
+{
+	float: left;
+    left: 4px;
+    top: -2px;
+    right: auto;
+}
+
+*+html div.RadToolTip_Simple.RadToolTip_rtl.rtShadow a.rtCloseButton,
+*+html div.RadToolTip_Simple.RadToolTip_rtl.rtShadow a.rtCloseButton:hover
+{
+	
+    left: 14px;
+}
+
+/* RTL support end */
+
+div.RadToolTip_Simple div.rtCallout
+{
+	position: absolute; 
+	height: 11px; 
+	width: 11px;
+	line-height: 0px; 
+	font-size: 1px;
+	background-image: url('ToolTip/Callouts.gif');
+	background-repeat: no-repeat;
+}
+
+/* position="rtCalloutCenter" */
+div.RadToolTip_Simple .rtCalloutCenter
+{
+	visibility: hidden;
+}
+
+/* position="rtCalloutBottomRight" */
+.RadToolTip_Simple .rtCalloutTopLeft
+{
+	margin-top: -10px; 
+	margin-left: 20px;
+	background-position: 0 -22px;
+}
+
+/* position="rtCalloutBottomCenter" */
+.RadToolTip_Simple .rtCalloutTopCenter
+{
+	left: 50% ;
+	margin-top: -9px; 
+	margin-left: -10px;
+	background-position: 0 0 ;
+}
+
+/* position="rtCalloutBottomLeft" */
+.RadToolTip_Simple .rtCalloutTopRight
+{
+	left: 100% ;
+	margin-top: -10px; 
+	margin-left: -20px;
+	background-position: 0 -11px ;
+}
+
+/* position="rtCalloutTopCenter" */
+.RadToolTip_Simple .rtCalloutBottomCenter
+{
+	top: 100% ; 
+	left: 50% ;
+	margin-left: -10px ; 
+	margin-top: -1px ;
+	background-position: 0 -55px ;
+}
+
+/* position="rtCalloutTopLeft" */
+.RadToolTip_Simple .rtCalloutBottomRight
+{
+	top: 100% ; 
+	left: 100% ;
+	margin-left: -40px ; 
+	margin-top: -1px ;
+	background-position: 0 -66px ;
+}
+
+/* position="rtCalloutTopRight" */
+.RadToolTip_Simple .rtCalloutBottomLeft
+{
+	top: 100% ;
+	margin-left: 20px ; 
+	margin-top: -1px ;
+	background-position: 0 -77px ;
+}
+
+/* position="rtCalloutMiddleRight" */
+.RadToolTip_Simple .rtCalloutMiddleLeft
+{
+	top: 50% ;
+	margin-left: -10px; 
+	margin-top: -7px;
+	background-position: 0 -44px ;
+}
+
+/* position="rtCalloutMiddleLeft" */
+.RadToolTip_Simple .rtCalloutMiddleRight
+{
+	left: 100% ; 
+	top: 50% ;
+	margin-left: -1px;
+	margin-top: -10px;
+	background-position: 0 -33px;
+}
+
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperTopLeft,   
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperTopCenter,   
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperTopRight,   
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperLeftMiddle,   
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperContent,   
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperRightMiddle,   
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperBottomLeft,   
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperBottomCenter,   
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperBottomRight   
+{
+    padding: 0;
+    border: 0;
+    border-collapse: collapse;
+}
+
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperBottomCenter,
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperBottomRight,
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperBottomLeft
+{
+    border-bottom: solid 1px #c98400;
+}
+
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperBottomRight,
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperRightMiddle,
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperTopRight
+{
+    border-right: solid 1px #c98400;
+}
+
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperTopRight,
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperTopCenter,
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperTopLeft
+{
+    border-top: solid 1px #c98400;
+}
+
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperTopLeft,
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperLeftMiddle,
+div.RadToolTip_Simple table.rtWrapper td.rtWrapperBottomLeft
+{
+    border-left: solid 1px #c98400;
+}
+
+/* overwrite shadow callouts because of the shadow depth */
+div.RadToolTip_Simple.rtShadow .rtCalloutTopLeft, 
+div.RadToolTip_Simple.rtShadow .rtCalloutTopRight
+{
+	margin-top:-10px;
+}
+
+div.RadToolTip_Simple.rtShadow .rtCalloutTopCenter 
+{
+	margin-top:-9px;
+}
+
+div.RadToolTip_Simple.rtShadow .rtCalloutMiddleRight
+{
+	margin-left:-1px;
+}
+
+div.RadToolTip_Simple.rtShadow .rtCalloutMiddleLeft
+{
+	margin-left: -10px;
+}
+
+div.RadToolTip_Simple.rtShadow .rtCalloutBottomRight, 
+div.RadToolTip_Simple.rtShadow .rtCalloutBottomCenter,
+div.RadToolTip_Simple.rtShadow .rtCalloutBottomLeft
+{
+	margin-top: -1px;
+}
+
+/* overwrite shadow close button position */
+div.RadToolTip_Simple.rtShadow a.rtCloseButton 
+{
+	top: 0px;
+	right: -3px;
+}

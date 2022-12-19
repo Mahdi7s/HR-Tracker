@@ -1,0 +1,40 @@
+/*RadNotification Sunset Skin*/
+
+.RadNotification_Sunset
+{
+	border: 1px solid #71250a;
+	background-color: #ebe7da;
+}
+
+.RadNotification_Sunset.rnShadows
+{
+	box-shadow: 2px 2px 3px #e0cbc3;
+	-webkit-box-shadow: 2px 2px 3px #e0cbc3;
+}
+
+.RadNotification_Sunset .rnTitleBar,
+.RadNotification_Sunset .rnCommands a
+{
+	background-image: url('Notification/NotificationSprite.png');
+}
+
+.RadNotification_Sunset .rnTitleBar
+{
+	border-bottom: 1px solid #c36a30;
+}
+
+.RadNotification_Sunset .rnTitleBarTitle
+{
+	color: #fff;
+}
+
+.RadNotification_Sunset .rnContentWrapper
+{
+	border-top: 1px solid #71250a;
+}
+
+/* base style overwrites */
+.RadNotification_Sunset .rnCommands 
+{
+	margin: 2px 0 0;
+}

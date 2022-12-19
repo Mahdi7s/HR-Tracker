@@ -1,0 +1,82 @@
+/**
+ * Organizational Chart Forest Skin
+ */
+
+
+
+
+/*----------------------------------------------------------------------------*/
+
+
+
+
+/** Global wrapper */
+.RadOrgChart_Forest {
+	color: #2b2c20;
+	font: normal 12px/22px "Segoe UI", Arial, sans-serif;
+}
+
+
+
+
+/** Viewport */
+.RadOrgChart_Forest .rocViewport {}
+
+
+
+
+/** NodeList */
+.RadOrgChart_Forest .rocNodeList {}
+
+
+
+
+/** Node */
+.RadOrgChart_Forest .rocNode {}
+
+
+
+
+/** Group */
+.RadOrgChart_Forest .rocGroup {
+	border-radius: 10px;
+	background-color: #d1deb6;
+}
+
+
+
+
+/** ItemList */
+.RadOrgChart_Forest .rocItemList {}
+
+
+
+
+/** ItemWrap */
+.RadOrgChart_Forest .rocItemWrap {}
+
+
+
+
+/** Items */
+.RadOrgChart_Forest .rocItem {}
+
+
+	.RadOrgChart_Forest .rocItemContent,
+	.RadOrgChart_Forest .rocItemTemplate {
+		border-color: #3c4c30;
+		border-radius: 5px;
+		background-color: #4c7822;
+		background-image: url('../Common/OrgChart/rocItemTileLight.png');
+		_background-image: none;
+	}
+
+
+
+
+/** Node lines */
+.RadOrgChart_Forest .rocLineUp,
+.RadOrgChart_Forest .rocLineDown,
+.RadOrgChart_Forest .rocLineHorizontal {
+	background-image: url('../Common/OrgChart/rocLinesDark.png');
+}

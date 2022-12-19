@@ -1,0 +1,165 @@
+/* RadUpload / Telerik skin */
+
+/* <general styles> */
+
+.RadUpload_Telerik,
+.RadUpload_Telerik a,
+.RadUpload_Telerik input,
+.RadUploadProgressArea_Telerik,
+.RadUploadProgressArea_Telerik input
+{
+    font: normal 11px/10px "Segoe UI", Arial, sans-serif;
+}
+
+/* </general styles> */
+
+/* <file inputs> */
+
+.RadUpload_Telerik .ruStyled .ruFileInput
+{
+    border-color: #abadb3;
+}
+
+.RadUpload_Telerik .ruFakeInput
+{
+    border-color: #8e8e8e #b8b8b8 #b8b8b8 #8e8e8e;
+    color: #4b4b4b;
+}
+* html .RadUpload_Telerik .ruFileWrap .ruInputHover { border-color: #b8b8b8; }
+*+html .RadUpload_Telerik .ruFileWrap .ruInputHover { border-color: #b8b8b8; }
+
+.RadUpload_Telerik .ruReadOnly .ruFakeInput
+{
+	background: #f3f3f3;
+}
+
+/* </file inputs> */
+
+/* <buttons> */
+
+.RadUpload_Telerik .ruButton,
+.RadUploadProgressArea_Telerik .ruButton
+{
+    background-image: url('Upload/ruSprite.png');
+    color: #000;
+}
+
+* html .RadUpload_Telerik .ruButton,
+* html .RadUploadProgressArea_Telerik .ruButton
+{
+    background-image: url('Upload/ruSpriteIE6.png');
+}
+
+.RadUpload_Telerik .ruRemove
+{
+	color: #6e6e6e;
+}
+
+div.RadUpload_Telerik .ruInputs .ruButtonHover,
+div.RadUpload_Telerik .ruActions .ruButtonHover,
+div.RadUploadProgressArea_Telerik .ruActions .ruButtonHover
+{
+    background-position: 100% -23px;
+}
+
+div.RadUpload_Telerik .ruFileWrap .ruButtonHover
+{
+    background-position: 100% 0;
+}
+
+/* </buttons> */
+
+/* <submit button> */
+/* (use this class to style a single button for uploads) */
+
+.RadUploadSubmit
+{
+    background-image: url('Upload/ruSprite.png');
+    color: #000;
+}
+
+/* </submit button> */
+
+/* <progress area> */
+
+.RadUploadProgressArea_Telerik .ruProgress
+{
+    border-color: #828282;
+    background-image: url('Upload/ruSprite.png');
+    background-color: #fff;
+}
+
+.RadUploadProgressArea_Telerik .ruProgress li
+{
+    color: #222;
+}
+
+.RadUploadProgressArea_Telerik li.ruProgressHeader
+{
+    color: #316300;
+}
+
+.RadUploadProgressArea_Telerik .ruProgress li.ruCurrentFile
+{
+    color: #222;
+}
+
+.RadUploadProgressArea_Telerik .ruProgress div.ruBar
+{
+    border-color: #87df6c;
+    background-color: #d3f8c7;
+    background-image: url('Upload/ruSprite.png');
+}
+ 
+.RadUploadProgressArea_Telerik .ruProgress .ruBar div
+{
+    background-image: url('Upload/ruProgress.gif');
+    border-right: 1px solid #58ba3a;
+}
+
+.RadUploadProgressArea_Telerik_rtl .ruProgress .ruBar div
+{
+    background-image: url('Upload/ruProgress.gif');
+    border-right: 0;
+    border-left: 1px solid #58ba3a;
+}
+ 
+.RadUploadProgressArea_Telerik .ruProgress .ruActions
+{
+	border-top-color: #828282;
+	background: #eee;
+}
+
+/* </progress area> */
+
+/* <RadAsyncUpload> */
+
+.RadUpload_Telerik .ruUploadInvalid
+{
+    background-repeat: no-repeat;
+    background-position: 100% -297px;
+    background-image: url('Input/sprite.gif');
+}
+
+.RadUpload_Telerik_rtl .ruUploadInvalid
+{
+    background-position: 3px -297px;
+}
+
+.RadUpload_Telerik .ruFileProgress,
+.RadUpload_Telerik .ruFileProgressWrap
+{
+    background-image: url('Upload/AsyncProgress.png');
+}
+
+.RadUpload_Telerik .ruFileProgress,
+.RadUpload_Telerik_rtl .ruFileProgressWrap { background-position: 0 0; }
+.RadUpload_Telerik .ruFileProgressWrap,
+.RadUpload_Telerik_rtl .ruFileProgress { background-position: 100% 0; }
+
+.RadUpload_Telerik .ruProgressStarted,
+.RadUpload_Telerik_rtl .ruProgressComplete { background-position: 0 -5px; }
+.RadUpload_Telerik .ruProgressComplete,
+.RadUpload_Telerik_rtl .ruProgressStarted { background-position: 100% -5px; }
+
+/* </RadAsyncUpload> */

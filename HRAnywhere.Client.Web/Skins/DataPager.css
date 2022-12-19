@@ -1,0 +1,125 @@
+/*Telerik RadDataPager Common CSS*/
+
+.RadDataPager{display:inline-block;}
+.RadDataPager{display:block;}
+.RadDataPager:after{content:"";display:block;clear:both;visibility:hidden;height:0;}
+
+.RadDataPager
+{
+	min-height:22px;
+	padding:3px 0;
+}
+
+.RadDataPager .rdpWrap,
+.RadDataPager .rdpWrapRight,
+.RadDataPager .rdpWrapNone
+{
+	float:left;
+	padding:0 10px;
+	line-height:22px;
+	white-space:nowrap;
+}
+
+.RadDataPager .rdpWrapRight
+{
+	float:right;
+}
+
+.RadDataPager .rdpWrapNone
+{
+	float:none;
+}
+
+.RadDataPager .rdpPageFirst,
+.RadDataPager .rdpPagePrev,
+.RadDataPager .rdpPageNext,
+.RadDataPager .rdpPageLast
+{
+	width:22px;
+	height:22px;
+	border:0;
+	margin:0;
+	padding:0;
+	background-color:transparent;
+	background-repeat:no-repeat;
+	vertical-align:bottom;
+	font-size:1px;
+	cursor:pointer;
+}
+
+.RadDataPager .rdpPageFirst,
+.RadDataPager .rdpPagePrev
+{
+	margin-right:1px;
+}
+
+.RadDataPager .rdpPageNext,
+.RadDataPager .rdpPageLast
+{
+	margin-left:1px;
+}
+
+.RadDataPager .rdpPagerButton
+{
+	height:22px;
+	margin:0 14px 0 0;
+	padding:0 4px 2px;
+	vertical-align:middle;
+	cursor:pointer;
+}
+
+.RadDataPager .rdpNumPart a
+{
+	float:left;
+	margin:0;
+	padding:0 5px 0 0;
+	line-height:22px;
+	text-decoration:none;
+}
+
+.RadDataPager .rdpNumPart span
+{
+	float:left;
+	padding:0 0 0 5px;
+}
+
+.RadDataPager .rdpNumPart a:hover span
+{
+	cursor:pointer;
+}
+
+.RadDataPager .rdpNumPart a.rdpCurrentPage,
+.RadDataPager .rdpNumPart a.rdpCurrentPage:hover,
+.RadDataPager .rdpNumPart a.rdpCurrentPage span,
+.RadDataPager .rdpNumPart a.rdpCurrentPage:hover span
+{
+	cursor:default;
+}
+
+.RadDataPager .rdpWrap a img
+{
+	border:0;
+	margin:0 8px;
+}
+
+.RadDataPager .RadSlider
+{
+	float:left;
+	margin:0 10px 0 0;
+}
+
+.RadDataPager .rdpPagerLabel,
+.RadDataPager .rdpPager .RadComboBox,
+.RadDataPager .rdpPager .RadInput
+{
+	margin:0 4px 0 0;
+	vertical-align:middle;
+}
+
+*+html .RadDataPager .rdpPager .RadComboBox{margin-top:-1px;}
+* html .RadDataPager .rdpPager .RadComboBox{margin-top:-1px;padding:1px 0;}
+
+.RadDataPager .rdpPagerTextBox
+{
+	text-align:center;
+}

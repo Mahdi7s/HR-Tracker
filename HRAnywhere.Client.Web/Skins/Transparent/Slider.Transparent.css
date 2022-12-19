@@ -1,0 +1,138 @@
+/* RadSlider for ASP.NET AJAX Transparent Skin */
+.RadSlider_Transparent .rslTrack
+{
+	border-color: transparent;
+}
+
+/*base style overwrites*/
+div.RadSlider_Transparent, 
+div.RadSlider_Transparent .rslItem, 
+div.RadSlider_Transparent .rslLargeTick span 
+{
+	color: #000;
+}
+
+
+/*base style overwrites end*/
+
+.RadSlider_Transparent .rslHorizontal a.rslHandle
+{
+	background-image: url('Slider/Handles.png');
+}
+
+.RadSlider_Transparent .rslHorizontal a.rslDraghandle
+{
+	background-image: url('Slider/DragHandle.png');
+}
+
+.RadSlider_Transparent .rslTop a.rslDraghandle
+{
+	background-image: url('Slider/DragHandleDown.png');
+}
+
+.RadSlider_Transparent .rslHorizontal .rslTrack
+{
+	background: url('Slider/TrackBgr.png') repeat-x;
+}
+
+.RadSlider_Transparent .rslHorizontal .rslSelectedregion
+{
+	background: url('Slider/SelectedRegionHorizontalBgr.png') right top no-repeat;
+}
+
+/* vertical slider */
+.RadSlider_Transparent .rslVertical a.rslHandle
+{
+	background-image: url('Slider/HandlesVertical.png');
+}
+
+.RadSlider_Transparent .rslVertical .rslTrack
+{
+	background: url('Slider/TrackVerticalBgr.png') repeat-y;
+}
+
+.RadSlider_Transparent .rslVertical .rslSelectedregion
+{
+	background: url('Slider/SelectedRegionVerticalBgr.png') left bottom no-repeat;
+}
+
+.RadSlider_Transparent .rslVertical a.rslDraghandle
+{
+	background: url('Slider/DragVerticalHandle.png') no-repeat;
+}
+
+.RadSlider_Transparent .rslLeft a.rslDraghandle
+{
+	background: url('Slider/DragVerticalHandleRight.png') no-repeat;
+}
+
+.RadSlider_Transparent .rslItem,
+.RadSlider_Transparent .rslLargeTick span
+{
+	color:#333;
+}
+
+.RadSlider_Transparent .rslItemsWrapper .rslItemSelected
+{
+	color:#000;
+}
+
+/* horizontal slider items */
+.RadSlider_Transparent .rslHorizontal .rslItem
+{
+	background-image: url('Slider/ItemHorizontalBgr.png');
+}
+
+/* vertical slider items */
+.RadSlider_Transparent .rslVertical .rslItem
+{
+	background-image: url('Slider/ItemVerticalBgr.png');
+}
+
+/* horizontal slider - TrackPosition=Top/Bottom */
+.RadSlider_Transparent .rslTop .rslSmallTick,
+.RadSlider_Transparent .rslBottom .rslSmallTick
+{
+	background-image: url('Slider/SmallChangeHorizontal.png');
+}
+
+.RadSlider_Transparent .rslTop .rslLargeTick,
+.RadSlider_Transparent .rslBottom .rslLargeTick
+{
+	background-image: url('Slider/LargeChangeHorizontal.png');
+}
+
+/* vertical slider - TrackPosition=Left/Right */
+.RadSlider_Transparent .rslLeft .rslSmallTick,
+.RadSlider_Transparent .rslRight .rslSmallTick
+{
+	background-image: url('Slider/SmallChangeVertical.png');
+}
+
+.RadSlider_Transparent .rslLeft .rslLargeTick,
+.RadSlider_Transparent .rslRight .rslLargeTick 
+{
+	background-image: url('Slider/LargelChangeVertical.png');
+}
+
+/* horizontal slider - TrackPosition=Center */
+.RadSlider_Transparent .rslMiddle .rslSmallTick
+{
+	background-image: url('Slider/SmallChangeMiddleHorizontal.png');
+}
+
+.RadSlider_Transparent .rslMiddle .rslLargeTick  
+{
+	background-image: url('Slider/LargeChangeMiddleHorizontal.png');
+}
+
+/* vertical slider - TrackPosition=Center */
+.RadSlider_Transparent .rslCenter .rslSmallTick
+{
+	background-image: url('Slider/SmallChangeCenterVertical.png');
+}
+
+.RadSlider_Transparent .rslCenter .rslLargeTick
+{
+	background-image: url('Slider/LargelChangeCenterVertical.png');
+}

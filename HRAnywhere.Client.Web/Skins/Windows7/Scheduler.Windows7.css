@@ -1,0 +1,639 @@
+/* RadScheduler Vista skin */
+
+/* common */
+.RadScheduler_Windows7,
+.RadScheduler_Windows7 a,
+.RadScheduler_Windows7 input,
+.RadScheduler_Windows7 select,
+.RadScheduler_Windows7 textarea
+{
+	color: #000;
+	font: normal 12px/14px "Segoe UI", Arial, sans-serif;
+}
+
+.RadScheduler_Windows7 textarea
+{
+	background: #fff;
+}
+
+/* header */
+
+/* header sprites */
+.RadScheduler_Windows7 .rsHeader,
+.RadScheduler_Windows7 .rsHeader ul a:hover,
+.RadScheduler_Windows7 .rsHeader ul a:hover span,
+.RadScheduler_Windows7 .rsHeader .rsSelected,
+.RadScheduler_Windows7 .rsHeader .rsSelected em,
+.RadScheduler_Windows7 .rsHeader .rsDatePickerActivator,
+.RadScheduler_Windows7 .rsHeader .rsPrevDay,
+.RadScheduler_Windows7 .rsHeader .rsNextDay,
+.RadScheduler_Windows7 .rsHorizontalHeaderTable th
+{
+	background-image: url('Scheduler/rsSprites.png');
+}
+
+* html .RadScheduler_Windows7 .rsHeader,
+* html .RadScheduler_Windows7 .rsHeader ul a:hover,
+* html .RadScheduler_Windows7 .rsHeader ul a:hover span,
+* html .RadScheduler_Windows7 .rsHeader .rsSelected,
+* html .RadScheduler_Windows7 .rsHeader .rsSelected em,
+* html .RadScheduler_Windows7 .rsHeader .rsDatePickerActivator,
+* html .RadScheduler_Windows7 .rsHeader .rsPrevDay,
+* html .RadScheduler_Windows7 .rsHeader .rsNextDay,
+* html .RadScheduler_Windows7 .rsHorizontalHeaderTable th
+{
+	background-image: url('Scheduler/rsSpritesIE6.png');
+}
+
+.RadScheduler_Windows7 .rsHeader
+{
+	border: 1px solid #cddaea;
+}
+
+.RadScheduler_Windows7 .rsHeader,
+.RadScheduler_Windows7 .rsHeader a,
+.RadScheduler_Windows7 .rsHeader ul span,
+.RadScheduler_Windows7 .rsHeader ul em
+{
+	color: #1e395b;
+}
+
+*+html .RadScheduler_Windows7 .rsHeader .RadCalendar_Windows7 a { line-height: 20px; }
+* html .RadScheduler_Windows7 .rsHeader .RadCalendar_Windows7 a { line-height: 20px; }
+
+div.RadScheduler_Windows7 .rsHeader ul
+{
+	padding-top: 1px;
+}
+
+div.RadScheduler_Windows7 .rsHeader li,
+div.RadScheduler_Windows7 .rsTopWrap .rsHeader ul a
+{
+	line-height: 28px;
+}
+
+div.RadScheduler_Windows7 .rsHeader ul a:hover,
+div.RadScheduler_Windows7 .rsHeader .rsSelected 
+{
+	background-position: 0 -70px;
+}
+
+div.RadScheduler_Windows7 .rsHeader ul a:hover span,
+div.RadScheduler_Windows7 .rsHeader .rsSelected em
+{
+	background-position: 100% -70px;
+}
+
+div.RadScheduler_Windows7 .rsHeader .rsPrevDay, 
+div.RadScheduler_Windows7 .rsHeader .rsNextDay
+{
+	height: 22px;
+	line-height: 22px;
+	width: 22px;
+}
+
+div.RadScheduler_Windows7 .rsHeader .rsPrevDay 
+{
+	margin: 4px 0 0 3px;
+}
+
+div.RadScheduler_Windows7 .rsHeader .rsNextDay
+{
+	background-position: -23px -48px;
+	margin: 4px 6px 0 0;
+}
+
+div.RadScheduler_Windows7 .rsHeader a.rsNextDay:hover {
+	background-position: -93px -48px;
+}
+
+/* content */
+
+.RadScheduler_Windows7 .rsContent
+{
+	background: #fff;
+}
+
+/* <headers> */
+
+.RadScheduler_Windows7 .rsHorizontalHeaderTable
+{
+	background: #eff6fc;
+}
+
+.RadScheduler_Windows7 .rsHorizontalHeaderWrapper {
+	border-color: #d4dbe5;
+	background: #dfeaf7;
+}
+
+.RadScheduler_Windows7 .rsSpacerCell,
+.RadScheduler_Windows7 .rsAllDayHeader,
+.RadScheduler_Windows7 .rsVerticalHeaderWrapper,
+.RadScheduler_Windows7 .rsVerticalHeaderTable
+{
+	background: #f1f5fb;
+}
+
+.RadScheduler_Windows7 .rsHorizontalHeaderTable th
+{
+	border-color: #d4dbe5;
+	background-color: #dfeaf7;
+}
+
+.RadScheduler_Windows7 .rsVerticalHeaderTable th
+{
+	border-color: #eff7fc #e7edf7;
+}
+
+.RadScheduler_Windows7 .rsVerticalHeaderTable .rsAlt th
+{
+	border-color: #d4dbe5 #e7edf7;
+}
+
+/* </headers> */
+
+/* <all-day-row> */
+
+.RadScheduler_Windows7 .rsAllDayRow
+{
+	background: #dfeaf7;
+}
+
+.RadScheduler_Windows7 .rsSpacerCell,
+.RadScheduler_Windows7 .rsAllDayHeader,
+.RadScheduler_Windows7 .rsVerticalHeaderTable .rsAllDayHeader
+{
+	border-color: #a7bac5 #cfe4f0;
+}
+
+.RadScheduler_Windows7 .rsAllDayRow td,
+.RadScheduler_Windows7 .rsContentTable .rsAllDayRow td
+{
+	border-color: #d4dbe5;
+	border-style: solid;
+}
+
+.RadScheduler_Windows7 .rsVerticalHeaderTable .rsMainHeader th
+{
+	border-bottom-color: #A7BAC5;
+}
+
+.RadScheduler_Windows7 .rsSpacerCell,
+.RadScheduler_Windows7 .rsContent .rsAllDayHeader
+{
+	border-bottom-color: #d4dbe5;
+}
+
+/* </all-day-row> */
+
+.RadScheduler_Windows7 .rsContent,
+.RadScheduler_Windows7 .rsTopWrap .rsFooter
+{
+	border: 1px solid #a5b3c5;
+	border-top: 0;
+}
+
+.RadScheduler_Windows7 .rsContentTable td
+{
+	border-color: #e8eaec #e8eaec;
+	border-bottom-style: dotted;
+}
+
+.RadScheduler_Windows7 .rsContentTable .rsAlt td
+{
+	border-color: #d4dbe5 #e8eaec;
+	border-bottom-style: solid;
+}
+
+.RadScheduler_Windows7 .rsMonthView .rsOtherMonth
+{
+	background-color: #F9F9F9;
+}
+
+/* <appointments> */
+.RadScheduler_Windows7 .rsApt .rsArrowTop,
+.RadScheduler_Windows7 .rsApt .rsArrowBottom,
+.RadScheduler_Windows7 .rsApt .rsArrowLeft,
+.RadScheduler_Windows7 .rsApt .rsArrowRight,
+.RadScheduler_Windows7 .rsApt .rsAptDelete,
+.RadScheduler_Windows7 .rsApt a.rsAptDelete:hover,
+.RadScheduler_Windows7 .rsApt .rsAptResize,
+.RadScheduler_Windows7 .rsApt .rsAptReminder,
+.RadScheduler_Windows7 .rsApt .rsAptRecurrence,
+.RadScheduler_Windows7 .rsApt .rsAptRecurrenceException
+{
+	background-color: transparent;
+	background-image: url('Scheduler/rsSprites.png');
+	background-repeat: no-repeat;
+}
+
+* html .RadScheduler_Windows7 .rsApt .rsArrowTop,
+* html .RadScheduler_Windows7 .rsApt .rsArrowBottom,
+* html .RadScheduler_Windows7 .rsApt .rsArrowLeft,
+* html .RadScheduler_Windows7 .rsApt .rsArrowRight,
+* html .RadScheduler_Windows7 .rsApt .rsAptDelete,
+* html .RadScheduler_Windows7 .rsApt a.rsAptDelete:hover,
+* html .RadScheduler_Windows7 .rsApt .rsAptResize,
+* html .RadScheduler_Windows7 .rsApt .rsAptReminder,
+* html .RadScheduler_Windows7 .rsApt .rsAptRecurrence,
+* html .RadScheduler_Windows7 .rsApt .rsAptRecurrenceException
+{
+	background-image: url('Scheduler/rsSpritesIE6.png');
+}
+
+.RadScheduler_Windows7 .rsApt .rsAptDelete
+{
+	width: 16px;
+	height: 16px;
+	background-position: -40px -343px;
+}
+
+.RadScheduler_Windows7 a.rsAptDelete:hover
+{
+	background-position: -65px -343px;
+}
+
+.RadScheduler_Windows7 .rsAptCreate,
+.RadScheduler_Windows7 .rsMonthView .rsAptCreate,
+.RadScheduler_Windows7 .rsAptCreateRow2,
+.RadScheduler_Windows7 .rsMonthView .rsAptCreateRow2
+{
+	background-color: #e6eff7;
+	background-image: url('Scheduler/rsSprites.png');
+	background-repeat: repeat-x;
+}
+
+* hmtl .RadScheduler_Windows7 .rsAptCreate,
+* hmtl .RadScheduler_Windows7 .rsMonthView .rsAptCreate,
+* hmtl .RadScheduler_Windows7 .rsAptCreateRow2,
+* hmtl .RadScheduler_Windows7 .rsMonthView .rsAptCreateRow2
+{
+	background-image: url('Scheduler/rsSpritesIE6.png');
+}
+
+.RadScheduler_Windows7 .rsNonWorkHour,
+.RadScheduler_Windows7 .rsSunCol,
+.RadScheduler_Windows7 .rsSatCol
+{
+	background-color: #f5fcff;
+}
+
+.RadScheduler_Windows7 .rsAptCreateRow3,
+.RadScheduler_Windows7 .rsMonthView .rsAptCreateRow3,
+.RadScheduler_Windows7 .rsAptCreateRow4,
+.RadScheduler_Windows7 .rsMonthView .rsAptCreateRow4,
+.RadScheduler_Windows7 .rsAptCreateRow5,
+.RadScheduler_Windows7 .rsMonthView .rsAptCreateRow5
+{
+	background: #e6eff7;
+}
+
+.RadScheduler_Windows7 .rsFullTime 
+{
+	color: #000;
+}
+
+.RadScheduler_Windows7 .rsSelectedSlot,
+.RadScheduler_Windows7 .rsMonthView .rsSelectedSlot
+{
+    background: #e6f8fe;
+    border-color: #d6e8ee;
+}
+
+.RadScheduler_Windows7 .rsContentTable td.rsAptCreate.rsSelectedSlot
+{
+    background: #d6e8ee;
+    border-color: #c6d8de;
+}
+
+.RadScheduler_Windows7 .rsContentTable td.rsSelectedSlot
+{
+    background: #e6f8fe;
+    border-color: #d6e8ee;
+}
+
+/* <New appointment imageless rendering */
+.RadScheduler_Windows7 .rsAptIn, 
+.RadScheduler_Windows7 .rsAptMid, 
+.RadScheduler_Windows7 .rsAptContent
+{
+    background-color: #c9e0fc;
+	border-color: #8daed5;
+}
+
+.RadScheduler_Windows7 .rsAptContent
+{
+    background-image: url('Scheduler/rsAppointmentBg.png');
+}
+/* </New appointment imageless rendering> */
+
+.RadScheduler_Windows7 .rsAptSimple
+{
+	background-color: #d5effc;
+	border-color: #99defd;
+}
+
+/* </appointments> */
+
+/* <footer> */
+
+.RadScheduler_Windows7 div.rsFooter
+{
+	background-color: #f0fafd;
+	background-image: url('Scheduler/rsSprites.png');
+	background-repeat: repeat-x;
+	border-color: #a2a2a2;
+}
+
+.RadScheduler_Windows7 div.rsFooter a
+{
+	color: #1e395b;
+	background-color: transparent;
+	background-image: url('Scheduler/rsSprites.png');
+	background-repeat: no-repeat;
+}
+
+* html .RadScheduler_Windows7 div.rsFooter,
+* html .RadScheduler_Windows7 div.rsFooter a
+{
+	background-image: url('Scheduler/rsSpritesIE6.png');
+}
+
+.RadScheduler_Windows7 div.rsFooter a:hover
+{
+	color: #3e597b;
+}
+
+/* </footer> */
+
+/* <inline edit form> */
+
+.RadScheduler_Windows7 .rsEditOptions a,
+.RadScheduler_Windows7 .rsAptEditResizeHandle,
+.RadScheduler_Windows7 .rsAptEditFormWrapper
+{
+	background-image: url('Scheduler/rsSprites.png');
+}
+
+* html .RadScheduler_Windows7 .rsEditOptions a,
+* html .RadScheduler_Windows7 .rsAptEditResizeHandle,
+* html .RadScheduler_Windows7 .rsAptEditFormWrapper
+{
+	background-image: url('Scheduler/rsSpritesIE6.png');
+}
+
+.RadScheduler_Windows7 .rsAptEditFormOuter, /* top */
+.RadScheduler_Windows7 .rsAptEditFormInner  /* bottom */
+{
+	background-image: url('Scheduler/rsInlineEditHSprite.png');
+}
+
+.RadScheduler_Windows7 .rsAptEditFormMiddle, /* left */
+.RadScheduler_Windows7 .rsAptEditFormMiddle2 /* right */
+{
+	background-image: url('Scheduler/rsInlineEditVSprite.png');
+}
+
+.RadScheduler_Windows7 .rsAptEditFormWrapper .rsAptEditTextareaWrapper
+{
+	border-color: #9cb6c5;
+	background: #fff;
+}
+
+.RadScheduler_Windows7 .rsAptEditFormWrapper .rsAptEditTextareaWrapper textarea
+{
+	background: #fff;
+}
+
+.RadScheduler_Windows7 .rsAptEditFormWrapper .rsEditOptions 
+{
+	background: #dfe4f5;
+}
+
+/* <inline edit form template> */
+
+.RadScheduler_Windows7 .rsAptEditFormWrapper .rsTemplateWrapper 
+{
+	background: #DFE4F5;
+}
+
+/* </inline edit form template> */
+
+/* </inline edit form> */
+
+/* <advanced edit form> */
+
+.RadScheduler_Windows7 .rsAdvancedEdit .rsAdvContentWrapper
+{
+	background: #f0f0f0;
+	border: 1px solid #9cb6c5;
+	border-top-color: #a5b3c5;
+}
+
+.RadScheduler_Windows7 div.rsAdvancedModal div.rsAdvContentWrapper
+{
+    border-top: 0;
+}
+
+.RadScheduler_Windows7 div.rsAdvancedModal .rsAdvButtonWrapper
+{
+    padding: 10px 10px 18px 0;
+}
+
+* html .RadScheduler_Windows7 div.rsAdvancedModal .rsAdvButtonWrapper
+{
+    padding: 10px 10px 10px 0;
+}
+
+* html .RadScheduler_Windows7 div.rsAdvancedModal .rsAdvContentWrapper
+{
+    margin-top: -2px;
+	background: #f0f0f0;
+    border: 1px solid #fff;
+}
+
+/* <xref input skins> */
+
+.RadScheduler_Windows7 .rsAdvancedEdit .rsAdvInput,
+.RadScheduler_Windows7 .rsAdvancedEdit select,
+.RadScheduler_Windows7 .rsAdvancedEdit .textareaWrapper
+{
+	border-color: #ABADB3 #DBDFE6 #DBDFE6 #ABADB3;
+}
+
+.RadScheduler_Windows7 .rsAdvancedEdit .rsInvalid textarea,
+.RadScheduler_Windows7 .rsAdvancedEdit .rsInvalid input,
+.RadScheduler_Windows7 .rsAdvancedEdit .rsAdvTimePicker .riEmpty
+{
+	background-image: url('Input/sprite.gif');
+}
+
+.RadScheduler_Windows7 .rsAdvancedEdit .textareaWrapper
+{
+	background: #fff;
+}
+
+.RadScheduler_Windows7 .rsAdvancedEdit .rsInvalid
+{
+	border-color: #F32800;
+	color: #F32800;
+}
+/* </xref input skins> */
+
+.RadScheduler_Windows7 .rsAdvancedEdit h2,
+.RadScheduler_Windows7 .rsAdvancedEdit h3
+{
+	color: #567db0;
+}
+
+.RadScheduler_Windows7 .rsAdvancedEdit h2
+{
+	border-bottom: 1px solid #CCC;
+}
+
+.RadScheduler_Windows7 .rsAdvancedEdit h2 span
+{
+	background: #f0f0f0;
+}
+
+.RadScheduler_Windows7 .rsAdvancedEdit .rsAdvancedSubmitArea
+{
+	border-color: #CCC;
+}
+
+.RadScheduler_Windows7 .rsAdvancedEdit div.rsAdvancedSubmitArea a 
+{
+	color: #333;
+	background-image: url('Scheduler/rsSprites.png');
+}
+
+/* </advanced edit form> */
+
+/* <date/time picker> */
+
+.RadScheduler_Windows7 .rsTimePick .RadInput_Windows7 input.riEnabled,
+.RadScheduler_Windows7 .rsTimePick .RadInput_Windows7 input.riHover,
+.RadScheduler_Windows7 .rsTimePick .RadInput_Windows7 input.riFocused
+{
+	background-image: url('Scheduler/rsSprites.png');
+}
+
+* html .RadScheduler_Windows7 .rsTimePick .RadInput_Windows7 input.riEnabled,
+* html .RadScheduler_Windows7 .rsTimePick .RadInput_Windows7 input.riHover,
+* html .RadScheduler_Windows7 .rsTimePick .RadInput_Windows7 input.riFocused,
+* html .RadScheduler_Windows7 .rsAdvancedEdit div.rsAdvancedSubmitArea a 
+{
+	background-image: url('Scheduler/rsSpritesIE6.png');
+}
+
+/* </date/time picker> */
+
+/* <modal dialogs> */
+
+.RadScheduler_Windows7 .rsModalBgTopLeft,
+.RadScheduler_Windows7 .rsModalBgTopRight,
+.RadScheduler_Windows7 .rsModalBgBottomLeft,
+.RadScheduler_Windows7 .rsModalBgBottomRight
+{
+    background-image: url('Scheduler/rsModalBg.png');
+}
+
+div.RadScheduler_Windows7 .rsAnimating
+{
+    background-image: url('Scheduler/rsModalBgIE6.png');
+}
+
+* html .RadScheduler_Windows7 .rsModalBgTopLeft,
+* html .RadScheduler_Windows7 .rsModalBgTopRight,
+* html .RadScheduler_Windows7 .rsModalBgBottomLeft,
+* html .RadScheduler_Windows7 .rsModalBgBottomRight
+{
+    background-image: url('Scheduler/rsModalBgIE6.png');
+}
+
+.RadScheduler_Windows7 .rsAdvancedEdit .rsAdvTitle,
+.RadScheduler_Windows7 .rsAdvancedEdit .rsAdvInnerTitle
+{
+    background-image: url('Scheduler/rsModalTitleBg.png');
+}
+
+.RadScheduler_Windows7 .rsAdvancedEdit a.rsAdvEditClose,
+.RadScheduler_Windows7 .rsModalWrapper a.rsModalWindowClose
+{
+	background-image: url('Scheduler/rsSprites.png');
+	opacity: 0.8;
+	-moz-opacity: 0.8;
+	filter: alpha(opacity=80);
+	height:20px;
+	margin-top: -24px;
+	width:29px;
+}
+
+.RadScheduler_Windows7 .rsAdvancedEdit a.rsAdvEditClose
+{
+    margin-top: -25px;
+}
+
+.RadScheduler_Windows7 .rsAdvancedEdit a.rsAdvEditClose:hover,
+.RadScheduler_Windows7 .rsModalWrapper a.rsModalWindowClose:hover
+{
+	opacity: 1;
+	-moz-opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.RadScheduler_Windows7 .rsModalWrapper .rsModalTitle
+{
+	color: #000;
+	background-image: url('Scheduler/rsSprites.png');
+}
+
+.RadScheduler_Windows7 .rsModalWrapper .rsModalInner
+{
+	border-color: #a5b3c5;
+	background: #fff;
+}
+
+.RadScheduler_Windows7 .rsModalWrapper .rsModalIcon,
+.RadScheduler_Windows7 .rsModalWrapper .rsModalButtons a
+{
+	background-image: url('Scheduler/rsSprites.png');
+}
+
+* html .RadScheduler_Windows7 .rsAdvancedEdit a.rsAdvEditClose,
+* html .RadScheduler_Windows7 .rsModalWrapper a.rsModalWindowClose,
+* html .RadScheduler_Windows7 .rsModalWrapper .rsModalTitle,
+* html .RadScheduler_Windows7 .rsModalWrapper .rsModalIcon,
+* html .RadScheduler_Windows7 .rsModalWrapper .rsModalButtons a
+{
+	background-image: url('Scheduler/rsSpritesIE6.png');
+}
+
+/* Inline Edit buttons + ModalDialog buttons */
+.RadScheduler_Windows7 .rsModalWrapper .rsModalButtons a,
+.RadScheduler_Windows7 .rsTopWrap .rsAptEditFormWrapper .rsEditOptions a
+{
+	color: #333;
+}
+
+/* </modal dialogs> */
+
+.RadScheduler_Windows7 .rsBottomIndicator .rsOvertimeArrow
+{
+	background: transparent url('Scheduler/rsSprites.png') no-repeat -180px -31px;
+}        	
+
+.RadScheduler_Windows7 .rsTopIndicator .rsOvertimeArrow
+{
+	background: transparent url('Scheduler/rsSprites.png') no-repeat -134px -31px;
+}
+
+
+
+
+.RadScheduler_Windows7 .rsAptSelected .rsAptIn,
+.RadScheduler_Windows7 .rsAptSelected .rsAptMid,
+.RadScheduler_Windows7 .rsAptSelected .rsAptContent {
+	border-color: #1e395b;
+	background-image: none;
+}

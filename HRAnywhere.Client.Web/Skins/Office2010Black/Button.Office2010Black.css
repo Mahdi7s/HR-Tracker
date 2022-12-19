@@ -1,0 +1,133 @@
+/* RadButton Office2010Black Skin */
+
+.RadButton_Office2010Black.rbSkinnedButton,
+.RadButton_Office2010Black .rbDecorated,
+.RadButton_Office2010Black.rbVerticalButton,
+.RadButton_Office2010Black.rbVerticalButton .rbDecorated,
+.RadButton_Office2010Black .rbSplitRight,
+.RadButton_Office2010Black .rbSplitLeft
+{
+	background-image: url('Button/ButtonSprites.gif');
+}
+
+.RadButton_Office2010Black .rbToggleCheckbox,
+.RadButton_Office2010Black .rbToggleCheckboxChecked,
+.RadButton_Office2010Black .rbToggleCheckboxFilled,
+.RadButton_Office2010Black .rbToggleRadio,
+.RadButton_Office2010Black .rbToggleRadioChecked
+{
+	background-image: url('Button/ToggleSprite.gif');
+
+}
+
+.RadButton_Office2010Black.rbToggleButton,
+.RadButton_Office2010Black.rbToggleButton.rbDisabled:hover
+{
+	color: #000;
+}
+
+a.RadButton_Office2010Black.rbLinkButton
+{
+	border: 1px solid #262626;
+	color: #000;
+	text-decoration: none;
+	background-color: #c4c4c4;
+}
+
+.RadButton_Office2010Black.rbLinkButton:hover
+{
+	background-color: #ffe587;
+	border: 1px solid #f7c840;
+}
+
+.RadButton_Office2010Black.rbLinkButton:active
+{
+	background-color: #f8cf4a;
+	border: 1px solid #c29941;
+}
+
+.RadButton_Office2010Black.rbLinkButtonChecked,
+.RadButton_Office2010Black.rbLinkButtonChecked:hover
+{
+	background-color: #ffe587;
+	color: #000;
+	border: 1px solid #262626;
+}
+
+.RadButton_Office2010Black.rbLinkButton.rbDisabled,
+.RadButton_Office2010Black.rbLinkButton.rbDisabled:hover
+{
+	background-color: #f9f8f8;
+	border: 1px solid #d0d0d0;
+	color: #6a6a6a;
+}
+
+.RadButton_Office2010Black.rbLinkButton:hover .rbSplitLeft,
+.RadButton_Office2010Black.rbLinkButton:hover .rbSplitRight
+{
+	background-color: #c4c4c4;
+}
+
+.RadButton_Office2010Black.rbLinkButton .rbSplitRight
+{
+	border-left: 1px solid #262626;
+}
+
+.RadButton_Office2010Black.rbLinkButton .rbSplitRight:hover
+{
+	background-color: #e9b809;
+	border-left: 1px solid #dcae08;
+}
+
+.RadButton_Office2010Black.rbLinkButton .rbSplitRight:active,
+.RadButton_Office2010Black.rbLinkButton .rbSplitRight:focus
+{
+	background-color: #f8cf4a;
+	border-left: 1px solid #c29941;
+}
+
+.RadButton_Office2010Black.rbLinkButton .rbSplitLeft
+{
+	border-right: 1px solid #262626;
+}
+
+.RadButton_Office2010Black.rbLinkButton .rbSplitLeft:hover
+{
+	background-color: #e9b809;
+	border-right: 1px solid #dcae08;
+}
+
+.RadButton_Office2010Black.rbLinkButton .rbSplitLeft:active,
+.RadButton_Office2010Black.rbLinkButton .rbSplitLeft:focus
+{
+	background-color: #f8cf4a;
+	border-right: 1px solid #c29941;
+}
+
+.RadButton_Office2010Black.rbLinkButton.rbDisabled .rbSplitLeft,
+.RadButton_Office2010Black.rbLinkButton.rbDisabled .rbSplitLeft:hover,
+.RadButton_Office2010Black.rbLinkButton.rbDisabled .rbSplitLeft:active,
+.RadButton_Office2010Black.rbLinkButton.rbDisabled .rbSplitLeft:focus
+{
+	border-right: 1px solid #D0D0D0;
+}
+
+.RadButton_Office2010Black.rbLinkButton.rbDisabled .rbSplitRight,
+.RadButton_Office2010Black.rbLinkButton.rbDisabled .rbSplitRight:hover,
+.RadButton_Office2010Black.rbLinkButton.rbDisabled .rbSplitRight:active,
+.RadButton_Office2010Black.rbLinkButton.rbDisabled .rbSplitRight:focus
+{
+	border-left: 1px solid #D0D0D0;
+}
+
+/* IE6 Fix, should be important to override the joint selectors */
+*html .RadButton_Office2010Black.rbLinkButton
+{
+	border: 1px solid #262626 !important;
+}
+
+*html .RadButton_Office2010Black.rbLinkButton:hover
+{
+	border: 1px solid #f7c840 !important;
+}
+

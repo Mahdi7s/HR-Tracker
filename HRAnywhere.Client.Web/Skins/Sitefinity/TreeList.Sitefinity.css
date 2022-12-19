@@ -1,0 +1,278 @@
+/* Telerik RadTreeList Sitefinity Skin */
+
+/*global*/
+
+.RadTreeList_Sitefinity,
+.rtlCEdit div.RadTreeList_Sitefinity
+{
+	border-color:#999;
+	background:#fff;
+	color:#000;
+}
+
+.RadTreeList_Sitefinity .rtlAdd,
+.RadTreeList_Sitefinity .rtlEdit,
+.RadTreeList_Sitefinity .rtlUpdate,
+.RadTreeList_Sitefinity .rtlCancel,
+.RadTreeList_Sitefinity .rtlDel
+{
+	background-image:url('Grid/sprite.gif');
+}
+
+.RadTreeList_Sitefinity .rtlTable
+{
+	font:12px/16px arial,sans-serif;
+}
+
+.RadTreeList_Sitefinity .rtlHeader
+{
+	background:#fff;
+	font-size:9px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+}
+
+.RadTreeList .rtlEditForm .rtlHeader 
+{
+    border-bottom:1px solid #ccc;
+}
+
+.RadTreeList_Sitefinity .rtlHeader,
+.RadTreeList_Sitefinity .rtlHeader a
+{
+	color:#777;
+}
+
+.RadTreeList_Sitefinity .rtlHeader,
+.RadTreeList_Sitefinity .rtlHeader th
+{
+	border-color:#ccc;
+}
+
+.RadTreeList_Sitefinity .rtlScroller
+{
+	border-color:#ccc;
+}
+
+.RadTreeList_Sitefinity .rtlA
+{
+	background-color:#f1f1f1;
+}
+
+.RadTreeList_Sitefinity .rtlRSel
+{
+	background:#ffffe1;
+}
+
+.RadTreeList_Sitefinity .rtlRActive
+{
+    background:#ececec;
+}
+
+.rtlCEdit .RadTreeList_Sitefinity 
+{
+    border-right:1px solid;
+    border-top:1px solid;
+}
+
+.RadTreeList_Sitefinity .rtlR td,
+.RadTreeList_Sitefinity .rtlA td,
+.RadTreeList_Sitefinity .rtlREdit td,
+.RadTreeList_Sitefinity .rtlRFooter td,
+.RadTreeList_Sitefinity .rtlEditForm
+{
+	border-color:#ccc;
+}
+
+.RadTreeList_Sitefinity .rtlR a,
+.RadTreeList_Sitefinity .rtlA a,
+.RadTreeList_Sitefinity .rtlREdit a,
+.RadTreeList_Sitefinity .rtlEditForm a
+{
+	color:#105CB6;
+}
+
+.RadTreeList_Sitefinity .rtlVBorders td.rtlL,
+.RadTreeList_Sitefinity .rtlLines td.rtlL
+{
+	background-color:#fff;
+}
+
+.RadTreeList_Sitefinity .rtlDrag,
+.RadTreeList_Sitefinity .rtlExpand,
+.RadTreeList_Sitefinity .rtlCollapse
+{
+	background-image:url('TreeList/sprite.gif');
+}
+
+.RadTreeList_Sitefinity .rtlExpand
+{
+	background-position:0 0;
+}
+
+.RadTreeList_Sitefinity .rtlCollapse
+{
+	background-position:0 -50px;
+}
+
+.RadTreeList_Sitefinity .rtlSortAsc,
+.RadTreeList_Sitefinity .rtlSortDesc
+{
+	background-image:url('Grid/sprite.gif');
+	height:12px;
+}
+
+.RadTreeList_Sitefinity .rtlSortAsc
+{
+	background-position:3px -250px;
+}
+
+.RadTreeList_Sitefinity .rtlSortDesc
+{
+	background-position:3px -200px;
+}
+
+.RadTreeList_Sitefinity .rtlLines td.rtlL0
+{
+	background-image:url('TreeList/rtlSingle.gif');
+}
+
+.RadTreeList_Sitefinity .rtlLines td.rtlL1
+{
+	background-image:url('TreeList/rtlTop.gif');
+}
+
+.RadTreeList_Sitefinity .rtlLines td.rtlL2
+{
+	background-image:url('TreeList/rtlMiddle.gif');
+}
+
+.RadTreeList_Sitefinity .rtlLines td.rtlL3
+{
+	background-image:url('TreeList/rtlBottom.gif');
+}
+
+/*rtl*/
+
+.RadTreeListRTL_Sitefinity .rtlLines td.rtlL1
+{
+	background-image:url('TreeList/rtlTopRTL.gif');
+}
+
+.RadTreeListRTL_Sitefinity .rtlLines td.rtlL2
+{
+	background-image:url('TreeList/rtlMiddleRTL.gif');
+}
+
+.RadTreeListRTL_Sitefinity .rtlLines td.rtlL3
+{
+	background-image:url('TreeList/rtlBottomRTL.gif');
+}
+
+/*pager*/
+
+.RadTreeList_Sitefinity .rtlPager
+{
+	background:#fff;
+}
+
+.RadTreeList_Sitefinity .rtlPagerCell
+{
+	border-color:#ccc;
+}
+
+.RadTreeList_Sitefinity .rtlPager .rtlInfoPart
+{
+	color:#666;
+}
+
+.RadTreeList_Sitefinity .rtlPager .rtlInfoPart strong
+{
+	color:#232323;
+}
+
+.RadTreeList_Sitefinity .rtlPager .rtlPageFirst,
+.RadTreeList_Sitefinity .rtlPager .rtlPagePrev,
+.RadTreeList_Sitefinity .rtlPager .rtlPageNext,
+.RadTreeList_Sitefinity .rtlPager .rtlPageLast
+{
+	background:transparent no-repeat url('Grid/sprite.gif');
+}
+
+.RadTreeList_Sitefinity .rtlPager .rtlPageFirst
+{
+	background-position:0 -550px;
+}
+.RadTreeList_Sitefinity .rtlPager .rtlPageFirst:hover
+{
+	background-position:0 -600px;
+}
+.RadTreeList_Sitefinity .rtlPager .rtlPagePrev
+{
+	background-position:0 -700px;
+}
+.RadTreeList_Sitefinity .rtlPager .rtlPagePrev:hover
+{
+	background-position:0 -750px;
+}
+.RadTreeList_Sitefinity .rtlPager .rtlPageNext
+{
+	background-position:0 -850px;
+}
+.RadTreeList_Sitefinity .rtlPager .rtlPageNext:hover
+{
+	background-position:0 -900px;
+}
+.RadTreeList_Sitefinity .rtlPager .rtlPageLast
+{
+	background-position:0 -1000px;
+}
+.RadTreeList_Sitefinity .rtlPager .rtlPageLast:hover
+{
+	background-position:0 -1050px;
+}
+
+.RadTreeList_Sitefinity .rtlPager .rtlPagerButton
+{
+	border-color:#ccc #666 #666 #ccc;
+	background:#f1f1f1;
+	color:#333;
+	font-family:arial,sans-serif;
+}
+
+.RadTreeList_Sitefinity .rtlPager .rtlNumPart a:hover,
+.RadTreeList_Sitefinity .rtlPager .rtlNumPart a:hover span,
+.RadTreeList_Sitefinity .rtlPager .rtlNumPart a.rtlCurrentPage,
+.RadTreeList_Sitefinity .rtlPager .rtlNumPart a.rtlCurrentPage span
+{
+	background:no-repeat url('Grid/sprite.gif');
+}
+
+.RadTreeList_Sitefinity .rtlPager .rtlNumPart a
+{
+	color:#105cd6;
+}
+
+.RadTreeList_Sitefinity .rtlPager .rtlNumPart a:hover
+{
+	background-position:100% -1250px;
+	color:#000;
+}
+
+.RadTreeList_Sitefinity .rtlPager .rtlNumPart a:hover span
+{
+	background-position:0 -1150px;
+}
+
+.RadTreeList_Sitefinity .rtlPager .rtlNumPart a.rtlCurrentPage,
+.RadTreeList_Sitefinity .rtlPager .rtlNumPart a.rtlCurrentPage:hover
+{
+	background-position:100% -1450px;
+	color:#000;
+}
+
+.RadTreeList_Sitefinity .rtlPager .rtlNumPart a.rtlCurrentPage span,
+.RadTreeList_Sitefinity .rtlPager .rtlNumPart a.rtlCurrentPage:hover span
+{
+	background-position:0 -1350px;
+}

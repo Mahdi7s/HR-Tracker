@@ -1,0 +1,474 @@
+.RadRibbonBar_Office2010Silver
+{
+	font: 11px "Segoe UI", Arial, sans-serif;
+}
+
+.RadRibbonBar_Office2010Silver .rrbContentWrapIn,
+.RadRibbonBar_Office2010Silver .rrbButtonArea,
+.RadRibbonBar_Office2010Silver .rrbGroupTitle,
+.RadRibbonBar_Office2010Silver .rrbButtonGroupIn,
+.RadRibbonBar_Office2010Silver .rrbCollapsedGroup .rrbButtonIn,
+.RadRibbonBar_Office2010Silver a.rrbButtonOut:hover .rrbButtonIn,
+.RadRibbonBar_Office2010Silver .rrbButtonOut .rrbButtonTextHover,
+.RadRibbonBar_Office2010Silver .rrbButtonStrip .rrbButtonIn,
+.RadRibbonBar_Office2010Silver div.rrbButtonStrip a.rrbDisabled .rrbButtonIn,
+.RadRibbonBar_Office2010Silver .rrbButtonClicked .rrbButtonIn,
+.RadRibbonBar_Office2010Silver .rrbButtonClicked .rrbButtonTextHover,
+.RadRibbonBar_Office2010Silver .rrbToggled .rrbButtonIn,
+.RadRibbonBar_Office2010Silver .rrbToggled .rrbButtonTextHover,
+.RadRibbonBar_Office2010Silver .rrbExpanded .rrbButtonIn,
+.RadRibbonBar_Office2010Silver .rrbExpanded .rrbButtonTextHover
+{
+	background-image: url('RibbonBar/rrbGradients.png');
+}
+
+.RadRibbonBar_Office2010Silver .rrbButtonArrow,
+.RadRibbonBar_Office2010Silver .rrbResizeHandle,
+.RadRibbonBar_Office2010Silver .rrbGroupLauncher
+{
+	background-image: url('RibbonBar/rrbArrowSprite.png');
+}
+
+.RadRibbonBar_Office2010Silver div.rrbGroupTitle
+{
+	background-image: none;
+}
+
+.RadRibbonBar_Office2010Silver div.rrbButtonGroupIn
+{
+	background-position: 0 0;
+}
+
+.RadRibbonBar_Office2010Silver a.rrbCollapsedGroup span.rrbButtonMid .rrbButtonIn
+{
+	background-position: 0 -1px;
+}
+
+.RadRibbonBar_Office2010Silver span.rrbDecoration span.rrbButtonMid .rrbButtonIn
+{
+	background-image: none;
+}
+
+.RadRibbonBar_Office2010Silver .rrbContentWrapOut,
+.RadRibbonBar_Office2010Silver .rrbContentWrapMid,
+.RadRibbonBar_Office2010Silver .rrbContentWrapIn
+{
+	background-color: #eaedf1;
+	border-color: #a4abb2;
+}
+
+.RadRibbonBar_Office2010Silver .rrbContentWrapIn
+{
+	background-color: #eaedf1;
+}
+
+.RadRibbonBar_Office2010Silver .rrbButtonArea
+{
+	background-color: #ffffff;
+}
+
+.RadRibbonBar_Office2010Silver .rrbButtonOut,
+.RadRibbonBar_Office2010Silver .rrbButtonMid,
+.RadRibbonBar_Office2010Silver .rrbButtonIn
+{
+	border-color: transparent;
+}
+
+.RadRibbonBar_Office2010Silver .rrbDecoration,
+.RadRibbonBar_Office2010Silver .rrbDecoration .rrbButtonMid,
+.RadRibbonBar_Office2010Silver .rrbButtonArea .rrbCollapsedGroup,
+.RadRibbonBar_Office2010Silver .rrbCollapsedGroup .rrbButtonMid
+{
+	background-color: #eaedf1;
+	border-color: #a4abb2;
+}
+
+.RadRibbonBar_Office2010Silver .rrbMenuGroupMid,
+.RadRibbonBar_Office2010Silver .rrbMenuGroupIn
+{
+	background-color: #F0f9FF;
+	border-color: #a4abb2;
+}
+
+.RadRibbonBar_Office2010Silver .rrbButtonGroup,
+.RadRibbonBar_Office2010Silver .rrbButtonGroupIn
+{
+	background-color: #eaedf1;
+	border-color: #a4abb2;
+}
+
+.RadRibbonBar_Office2010Silver a.rrbButtonStripPart,
+.RadRibbonBar_Office2010Silver a.rrbButtonStripPart .rrbButtonMid,
+.RadRibbonBar_Office2010Silver div.rrbButtonStrip a.rrbDisabled,
+.RadRibbonBar_Office2010Silver div.rrbButtonStrip a.rrbDisabled .rrbButtonMid
+{
+	background-color: #eaedf1;
+	border-color: #a4abb2;
+}
+
+.RadRibbonBar_Office2010Silver a.rrbButtonOut:hover,
+.RadRibbonBar_Office2010Silver a.rrbButtonOut:hover .rrbButtonMid,
+.RadRibbonBar_Office2010Silver a.rrbButtonStripPart:hover,
+.RadRibbonBar_Office2010Silver a.rrbButtonStripPart:hover .rrbButtonMid
+{
+	background-color: #eaedf1;
+	border-color: #a4abb2;
+}
+
+.RadRibbonBar_Office2010Silver .rrbButtonArea a.rrbCollapsedGroup:hover,
+.RadRibbonBar_Office2010Silver a.rrbCollapsedGroup:hover .rrbButtonMid
+{
+	background-color: #eaedf1;
+	border-color: #a4abb2;
+}
+
+.RadRibbonBar_Office2010Silver a.rrbCollapsedGroup:hover .rrbDecoration,
+.RadRibbonBar_Office2010Silver a.rrbCollapsedGroup:hover .rrbDecoration .rrbButtonMid
+{
+	background-color: #eaedf1;
+	border-color: #a4abb2;
+}
+
+.RadRibbonBar_Office2010Silver .rrbButtonClicked,
+.RadRibbonBar_Office2010Silver .rrbButtonClicked .rrbButtonMid,
+.RadRibbonBar_Office2010Silver div.rrbButtonGroup .rrbToggled,
+.RadRibbonBar_Office2010Silver div.rrbButtonGroup .rrbToggled .rrbButtonMid,
+.RadRibbonBar_Office2010Silver a.rrbExpanded,
+.RadRibbonBar_Office2010Silver a.rrbExpanded .rrbButtonMid,
+.RadRibbonBar_Office2010Silver a.rrbButtonClicked:hover,
+.RadRibbonBar_Office2010Silver a.rrbButtonClicked:hover .rrbButtonMid,
+.RadRibbonBar_Office2010Silver a.rrbButtonClicked:hover .rrbButtonOut
+{
+	background-color: #eaedf1;
+	border-color: #a4abb2;
+}
+
+.RadRibbonBar_Office2010Silver .rrbButton:hover .rrbButtonIn,
+.RadRibbonBar_Office2010Silver .rrbMediumButton:hover .rrbButtonIn,
+.RadRibbonBar_Office2010Silver .rrbButtonClicked .rrbButtonIn,
+.RadRibbonBar_Office2010Silver .rrbToggled .rrbButtonIn,
+.RadRibbonBar_Office2010Silver .rrbExpanded .rrbButtonIn,
+.RadRibbonBar_Office2010Silver .rrbButtonStripPart .rrbButtonIn
+{
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+.RadRibbonBar_Office2010Silver .rrbLargeButton .rrbButtonIn,
+.RadRibbonBar_Office2010Silver .rrbCollapsedGroup .rrbButtonIn
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.RadRibbonBar_Office2010Silver .rrbButtonArea a.rrbButtonClicked.rrbCollapsedGroup,
+.RadRibbonBar_Office2010Silver .rrbButtonArea a.rrbButtonClicked.rrbCollapsedGroup .rrbButtonMid
+{
+	background-color: #eaedf1;
+	border-color: #a4abb2;
+}
+
+.RadRibbonBar_Office2010Silver a.rrbButtonClicked.rrbCollapsedGroup .rrbDecoration,
+.RadRibbonBar_Office2010Silver a.rrbButtonClicked.rrbCollapsedGroup .rrbDecoration .rrbButtonMid
+{
+	background-color: #eaedf1;
+	border-color: #a4abb2;
+}
+
+.RadRibbonBar_Office2010Silver a.rrbButtonOut:hover .rrbButtonText
+{
+	border-color: #a4abb2;
+}
+
+.RadRibbonBar_Office2010Silver .rrbButtonTextHover
+{
+	background-color: #eaedf1;
+}
+
+.RadRibbonBar_Office2010Silver a.rrbButtonClicked:hover .rrbButtonText
+{
+	border-color: #a4abb2;
+}
+
+.RadRibbonBar_Office2010Silver .rrbButtonClicked .rrbButtonTextHover
+{
+	background-color: #eaedf1;
+}
+
+.RadRibbonBar_Office2010Silver .rrbButtonGroupHover .rrbButtonGroupIn
+{
+	background-color: #eaedf1;
+}
+
+.RadRibbonBar_Office2010Silver .rrbGroupTitle
+{
+	color: #666d7c;
+	background-color: #eaedf1;
+}
+
+.RadRibbonBar_Office2010Silver .rrbButtonText,
+.RadRibbonBar_Office2010Silver .rrbButtonStripPart,
+.RadRibbonBar_Office2010Silver .rrbLargeButton .rrbButtonArrow,
+.RadRibbonBar_Office2010Silver .rrbCollapsedGroup .rrbButtonArrow
+{
+	color: #666d7c;
+}
+
+.RadRibbonBar_Office2010Silver a.rrbDisabled .rrbButtonText,
+.RadRibbonBar_Office2010Silver a.rrbDisabled:hover .rrbButtonText
+{
+	color: #000000;
+}
+
+.RadRibbonBar_Office2010Silver .rrbMenuGroupMid,
+.RadRibbonBar_Office2010Silver .rrbDetachedContainer .rrbContentWrapOut
+{
+	box-shadow: 3px 2px 3px #888;
+	-moz-box-shadow: 3px 2px 3px #888;
+	-webkit-box-shadow: 3px 2px 3px #888;
+}
+
+.RadRibbonBar_Office2010Silver .rrbDetachedContainer .rrbGroupTitle
+{
+	bottom: 0;
+}
+
+.RadRibbonBar_Office2010Silver div.rrbResizeHandle
+{
+	background-position: -19px -7px;
+}
+
+.RadRibbonBar_Office2010Silver a.rrbGroupLauncher
+{
+	width: 11px;
+	height: 11px;
+	margin-top: 2px;
+	background-position: -17px -21px;
+}
+
+.RadRibbonBar_Office2010Silver a.rrbGroupLauncher:hover
+{
+	background-position: -17px -37px;
+}
+
+
+/* RadTabStrip styles */
+.RadRibbonBar_Office2010Silver .rrbTabStrip .rtsUL,
+.RadRibbonBar_Office2010Silver .rrbTabStrip.RadTabStripBottom_Office2010Silver .rtsUL
+{
+	border-color: #a4abb2;
+}
+
+.RadRibbonBar_Office2010Silver .rrbTabStrip .rtsUL
+{
+	border-top: 0;
+}
+
+.RadRibbonBar_Office2010Silver .rrbTabStrip.RadTabStripBottom_Office2010Silver .rtsUL
+{
+	border-bottom: 0;
+}
+
+
+
+
+/** Tabstrip */
+.RadRibbonBar_Office2010Silver .rrbTabs {
+	line-height: 26px;
+	border-bottom-color: #a4abb2;
+}
+
+
+
+
+/** Application Tab */
+.RadRibbonBar_Office2010Silver .rrbApplicationTab {
+	color: #ffffff;
+	line-height: 22px;
+}
+
+
+	.RadRibbonBar_Office2010Silver .rrbApplicationTab .rrbTabLabel {
+		background-image: url('RibbonBar/rrbApplicationTabSprite.png');
+		_background-image: url('RibbonBar/rrbApplicationTabSprite_IE6.png');
+		background-position: left 0;
+	}
+
+
+	.RadRibbonBar_Office2010Silver .rrbApplicationTab .rrbTabText {
+		background-image: url('RibbonBar/rrbApplicationTabSprite.png');
+		_background-image: url('RibbonBar/rrbApplicationTabSprite_IE6.png');
+		background-position: right 0;
+	}
+
+
+
+
+/** Hovered Application Tab */
+.RadRibbonBar_Office2010Silver .rrbHoveredApplicationTab {}
+
+
+	.RadRibbonBar_Office2010Silver .rrbHoveredApplicationTab .rrbTabLabel {
+		background-position: left -26px;
+	}
+
+
+	.RadRibbonBar_Office2010Silver .rrbHoveredApplicationTab .rrbTabText {
+		background-position: right -26px;
+	}
+
+
+
+
+/** Selected Application Tab */
+.RadRibbonBar_Office2010Silver .rrbSelectedApplicationTab {
+	color: #000000;
+}
+
+
+	.RadRibbonBar_Office2010Silver .rrbSelectedApplicationTab .rrbTabLabel {
+		background-position: left -52px;
+	}
+
+
+	.RadRibbonBar_Office2010Silver .rrbSelectedApplicationTab .rrbTabText {
+		background-position: right -52px;
+	}
+
+
+
+
+/** Contextual Tab */
+.RadRibbonBar_Office2010Silver .rrbContextualTab {}
+
+
+	.RadRibbonBar_Office2010Silver .rrbContextualTab .rrbContextualTabLabel {
+		color: #ffffff;
+		background-image: url('../Common/RibbonBar/rrbContextualTabSmoothTile.png');
+		background-position: left 2px;
+	}
+
+
+
+
+/** Tab */
+.RadRibbonBar_Office2010Silver .rrbTab {
+	color: #3b3b3b;
+}
+
+
+	.RadRibbonBar_Office2010Silver .rrbTabLabel {
+		background-image: url('RibbonBar/rrbTabSprite.png');
+		_background-image: url('RibbonBar/rrbTabSprite_IE6.png');
+		background-position: left 0;
+	}
+
+
+	.RadRibbonBar_Office2010Silver .rrbTabText {
+		background-image: url('RibbonBar/rrbTabSprite.png');
+		_background-image: url('RibbonBar/rrbTabSprite_IE6.png');
+		background-position: right 0;
+	}
+
+
+
+
+/** Hovered Tab */
+.RadRibbonBar_Office2010Silver .rrbHoveredTab {}
+
+
+	.RadRibbonBar_Office2010Silver .rrbHoveredTab .rrbTabLabel {
+		background-position: left -26px;
+	}
+
+
+	.RadRibbonBar_Office2010Silver .rrbHoveredTab .rrbTabText {
+		background-position: right -26px;
+	}
+
+
+
+
+/** Selected Tab */
+.RadRibbonBar_Office2010Silver .rrbSelectedTab {
+	color: #000000;
+}
+
+
+	.RadRibbonBar_Office2010Silver .rrbSelectedTab .rrbTabLabel {
+		background-position: left -52px;
+	}
+
+
+	.RadRibbonBar_Office2010Silver .rrbSelectedTab .rrbTabText {
+		background-position: right -52px;
+	}
+
+
+
+
+
+/** QuickAccessToolbar */
+.RadRibbonBar_Office2010Silver .rrbQuickAccessToolbar {}
+
+
+	.RadRibbonBar_Office2010Silver .rrbQatItem {}
+	.RadRibbonBar_Office2010Silver .rrbQatButton {}
+
+
+	.RadRibbonBar_Office2010Silver .rrbQatDropDown {}
+	.RadRibbonBar_Office2010Silver .rrbQatDropDown .rrbQatButton {}
+	.RadRibbonBar_Office2010Silver .rrbQatDropDown .rrbQatButton:hover {
+		border-color: #f3d64a;
+		background-color: #fae288;
+	}
+	
+	
+	.RadRibbonBar_Office2010Silver .rrbQatDropDown .rrbSlide {}
+
+
+
+
+
+/** RadRibbonBar Menu */
+.RadRibbonBar_Office2010Silver .rrbMenu {
+	border-color: #9aa0a6;
+	color: #3b3b3b;
+	background-color: #ffffff;
+}
+
+
+	.RadRibbonBar_Office2010Silver .rrbSlide {}
+	.RadRibbonBar_Office2010Silver .rrbMenu .rrbMenuGroup {}
+	.RadRibbonBar_Office2010Silver .rrbMenu .rrbMenuLabel {
+		background-color: #ffffff;
+	}
+	.RadRibbonBar_Office2010Silver .rrbMenu .rrbMenuSeparator {}
+
+
+
+
+	/** Menu items */
+	.RadRibbonBar_Office2010Silver .rrbMenu .rrbMenuItem {}
+	.RadRibbonBar_Office2010Silver .rrbMenu .rrbMenuItem:hover,
+	.RadRibbonBar_Office2010Silver .rrbMenu .rrbMenuItemHovered {
+		border-color: #f3d64a;
+		color: #000000;
+		background-color: #fae288;
+	}
+
+
+	.RadRibbonBar_Office2010Silver .rrbMenu .rrbMenuItemCheckbox {}
+	.RadRibbonBar_Office2010Silver .rrbMenu .rrbMenuItemCheckbox label {}
+	.RadRibbonBar_Office2010Silver .rrbMenu .rrbMenuItemCheckbox input {}
+	.RadRibbonBar_Office2010Silver .rrbMenu .rrbMenuItemCheckboxChecked {}
+	.RadRibbonBar_Office2010Silver .rrbMenu .rrbMenuItemCheckboxChecked label {}
+
+
+	.RadRibbonBar_Office2010Silver .rrbMenu .rrbMenuItemRadio {}
+	.RadRibbonBar_Office2010Silver .rrbMenu .rrbMenuItemRadio label {}
+	.RadRibbonBar_Office2010Silver .rrbMenu .rrbMenuItemRadio input {}
+	.RadRibbonBar_Office2010Silver .rrbMenu .rrbMenuItemRadioChecked {}
+	.RadRibbonBar_Office2010Silver .rrbMenu .rrbMenuItemRadioChecked label {}

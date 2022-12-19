@@ -1,0 +1,26 @@
+.RadTagCloud_Telerik
+{
+	border: 1px dotted #51a33a;
+}
+.RadTagCloud_Telerik .rtcTagList .rtcTagItem
+{
+	color: #6dd605;
+}
+.RadTagCloud_Telerik .rtcTagList .rtcTagItem:hover
+{
+	color: #51a33a;
+}
+.RadTagCloud_Telerik .rtcTagList .rtcTagItem a
+{
+	color: #000;
+}
+.RadTagCloud_Telerik .rtcTagList .rtcTagItem a:hover
+{
+	background: #b6f0a3;
+}
+
+/* Loading image */
+.rtcLoading.RadTagCloud_Telerik
+{
+	background-image: url('Common/loading_small.gif');
+}

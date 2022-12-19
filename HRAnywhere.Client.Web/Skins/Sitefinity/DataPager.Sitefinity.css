@@ -1,0 +1,95 @@
+/*Telerik RadDataPager Sitefinity Skin*/
+
+.RadDataPager_Sitefinity
+{
+	border-top:1px solid #ccc;
+	background:#fff;
+	color:#000;
+}
+
+.RadDataPager_Sitefinity .rdpPageFirst,
+.RadDataPager_Sitefinity .rdpPagePrev,
+.RadDataPager_Sitefinity .rdpPageNext,
+.RadDataPager_Sitefinity .rdpPageLast
+{
+	background:transparent no-repeat url('Grid/sprite.gif');
+}
+
+.RadDataPager_Sitefinity .rdpPageFirst
+{
+	background-position:0 -550px;
+}
+.RadDataPager_Sitefinity .rdpPageFirst:hover
+{
+	background-position:0 -600px;
+}
+.RadDataPager_Sitefinity .rdpPagePrev
+{
+	background-position:0 -700px;
+}
+.RadDataPager_Sitefinity .rdpPagePrev:hover
+{
+	background-position:0 -750px;
+}
+.RadDataPager_Sitefinity .rdpPageNext
+{
+	background-position:0 -850px;
+}
+.RadDataPager_Sitefinity .rdpPageNext:hover
+{
+	background-position:0 -900px;
+}
+.RadDataPager_Sitefinity .rdpPageLast
+{
+	background-position:0 -1000px;
+}
+.RadDataPager_Sitefinity .rdpPageLast:hover
+{
+	background-position:0 -1050px;
+}
+
+.RadDataPager_Sitefinity .rdpPagerButton
+{
+	border:1px solid;
+	border-color:#ccc #666 #666 #ccc;
+	background:#f1f1f1;
+	color:#333;
+	font:12px/12px arial,sans-serif;
+}
+
+.RadDataPager_Sitefinity .rdpNumPart a:hover,
+.RadDataPager_Sitefinity .rdpNumPart a:hover span,
+.RadDataPager_Sitefinity .rdpNumPart a.rdpCurrentPage,
+.RadDataPager_Sitefinity .rdpNumPart a.rdpCurrentPage span
+{
+	background:no-repeat url('Grid/sprite.gif');
+}
+
+.RadDataPager_Sitefinity .rdpNumPart a
+{
+	color:#105cd6;
+}
+
+.RadDataPager_Sitefinity .rdpNumPart a:hover
+{
+	background-position:100% -1250px;
+	color:#000;
+}
+
+.RadDataPager_Sitefinity .rdpNumPart a:hover span
+{
+	background-position:0 -1150px;
+}
+
+.RadDataPager_Sitefinity .rdpNumPart a.rdpCurrentPage,
+.RadDataPager_Sitefinity .rdpNumPart a.rdpCurrentPage:hover
+{
+	background-position:100% -1450px;
+	color:#000;
+}
+
+.RadDataPager_Sitefinity .rdpNumPart a.rdpCurrentPage span,
+.RadDataPager_Sitefinity .rdpNumPart a.rdpCurrentPage:hover span
+{
+	background-position:0 -1350px;
+}

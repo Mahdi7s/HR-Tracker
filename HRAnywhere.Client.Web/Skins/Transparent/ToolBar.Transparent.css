@@ -1,0 +1,262 @@
+/* <RadToolBar / Transparent> */
+
+/* <tool wrapper> */
+
+/* <horizontal> */
+
+.RadToolBar_Transparent .rtbOuter
+{
+	border: 1px solid #2c2c2c;
+}
+
+.RadToolBar_Transparent .rtbMiddle
+{
+	border: 1px solid #a0a0a0;
+	background: url('ToolBar/rtbControlBg.png') repeat-x 0 0;
+}
+
+/* </horizontal> */
+
+/* <vertical> */
+
+.RadToolBar_Transparent_Vertical .rtbMiddle
+{
+	background: url('ToolBar/rtbVerticalControlBg.png') repeat-y 0 0;
+}
+
+/* </vertical> */
+
+/* </tool wrapper> */
+
+/* <buttons> */
+
+.RadToolBar_Transparent .rtbWrap,
+.RadToolBar_Transparent .rtbTemplate
+{
+	color: #000000;
+	font: normal 12px/20px Tahoma, Arial, sans-serif;
+}
+
+/* <button states> */
+
+.RadToolBar_Transparent .rtbSplBtnFocused .rtbWrap, .RadToolBar_Transparent .rtbSplBtnFocused .rtbOut, .RadToolBar_Transparent .rtbSplBtnFocused .rtbMid, .RadToolBar_Transparent .rtbSplBtnFocused .rtbIn,
+.RadToolBar_Transparent .rtbItemFocused .rtbWrap, .RadToolBar_Transparent .rtbItemFocused .rtbOut, .RadToolBar_Transparent .rtbItemFocused .rtbMid, .RadToolBar_Transparent .rtbItemFocused .rtbIn,
+.RadToolBar_Transparent .rtbItemHovered .rtbWrap, .RadToolBar_Transparent .rtbItemHovered .rtbOut, .RadToolBar_Transparent .rtbItemHovered .rtbMid, .RadToolBar_Transparent .rtbItemHovered .rtbIn
+{
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url('ToolBar/rtbHoverBg.png');
+}
+
+.RadToolBar_Transparent .rtbItemClicked .rtbWrap, .RadToolBar_Transparent .rtbItemClicked .rtbOut, .RadToolBar_Transparent .rtbItemClicked .rtbMid, .RadToolBar_Transparent .rtbItemClicked .rtbIn
+{
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url('ToolBar/rtbClickedBg.png');
+}
+
+.RadToolBar_Transparent .rtbSplBtnExpanded .rtbWrap, .RadToolBar_Transparent .rtbSplBtnExpanded .rtbOut, .RadToolBar_Transparent .rtbSplBtnExpanded .rtbMid, .RadToolBar_Transparent .rtbSplBtnExpanded .rtbIn,
+.RadToolBar_Transparent .rtbDropDownExpanded .rtbWrap, .RadToolBar_Transparent .rtbDropDownExpanded .rtbOut, .RadToolBar_Transparent .rtbDropDownExpanded .rtbMid, .RadToolBar_Transparent .rtbDropDownExpanded .rtbIn,
+.RadToolBar_Transparent .rtbChecked .rtbWrap, .RadToolBar_Transparent .rtbChecked .rtbOut, .RadToolBar_Transparent .rtbChecked .rtbMid, .RadToolBar_Transparent .rtbChecked .rtbIn,
+.RadToolBar_Transparent li.rtbChecked .rtbWrap:hover, .RadToolBar_Transparent li.rtbChecked .rtbWrap:hover .rtbOut, .RadToolBar_Transparent li.rtbChecked .rtbWrap:hover .rtbMid, .RadToolBar_Transparent li.rtbChecked .rtbWrap:hover .rtbIn
+{
+	background-image: url('ToolBar/rtbActiveBg.png');
+	background-color: transparent;
+	background-repeat: no-repeat;
+}
+
+.RadToolBar_Transparent .rtbItemFocused .rtbWrap,
+.RadToolBar_Transparent .rtbChecked .rtbWrap,
+.RadToolBar_Transparent .rtbDropDownExpanded .rtbWrap,
+.RadToolBar_Transparent .rtbSplBtnExpanded .rtbWrap,
+.RadToolBar_Transparent .rtbItemHovered .rtbWrap,
+.RadToolBar_Transparent .rtbItemClicked .rtbWrap
+{
+	color: #000000;
+}
+
+/* </button states> */
+
+/* <Drop Down Arrows> */
+
+
+.RadToolBar_Transparent .rtbSplBtn .rtbChoiceArrow,
+.RadToolBar_Transparent .rtbItem .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_Transparent .rtbChoiceArrow,
+.RadToolBar_Transparent .rtbSplBtnExpanded .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_Transparent .rtbSplBtnExpanded .rtbChoiceArrow,
+.RadToolBar_Transparent .rtbDropDownExpanded .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_Transparent .rtbDropDownExpanded .rtbChoiceArrow,
+.RadToolBar_Transparent .rtbSplBtnHovered .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_Transparent .rtbSplBtnHovered .rtbChoiceArrow,
+.RadToolBar_Transparent .rtbItemHovered .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_Transparent .rtbItemHovered .rtbChoiceArrow,
+.RadToolBar_Transparent .rtbSplBtnClicked .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_Transparent .rtbSplBtnClicked .rtbChoiceArrow,
+.RadToolBar_Transparent .rtbItemClicked .rtbVOriented .rtbChoiceArrow,
+.RadToolBar_Transparent .rtbItemClicked .rtbChoiceArrow
+{
+	background-image: url('ToolBar/rtbDropArrows.png');
+}
+
+.RadToolBar_Transparent .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_Transparent .rtbSplBtn .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_Transparent .rtbSplBtnExpanded .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_Transparent .rtbDropDownExpanded .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_Transparent .rtbSplBtnHovered .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_Transparent .rtbItemHovered .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_Transparent .rtbSplBtnClicked .rtbExpandUp .rtbChoiceArrow,
+.RadToolBar_Transparent .rtbItemClicked .rtbExpandUp .rtbChoiceArrow
+{
+	background-image: url('ToolBar/rtbUpArrows.png');
+}
+
+/* </Drop Down Arrows> */
+
+.RadToolBar_Transparent_Horizontal li.rtbSeparator 
+{
+	border-left: 1px solid #838383;
+	background: #c6c6c6;
+}
+
+.RadToolBar_Transparent_Vertical li.rtbSeparator
+{
+	border-top: 1px solid #838383;
+	background: #c6c6c6;
+}
+
+/* </buttons> */
+
+
+/* <disabled states> */
+
+.RadToolBar_Transparent .rtbDisabled .rtbWrap:hover,
+.RadToolBar_Transparent .rtbDisabled .rtbWrap:hover .rtbOut,
+.RadToolBar_Transparent .rtbDisabled .rtbWrap:hover .rtbMid,
+.RadToolBar_Transparent .rtbDisabled .rtbWrap:hover .rtbIn
+{
+	background-image: none;
+}
+
+.RadToolBar_Transparent .rtbDisabled .rtbWrap { color: #7E8FBC\9; }
+
+@media screen and (-webkit-min-device-pixel-ratio:0)  /* WebKit alpha + opacity/cleartype bug, like IE wasn't enough... */
+{
+	.RadToolBar_Transparent .rtbDisabled .rtbWrap { color: #7E8FBC; }
+}
+
+/* </disabled states */
+
+/* <drop-down> */
+
+/* <Drop Down rounded corners and shadows> */
+
+.RadToolBarDropDown_Transparent .rtbTopFix,
+.RadToolBarDropDown_Transparent .rtbBottomFix,
+.RadToolBarDropDown_Transparent .rtbGroup
+{
+	background-image: url('ToolBar/rtbDropDownBg.png');
+	background-color: #f6f6f6;
+	background-color: rgba(255, 255, 255, 0.2);
+	background-repeat: repeat-y;
+	background-position: -1px 0;
+}
+
+.RadToolBarDropDown_Transparent div.rtbTopFix,
+.RadToolBarDropDown_Transparent div.rtbBottomFix
+{
+    background-position: -2px 0;
+}
+
+.RadToolBarDropDown_Transparent .rtbBottomLeft,
+.RadToolBarDropDown_Transparent .rtbRoundedCorners
+{
+	/*background-image:  url("ToolBar/rtbRoundedLeft.png");
+	background-color: transparent;
+	background-repeat: no-repeat;*/
+}
+
+.RadToolBarDropDown_Transparent .rtbTopRight,
+.RadToolBarDropDown_Transparent .rtbBottomRight
+{
+	/*background-image:  url("ToolBar/rtbRoundedRight.png");
+	background-color: transparent;
+	background-repeat: no-repeat;*/
+}
+
+.RadToolBarDropDown_Transparent .rtbTopFix,
+.RadToolBarDropDown_Transparent .rtbBottomFix,
+.RadToolBarDropDown_Transparent .rtbRoundedCorners .rtbFirst
+{
+	border-color: #868686;
+}
+
+.RadToolBarDropDown_Transparent_rtl .rtbBottomLeft,
+.RadToolBarDropDown_Transparent_rtl .rtbRoundedCorners
+{
+	/*background-image: url("ToolBar/rtbRoundedLeft_rtl.png");*/
+}
+
+.RadToolBarDropDown_Transparent_rtl .rtbTopRight,
+.RadToolBarDropDown_Transparent_rtl .rtbBottomRight
+{
+	/*background-image: url("ToolBar/rtbRoundedRight_rtl.png");*/
+}
+
+.RadToolBarDropDown_Transparent_rtl div.rtbTopFix,
+.RadToolBarDropDown_Transparent_rtl div.rtbBottomFix,
+.RadToolBarDropDown_Transparent_rtl .rtbGroup
+{
+	background-position: 101% 0;
+}
+
+/* </Drop Down rounded corners and shadows> */
+
+.RadToolBarDropDown_Transparent
+{
+	border-color: #868686;
+	background-image: url('ToolBar/rtbDropDownBg.png');
+	background-position: -1px 0;
+}
+
+.RadToolBarDropDown_Transparent li.rtbItem {
+	padding:0 0 0 4px;
+}
+
+div.RadToolBarDropDown_Transparent_rtl
+{
+	background-position: 101% 0;
+}
+
+.RadToolBarDropDown_Transparent .rtbWrap,
+.RadToolBarDropDown_Transparent .rtbTemplate
+{
+	font-weight: normal;
+	font-size: 12px;
+	font-family: Tahoma, Arial, sans-serif;
+	color: #000000;
+}
+
+.RadToolBarDropDown_Transparent .rtbItemHovered,
+.RadToolBarDropDown_Transparent .rtbItemFocused,
+.RadToolBarDropDown_Transparent .rtbItemHovered .rtbWrap,
+.RadToolBarDropDown_Transparent .rtbItemFocused .rtbWrap
+{
+	color: #000000;
+	background-image: url('ToolBar/rtbDropDownHover.png');
+}
+
+.RadToolBarDropDown_Transparent .rtbDisabled .rtbWrap
+{
+	color: #5e5e5e;
+}
+
+.RadToolBarDropDown_Transparent .rtbSeparator
+{
+	border-color: #c5c5c5;
+	background: #ffffff;
+}
+
+/* </drop-down> */
+
+/* </RadToolBar / Transparent> */

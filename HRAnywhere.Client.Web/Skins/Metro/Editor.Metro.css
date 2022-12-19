@@ -1,0 +1,621 @@
+/* RadEditor for ASP.NET AJAX Metro Skin */
+
+.Metro.RadEditor
+{
+    background-color: #fff;
+}
+
+.Metro.RadEditor .reToolbar a,
+.Metro.RadEditor .reDropdown,
+/*.Metro.RadEditor .reSpinBox input,
+.Metro.RadEditor input,*/
+.Metro.RadEditor .reModule,
+.Metro.RadEditor .reModule td,
+.Metro.RadEditor .reDropDownBody,
+.Metro.RadEditor .reDropDownBody td,
+.Metro.RadEditor .reAjaxspell_wrapper,
+.Metro.RadEditor .reAjaxspell_button,
+.Metro.RadEditor .reAjaxspell_addicon,
+.Metro.RadEditor .reAjaxspell_ignoreicon,
+.Metro.RadEditor .reAjaxspell_okicon,
+.Metro.RadEditor .reInsertTable .reTlbVertical ul a.reTool_text span.reButton_text,
+.Metro.RadEditor .reColorPicker .reCustomColor,
+/* DOM inspector */
+.Metro .reModule_domlink_selected,
+.Metro .reModule_domlink
+/* end of DOM inspector */
+{
+    color: #767676;
+}
+
+.Metro.RadEditor .reEditorModes a 
+{
+	border: 1px solid #fff;
+	background-color: #fff;
+	color: #767676;
+}
+
+.Metro.RadEditor .reEditorModes .reMode_selected
+{
+	background-image: none;
+	border: 1px solid #e5e5e5;
+	background-color: #25a0da !important;
+	color: #fff;
+}
+
+.Metro.RadEditor .reEditorModes a:hover
+{
+	border: 1px solid #e5e5e5;
+}
+
+/* reWrapper */
+.Metro.reWrapper,
+.Metro.RadEditor .reContentCell,
+/* common settings for .reModule, .reEditorModes and .reWrapper */
+.Metro.reColorPicker,
+.Metro.reInsertTable,
+.Metro.reDropDownBody,
+.Metro.reCustomLinks a:hover
+{
+    border: solid 1px #e5e5e5;
+}
+
+.Metro.reDropDownBody table
+{
+    background: transparent;
+}
+
+.Metro.RadEditor .reModule,
+.Metro.RadEditor .reEditorModes,
+.Metro.RadEditor .reWrapper
+{
+	background-color: #fff;
+}
+
+/*NEW: Only in the Bottom zone - where the Statistics module is commonly set, remove uppper border, because it looks ugly*/
+.Metro.RadEditor .reBottomZone .reModule
+{
+    border-top: 0;
+}
+
+.Metro.RadEditor .reModule
+{
+    border-top: solid 1px #fff;  
+}
+
+.Metro.reCustomLinks a,
+.Metro.reCustomLinks a:link,
+.Metro.reCustomLinks a:visited
+{
+    border: solid 1px #fff; /* should be the same as the background of the dropdown */
+    color: #000 !important;
+}
+
+.Metro.reCustomLinks a:hover
+{
+    background-color: #e5e5e5;
+    border: 1px solid  #e5e5e5;
+}
+/* end of module */
+
+.reToolbar li
+{
+    background-image: url('Editor/ToolBarSprites.gif');
+    background-position: 0 -26px;
+    color: #000;
+}
+
+.Metro .reSpinBox a
+{
+	background-image: url('Editor/ToolBarSprites.gif');    
+	-moz-user-select: none;
+    outline: none;
+}
+
+/* separator */
+.reToolbar.Metro .reSeparator
+{
+    background-position: center -148px;
+    background-image: url('Editor/ToolBarSprites.gif');
+    background-image: url('Editor/ToolBarSprites.gif');
+}
+
+/* common settings for left and right grip */
+.reToolbar.Metro .reGrip
+{
+	background-image: url('Editor/ToolBarSprites.gif');
+}
+
+/* reTool */
+.reTool span
+{
+    background-image: url('../Common/CommandSpritesLight.png');
+}
+
+/* IE6 does not support PNG alpha channel, so we use gifs for the command sprites instead */
+* html .reTool span,
+* html .reTool_text span,
+* html .reTlbVertical .reTool_text span,
+* html .reToolbar .reSplitButton.reTool_text span
+{
+    background-image: url('../Common/CommandSpritesLightIE6.gif');
+}
+
+.reDialog .reTool,
+.reModule .reTool
+{
+    background-image: url('Editor/ToolBarSprites.gif');
+    background-position: 0 -242px;
+}
+
+.reDialog .reTool:hover,
+.reToolbar .reTool:hover,
+.reModule .reTool:hover
+{
+    background-image: url('Editor/ToolBarSprites.gif');
+    background-position: 0 -52px;
+}
+
+.reToolbar .reTool.reTool_selected,
+.reToolbar .reTool.reTool_selected:hover
+{
+    background-image: url('Editor/ToolBarSprites.gif');
+    background-position: 0 -124px;
+    background-repeat: no-repeat;
+}
+
+/* .reTool_text */
+.reToolbar .reTool_text span
+{
+    background-image: url('../Common/CommandSpritesLight.png');
+}
+
+.reToolbar .reTool_text:hover
+{
+    background-image: url('Editor/ToolBarSprites.gif');
+    background-repeat: repeat-x;
+    background-position: 0 -100px;
+    margin-left: 0;
+    margin-right: 0;
+    border-left: solid 1px #878787;
+    border-right: solid 1px #878787;
+}
+
+.reToolbar .reTool_text.reTool_selected,
+.reToolbar .reTool_text.reTool_selected:hover
+{
+    background-image: url('Editor/ToolBarSprites.gif');
+    background-repeat: repeat-x;
+    background-position: 0 -174px;
+    margin-left: 0;
+    margin-right: 0;
+    border-left: solid 1px #878787;
+    border-right: solid 1px #878787;
+}
+
+/* these settings will not be included in the common CSS file of RadEditor */
+.reToolbar .reTool_text.reTool_disabled,
+.reToolbar .reTool_text.reTool_disabled:hover
+{
+    margin-left: 0;
+    margin-right: 0;
+    border: 0;
+}
+/* end of reTool_text */
+
+.reTool.reSplitButton:hover,
+.reToolZone .reTool.reSplitButton,
+.reToolZone .reDialog .reTool, 
+.reToolZone .reModule .reTool
+{
+    background: url('Editor/ToolBarSprites.gif') no-repeat 0 -76px;
+}
+
+/* add weight to the selector for IE6 so it is applied */
+* html .reToolbar .reTool.reSplitButton:hover
+{
+    background: url('Editor/ToolBarSprites.gif') no-repeat 0 -76px;
+}
+
+.Metro .reTool .split_arrow
+{
+    background-image: url('Editor/ToolBarSprites.gif');
+    background-position: -28px -362px;
+}
+
+.Metro .reSplitButton.reTool_text .split_arrow
+{
+    background-image: url('Editor/ToolBarSprites.gif');
+    background-position: -28px -362px;
+}
+
+/* add weight to the selector for IE6 so it is applied */
+* html .Metro .reToolbar .reTool_text .split_arrow
+{
+    background-image: url('Editor/ToolBarSprites.gif');
+    background-position: -28px -362px;
+}
+
+/* add weight to the selector for IE6 so it is applied */
+* html .reToolbar .reTool_text:hover
+{
+    background-image: url('Editor/ToolBarSprites.gif');
+    background-position: 0 -100px;
+}
+
+
+.reDialog .reTool.reSplitButton,
+.reModule .reTool.reSplitButton
+.reDialog .reTool.reSplitButton:hover,
+.reModule .reTool.reSplitButton:hover
+{
+	background-image: url('Editor/ToolBarSprites.gif');
+    background-position: 0 -76px;
+}
+
+/* add weight to the selector for IE6 so it is applied */
+* html .reToolbar .reTool.reSplitButton.reTool_disabled:hover
+{
+    background: none;
+}
+/* end of reSplitButton */
+
+/* reDropdown */
+.reDropdown:link,
+.reDropdown:visited
+{
+    color: #767676 !important;
+}
+
+.reDropdown,
+.reTool_disabled.reDropdown:hover
+{
+    border: solid 1px #e5e5e5;
+    color: #767676;
+    background-image: url('Editor/ToolBarSprites.gif') !important;
+    background-position: right -360px !important;
+    background-color: #fff;
+}
+
+.reDropdown:hover
+{
+    border: solid 1px #e5e5e5;
+    color: #000 !important;
+    background-image: url('Editor/ToolbarVerticalSprites.gif') !important;
+    background-position: right 0 !important;
+    background-color: #e5e5e5;
+}
+
+/* add weight to the selector for IE6 so it is applied */
+* html .reTool_disabled.reDropdown
+{
+    background-image: url('Editor/ToolBarSprites.gif');
+    background-position: right -380px;
+    background-repeat: no-repeat;
+}
+/* end of reDropdown */
+
+/* vertical toolbar */
+.RadEditor.Metro .reTlbVertical li
+{
+    background-image: url('Editor/ToolbarVerticalSprites.gif');
+    background-repeat: repeat-y;
+    background-position: -26px 0;
+}
+
+.RadEditor.Metro .reTlbVertical .reToolbar.Metro .reGrip
+{
+    background-image: url('Editor/ToolbarVerticalSprites.gif');
+}
+
+.RadEditor.Metro .reTlbVertical .reToolbar.Metro .grip_first
+{
+    background-position: 0 0;
+}
+
+.RadEditor.Metro .reTlbVertical .reToolbar.Metro .grip_last
+{
+    background-position: 0 -4px;
+}
+
+.RadEditor.Metro .reTlbVertical .reToolbar.Metro .reSeparator
+{
+    background-image: url('Editor/ToolbarVerticalSprites.gif');
+    background-position: -100px -12px;
+}
+
+.reTlbVertical .reTool,
+.reTlbVertical .reTool_text.reSplitButton,
+.reTlbVertical .reTool_text
+.reTlbVertical .reTool:hover,
+.reTlbVertical .reTool_text.reSplitButton:hover,
+.reTlbVertical .reTool_text:hover
+{
+    background-image: url('Editor/ToolbarVerticalSprites.gif');
+    background-position: -76px 0 !important;
+}
+
+/* add weight to the selector for IE6 so it is applied */
+* html .reTlbVertical .reTool_text:hover
+{
+	background-image: url('Editor/ToolbarVerticalSprites.gif');
+    background-repeat: no-repeat;
+    background-position: -76px 0;
+}
+
+.reTlbVertical .reTool.reTool_selected,
+.reTlbVertical .reTool_text.reTool_selected,
+.reTlbVertical .reTool_text.reTool_selected:hover
+{
+    background-image: url('Editor/ToolbarVerticalSprites.gif');
+    background-position: -52px 0;
+}
+
+/* add weight to the selector for IE6 so it is applied */
+* html .reTlbVertical .reSplitButton:hover
+{
+    background-image: url('Editor/ToolbarVerticalSprites.gif');
+    background-position: -76px 0;
+    background-repeat: no-repeat;
+}
+/* end of vertical toolbar */
+
+.reDropDownBody .reTlbVertical ul li a:hover
+{
+    background-image: url('Editor/ToolbarVerticalSprites.gif');
+    background-position: -602px 0 !important;
+}
+
+.reDropDownBody .reTlbVertical ul li .reButton_text
+{
+	color: #767676;
+}
+
+.reDropDownBody .reTlbVertical ul li .reButton_text:hover
+{
+	color: #000;
+}
+
+/* InsertTable itself is a kind of tool strip, so it must be styled as a toolstrip */
+.Metro.reInsertTable
+{
+    background-color: #ffffff;
+}
+
+.reDropDownBody .reTlbVertical .reToolbar
+{
+    background-image: url('Editor/ToolbarVerticalSprites.gif');
+    background-color: #ffffff;
+    background-position: -126px 0;
+}
+/* end of context menu and toolstrip */
+
+/* spinbox */
+.Metro table.reSpinBox
+{
+	border: 1px solid #e5e5e5;
+	background: #fff;
+}
+
+.Metro table.reSpinBox:hover
+{
+    border: solid 1px #767676;
+    color: #000;
+}
+
+.Metro .reSpinBoxIncrease
+{
+	background-position: 0 -198px;
+}
+
+.Metro .reSpinBoxIncrease:hover
+{
+	background-position: 0 -208px;
+}
+
+.Metro .reSpinBoxDecrease
+{
+	background-position: -11px -198px;
+}
+
+.Metro .reSpinBoxDecrease:hover
+{
+	background-position: -11px -208px;
+}
+/* end of spinbox */
+
+/* editor input elements */
+.Metro.RadEditor input
+{
+	border: solid 1px #e5e5e5;
+	background-color: #fff;
+	color: #767676;
+}
+
+.Metro.RadEditor input:hover
+{
+    border: solid 1px #767676;
+    color: #000;
+}
+/* editor input elements */
+
+/* editing modes */
+.Metro .reMode_selected
+{
+    background-image: url('Editor/ToolbarVerticalSprites.gif');
+    background-position: -948px 0;
+}
+/* end of editing modes */
+
+.Metro.reDropDownBody td
+{
+	color: #767676;
+}
+
+.Metro.reDropDownBody .reItemOver
+{
+	background: #e5e5e5;
+	color: #000;
+}
+
+/* end of expanded dropdowns */
+
+* html .reTool_selected.reTool
+{
+    border-left-width: 0 !important;
+    border-right-width: 0 !important;
+}
+
+/* color picker */
+.Metro.reColorPicker table div
+{
+	border: solid 1px #c5c5c5;
+}
+
+.Metro.reColorPicker table td.reItemOver div
+{
+	border-color: #000;
+}
+
+.Metro.reColorPicker span
+{
+	border: solid 1px #c5c5c5;
+}
+/* end of color picker */
+
+/* ajax spellchecker */
+.reAjaxspell_button
+{
+    border: solid 1px #e5e5e5;
+    background: #25a0da;
+    color: #e5e5e5;
+}
+
+.Metro .reAjaxSpellCheckSuggestions table
+{
+    border-width: 0;
+    width: 100%;
+}
+
+.Metro .reAjaxSpellCheckSeparator
+{
+    background-color: #979797;
+}
+/* ajax spellchecker */
+
+/* custom links */
+.Metro.reCustomLinks,
+.Metro.reCustomLinks ul
+{
+	color: #000;
+}
+
+.Metro.reCustomLinks a
+{
+    background: none transparent;
+    color: black;
+	cursor: default !important;
+}
+
+.Metro.reCustomLinks a:hover
+{
+    color: white;
+}
+/* end of custom links */
+
+/* insert table dropdown */
+.reInsertTable table
+{
+    background: #ffffff;
+}
+
+.reInsertTable table td
+{
+    border: solid 1px #e5e5e5;
+    background: white;
+}
+
+.reInsertTable .reTlbVertical ul
+{
+    background-color: #ffffff;
+}
+
+.Metro.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text,
+.Metro.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text:link,
+.Metro.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text:visited
+{
+    color: black !important;
+    background: transparent none;
+    _background: none !important;
+}
+
+.Metro.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text:hover
+{
+    background-image: url('Editor/ToolbarVerticalSprites.gif');
+    background-position: -1403px 0;
+}
+
+.reInsertTable .reTlbVertical ul .reTool_text span
+{
+    background-image: url('../Common/CommandSpritesLight.png');
+    background-position: -3575 center;
+}
+
+.reInsertTable .reToolbar li .reTool:hover
+{
+    background-image: url('Editor/ToolBarSprites.gif');
+    background-position: 0 -52px;
+}
+/* end of insert table dropdown */
+
+/* modules selector */
+.reModule_visible_icon,
+.reModule_hidden_icon
+{
+	display: block;
+	float: left;
+	height: 18px;
+	width: 18px;
+	background-image: url('../Common/CommonIcons.gif');
+	background-repeat: no-repeat;
+}
+
+.reModule_visible_icon
+{
+	background-position: -8px -199px;
+}
+
+.reModule_hidden_icon
+{
+	background-position: -8px -103px;
+	
+}
+/* end of modules selector */
+
+/* resize cell */
+.reResizeCell div
+{
+    background-image: url('Editor/ToolBarSprites.gif');
+    background-position: center -301px;
+}
+
+/* reTool_disabled */
+.reDialog .reTool_disabled,
+.reDialog .reTool_disabled:hover,
+.reToolbar .reTool_disabled,
+.reToolbar .reTool_disabled:hover,
+.reModule .reTool_disabled,
+.reModule .reTool_disabled:hover
+{
+    filter: alpha(opacity=40);
+    opacity: .4;
+    -moz-opacity: .4;
+    background-image: none;
+}
+/* reTool_disabled */
+
+/* the rule below styles RadWindow's content cell, which is used in the floating and show on focus toolbar modes */
+.RadWindow_Metro.reToolbarWindow td.rwWindowContent
+{
+    background-color: #fff;
+}

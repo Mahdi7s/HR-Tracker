@@ -1,0 +1,409 @@
+/* RadFormDecorator for ASP.NET Hay Skin */
+
+/* CSS class for styling the decoration zone or the <html /> tag of the page */
+.RadForm_Hay.rfdZone
+{
+    background-color: #fff;
+}
+
+/* Decorate scrollbars */
+.RadForm_Hay.rfdScrollBars
+{
+	scrollbar-3dlight-color: #ccc; 
+	scrollbar-arrow-color: #5d5c52;
+	scrollbar-base-color: #ff6347; 
+	scrollbar-darkshadow-color: #8d8c80; 
+	scrollbar-face-color: #dadacb;
+	scrollbar-highlight-color: #fff; 
+	scrollbar-shadow-color: #a3a3a3;
+	scrollbar-track-color: #f3f3e2;
+}
+
+/* Decorate <input type="button | submit | reset" /> and <button type="button | submit | reset" /> - look if there is a secondary .rfdButton class applied to the root element */
+/* Decorate <input type="button | submit | reset" /> and <button type="button | submit | reset" /> - look if there is a secondary .rfdButton class applied to the root element */
+.RadForm_Hay.rfdButton a.rfdSkinnedButton,
+.RadForm_Hay.rfdButton input[type="button"].rfdDecorated,
+.RadForm_Hay.rfdButton input[type="reset"].rfdDecorated,
+.RadForm_Hay.rfdButton input[type="submit"].rfdDecorated,
+.RadForm_Hay.rfdButton .rfdSkinnedButton button
+{
+	background-image: url('FormDecorator/ButtonSprites.png');
+	color: #045100;
+}
+
+*html .RadForm_Hay a.rfdSkinnedButton,
+*html .RadForm_Hay .rfdSkinnedButton button,
+*html .RadForm_Hay .rfdSkinnedButton input.rfdDecorated,
+.RadForm_Hay.rfdButton a.rfdSkinnedButton,
+.RadForm_Hay.rfdButton a.rfdSkinnedButton *
+{
+	background-image: url('FormDecorator/ButtonSprites.png');
+	color: #045100;
+}
+
+.RadForm_Hay.rfdButton .rfdSkinnedButton:hover *
+{
+    color: #279500;
+}
+
+/* OPERA width fix - do not remove (and check if it is still necessary) */
+@media screen and (min-width:1px)  
+{
+	/* 
+       the hack below fixes a strange behavior under Opera - 
+       input and button have a different CSS display when in anchor tag 
+    */
+	.RadForm_Hay.rfdButton a.rfdSkinnedButton input
+	{
+	    display: block;
+	    float: left;
+	}
+}
+
+/* Decorate <h4|5|6 /> */
+.RadForm_Hay.rfdHeading h4
+{
+	color: #279500;	
+	border-bottom: solid 1px #50a81b;	
+}
+
+.RadForm_Hay.rfdHeading h5
+{
+	color: #000;	
+	border-bottom: solid 1px #9e9c83;	
+}
+
+.RadForm_Hay.rfdHeading h6
+{
+	color: #000;
+}
+
+/* Decorate <label /> */
+.RadForm_Hay.rfdLabel label
+{	
+	color: #000;	
+}
+
+/* Decorate <input type="checkbox" /> */
+.RadForm_Hay .rfdCheckboxUnchecked,
+.RadForm_Hay .rfdCheckboxChecked,
+.RadForm_Hay .rfdInputDisabled.rfdCheckboxUnchecked,
+.RadForm_Hay .rfdInputDisabled.rfdCheckboxChecked
+{
+	background-image: url('FormDecorator/CheckBoxSprites.gif');
+}
+
+/* Decorate <input type="radio" /> */
+.RadForm_Hay .rfdRadioUnchecked,
+.RadForm_Hay .rfdRadioChecked,
+.RadForm_Hay .rfdInputDisabled.rfdRadioUnchecked,
+.RadForm_Hay .rfdInputDisabled.rfdRadioChecked
+{
+	background-image: url('FormDecorator/RadioButtonSprites.png');
+}
+
+/* IE6 - we set .gif")%> image instead of .png")%> due to the lack RGBA support */
+.RadForm_Hay .rfdRadioUnchecked,
+.RadForm_Hay .rfdInputDisabled.rfdRadioUnchecked:hover,
+.RadForm_Hay .rfdRadioUnchecked:hover,
+.RadForm_Hay .rfdRadioChecked,
+.RadForm_Hay .rfdInputDisabled.rfdRadioChecked:hover,
+.RadForm_Hay .rfdRadioChecked:hover
+{
+    _background-image: url('FormDecorator/RadioButtonSprites.gif'); /* IE6 hack */
+}
+
+/* <fieldset /> and <legend /> */
+
+.RadForm_Hay.rfdFieldset table.rfdRoundedWrapper_fieldset legend,
+.RadForm_Hay fieldset.rfdFieldset legend,
+.RadForm_Hay.rfdFieldset fieldset legend
+{
+	color: #000;
+}
+
+.RadForm_Hay table.rfdRoundedWrapper:hover div.rfdRoundedInner
+{
+    background-color: #fff;
+    border-color: #44a41f !important;
+}
+
+/* this selector styles the hover of the side bars of the rounded elements */
+.RadForm_Hay table.rfdRoundedWrapper:hover .rfdRoundedOuter
+{	
+	background-color: #44a41f !important;
+}
+
+/* Decorate <input type="text | password" /> and <textarea /> */
+/* For all browsers except IE6 we are using attribute selectors - single or double */
+.RadForm_Hay.rfdTextbox input[type="text"],
+.RadForm_Hay.rfdTextbox input[type="password"],
+.RadForm_Hay.rfdTextarea textarea,
+.RadForm_Hay.rfdTextarea textarea[disabled]:hover,
+.RadForm_Hay.rfdTextbox input[disabled][type="text"]:hover,
+.RadForm_Hay.rfdTextbox input[disabled][type="password"]:hover
+{
+    border: solid 1px #abadb3;
+    background-color: #fff;
+}
+
+.RadForm_Hay.rfdTextbox .rfdDecorated:hover,
+.RadForm_Hay.rfdTextarea textarea:hover,
+.RadForm_Hay.rfdTextbox .rfdDecorated:focus,
+.RadForm_Hay.rfdTextarea textarea:focus
+{
+    border: solid 1px #44a41f;
+}
+
+/* Decorate <fieldset /> */
+.RadForm_Hay.rfdFieldset fieldset
+{	
+	border: solid 1px #e0e0e0;
+	background-image: url('FormDecorator/FieldsetBgr.png'); /* having a background image on a fieldset is not okay with IE */	
+}
+
+/* Decorate <fieldset /> and <legend /> */
+.RadForm_Hay.rfdFieldset table.rfdRoundedWrapper_fieldset legend,
+.RadForm_Hay.rfdFieldset fieldset.rfdFieldset legend
+{
+	color: #000;
+}
+
+.RadForm_Hay.rfdFieldset table.rfdRoundedWrapper_fieldset fieldset,
+.RadForm_Hay.rfdFieldset fieldset.rfdFieldset
+{	
+	border: solid 1px #e0e0e0;
+	background-image: url('FormDecorator/FieldsetBgr.png'); /* having a background image on a fieldset is not okay with IE */	
+}
+
+/* Because of a glitch in IE the following 2 CSS classes must be declared separately for correct parsing of the textarea class in IE6*/
+.RadForm_Hay table.rfdRoundedWrapper input,
+.RadForm_Hay table.rfdRoundedWrapper textarea,
+.RadForm_Hay input.rfdInput, 
+.RadForm_Hay textarea.rfdTextarea
+{
+	border: solid 1px #abadb3;
+	background: #fff;	
+	color: #000;
+}
+
+.RadForm_Hay textarea.rfdTextarea,
+.RadForm_Hay table.rfdRoundedWrapper textarea
+{
+    overflow: auto;
+}
+
+/* <select /> */
+.rfdSelect_Hay,
+.rfdSelect_Hay:hover,
+.rfdSelect_Hay .rfdSelectOuter,
+.rfdSelect_Hay:hover .rfdSelectOuter,
+.rfdSelect_Hay .rfdSelectArrow span,
+.rfdSelectBox_Hay .rfdSelect_selected,
+.rfdSelectBox_Hay li:hover,
+.rfdSelect_Hay.rfdSelectDisabled:hover,
+.rfdRtl .rfdSelect_Hay,
+.rfdRtl .rfdSelect_Hay:hover,
+.rfdRtl .rfdSelect_Hay .rfdSelectOuter,
+.rfdRtl .rfdSelect_Hay .rfdSelectOuter:hover
+{
+    background-image: url('FormDecorator/ComboSprites.gif');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.rfdSelect_Hay .rfdSelectOuter,
+.rfdSelect_Hay.rfdSelectDisabled:hover .rfdSelectOuter
+{
+    color: #272722;
+}
+
+.rfdSelect_Hay .rfdSelectOuter:hover
+{
+    color: #279500;
+}
+
+/* dropdown settings */
+.rfdSelectBox_Hay
+{
+    background: #fff;
+    border: solid 1px #959485;
+    color: #000;
+}
+
+.rfdSelectBox_Hay li
+{
+    padding: 0 0 0 3px;
+    background-image: none !important;
+}
+
+.rfdSelectBox_Hay .rfdSelect_selected,
+.rfdSelectBox_Hay li:hover
+{
+    color: #279500;
+    background-color: #eeffdc;
+}
+
+.rfdSelectBox_Hay .rfdSelectBox_optgroup_label:hover
+{
+    background: none;
+    color: #000;
+}
+
+.rfdSelectDisabled.rfdSelectBox_Hay li
+{
+    color: #2b2c20;
+}
+
+/* dropdown settings */
+.rfdSelectBox_Hay
+{
+    background: #fff;
+    border: solid 1px #828282;
+    color: #000;
+}
+
+.rfdSelectBox_Hay li
+{
+    padding-left: 3px !important;
+    line-height: 16px;
+    height: 16px;
+    background-image: none !important;
+}
+
+.rfdSelectBox_Hay .rfdSelectBox_optgroup_label:hover
+{
+    background: none;
+    color: #000;
+}
+
+/* IE6 disabled state fix - this should not be added to the base stylesheet, but at the bottom of the skin file */
+* html .RadForm_Hay.rfdButton a.rfdInputDisabled:hover
+{
+	_background-position: 0 0;
+}
+
+* html .RadForm_Hay.rfdButton a.rfdInputDisabled:hover *
+{
+	_background-position: right -21px;
+	_color: #000;
+}
+
+.RadForm_Hay.rfdTextbox input.rfdIE6TextBox,
+.RadForm_Hay.rfdTextbox textarea.rfdIE6TextBox
+{
+    _border: solid 1px #abadb3;
+    _background-color: #fff;
+}
+
+/* the styling of radiobuttons and checkboxes in Safari and Chrome is already fully achieved with CSS */
+@media screen and (-webkit-min-device-pixel-ratio: 0)
+{
+    /* checkboxes */
+    .rfdCheckbox input[type="checkbox"],
+    .rfdCheckbox input[type="checkbox"][disabled]:hover
+    {
+        background-image: url('FormDecorator/CheckBoxSprites.gif');
+    }
+    
+    /* radio buttons */
+    .rfdRadio input[type="radio"],
+    .rfdRadio input[type="radio"][disabled="disabled"]:hover
+    {
+        background-image: url('FormDecorator/RadioButtonSprites.png');
+    }
+}
+
+/* ----------------------------------------------- Skin-specific Scrollbar Settings for WebKit ----------------------------------------------- */
+
+/* the scrollbar face color */
+.RadForm.rfdScrollBars.RadForm_Hay body::-webkit-scrollbar,
+.RadForm.rfdScrollBars.RadForm_Hay body::-webkit-scrollbar-thumb:vertical,
+.RadForm.rfdScrollBars.RadForm_Hay body::-webkit-scrollbar-thumb:horizontal,
+.RadForm.rfdScrollBars.RadForm_Hay div::-webkit-scrollbar,
+.RadForm.rfdScrollBars.RadForm_Hay div::-webkit-scrollbar-thumb:vertical,
+.RadForm.rfdScrollBars.RadForm_Hay div::-webkit-scrollbar-thumb:horizontal
+.RadForm.rfdScrollBars.RadForm_Hay form::-webkit-scrollbar,
+.RadForm.rfdScrollBars.RadForm_Hay form::-webkit-scrollbar-thumb:vertical,
+.RadForm.rfdScrollBars.RadForm_Hay form::-webkit-scrollbar-thumb:horizontal
+{
+    background-color: #dadacb;
+}
+
+/* scrollbar track background color */
+.RadForm.rfdScrollBars.RadForm_Hay ::-webkit-scrollbar-track-piece,
+.RadForm.rfdScrollBars.RadForm_Hay ::-webkit-scrollbar-corner
+{
+    background-color: #f3f3e2;
+}
+
+.RadForm.rfdScrollBars.RadForm_Hay ::-webkit-scrollbar-button:vertical:decrement, 
+.RadForm.rfdScrollBars.RadForm_Hay ::-webkit-scrollbar-button:vertical:increment, 
+.RadForm.rfdScrollBars.RadForm_Hay ::-webkit-scrollbar-button:horizontal:decrement, 
+.RadForm.rfdScrollBars.RadForm_Hay ::-webkit-scrollbar-button:horizontal:increment, 
+.RadForm.rfdScrollBars.RadForm_Hay ::-webkit-scrollbar-thumb:vertical, 
+.RadForm.rfdScrollBars.RadForm_Hay ::-webkit-scrollbar-thumb:horizontal
+{
+    border-color: #fff #a3a3a3 #a3a3a3 #fff;
+}
+
+/* increment / decrement button settings */
+.RadForm.rfdScrollBars.RadForm_Hay ::-webkit-scrollbar-button:vertical:decrement, 
+.RadForm.rfdScrollBars.RadForm_Hay ::-webkit-scrollbar-button:vertical:increment, 
+.RadForm.rfdScrollBars.RadForm_Hay ::-webkit-scrollbar-button:horizontal:decrement, 
+.RadForm.rfdScrollBars.RadForm_Hay ::-webkit-scrollbar-button:horizontal:increment
+{
+    background-image: url('FormDecorator/ButtonSprites.png');
+    background-color: #dadacb;
+}
+
+/*GridView, FormView, DetailsView*/
+.RadForm_Hay.rfdGrids .rfdTable
+{
+    border:1px solid #bbb99d;
+    background:#ececd8;
+    color:#272722;
+    font:12px "segoe ui",arial,sans-serif;
+}
+
+.RadForm_Hay.rfdGrids .rfdTable th
+{
+    border-bottom:1px solid #27710a;
+    border-left:1px solid #368709;
+    background:#4eb106;
+    color:#fff;
+}
+
+.RadForm_Hay.rfdGrids .rfdTable a
+{
+    color:#185d00;
+}
+
+/* Validation Summary Control and Login Control  */
+
+.RadForm_Hay .rfdValidationSummaryControl,
+.RadForm_Hay .rfdLoginControl
+{
+	background-color: #fff;
+	border: 1px solid #abadb3;
+}
+
+.RadForm_Hay a.rfdLoginControl
+{
+	color: #272722;
+}
+
+.RadForm_Hay a.rfdLoginControl:active
+{
+	color: #185d00;
+}
+
+.RadForm_Hay a.rfdLoginControl:hover
+{
+	color: #279500;
+}
+
+.RadForm_Hay a.rfdLoginControl:visited
+{
+	color: #6e6d5b;
+}

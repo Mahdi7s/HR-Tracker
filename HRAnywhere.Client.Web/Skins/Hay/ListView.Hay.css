@@ -1,0 +1,173 @@
+/*Telerik RadListView Hay Skin*/
+
+/*global*/
+
+.RadListView_Hay
+{
+	border:1px solid #bbb99d;
+	background:#fff;
+	color:#272722;
+	font:12px/16px "segoe ui",arial,sans-serif;
+}
+
+.RadListView_Hay .rlvA
+{
+	background:#ececd8;
+}
+
+.RadListView_Hay .rlvISel
+{
+	background:#9dd672;
+}
+
+.RadListView_Hay .rlvIEdit
+{
+	background:#dee0c8;
+}
+
+/*buttons*/
+
+.RadListView_Hay .rlvBAdd,
+.RadListView_Hay .rlvBUpdate,
+.RadListView_Hay .rlvBCancel,
+.RadListView_Hay .rlvBDel,
+.RadListView_Hay .rlvBEdit
+{
+	background-image:url('Grid/sprite.gif');
+}
+
+.RadListView_Hay .rlvBAdd
+{
+	background-position:0 -1650px;
+}
+.RadListView_Hay .rlvBUpdate
+{
+	background-position:0 -1800px;
+}
+.RadListView_Hay .rlvBCancel
+{
+	background-position:0 -1850px;
+}
+.RadListView_Hay .rlvBSel
+{
+	background-image:url('FormDecorator/CheckBoxSprites.gif');
+	background-position:-2px -2px;
+}
+.RadListView_Hay .rlvISel .rlvBSel
+{
+	background-position:-2px -422px;
+}
+.RadListView_Hay .rlvBDel
+{
+	background-position:0 -1750px;
+}
+.RadListView_Hay .rlvBEdit
+{
+	background-position:0 -1700px;
+}
+
+.RadListView_Hay .rlvDrag
+{
+	background-image:url('ListView/drag.gif');
+	background-position:center center;
+}
+
+/*flow*/
+
+.RadListView_Hay div.rlvI,
+.RadListView_Hay div.rlvIEmpty
+{
+	border-color:#fff;
+}
+
+.RadListView_Hay div.rlvA
+{
+	border-color:#ececd8;
+}
+
+.RadListView_Hay div.rlvISel
+{
+	border-color:#9dd672;
+}
+
+.RadListView_Hay div.rlvIEdit
+{
+	border-color:#dee0c8;
+}
+
+/*grid*/
+
+.RadListView_Hay tr.rlvHeader th
+{
+	border:1px solid;
+	border-top:0;
+	border-color:#7ed131 #72c530 #27710a #358709;
+	background:0 -2300px repeat-x #4eb106 url('Grid/sprite.gif');
+	color:#fff;
+}
+
+.RadListView_Hay tr.rlvI td,
+.RadListView_Hay tr.rlvA td,
+.RadListView_Hay tr.rlvISel td,
+.RadListView_Hay tr.rlvIEmpty td
+{
+	border:1px solid;
+	border-top:0;
+}
+
+.RadListView_Hay tr.rlvI td,
+.RadListView_Hay tr.rlvIEmpty td
+{
+	border-color:#fff #fff #fff #bbb99d;
+}
+
+.RadListView_Hay tr.rlvA td
+{
+	border-color:#ececd8 #ececd8 #ececd8 #bbb99d;
+}
+
+.RadListView_Hay tr.rlvISel td
+{
+	border-color:#9dd672 #9dd672 #459e1d #9dd672;
+}
+
+.RadListView_Hay tr.rlvIEdit td
+{
+	border-color:#dee0c8 #dee0c8 #dee0c8 #bbb99d;
+}
+
+/*single row*/
+
+.RadListView_Hay td.rlvI,
+.RadListView_Hay td.rlvA,
+.RadListView_Hay td.rlvISel,
+.RadListView_Hay td.rlvIEmpty,
+.RadListView_Hay td.rlvIEdit
+{
+	border:0;
+	border-right:1px solid #bbb99d;
+}
+
+.RadListView_Hay td.rlvISel
+{
+	border-color:#459e1d;
+}
+
+/*floated*/
+
+.RadListView_Hay .rlvFloated .rlvI,
+.RadListView_Hay .rlvFloated .rlvA,
+.RadListView_Hay .rlvFloated .rlvISel,
+.RadListView_Hay .rlvFloated .rlvIEdit
+{
+	border-color:#bbb99d;
+}
+
+/*edit*/
+
+.RadListView_Hay .rlvInput
+{
+	border-color:#898772;
+	background:#fff;
+	color:#272722;
+}

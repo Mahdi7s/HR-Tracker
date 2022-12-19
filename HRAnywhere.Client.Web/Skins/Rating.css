@@ -1,0 +1,198 @@
+/*RadRating for ASP.NET AJAX Base Stylesheet*/
+.RadRating 
+{
+	overflow:hidden; /*right-to-left mode scrollbars fix*/
+	font-size:1px;
+	cursor:pointer;
+	cursor:default;
+	direction:ltr; /*use the IsDirectionReversed property of the rating to change the direction*/
+	text-align:left; /*IE6/IE7 support for Precision != Item*/
+}
+
+.RadRating,
+.RadRating *
+{
+	outline:none;
+	-moz-user-select:none;
+}
+
+.RadRating ul,
+.RadRating li
+{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+
+.RadRating li
+{
+	float:left;
+}
+
+.RadRating .rrtVertical li
+{
+	clear:left;
+}
+
+.RadRating ul
+{
+	padding:2px;
+	zoom:1;
+}
+
+.RadRating ul:after
+{
+	content:""; 
+    display:block;
+    height:0;
+    overflow:hidden;
+    line-height:0;
+    font-size:0;
+    clear:both;
+    visibility:hidden;
+}
+
+.RadRating a,
+.RadRating a span
+{
+	background-repeat:no-repeat;
+	cursor:pointer;
+	cursor:default;
+	text-decoration:none; /*right-to-left mode links underline fix*/
+	display:block;
+	line-height:1px;
+}
+
+* html .RadRating a,
+* html .RadRating a span
+{
+	filter:chroma(color=c8d0d4); /*IE6 png fix - set the grey color to transparent*/
+}
+
+/*Rating item*/
+.RadRating a
+{	
+	width:18px;
+	height:18px;
+	text-indent:-9999px;
+	/*text-align:center;indentation in RTL and right-aligned mode*/
+	margin:1px;
+	background-position:0 0;
+}
+
+/* Fix for mobile Safari - iPhone/iPad */
+.RadRating ._Telerik_MobileSafari a
+{	
+	width:17px;
+	height:17px;
+}
+
+/*The SPAN element represents the selected part of the item*/
+.RadRating a span
+{
+	width:0px;
+	height:18px;
+	background-position:-18px 0;
+}
+
+.RadRating .rrtVertical a span
+{
+	width:18px;
+	height:0px;
+}
+
+/*Hover state*/
+.RadRating .rrtOver a
+{
+	background-position:-18px -18px;
+}
+
+.RadRating .rrtOver a span
+{
+	background-position:-18px -36px;
+}
+
+/*selected star*/
+.RadRating .rrtSelected a span
+{
+	width:18px;
+	height:18px;
+}
+
+/*Reversed direction*/
+/*The SPAN element represents the unselected part of the reveresed item*/
+.RadRating .rrtReversed a span
+{
+	width:18px;
+	height:18px;
+	background-position:0 0;
+}
+
+/*selected star*/
+.RadRating .rrtReversed .rrtSelected a span
+{
+	width:0px;
+}
+
+.RadRating .rrtVertical.rrtReversed .rrtSelected a span
+{
+	width:18px;
+	height:0px;
+}
+
+.RadRating .rrtReversed .rrtOver a span
+{
+	background-position:-18px -18px;
+}
+
+.RadRating .rrtReversed .rrtSelected a
+{
+	background-position:right top;
+}
+
+.RadRating .rrtReversed .rrtSelected.rrtOver a
+{
+	background-position:right bottom;
+}
+
+/*Selected/not selected parts in mode Precision!=Item*/
+.RadRating ul li .rrtPart
+{
+	background-position:-18px -36px;
+	margin-top:-18px;
+}
+
+.RadRating ul li .rrtPartComplement
+{
+	background-position:-18px -18px;
+	margin-top:-18px;
+}
+
+.RadRating ul.rrtReversed li .rrtPart
+{
+	background-position:right -18px;
+}
+
+.RadRating ul.rrtReversed li .rrtPartComplement
+{
+	background-position:right bottom;
+}
+
+.RadRating ul.rrtReversed.rrtVertical li .rrtPart
+{
+	background-position:left bottom;
+}
+
+/* Items, defined in the Items collection */
+.RadRating .rrtCustomItemImages a,
+.RadRating .rrtCustomItemImages a span
+{
+	background-image:none;
+}
+
+.RadRating .rrtHiddenImages
+{
+	position:absolute;
+	top:-9999px;
+	visibility:hidden;
+}

@@ -1,0 +1,97 @@
+/*Telerik RadDataPager Office2010Black Skin*/
+
+.RadDataPager_Office2010Black
+{
+	border:1px solid #1b1b1b;
+	background:#ecf3fc 0 -7000px repeat-x url('Grid/sprite.png');
+	color:#e2e2e2;
+}
+
+.RadDataPager_Office2010Black .rdpPageFirst,
+.RadDataPager_Office2010Black .rdpPagePrev,
+.RadDataPager_Office2010Black .rdpPageNext,
+.RadDataPager_Office2010Black .rdpPageLast
+{
+	background:transparent no-repeat url('Grid/sprite.png');
+}
+
+.RadDataPager_Office2010Black .rdpPageFirst
+{
+	margin:0 3px 0 0;
+	background-position:0 -550px;
+}
+.RadDataPager_Office2010Black .rdpPageFirst:hover
+{
+	background-position:0 -600px;
+}
+.RadDataPager_Office2010Black .rdpPagePrev
+{
+	margin:0 3px 0 0;
+	background-position:0 -700px;
+}
+.RadDataPager_Office2010Black .rdpPagePrev:hover
+{
+	background-position:0 -750px;
+}
+.RadDataPager_Office2010Black .rdpPageNext
+{
+	margin:0 0 0 3px;
+	background-position:0 -850px;
+}
+.RadDataPager_Office2010Black .rdpPageNext:hover
+{
+	background-position:0 -900px;
+}
+.RadDataPager_Office2010Black .rdpPageLast
+{
+	margin:0 0 0 3px;
+	background-position:0 -1000px;
+}
+.RadDataPager_Office2010Black .rdpPageLast:hover
+{
+	background-position:0 -1050px;
+}
+
+.RadDataPager_Office2010Black .rdpPagerButton
+{
+	border:1px solid #7793b9;
+	background:#e8f1fc repeat-x 0 -1550px url('Grid/sprite.png');
+	color:#00156e;
+	font:12px/12px "segoe ui",arial,sans-serif;
+}
+
+.RadDataPager_Office2010Black .rdpNumPart a:hover,
+.RadDataPager_Office2010Black .rdpNumPart a:hover span,
+.RadDataPager_Office2010Black .rdpNumPart a.rdpCurrentPage,
+.RadDataPager_Office2010Black .rdpNumPart a.rdpCurrentPage span
+{
+	background:no-repeat url('Grid/sprite.png');
+}
+
+.RadDataPager_Office2010Black .rdpNumPart a
+{
+	color:#e2e2e2;
+}
+
+.RadDataPager_Office2010Black .rdpNumPart a:hover
+{
+	background-position:100% -1250px;
+	color:#000;
+}
+
+.RadDataPager_Office2010Black .rdpNumPart a:hover span
+{
+	background-position:0 -1150px;
+}
+
+.RadDataPager_Office2010Black .rdpNumPart a.rdpCurrentPage,
+.RadDataPager_Office2010Black .rdpNumPart a.rdpCurrentPage:hover
+{
+	background-position:100% -1450px;
+}
+
+.RadDataPager_Office2010Black .rdpNumPart a.rdpCurrentPage span,
+.RadDataPager_Office2010Black .rdpNumPart a.rdpCurrentPage:hover span
+{
+	background-position:0 -1350px;
+}

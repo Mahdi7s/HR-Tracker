@@ -1,0 +1,61 @@
+/*RadNotification Metro Skin*/
+
+.RadNotification_Metro.rnShadows
+{
+	box-shadow: 0 0 0 #b0afaf;
+	-webkit-box-shadow: 0 0 0 #b0afaf;
+}
+
+.RadNotification_Metro.rnRoundedCorners
+{
+	border-radius: 0;
+	-webkit-border-radius: 0;
+}
+
+.RadNotification_Metro
+{
+	border: 1px solid #25a0da;
+	background-color: #25a0da;
+}
+
+.RadNotification_Metro .rnTitleBar
+{
+	background-color: #25a0da;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+}
+
+.RadNotification_Metro .rnCommands a
+{
+	background-image: url('Notification/NotificationSprite.png');
+}
+
+.RadNotification_Metro .rnTitleBar
+{
+}
+
+.RadNotification_Metro .rnTitleBarTitle
+{
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.RadNotification_Metro .rnContentWrapper
+{
+	color: #fff;
+}
+
+/* base overwrites */
+.RadNotification_Metro .rnCommands 
+{
+	margin: 2px 3px 0 0;
+}
+
+.RadNotification_Metro .rnCommands li
+{
+	margin-right: 1px;
+}
+
+
+

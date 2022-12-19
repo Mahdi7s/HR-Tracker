@@ -1,0 +1,142 @@
+/*Telerik RadInput Windows7 Skin*/
+
+/*global*/
+
+.RadInput_Windows7,
+.RadInputMgr_Windows7
+{
+	font:12px "segoe ui",arial,sans-serif;
+}
+
+/*textbox states*/
+
+html body .RadInput_Windows7 .riTextBox,
+html body .RadInputMgr_Windows7
+{
+	border-color:#b8cbde;
+	background:#fff;
+	color:#000;
+	font:12px "segoe ui",arial,sans-serif;
+}
+
+html body .RadInput_Windows7 .riEmpty,
+html body .RadInput_Empty_Windows7
+{
+	color:#a7a7a7;
+}
+
+html body .RadInput_Windows7 .riHover,
+html body .RadInput_Hover_Windows7,
+html body .RadInput_Windows7 .riFocused,
+html body .RadInput_Focused_Windows7
+{
+	border-color:#c1dbfc;
+}
+
+html body .RadInput_Windows7 .riRead,
+html body .RadInput_Read_Windows7
+{
+	border-color:#d9d9d9;
+}
+
+html body .RadInput_Windows7 .riDisabled,
+html body .RadInput_Disabled_Windows7
+{
+	border-color:#d9d9d9;
+	color:#a7a7a7;
+	cursor:default;
+}
+
+html body .RadInput_Windows7 .riError,
+html body .RadInput_Error_Windows7
+{
+	border-color:#d18185;
+	background:#fff 100% -298px no-repeat url('Input/sprite.gif');
+	color:#b32d34;
+}
+
+.RadForm.rfdTextbox .RadInput_Windows7 .riError[type="text"],
+.RadForm.rfdTextbox .RadInput_Error_Windows7[type="text"]
+{
+	border-color:#d18185;
+	background:#fff 100% -298px no-repeat url('Input/sprite.gif');
+	color:#b32d34;
+}
+
+html body .RadInput_Windows7 .riNegative,
+html body .RadInput_Negative_Windows7
+{
+	color:#565656;
+}
+
+/*buttons*/
+
+.RadInput_Windows7 a
+{
+	background:transparent no-repeat url('Input/sprite.gif');
+}
+
+/*go*/
+
+.RadInput_Windows7 .riBtn a
+{
+	width:20px;
+	height:18px;
+	line-height:18px;
+	background-position:3px 5px;
+}
+
+.RadInput_Windows7 .riBtn a:hover
+{
+	background-position:3px -45px;
+}
+
+/*spin*/
+
+.RadInput_Windows7 .riSpin a
+{
+	width:15px;
+	height:7px;
+	line-height:7px;
+}
+
+.RadInput_Windows7 a.riUp
+{
+	background-position:4px -98px;
+}
+
+.RadInput_Windows7 a.riUp:hover
+{
+	background-position:4px -148px;
+}
+
+.RadInput_Windows7 a.riDown
+{
+	background-position:4px -199px;
+}
+
+.RadInput_Windows7 a.riDown:hover
+{
+	background-position:4px -249px;
+}
+
+/*label*/
+
+.RadInput_Windows7 .riLabel
+{
+	color:#000;
+}
+
+/*rtl*/
+
+html body .RadInputRTL_Windows7 .riError,
+html body .RadInputRTL_Error_Windows7
+{
+	background-position:3px -298px;
+}
+
+.RadForm.rfdTextbox .RadInputRTL_Windows7 .riError[type="text"],
+.RadForm.rfdTextbox .RadInputRTL_Error_Windows7[type="text"]
+{
+	background-position:3px -298px;
+}

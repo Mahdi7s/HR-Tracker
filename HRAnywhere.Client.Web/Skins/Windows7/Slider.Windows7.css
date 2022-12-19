@@ -1,0 +1,127 @@
+/* RadSlider for ASP.NET AJAX Windows7 Skin */
+.RadSlider_Windows7 .rslTrack
+{
+	border-color:#959db8 #adb3cb #adb3cb #959db8;
+}
+
+.RadSlider_Windows7 .rslHorizontal a.rslHandle
+{
+	background-image:url('Slider/Handles.gif');
+}
+
+.RadSlider_Windows7 .rslHorizontal a.rslDraghandle
+{
+	background-image:url('Slider/DragHandle.gif');
+}
+
+.RadSlider_Windows7 .rslBottom a.rslDraghandle
+{
+	background-image:url('Slider/DragHandleUp.gif');
+}
+
+.RadSlider_Windows7 .rslHorizontal .rslTrack
+{
+	background:url('Slider/TrackBgr.gif') repeat-x;
+}
+
+.RadSlider_Windows7 .rslHorizontal .rslSelectedregion
+{
+	background:url('Slider/SelectedRegionHorizontalBgr.gif') right top no-repeat;
+}
+
+/* vertical slider */
+.RadSlider_Windows7 .rslVertical a.rslHandle
+{
+	background-image:url('Slider/HandlesVertical.gif');
+}
+
+.RadSlider_Windows7 .rslVertical .rslTrack
+{
+	background:url('Slider/TrackVerticalBgr.gif') repeat-y;
+}
+
+.RadSlider_Windows7 .rslVertical .rslSelectedregion
+{
+	background:url('Slider/SelectedRegionVerticalBgr.gif') left bottom no-repeat;
+}
+
+.RadSlider_Windows7 .rslVertical a.rslDraghandle
+{
+	background:url('Slider/DragVerticalHandle.gif') no-repeat;
+}
+
+.RadSlider_Windows7 .rslLeft a.rslDraghandle
+{
+	background:url('Slider/DragVerticalHandleRight.gif') no-repeat;
+}
+
+.RadSlider_Windows7 .rslItem,
+.RadSlider_Windows7 .rslLargeTick span
+{
+	color:#333;
+}
+
+.RadSlider_Windows7 .rslItemsWrapper .rslItemSelected
+{
+	color:#000;
+}
+
+/* horizontal slider items */
+.RadSlider_Windows7 .rslHorizontal .rslItem
+{
+	background-image:url('Slider/ItemHorizontalBgr.gif');
+}
+
+/* vertical slider items */
+.RadSlider_Windows7 .rslVertical .rslItem
+{
+	background-image:url('Slider/ItemVerticalBgr.gif');
+}
+
+/* horizontal slider - TrackPosition=Top/Bottom */
+.RadSlider_Windows7 .rslTop .rslSmallTick,
+.RadSlider_Windows7 .rslBottom .rslSmallTick
+{
+	background-image:url('Slider/SmallChangeHorizontal.gif');
+}
+
+.RadSlider_Windows7 .rslTop .rslLargeTick,
+.RadSlider_Windows7 .rslBottom .rslLargeTick
+{
+	background-image:url('Slider/LargeChangeHorizontal.gif');
+}
+
+/* vertical slider - TrackPosition=Left/Right */
+.RadSlider_Windows7 .rslLeft .rslSmallTick,
+.RadSlider_Windows7 .rslRight .rslSmallTick
+{
+	background-image:url('Slider/SmallChangeVertical.gif');
+}
+
+.RadSlider_Windows7 .rslLeft .rslLargeTick,
+.RadSlider_Windows7 .rslRight .rslLargeTick
+{
+	background-image:url('Slider/LargelChangeVertical.gif');
+}
+
+/* horizontal slider - TrackPosition=Center */
+.RadSlider_Windows7 .rslMiddle .rslSmallTick
+{
+	background-image:url('Slider/SmallChangeMiddleHorizontal.gif');
+}
+
+.RadSlider_Windows7 .rslMiddle .rslLargeTick
+{
+	background-image:url('Slider/LargeChangeMiddleHorizontal.gif');
+}
+
+/* vertical slider - TrackPosition=Center */
+.RadSlider_Windows7 .rslCenter .rslSmallTick
+{
+	background-image:url('Slider/SmallChangeCenterVertical.gif');
+}
+
+.RadSlider_Windows7 .rslCenter .rslLargeTick
+{
+	background-image:url('Slider/LargelChangeCenterVertical.gif');
+}

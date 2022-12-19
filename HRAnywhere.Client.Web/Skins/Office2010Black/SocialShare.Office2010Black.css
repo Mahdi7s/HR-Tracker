@@ -1,0 +1,24 @@
+/* RadSocialShare Office2010Black Skin */
+
+.RadSocialShare_Office2010Black
+{
+	border: 1px solid #2c2c2c;
+	background-color: #4a4a4a;
+}
+
+.RadSocialShare_Office2010Black .sshLinkItem .sshText
+{
+	color: #e2e2e2;
+}
+
+.RadSocialShare_Office2010Black .sshLinkItem:hover .sshText
+{
+	color: #ffe175;
+}
+
+.RadComboBoxDropDown_Office2010Black .rcbItem .sshLinkItem .sshText,
+.RadComboBoxDropDown_Office2010Black .rcbHovered .sshLinkItem .sshText,
+.RadWindow_Office2010Black .sshForm label .sshLabelBellow
+{
+	color: #000;
+}

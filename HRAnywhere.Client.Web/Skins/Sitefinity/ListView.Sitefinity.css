@@ -1,0 +1,116 @@
+/*Telerik RadListView Sitefinity Skin*/
+
+/*global*/
+
+.RadListView_Sitefinity
+{
+	border:0;
+	background:#fff;
+	color:#000;
+	font:12px/16px "segoe ui",arial,sans-serif;
+}
+
+.RadListView_Sitefinity .rlvA
+{
+	background:#f1f1f1;
+}
+
+.RadListView_Sitefinity .rlvISel
+{
+	background:#fff5af;
+}
+
+/*buttons*/
+
+.RadListView_Sitefinity .rlvBAdd,
+.RadListView_Sitefinity .rlvBUpdate,
+.RadListView_Sitefinity .rlvBCancel,
+.RadListView_Sitefinity .rlvBDel,
+.RadListView_Sitefinity .rlvBEdit
+{
+	background-image:url('Grid/sprite.gif');
+}
+
+.RadListView_Sitefinity .rlvBAdd
+{
+	background-position:0 -1650px;
+}
+.RadListView_Sitefinity .rlvBUpdate
+{
+	background-position:0 -1800px;
+}
+.RadListView_Sitefinity .rlvBCancel
+{
+	background-position:0 -1850px;
+}
+.RadListView_Sitefinity .rlvBSel
+{
+	background-image:url('FormDecorator/CheckBoxSprites.gif');
+	background-position:-2px -2px;
+}
+.RadListView_Sitefinity .rlvISel .rlvBSel
+{
+	background-position:-2px -422px;
+}
+.RadListView_Sitefinity .rlvBDel
+{
+	background-position:0 -1750px;
+}
+.RadListView_Sitefinity .rlvBEdit
+{
+	background-position:0 -1700px;
+}
+
+.RadListView_Sitefinity .rlvDrag
+{
+	background-image:url('ListView/drag.gif');
+	background-position:center center;
+}
+
+/*flow*/
+
+.RadListView_Sitefinity div.rlvI,
+.RadListView_Sitefinity div.rlvA,
+.RadListView_Sitefinity div.rlvISel,
+.RadListView_Sitefinity div.rlvIEmpty
+{
+	border:0;
+}
+
+/*grid*/
+
+.RadListView_Sitefinity tr.rlvHeader th
+{
+	border:0;
+	border-bottom:1px solid #ccc;
+	color:#777;
+	font-size:9px;
+	text-transform:uppercase;
+}
+
+.RadListView_Sitefinity tr.rlvI td,
+.RadListView_Sitefinity tr.rlvA td,
+.RadListView_Sitefinity tr.rlvISel td,
+.RadListView_Sitefinity tr.rlvIEmpty td
+{
+	border:0;
+}
+
+/*floated*/
+
+.RadListView_Sitefinity .rlvFloated .rlvI,
+.RadListView_Sitefinity .rlvFloated .rlvA,
+.RadListView_Sitefinity .rlvFloated .rlvISel,
+.RadListView_Sitefinity .rlvFloated .rlvIEdit
+{
+	border-color:#fff;
+}
+
+/*edit*/
+
+.RadListView_Sitefinity .rlvInput
+{
+	border-color:#abadb3 #dbdfe6 #e3e9ef #e2e3ea;
+	background:#fff;
+	color:#000;
+}

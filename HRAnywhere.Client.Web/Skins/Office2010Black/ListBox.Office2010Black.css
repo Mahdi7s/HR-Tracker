@@ -1,0 +1,279 @@
+.RadListBox_Office2010Black .rlbGroup
+{
+	border: 1px solid #9199a4;
+	background: #ffffff;
+}
+
+.RadListBox_Office2010Black .rlbTemplateContainer
+{
+	border-color: #9199a4;
+}
+
+.RadListBox_Office2010Black .rlbText,
+.RadListBox_Office2010Black .rlbItem,
+.RadListBox_Office2010Black .rlbButtonText,
+.RadListBox_Office2010Black .rlbEmptyMessage
+{
+	font-size: 12px;
+	font-family: "Segoe UI", Arial, sans-serif;
+	color: #000000;
+}
+
+.RadListBox_Office2010Black .rlbHighlight
+{
+	color: #000000;
+}
+
+.RadListBox_Office2010Black .rlbText,
+.RadListBox_Office2010Black .rlbItem
+{
+	line-height: 18px;
+}
+
+.RadListBox_Office2010Black .rlbGroup .rlbHovered
+{
+	background: #ffe175;
+	color: #000000;
+}
+
+.RadListBox_Office2010Black .rlbGroup .rlbSelected
+{
+	background: #f7c840;
+	color: #000000;
+}
+
+.RadListBox_Office2010Black .rlbDisabled .rlbText
+{
+	color: #000000;
+}
+
+.RadListBox_Office2010Black .rlbDisabled .rlbImage
+{
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+.RadListBox_Office2010Black .rlbHeader,
+.RadListBox_Office2010Black .rlbFooter
+{
+	background-image: url('ListBox/rlbHeaderFooter.png');
+	background-position: 0 0;
+	background-repeat: repeat-x;
+	background-color: #f1f2f4;
+}
+
+.RadListBox_Office2010Black .rlbFooter
+{
+	background-position: 0 -200px;
+	background-color: #ffffff;
+}
+
+.RadListBox_Office2010Black .rlbDropClue
+{
+	background-image: url('ListBox/rlbDropClue.png');
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	left: -12px;
+	width: 12px;
+}
+
+.RadListBox_Office2010Black .rlbGroup .rlbDropClueAbove
+{
+	border-top-style: dotted;
+	border-top-color: #8e8e8e;
+}
+
+.RadListBox_Office2010Black .rlbGroup .rlbDropClueBelow
+{
+	border-bottom-style: dotted;
+	border-bottom-color: #8e8e8e;
+}
+
+.RadListBox_Office2010Black .rlbGroup .rlbSelected.rlbDropClueAbove,
+.RadListBox_Office2010Black .rlbGroup .rlbHovered.rlbDropClueAbove,
+.RadListBox_Office2010Black .rlbGroup .rlbSelected.rlbDropClueBelow,
+.RadListBox_Office2010Black .rlbGroup .rlbHovered.rlbDropClueBelow
+{
+	border-color: #8e8e8e;
+}
+
+/* Buttons normal state vertical layout*/
+.RadListBox_Office2010Black .rlbButtonText
+{
+	background: transparent url('ListBox/rlbSprite.png') no-repeat;
+}
+
+.RadListBox_Office2010Black .rlbButton:hover .rlbButtonTL,
+.RadListBox_Office2010Black .rlbButton:hover .rlbButtonTR,
+.RadListBox_Office2010Black .rlbButton:hover .rlbButtonBL,
+.RadListBox_Office2010Black .rlbButton:hover .rlbButtonBR
+{
+	background-image: url('ListBox/rlbButtonHover.png');
+}
+
+* html .RadListBox_Office2010Black .rlbButton:hover .rlbButtonTL,
+* html .RadListBox_Office2010Black .rlbButton:hover .rlbButtonTR,
+* html .RadListBox_Office2010Black .rlbButton:hover .rlbButtonBL,
+* html .RadListBox_Office2010Black .rlbButton:hover .rlbButtonBR
+{
+	background-image: url('ListBox/rlbButtonHoverIE6.png');
+}
+
+.RadListBox_Office2010Black .rlbButton .rlbButtonTL,
+.RadListBox_Office2010Black .rlbButton .rlbButtonTR,
+.RadListBox_Office2010Black .rlbButton .rlbButtonBL,
+.RadListBox_Office2010Black .rlbButton .rlbButtonBR
+{
+	background-image: url('ListBox/rlbButtonNormal.png');
+}
+
+* html .RadListBox_Office2010Black .rlbButton .rlbButtonTL,
+* html .RadListBox_Office2010Black .rlbButton .rlbButtonTR,
+* html .RadListBox_Office2010Black .rlbButton .rlbButtonBL,
+* html .RadListBox_Office2010Black .rlbButton .rlbButtonBR
+{
+	background-image: url('ListBox/rlbButtonNormalIE6.png');
+}
+
+.RadListBox_Office2010Black .rlbDisabled .rlbButtonTL,
+.RadListBox_Office2010Black .rlbDisabled .rlbButtonTR,
+.RadListBox_Office2010Black .rlbDisabled .rlbButtonBL,
+.RadListBox_Office2010Black .rlbDisabled .rlbButtonBR,
+.RadListBox_Office2010Black .rlbDisabled:hover .rlbButtonTL,
+.RadListBox_Office2010Black .rlbDisabled:hover .rlbButtonTR,
+.RadListBox_Office2010Black .rlbDisabled:hover .rlbButtonBL,
+.RadListBox_Office2010Black .rlbDisabled:hover .rlbButtonBR
+{
+	background-image: url('ListBox/rlbButtonDisabled.png');
+}
+
+* html .RadListBox_Office2010Black .rlbDisabled .rlbButtonTL,
+* html .RadListBox_Office2010Black .rlbDisabled .rlbButtonTR,
+* html .RadListBox_Office2010Black .rlbDisabled .rlbButtonBL,
+* html .RadListBox_Office2010Black .rlbDisabled .rlbButtonBR,
+* html .RadListBox_Office2010Black .rlbDisabled:hover .rlbButtonTL,
+* html .RadListBox_Office2010Black .rlbDisabled:hover .rlbButtonTR,
+* html .RadListBox_Office2010Black .rlbDisabled:hover .rlbButtonBL,
+* html .RadListBox_Office2010Black .rlbDisabled:hover .rlbButtonBR
+{
+	background-image: url('ListBox/rlbButtonDisabledIE6.png');
+}
+
+.RadListBox_Office2010Black .rlbButton:hover .rlbButtonText 
+{ 
+	color: #000000; 
+}
+
+.RadListBox_Office2010Black .rlbDisabled .rlbButtonText,
+.RadListBox_Office2010Black .rlbDisabled:hover .rlbButtonText
+{
+	color: #8d8d8d;
+}
+
+.RadListBox_Office2010Black .rlbMoveUp .rlbButtonText { background-position: 0 0; }
+.RadListBox_Office2010Black .rlbMoveUp:hover .rlbButtonText { background-position: -400px 0; }
+.RadListBox_Office2010Black .rlbMoveUpDisabled .rlbButtonText,
+.RadListBox_Office2010Black .rlbMoveUpDisabled:hover .rlbButtonText { background-position: -200px 0; }
+
+.RadListBox_Office2010Black .rlbMoveDown .rlbButtonText { background-position: 0 -25px; }
+.RadListBox_Office2010Black .rlbMoveDown:hover .rlbButtonText { background-position: -400px -25px; }
+.RadListBox_Office2010Black .rlbMoveDownDisabled .rlbButtonText,
+.RadListBox_Office2010Black .rlbMoveDownDisabled:hover .rlbButtonText { background-position: -200px -25px; }
+
+.RadListBox_Office2010Black .rlbMoveToTop .rlbButtonText { background-position: 0 -275px; }
+.RadListBox_Office2010Black .rlbMoveToTop:hover .rlbButtonText { background-position: -400px -275px; }
+.RadListBox_Office2010Black .rlbMoveToTopDisabled .rlbButtonText,
+.RadListBox_Office2010Black .rlbMoveToTopDisabled:hover .rlbButtonText { background-position: -200px -275px; }
+
+.RadListBox_Office2010Black .rlbMoveToBottom .rlbButtonText { background-position: 0 -300px; }
+.RadListBox_Office2010Black .rlbMoveToBottom:hover .rlbButtonText { background-position: -400px -300px; }
+.RadListBox_Office2010Black .rlbMoveToBottomDisabled .rlbButtonText,
+.RadListBox_Office2010Black .rlbMoveToBottomDisabled:hover .rlbButtonText { background-position: -200px -300px; }
+
+.RadListBox_Office2010Black .rlbDelete .rlbButtonText { background-position: 0 -50px; }
+.RadListBox_Office2010Black .rlbDelete:hover .rlbButtonText { background-position: -400px -50px; }
+.RadListBox_Office2010Black .rlbDeleteDisabled .rlbButtonText,
+.RadListBox_Office2010Black .rlbDeleteDisabled:hover .rlbButtonText { background-position: -200px -50px; }
+
+
+.RadListBox_Office2010Black .rlbButtonAreaRight .rlbTransferTo .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaLeft .rlbTransferFrom .rlbButtonText { background-position: 0 -100px; }
+.RadListBox_Office2010Black .rlbButtonAreaLeft .rlbTransferTo .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaRight .rlbTransferFrom .rlbButtonText { background-position: 0 -75px; }
+.RadListBox_Office2010Black .rlbButtonAreaLeft .rlbTransferFrom:hover .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaRight .rlbTransferTo:hover .rlbButtonText { background-position: -400px -100px; }
+.RadListBox_Office2010Black .rlbButtonAreaLeft .rlbTransferTo:hover .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaRight .rlbTransferFrom:hover .rlbButtonText { background-position: -400px -75px; }
+
+.RadListBox_Office2010Black .rlbButtonAreaRight .rlbTransferToDisabled .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaLeft .rlbTransferFromDisabled .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaLeft .rlbTransferFromDisabled:hover .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaRight .rlbTransferToDisabled:hover .rlbButtonText { background-position: -200px -100px; }
+
+.RadListBox_Office2010Black .rlbButtonAreaLeft .rlbTransferToDisabled .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaRight .rlbTransferFromDisabled .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaLeft .rlbTransferToDisabled:hover .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaRight .rlbTransferFromDisabled:hover .rlbButtonText { background-position: -200px -75px; }
+
+
+.RadListBox_Office2010Black .rlbButtonAreaRight .rlbTransferAllTo .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaLeft .rlbTransferAllFrom .rlbButtonText { background-position: 0 -150px; }
+.RadListBox_Office2010Black .rlbButtonAreaLeft .rlbTransferAllTo .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaRight .rlbTransferAllFrom .rlbButtonText { background-position: 0 -125px; }
+.RadListBox_Office2010Black .rlbButtonAreaLeft .rlbTransferAllFrom:hover .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaRight .rlbTransferAllTo:hover .rlbButtonText { background-position: -400px -150px; }
+.RadListBox_Office2010Black .rlbButtonAreaLeft .rlbTransferAllTo:hover .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaRight .rlbTransferAllFrom:hover .rlbButtonText { background-position: -400px -125px; }
+
+.RadListBox_Office2010Black .rlbButtonAreaRight .rlbTransferAllToDisabled .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaLeft .rlbTransferAllFromDisabled .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaLeft .rlbTransferAllFromDisabled:hover .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaRight .rlbTransferAllToDisabled:hover .rlbButtonText { background-position: -200px -150px; }
+
+.RadListBox_Office2010Black .rlbButtonAreaLeft .rlbTransferAllToDisabled .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaRight .rlbTransferAllFromDisabled .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaLeft .rlbTransferAllToDisabled:hover .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaRight .rlbTransferAllFromDisabled:hover .rlbButtonText { background-position: -200px -125px; }
+
+
+.RadListBox_Office2010Black .rlbButtonAreaBottom .rlbTransferTo .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaTop .rlbTransferFrom .rlbButtonText { background-position: 0 -200px; }
+.RadListBox_Office2010Black .rlbButtonAreaTop .rlbTransferTo .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaBottom .rlbTransferFrom .rlbButtonText { background-position: 0 -175px; }
+.RadListBox_Office2010Black .rlbButtonAreaTop .rlbTransferFrom:hover .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaBottom .rlbTransferTo:hover .rlbButtonText { background-position: -400px -200px; }
+.RadListBox_Office2010Black .rlbButtonAreaTop .rlbTransferTo:hover .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaBottom .rlbTransferFrom:hover .rlbButtonText { background-position: -400px -175px; }
+
+.RadListBox_Office2010Black .rlbButtonAreaBottom .rlbTransferToDisabled .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaTop .rlbTransferFromDisabled .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaTop .rlbTransferFromDisabled:hover .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaBottom .rlbTransferToDisabled:hover .rlbButtonText { background-position: -200px -200px; }
+
+.RadListBox_Office2010Black .rlbButtonAreaTop .rlbTransferToDisabled .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaBottom .rlbTransferFromDisabled .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaTop .rlbTransferToDisabled:hover .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaBottom .rlbTransferFromDisabled:hover .rlbButtonText { background-position: -200px -175px; }
+
+
+.RadListBox_Office2010Black .rlbButtonAreaBottom .rlbTransferAllTo .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaTop .rlbTransferAllFrom .rlbButtonText { background-position: 0 -250px; }
+.RadListBox_Office2010Black .rlbButtonAreaTop .rlbTransferAllTo .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaBottom .rlbTransferAllFrom .rlbButtonText { background-position: 0 -225px; }
+.RadListBox_Office2010Black .rlbButtonAreaTop .rlbTransferAllFrom:hover .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaBottom .rlbTransferAllTo:hover .rlbButtonText { background-position: -400px -250px; }
+.RadListBox_Office2010Black .rlbButtonAreaTop .rlbTransferAllTo:hover .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaBottom .rlbTransferAllFrom:hover .rlbButtonText { background-position: -400px -225px; }
+
+.RadListBox_Office2010Black .rlbButtonAreaBottom .rlbTransferAllToDisabled .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaTop .rlbTransferAllFromDisabled .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaTop .rlbTransferAllFromDisabled:hover .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaBottom .rlbTransferAllToDisabled:hover .rlbButtonText { background-position: -200px -250px; }
+
+.RadListBox_Office2010Black .rlbButtonAreaTop .rlbTransferAllToDisabled .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaBottom .rlbTransferAllFromDisabled .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaTop .rlbTransferAllToDisabled:hover .rlbButtonText,
+.RadListBox_Office2010Black .rlbButtonAreaBottom .rlbTransferAllFromDisabled:hover .rlbButtonText { background-position: -200px -225px; }
+

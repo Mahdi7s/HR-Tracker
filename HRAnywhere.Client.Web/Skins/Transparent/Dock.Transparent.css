@@ -1,0 +1,42 @@
+div.RadDock_Transparent .rdTitleBar em 
+{
+	font: 12px/27px Tahoma, Arial, Sans-serif;
+}
+
+
+div.RadDock_Transparent .rdContent 
+{
+	font: 12px Tahoma, Arial, Sans-serif;
+}
+
+.RadDock_Transparent .rdMiddle .rdLeft,
+.RadDock_Transparent .rdMiddle .rdRight
+{
+	background-image: url('Dock/VerticalSprite.png');
+}
+
+.RadDock_Transparent .rdTop .rdLeft,
+.RadDock_Transparent .rdTop .rdRight,
+.RadDock_Transparent .rdTop .rdCenter,
+.RadDock_Transparent .rdBottom .rdLeft,
+.RadDock_Transparent .rdBottom .rdRight,
+.RadDock_Transparent .rdBottom .rdCenter
+{
+	background-image: url('Dock/HorizontalSprite.png');
+}
+
+.RadDock_Transparent .rdCenter .rdCommands a span
+{
+	background-image: url('Dock/CommandSprite.png');
+}
+
+.RadDock_Transparent .rdCenter
+{
+	color: #000;
+	background: url('../Common/TransContent.png');
+}
+
+.RadDock_Transparent .rdTitleBar em
+{
+	color: #000;
+}

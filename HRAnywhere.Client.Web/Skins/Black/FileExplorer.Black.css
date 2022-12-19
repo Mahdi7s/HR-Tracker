@@ -1,0 +1,58 @@
+/*========================================= Toolbar related CSS ========================*/
+
+.RadFileExplorer_Black .RadToolBar .rtbText
+{
+	background-image: url('FileExplorer/FileExplorerToolbarSprites.png');
+	background-repeat: no-repeat;
+}
+
+/* IE6 does not support the alpha channel of png files, so we force it to use gif */
+* html .RadFileExplorer_Black .RadToolBar .rtbText
+{
+	background-image: url('FileExplorer/FileExplorerToolbarSpritesIE6.gif') !important;
+}
+
+.RadFileExplorer_Black, 
+.RadFileExplorer_Black .rfeAddressBox,
+.RadFileExplorer_Black .rfeFilterTxt
+{
+	border-color: #484848;
+	background: #373737;
+}
+
+.RadFileExplorer_Black .rfeAddressBox,
+.RadFileExplorer_Black .rfeFilterTxt
+{
+	background: #2a2a2a;
+	color: #fff;
+}
+
+.RadFileExplorer_Black .RadGrid_Black .rgCommandCell
+{
+	padding: 0;
+}
+
+.DialogSeparator
+{
+    border-left: solid 1px #484848;
+    border-right: solid 1px #000;
+    background-color: #464646;
+}
+
+div.selectedFileName
+{
+	border-top: 1px solid #080808;
+}
+
+/* Fix Upload Panel */
+.rfeUploadContainer .RadUpload_Black .ruRemove,
+.RadForm_Black.rfdZone .rfeUploadInfoPanel
+{
+	color: #000;
+}
+		
+.RadForm .rfeUploadContainer .RadUpload_Black .ruRemove
+{
+	color: #fff;
+}
+

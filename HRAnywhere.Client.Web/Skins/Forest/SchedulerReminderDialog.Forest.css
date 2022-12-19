@@ -1,0 +1,63 @@
+
+.ReminderDialog_Forest,
+.ReminderDialog_Forest a
+{
+    color: #333;
+    font: normal 12px/14px "Segoe UI", Arial, sans-serif;
+}
+
+.ReminderDialog_Forest .rsRemContentPanel
+{
+    border-color: #26331c;
+}
+
+/* <advanced edit title> */
+
+.ReminderDialog_Forest .rsModalBgTopLeft,
+.ReminderDialog_Forest .rsModalBgTopRight,
+.ReminderDialog_Forest .rsModalBgBottomLeft,
+.ReminderDialog_Forest .rsModalBgBottomRight
+{
+    background-image: url('Scheduler/rsModalBg.png');
+}
+
+* html .ReminderDialog_Forest .rsModalBgTopLeft,
+* html .ReminderDialog_Forest .rsModalBgTopRight,
+* html .ReminderDialog_Forest .rsModalBgBottomLeft,
+* html .ReminderDialog_Forest .rsModalBgBottomRight
+{
+    background-image: url('Scheduler/rsModalBgIE6.png');
+}
+
+.ReminderDialog_Forest a.rsRemTitleBarCloseBtn
+{
+    margin-top: -26px;
+    width: 30px;
+}
+
+.ReminderDialog_Forest a.rsRemTitleBarCloseBtn:hover
+{
+    background-position: -71px -526px;
+}
+
+.ReminderDialog_Forest .rsRemTitleIcon,
+.ReminderDialog_Forest .rsRemTitleBarIcon,
+.ReminderDialog_Forest a.rsRemTitleBarCloseBtn,
+.ReminderDialog_Forest .rsRemActions a.rsRemDismissAllBtn,
+.ReminderDialog_Forest .rsRemActions a.rsRemOpenItemBtn,
+.ReminderDialog_Forest .rsRemActions a.rsRemDismissBtn,
+.ReminderDialog_Forest .rsRemSnoozePanel a.rsRemSnoozeBtn
+{
+    color: #e7f1d7;
+    background-image: url('Scheduler/rsSprites.png');
+}
+
+.ReminderDialog_Forest .rsRemActions a.rsRemDismissAllBtn:hover,
+.ReminderDialog_Forest .rsRemActions a.rsRemOpenItemBtn:hover,
+.ReminderDialog_Forest .rsRemActions a.rsRemDismissBtn:hover,
+.ReminderDialog_Forest .rsRemSnoozePanel a.rsRemSnoozeBtn:hover
+{
+	color: #fff;
+}
+
+/* </advanced edit title> */

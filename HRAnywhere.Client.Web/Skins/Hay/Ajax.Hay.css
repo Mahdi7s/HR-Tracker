@@ -1,0 +1,18 @@
+/* Telerik RadAjaxLoadingPanel Hay Skin */
+
+.RadAjax_Hay .raDiv
+{
+	background-image:url('Common/loading.gif');
+}
+
+.RadAjax_Hay .raColor
+{
+	background-color:#fff;
+}
+
+.RadAjax_Hay .raTransp
+{
+	opacity:0.6;
+	-moz-opacity:0.6;
+	filter:alpha(opacity=60);
+}

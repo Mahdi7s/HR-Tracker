@@ -1,0 +1,61 @@
+
+.ReminderDialog_Sunset,
+.ReminderDialog_Sunset a
+{
+    color: #333;
+    font: normal 12px/14px "Segoe UI", Arial, sans-serif;
+}
+
+.ReminderDialog_Sunset .rsRemContentPanel
+{
+    border-color: #71250a;
+}
+
+/* <advanced edit title> */
+
+.ReminderDialog_Sunset .rsModalBgTopLeft,
+.ReminderDialog_Sunset .rsModalBgTopRight,
+.ReminderDialog_Sunset .rsModalBgBottomLeft,
+.ReminderDialog_Sunset .rsModalBgBottomRight
+{
+    background-image: url('Scheduler/rsModalBg.png');
+}
+
+* html .ReminderDialog_Sunset .rsModalBgTopLeft,
+* html .ReminderDialog_Sunset .rsModalBgTopRight,
+* html .ReminderDialog_Sunset .rsModalBgBottomLeft,
+* html .ReminderDialog_Sunset .rsModalBgBottomRight
+{
+    background-image: url('Scheduler/rsModalBgIE6.png');
+}
+
+.ReminderDialog_Sunset a.rsRemTitleBarCloseBtn
+{
+    margin-top: -24px;
+    width: 30px;
+    height: 20px;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.ReminderDialog_Sunset a.rsRemTitleBarCloseBtn:hover
+{
+    opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.ReminderDialog_Sunset .rsRemTitleIcon,
+.ReminderDialog_Sunset .rsRemTitleBarIcon,
+.ReminderDialog_Sunset a.rsRemTitleBarCloseBtn,
+.ReminderDialog_Sunset .rsRemActions a.rsRemDismissAllBtn,
+.ReminderDialog_Sunset .rsRemActions a.rsRemOpenItemBtn,
+.ReminderDialog_Sunset .rsRemActions a.rsRemDismissBtn,
+.ReminderDialog_Sunset .rsRemSnoozePanel a.rsRemSnoozeBtn
+{
+    color: #5d1f00;
+    background-image: url('Scheduler/rsSprites.png');
+}
+
+/* </advanced edit title> */

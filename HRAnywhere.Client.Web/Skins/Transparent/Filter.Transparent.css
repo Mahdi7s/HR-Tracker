@@ -1,0 +1,206 @@
+/*Telerik RadFilter Transparent skin*/
+
+/*sprite*/
+
+.RadFilter_Transparent .rfLeft,
+.RadFilter_Transparent .rfMid,
+.RadFilter_Transparent .rfTools,
+.RadFilter_Transparent .rfRight,
+.RadFilter_Transparent .rfOper:hover,
+.RadFilter_Transparent .rfField:hover,
+.RadFilter_Transparent .rfExp:hover,
+.RadFilter_Transparent .rfOper:focus,
+.RadFilter_Transparent .rfField:focus,
+.RadFilter_Transparent .rfExp:focus,
+.RadFilter_Transparent .rfOper:active,
+.RadFilter_Transparent .rfField:active,
+.RadFilter_Transparent .rfExp:active,
+.RadFilter_Transparent .rfAddGr,
+.RadFilter_Transparent .rfAddExp,
+.RadFilter_Transparent .rfDel,
+.RadFilter_Transparent .rfApply a,
+.RadFilter_Transparent .rfApply input
+{
+	background-image:url('Filter/sprite.png');
+}
+
+/*global*/
+
+.RadFilter_Transparent,
+.RadFilter_Transparent .rfText,
+.RadFilter_Transparent .rfApply input
+{
+	font-size:12px;
+	font-family:Tahoma, Arial, sans-serif;
+}
+
+.RadFilter_Transparent,
+.RadFilter_Transparent a,
+.RadFilter_Transparent .rfText
+{
+	color:#000;
+}
+
+/*lines*/
+
+.RadFilter_Transparent .rfLines li li
+{
+	background-image:url('Filter/rfLine.gif');
+}
+
+.RadFilter_Transparent .rfLines li li .rfDiv
+{
+	background-image:url('Filter/rfMiddle.gif');
+}
+
+.RadFilter_Transparent .rfLines li li.rfLast .rfDiv
+{
+	background-image:url('Filter/rfLast.gif');
+}
+
+/*item elements*/
+
+.RadFilter_Transparent .rfLeft
+{
+	background-position:0 0;
+}
+
+.RadFilter_Transparent .rfRight
+{
+	background-position:100% 0;
+}
+
+.RadFilter_Transparent .rfMid,
+.RadFilter_Transparent .rfTools
+{
+	background-position:0 -100px;
+}
+
+.RadFilter_Transparent .rfField
+{
+	color:#000;
+}
+
+.RadFilter_Transparent .rfOper:hover,
+.RadFilter_Transparent .rfField:hover,
+.RadFilter_Transparent .rfExp:hover,
+.RadFilter_Transparent .rfOper:focus,
+.RadFilter_Transparent .rfField:focus,
+.RadFilter_Transparent .rfExp:focus,
+.RadFilter_Transparent .rfOper:active,
+.RadFilter_Transparent .rfField:active,
+.RadFilter_Transparent .rfExp:active
+{
+	background-position:100% -76px;
+	color:#000;
+}
+
+.RadFilter_Transparent .rfExp
+{
+    color:#333;    
+}
+
+.RadFilter_Transparent .rfText
+{
+	border-color:#919191;
+	background-color:#fff;
+}
+
+.RadFilter_Transparent .rfAddExp
+{
+	background-position:-300px 0;
+}
+
+/*.RadFilter_Transparent .rfAddExp:hover
+{
+	background-position:-350px 0;
+}*/
+
+.RadFilter_Transparent .rfAddGr
+{
+	background-position:-400px 0;
+}
+
+/*.RadFilter_Transparent .rfAddGr:hover
+{
+	background-position:-450px 0;
+}*/
+
+.RadFilter_Transparent .rfDel
+{
+	background-position:-150px 0;
+}
+
+/*.RadFilter_Transparent .rfDel:hover
+{
+	background-position:-200px 0;
+}*/
+
+/*preview*/
+
+.RadFilter_Transparent .rfPreview strong
+{
+	color:#000;
+}
+
+.RadFilter_Transparent .rfPreview .rfBr
+{
+	color:#000;
+}
+
+/*apply*/  
+
+.RadFilter_Transparent .rfApply a
+{
+	background-position:100% -28px;
+	height: 22px;
+}
+.RadFilter_Transparent .rfApply input
+{
+	background-position:0 -50px;
+	height: 22px;
+}
+.RadFilter_Transparent .rfApply input
+{
+	color:#010101;
+}
+
+/*rtl*/
+
+.RadFilterRTL_Transparent .rfLines li li
+{
+	background-image:url('Filter/rfLine-rtl.png');
+}
+
+.RadFilterRTL_Transparent .rfLines li li .rfDiv
+{
+	background-image:url('Filter/rfMiddle-rtl.png');
+}
+
+.RadFilterRTL_Transparent .rfLines li li.rfLast .rfDiv
+{
+	background-image:url('Filter/rfLast-rtl.png');
+}
+
+.RadFilterRTL_Transparent .rfLeft
+{
+	background-position:100% 0;
+}
+
+.RadFilterRTL_Transparent .rfRight
+{
+	background-position:0 0;
+}
+
+.RadFilterRTL_Transparent .rfOper:hover,
+.RadFilterRTL_Transparent .rfField:hover,
+.RadFilterRTL_Transparent .rfExp:hover,
+.RadFilterRTL_Transparent .rfOper:focus,
+.RadFilterRTL_Transparent .rfField:focus,
+.RadFilterRTL_Transparent .rfExp:focus,
+.RadFilterRTL_Transparent .rfOper:active,
+.RadFilterRTL_Transparent .rfField:active,
+.RadFilterRTL_Transparent .rfExp:active
+{
+	background-position:-586px -76px;
+}

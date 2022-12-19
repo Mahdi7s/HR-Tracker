@@ -1,0 +1,197 @@
+/* RadWindow for ASP.NET AJAX Web 2.0 Skin */
+
+/* Window Background */
+
+/* Horiznotal */
+.RadWindow_Web20 .rwTopLeft,
+.RadWindow_Web20 .rwTopRight,
+.RadWindow_Web20 .rwTitlebar,
+.RadWindow_Web20 .rwFooterLeft,
+.RadWindow_Web20 .rwFooterRight,
+.RadWindow_Web20 .rwFooterCenter,
+.RadWindow_Web20 .rwTopResize,
+.RadWindow_Web20 .rwStatusbar div,
+.RadWindow_Web20 .rwStatusbar,
+.RadWindow_Web20 .rwPopupButton,
+.RadWindow_Web20 .rwPopupButton span,
+.RadWindow_Web20.rwMinimizedWindow .rwCorner
+{
+    background-image: url('Window/WindowHorizontalSprites.gif');
+}
+
+/* Vertical */
+.RadWindow_Web20 .rwBodyLeft,
+.RadWindow_Web20 .rwBodyRight,
+.RadWindow_Web20 .rwStatusbarRow .rwCorner
+{
+	background-image: url('Window/WindowVerticalSprites.gif');
+}
+
+/* Window Shadows */
+
+/* Horiznotal */
+.RadWindow_Web20 .rwShadow .rwTopLeft,
+.RadWindow_Web20 .rwShadow .rwTopRight,
+.RadWindow_Web20 .rwShadow .rwTitlebar,
+.RadWindow_Web20 .rwShadow .rwFooterLeft,
+.RadWindow_Web20 .rwShadow .rwFooterRight,
+.RadWindow_Web20 .rwShadow .rwFooterCenter,
+.RadWindow_Web20 .rwShadow .rwTopResize,
+.RadWindow_Web20 .rwShadow .rwStatusbar div,
+.RadWindow_Web20 .rwShadow .rwStatusbar,
+.RadWindow_Web20 .rwShadow .rwPopupButton,
+.RadWindow_Web20 .rwShadow .rwPopupButton span,
+.RadWindow_Web20 .rwShadow .rwBodyLeft,
+.RadWindow_Web20 .rwShadow .rwBodyRight,
+.RadWindow_Web20 .rwShadow .rwStatusbarRow .rwBodyLeft,
+.RadWindow_Web20 .rwShadow .rwStatusbarRow .rwBodyRight
+{
+	background-image: url('Window/WindowHorizontalSprites.png');
+}
+
+/* Vertical */
+.RadWindow_Web20 .rwShadow .rwBodyLeft,
+.RadWindow_Web20 .rwShadow .rwBodyRight,
+.RadWindow_Web20 .rwShadow .rwStatusbarRow .rwBodyLeft,
+.RadWindow_Web20 .rwShadow .rwStatusbarRow .rwBodyRight
+{
+	background-image: url('Window/WindowVerticalSprites.png');
+}
+
+/* Shadows End */
+
+.RadWindow_Web20 .rwStatusbar input
+{
+    background-color: #f7f3e9;
+}
+
+.RadWindow_Web20 .rwControlButtons
+{
+    margin-top: 1px;
+}
+
+.RadWindow_Web20 .rwControlButtons a
+{
+    background-image: url('Window/CommandButtonSprites.gif');
+}
+
+.RadWindow_Web20 a.rwIcon
+{
+	background-image: url('Window/WindowHorizontalSprites.gif');
+}
+
+div.RadWindow_Web20 .rwTitlebarControls em
+{
+	color: white;
+}
+
+div.RadWindow_Web20 .rwDialogInput
+{
+	border: solid 1px #6788be;
+}
+
+div.RadWindow_Web20 .rwDialogInput:hover
+{
+	border-color: #3f5f94;
+}
+
+div.RadWindow_Web20 td.rwWindowContent
+{
+    background-color: #fff;
+}
+
+/* Loading Indicators */
+div.RadWindow_Web20 tr td.rwLoading
+{
+    background-color: #e6edf7;
+}
+
+/* When ShowContentDuringLoad="true" */
+div.RadWindow_Web20 td.rwWindowContent.rwLoading
+{
+    background-image: url('Common/loading.gif');
+}
+
+/* When ShowContentDuringLoad="false" */
+div.RadWindow_Web20 input.rwLoading
+{
+    background-image: url('Common/loading_small.gif');
+}
+
+.RadWindow_Web20 a.rwCancel,
+.RadWindow_Web20 a.rwCancel span
+{
+    background: none;
+    cursor: pointer;
+}
+
+.RadWindow_Web20 a.rwCancel span span
+{
+    color: #395ba0;
+}
+
+.RadWindow_Web20 a.rwCancel:hover span span
+{
+    color: #002bb8;
+    text-decoration: underline;
+}
+
+/* Shadow Control Buttons */
+
+.RadWindow_Web20 .rwShadow .rwControlButtons 
+{
+	margin: 5px -2px 0 0;
+}
+
+.RadWindow_Web20 .rwShadow .rwControlButtons 
+{
+	margin: 5px -1px 0 0\9;
+}
+
+/* ctrl buttons when winodw is minimized */
+.RadWindow_Web20.rwMinimizedWindowShadow .rwShadow .rwControlButtons 
+{
+	margin: 9px -8px 0 0;
+}
+
+.RadWindow_Web20 .rwShadow .rwControlButtons li
+{
+	float: left;
+	padding: 0;
+}
+
+.RadWindow_Web20 .rwShadow .rwControlButtons a
+{
+	width: 30px; 
+}
+
+.rwInactiveWindow .rwShadow .rwTopLeft,
+.rwInactiveWindow .rwShadow .rwTopRight,
+.rwInactiveWindow .rwShadow .rwTitlebar,
+.rwInactiveWindow .rwShadow .rwFooterLeft,
+.rwInactiveWindow .rwShadow .rwFooterRight,
+.rwInactiveWindow .rwShadow .rwFooterCenter,
+.rwInactiveWindow .rwShadow .rwTopResize,
+.rwInactiveWindow .rwShadow .rwStatusbar div,
+.rwInactiveWindow .rwShadow .rwStatusbar,
+.rwInactiveWindow .rwShadow .rwPopupButton,
+.rwInactiveWindow .rwShadow .rwPopupButton span,
+.rwInactiveWindow .rwShadow.rwMinimizedWindow .rwCorner,
+.RadWindow_Web20.rwNoTitleBar.rwInactiveWindow .rwShadow .rwTopLeft,
+.RadWindow_Web20.rwNoTitleBar.rwInactiveWindow .rwShadow .rwTitlebar,
+.RadWindow_Web20.rwNoTitleBar.rwInactiveWindow .rwShadow .rwTopRight,
+.RadWindow_Web20.rwNoTitleBar.rwInactiveWindow .rwShadow .rwFooterLeft,
+.RadWindow_Web20.rwNoTitleBar.rwInactiveWindow .rwShadow .rwFooterCenter,
+.RadWindow_Web20.rwNoTitleBar.rwInactiveWindow .rwShadow .rwFooterRight
+{
+    background-image: url('Window/WindowHorizontalSprites.gif') !important;
+}
+
+.rwInactiveWindow .rwShadow .rwBodyLeft,
+.rwInactiveWindow .rwShadow .rwBodyRight,
+.rwInactiveWindow .rwShadow .rwStatusbarRow .rwCorner,
+.RadWindow_Web20.rwNoTitleBar.rwInactiveWindow .rwShadow .rwBodyLeft,
+.RadWindow_Web20.rwNoTitleBar.rwInactiveWindow .rwShadow .rwBodyRight
+{
+	background-image: url('Window/WindowVerticalSprites.gif') !important;
+}

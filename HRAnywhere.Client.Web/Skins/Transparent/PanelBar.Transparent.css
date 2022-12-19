@@ -1,0 +1,243 @@
+.RadPanelBar_Transparent
+{
+	background: url('PanelBar/rpbAreaTile.png');
+}
+
+.RadPanelBar_Transparent .rpRootGroup
+{
+	border-color: #6c6c6c;
+	border-color: rgba(100, 100, 100, .5);
+}
+
+.RadPanelBar_Transparent a.rpLink,
+.RadPanelBar_Transparent div.rpHeaderTemplate,
+.RadPanelBar_Transparent .rpTemplate
+{
+	color: #000000;
+	font: normal 12px/24px Tahoma, Arial, sans-serif;
+}
+
+.RadPanelBar_Transparent div.rpHeaderTemplate,
+.RadPanelBar_Transparent a.rpLink
+{
+	background-image: url('PanelBar/RootItemBg.png');
+	border-color: #6c6c6c;
+	border-color: rgba(100, 100, 100, .5);
+}
+
+.RadPanelBar_Transparent .rpOut
+{
+	border-color: #6c6c6c;
+	border-color: rgba(100, 100, 100, .5);
+}
+
+.RadPanelBar_Transparent a.rpLink:hover
+{
+	color: #000000;
+	background-color: #fafafa;
+	border-color: #6c6c6c;
+	border-color: rgba(100, 100, 100, .5);
+}
+
+.RadPanelBar_Transparent a.rpFocused,
+.RadPanelBar_Transparent a.rpExpanded,
+.RadPanelBar_Transparent a.rpSelected,
+.RadPanelBar_Transparent div.rpFocused,
+.RadPanelBar_Transparent div.rpExpanded,
+.RadPanelBar_Transparent div.rpSelected,
+.RadPanelBar_Transparent a.rpSelected:hover
+{
+	background-color: #f0f0f0;
+	border-color: #6c6c6c;
+	border-color: rgba(100, 100, 100, .5);
+}
+
+/* <disabled items> */
+.RadPanelBar_Transparent a.rpDisabled,
+.RadPanelBar_Transparent div.rpDisabled,
+.RadPanelBar_Transparent a.rpDisabled:hover
+{
+	color: #bbbbbb;
+}
+
+.RadPanelBar_Transparent a.rpDisabled:hover .rpOut
+{
+	border-color: #6c6c6c;
+	border-color: rgba(100, 100, 100, .5);
+}
+/* </disabled items> */
+
+/* <subitems> */
+.RadPanelBar_Transparent .rpGroup
+{
+	background: url('PanelBar/rpbAreaTile.png');
+}
+
+.RadPanelBar_Transparent .rpGroup a.rpLink,
+.RadPanelBar_Transparent .rpGroup div.rpHeaderTemplate,
+.RadPanelBar_Transparent .rpGroup .rpTemplate
+{
+	color: #000000;
+	background-color: transparent;
+	background-image: none;
+}
+
+.RadPanelBar_Transparent .rpGroup a.rpLink:hover
+{
+	color: #000000;
+}
+.RadPanelBar_Transparent .rpGroup a.rpSelected,
+.RadPanelBar_Transparent .rpGroup a.rpSelected:hover {
+	color: #ffffff;
+}
+
+.RadPanelBar_Transparent .rpGroup a.rpLink,
+.RadPanelBar_Transparent .rpGroup .rpOut
+{
+	background-color: transparent;
+	background-image: url('PanelBar/SubItemStates.png');
+	background-repeat: no-repeat;
+}
+
+.RadPanelBar_Transparent .rpGroup a.rpLink:hover
+{
+	background-color: transparent;
+}
+
+/* <subitems (disabled)> */
+.RadPanelBar_Transparent ul.rpGroup .rpDisabled,
+.RadPanelBar_Transparent .rpGroup a.rpDisabled:hover,
+.RadPanelBar_Transparent .rpGroup a.rpDisabled:hover .rpOut
+{
+	background-image: none;
+}
+
+.RadPanelBar_Transparent ul.rpGroup .rpDisabled,
+.RadPanelBar_Transparent .rpGroup a.rpDisabled:hover
+{
+	color: #bbbbbb;
+	text-decoration: none;
+	/*background-color: #fff;*/
+}
+/* </subitems (disabled)> */
+
+/* <subitems> */
+
+/* <background positioning> */
+.RadPanelBar_Transparent a.rpFocused,
+.RadPanelBar_Transparent div.rpFocused,
+.RadPanelBar_Transparent a.rpLink:hover,
+.RadPanelBar_Transparent a.rpExpanded:hover
+{
+	background-position: 0 -200px;
+}
+
+.RadPanelBar_Transparent a.rpLink,
+.RadPanelBar_Transparent div.rpHeaderTemplate,
+.RadPanelBar_Transparent a.rpExpanded,
+.RadPanelBar_Transparent div.rpExpanded,
+.RadPanelBar_Transparent .rpItem a.rpLinkExpandHovered
+{
+	background-position: 0 0;
+}
+
+.RadPanelBar_Transparent a.rpSelected,
+.RadPanelBar_Transparent div.rpSelected,
+.RadPanelBar_Transparent a.rpSelected:hover
+{
+	background-position: 0 -400px;
+}
+
+.RadPanelBar_Transparent .rpFirst a.rpLink,
+.RadPanelBar_Transparent .rpFirst div.rpHeaderTemplate,
+.RadPanelBar_Transparent li.rpFirst .rpExpanded
+{
+	background-position: 0 -1px;
+}
+
+.RadPanelBar_Transparent li.rpFirst .rpFocused,
+.RadPanelBar_Transparent .rpFirst a.rpLink:hover
+{
+	background-position: 0 -201px;
+}
+
+.RadPanelBar_Transparent li.rpFirst .rpSelected,
+.RadPanelBar_Transparent .rpFirst a.rpSelected:hover
+{
+	background-position: 0 -401px;
+}
+
+/* <root items (disabled)> */
+.RadPanelBar_Transparent a.rpDisabled:hover
+{
+	cursor: default;
+}
+
+.RadPanelBar_Transparent a.rpDisabled,
+.RadPanelBar_Transparent div.rpDisabled,
+.RadPanelBar_Transparent a.rpDisabled:hover,
+.RadPanelBar_Transparent a.rpDisabled:hover .rpOut
+{
+	background-position: 0 0;
+}
+/* </root items (disabled)> */
+
+/*      <expand arrows> */
+/* <expand arrows> */
+.RadPanelBar_Transparent .rpExpandable span.rpExpandHandle,
+.RadPanelBar_Transparent .rpExpanded span.rpExpandHandle
+{
+	background-color: transparent;
+	background-image: url('PanelBar/Expandable.png');
+	background-repeat: no-repeat;
+}
+
+.RadPanelBar_Transparent_rtl .rpGroup .rpText
+{
+	padding: 0 10px;
+}
+
+.RadPanelBar_Transparent .rpExpandable span.rpExpandHandle,
+.RadPanelBar_Transparent a.rpExpandable:hover .rpNavigation .rpExpandHandle { background-position: 0 -5px; }
+.RadPanelBar_Transparent a.rpExpandable:hover .rpExpandHandle,
+.RadPanelBar_Transparent a.rpExpandable:hover .rpNavigation .rpExpandHandleHovered { background-position: 100% -5px; }
+.RadPanelBar_Transparent .rpExpanded span.rpExpandHandle,
+.RadPanelBar_Transparent a.rpExpanded:hover .rpNavigation .rpExpandHandle { background-position: 0 -181px; }
+.RadPanelBar_Transparent a.rpExpanded:hover .rpExpandHandle,
+.RadPanelBar_Transparent a.rpExpanded:hover .rpNavigation .rpExpandHandleHovered { background-position: 100% -181px; }
+
+.RadPanelBar_Transparent div.rpExpandable .rpExpandHandleHovered { background-position: 0 -5px; }
+.RadPanelBar_Transparent div.rpExpanded .rpExpandHandleHovered { background-position: 0 -181px; }
+
+/*      </expand arrows> */
+
+.RadPanelBar_Transparent .rpGroup a.rpLink,
+.RadPanelBar_Transparent .rpGroup div.rpHeaderTemplate,
+.RadPanelBar_Transparent .rpGroup a.rpLink .rpOut { background-position: 0 200px; }
+
+.RadPanelBar_Transparent .rpGroup a.rpLink:hover,
+.RadPanelBar_Transparent ul.rpGroup .rpFocused { background-position: 100% -22px; }
+.RadPanelBar_Transparent .rpGroup a.rpLink:hover .rpOut,
+.RadPanelBar_Transparent .rpGroup a.rpFocused .rpOut { background-position: 0 0; }
+
+/*      <subitems (selected)> */
+.RadPanelBar_Transparent ul.rpGroup .rpSelected,
+.RadPanelBar_Transparent .rpGroup a.rpSelected:hover { background-position: 100% -222px; background-color: transparent; }
+.RadPanelBar_Transparent .rpGroup a.rpSelected .rpOut,
+.RadPanelBar_Transparent .rpGroup a.rpSelected:hover .rpOut { background-position: 0 -200px; }
+/*      </subitems (selected)> */
+
+/*      <subitems (expand arrows)> */
+.RadPanelBar_Transparent ul.rpGroup .rpExpandable .rpExpandHandle,
+.RadPanelBar_Transparent .rpGroup a.rpExpandable:hover .rpNavigation .rpExpandHandle { background-position: 0 -343px; }
+.RadPanelBar_Transparent .rpGroup a.rpExpandable:hover .rpExpandHandle,
+.RadPanelBar_Transparent .rpGroup a.rpExpandable:hover .rpNavigation .rpExpandHandleHovered { background-position: 100% -343px; }
+.RadPanelBar_Transparent ul.rpGroup .rpExpanded .rpExpandHandle,
+.RadPanelBar_Transparent .rpGroup a.rpExpanded:hover .rpNavigation .rpExpandHandle { background-position: 0 -482px; }
+.RadPanelBar_Transparent .rpGroup a.rpExpanded:hover .rpExpandHandle,
+.RadPanelBar_Transparent .rpGroup a.rpExpanded:hover .rpNavigation .rpExpandHandleHovered { background-position: 100% -482px; }
+
+.RadPanelBar_Transparent .rpGroup div.rpExpandable .rpExpandHandleHovered { background-position: 0 -343px; }
+.RadPanelBar_Transparent .rpGroup div.rpExpanded .rpExpandHandleHovered { background-position: 0 -482px; }
+/*      </subitems (expand arrows)> */
+/* </background positioning> */

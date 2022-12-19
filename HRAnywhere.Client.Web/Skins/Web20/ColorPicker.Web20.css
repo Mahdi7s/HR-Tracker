@@ -1,0 +1,87 @@
+/* RadColorPicker Web 2.0 skin */
+.RadColorPicker_Web20 .rcpViews,
+.RadColorPicker_Web20 .rcpHeader,
+.RadColorPicker_Web20 .rcpPageView
+{
+	background-color:#fff;
+}
+
+.RadColorPicker_Web20 .rcpColorPreview,
+.RadColorPicker_Web20 .rcpInput,
+.RadColorPicker_Web20 .rcpHexInput,
+.RadColorPicker_Web20 .rcpMillionColorsPalette,
+.RadColorPicker_Web20 .rcpMillionColorsSlider div.rslTrack
+{
+	border:1px solid #6788be;
+}
+
+.RadColorPicker_Web20 .rcpHexInput[readonly] 
+{
+	background-color:#eee;
+}
+
+.RadColorPicker_Web20 .rcpPalette,
+.RadColorPicker_Web20 input,
+.RadColorPicker_Web20 a
+{
+	color:#000;
+}
+
+.RadColorPicker_Web20 .rcpTabs .rcpSelectedTab a span
+{
+    color:#0f3789;
+}
+
+.RadColorPicker_Web20 .rcpApplyButton span,
+.RadColorPicker_Web20 .rcpButton span
+{
+    color:#fff;
+}
+
+.RadColorPicker_Web20 .rcpApplyButton:hover span,
+.RadColorPicker_Web20 .rcpButton:hover span
+{
+    color:#0f3789;
+}
+
+.RadColorPicker_Web20 .rcpHeader,
+.RadColorPicker_Web20 .rcpHeader .rcpImageButton,
+.RadColorPicker_Web20 .rcpRecentColors,
+.RadColorPicker_Web20 .rcpIcon a,
+.RadColorPicker_Web20 .rcpTabs a,
+.RadColorPicker_Web20 .rcpTabs a span,
+.RadColorPicker_Web20 .rcpButton,
+.RadColorPicker_Web20 .rcpButton span,
+.RadColorPicker_Web20 .rcpMillionColorsHandle,
+.RadColorPicker_Web20 .rcpSlider div.rslTrack,
+/* overwrite sliders */
+.RadColorPicker_Web20 .rcpSlider .rslTrack a.rslDraghandle,
+.RadColorPicker_Web20 div.rcpMillionColorsSlider div.rslVertical a.rslDraghandle
+{
+	background-image:url('ColorPicker/ColorPickerSprites.png');
+	background-repeat:no-repeat;
+}
+
+/* Rounded corners and shadows */
+.RadColorPicker_Web20 .rcpPalette,
+.RadColorPicker_Web20 .rcpRoundedRight,
+.RadColorPicker_Web20 .rcpRoundedBottomRight,
+.RadColorPicker_Web20 .rcpRightShadow,
+.RadColorPicker_Web20 .rcpCornerShadow
+{
+	background-image:url('ColorPicker/rcpVerticalSprites.png');
+}
+
+.RadColorPicker_Web20 .rcpRoundedBottomLeft,
+.RadColorPicker_Web20 .rcpBottomShadow
+{
+	background-image:url('ColorPicker/ColorPickerSprites.png');
+}
+
+* html .RadColorPicker_Web20 .rcpPalette,
+* html .RadColorPicker_Web20 .rcpRoundedRight,
+* html .RadColorPicker_Web20 .rcpRoundedBottomRight,
+* html .RadColorPicker_Web20 .rcpRoundedBottomLeft
+{
+	background-image:url('ColorPicker/rcpVerticalSpritesIE6.png');
+}

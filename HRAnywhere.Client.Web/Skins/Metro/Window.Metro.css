@@ -1,0 +1,143 @@
+/* RadWindow for ASP.NET AJAX Metro Skin */
+
+
+/* Window/WindowHorizontalSprites.gif */
+
+.RadWindow_Metro
+{
+    border: solid 1px #e5e5e5;
+}
+
+.RadWindow_Metro .rwStatusbarRow .rwCorner,
+.RadWindow_Metro .rwStatusbarRow .rwStatusbar
+{
+	border-top: solid 1px #e5e5e5;
+}
+
+.RadWindow_Metro .rwTopLeft,
+.RadWindow_Metro .rwTopRight,
+.RadWindow_Metro .rwTitlebar,
+.RadWindow_Metro .rwTopResize
+{
+    background: #25a0da;
+}
+
+.RadWindow_Metro .rwBodyLeft,
+.RadWindow_Metro .rwBodyRight,
+.RadWindow_Metro tr td.rwStatusbar input,
+.RadWindow_Metro .rwStatusbar td,
+.RadWindow_Metro .rwFooterRow .rwCorner,
+.RadWindow_Metro .rwFooterCenter,
+.RadWindow_Metro .rwStatusbar td
+{
+	background-color: #fff !important;
+}
+
+.rwWindowContent
+{
+    border: solid 1px #fff;
+}
+
+.RadWindow_Metro iframe
+{
+    display: block;
+}
+
+.RadWindow_Metro a.rwIcon
+{
+    background: url('Window/Icon.gif') no-repeat center;
+}
+
+.RadWindow_Metro ul.rwControlButtons
+{
+    margin: 0;
+}
+
+.RadWindow_Metro .rwControlButtons a
+{
+    background-color: #25a0da;
+    background-image: url('Window/CommandButtonSprites.gif');
+    width: 29px;
+    height: 19px;
+    border: solid 1px #25a0da;
+}
+
+div.RadWindow_Metro .rwTitlebarControls em
+{
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: normal;
+	padding: 4px 0 0 1px;
+}
+
+div.RadWindow_Metro .rwStatusbar div
+{
+	background-image: url('Window/rwResize.gif');
+	background-position: 10px 8px;
+	margin: 0 -4px -7px 0;
+}
+
+*html div.RadWindow_Metro .rwStatusbar div
+{
+	margin: 0 -1px -4px 0;
+}
+
+*+html div.RadWindow_Metro .rwStatusbar div
+{
+	margin: 0 -1px -4px 0;
+}
+
+div.RadWindow_Metro .rwDialogInput
+{
+	border: solid 1px #e5e5e5;
+}
+
+div.RadWindow_Metro .rwDialogInput:hover
+{
+	border: solid 1px #767676;
+}
+
+div.RadWindow_Metro tr td.rwLoading
+{
+    background-color: #fff;
+}
+
+.RadWindow_Metro td.rwWindowContent.rwLoading
+{
+    background-image: url('Common/loading.gif');
+}
+
+/* When ShowContentDuringLoad="false" */
+.RadWindow_Metro input.rwLoading
+{
+    background-image: url('Common/loading_small.gif');
+}
+
+div.RadWindow_Metro a.rwPopupButton
+{
+    background: #fff;
+    border: solid 1px #e5e5e5;
+}
+
+div.RadWindow_Metro a.rwPopupButton:hover
+{
+    background: #e5e5e5;
+    border-color: #e5e5e5;
+}
+
+div.RadWindow_Metro a.rwCancel,
+div.RadWindow_Metro a.rwCancel span
+{
+    background: none !important;
+    cursor: pointer;
+    border: 0 !important;
+}
+
+div.RadWindow_Metro a.rwCancel span span,
+div.RadWindow_Metro a.rwCancel:hover span span
+{
+    color: #767676;
+    text-decoration: underline;
+}
+

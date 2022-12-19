@@ -1,0 +1,1030 @@
+/* this is set to the "real" radiobuttons and checkboxes */
+.rfdRealInput
+{
+    position: absolute;
+    left: -99999px;
+}
+
+/* --- COMMON SETTINGS FOR THE SKINNED BUTTONS --- */
+
+/* set one pixel margin to the skinned buttons, which compensates the focus dots when the button is focused */
+.rfdButton a.rfdSkinnedButton
+{
+	margin: 1px;
+}
+
+.rfdButton a.rfdSkinnedButton,
+.rfdButton a.rfdSkinnedButton *
+{
+    cursor: default;
+    background-repeat: no-repeat;
+	background-color: transparent;
+	height: 22px;
+	line-height: 22px;
+	text-decoration: none;
+	display: inline-block;
+	border: 0 !important; /* do not remove the !important flag, otherwise the * selector will not apply for that property */
+	text-align: center;
+	font: normal 12px "Segoe UI", Arial, Helvetica !important;
+    white-space: nowrap;
+}
+
+/* set dotted border to a focused button */
+.rfdButton a.rfdSkinnedButton:focus
+{
+	outline: dotted 1px #ccc;
+}
+
+.rfdButton a.rfdSkinnedButton,
+.rfdButton a.rfdInputDisabled.rfdSkinnedButton:hover
+{
+    padding: 0 4px 0 0;
+}
+
+.RadForm.rfdTextbox input[type="text"], 
+.RadForm.rfdTextbox input[type="password"], 
+.RadForm.rfdTextarea textarea, 
+.RadForm.rfdTextarea textarea[disabled]:hover, 
+.RadForm.rfdTextbox input[disabled][type="text"]:hover, 
+.RadForm.rfdTextbox input[disabled][type="password"]:hover,
+.RadForm .rfdCheckboxChecked, 
+.RadForm .rfdInputDisabled.rfdCheckboxChecked:hover,
+.RadForm .rfdCheckboxUnchecked, 
+.RadForm .rfdInputDisabled.rfdCheckboxUnchecked:hover,
+.RadForm.rfdLabel label,
+.RadForm .rfdAspLabel,
+.RadForm .rfdRadioUnchecked, 
+.RadForm .rfdInputDisabled.rfdRadioUnchecked:hover, 
+.RadForm .rfdRadioUnchecked:hover, 
+.RadForm .rfdRadioChecked, 
+.RadForm .rfdInputDisabled.rfdRadioChecked:hover, 
+.RadForm .rfdRadioChecked:hover,
+.RadForm .riTextBox, /* prevents text flcikering in IE8, when TadTextBox is used with RDF */
+.RadForm .rfdValidationSummaryControl,
+.RadForm .rfdLoginControl,
+.RadForm legend
+{
+	font-size: 12px; 
+	font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+/* Headings */
+.rfdHeading h4,
+.rfdHeading h5,
+.rfdHeading h6
+{
+	font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	margin: 0;
+	padding: 6px 0 1px 0;
+}
+		
+.rfdHeading h4
+{
+	font-size: 14px;
+}
+		
+.rfdHeading h5
+{
+	font-size: 13px;
+}
+		
+.rfdHeading h6
+{
+	font-size: 12px;
+}
+
+/* Sets height of 22px to text boxes */
+.RadForm.rfdTextbox input[type="text"], 
+.RadForm.rfdTextbox input[type="password"]
+{
+	padding: 2px 2px 3px 2px;
+	height: auto;
+	line-height: normal;
+}
+
+._Telerik_IE9._Telerik_IE9RadForm.rfdTextbox input[type="text"], 
+._Telerik_IE9.RadForm.rfdTextbox input[type="password"]
+{
+	padding: 2px 3px 3px 3px;
+}
+
+.rfdTextarea textarea
+{
+	padding: 2px;
+}
+
+._Telerik_IE9.rfdTextarea textarea
+{
+	padding: 2px 3px;
+}
+
+/* Textarea padding Webkit fix */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.rfdTextarea textarea
+{
+	padding: 2px 3px;
+}
+}
+
+/* Input height fixes where it is necessary if it breaks the layout */
+/* FileExplorer addresbar fix */
+.RadForm.rfdTextbox input.rfeAddressBox[type="text"]
+{
+	padding: 0;
+}
+
+/* Fixes RadColor Picker text input when it is decorated by RadFromDecorator in webkit browsers */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.RadForm.rfdTextbox .RadColorPicker input[type="text"]
+{
+	padding-top: 1px;
+	padding-bottom: 0;
+	height: 19px;
+	line-height: 19px;
+}
+}
+
+/*TEKI: fix CSS inheritance issue with RadComboBox */
+.RadForm.rfdTextbox .rfdSkinnedButton input,
+.RadForm.rfdTextbox .rfdSkinnedButton button,
+.RadForm.rfdTextbox .RadComboBox input,
+.RadForm.rfdTextbox .RadComboBox input[type="text"],
+.RadForm.rfdTextbox .rfdInputDisabled 
+{
+   border:0;
+   background-color:transparent;
+}
+
+/*TEKI: (text) inputs by default can have no type specified, so update the button definition to show no border!*/
+.RadForm.rfdTextbox input[type="button"].rfdDecorated,
+.RadForm.rfdTextbox input[type="reset"].rfdDecorated,
+.RadForm.rfdTextbox input[type="submit"].rfdDecorated
+{
+    border: 0;    
+}
+
+.rfdButton input[type="button"].rfdDecorated,
+.rfdButton input[type="reset"].rfdDecorated,
+.rfdButton input[type="submit"].rfdDecorated,
+.rfdButton .rfdSkinnedButton button,
+.rfdButton a.rfdInputDisabled.rfdSkinnedButton:hover *
+{
+    background-position: left -22px;
+    height: 22px;
+	line-height: 22px;
+	border: 0;
+	padding: 0 6px 0 10px;
+	margin-right:0;/*Safari!*/
+}
+
+*+html.rfdButton input[type="button"].rfdDecorated,
+*+html.rfdButton input[type="reset"].rfdDecorated,
+*+html.rfdButton input[type="submit"].rfdDecorated,
+*+html.rfdButton .rfdSkinnedButton button,
+*+html.rfdButton a.rfdInputDisabled.rfdSkinnedButton:hover *
+{
+    padding-right: 0;
+}
+
+.rfdButton a.rfdSkinnedButton *
+{
+    _background-position: left -22px;
+}
+
+/* IE6 fixes */
+.rfdButton a.rfdInputDisabled:hover *
+{
+    _background-position: left -22px !important;
+}
+
+.rfdButton a.rfdInputDisabled:hover
+{
+    _background-position: right 0 !important;
+}
+/* end of IE6 fixes */
+
+.rfdButton a.rfdSkinnedButton,
+.rfdButton a.rfdInputDisabled.rfdSkinnedButton:hover
+{
+	background-position: right 0;
+}
+
+.rfdButton a.rfdSkinnedButton:hover
+{
+	background-position: right -44px;
+}
+
+.rfdButton a.rfdSkinnedButton:hover *
+{
+	background-position: left -66px;
+}
+
+.rfdButton a.rfdClickedButton,
+.rfdButton a.rfdClickedButton:hover
+{
+	background-position: right -88px;
+}
+
+/* IE8 Onclickg filckering Bug fix */
+.rfdButton .rfdSkinnedButton.rfdClickedButton .rfdDecorated
+{
+	-ms-background-position-x: 1px !important;
+	-ms-background-position-y: -109px !important;
+}
+
+.rfdButton a.rfdSkinnedButton.rfdClickedButton *
+{
+	background-position: left -110px !important;
+}
+
+/* IE9 Onclicking flickering bug fix */
+._Telerik_IE9.rfdButton a.rfdSkinnedButton.rfdClickedButton .rfdDecorated,
+._Telerik_IE9 .rfdZone a.rfdSkinnedButton.rfdClickedButton .rfdDecorated,
+._Telerik_IE9 .rfdZone a.rfdSkinnedButton.rfdClickedButton input.rfdDecorated
+{
+	-ms-background-position-x: 1px !important;
+	-ms-background-position-y: -110px !important;
+}
+		
+._Telerik_IE9.rfdButton .rfdInputDisabled.rfdClickedButton input.rfdDecorated,
+._Telerik_IE9 .rfdZone .rfdInputDisabled.rfdSkinnedButton.rfdClickedButton input.rfdDecorated,
+._Telerik_IE9 .rfdZone .rfdInputDisabled.rfdSkinnedButton.rfdClickedButton button.rfdDecorated
+{
+	-ms-background-position-x: 0 !important;
+	-ms-background-position-y: -22px !important;
+}
+
+/* IE7 hovers fix */
+*+html.rfdButton a.rfdSkinnedButton:hover *,
+*+html .rfdButton a.rfdSkinnedButton:hover *
+{
+    background-position: left -66px;
+}
+
+/* IE 6 fix for inputs */
+.rfdButtonType
+{
+    padding-left: 5px;
+}
+/* --- END OF COMMON SETTINGS FOR THE SKINNED BUTTONS --- */
+
+.rfdCheckboxChecked,
+.rfdCheckboxUnchecked,
+.rfdRadioUnchecked,
+.rfdRadioChecked
+{
+    line-height: 20px !important;
+	padding: 0 0 0 20px !important;
+	zoom: 1; /* IE font-size fix when set in percent */		
+	display: inline-block !important;
+	background-color: transparent;
+	background-repeat: no-repeat;
+}
+
+/* Checkboxes and Radios Sprite Positions */
+/* Decorate <input type="checkbox" /> */
+.rfdCheckboxUnchecked
+{
+	
+	background-position: 0 0;
+}
+
+.rfdCheckboxUnchecked:hover
+{
+	background-position: 0 -200px;
+}
+
+.rfdCheckboxChecked
+{
+	background-position: 0 -420px;
+}
+
+.rfdCheckboxChecked:hover
+{
+	background-position: 0 -640px;
+}
+
+.rfdCheckboxUnchecked.rfdInputDisabled,
+.rfdCheckboxUnchecked.rfdInputDisabled:hover
+{
+	background-position: 0 -860px;
+}
+
+.rfdCheckboxChecked.rfdInputDisabled,
+.rfdCheckboxChecked.rfdInputDisabled:hover
+{
+	background-position: 0 -1080px;
+}
+
+/*IE6 Disabled Checkboxes fix*/
+*html .rfdCheckboxUnchecked
+{
+	background-position: 0 0;
+}
+		
+*html .rfdCheckboxChecked:hover
+{
+	background-position: 0 -640px;
+}
+		
+/* Decorate <input type="radio" /> */
+.rfdRadioUnchecked
+{
+	background-position: 1px 0;
+}
+
+.rfdRadioUnchecked:hover
+{
+	background-position: 1px -220px;
+}
+
+.rfdRadioChecked
+{
+	background-position: 1px -440px;
+}
+
+.rfdRadioChecked:hover
+{
+	background-position: 1px -640px;
+}
+
+.rfdRadioUnchecked.rfdInputDisabled,
+.rfdRadioUnchecked.rfdInputDisabled:hover
+{
+	background-position: 1px -860px;
+}
+
+.rfdRadioChecked.rfdInputDisabled,
+.rfdRadioChecked.rfdInputDisabled:hover
+{
+	background-position: 1px -1080px;
+}
+
+/* IE6 Radio Disabled fix */
+*html .rfdRadioUnchecked
+{
+	background-position: 1px 0;
+}
+
+*html .rfdRadioChecked
+{
+	background-position: 1px -440px;
+}
+
+/* Applies opacity to both checkbox and radio buttons */
+*html .rfdInputDisabled
+{
+	filter: alpha(opacity = 50);
+}
+
+/* Disabled state removed to avoid problems with RadInput and RadCombo */
+.rfdSkinnedButton.rfdInputDisabled,
+.rfdTextarea textarea[disabled],
+.rfdTextbox input[type="text"][disabled],
+.rfdTextbox input[type="password"][disabled]
+{
+    /*filter: alpha(opacity=50);  IE < 8 */
+    /*opacity: .5;  FF3, OP9, WebKit */
+     /*-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)" !important; IE8 */
+   /* -moz-opacity: .5;  FF2 */
+}
+
+*|html .rfdSkinnedButton.rfdInputDisabled,
+*|html.rfdTextarea textarea[disabled],
+*|html.rfdTextbox input[type="text"][disabled],
+*|html.rfdTextbox input[type="password"][disabled],
+.rfdCheckboxChecked.rfdInputDisabled, 
+.rfdCheckboxUnchecked.rfdInputDisabled, 
+.rfdRadioChecked.rfdInputDisabled, 
+.rfdRadioUnchecked.rfdInputDisabled,
+.rfdSelectDisabled
+{
+	opacity: .5;
+}
+
+/* FormDecorator + TreeView fix */
+.RadTreeView .rfdCheckboxUnchecked,
+.RadTreeView .rfdCheckboxChecked
+{
+    display: -moz-inline-box;
+    display: inline-block;
+    width: 0;
+    vertical-align: middle;
+    line-height: 21px;
+    height: 21px;
+}
+
+/* FormDecorator + TreeView fix */
+.RadGrid .rfdCheckboxUnchecked,
+.RadGrid .rfdCheckboxChecked
+{
+    display: -moz-inline-block;
+    display: inline-block;
+}
+
+/* decorated <fieldset />, <textarea /> and <input type="text | password" /> */
+.rfdRoundedInner
+{  
+    width: 1px;
+    font-size: 1px;      
+    background-repeat: no-repeat;
+}
+
+.rfdRoundedOuter
+{    
+    width: 1px;
+    font-size: 0px;  
+}
+
+
+table.rfdRoundedWrapper,
+table.rfdRoundedWrapper_fieldset
+{
+    display: -moz-inline-box; /*FF2*/
+    display: inline-block; /* FF3, Opera, Safari*/
+    _display: inline; /* IE6 */
+    vertical-align: middle;           
+    border-width: 0px !important;    
+}
+
+/* do not merge these 2 rules, because of IE6 ! */
+table.rfdRoundedWrapper td
+{
+	padding: 0px !important;
+	border: 0px !important;
+}
+table.rfdRoundedWrapper_fieldset>tbody>tr>td
+{
+	padding: 0px !important;
+	border: 0px !important;
+}
+
+/* IE7 */
+*+html table.rfdRoundedWrapper, 
+*+html table.rfdRoundedWrapper_fieldset
+{
+   display: inline;
+}
+
+table.rfdRoundedWrapper tr td, table.rfdRoundedWrapper_fieldset tr td
+{
+    vertical-align: middle;
+}
+
+table.rfdRoundedWrapper input[type='text'] 
+{
+	border-left: none; 
+	border-right: none;
+}
+
+/* Styling for TABLE cells */
+.rfdGrids .rfdTable th,
+.rfdGrids .rfdTable td
+{
+	border: 0;
+	padding:5px 7px 4px;
+}
+
+/* right-to-left support begin */
+.rfdRtl
+{
+	direction: rtl;
+}
+
+.rfdRtl .rfdRealInput 
+{
+	position: absolute; /* Causes IE to jump when a textbox in a scrollable parent is clicked -however, setting position:relative has other side effects. This is why it will be left here as *absolute* and set to relative where needed */	
+	left: 0;
+	right: 0;
+	top: -9999px;
+}
+
+.rfdRtl .rfdCheckboxUnchecked,
+.rfdRtl .rfdInputDisabled.rfdCheckboxUnchecked:hover
+{
+	padding: 0 20px 0 0 !important;
+	background-position: right 0 !important;
+}
+
+.rfdRtl .rfdCheckboxUnchecked:hover
+{
+	background-position: right -200px !important;
+}
+
+.rfdRtl .rfdCheckboxChecked,
+.rfdRtl .rfdInputDisabled.rfdCheckboxChecked:hover 
+{
+	padding: 0 20px 0 0 !important;
+	background-position: right -420px !important;
+}
+
+.rfdRtl .rfdCheckboxChecked:hover
+{
+	background-position: right -640px !important;
+}
+
+.rfdRtl .rfdRadioUnchecked,
+.rfdRtl .rfdInputDisabled.rfdRadioUnchecked:hover 
+{
+	padding: 0 20px 0 0 !important;
+	background-position: right 0 !important;
+}
+
+.rfdRtl .rfdRadioUnchecked:hover
+{
+	background-position: right -220px !important;
+}
+
+.rfdRtl .rfdRadioChecked,
+.rfdRtl .rfdInputDisabled.rfdRadioChecked:hover 
+{
+	padding: 0 20px 0 0 !important;
+	background-position: right -440px !important;
+}
+
+.rfdRtl .rfdRadioChecked:hover
+{
+	background-position: right -640px !important;
+}
+/* right-to-left support end */
+
+/* skinned selectbox */
+.rfdSelect
+{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 12px;
+	font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+	cursor: default;
+	outline: none;
+	-moz-user-select: none;
+	max-width: 1024px;
+	background-position: 0 0;
+	padding-left: 2px;
+	zoom: 1;
+	z-index: 3000;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+*html .rfdSelect
+{
+	background-position: right -22px;
+	padding-right: 19px;
+	padding-left: 0;
+	vertical-align: top;
+	margin-right: 0;
+}
+
+*+html .rfdSelect
+{
+	vertical-align: top;
+	margin-right: 0;
+}
+
+.rfdSelect:hover
+{
+	background-position: 0 -44px;
+}
+
+*html .rfdSelect:hover
+{
+	background-position: right -66px;
+}
+
+.rfdSelect .rfdSelectOuter,
+.rfdSelect.rfdSelectDisabled:hover .rfdSelectOuter
+{
+    background-position: right -22px;
+    display: block;
+    line-height: 22px;
+    height: 22px;
+    white-space: nowrap;
+    width: inherit;
+    margin-left: 2px;
+}
+
+.rfdSelect.rfdSelectDisabled:hover
+{
+	background-position: 0 0;
+}
+
+*html .rfdSelect .rfdSelectOuter,
+*html .rfdSelect.rfdSelectDisabled:hover .rfdSelectOuter
+{
+	background-position: 0 0;
+	margin-right: 0;
+	margin-left: 0;
+	padding-left: 2px;
+}
+
+.rfdSelect .rfdSelectOuter,
+.rfdSelect.rfdSelectDisabled:hover .rfdSelectOuter
+{
+	margin-right: -1px\9;
+}
+
+.rfdSelect:hover .rfdSelectOuter
+{
+    background-position: right -66px;
+}
+
+*html .rfdSelect:hover .rfdSelectOuter
+{
+    background-position: 0 -44px;
+}
+
+.rfdSelect .rfdSelectOuter span
+{
+    margin-right: 22px;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+/*NEW - TEKI - Support for SELECT dropdowns using the new rendering */
+.rfdSelect .rfdSelectBox
+{
+    position: absolute;
+    overflow-y: auto;
+    float: left; 
+    width: inherit;
+}
+
+.rfdSelect li
+{
+    padding: 0 0 0 3px;
+    line-height: 16px;
+    height: 16px;
+    background-image: none !important;
+}
+
+.rfdSelectDisabled
+{
+    opacity: .4; /* Gecko, Opera */
+}
+
+.rfdSelectDisabled .rfdSelectText
+{
+	filter: alpha(opacity=40); /* IE */
+}
+
+
+/* dropdown settings */
+.rfdSelectBox
+{
+    font-size: 12px;
+	font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    display: inline-block;
+    overflow-x: hidden;
+    z-index: 2900;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+.rfdSelectBox.rfdSelectDisabled:hover
+{
+    background-position: 0 0;
+}
+
+.rfdSelectBox ul
+{
+    width: inherit;
+}
+
+.rfdSelectBox ul,
+.rfdSelectBox li
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.rfdSelectBox li
+{
+    cursor: default;
+    padding-left:3px;/* In AJAX CSS-es are registered skin-specific first, base second, which creates problems*/
+    line-height: 16px;
+    height: 16px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.rfdSelectBox_optgroup li
+{
+    padding-left: 20px !important;
+    height: 18px !important;
+    line-height: 18px !important;
+}
+
+.rfdSelectBox_optgroup .rfdSelectBox_optgroup_label
+{
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 0 !important;
+}
+
+.rfdSelectBox_Default .rfdSelectBox_optgroup_label:hover
+{
+    background: none;
+    color: #000;
+}
+
+.rfdSelectBox.rfdSelectDisabled li:hover
+{
+    background: none !important;
+}
+
+.rfdSelectBox .rfdSelectBox_optgroup li
+{
+    padding-left: 12px !important;
+}
+
+.rfdSelectBox li.rfdSelectBox_optgroup_label
+{
+    padding-left: 0 !important;
+}
+
+/* end of skinned selectbox */
+
+
+/* Internet Explorer fix for background position of a <fieldset /> */
+.rfdFieldset fieldset
+{
+   background-position: 0 7px\9; /* all versions IE hack */
+   background-repeat: no-repeat; /* Mandatory to use because of incorrect IE positioning of the image */		
+}
+
+/* IE9 overwrite */
+._Telerik_IE9.rfdFieldset fieldset
+{
+	 background-position: 0 0; 
+}
+
+.RadForm.rfdFieldset table.rfdRoundedWrapper_fieldset fieldset,
+.RadForm.rfdFieldset fieldset.rfdFieldset
+{	
+	_background-image: none !important; /* removes the background image in IE6 */
+}
+
+.rfdCheckboxChecked,
+.rfdCheckboxUnchecked,
+.rfdRadioUnchecked,
+.rfdRadioChecked
+{
+    line-height: 20px !important;
+	padding: 0;
+	padding-left: 20px;
+	zoom: 1; /* fixes IE issue with font-size set in percent */
+	display: inline-block !important;	
+}
+
+.rfdRoundedCorners
+{
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+	border-radius:4px;
+}
+
+/* This one fixes the jumping of the skinned select boxes when clicked in IE7 */
+*+html .rfdSelect
+{
+   vertical-align: middle;
+}
+
+.rfdRtl .rfdSelect
+{
+    padding-left: 18px !important;
+    background-position: 0 -110px !important;
+}
+
+.rfdRtl .rfdSelect .rfdSelectOuter
+{
+    margin: 0 !important;
+    background-position: right -88px !important;
+}
+
+.rfdRtl .rfdSelect:hover
+{
+    background-position: 0 -154px !important;
+}
+
+.rfdRtl .rfdSelect .rfdSelectOuter:hover
+{
+    margin: 0 !important;
+    background-position: right -132px !important;
+}
+
+.rfdRtl .rfdSelect .rfdSelectOuter span.rfdSelectText
+{
+    margin: 0 0 0 0 !important;
+    padding: 0 5px 0 0 !important;
+}
+/* this one removes the hover from the rtl dropdowns in IE6 */
+*html .rfdRtl .rfdSelect:hover
+{
+    _background-position: 0 -110px !important;
+}
+
+*+html.RadForm input.rfdDecorated,  
+*+html.RadForm button.rfdDecorated  
+{  
+    padding-left: 4px !important;  
+}
+
+.rfdDecorated, 
+a.rfdSkinnedButton
+{
+	vertical-align: top;
+}
+
+/*  Fixed button position when it is placed next to a textbox - Firefox/Safari */
+*|html .rfdDecorated, 
+*|html a.rfdSkinnedButton
+{
+	vertical-align: middle;
+}
+
+/* the styling of radiobuttons and checkboxes in Safari and Chrome is already fully achieved with CSS */
+@media screen and (-webkit-min-device-pixel-ratio: 0)
+{
+    .rfdRadio label,
+    .rfdCheckbox label
+    {
+        padding-left: 0 !important;
+        background-image: none !important;
+        line-height: 18px;
+    }
+    
+    .rfdCheckbox label
+    {
+        vertical-align: middle;
+    }
+    
+    .rfdRadio label
+    {
+        vertical-align: bottom;
+    }
+    
+    .rfdRadio input[type="radio"],
+    .rfdCheckbox input[type="checkbox"]
+    {
+        -khtml-appearance: none; /* remove the graphic appearance of the original control */
+        position: static; /* set back it's static position on the page */
+        width: 20px; /* set default width of the control */
+	    height: 20px; /* set default height of the control */
+	    vertical-align: middle; /* align the control properly */
+	    margin: 0;
+    }
+    
+    .rfdCheckbox input[type="checkbox"][disabled],
+    .rfdRadio input[type="radio"][disabled]
+    {
+        opacity: .5; /* give the control a disabled looks */
+    }
+    
+    /* checkboxes */
+    .rfdCheckbox input[type="checkbox"],
+    .rfdCheckbox input[type="checkbox"][disabled]:hover
+    {
+        background-repeat: no-repeat;
+        background-position: 0 0;
+    }
+    
+    .rfdCheckbox input[type="checkbox"]:hover
+    {
+        background-position-y: -200px;
+    }
+    
+    .rfdCheckbox input[type="checkbox"]:checked,
+    .rfdCheckbox input[type="checkbox"][disabled]:hover:checked
+    {
+        background-position-y: -420px;
+    }
+    
+    .rfdCheckbox input[type="checkbox"]:hover:checked
+    {
+        background-position-y: -640px;
+    }
+    
+    /* radio buttons */
+    .rfdRadio input[type="radio"],
+    .rfdRadio input[type="radio"][disabled="disabled"]:hover
+    {
+        background-repeat: no-repeat;
+        background-position: 0 0;
+    }
+    
+    .rfdRadio input[type="radio"]:hover
+    {
+        background-position-y: -220px;
+    }
+    
+    .rfdRadio input[type="radio"]:checked,
+    .rfdRadio input[type="radio"][disabled="disabled"]:hover:checked
+    {
+        background-position-y: -440px;
+    }
+    
+    .rfdRadio input[type="radio"]:hover:checked
+    {
+        background-position-y: -640px;
+    }
+    
+    /* Prevents unwated border and background in mobile safari */
+    .RadForm input[type="checkbox"], 
+	.RadForm input[type="radio"], 
+	.RadForm input[type="checkbox"]["checked"],
+	.RadForm input[type="radio"]["checked"]
+	{
+		border: 0;
+		background-color: transparent;
+	}
+}
+
+/* ScrollBar CSS Settings for WebKit */
+/* Since v.6 chrome uses standard Windows scrollbars for the iframe only */
+/* We ca not manipulate them and will style only body, div and form scrolls */
+/* arrow button settings */
+.RadForm.rfdScrollBars body::-webkit-scrollbar,
+.RadForm.rfdScrollBars textarea::-webkit-scrollbar,
+.RadForm.rfdScrollBars div::-webkit-scrollbar
+{
+    width: 16px;
+    height: 16px;
+}
+
+/* horizontal scroll left button */
+.RadForm.rfdScrollBars ::-webkit-scrollbar-button:horizontal:decrement
+{
+    background-position: 1px -132px;
+}
+
+/* horizontal scroll right button */
+.RadForm.rfdScrollBars ::-webkit-scrollbar-button:horizontal:increment
+{
+    background-position: -10px -132px;
+}
+
+/* vertical scroll up button */
+.RadForm.rfdScrollBars ::-webkit-scrollbar-button:vertical:decrement
+{
+   background-position: 0 -145px;
+}
+
+/* vertical scroll down button */
+.RadForm.rfdScrollBars ::-webkit-scrollbar-button:vertical:increment
+{
+   background-position: -11px -145px;
+}
+
+/* increment / decrement button settings */
+.RadForm.rfdScrollBars ::-webkit-scrollbar-button:vertical:decrement,
+.RadForm.rfdScrollBars ::-webkit-scrollbar-button:vertical:increment,
+.RadForm.rfdScrollBars ::-webkit-scrollbar-button:horizontal:decrement,
+.RadForm.rfdScrollBars ::-webkit-scrollbar-button:horizontal:increment
+{
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+}
+
+.RadForm.rfdScrollBars ::-webkit-scrollbar-button:vertical:decrement, 
+.RadForm.rfdScrollBars ::-webkit-scrollbar-button:vertical:increment, 
+.RadForm.rfdScrollBars ::-webkit-scrollbar-button:horizontal:decrement, 
+.RadForm.rfdScrollBars ::-webkit-scrollbar-button:horizontal:increment, 
+.RadForm.rfdScrollBars ::-webkit-scrollbar-thumb:vertical, 
+.RadForm.rfdScrollBars ::-webkit-scrollbar-thumb:horizontal
+{
+    border-style: solid;
+    border-width: 1px;
+}
+
+/* Validation Summary Control and Login Control  */
+
+.rfdValidationSummaryControl,
+.rfdLoginControl
+	{
+		padding: 4px;
+		border-radius: 4px;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-collapse: separate !important; /* need to be with important as by default the table is rendered with collpase inline style */
+	}
+
+.rfdValidationSummaryControl ul
+{
+	padding-left: 65px;
+	margin-left: 0;
+	min-height: 32px;
+	color: #f00;
+	background: url('Common/ModalDialogAlert.gif') no-repeat 8px -3px;
+}
+
+*html .rfdValidationSummaryControl ul
+{
+	height: 32px;
+}

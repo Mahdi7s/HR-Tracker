@@ -1,0 +1,86 @@
+.RadTreeView_Office2007,
+.RadTreeView_Office2007 a.rtIn,
+.RadTreeView_Office2007 .rtEdit .rtIn input
+{
+	color: #00156e;
+	font: 12px/18px "Segoe UI", Arial, sans-serif;
+}
+
+.RadTreeView_Office2007 .rtPlus, 
+.RadTreeView_Office2007 .rtMinus
+{
+	background-image: url('TreeView/PlusMinus.png');
+}
+
+.RadTreeView_Office2007 .rtChecked,
+.RadTreeView_Office2007 .rtUnchecked,
+.RadTreeView_Office2007 .rtIndeterminate
+{
+	background-image: url('TreeView/TriState.png');
+}
+
+.RadTreeView_Office2007 .rtHover .rtIn
+{
+	color: #000;
+	border-color: #a79d87 #b89f73;
+	background-color: #FFE086;
+	background-image: url('TreeView/ItemHoveredBg.png');
+}
+
+.RadTreeView_Office2007 .rtSelected .rtIn
+{
+	color: #000;
+	border-color: #8f8267 #a79d87;
+	background-color: #fcdb89;
+	background-image: url('TreeView/ItemSelectedBg.png');
+}
+
+.RadTreeView_Office2007 .rtSelected .rtLoadingBefore,
+.RadTreeView_Office2007 .rtSelected .rtLoadingAfter,
+.RadTreeView_Office2007 .rtSelected .rtLoadingBelow
+{
+	color: #333;
+}
+
+.RadTreeView_Office2007 .rtLoadingIcon
+{
+	background-image: url('TreeView/LoadingIcon.gif');
+}
+
+.RadTreeView .rtLI .rtEdit .rtIn
+{
+	border-color: #0f3789;
+	background: #fff;
+}
+
+.RadTreeView_Office2007_disabled .rtIn,
+.RadTreeView_Office2007 .rtDisabled .rtIn
+{
+	color: #ccc;
+}
+
+
+/* <node lines> */
+
+.RadTreeView_Office2007 .rtLines .rtLI,
+.RadTreeView_Office2007 .rtLines .rtFirst .rtUL { background-image: url('../Common/TreeView/NodeSpan.png'); }
+.RadTreeView_Office2007_rtl .rtLines .rtLI,
+.RadTreeView_Office2007_rtl .rtLines .rtFirst .rtUL { background-image:url('../Common/TreeView/NodeSpan_rtl.png'); }
+
+.RadTreeView_Office2007 .rtLines .rtFirst,
+.RadTreeView_Office2007 .rtLines .rtFirst .rtUL { background-image: url('../Common/TreeView/FirstNodeSpan.png'); }
+.RadTreeView_Office2007_rtl .rtLines .rtFirst,
+.RadTreeView_Office2007_rtl .rtLines .rtFirst .rtUL { background-image: url('../Common/TreeView/FirstNodeSpan_rtl.png'); }
+.RadTreeView_Office2007 .rtLines .rtLast,
+.RadTreeView_Office2007 .rtLines .rtLast .rtUL { background-image: none; }
+
+.RadTreeView_Office2007 .rtLines .rtTop { background-image:url('../Common/TreeView/TopLine.png'); }
+.RadTreeView_Office2007_rtl .rtLines .rtTop { background-image:url('../Common/TreeView/TopLine_rtl.png'); }
+.RadTreeView_Office2007 .rtLines .rtMid { background-image:url('../Common/TreeView/MiddleLine.png'); }
+.RadTreeView_Office2007_rtl .rtLines .rtMid { background-image:url('../Common/TreeView/MiddleLine_rtl.png'); }
+.RadTreeView_Office2007 .rtLines .rtBot { background-image:url('../Common/TreeView/BottomLine.png'); }
+.RadTreeView_Office2007_rtl .rtLines .rtBot { background-image: url('../Common/TreeView/BottomLine_rtl.png'); }
+.RadTreeView_Office2007 .rtLines .rtLast .rtTop { background-image:url('../Common/TreeView/SingleLine.png'); }
+.RadTreeView_Office2007_rtl .rtLines .rtLast .rtTop { background-image:url('../Common/TreeView/SingleLine_rtl.png'); }
+
+/* </node lines> */

@@ -1,0 +1,63 @@
+.RadTreeView_Vista,
+.RadTreeView_Vista a.rtIn,
+.RadTreeView_Vista .rtEdit .rtIn input
+{
+	color: #000;
+	font: 12px/18px "Segoe UI", Arial, sans-serif;
+}
+
+.RadTreeView_Vista .rtPlus, 
+.RadTreeView_Vista .rtMinus
+{
+	background-image: url('TreeView/PlusMinus.png');
+}
+
+.RadTreeView_Vista .rtChecked,
+.RadTreeView_Vista .rtUnchecked,
+.RadTreeView_Vista .rtIndeterminate
+{
+	background-image: url('TreeView/TriState.png');
+}
+
+.RadTreeView_Vista .rtHover .rtIn,
+.RadTreeView_Vista .rtSelected .rtIn
+{
+	color: #363636;
+	border: 1px solid #99defd;
+}
+
+.RadTreeView_Vista .rtHover .rtIn
+{
+	background-color: #DFF2FC;
+	background-image: url('TreeView/ItemHoveredBg.png');
+}
+
+.RadTreeView_Vista .rtSelected .rtIn
+{
+	background-color: #AEDDF5;
+	background-image: url('TreeView/ItemSelectedBg.png');
+}
+
+.RadTreeView_Vista .rtSelected .rtLoadingBefore,
+.RadTreeView_Vista .rtSelected .rtLoadingAfter,
+.RadTreeView_Vista .rtSelected .rtLoadingBelow
+{
+	color: #333;
+}
+
+.RadTreeView_Vista .rtLoadingIcon
+{
+	background-image: url('TreeView/LoadingIcon.gif');
+}
+
+.RadTreeView_Vista .rtLI .rtEdit .rtIn
+{
+	border-color: #99defd;
+	background: #fff;
+}
+
+.RadTreeView_Vista_disabled .rtIn,
+.RadTreeView_Vista .rtDisabled .rtIn
+{
+	color: #ccc;
+}

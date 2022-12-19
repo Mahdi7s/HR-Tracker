@@ -1,0 +1,18 @@
+/* Telerik RadAjaxLoadingPanel WebBlue Skin */
+
+.RadAjax_WebBlue .raDiv
+{
+	background-image:url('Common/loading.gif');
+}
+
+.RadAjax_WebBlue .raColor
+{
+	background-color:#e0e8ea;
+}
+
+.RadAjax_WebBlue .raTransp
+{
+	opacity:0.7;
+	-moz-opacity:0.7;
+	filter:alpha(opacity=70);
+}

@@ -1,0 +1,714 @@
+/*Telerik RadGrid Office2007 Skin*/
+
+/*global*/
+
+.RadGrid_Office2007
+{
+    border:1px solid #688caf;
+    background:#fff;
+    color:#333;
+}
+
+.RadGrid_Office2007,
+.RadGrid_Office2007 .rgMasterTable,
+.RadGrid_Office2007 .rgDetailTable,
+.RadGrid_Office2007 .rgGroupPanel table,
+.RadGrid_Office2007 .rgCommandRow table,
+.RadGrid_Office2007 .rgEditForm table,
+.RadGrid_Office2007 .rgPager table,
+.GridToolTip_Office2007
+{
+    font:12px/16px "segoe ui",arial,sans-serif;
+}
+
+.RadGrid_Office2007 .rgHeader:first-child,
+.RadGrid_Office2007 th.rgResizeCol:first-child,
+.RadGrid_Office2007 .rgFilterRow>td:first-child,
+.RadGrid_Office2007 .rgRow>td:first-child,
+.RadGrid_Office2007 .rgAltRow>td:first-child
+{
+	border-left-width:0;
+	padding-left:8px;
+}
+
+.RadGrid_Office2007 .rgAdd,
+.RadGrid_Office2007 .rgRefresh,
+.RadGrid_Office2007 .rgEdit,
+.RadGrid_Office2007 .rgDel,
+.RadGrid_Office2007 .rgFilter,
+.RadGrid_Office2007 .rgPagePrev,
+.RadGrid_Office2007 .rgPageNext,
+.RadGrid_Office2007 .rgPageFirst,
+.RadGrid_Office2007 .rgPageLast,
+.RadGrid_Office2007 .rgExpand,
+.RadGrid_Office2007 .rgCollapse,
+.RadGrid_Office2007 .rgSortAsc,
+.RadGrid_Office2007 .rgSortDesc,
+.RadGrid_Office2007 .rgUpdate,
+.RadGrid_Office2007 .rgCancel,
+.RadGrid_Office2007 .rgUngroup,
+.RadGrid_Office2007 .rgExpXLS,
+.RadGrid_Office2007 .rgExpDOC,
+.RadGrid_Office2007 .rgExpPDF,
+.RadGrid_Office2007 .rgExpCSV
+{
+	background-image:url('Grid/sprite.gif');
+}
+
+/*header*/
+
+.RadGrid_Office2007 .rgHeaderDiv
+{
+	background:#d6e5f3 0 -8050px repeat-x url('Grid/sprite.gif');
+}
+.rgTwoLines .rgHeaderDiv
+{
+	background-position:0 -7550px;
+}
+
+.RadGrid_Office2007 .rgHeader,
+.RadGrid_Office2007 th.rgResizeCol
+{
+	border:solid #5d8cc9;
+	border-width:0 0 1px 1px;
+	background:0 -2300px repeat-x #c3d8f1 url('Grid/sprite.gif');
+}
+
+.RadGrid_Office2007 th.rgSorted
+{
+	border-bottom-color:#ff9b35;
+	background-color:#ffca5e;
+	background-position:0 -2600px;
+}
+
+.RadGrid_Office2007 .rgHeader,
+.RadGrid_Office2007 .rgHeader a
+{
+    color:#00156e;
+}
+
+.RadGrid_Office2007 th.rgSorted,
+.RadGrid_Office2007 th.rgSorted a
+{
+    color:#000;
+}
+
+/*rows*/
+
+.RadGrid_Office2007 .rgRow td,
+.RadGrid_Office2007 .rgAltRow td,
+.RadGrid_Office2007 .rgEditRow td,
+.RadGrid_Office2007 .rgFooter td
+{
+	border-style:solid;
+	border-width:0 0 1px 1px;
+}
+
+.RadGrid_Office2007 .rgRow td,
+.RadGrid_Office2007 .rgAltRow td
+{
+	border-color:#d0d7e5;
+}
+
+.RadGrid_Office2007 .rgRow .rgSorted,
+.RadGrid_Office2007 .rgAltRow .rgSorted
+{
+	background-color:#f2f2f2;
+}
+
+.RadGrid_Office2007 .rgSelectedRow .rgSorted,
+.RadGrid_Office2007 .rgActiveRow .rgSorted,
+.RadGrid_Office2007 .rgHoveredRow .rgSorted,
+.RadGrid_Office2007 .rgEditRow .rgSorted
+{
+	background-color:transparent;
+}
+
+.RadGrid_Office2007 .rgRow a,
+.RadGrid_Office2007 .rgAltRow a,
+.RadGrid_Office2007 .rgEditRow a,
+.RadGrid_Office2007 .rgFooter a,
+.RadGrid_Office2007 .rgEditForm a
+{
+	color:#00156e;
+}
+
+.RadGrid_Office2007 .rgSelectedRow
+{
+    background:#ffcb60 0 -3900px repeat-x url('Grid/sprite.gif');
+}
+*+html .RadGrid_Office2007 .rgSelectedRow .rgSorted{background-color:#ffcb60}
+* html .RadGrid_Office2007 .rgSelectedRow .rgSorted{background-color:#ffcb60}
+
+.RadGrid_Office2007 .rgActiveRow,
+.RadGrid_Office2007 .rgHoveredRow
+{
+    background:#ecf4ff;
+}
+*+html .RadGrid_Office2007 .rgActiveRow .rgSorted,
+*+html .RadGrid_Office2007 .rgHoveredRow .rgSorted{background-color:#ecf4ff}
+* html .RadGrid_Office2007 .rgActiveRow .rgSorted,
+* html .RadGrid_Office2007 .rgHoveredRow .rgSorted{background-color:#ecf4ff}
+
+.RadGrid_Office2007 .rgEditRow
+{
+	background:#ffe5ad;
+}
+*+html .RadGrid_Office2007 .rgEditRow .rgSorted{background-color:#ffe5ad}
+* html .RadGrid_Office2007 .rgEditRow .rgSorted{background-color:#ffe5ad}
+
+.RadGrid_Office2007 .rgSelectedRow td,
+.RadGrid_Office2007 .rgActiveRow td,
+.RadGrid_Office2007 .rgHoveredRow td,
+.RadGrid_Office2007 .rgEditRow td
+{
+	border-left-width:0;
+	padding-left:8px;
+}
+
+.RadGrid_Office2007 .rgSelectedRow td
+{
+	border-bottom-color:#ff9b35;
+}
+
+.RadGrid_Office2007 .rgActiveRow td,
+.RadGrid_Office2007 .rgHoveredRow td,
+.RadGrid_Office2007 .rgEditRow td
+{
+	border-bottom-color:#d0d7e5;
+}
+
+.RadGrid_Office2007 .rgDrag
+{
+	background-image:url('Grid/rgDrag.gif');
+}
+
+/*footer*/
+
+.RadGrid_Office2007 .rgFooterDiv,
+.RadGrid_Office2007 .rgFooter
+{
+	background:#9ab5db 0 -6500px repeat-x url('Grid/sprite.gif');
+}
+
+.RadGrid_Office2007 .rgFooter td
+{
+	border-width:1px 0;
+	border-color:#567db0 #fff #fff;
+	padding-left:8px;
+}
+
+/*status*/
+
+.RadGrid_Office2007 .rgPager .rgStatus
+{
+	border:1px solid;
+	border-width:1px 1px 0 0;
+	border-color:#5d8cc9 #9cb9dc;
+}
+
+.RadGrid_Office2007 .rgStatus div
+{
+	background-image:url('Common/loading_small.gif');
+}
+
+/*pager*/
+
+.RadGrid_Office2007 .rgPager
+{
+	background:#ecf3fc 0 -7000px repeat-x url('Grid/sprite.gif');
+	color:#00156e;
+}
+
+.RadGrid_Office2007 td.rgPagerCell
+{
+	border-top:1px solid #5d8cc9;
+	border-left:1px solid #fff;
+}
+
+.RadGrid_Office2007 .rgInfoPart
+{
+	color:#3e69a3;
+}
+
+.RadGrid_Office2007 .rgPageFirst
+{
+	margin:0 3px 0 0;
+	background-position:0 -550px;
+}
+.RadGrid_Office2007 .rgPageFirst:hover
+{
+	background-position:0 -600px;
+}
+.RadGrid_Office2007 .rgPagePrev
+{
+	margin:0 3px 0 0;
+	background-position:0 -700px;
+}
+.RadGrid_Office2007 .rgPagePrev:hover
+{
+	background-position:0 -750px;
+}
+.RadGrid_Office2007 .rgPageNext
+{
+	margin:0 0 0 3px;
+	background-position:0 -850px;
+}
+.RadGrid_Office2007 .rgPageNext:hover
+{
+	background-position:0 -900px;
+}
+.RadGrid_Office2007 .rgPageLast
+{
+	margin:0 0 0 3px;
+	background-position:0 -1000px;
+}
+.RadGrid_Office2007 .rgPageLast:hover
+{
+	background-position:0 -1050px;
+}
+
+.RadGrid_Office2007 .rgPager .rgPagerButton
+{
+	border-color:#7793b9;
+	background:#e8f1fc repeat-x 0 -1550px url('Grid/sprite.gif');
+	color:#00156e;
+	font:12px/12px "segoe ui",arial,sans-serif;
+}
+
+.RadGrid_Office2007 .rgNumPart a:hover,
+.RadGrid_Office2007 .rgNumPart a:hover span,
+.RadGrid_Office2007 .rgNumPart a.rgCurrentPage,
+.RadGrid_Office2007 .rgNumPart a.rgCurrentPage span
+{
+	background:no-repeat url('Grid/sprite.gif');
+}
+
+.RadGrid_Office2007 .rgNumPart a
+{
+	color:#00156e;
+}
+
+.RadGrid_Office2007 .rgNumPart a:hover
+{
+	background-position:100% -1250px;
+}
+
+.RadGrid_Office2007 .rgNumPart a:hover span
+{
+	background-position:0 -1150px;
+}
+
+.RadGrid_Office2007 .rgNumPart a.rgCurrentPage,
+.RadGrid_Office2007 .rgNumPart a.rgCurrentPage:hover
+{
+	background-position:100% -1450px;
+}
+
+.RadGrid_Office2007 .rgNumPart a.rgCurrentPage span,
+.RadGrid_Office2007 .rgNumPart a.rgCurrentPage:hover span
+{
+	background-position:0 -1350px;
+}
+
+/*sorting, reordering*/
+
+.RadGrid_Office2007 .rgHeader .rgSortAsc
+{
+	background-position:3px -147px;
+	height:10px;
+}
+
+.RadGrid_Office2007 .rgHeader .rgSortDesc
+{
+	background-position:3px -96px;
+	height:10px;
+}
+
+.GridReorderTop_Office2007,
+.GridReorderBottom_Office2007
+{
+	height:12px;
+	background:0 0 no-repeat url('Grid/sprite.gif');
+}
+
+.GridReorderBottom_Office2007
+{
+	background-position:0 -50px;
+}
+
+/*filtering*/
+
+.RadGrid_Office2007 .rgFilterRow
+{
+	background:#d6e5f3;
+}
+
+.RadGrid_Office2007 .rgFilterRow td
+{
+    border:solid #9eb6ce;
+    border-width:0 0 1px 1px;
+}
+
+.RadGrid_Office2007 .rgFilter
+{
+	background-position:0 -300px;
+}
+
+.RadGrid_Office2007 .rgFilter:hover
+{
+	background-position:0 -350px;
+}
+
+.RadGrid_Office2007 .rgFilterActive,
+.RadGrid_Office2007 .rgFilterActive:hover
+{
+	background-position:0 -400px;
+}
+
+.RadGrid_Office2007 .rgFilterBox
+{
+	border-color:#abc1de;
+	font:12px "segoe ui",arial,sans-serif;
+	color:#000;
+}
+
+/*filter context menu*/
+
+.RadMenu_Office2007 .rgHCMClear,
+.RadMenu_Office2007 .rgHCMFilter
+{
+	border-color:#a7bedb #7d98bd #a3bad8;
+	background:#e8f1fc center -23px repeat-x url('FormDecorator/ButtonSprites.gif');
+	color:#00156e;
+	font-family:"segoe ui",arial,sans-serif;
+}
+
+.RadMenu_Office2007 .rgHCMClear:hover,
+.RadMenu_Office2007 .rgHCMFilter:hover
+{
+	border-color:#d8ca95 #b9a073 #c6ba9d;
+	background-position:center -67px;
+	background-color:#ffe18a;
+	color:#000;
+}
+
+/*context menu*/
+
+.GridContextMenu_Office2007 .rmLeftImage
+{
+	background-image:url('../Common/Grid/contextMenu.gif');
+}
+
+.GridContextMenu_Office2007 .rgHCMSortAsc .rmLeftImage
+{
+	background-position:0 0;
+}
+
+.GridContextMenu_Office2007 .rgHCMSortDesc .rmLeftImage
+{
+	background-position:0 -40px;
+}
+
+.GridContextMenu_Office2007 .rgHCMUnsort .rmLeftImage
+{
+	background-position:0 -80px;
+}
+
+.GridContextMenu_Office2007 .rgHCMGroup .rmLeftImage
+{
+	background-position:0 -120px;
+}
+
+.GridContextMenu_Office2007 .rgHCMUngroup .rmLeftImage
+{
+	background-position:0 -160px;
+}
+
+.GridContextMenu_Office2007 .rgHCMCols .rmLeftImage
+{
+	background-position:0 -200px;
+}
+
+.GridContextMenu_Office2007 .rgHCMFilter .rmLeftImage
+{
+	background-position:0 -240px;
+}
+
+.GridContextMenu_Office2007 .rgHCMUnfilter .rmLeftImage
+{
+	background-position:0 -280px;
+}
+
+/*grouping*/
+
+.RadGrid_Office2007 .rgGroupPanel
+{
+	border:0;
+	border-bottom:1px solid #688caf;
+	background:#ecf3fc;
+}
+
+.RadGrid_Office2007 .rgGroupPanel td
+{
+	border:0;
+	padding:3px 4px;
+	vertical-align:middle;
+}
+
+.RadGrid_Office2007 .rgGroupPanel td td
+{
+	padding:0;
+}
+
+.RadGrid_Office2007 .rgGroupPanel .rgSortAsc
+{
+	background-position:4px -144px;
+}
+
+.RadGrid_Office2007 .rgGroupPanel .rgSortDesc
+{
+	background-position:4px -94px;
+}
+
+.RadGrid_Office2007 .rgUngroup
+{
+	background-position:0 -7500px;
+}
+
+.RadGrid_Office2007 .rgGroupItem
+{
+	border:1px solid #4b78ca;
+	background:#e6ebf5 0 -1900px repeat-x url('Grid/sprite.gif');
+	color:#00156e;
+}
+
+.RadGrid_Office2007 .rgGroupHeader
+{
+    background:#d7e6f7;
+    font-size:1.1em;
+    line-height:21px;
+	color:#567db0;
+}
+
+.RadGrid_Office2007 .rgGroupHeader td
+{
+	border-top:1px solid #fcfcfd;
+	border-bottom:1px solid #6f92b3;
+    padding-left:8px;
+}
+
+.RadGrid_Office2007 td.rgGroupCol,
+.RadGrid_Office2007 td.rgExpandCol
+{
+	background:#d7e6f7 none;
+	border-color:#d7e6f7;
+}
+
+.RadGrid_Office2007 .rgGroupHeader .rgExpand
+{
+	background-position:5px -495px;
+}
+
+.RadGrid_Office2007 .rgGroupHeader .rgCollapse
+{
+	background-position:3px -93px;
+}
+
+/*editing*/
+
+.RadGrid_Office2007 .rgEditForm
+{
+	border-bottom:1px solid #d0d7e5;
+}
+
+.RadGrid_Office2007 .rgUpdate
+{
+	background-position:0 -1800px;
+}
+
+.RadGrid_Office2007 .rgCancel
+{
+	background-position:0 -1850px;
+}
+
+/*hierarchy*/
+
+.RadGrid_Office2007 .rgDetailTable
+{
+	border-color:#688caf;
+}
+
+.RadGrid_Office2007 .rgExpand
+{
+	background-position:5px -496px;
+}
+
+.RadGrid_Office2007 .rgCollapse
+{
+	background-position:3px -94px;
+}
+
+/*command row*/
+
+.RadGrid_Office2007 .rgCommandRow
+{
+	background:#c4d9f1 0 -2099px repeat-x url('Grid/sprite.gif');
+	color:#333;
+}
+
+.RadGrid_Office2007 .rgCommandCell
+{
+	border:0;
+	padding:0;
+}
+
+.RadGrid_Office2007 thead .rgCommandCell
+{
+	border-bottom:1px solid #688caf;
+}
+
+.RadGrid_Office2007 .rgCommandTable td
+{
+	border:0;
+	padding:2px 7px;
+}
+
+.RadGrid_Office2007 .rgCommandTable
+{
+	border:1px solid #9eb6ce;
+}
+
+.RadGrid_Office2007 .rgCommandRow a
+{
+	color:#00156e;
+	text-decoration:none;
+}
+
+.RadGrid_Office2007 .rgAdd
+{
+	margin-right:3px;
+	background-position:0 -1650px;
+}
+
+.RadGrid_Office2007 .rgRefresh
+{
+	margin-right:3px;
+	background-position:0 -1600px;
+}
+
+.RadGrid_Office2007 .rgEdit
+{
+	background-position:0 -1700px;
+}
+
+.RadGrid_Office2007 .rgDel
+{
+	background-position:0 -1750px;
+}
+
+.RadGrid_Office2007 .rgExpXLS,
+.RadGrid_Office2007 .rgExpDOC,
+.RadGrid_Office2007 .rgExpPDF,
+.RadGrid_Office2007 .rgExpCSV
+{
+	background-image:url('../Common/Grid/export.gif');
+}
+
+.RadGrid_Office2007 .rgExpXLS
+{
+	background-position:0 0;
+}
+.RadGrid_Office2007 .rgExpDOC
+{
+	background-position:0 -50px;
+}
+.RadGrid_Office2007 .rgExpPDF
+{
+	background-position:0 -100px;
+}
+.RadGrid_Office2007 .rgExpCSV
+{
+	background-position:0 -150px;
+}
+
+/*multirow select*/
+
+.GridRowSelector_Office2007
+{
+	background:#00156e;
+}
+
+/*row drag n drop*/
+
+.GridItemDropIndicator_Office2007
+{
+    border-top:1px dashed #00156e;
+}
+
+/*tooltip*/
+
+.GridToolTip_Office2007
+{
+	border:1px solid #6187b8;
+	padding:3px;
+	background:#d7e3f2;
+	color:#333;
+}
+
+/*rtl*/
+
+.RadGridRTL_Office2007 .rgHeader:first-child,
+.RadGridRTL_Office2007 th.rgResizeCol:first-child,
+.RadGridRTL_Office2007 .rgFilterRow>td:first-child,
+.RadGridRTL_Office2007 .rgRow>td:first-child,
+.RadGridRTL_Office2007 .rgAltRow>td:first-child
+{
+	border-left-width:1px;
+	padding-left:7px;
+}
+
+.RadGridRTL_Office2007 .rgPageFirst
+{
+	background-position:0 -1000px;
+}
+.RadGridRTL_Office2007 .rgPageFirst:hover
+{
+	background-position:0 -1050px;
+}
+.RadGridRTL_Office2007 .rgPagePrev
+{
+	margin:0 0 0 3px;
+	background-position:0 -850px;
+}
+.RadGridRTL_Office2007 .rgPagePrev:hover
+{
+	background-position:0 -900px;
+}
+.RadGridRTL_Office2007 .rgPageNext
+{
+	margin:0 3px 0 0;
+	background-position:0 -700px;
+}
+.RadGridRTL_Office2007 .rgPageNext:hover
+{
+	background-position:0 -750px;
+}
+.RadGridRTL_Office2007 .rgPageLast
+{
+	background-position:0 -550px;
+}
+.RadGridRTL_Office2007 .rgPageLast:hover
+{
+	background-position:0 -600px;
+}
+
+.RadGridRTL_Office2007 .rgGroupHeader .rgExpand
+{
+	background-position:-20pxpx -495px;
+}
+
+.RadGridRTL_Office2007 .rgExpand
+{
+	background-position:-20px -496px;
+}

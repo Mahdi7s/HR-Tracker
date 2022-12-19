@@ -1,0 +1,216 @@
+/* RadWindow for ASP.NET AJAX Window 7 Skin */
+
+/* Window Background */
+
+/* Horiznotal */
+.RadWindow_Windows7 .rwTopLeft,
+.RadWindow_Windows7 .rwTopRight,
+.RadWindow_Windows7 .rwTitlebar,
+.RadWindow_Windows7 .rwFooterLeft,
+.RadWindow_Windows7 .rwFooterRight,
+.RadWindow_Windows7 .rwFooterCenter,
+.RadWindow_Windows7 .rwTopResize,
+.RadWindow_Windows7 .rwStatusbar div,
+.RadWindow_Windows7 .rwStatusbar,
+.RadWindow_Windows7 .rwPopupButton,
+.RadWindow_Windows7 .rwPopupButton span,
+.RadWindow_Windows7.rwMinimizedWindow .rwCorner
+{
+    background-image: url('Window/WindowHorizontalSprites.gif');
+}
+
+/* Vertical */
+.RadWindow_Windows7 .rwBodyLeft,
+.RadWindow_Windows7 .rwBodyRight,
+.RadWindow_Windows7 .rwStatusbarRow .rwCorner
+{
+	background-image: url('Window/WindowVerticalSprites.gif');
+}
+
+/* Window Shadows */
+
+/* Horiznotal */
+.RadWindow_Windows7 .rwShadow .rwTopLeft,
+.RadWindow_Windows7 .rwShadow .rwTopRight,
+.RadWindow_Windows7 .rwShadow .rwTitlebar,
+.RadWindow_Windows7 .rwShadow .rwFooterLeft,
+.RadWindow_Windows7 .rwShadow .rwFooterRight,
+.RadWindow_Windows7 .rwShadow .rwFooterCenter,
+.RadWindow_Windows7 .rwShadow .rwTopResize,
+.RadWindow_Windows7 .rwShadow .rwStatusbar div,
+.RadWindow_Windows7 .rwShadow .rwStatusbar,
+.RadWindow_Windows7 .rwShadow .rwPopupButton,
+.RadWindow_Windows7 .rwShadow .rwPopupButton span,
+.RadWindow_Windows7 .rwShadow .rwBodyLeft,
+.RadWindow_Windows7 .rwShadow .rwBodyRight,
+.RadWindow_Windows7 .rwShadow .rwStatusbarRow .rwBodyLeft,
+.RadWindow_Windows7 .rwShadow .rwStatusbarRow .rwBodyRight
+{
+	background-image: url('Window/WindowHorizontalSprites.png');
+}
+
+/* Vertical */
+.RadWindow_Windows7 .rwShadow .rwBodyLeft,
+.RadWindow_Windows7 .rwShadow .rwBodyRight,
+.RadWindow_Windows7 .rwShadow .rwStatusbarRow .rwBodyLeft,
+.RadWindow_Windows7 .rwShadow .rwStatusbarRow .rwBodyRight
+{
+	background-image: url('Window/WindowVerticalSprites.png');
+}
+
+/* Shadows End */
+
+.RadWindow_Windows7 .rwStatusbar input
+{
+    background-color: #f7f3e9;
+}
+
+.RadWindow_Windows7 .rwControlButtons a
+{
+    background-image: url('Window/CommandButtonSprites.gif');
+}
+
+.RadWindow_Windows7 a.rwIcon
+{
+	background-image: url('Window/WindowHorizontalSprites.gif');
+}
+
+div.RadWindow_Windows7 .rwTitlebarControls em
+{
+	color: black;
+}
+
+div.RadWindow_Windows7 .rwDialogInput
+{
+	border-top: solid 1px #abadb3;
+	border-right: solid 1px #dbdfe6;
+	border-bottom: solid 1px #e3e9ef;
+	border-left: solid 1px #e2e3ea;
+}
+
+div.RadWindow_Windows7 .rwDialogInput:hover
+{
+	border-top: solid 1px #5794bf;
+	border-right: solid 1px #b7d5ea;
+	border-bottom: solid 1px #c7e2f1;
+	border-left: solid 1px #c5daed;
+	color: #565656;
+}
+
+
+/* set Window Vista "Aero" look and feel to the window */
+
+
+*html div.RadWindow.RadWindow_Windows7.rwNormalWindow.rwTransparentWindow td.rwCorner,
+*html div.RadWindow.RadWindow_Windows7.rwNormalWindow.rwTransparentWindow td.rwTitlebar,
+*html div.RadWindow.RadWindow_Windows7.rwTransparentWindow td.rwFooterCenter
+{
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+}
+
+.RadWindow_Windows7 tr td.rwWindowContent
+{
+    background-color: #fff;
+}
+
+/* Loading Indicators */
+div.RadWindow_Windows7 tr td.rwLoading
+{
+    background-color: #e9f1f9;
+}
+
+/* When ShowContentDuringLoad="true" */
+.RadWindow_Windows7 td.rwWindowContent.rwLoading
+{
+    background-image: url('Common/loading.gif');
+}
+
+/* When ShowContentDuringLoad="false" */
+.RadWindow_Windows7 input.rwLoading
+{
+    background-image: url('Common/loading_small.gif');
+}
+
+div.RadWindow_Windows7 a.rwCancel,
+div.RadWindow_Windows7 a.rwCancel span
+{
+    background: none;
+    cursor: pointer;
+}
+
+div.RadWindow_Windows7 a.rwCancel span span
+{
+    color: #000000;
+    text-decoration: underline;
+}
+
+/* Shadow Control Buttons */
+
+.RadWindow_Windows7 .rwShadow .rwControlButtons 
+{
+	margin: 5px -2px 0 0;
+}
+
+.RadWindow_Windows7 .rwShadow .rwControlButtons 
+{
+	margin: 5px -1px 0 0\9;
+}
+
+/* ctrl buttons when winodw is minimized */
+.RadWindow_Windows7.rwMinimizedWindowShadow .rwShadow .rwControlButtons 
+{
+	margin: 9px -8px 0 0;
+}
+
+/*.RadWindow.rwMinimizedWindow .rwShadow .rwTitlebar 
+{
+	background-image: url('Window/AeroTitleBarBgr.png') !important;
+	background-position: 0 0 !important;
+}*/
+
+.RadWindow_Windows7 .rwShadow .rwControlButtons li
+{
+	float: left;
+	padding: 0;
+}
+
+.RadWindow_Windows7 .rwShadow .rwControlButtons a
+{
+	width: 30px; 
+}
+
+.rwInactiveWindow .rwShadow .rwTopLeft,
+.rwInactiveWindow .rwShadow .rwTopRight,
+.rwInactiveWindow .rwShadow .rwTitlebar,
+.rwInactiveWindow .rwShadow .rwFooterLeft,
+.rwInactiveWindow .rwShadow .rwFooterRight,
+.rwInactiveWindow .rwShadow .rwFooterCenter,
+.rwInactiveWindow .rwShadow .rwTopResize,
+.rwInactiveWindow .rwShadow .rwStatusbar div,
+.rwInactiveWindow .rwShadow .rwStatusbar,
+.rwInactiveWindow .rwShadow .rwPopupButton,
+.rwInactiveWindow .rwShadow .rwPopupButton span,
+.rwInactiveWindow .rwShadow.rwMinimizedWindow .rwCorner,
+.RadWindow_Windows7.rwNoTitleBar.rwInactiveWindow .rwShadow .rwTopLeft,
+.RadWindow_Windows7.rwNoTitleBar.rwInactiveWindow .rwShadow .rwTitlebar,
+.RadWindow_Windows7.rwNoTitleBar.rwInactiveWindow .rwShadow .rwTopRight,
+.RadWindow_Windows7.rwNoTitleBar.rwInactiveWindow .rwShadow .rwFooterLeft,
+.RadWindow_Windows7.rwNoTitleBar.rwInactiveWindow .rwShadow .rwFooterCenter,
+.RadWindow_Windows7.rwNoTitleBar.rwInactiveWindow .rwShadow .rwFooterRight
+{
+    background-image: url('Window/WindowHorizontalSprites.gif') !important;
+}
+
+.rwInactiveWindow .rwShadow .rwBodyLeft,
+.rwInactiveWindow .rwShadow .rwBodyRight,
+.rwInactiveWindow .rwShadow .rwStatusbarRow .rwCorner,
+.RadWindow_Windows7.rwNoTitleBar.rwInactiveWindow .rwShadow .rwBodyLeft,
+.RadWindow_Windows7.rwNoTitleBar.rwInactiveWindow .rwShadow .rwBodyRight
+{
+	background-image: url('Window/WindowVerticalSprites.gif') !important;
+}
+
+div.RadWindow_Windows7.rwNoTitleBar.rwInactiveWindow table.rwShadow tr.rwTitleRow td.rwTopRight
+{
+	background-position: -8px -280px !important;
+}

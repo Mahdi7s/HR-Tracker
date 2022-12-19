@@ -1,0 +1,516 @@
+/*
+
+RadTreeView base css
+
+* Notes on some CSS class names *
+
+class  --  HTML element  --  description 
+
+rtUL  --  <ul>  --  multiple nodes container
+rtLI  --  <li>  --  one node 
+rtFirst  --  <li>  -- TreeView's first node
+rtLast  --  <li>  -- last node in a given node group (<ul>)
+rtTop,rtMid,rtBot  --  <div>  -- a wrapper (<div>) inside a node (<li>) - can be in a top, middle or bottom node in a given node group
+rtIn  --  <span> or <div>  -- the inner container inside a node - contains text (<span> rendering) or template (<div> rendering)
+rtSp  --  <span>  -- holds a dummy element for adjustment of node heights (should be an even number if the skin node lines are dotted)
+rtChk  --  <input>  -- holds a node's checkbox
+rtImg  --  <img>  -- holds a node's icon
+rtPlus,rtMinus -- <span> -- holds a node's expand / collapse buttons (plus / minus signs)
+
+*/
+
+/* <general styles> */
+
+.RadTreeView
+{
+	white-space:nowrap;
+	cursor: default;
+}
+
+.RadTreeView .rtTop,
+.RadTreeView .rtMid,
+.RadTreeView .rtBot,
+.RadTreeView .rtUL
+{
+	zoom:1;
+}
+
+.RadTreeView .rtSp,
+.RadTreeView .rtImg,
+.RadTreeView .rtIn,
+.RadTreeView .rtChk
+{
+	vertical-align:middle;
+}
+
+.RadTreeView .rtUL
+{
+	margin: 0;
+	padding: 0;
+	-moz-user-select: -moz-none;
+}
+
+.RadTreeView .rtLI
+{
+	list-style-image: none;
+	list-style-position: outside;
+	list-style: none;
+}
+
+.RadTreeView .rtUL .rtLI .rtUL
+{
+	padding-left: 20px;
+}
+
+.RadTreeView .rtTop, 
+.RadTreeView .rtMid, 
+.RadTreeView .rtBot
+{
+	padding: 1px 0 1px 20px;
+}
+
+/* <expand/collapse images> */
+
+.RadTreeView .rtPlus, 
+.RadTreeView .rtMinus
+{
+	font-size: 0;
+	padding: 0;
+	display: -moz-inline-box;
+	display: inline-block;
+	vertical-align: top;
+	cursor: pointer;
+	margin: 6px 7px 0 -18px;
+	width: 11px;
+	height: 11px;
+	background-repeat: no-repeat;
+}
+
+* html .RadTreeView .rtPlus, 
+* html .RadTreeView .rtMinus { margin-right: 1px; }
+*+html .RadTreeView .rtPlus, 
+*+html .RadTreeView .rtMinus { margin-right: 1px; }
+
+.RadTreeView .rtPlus { background-position: 0 0; }
+.RadTreeView .rtPlusHover { background-position: 0 -22px; }
+.RadTreeView .rtMinus { background-position: 0 -11px; }
+.RadTreeView .rtMinusHover { background-position: 0 -33px; }
+
+/* </expand/collapse images> */
+
+/* <tristate checkboxes> */
+
+.RadTreeView .rtChecked,
+.RadTreeView .rtUnchecked,
+.RadTreeView .rtIndeterminate
+{
+	display: -moz-inline-box;
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	vertical-align: middle;
+	margin: 0 3px 0 0;
+	line-height: 0;
+	font-size: 0;
+}
+
+.RadTreeView .rtChecked { background-position: 0 0; }
+.RadTreeView .rtUnchecked { background-position: 0 -13px; }
+.RadTreeView .rtIndeterminate { background-position: 0 -26px; }
+
+/* </tristate checkboxes> */
+
+.RadTreeView .rtSp
+{
+	display: -moz-inline-box;
+	display: inline-block;
+	width: 1px;
+	margin-left: -1px;
+	height: 22px;
+}
+
+.RadTreeView .rtChk
+{
+	margin: 0 2px;
+	padding: 0;
+	width: 12px;
+	height: 12px;
+}
+
+.RadTreeView .rtIn
+{
+	margin-left: 1px;
+	padding: 4px 3px 3px;
+	text-decoration:none;
+}
+
+/* <navigation link> */
+.RadTreeView a.rtIn
+{
+	cursor: pointer;
+}
+/* </navigation link> */
+
+/* <templates> */
+
+.RadTreeView div.rtIn
+{
+	display: -moz-inline-block;
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* <massage> */
+*+html .RadTreeView_rtl .rtIn { padding: 2px 3px; }
+* html .RadTreeView_rtl .rtIn { padding: 2px 3px; }
+
+* html .RadTreeView div.rtIn { display:inline-block; }
+* html .RadTreeView div.rtIn { display:inline; }
+*+html .RadTreeView div.rtIn { display:inline-block; }
+*+html .RadTreeView div.rtIn { display:inline; }
+/* </massage> */
+
+.RadTreeView .rtTemplate,
+.RadTreeView input
+{ 
+	-moz-user-select: text;
+}
+
+/* </templates> */
+
+/* <loading messages> */
+.RadTreeView .rtLoadingIcon
+{
+	display: -moz-inline-box;
+	display: inline-block;
+	vertical-align: text-top;
+	width: 21px;
+	height: 16px;
+	margin-top: -1px;
+	overflow: hidden;
+	text-indent: -9999px;
+	font-size: 0;
+	background-repeat: no-repeat;
+	background-position: 2px 0;
+}
+*+html .RadTreeView .rtLoadingIcon { margin: 0; }
+* html .RadTreeView .rtLoadingIcon { margin: 0; }
+
+.RadTreeView .rtLoadingBelow
+{
+	display: block;
+}
+
+*+html .RadTreeView_rtl .rtLoadingIcon { text-indent: 0; }
+* html .RadTreeView_rtl .rtLoadingIcon { text-indent: 0; }
+
+/* </loading messages> */
+
+/* </general styles> */
+
+/* <node states> */
+
+.RadTreeView .rtHover .rtIn,
+.RadTreeView .rtSelected .rtIn
+{
+	padding: 3px 2px 2px;
+	border-width: 1px;
+	border-style: solid;
+	background-repeat: repeat-x;
+	background-position: 0 0;
+}
+
+*+html .RadTreeView_rtl .rtHover .rtIn,
+*+html .RadTreeView_rtl .rtSelected .rtIn { padding: 1px 2px; }
+* html .RadTreeView_rtl .rtHover .rtIn,
+* html .RadTreeView_rtl .rtSelected .rtIn { padding: 1px 2px; }
+
+/* <in-line editing> */
+
+/* editing of wrapped nodes should add white-space nowrap to make the input box stay on the same line;
+   if the white-space: normal is added through inline styles (on a per-node basis), it can be overriden only by using !important */
+.RadTreeView .rtEdit *
+{
+	white-space: nowrap !important;
+}
+
+.RadTreeView .rtEdit .rtIn,
+.RadTreeView .rtEdit .rtIn input
+{
+	outline: 0; /* disable safari glow effect - RadTreeView look consistency */
+	cursor: text;
+}
+
+
+.RadTreeView .rtLI .rtEdit .rtIn
+{
+	border-width: 1px;
+	border-style: solid;
+	padding: 2px 1px 1px;
+	height: 1.4em;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+* html .RadTreeView .rtLI .rtEdit .rtIn { padding/* */: 0 1px; }
+
+.RadTreeView .rtEdit .rtIn input
+{
+	height: 1.4em;
+	line-height: 1.4em;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	background: transparent;
+}
+
+/* </in-line editing> */
+
+/* </node states> */
+
+/* <node lines> */
+
+.RadTreeView .rtLines .rtLI,
+.RadTreeView .rtLines .rtFirst .rtUL
+{
+	background-repeat: repeat-y;
+	background-position: 0 0;
+}
+
+.RadTreeView_rtl .rtLines .rtLI,
+.RadTreeView_rtl .rtLines .rtFirst .rtUL
+{
+	background-repeat: repeat-y;
+	background-position: 100% 0;
+}
+
+.RadTreeView .rtLines .rtFirst
+{
+    background-repeat: no-repeat;
+    background-position: 0 1.273em;
+}
+
+.RadTreeView_rtl .rtLines .rtFirst
+{
+    background-repeat: no-repeat;
+    background-position: 100% 1.273em;
+}
+
+.RadTreeView .rtLines .rtFirst .rtUL
+{
+    background-repeat: repeat-y;
+    background-position: 0 1.273em;
+}
+
+.RadTreeView_rtl .rtLines .rtFirst .rtUL
+{
+    background-repeat: repeat-y;
+    background-position: 100% 1.273em;
+}
+
+.RadTreeView .rtLines .rtLast,
+.RadTreeView .rtLines .rtLast .rtUL
+{
+	background: none;
+}
+
+.RadTreeView .rtLines .rtTop,
+.RadTreeView .rtLines .rtMid,
+.RadTreeView .rtLines .rtBot
+{
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.RadTreeView_rtl .rtLines .rtTop,
+.RadTreeView_rtl .rtLines .rtMid,
+.RadTreeView_rtl .rtLines .rtBot
+{
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+}
+
+/* </node lines> */
+
+/* <drop targets> */
+
+.rtDropAbove,
+.rtDropBelow
+{
+    border: 1px dotted black;
+    font-size: 3px;
+    line-height: 3px;
+    height: 3px;
+	margin-top: -1px;
+}
+
+.rtDropAbove
+{
+    border-bottom: 0;
+}
+
+.rtDropBelow
+{
+    border-top: 0;
+}
+
+/* </drop targets> */
+
+/* <RTL support> */
+.RadTreeView_rtl .rtPlus, 
+.RadTreeView_rtl .rtMinus
+{
+	position: relative;
+}
+
+/* reverts the above rule to fix the position:relative + overflow:auto bug under IE6&7 */
+* html .RadTreeView_rtl .rtPlus, 
+* html .RadTreeView_rtl .rtMinus { position:static; }
+
+*+html .RadTreeView_rtl .rtPlus, 
+*+html .RadTreeView_rtl .rtMinus { position:static; }
+
+/* fixes IE6/7 "disappearing content" bug */
+*+html .RadTreeView_rtl .rtLI,
+*+html .RadTreeView_rtl .rtIn
+{
+	zoom: 1;
+}
+* html .RadTreeView_rtl .rtLI,
+* html .RadTreeView_rtl .rtIn
+{
+	zoom: 1;
+}
+* html .RadTreeView_rtl .rtIn
+{
+	margin-top: -1px;
+}
+
+.RadTreeView_rtl .rtUL .rtLI .rtUL
+{
+	padding-right: 15px;
+	padding-left: 0;
+}
+
+.RadTreeView_rtl .rtTop,
+.RadTreeView_rtl .rtMid, 
+.RadTreeView_rtl .rtBot
+{
+	padding: 0 15px 0 0;
+	margin: 0;
+}
+
+.RadTreeView_rtl .rtPlus { background-position: -11px 0; }
+.RadTreeView_rtl .rtPlusHover { background-position: -11px -22px; }
+.RadTreeView_rtl .rtMinus { background-position: -11px -11px; }
+.RadTreeView_rtl .rtMinusHover { background-position: -11px -33px; }
+
+.RadTreeView_rtl .rtPlus,
+.RadTreeView_rtl .rtMinus
+{
+	margin-right:7px;
+	right:-20px;
+}
+
+/* firefox 2 */
+.RadTreeView_rtl .rtPlus,
+.RadTreeView_rtl .rtMinus,
+x:-moz-any-link
+{
+	margin-right:-11px;
+	right:-8px;
+}
+
+/* firefox 3 */
+.RadTreeView_rtl .rtPlus,
+.RadTreeView_rtl .rtMinus,
+x:-moz-any-link, x:default
+{
+	margin-right:7px;
+	right:-20px;
+}
+
+/* ie 6 */
+* html .RadTreeView_rtl .rtPlus,
+* html .RadTreeView_rtl .rtMinus
+{
+	margin-right:-13px;
+	right:0;
+}
+
+/* ie 7 */
+*+html .RadTreeView_rtl .rtPlus,
+*+html .RadTreeView_rtl .rtMinus
+{
+	margin-right: -13px;
+	right: 0;
+	width: 0;
+	padding-left: 11px;
+}
+
+/* safari & opera */
+@media screen and (min-width:50px)
+{
+	.RadTreeView .rtPlus,
+	.RadTreeView .rtMinus
+	{
+		margin-right: 7px;
+		margin-left: -18px;
+	}
+	
+	/* fix for safari bug (inline-block positioned elements in rtl mode get no width) */
+	:root .RadTreeView_rtl .rtPlus,
+	:root .RadTreeView_rtl .rtMinus
+	{
+		right: 0;
+		margin-right: -13px;
+		margin-left: 2px;
+	}
+}
+
+/* opera */
+@media all and(-webkit-max-device-pixel-ratio:10000),
+   not all and(-webkit-min-device-pixel-ratio:0) {
+
+	:root .RadTreeView_rtl .rtPlus,
+	:root .RadTreeView_rtl .rtMinus
+	{
+		position: relative;
+		margin-left: 2px;
+		margin-right: -13px;
+		right: -15px;
+	}
+}
+
+/* </RTL support> */
+
+/* <design-time support> */
+div.RadTreeView_designtime .rtTop, 
+div.RadTreeView_designtime .rtMid, 
+div.RadTreeView_designtime .rtBot
+{
+	position: relative;
+}
+
+div.RadTreeView_designtime .rtPlus, 
+div.RadTreeView_designtime .rtMinus
+{
+	margin: 0;
+	position: absolute;
+	left: 3px;
+	top: 4px;
+}
+/* </design-time support> */
+
+/* Touch Styles */
+
+.RadTreeView
+{
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.rtTouchDragClue
+{
+    margin-top: -50px;
+}

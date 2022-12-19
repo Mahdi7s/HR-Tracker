@@ -1,0 +1,38 @@
+/* this is the topmost cell of the dialogs that have RadTabStrip */
+.reTopcell
+{
+    background-color: #fff;
+}
+
+/* File Manager dialogs */
+
+.selectedFileName
+{
+    border-top: solid 1px #e5e5e5;
+}
+
+/* background for the bottom positioned RadTabStrip */
+.RadTabStripBottom_Metro
+{
+    background: #fff;
+    width: 264px;
+    border-bottom: solid 1px #e5e5e5;
+    padding-bottom: 6px !important;
+}
+
+.RadToolBar_Metro .rtbText
+{
+	background-image: url('FileExplorer/FileExplorerToolbarSprites.png');
+	background-repeat: no-repeat;
+}
+
+/* IE6 does not support the alpha channel of png files, so we force it to use gif */
+* html .RadToolBar_Metro .rtbText
+{
+	background-image: url('FileExplorer/FileExplorerToolbarSpritesIE6.gif') !important;
+}
+
+.imagePreviewer .RadTabStrip_Metro
+{
+	background-color: #25a0da;
+}

@@ -1,0 +1,69 @@
+
+.RecurrenceEditor_Outlook
+{
+	color: #333;
+	font: normal 12px/14px "Segoe UI", Arial, sans-serif;
+}
+
+/* <xref input skins> */
+
+.RecurrenceEditor_Outlook .rsAdvInput,
+.RecurrenceEditor_Outlook select
+{
+	border-color: #89aee5;
+}
+
+.RecurrenceEditor_Outlook .rsInvalid input,
+.RecurrenceEditor_Outlook .rsAdvTimePicker .riEmpty
+{
+	background-image: url('Input/sprite.gif');
+}
+
+.RecurrenceEditor_Outlook .rsInvalid
+{
+	border-color: #F32800;
+	color: #F32800;
+}
+/* </xref input skins> */
+
+.RecurrenceEditor_Outlook h2,
+.RecurrenceEditor_Outlook h3
+{
+	color: #1151d9;
+}
+
+.RecurrenceEditor_Outlook h2
+{
+	border-bottom: 1px solid #CCC;
+}
+
+.RecurrenceEditor_Outlook h2 span
+{
+	background: #fff;
+}
+
+.RecurrenceEditor_Outlook .rsAdvRecurrenceFreq
+{
+	border-right: 1px solid #fff;
+}
+
+.RecurrenceEditor_Outlook ul.rsRecurrenceOptionList   /* ??? */
+{
+	border-right: 1px solid #CCC;
+}
+
+.RecurrenceEditor_Outlook div.rsAdvPatternPanel
+{
+	border-left: 0;
+}
+
+/* <date/time picker> */
+
+.RecurrenceEditor_Outlook .rsTimePick .RadInput_Outlook input.riEnabled,
+.RecurrenceEditor_Outlook .rsTimePick .RadInput_Outlook input.riHover,
+.RecurrenceEditor_Outlook .rsTimePick .RadInput_Outlook input.riFocused
+{
+	background-image: url('Scheduler/rsSprites.png');
+}
+
+/* </date/time picker> */

@@ -1,0 +1,205 @@
+/* ReminderDialog base stylesheet */
+
+.RadScheduler .ReminderDialog
+{
+    padding-left: 7px;
+    padding-right: 7px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 14px;
+}
+
+.ReminderDialog .rsRemActions a.rsRemDismissAllBtn,
+.ReminderDialog .rsRemActions a.rsRemOpenItemBtn,
+.ReminderDialog .rsRemActions a.rsRemDismissBtn,
+.ReminderDialog .rsRemSnoozePanel a.rsRemSnoozeBtn
+{
+    text-decoration: none;
+    width: 73px;
+    height: 21px;
+    cursor: pointer;
+    font-size: 0.92em;
+    font-weight: normal;
+    line-height: 21px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    border: 0;
+    float: left;
+    text-align: center;
+    background-position: 0 -474px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.ReminderDialog .rsRemTitle
+{
+    margin: 0 15px 10px;
+    padding-top: 10px;
+}
+
+.ReminderDialog .rsRemTitle span
+{
+    float: left;
+}
+
+.ReminderDialog .rsRemTitle .rsRemTitleDate
+{
+    float: none;
+}
+
+.ReminderDialog .rsRemTitleIcon,
+.ReminderDialog .rsRemTitleBarIcon
+{
+    display: inline-block;
+    vertical-align: text-top;
+    width: 16px;
+    height: 16px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: -258px -526px;
+    margin: 7px 7px 7px 0;
+}
+
+.ReminderDialog .rsRemTitleBarIcon
+{
+    margin: 8px 6px 4px;
+    position: absolute;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: -233px -526px;
+}
+
+.ReminderDialog .rsRemContentPanel
+{
+    z-index: 1;
+	background: none;
+    overflow: hidden;
+    position: relative;
+    zoom: 1;
+}
+
+.ReminderDialog .rsRemActions
+{
+    margin: 0 15px 72px;
+    overflow: hidden;
+}
+
+.ReminderDialog .rsRemList,
+.ReminderDialog .rsRemSnoozeLabel
+{
+    margin: 0 15px 5px;
+    overflow: hidden;
+}
+
+.ReminderDialog .rsRemList
+{
+    clear: left;
+}
+
+.ReminderDialog .rsRemTitleSubject
+{
+    font-weight: bold;
+}
+
+.ReminderDialog .rsRemActions a.rsRemOpenItemBtn,
+.ReminderDialog .rsRemActions a.rsRemDismissBtn,
+.ReminderDialog .rsRemSnoozePanel a.rsRemSnoozeBtn
+{
+    float: right;
+}
+
+.ReminderDialog .rsRemSnoozePanel
+{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+.ReminderDialog .rsRemActions a.rsRemOpenItemBtn,
+.ReminderDialog .rsRemSnoozePanel a.rsRemSnoozeBtn
+{
+    margin-right: 15px;
+}
+
+.ReminderDialog .rsRemSnoozePanel .RadComboBox
+{
+    margin-left: 15px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) /* WebKit */
+{
+	.ReminderDialog .rsRemSnoozePanel .RadComboBox { margin-left: 10px !important; }
+}
+
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0) /* Opera */
+{
+	.ReminderDialog .rsRemSnoozePanel .RadComboBox { margin-left: 10px !important; }
+}
+
+/* <advanced edit title> */
+.ReminderDialog .rsRemTitleBar
+{
+    position: relative;
+    height: 30px;
+    padding: 0 0 0 4px;
+    z-index: 1;
+	background: none;
+	border-width: 1px 0 0 0;
+    margin-top: 7px;
+}
+
+.ReminderDialog .rsRemTitleBarText
+{
+    background-color: transparent;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    text-indent: 25px;
+    padding: 8px 0 0 5px;
+    height: 22px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+* html .ReminderDialog .rsRemTitleBarText
+{
+    height /**/: 30px;
+}
+
+.ReminderDialog a.rsRemTitleBarCloseBtn
+{
+    background-color: transparent;
+    background-position: -38px -526px;
+    background-repeat: no-repeat;
+    display: block;
+    width: 28px;
+    height: 16px;
+    float: right;
+    margin-top: -22px;
+    padding: 1px;
+    text-indent: 9999px;
+}
+* html .ReminderDialog a.rsRemTitleBarCloseBtn { text-indent: -9999px; }
+
+.ReminderDialog a.rsRemTitleBarCloseBtn
+{
+    margin-top: -23px;
+    margin-right: 6px;
+}
+
+/* </advanced edit title> */
+
+.ReminderDialog .rsRemActions a.rsRemDismissAllBtn:hover,
+.ReminderDialog .rsRemActions a.rsRemOpenItemBtn:hover,
+.ReminderDialog .rsRemActions a.rsRemDismissBtn:hover,
+.ReminderDialog .rsRemSnoozePanel a.rsRemSnoozeBtn:hover
+{
+    background-position: -73px -474px;
+}
+
+* html .ReminderDialog div.rsModalBgTopLeft,
+* html .ReminderDialog div.rsModalBgTopRight,
+* html .ReminderDialog div.rsModalBgBottomLeft,
+* html .ReminderDialog div.rsModalBgBottomRight
+{
+    padding-bottom: 0;
+}

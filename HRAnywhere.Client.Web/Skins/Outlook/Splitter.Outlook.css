@@ -1,0 +1,171 @@
+/* RadSplitter for ASP.NET AJAX - Outlook Skin */
+
+/* Borders */
+.RadSplitter_Outlook,
+.RadSplitter_Outlook .rspPaneTabContainer,
+
+/* Vertical RadSplitter items */
+.RadSplitter_Outlook .rspPane, 
+.RadSplitter_Outlook .rspResizeBar,
+.RadSplitter_Outlook .rspSlideContainerResize,
+
+/* Horizontal RadSplitter items */
+.RadSplitter_Outlook .rspPaneHorizontal,
+.RadSplitter_Outlook .rspResizeBarHorizontal,
+.RadSplitter_Outlook .rspSlideContainerResizeHorizontal
+{
+	border-color:#89aee3;
+}
+
+/* When ShowContentDuringLoad="false" */
+.RadSplitter_Outlook .rspLoading
+{
+    background-image: url('Common/loading.gif');
+}
+
+/* RadSplitBar/RadSlidingPane resize elements */
+.RadSplitter_Outlook .rspResizeBar,
+.RadSplitter_Outlook .rspSlideContainerResize
+{
+	background:#e3eeff url('Splitter/ResizeBarVerticalSprites.gif') repeat-y 0 0;
+}
+
+.RadSplitter_Outlook .rspResizeBarOver,
+.RadSplitter_Outlook .rspSlideContainerResizeOver
+{
+    background:#e3eeff none; /*-4px 0*/    
+}
+
+.RadSplitter_Outlook .rspResizeBarHorizontal,
+.RadSplitter_Outlook .rspSlideContainerResizeHorizontal
+{
+	background:#e3eeff url('Splitter/ResizeBarHorizontalSprites.gif') repeat-x 0 0;
+}
+
+.RadSplitter_Outlook .rspResizeBarOverHorizontal,
+.RadSplitter_Outlook .rspSlideContainerResizeOverHorizontal
+{
+    background:#e3eeff none; /*0 -4px;*/
+}
+
+/* RadSlidingPane tab */
+.RadSplitter_Outlook .rspPaneTabContainer,
+/* RadSlidingPane buttons */
+.RadSplitter_Outlook .rspSlideHeaderDockIcon,
+.RadSplitter_Outlook .rspSlideHeaderUndockIcon,
+.RadSplitter_Outlook .rspSlideHeaderCollapseIcon,
+/* RadSplitBar buttons */
+.RadSplitter_Outlook .rspCollapseBarExpand,
+.RadSplitter_Outlook .rspCollapseBarCollapse,
+
+.RadSplitter_Outlook .rspCollapseBarHorizontalExpand,
+.RadSplitter_Outlook .rspCollapseBarHorizontalCollapse
+{
+    background-image:url('Splitter/ExpandCollapseBarsCommands.gif');
+    background-repeat:no-repeat;
+}
+
+/* RadSlidingPane tab */
+.RadSplitter_Outlook .rspPaneTabContainer
+{
+    background-position:-81px 0;
+    background-repeat:repeat-y;
+    background-color:#e3eeff;
+}
+
+/* RadSplitBar buttons */
+.RadSplitter_Outlook .rspCollapseBarCollapse
+{	
+	background-position:0 0;
+}
+.RadSplitter_Outlook .rspCollapseBarCollapseOver
+{
+    background-position:-192px 0;
+}
+
+.RadSplitter_Outlook .rspCollapseBarExpand
+{	
+	background-position:-4px 0;
+}
+.RadSplitter_Outlook .rspCollapseBarExpandOver
+{
+    background-position:-196px 0;
+}
+
+.RadSplitter_Outlook .rspCollapseBarHorizontalExpand
+{
+    background-position:-8px -4px;
+}
+.RadSplitter_Outlook .rspCollapseBarHorizontalExpandOver
+{
+    background-position:-8px -12px;
+}
+
+.RadSplitter_Outlook .rspCollapseBarHorizontalCollapse
+{
+    background-position:-8px 0;
+}
+.RadSplitter_Outlook .rspCollapseBarHorizontalCollapseOver
+{
+    background-position:-8px -8px;
+}
+
+/* RadSlidingPane buttons */
+.RadSplitter_Outlook .rspSlideHeaderUndockIcon
+{
+	background-position:-50px 0;
+}
+
+.RadSplitter_Outlook .rspSlideHeaderDockIcon
+{
+	background-position:-35px 0;
+}
+
+.RadSplitter_Outlook .rspSlideHeaderCollapseIcon
+{
+	background-position:-65px 0;
+}
+
+/* RadSlidingPane header */
+.RadSplitter_Outlook .rspSlideHeader, 
+/* RadSlidingPane title */
+.RadSplitter_Outlook .rspSlideTitleContainer,
+/* RadSlidingPane tab, SlideDirection=Top/Bottom */
+.RadSplitter_Outlook .rspBottom .rspPaneTabContainer,
+.RadSplitter_Outlook .rspTop .rspPaneTabContainer
+{
+	background-image:url('Splitter/slideTitleContainerBgr.gif');
+	background-repeat:repeat-x;
+}
+
+.RadSplitter_Outlook .rspBottom .rspPaneTabContainer,
+.RadSplitter_Outlook .rspTop .rspPaneTabContainer
+{
+    background-position:0 -1px;
+}
+
+/* RadSlidingPane header elements */
+.RadSplitter_Outlook .rspSlideTitleContainer,
+.RadSplitter_Outlook .rspSlideHeaderIconWrapper
+{
+	border-bottom:solid 1px #89aee3;
+}
+
+/* RadSlidingPane title text */
+.RadSplitter_Outlook .rspSlideTitle,
+/* RadSlidingPane tab text */
+.RadSplitter_Outlook .rspPaneTabText
+{
+	font:normal 10px "Segoe UI", Arial, Sans-serif;
+	color:#000;
+}
+.RadSplitter_Outlook .rspSlideTitle
+{	
+	font-size:12px;
+}
+
+/* RadSlidingPane content - this element should not be transparent as it shows above content in adjacent RadPanes */
+.RadSplitter_Outlook .rspSlideContent
+{
+	background-color:#fff;
+}

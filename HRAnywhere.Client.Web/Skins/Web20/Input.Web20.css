@@ -1,0 +1,142 @@
+/*Telerik RadInput Web20 Skin*/
+
+/*global*/
+
+.RadInput_Web20,
+.RadInputMgr_Web20
+{
+	font:12px "segoe ui",arial,sans-serif;
+}
+
+/*textbox states*/
+
+html body .RadInput_Web20 .riTextBox,
+html body .RadInputMgr_Web20
+{
+	border-color:#6788be;
+	background:#fff;
+	color:#000;
+	font:12px "segoe ui",arial,sans-serif;
+}
+
+html body .RadInput_Web20 .riEmpty,
+html body .RadInput_Empty_Web20
+{
+	color:#777;
+}
+
+html body .RadInput_Web20 .riHover,
+html body .RadInput_Hover_Web20,
+html body .RadInput_Web20 .riFocused,
+html body .RadInput_Focused_Web20
+{
+	border-color:#3f5f94;
+}
+
+html body .RadInput_Web20 .riRead,
+html body .RadInput_Read_Web20
+{
+	border-color:#bebebe;
+}
+
+html body .RadInput_Web20 .riDisabled,
+html body .RadInput_Disabled_Web20
+{
+	border-color:#bebebe;
+	color:#777;
+	cursor:default;
+}
+
+html body .RadInput_Web20 .riError,
+html body .RadInput_Error_Web20
+{
+	border-color:#d24000;
+	background:#fff 100% -298px no-repeat url('Input/sprite.gif');
+	color:#b32d34;
+}
+
+.RadForm.rfdTextbox .RadInput_Web20 .riError[type="text"],
+.RadForm.rfdTextbox .RadInput_Error_Web20[type="text"]
+{
+	border-color:#d24000;
+	background:#fff 100% -298px no-repeat url('Input/sprite.gif');
+	color:#b32d34;
+}
+
+html body .RadInput_Web20 .riNegative,
+html body .RadInput_Negative_Web20
+{
+	color:#444;
+}
+
+/*buttons*/
+
+.RadInput_Web20 a
+{
+	background:transparent no-repeat url('Input/sprite.gif');
+}
+
+/*go*/
+
+.RadInput_Web20 .riBtn a
+{
+	width:20px;
+	height:18px;
+	line-height:18px;
+	background-position:3px 5px;
+}
+
+.RadInput_Web20 .riBtn a:hover
+{
+	background-position:3px -45px;
+}
+
+/*spin*/
+
+.RadInput_Web20 .riSpin a
+{
+	width:15px;
+	height:7px;
+	line-height:7px;
+}
+
+.RadInput_Web20 a.riUp
+{
+	background-position:4px -98px;
+}
+
+.RadInput_Web20 a.riUp:hover
+{
+	background-position:4px -148px;
+}
+
+.RadInput_Web20 a.riDown
+{
+	background-position:4px -199px;
+}
+
+.RadInput_Web20 a.riDown:hover
+{
+	background-position:4px -249px;
+}
+
+/*label*/
+
+.RadInput_Web20 .riLabel
+{
+	color:#000;
+}
+
+/*rtl*/
+
+html body .RadInputRTL_Web20 .riError,
+html body .RadInputRTL_Error_Web20
+{
+	background-position:3px -298px;
+}
+
+.RadForm.rfdTextbox .RadInputRTL_Web20 .riError[type="text"],
+.RadForm.rfdTextbox .RadInputRTL_Error_Web20[type="text"]
+{
+	background-position:3px -298px;
+}

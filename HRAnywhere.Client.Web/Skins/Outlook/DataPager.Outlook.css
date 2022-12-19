@@ -1,0 +1,96 @@
+/*Telerik RadDataPager Outlook Skin*/
+
+.RadDataPager_Outlook
+{
+	border:1px solid #002d96;
+	background:#d6e5f3;
+	color:#000;
+}
+
+.RadDataPager_Outlook .rdpPageFirst,
+.RadDataPager_Outlook .rdpPagePrev,
+.RadDataPager_Outlook .rdpPageNext,
+.RadDataPager_Outlook .rdpPageLast
+{
+	background:transparent no-repeat url('Grid/sprite.gif');
+}
+
+.RadDataPager_Outlook .rdpPageFirst
+{
+	margin:0 3px 0 0;
+	background-position:0 -550px;
+}
+.RadDataPager_Outlook .rdpPageFirst:hover
+{
+	background-position:0 -600px;
+}
+.RadDataPager_Outlook .rdpPagePrev
+{
+	margin:0 3px 0 0;
+	background-position:0 -700px;
+}
+.RadDataPager_Outlook .rdpPagePrev:hover
+{
+	background-position:0 -750px;
+}
+.RadDataPager_Outlook .rdpPageNext
+{
+	margin:0 0 0 3px;
+	background-position:0 -850px;
+}
+.RadDataPager_Outlook .rdpPageNext:hover
+{
+	background-position:0 -900px;
+}
+.RadDataPager_Outlook .rdpPageLast
+{
+	margin:0 0 0 3px;
+	background-position:0 -1000px;
+}
+.RadDataPager_Outlook .rdpPageLast:hover
+{
+	background-position:0 -1050px;
+}
+
+.RadDataPager_Outlook .rdpPagerButton
+{
+	border:1px solid #003c74;
+	background:#ebe8e3 repeat-x 0 -1550px url('Grid/sprite.gif');
+	color:#000;
+	font:12px/12px "segoe ui",arial,sans-serif;
+}
+
+.RadDataPager_Outlook .rdpNumPart a:hover,
+.RadDataPager_Outlook .rdpNumPart a:hover span,
+.RadDataPager_Outlook .rdpNumPart a.rdpCurrentPage,
+.RadDataPager_Outlook .rdpNumPart a.rdpCurrentPage span
+{
+	background:no-repeat url('Grid/sprite.gif');
+}
+
+.RadDataPager_Outlook .rdpNumPart a
+{
+	color:#000;
+}
+
+.RadDataPager_Outlook .rdpNumPart a:hover
+{
+	background-position:100% -1250px;
+}
+
+.RadDataPager_Outlook .rdpNumPart a:hover span
+{
+	background-position:0 -1150px;
+}
+
+.RadDataPager_Outlook .rdpNumPart a.rdpCurrentPage,
+.RadDataPager_Outlook .rdpNumPart a.rdpCurrentPage:hover
+{
+	background-position:100% -1450px;
+}
+
+.RadDataPager_Outlook .rdpNumPart a.rdpCurrentPage span,
+.RadDataPager_Outlook .rdpNumPart a.rdpCurrentPage:hover span
+{
+	background-position:0 -1350px;
+}

@@ -1,0 +1,294 @@
+/* Telerik RadTreeList Windows7 Skin */
+
+/*global*/
+
+.RadTreeList_Windows7,
+.rtlCEdit div.RadTreeList_WebBlue
+{
+	border-color:#a5b3c5;
+	background:#fcfcfc;
+	color:#000;
+}
+
+.RadTreeList_Windows7 .rtlAdd,
+.RadTreeList_Windows7 .rtlEdit,
+.RadTreeList_Windows7 .rtlUpdate,
+.RadTreeList_Windows7 .rtlCancel,
+.RadTreeList_Windows7 .rtlDel
+{
+	background-image:url('Grid/sprite.gif');
+}
+
+.RadTreeList_Windows7 .rtlTable
+{
+	font:12px/16px "segoe ui",arial,sans-serif;
+}
+
+.RadTreeList_Windows7 .rtlHeader
+{
+	background:#f1f5fb;
+}
+
+.RadTreeList_Windows7 .rtlHeader,
+.RadTreeList_Windows7 .rtlHeader a
+{
+	color:#4c607a;
+}
+
+.RadTreeList_WebBlue .rtlHeader,
+.RadTreeList_Windows7 .rtlHeader th
+{
+	border-color:#f6f9fb #e1eaf3;
+}
+
+.RadTreeList_WebBlue .rtlScroller
+{
+	border-color:#4a637a;
+}
+
+.RadTreeList_Windows7 .rtlA
+{
+	background-color:#ebeff3;
+}
+
+.RadTreeList_Windows7 .rtlRFooter
+{
+	background-color:#e2eaf4;
+}
+
+.rtlCEdit .RadTreeList_Windows7 
+{
+    border-right:1px solid;
+    border-top:1px solid;
+}
+
+.RadTreeList_Windows7 .rtlR td,
+.RadTreeList_Windows7 .rtlA td,
+.RadTreeList_Windows7 .rtlREdit td,
+.RadTreeList_Windows7 .rtlRFooter td,
+.RadTreeList_Windows7 .rtlEditForm
+{
+	border-color:#edf0f4;
+}
+
+.RadTreeList_Windows7 .rtlR a,
+.RadTreeList_Windows7 .rtlA a,
+.RadTreeList_Windows7 .rtlREdit a,
+.RadTreeList_Windows7 .rtlEditForm a
+{
+	color:#1E3287;
+}
+
+.RadTreeList_Windows7 .rtlRSel
+{
+	background:#d7e8fe 0 -3901px repeat-x url('Grid/sprite.gif');
+}
+
+.RadTreeList_Windows7 .rtlRSel td
+{
+	border-color:#8daed5;
+}
+
+.RadTreeList_Windows7 .rtlRActive
+{
+    background:#e7eef6 0 -2900px repeat-x url('Grid/sprite.gif');
+}
+
+.RadTreeList_Windows7 .rtlRActive td
+{
+	border-color:#a8d8eb;
+}
+
+.RadTreeList_Windows7 .rtlVBorders td.rtlL,
+.RadTreeList_Windows7 .rtlLines td.rtlL
+{
+	background-color:#fcfcfc;
+}
+
+.RadTreeList_Windows7 .rtlREdit
+{
+    background:#e6f0fd 0 -4900px url('Grid/sprite.gif');
+}
+
+.RadTreeList_Windows7 .rtlREdit td
+{
+    border-color:#8daed5;
+}
+
+.RadTreeList_Windows7 .rtlDrag,
+.RadTreeList_Windows7 .rtlExpand,
+.RadTreeList_Windows7 .rtlCollapse
+{
+	background-image:url('TreeList/sprite.gif');
+}
+
+.RadTreeList_Windows7 .rtlExpand
+{
+	background-position:0 0;
+}
+
+.RadTreeList_Windows7 .rtlCollapse
+{
+	background-position:0 -50px;
+}
+
+.RadTreeList_Windows7 .rtlSortAsc,
+.RadTreeList_Windows7 .rtlSortDesc
+{
+	background-image:url('Grid/sprite.gif');
+}
+
+.RadTreeList_Windows7 .rtlSortAsc
+{
+	background-position:3px -248px;
+}
+
+.RadTreeList_Windows7 .rtlSortDesc
+{
+	background-position:3px -198px;
+}
+
+.RadTreeList_Windows7 .rtlLines td.rtlL0
+{
+	background-image:url('TreeList/rtlSingle.gif');
+}
+
+.RadTreeList_Windows7 .rtlLines td.rtlL1
+{
+	background-image:url('TreeList/rtlTop.gif');
+}
+
+.RadTreeList_Windows7 .rtlLines td.rtlL2
+{
+	background-image:url('TreeList/rtlMiddle.gif');
+}
+
+.RadTreeList_Windows7 .rtlLines td.rtlL3
+{
+	background-image:url('TreeList/rtlBottom.gif');
+}
+
+/*rtl*/
+
+.RadTreeListRTL_Windows7 .rtlLines td.rtlL1
+{
+	background-image:url('TreeList/rtlTopRTL.gif');
+}
+
+.RadTreeListRTL_Windows7 .rtlLines td.rtlL2
+{
+	background-image:url('TreeList/rtlMiddleRTL.gif');
+}
+
+.RadTreeListRTL_Windows7 .rtlLines td.rtlL3
+{
+	background-image:url('TreeList/rtlBottomRTL.gif');
+}
+
+/*pager*/
+
+.RadTreeList_Windows7 .rtlPager
+{
+	background:#f1f5fb 0 -5900px repeat-x url('Grid/sprite.gif');
+}
+
+.RadTreeList_Windows7 .rtlPagerCell
+{
+	border-color:#fcfcfc;
+}
+
+.RadTreeList_Windows7 .rtlInfoPart
+{
+	color:#5a6779;
+}
+
+.RadTreeList_Windows7 .rtlInfoPart strong
+{
+	color:#1e395b;
+}
+
+.RadTreeList_Windows7 .rtlPager .rtlPageFirst,
+.RadTreeList_Windows7 .rtlPager .rtlPagePrev,
+.RadTreeList_Windows7 .rtlPager .rtlPageNext,
+.RadTreeList_Windows7 .rtlPager .rtlPageLast
+{
+	background:transparent no-repeat url('Grid/sprite.gif');
+}
+
+.RadTreeList_Windows7 .rtlPager .rtlPageFirst
+{
+	background-position:0 -550px;
+}
+.RadTreeList_Windows7 .rtlPager .rtlPageFirst:hover
+{
+	background-position:0 -600px;
+}
+.RadTreeList_Windows7 .rtlPager .rtlPagePrev
+{
+	background-position:0 -700px;
+}
+.RadTreeList_Windows7 .rtlPager .rtlPagePrev:hover
+{
+	background-position:0 -750px;
+}
+.RadTreeList_Windows7 .rtlPager .rtlPageNext
+{
+	background-position:0 -850px;
+}
+.RadTreeList_Windows7 .rtlPager .rtlPageNext:hover
+{
+	background-position:0 -900px;
+}
+.RadTreeList_Windows7 .rtlPager .rtlPageLast
+{
+	background-position:0 -1000px;
+}
+.RadTreeList_Windows7 .rtlPager .rtlPageLast:hover
+{
+	background-position:0 -1050px;
+}
+
+.RadTreeList_Windows7 .rtlPager .rtlPagerButton
+{
+	border-color:#c2cedb;
+	background:#dde8f6 repeat-x 0 -1550px url('Grid/sprite.gif');
+	color:#1e395b;
+	font-family:"segoe ui",arial,sans-serif;
+}
+
+.RadTreeList_Windows7 .rtlPager .rtlNumPart a:hover,
+.RadTreeList_Windows7 .rtlPager .rtlNumPart a:hover span,
+.RadTreeList_Windows7 .rtlPager .rtlNumPart a.rtlCurrentPage,
+.RadTreeList_Windows7 .rtlPager .rtlNumPart a.rtlCurrentPage span
+{
+	background:no-repeat url('Grid/sprite.gif');
+}
+
+.RadTreeList_Windows7 .rtlPager .rtlNumPart a
+{
+	color:#1e395b;
+}
+
+.RadTreeList_Windows7 .rtlPager .rtlNumPart a:hover
+{
+	background-position:100% -1250px;
+	color:#4c607a;
+}
+
+.RadTreeList_Windows7 .rtlPager .rtlNumPart a:hover span
+{
+	background-position:0 -1150px;
+}
+
+.RadTreeList_Windows7 .rtlPager .rtlNumPart a.rtlCurrentPage,
+.RadTreeList_Windows7 .rtlPager .rtlNumPart a.rtlCurrentPage:hover
+{
+	background-position:100% -1450px;
+	color:#4c607a;
+}
+
+.RadTreeList_Windows7 .rtlPager .rtlNumPart a.rtlCurrentPage span,
+.RadTreeList_Windows7 .rtlPager .rtlNumPart a.rtlCurrentPage:hover span
+{
+	background-position:0 -1350px;
+}

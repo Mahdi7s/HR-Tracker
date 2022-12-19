@@ -1,0 +1,4 @@
+.rmpHiddenView
+{
+	display: none;
+}

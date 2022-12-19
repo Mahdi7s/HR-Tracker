@@ -1,0 +1,25 @@
+/* RadSocialShare Sunset Skin */
+
+.RadSocialShare_Sunset
+{
+	border: 1px solid #d2c7b4;
+	background-color: #f4eee6;
+}
+
+.RadSocialShare_Sunset .sshLinkItem .sshText,
+.RadComboBoxDropDown_Sunset .rcbItem .sshLinkItem .sshText
+{
+	color: #272722;
+}
+
+.RadSocialShare_Sunset .sshLinkItem:hover .sshText,
+.RadComboBoxDropDown_Sunset .rcbHovered .sshLinkItem .sshText
+{
+	color: #863d02;
+}
+
+.RadComboBox_Sunset.sshComboWrapper td.rcbArrowCellRight,
+.RadComboBox_Sunset.sshComboWrapper .rcbFocused td.rcbArrowCellRight
+{
+	background-position: right -154px;
+}

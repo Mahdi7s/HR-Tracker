@@ -1,0 +1,157 @@
+.RadTabStrip_Default .rtsLI,
+.RadTabStrip_Default .rtsLink
+{
+	color: #000;
+	font: 12px/26px "Segoe UI", Arial, sans-serif;
+}
+
+.RadTabStripLeft_Default .rtsSeparator,
+.RadTabStripRight_Default .rtsSeparator
+{
+	background: #828282;
+}
+
+/* <disabled tabs> */
+.RadTabStrip_Default .rtsDisabled
+{
+	color: #aaa;
+}
+/* </disabled tabs> */
+
+/* <scrolling arrows> */
+.RadTabStrip_Default .rtsNextArrow,
+.RadTabStrip_Default .rtsPrevArrow,
+.RadTabStrip_Default .rtsPrevArrowDisabled,
+.RadTabStrip_Default .rtsNextArrowDisabled
+{
+	background-image: url('TabStrip/TabStripStates.png');
+}
+/* </scrolling arrows> */
+
+/* <tab backgrounds> */
+
+.RadTabStripTop_Default .rtsLevel { background-color: transparent; }
+
+.RadTabStripTop_Default .rtsLevel .rtsLink,
+.RadTabStripTop_Default .rtsLevel .rtsOut,
+.RadTabStripBottom_Default .rtsLevel .rtsLink,
+.RadTabStripBottom_Default .rtsLevel .rtsOut,
+.RadTabStripTop_Default_Baseline .rtsLevel,
+.RadTabStripBottom_Default_Baseline .rtsLevel { background-image: url('TabStrip/TabStripStates.png'); }
+
+.RadTabStripLeft_Default .rtsLink,
+.RadTabStripRight_Default .rtsLink { background-image: url('TabStrip/TabStripVStates.png'); }
+
+.RadTabStripLeft_Default .rtsLast .rtsLink,
+.RadTabStripRight_Default .rtsLast .rtsLink
+{
+	border-bottom: 1px solid #898C95;
+}
+
+/* </tab backgrounds> */
+
+/* <background positioning: overlapping tabs> */
+
+/* <orientation: top> */
+
+.RadTabStripTop_Default .rtsLink { background-position: 0 -52px; }
+.RadTabStripTop_Default .rtsFirst .rtsLink { background-position: 0 0; }
+.RadTabStripTop_Default .rtsOut { background-position: 100% -52px; }
+.RadTabStripTop_Default .rtsLast .rtsOut { background-position: 100% 0; }
+
+.RadTabStripTop_Default .rtsLI .rtsSelected { background-position: 0 -26px; }
+.RadTabStripTop_Default .rtsSelected .rtsOut { background-position: 100% -78px; }
+.RadTabStripTop_Default .rtsLI .rtsAfter { background-position: 0 -78px; }
+
+.RadTabStripTop_Default .rtsLast .rtsSelected .rtsOut { background-position: 100% -26px; }
+
+.RadTabStripTop_Default_Baseline .rtsLevel { background-position: 0 100%; background-repeat: repeat-x; }
+
+/* </orientation: top> */
+
+/* <orientation: bottom> */
+
+.RadTabStripBottom_Default .rtsLevel .rtsLink { background-position: 0 -130px; }
+.RadTabStripBottom_Default .rtsLevel .rtsFirst .rtsLink { background-position: 0 -182px; }
+.RadTabStripBottom_Default .rtsLevel .rtsOut { background-position: 100% -130px; }
+.RadTabStripBottom_Default .rtsLevel .rtsLast .rtsOut { background-position: 100% -182px; }
+
+.RadTabStripBottom_Default .rtsLevel .rtsLI .rtsSelected { background-position: 0 -156px; }
+.RadTabStripBottom_Default .rtsLevel .rtsSelected .rtsOut { background-position: 100% -104px; }
+.RadTabStripBottom_Default .rtsLevel .rtsLI .rtsAfter { background-position: 0 -104px; }
+
+.RadTabStripBottom_Default .rtsLevel .rtsLast .rtsSelected .rtsOut { background-position: 100% -156px; }
+
+.RadTabStripBottom_Default_Baseline .rtsLevel { background-position: 0 -599px; background-repeat: repeat-x; }
+
+/* </orientation: bottom> */
+
+/* <orientation: right> */
+
+.RadTabStripRight_Default .rtsUL .rtsLink,
+.RadTabStripRight_Default .rtsUL .rtsLI .rtsDisabled:hover { background-position: 100% 0; text-align: left; }
+.RadTabStripRight_Default .rtsUL .rtsLink:hover { background-position: 100% -200px; }
+.RadTabStripRight_Default .rtsUL .rtsSelected,
+.RadTabStripRight_Default .rtsUL .rtsSelected:hover { background-position: 100% -400px; }
+
+/* </orientation: right> */
+
+/* <orientation: top (RTL)> */
+
+.RadTabStripTop_Default_rtl .rtsLevel .rtsLink
+{
+	padding-left: 0;
+	padding-right: 9px;
+}
+
+.RadTabStripTop_Default_rtl .rtsLevel .rtsOut
+{
+	padding-left: 9px;
+	padding-right: 0;
+}
+
+.RadTabStripTop_Default_rtl .rtsLevel .rtsLink,
+.RadTabStripTop_Default_rtl .rtsLevel .rtsOut { background-image: url('TabStrip/TabStripStates_rtl.png'); }
+
+.RadTabStripTop_Default_rtl .rtsLevel .rtsLink { background-position: 100% -52px; }
+.RadTabStripTop_Default_rtl .rtsLevel .rtsFirst .rtsLink { background-position: 100% 0; }
+.RadTabStripTop_Default_rtl .rtsLevel .rtsOut { background-position: 0 -52px; }
+.RadTabStripTop_Default_rtl .rtsLevel .rtsLast .rtsOut { background-position: 0 0; }
+
+.RadTabStripTop_Default_rtl .rtsLevel .rtsLI .rtsSelected { background-position: 100% -26px; }
+.RadTabStripTop_Default_rtl .rtsLevel .rtsSelected .rtsOut { background-position: 0 -78px; }
+.RadTabStripTop_Default_rtl .rtsLevel .rtsLI .rtsAfter { background-position: 100% -78px; }
+
+.RadTabStripTop_Default_rtl .rtsLevel .rtsLast .rtsSelected .rtsOut { background-position: 0 -26px; }
+
+/* </orientation: top (RTL)> */
+
+/* </background positioning: overlapping tabs> */
+
+/* <simplistic sub-item styles> */
+
+.RadTabStrip_Default_SimpleSubItems .rtsLevel2,
+.RadTabStrip_Default_SimpleSubItems .rtsLevel3,
+.RadTabStrip_Default_SimpleSubItems .rtsLevel4 { background: #fff; }
+
+.RadTabStrip_Default_SimpleSubItems .rtsLevel2 .rtsSelected,
+.RadTabStrip_Default_SimpleSubItems .rtsLevel3 .rtsSelected,
+.RadTabStrip_Default_SimpleSubItems .rtsLevel4 .rtsSelected
+{
+	text-decoration: underline;
+}
+
+.RadTabStrip_Default_SimpleSubItems .rtsLevel2 .rtsLink,
+.RadTabStrip_Default_SimpleSubItems .rtsLevel2 .rtsOut,
+.RadTabStrip_Default_SimpleSubItems .rtsLevel2 .rtsIn,
+.RadTabStrip_Default_SimpleSubItems .rtsLevel3 .rtsLink,
+.RadTabStrip_Default_SimpleSubItems .rtsLevel3 .rtsOut,
+.RadTabStrip_Default_SimpleSubItems .rtsLevel3 .rtsIn,
+.RadTabStrip_Default_SimpleSubItems .rtsLevel4 .rtsLink,
+.RadTabStrip_Default_SimpleSubItems .rtsLevel4 .rtsOut,
+.RadTabStrip_Default_SimpleSubItems .rtsLevel4 .rtsIn
+{
+	background: none;
+}
+
+/* </simplistic sub-item styles> */

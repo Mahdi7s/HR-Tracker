@@ -1,0 +1,570 @@
+/* RadScheduler Telerik skin */
+
+/* common */
+.RadScheduler_Telerik,
+.RadScheduler_Telerik a,
+.RadScheduler_Telerik input,
+.RadScheduler_Telerik select,
+.RadScheduler_Telerik textarea
+{
+	color: #333;
+	font: normal 12px/14px "Segoe UI", Arial, sans-serif;
+}
+
+.RadScheduler_Telerik textarea
+{
+	background: #fff;
+}
+
+/* header */
+
+/* header sprites */
+.RadScheduler_Telerik .rsHeader,
+.RadScheduler_Telerik .rsHeader ul a:hover,
+.RadScheduler_Telerik .rsHeader ul a:hover span,
+.RadScheduler_Telerik .rsHeader .rsSelected,
+.RadScheduler_Telerik .rsHeader .rsSelected em,
+.RadScheduler_Telerik .rsHeader .rsDatePickerActivator,
+.RadScheduler_Telerik .rsHeader .rsPrevDay,
+.RadScheduler_Telerik .rsHeader .rsNextDay
+{
+	background-image: url('Scheduler/rsSprites.png');
+}
+
+.RadScheduler_Telerik .rsHeader
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #a1a1a1 #a1a1a1 #6e6e6e;
+}
+
+.RadScheduler_Telerik .rsHeader,
+.RadScheduler_Telerik .rsHeader a
+{
+	color: #000;
+}
+
+.RadScheduler_Telerik .rsHeader a:hover,
+.RadScheduler_Telerik .rsHeader em
+{
+	color: #fff;
+}
+
+.RadScheduler_Telerik .rsHeader a.rsToday:hover
+{
+	color: #555;
+}
+
+.RadScheduler_Telerik div.rsHeader .rsPrevDay
+{
+	width: 16px;
+	margin: 7px 0 0 3px;
+	background-position: 0 -48px;
+}
+
+.RadScheduler_Telerik div.rsHeader .rsNextDay
+{
+	width: 16px;
+	margin: 7px 6px 0 0;
+	background-position: -15px -48px;
+}
+
+.RadScheduler_Telerik div.rsHeader a.rsPrevDay:hover
+{
+	background-position: -70px -48px;
+}
+
+.RadScheduler_Telerik div.rsHeader a.rsNextDay:hover
+{
+	background-position: -85px -48px;
+}
+
+/* content */
+
+.RadScheduler_Telerik .rsContent
+{
+	background: #fff;
+}
+
+/* <headers> */
+
+.RadScheduler_Telerik .rsHorizontalHeaderTable
+{
+	color: #000;
+	background: #eee;
+}
+
+.RadScheduler_Telerik .rsHorizontalHeaderWrapper {
+	border-color: #d2d2d2;
+	background: #eee;
+}
+
+.RadScheduler_Telerik .rsSpacerCell,
+.RadScheduler_Telerik .rsAllDayHeader,
+.RadScheduler_Telerik .rsVerticalHeaderWrapper,
+.RadScheduler_Telerik .rsVerticalHeaderTable
+{
+	background: #f1f1f1 url('Scheduler/rsVerticalHeaderBg.png') repeat-y;
+}
+
+.RadScheduler_Telerik .rsVerticalHeaderTable th
+{
+	border-color: #d2d2d2;
+	color: #000;
+}
+
+.RadScheduler_Telerik .rsHorizontalHeaderTable th
+{
+	border-color: #d2d2d2;
+	background-color: #eee;
+	background-image: url('Scheduler/rsSprites.png');
+}
+
+.RadScheduler_Telerik .rsVerticalHeaderTable th
+{
+	border-color: transparent #d2d2d2;
+	border-top: 0;
+}
+
+.RadScheduler_Telerik .rsVerticalHeaderTable .rsAlt th
+{
+	border-color: #d2d2d2;
+}
+
+/* </headers> */
+
+/* <all-day-row> */
+
+.RadScheduler_Telerik .rsAllDayRow
+{
+	background: #eee;
+}
+
+.RadScheduler_Telerik .rsSpacerCell,
+.RadScheduler_Telerik .rsAllDayHeader,
+.RadScheduler_Telerik .rsVerticalHeaderTable .rsAllDayHeader
+{
+	color: #000;
+	border-color: #d2d2d2;
+}
+
+.RadScheduler_Telerik .rsAllDayRow td,
+.RadScheduler_Telerik .rsContentTable .rsAllDayRow td
+{
+	border-color: #d2d2d2;
+	border-style: solid;
+}
+
+.RadScheduler_Telerik .rsVerticalHeaderTable .rsMainHeader th
+{
+	border-bottom-color: #d2d2d2;
+}
+
+.RadScheduler_Telerik .rsSpacerCell,
+.RadScheduler_Telerik .rsContent .rsAllDayHeader
+{
+	border-bottom-color: #d2d2d2;
+}
+
+/* </all-day-row> */
+
+.RadScheduler_Telerik .rsContent,
+.RadScheduler_Telerik .rsTopWrap .rsFooter
+{
+	border: 1px solid #828282;
+	border-top: 0;
+}
+
+.RadScheduler_Telerik div.rsContent
+{
+	border-bottom-color: #828282;
+}
+
+.RadScheduler_Telerik .rsContentTable td
+{
+	border-color: #e8eaec;
+	border-bottom-style: dotted;
+}
+
+.RadScheduler_Telerik .rsContentTable .rsAlt td
+{
+	border-color: #d2d2d2 #e8eaec;
+	border-bottom-style: solid;
+}
+
+.RadScheduler_Telerik .rsMonthView .rsOtherMonth
+{
+	background-color: #F9F9F9;
+}
+
+/* <appointments> */
+.RadScheduler_Telerik .rsApt .rsArrowTop,
+.RadScheduler_Telerik .rsApt .rsArrowBottom,
+.RadScheduler_Telerik .rsApt .rsArrowLeft,
+.RadScheduler_Telerik .rsApt .rsArrowRight,
+.RadScheduler_Telerik .rsApt .rsAptDelete,
+.RadScheduler_Telerik .rsApt .rsAptResize,
+.RadScheduler_Telerik .rsApt .rsAptReminder,
+.RadScheduler_Telerik .rsApt .rsAptRecurrence,
+.RadScheduler_Telerik .rsApt .rsAptRecurrenceException
+{
+	background-color: transparent;
+	background-image: url('Scheduler/rsSprites.png');
+	background-repeat: no-repeat;
+}
+
+.RadScheduler_Telerik .rsApt .rsAptDelete
+{
+	width: 22px;
+}
+
+.RadScheduler_Telerik .rsAptCreate,
+.RadScheduler_Telerik .rsMonthView .rsAptCreate
+{
+	background-color: #a2ea8a;
+	background-image: url('Scheduler/rsSprites.png');
+	background-repeat: repeat-x;
+}
+
+.RadScheduler_Telerik .rsAptCreateRow2,
+.RadScheduler_Telerik .rsMonthView .rsAptCreateRow2
+{
+	background-color: #a2ea8a;
+	background-image: url('Scheduler/rsSprites.png');
+	background-repeat: repeat-x;
+}
+
+.RadScheduler_Telerik .rsNonWorkHour,
+.RadScheduler_Telerik .rsSunCol,
+.RadScheduler_Telerik .rsSatCol
+{
+	background-color: #f5f5f5;
+}
+
+.RadScheduler_Telerik .rsAptCreateRow3,
+.RadScheduler_Telerik .rsMonthView .rsAptCreateRow3,
+.RadScheduler_Telerik .rsAptCreateRow4,
+.RadScheduler_Telerik .rsMonthView .rsAptCreateRow4,
+.RadScheduler_Telerik .rsAptCreateRow5,
+.RadScheduler_Telerik .rsMonthView .rsAptCreateRow5
+{
+	background: #a2ea8a;
+}
+
+.RadScheduler_Telerik .rsSelectedSlot,
+.RadScheduler_Telerik .rsMonthView .rsSelectedSlot
+{
+    background: #93c86f;
+    border-color: #83b85f;
+}
+
+.RadScheduler_Telerik .rsContentTable td.rsAptCreate.rsSelectedSlot
+{
+    background: #83b85f;
+    border-color: #73a84f;
+}
+
+.RadScheduler_Telerik .rsContentTable td.rsSelectedSlot
+{
+    background: #93c86f;
+    border-color: #83b85f;
+}
+
+/* <New appointment imageless rendering */
+.RadScheduler_Telerik .rsAptIn, 
+.RadScheduler_Telerik .rsAptMid, 
+.RadScheduler_Telerik .rsAptContent
+{
+    background-color: #9fe987;
+    border-color: #2cba00;
+}
+
+.RadScheduler_Telerik .rsAptMid
+{
+	border-color: #5fd23b;
+}
+/* </New appointment imageless rendering> */
+
+.RadScheduler_Telerik .rsAptSimple
+{
+	background-color: #9fe987;
+	border-color: #2cb700;
+}
+
+/* </appointments> */
+
+/* <month view> */
+
+.RadScheduler_Telerik .rsMonthView .rsContentTable td
+{
+	border-color: #e6eef8;
+	border-style: solid;
+}
+
+/* </month view> */
+
+/* <footer> */
+
+.RadScheduler_Telerik div.rsFooter
+{
+	background-color: #eee;
+	background-image: url('Scheduler/rsSprites.png');
+	background-repeat: repeat-x;
+}
+
+.RadScheduler_Telerik div.rsFooter .rsFullTime
+{
+	color: #000;
+	background-position: 0 -248px;
+	padding: 3px 0 4px 17px;
+	background-color: transparent;
+	background-image: url('Scheduler/rsSprites.png');
+	background-repeat: no-repeat;
+}
+
+.RadScheduler_Telerik div.rsFooter a.rsFullTime:hover
+{
+	color: #333;
+	background-position: 0 -271px;
+}
+
+/* </footer> */
+
+/* <inline edit form> */
+
+.RadScheduler_Telerik .rsAptEditResizeHandle,
+.RadScheduler_Telerik .rsAptEditFormWrapper
+{
+	background-image: url('Scheduler/rsSprites.png');
+}
+
+.RadScheduler_Telerik .rsAptEditFormOuter, /* top */
+.RadScheduler_Telerik .rsAptEditFormInner  /* bottom */
+{
+	background-image: url('Scheduler/rsInlineEditHSprite.png');
+}
+
+.RadScheduler_Telerik .rsAptEditFormMiddle, /* left */
+.RadScheduler_Telerik .rsAptEditFormMiddle2 /* right */
+{
+	background-image: url('Scheduler/rsInlineEditVSprite.png');
+}
+
+.RadScheduler_Telerik .rsAptEditFormWrapper .rsAptEditTextareaWrapper
+{
+	border-color: #828282;
+	background: #fff;
+}
+
+.RadScheduler_Telerik .rsAptEditFormWrapper .rsAptEditTextareaWrapper textarea
+{
+	background: #fff;
+}
+
+/* <inline edit form template and edit background> */
+
+.RadScheduler_Telerik .rsAptEditFormWrapper .rsTemplateWrapper,
+.RadScheduler_Telerik .rsAptEditFormWrapper .rsEditOptions 
+{
+	background: #eee;
+}
+
+/* </inline edit form template and edit background> */
+
+/* </inline edit form> */
+
+/* <advanced edit form> */
+
+.RadScheduler_Telerik .rsAdvancedEdit .rsAdvContentWrapper
+{
+	background: #fff;
+	border: 1px solid #828282;
+	border-top-color: #AAA;
+}
+
+* html .RadScheduler_Telerik div.rsAdvancedModal .rsAdvContentWrapper
+{
+	background: #fff;
+}
+
+.RadScheduler_Telerik div.rsAdvancedModal div.rsAdvContentWrapper
+{
+    border-top: 0;
+}
+
+.RadScheduler_Telerik div.rsAdvancedModal .rsAdvButtonWrapper
+{
+    padding: 10px 10px 18px 0;
+}
+
+* html .RadScheduler_Telerik div.rsAdvancedModal .rsAdvButtonWrapper
+{
+    padding: 10px 10px 10px 0;
+}
+
+* html .RadScheduler_Telerik div.rsAdvancedModal .rsAdvContentWrapper
+{
+    margin-top: -1px;
+	background: #fff;
+    border: 1px solid #888;
+}
+
+/* <xref input skins> */
+
+.RadScheduler_Telerik .rsAdvancedEdit .rsAdvInput,
+.RadScheduler_Telerik .rsAdvancedEdit select,
+.RadScheduler_Telerik .rsAdvancedEdit .textareaWrapper
+{
+	border-color: #828282;
+}
+
+.RadScheduler_Telerik .rsAdvancedEdit .rsInvalid textarea,
+.RadScheduler_Telerik .rsAdvancedEdit .rsInvalid input,
+.RadScheduler_Telerik .rsAdvancedEdit .rsAdvTimePicker .riEmpty
+{
+	background-image: url('Input/sprite.gif');
+}
+
+.RadScheduler_Telerik .rsAdvancedEdit .textareaWrapper
+{
+	background: #fff;
+}
+
+.RadScheduler_Telerik .rsAdvancedEdit .rsInvalid
+{
+	border-color: #F32800;
+	color: #F32800;
+}
+/* </xref input skins> */
+
+.RadScheduler_Telerik .rsAdvancedEdit h2,
+.RadScheduler_Telerik .rsAdvancedEdit h3
+{
+	color: #3f6d11;
+}
+
+.RadScheduler_Telerik .rsAdvancedEdit h2
+{
+	border-bottom: 1px solid #a0a0a0;
+}
+
+.RadScheduler_Telerik .rsAdvancedEdit h2 span
+{
+	background: #fff;
+}
+
+.RadScheduler_Telerik .rsAdvancedEdit .rsAdvancedSubmitArea
+{
+	border-color: #a0a0a0;
+}
+
+/* </advanced edit form> */
+
+/* <date/time picker> */
+
+.RadScheduler_Telerik .rsTimePick .RadInput_Telerik input.riEnabled,
+.RadScheduler_Telerik .rsTimePick .RadInput_Telerik input.riHover,
+.RadScheduler_Telerik .rsTimePick .RadInput_Telerik input.riFocused
+{
+	background-image: url('Scheduler/rsSprites.png');
+}
+
+/* </date/time picker> */
+
+/* <modal dialogs> */
+
+.RadScheduler_Telerik .rsModalBgTopLeft,
+.RadScheduler_Telerik .rsModalBgTopRight,
+.RadScheduler_Telerik .rsModalBgBottomLeft,
+.RadScheduler_Telerik .rsModalBgBottomRight
+{
+    background-image: url('Scheduler/rsModalBg.png');
+}
+
+div.RadScheduler_Telerik .rsAnimating
+{
+    background-image: url('Scheduler/rsModalBgIE6.png');
+}
+
+* html .RadScheduler_Telerik .rsModalBgTopLeft,
+* html .RadScheduler_Telerik .rsModalBgTopRight,
+* html .RadScheduler_Telerik .rsModalBgBottomLeft,
+* html .RadScheduler_Telerik .rsModalBgBottomRight
+{
+    background-image: url('Scheduler/rsModalBgIE6.png');
+}
+
+.RadScheduler_Telerik .rsAdvancedEdit .rsAdvTitle,
+.RadScheduler_Telerik .rsAdvancedEdit .rsAdvInnerTitle
+{
+    background-image: url('Scheduler/rsModalTitleBg.png');
+}
+
+.RadScheduler_Telerik .rsAdvancedEdit a.rsAdvEditClose,
+.RadScheduler_Telerik div.rsModalWrapper .rsModalWindowClose
+{
+	background-image: url('Scheduler/rsSprites.png');
+	margin-top:-24px;
+	width:30px;
+}
+
+.RadScheduler_Telerik .rsAdvancedEdit a.rsAdvEditClose:hover,
+.RadScheduler_Telerik .rsModalWrapper a.rsModalWindowClose:hover
+{
+	background-position: -71px -526px;
+}
+
+.RadScheduler_Telerik .rsModalWrapper .rsModalTitle
+{
+	color: #000;
+	background-image: url('Scheduler/rsSprites.png');
+}
+
+.RadScheduler_Telerik .rsModalWrapper .rsModalInner
+{
+	border-color: #828282;
+	background: #fff;
+}
+
+.RadScheduler_Telerik .rsModalWrapper .rsModalIcon
+{
+	background-image: url('Scheduler/rsSprites.png');
+}
+
+/* Inline Edit buttons + ModalDialog buttons */
+.RadScheduler_Telerik .rsModalWrapper .rsModalButtons a,
+.RadScheduler_Telerik .rsAdvancedEdit div.rsAdvancedSubmitArea a,
+.RadScheduler_Telerik .rsTopWrap .rsAptEditFormWrapper .rsEditOptions a
+{
+	color: #000;
+	background-image: url('Scheduler/rsSprites.png');
+}
+
+.RadScheduler_Telerik .rsModalWrapper .rsModalButtons a:hover,
+.RadScheduler_Telerik .rsAdvancedEdit div.rsAdvancedSubmitArea a:hover,
+.RadScheduler_Telerik .rsTopWrap .rsAptEditFormWrapper .rsEditOptions a:hover
+{
+	color: #000;
+}
+
+/* </modal dialogs> */
+
+.RadScheduler_Telerik .rsBottomIndicator .rsOvertimeArrow
+{
+	background: transparent url('Scheduler/rsSprites.png') no-repeat -180px -31px;
+}        	
+
+.RadScheduler_Telerik .rsTopIndicator .rsOvertimeArrow
+{
+	background: transparent url('Scheduler/rsSprites.png') no-repeat -134px -31px;
+}
+
+
+
+
+.RadScheduler_Telerik .rsAptSelected .rsAptIn,
+.RadScheduler_Telerik .rsAptSelected .rsAptMid,
+.RadScheduler_Telerik .rsAptSelected .rsAptContent {
+	border-color: #0d3700;
+	background-image: none;
+}

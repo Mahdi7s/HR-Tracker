@@ -1,0 +1,283 @@
+.RadListBox_Transparent .rlbGroup
+{
+	border: 1px solid #000000;
+	border: 1px solid rgba(0, 0, 0, .5);
+	background: url('ListBox/rlbAreaTile.png');
+}
+
+.RadListBox_Transparent .rlbTemplateContainer
+{
+	border-color: #000000;
+	border-color: rgba(0, 0, 0, .5);
+}
+
+.RadListBox_Transparent .rlbText,
+.RadListBox_Transparent .rlbItem,
+.RadListBox_Transparent .rlbButtonText,
+.RadListBox_Transparent .rlbEmptyMessage
+{
+	font-size: 12px;
+	font-family: Tahoma, Arial, sans-serif;
+	color: #000000;
+}
+
+.RadListBox_Transparent .rlbHighlight
+{
+	color: #000000;
+}
+
+.RadListBox_Transparent .rlbText,
+.RadListBox_Transparent .rlbItem
+{
+	line-height: 18px;
+}
+
+.RadListBox_Transparent .rlbGroup .rlbHovered
+{
+	background: url('ListBox/rlbItemHoveredTile.png') repeat-x;
+	color: #000000;
+}
+
+.RadListBox_Transparent .rlbGroup .rlbSelected
+{
+	background: url('ListBox/rlbItemHoveredTile.png') repeat-x;
+	color: #000000;
+}
+
+.RadListBox_Transparent .rlbDisabled .rlbText
+{
+	color: #000000;
+}
+
+.RadListBox_Transparent .rlbDisabled .rlbImage
+{
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+.RadListBox_Transparent .rlbHeader,
+.RadListBox_Transparent .rlbFooter
+{
+	background-position: 0 0;
+	background-repeat: repeat-x;
+	background-color: rgba(255, 255, 255, .5);
+}
+
+.RadListBox_Transparent .rlbFooter
+{
+	background-position: 0 -200px;
+	background-color: rgba(255, 255, 255, .5);
+}
+
+.RadListBox_Transparent .rlbDropClue
+{
+	background-image: url('ListBox/rlbDropClue.png');
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	left: -12px;
+	width: 12px;
+}
+
+.RadListBox_Transparent .rlbGroup .rlbDropClueAbove
+{
+	border-top-style: dotted;
+	border-top-color: #8e8e8e;
+	border-top-color: rgba(0, 0, 0, .5);
+}
+
+.RadListBox_Transparent .rlbGroup .rlbDropClueBelow
+{
+	border-bottom-style: dotted;
+	border-bottom-color: #8e8e8e;
+	border-bottom-color: rgba(0, 0, 0, .5);
+}
+
+.RadListBox_Transparent .rlbGroup .rlbSelected.rlbDropClueAbove,
+.RadListBox_Transparent .rlbGroup .rlbHovered.rlbDropClueAbove,
+.RadListBox_Transparent .rlbGroup .rlbSelected.rlbDropClueBelow,
+.RadListBox_Transparent .rlbGroup .rlbHovered.rlbDropClueBelow
+{
+	border-color: #8e8e8e;
+	border-color: rgba(0, 0, 0, .5);
+}
+
+/* Buttons normal state vertical layout*/
+.RadListBox_Transparent .rlbButtonText
+{
+	background: transparent url('ListBox/rlbSprite.png') no-repeat;
+}
+
+.RadListBox_Transparent .rlbButton:hover .rlbButtonTL,
+.RadListBox_Transparent .rlbButton:hover .rlbButtonTR,
+.RadListBox_Transparent .rlbButton:hover .rlbButtonBL,
+.RadListBox_Transparent .rlbButton:hover .rlbButtonBR
+{
+	background-image: url('ListBox/rlbButtonHover.png');
+}
+
+* html .RadListBox_Transparent .rlbButton:hover .rlbButtonTL,
+* html .RadListBox_Transparent .rlbButton:hover .rlbButtonTR,
+* html .RadListBox_Transparent .rlbButton:hover .rlbButtonBL,
+* html .RadListBox_Transparent .rlbButton:hover .rlbButtonBR
+{
+	/*background-image: url("ListBox/rlbButtonHoverIE6.png");*/
+}
+
+.RadListBox_Transparent .rlbButton .rlbButtonTL,
+.RadListBox_Transparent .rlbButton .rlbButtonTR,
+.RadListBox_Transparent .rlbButton .rlbButtonBL,
+.RadListBox_Transparent .rlbButton .rlbButtonBR
+{
+	background-image: url('ListBox/rlbButtonNormal.png');
+}
+
+* html .RadListBox_Transparent .rlbButton .rlbButtonTL,
+* html .RadListBox_Transparent .rlbButton .rlbButtonTR,
+* html .RadListBox_Transparent .rlbButton .rlbButtonBL,
+* html .RadListBox_Transparent .rlbButton .rlbButtonBR
+{
+	/*background-image: url("ListBox/rlbButtonNormalIE6.png");*/
+}
+
+.RadListBox_Transparent .rlbDisabled .rlbButtonTL,
+.RadListBox_Transparent .rlbDisabled .rlbButtonTR,
+.RadListBox_Transparent .rlbDisabled .rlbButtonBL,
+.RadListBox_Transparent .rlbDisabled .rlbButtonBR,
+.RadListBox_Transparent .rlbDisabled:hover .rlbButtonTL,
+.RadListBox_Transparent .rlbDisabled:hover .rlbButtonTR,
+.RadListBox_Transparent .rlbDisabled:hover .rlbButtonBL,
+.RadListBox_Transparent .rlbDisabled:hover .rlbButtonBR
+{
+	background-image: url('ListBox/rlbButtonDisabled.png');
+}
+
+* html .RadListBox_Transparent .rlbDisabled .rlbButtonTL,
+* html .RadListBox_Transparent .rlbDisabled .rlbButtonTR,
+* html .RadListBox_Transparent .rlbDisabled .rlbButtonBL,
+* html .RadListBox_Transparent .rlbDisabled .rlbButtonBR,
+* html .RadListBox_Transparent .rlbDisabled:hover .rlbButtonTL,
+* html .RadListBox_Transparent .rlbDisabled:hover .rlbButtonTR,
+* html .RadListBox_Transparent .rlbDisabled:hover .rlbButtonBL,
+* html .RadListBox_Transparent .rlbDisabled:hover .rlbButtonBR
+{
+	/*background-image: url("ListBox/rlbButtonDisabledIE6.png");*/
+}
+
+.RadListBox_Transparent .rlbButton:hover .rlbButtonText 
+{ 
+	color: #000000; 
+}
+
+.RadListBox_Transparent .rlbDisabled .rlbButtonText,
+.RadListBox_Transparent .rlbDisabled:hover .rlbButtonText
+{
+	color: #8d8d8d;
+}
+
+.RadListBox_Transparent .rlbMoveUp .rlbButtonText { background-position: 0 0; }
+.RadListBox_Transparent .rlbMoveUp:hover .rlbButtonText { background-position: -400px 0; }
+.RadListBox_Transparent .rlbMoveUpDisabled .rlbButtonText,
+.RadListBox_Transparent .rlbMoveUpDisabled:hover .rlbButtonText { background-position: -200px 0; }
+
+.RadListBox_Transparent .rlbMoveDown .rlbButtonText { background-position: 0 -25px; }
+.RadListBox_Transparent .rlbMoveDown:hover .rlbButtonText { background-position: -400px -25px; }
+.RadListBox_Transparent .rlbMoveDownDisabled .rlbButtonText,
+.RadListBox_Transparent .rlbMoveDownDisabled:hover .rlbButtonText { background-position: -200px -25px; }
+
+.RadListBox_Transparent .rlbMoveToTop .rlbButtonText { background-position: 0 -275px; }
+.RadListBox_Transparent .rlbMoveToTop:hover .rlbButtonText { background-position: -400px -275px; }
+.RadListBox_Transparent .rlbMoveToTopDisabled .rlbButtonText,
+.RadListBox_Transparent .rlbMoveToTopDisabled:hover .rlbButtonText { background-position: -200px -275px; }
+
+.RadListBox_Transparent .rlbMoveToBottom .rlbButtonText { background-position: 0 -300px; }
+.RadListBox_Transparent .rlbMoveToBottom:hover .rlbButtonText { background-position: -400px -300px; }
+.RadListBox_Transparent .rlbMoveToBottomDisabled .rlbButtonText,
+.RadListBox_Transparent .rlbMoveToBottomDisabled:hover .rlbButtonText { background-position: -200px -300px; }
+
+.RadListBox_Transparent .rlbDelete .rlbButtonText { background-position: 0 -50px; }
+.RadListBox_Transparent .rlbDelete:hover .rlbButtonText { background-position: -400px -50px; }
+.RadListBox_Transparent .rlbDeleteDisabled .rlbButtonText,
+.RadListBox_Transparent .rlbDeleteDisabled:hover .rlbButtonText { background-position: -200px -50px; }
+
+
+.RadListBox_Transparent .rlbButtonAreaRight .rlbTransferTo .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaLeft .rlbTransferFrom .rlbButtonText { background-position: 0 -100px; }
+.RadListBox_Transparent .rlbButtonAreaLeft .rlbTransferTo .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaRight .rlbTransferFrom .rlbButtonText { background-position: 0 -75px; }
+.RadListBox_Transparent .rlbButtonAreaLeft .rlbTransferFrom:hover .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaRight .rlbTransferTo:hover .rlbButtonText { background-position: -400px -100px; }
+.RadListBox_Transparent .rlbButtonAreaLeft .rlbTransferTo:hover .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaRight .rlbTransferFrom:hover .rlbButtonText { background-position: -400px -75px; }
+
+.RadListBox_Transparent .rlbButtonAreaRight .rlbTransferToDisabled .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaLeft .rlbTransferFromDisabled .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaLeft .rlbTransferFromDisabled:hover .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaRight .rlbTransferToDisabled:hover .rlbButtonText { background-position: -200px -100px; }
+
+.RadListBox_Transparent .rlbButtonAreaLeft .rlbTransferToDisabled .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaRight .rlbTransferFromDisabled .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaLeft .rlbTransferToDisabled:hover .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaRight .rlbTransferFromDisabled:hover .rlbButtonText { background-position: -200px -75px; }
+
+
+.RadListBox_Transparent .rlbButtonAreaRight .rlbTransferAllTo .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaLeft .rlbTransferAllFrom .rlbButtonText { background-position: 0 -150px; }
+.RadListBox_Transparent .rlbButtonAreaLeft .rlbTransferAllTo .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaRight .rlbTransferAllFrom .rlbButtonText { background-position: 0 -125px; }
+.RadListBox_Transparent .rlbButtonAreaLeft .rlbTransferAllFrom:hover .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaRight .rlbTransferAllTo:hover .rlbButtonText { background-position: -400px -150px; }
+.RadListBox_Transparent .rlbButtonAreaLeft .rlbTransferAllTo:hover .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaRight .rlbTransferAllFrom:hover .rlbButtonText { background-position: -400px -125px; }
+
+.RadListBox_Transparent .rlbButtonAreaRight .rlbTransferAllToDisabled .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaLeft .rlbTransferAllFromDisabled .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaLeft .rlbTransferAllFromDisabled:hover .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaRight .rlbTransferAllToDisabled:hover .rlbButtonText { background-position: -200px -150px; }
+
+.RadListBox_Transparent .rlbButtonAreaLeft .rlbTransferAllToDisabled .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaRight .rlbTransferAllFromDisabled .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaLeft .rlbTransferAllToDisabled:hover .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaRight .rlbTransferAllFromDisabled:hover .rlbButtonText { background-position: -200px -125px; }
+
+
+.RadListBox_Transparent .rlbButtonAreaBottom .rlbTransferTo .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaTop .rlbTransferFrom .rlbButtonText { background-position: 0 -200px; }
+.RadListBox_Transparent .rlbButtonAreaTop .rlbTransferTo .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaBottom .rlbTransferFrom .rlbButtonText { background-position: 0 -175px; }
+.RadListBox_Transparent .rlbButtonAreaTop .rlbTransferFrom:hover .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaBottom .rlbTransferTo:hover .rlbButtonText { background-position: -400px -200px; }
+.RadListBox_Transparent .rlbButtonAreaTop .rlbTransferTo:hover .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaBottom .rlbTransferFrom:hover .rlbButtonText { background-position: -400px -175px; }
+
+.RadListBox_Transparent .rlbButtonAreaBottom .rlbTransferToDisabled .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaTop .rlbTransferFromDisabled .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaTop .rlbTransferFromDisabled:hover .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaBottom .rlbTransferToDisabled:hover .rlbButtonText { background-position: -200px -200px; }
+
+.RadListBox_Transparent .rlbButtonAreaTop .rlbTransferToDisabled .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaBottom .rlbTransferFromDisabled .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaTop .rlbTransferToDisabled:hover .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaBottom .rlbTransferFromDisabled:hover .rlbButtonText { background-position: -200px -175px; }
+
+
+.RadListBox_Transparent .rlbButtonAreaBottom .rlbTransferAllTo .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaTop .rlbTransferAllFrom .rlbButtonText { background-position: 0 -250px; }
+.RadListBox_Transparent .rlbButtonAreaTop .rlbTransferAllTo .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaBottom .rlbTransferAllFrom .rlbButtonText { background-position: 0 -225px; }
+.RadListBox_Transparent .rlbButtonAreaTop .rlbTransferAllFrom:hover .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaBottom .rlbTransferAllTo:hover .rlbButtonText { background-position: -400px -250px; }
+.RadListBox_Transparent .rlbButtonAreaTop .rlbTransferAllTo:hover .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaBottom .rlbTransferAllFrom:hover .rlbButtonText { background-position: -400px -225px; }
+
+.RadListBox_Transparent .rlbButtonAreaBottom .rlbTransferAllToDisabled .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaTop .rlbTransferAllFromDisabled .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaTop .rlbTransferAllFromDisabled:hover .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaBottom .rlbTransferAllToDisabled:hover .rlbButtonText { background-position: -200px -250px; }
+
+.RadListBox_Transparent .rlbButtonAreaTop .rlbTransferAllToDisabled .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaBottom .rlbTransferAllFromDisabled .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaTop .rlbTransferAllToDisabled:hover .rlbButtonText,
+.RadListBox_Transparent .rlbButtonAreaBottom .rlbTransferAllFromDisabled:hover .rlbButtonText { background-position: -200px -225px; }
+

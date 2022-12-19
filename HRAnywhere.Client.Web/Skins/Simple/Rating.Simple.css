@@ -1,0 +1,13 @@
+/* RadRating for ASP.NET AJAX Simple Skin */
+
+.RadRating_Simple a,
+.RadRating_Simple a span
+{
+	background-image: url('Rating/Sprite.png');
+}
+
+* html .RadRating_Simple a,
+* html .RadRating_Simple a span
+{
+	background-image: url('Rating/Sprite.gif');
+}

@@ -1,0 +1,84 @@
+.RadTreeView_Web20,
+.RadTreeView_Web20 a.rtIn,
+.RadTreeView_Web20 .rtEdit .rtIn input
+{
+	color: #000;
+	font: 12px/18px "Segoe UI", Arial, sans-serif;
+}
+
+.RadTreeView_Web20 .rtPlus, 
+.RadTreeView_Web20 .rtMinus
+{
+	background-image: url('TreeView/PlusMinus.png');
+}
+
+.RadTreeView_Web20 .rtChecked,
+.RadTreeView_Web20 .rtUnchecked,
+.RadTreeView_Web20 .rtIndeterminate
+{
+	background-image: url('TreeView/TriState.png');
+}
+
+.RadTreeView_Web20 .rtHover .rtIn
+{
+	color: #0f3789;
+	border-color: #bcd2f1;
+	background-color: #e7f1ff;
+}
+
+.RadTreeView_Web20 .rtSelected .rtIn
+{
+	color: #0e4302;
+	border-color: #85c843;
+	background-color: #d4ffbc;
+}
+
+.RadTreeView_Web20 .rtSelected .rtLoadingBefore,
+.RadTreeView_Web20 .rtSelected .rtLoadingAfter,
+.RadTreeView_Web20 .rtSelected .rtLoadingBelow
+{
+	color: #333;
+}
+
+.RadTreeView_Web20 .rtLoadingIcon
+{
+	background-image: url('TreeView/LoadingIcon.gif');
+}
+
+.RadTreeView .rtLI .rtEdit .rtIn
+{
+	border-color: #0f3789;
+	background: #fff;
+}
+
+.RadTreeView_Web20_disabled .rtIn,
+.RadTreeView_Web20 .rtDisabled .rtIn
+{
+	color: #ccc;
+}
+
+
+/* <node lines> */
+
+.RadTreeView_Web20 .rtLines .rtLI,
+.RadTreeView_Web20 .rtLines .rtFirst .rtUL { background-image: url('../Common/TreeView/NodeSpan.png'); }
+.RadTreeView_Web20_rtl .rtLines .rtLI,
+.RadTreeView_Web20_rtl .rtLines .rtFirst .rtUL { background-image:url('../Common/TreeView/NodeSpan_rtl.png'); }
+
+.RadTreeView_Web20 .rtLines .rtFirst,
+.RadTreeView_Web20 .rtLines .rtFirst .rtUL { background-image: url('../Common/TreeView/FirstNodeSpan.png'); }
+.RadTreeView_Web20_rtl .rtLines .rtFirst,
+.RadTreeView_Web20_rtl .rtLines .rtFirst .rtUL { background-image: url('../Common/TreeView/FirstNodeSpan_rtl.png'); }
+.RadTreeView_Web20 .rtLines .rtLast,
+.RadTreeView_Web20 .rtLines .rtLast .rtUL { background-image: none; }
+
+.RadTreeView_Web20 .rtLines .rtTop { background-image:url('../Common/TreeView/TopLine.png'); }
+.RadTreeView_Web20_rtl .rtLines .rtTop { background-image:url('../Common/TreeView/TopLine_rtl.png'); }
+.RadTreeView_Web20 .rtLines .rtMid { background-image:url('../Common/TreeView/MiddleLine.png'); }
+.RadTreeView_Web20_rtl .rtLines .rtMid { background-image:url('../Common/TreeView/MiddleLine_rtl.png'); }
+.RadTreeView_Web20 .rtLines .rtBot { background-image:url('../Common/TreeView/BottomLine.png'); }
+.RadTreeView_Web20_rtl .rtLines .rtBot { background-image: url('../Common/TreeView/BottomLine_rtl.png'); }
+.RadTreeView_Web20 .rtLines .rtLast .rtTop { background-image:url('../Common/TreeView/SingleLine.png'); }
+.RadTreeView_Web20_rtl .rtLines .rtLast .rtTop { background-image:url('../Common/TreeView/SingleLine_rtl.png'); }
+
+/* </node lines> */

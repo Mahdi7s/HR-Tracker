@@ -1,0 +1,13 @@
+/* RadRating for ASP.NET AJAX WebBlue Skin */
+
+.RadRating_WebBlue a,
+.RadRating_WebBlue a span
+{
+	background-image: url('Rating/Sprite.png');
+}
+
+* html .RadRating_WebBlue a,
+* html .RadRating_WebBlue a span
+{
+	background-image: url('Rating/Sprite.gif');
+}

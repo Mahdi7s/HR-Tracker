@@ -1,0 +1,13 @@
+/* RadRating for ASP.NET AJAX Sunset Skin */
+
+.RadRating_Sunset a,
+.RadRating_Sunset a span
+{
+	background-image: url('Rating/Sprite.png');
+}
+
+* html .RadRating_Sunset a,
+* html .RadRating_Sunset a span
+{
+	background-image: url('Rating/Sprite.gif');
+}

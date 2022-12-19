@@ -1,0 +1,523 @@
+/*Telerik RadCalendar Windows7 skin*/
+
+table.RadCalendar_Windows7
+{
+    width:auto;
+	background:#fff;
+	color:#333;
+	font:12px "segoe ui",arial,sans-serif;
+}
+
+/*titlebar*/
+
+.RadCalendar_Windows7 .rcTitlebar
+{
+	border-color:#cddaea;
+	border-bottom-color:#d4dbe5;
+	background:#f1f5fb;
+	color:#1e395b;
+}
+
+.RadCalendar_Windows7 .rcTitlebar table
+{
+	font:12px/18px "segoe ui",arial,sans-serif;
+}
+
+.RadCalendar_Windows7 .rcTitlebar td
+{
+	padding:3px 0 2px;
+}
+
+.RadCalendar_Windows7 .rcTitlebar .rcPrev,
+.RadCalendar_Windows7 .rcTitlebar .rcNext,
+.RadCalendar_Windows7 .rcTitlebar .rcFastPrev,
+.RadCalendar_Windows7 .rcTitlebar .rcFastNext
+{
+	width:17px;
+	height:16px;
+	background-image:url('Calendar/sprite.gif');
+	color:#ccc;
+}
+
+.RadCalendar_Windows7 .rcTitlebar .rcFastPrev
+{
+	margin-left:5px;
+	background-position:0 -200px;
+}
+
+.RadCalendar_Windows7 .rcTitlebar a.rcFastPrev:hover
+{
+	background-position:0 -250px;
+}
+
+.RadCalendar_Windows7 .rcTitlebar .rcPrev
+{
+	background-position:0 -300px;
+}
+
+.RadCalendar_Windows7 .rcTitlebar a.rcPrev:hover
+{
+	background-position:0 -350px;
+}
+
+.RadCalendar_Windows7 .rcTitlebar .rcNext
+{
+	background-position:0 -400px;
+}
+
+.RadCalendar_Windows7 .rcTitlebar a.rcNext:hover
+{
+	background-position:0 -450px;
+}
+
+.RadCalendar_Windows7 .rcTitlebar .rcFastNext
+{
+	margin-right:5px;
+	background-position:0 -500px;
+}
+
+.RadCalendar_Windows7 .rcTitlebar a.rcFastNext:hover
+{
+	background-position:0 -550px;
+}
+
+.RadCalendar_Windows7 .rcMain
+{
+	border-color:#cddaea;
+}
+
+.RadCalendar_Windows7 .rcMainTable
+{
+	font:12px/20px "segoe ui",arial,sans-serif;
+}
+
+/*header, footer*/
+
+.RadCalendar_Windows7 .rcHeader,
+.RadCalendar_Windows7 .rcFooter
+{
+	border-color:#cddaea;
+}
+
+/*week numbers and days*/
+
+.RadCalendar_Windows7 .rcWeek th
+{
+	border-bottom:1px solid #d4dbe5;
+	padding:2px 0 1px 0;
+	text-align:center;
+}
+
+.RadCalendar_Windows7 .rcWeek .rcViewSel
+{
+	border-bottom-color:#fff;
+}
+
+.RadCalendar_Windows7 .rcRow th
+{
+	width:28px;
+	color:#4c607a;
+}
+
+.RadCalendar_Windows7 .rcViewSel,
+.RadCalendar_Windows7 .rcRow th
+{
+	background:#e7ebf6;
+}
+
+/*date cells*/
+
+.RadCalendar_Windows7 .rcRow td
+{
+	width:26px;
+	border:0;
+	padding:0 0 1px 1px;
+}
+
+.RadCalendar_Windows7 .rcMain .rcRow a,
+.RadCalendar_Windows7 .rcMain .rcRow span
+{
+	width:20px;
+	padding:0 6px 0 0;
+	color:#000;
+}
+
+.RadCalendar_Windows7 .rcMain .rcWeekend a
+{
+	color:#444;
+}
+
+.RadCalendar_Windows7 .rcMain .rcRow .rcToday a
+{
+	background:100% -1800px no-repeat url('Calendar/sprite.gif');
+	color:#4c607a;
+}
+
+.RadCalendar_Windows7 .rcMain .rcOtherMonth a
+{
+	color:#a7a7a7;
+}
+
+.RadCalendar_Windows7 .rcMain .rcOutOfRange span
+{
+	color:#ccc;
+}
+
+.RadCalendar_Windows7 .rcMain .rcRow .rcSelected a
+{
+	background:100% -1700px no-repeat url('Calendar/sprite.gif');
+	color:#4c607a;
+}
+
+.RadCalendar_Windows7 .rcMain .rcRow .rcHover a
+{
+	background:100% -1600px no-repeat url('Calendar/sprite.gif');
+	color:#4c607a;
+}
+
+/*multimonth view*/
+
+.RadCalendarMultiView_Windows7 .rcTitlebar
+{
+	border-color:#cddaea;
+	background:#e4edf8 0 -1199px repeat-x url('Calendar/sprite.gif');
+	color:#1e395b;
+}
+
+.RadCalendarMultiView_Windows7 .rcTitlebar table
+{
+	border:1px solid;
+	border-color:#fbfdfe #f1f7fc #ebf3fb;
+	line-height:22px;
+}
+
+.RadCalendarMultiView_Windows7 .rcTitlebar td
+{
+	padding:4px 0 1px;
+}
+
+.RadCalendarMultiView_Windows7 .rcTitlebar .rcFastPrev
+{
+	width:20px;
+	height:19px;
+	background-position:0 -600px;
+}
+
+.RadCalendarMultiView_Windows7 .rcTitlebar a.rcFastPrev:hover
+{
+	background-position:0 -650px;
+}
+
+.RadCalendarMultiView_Windows7 .rcTitlebar .rcPrev
+{
+	width:20px;
+	height:19px;
+	background-position:0 -700px;
+}
+
+.RadCalendarMultiView_Windows7 .rcTitlebar a.rcPrev:hover
+{
+	background-position:0 -750px;
+}
+
+.RadCalendarMultiView_Windows7 .rcTitlebar .rcNext
+{
+	width:20px;
+	height:19px;
+	background-position:0 -800px;
+}
+
+.RadCalendarMultiView_Windows7 .rcTitlebar a.rcNext:hover
+{
+	background-position:0 -850px;
+}
+
+.RadCalendarMultiView_Windows7 .rcTitlebar .rcFastNext
+{
+	width:20px;
+	height:19px;
+	background-position:0 -900px;
+}
+
+.RadCalendarMultiView_Windows7 .rcTitlebar a.rcFastNext:hover
+{
+	background-position:0 -950px;
+}
+
+.RadCalendarMultiView_Windows7 .rcMain
+{
+	border-color:#cddaea;
+}
+
+.RadCalendarMultiView_Windows7 .rcCalendar
+{
+    width:auto;
+	border-color:#cddaea;
+}
+
+.RadCalendarMultiView_Windows7 .rcMain .rcTitle
+{
+	border-color:#d4dbe5;
+	padding:3px 0 4px;
+	background:#f1f5fb;
+	color:#1e395b;
+}
+
+/*month view*/
+
+table.RadCalendarMonthView_Windows7
+{
+	border-color:#a5b3c5;
+	background:#fcfcfc;
+	font:12px "segoe ui",arial,sans-serif;
+	color:#000;
+}
+
+.RadCalendarMonthView_Windows7 #rcMView_Feb,
+.RadCalendarMonthView_Windows7 #rcMView_Apr,
+.RadCalendarMonthView_Windows7 #rcMView_Jun,
+.RadCalendarMonthView_Windows7 #rcMView_Aug,
+.RadCalendarMonthView_Windows7 #rcMView_Oct,
+.RadCalendarMonthView_Windows7 #rcMView_Dec
+{
+	border-right:1px solid #e0e0e0;
+}
+
+.RadCalendarMonthView_Windows7 a
+{
+	color:#000;
+}
+
+.RadCalendarMonthView_Windows7 .rcHover a
+{
+	border-color:#a8d8eb;
+	background:#f1f4f6;
+	color:#4c607a;
+}
+
+.RadCalendarMonthView_Windows7 .rcSelected a
+{
+	border-color:#8fb0d6;
+	background:#cfe3fc;
+	color:#4c607a;
+}
+
+.RadCalendarMonthView_Windows7 #rcMView_PrevY a,
+.RadCalendarMonthView_Windows7 #rcMView_NextY a
+{
+	width:12px;
+	height:15px;
+	background-image:url('Calendar/sprite.gif');
+	color:#ccc;
+}
+
+.RadCalendarMonthView_Windows7 #rcMView_PrevY a
+{
+	background-position:0 -200px;
+}
+
+.RadCalendarMonthView_Windows7 #rcMView_PrevY a:hover
+{
+	background-position:0 -250px;
+}
+
+.RadCalendarMonthView_Windows7 #rcMView_NextY a
+{
+	background-position:0 -500px;
+}
+
+.RadCalendarMonthView_Windows7 #rcMView_NextY a:hover
+{
+	background-position:0 -550px;
+}
+
+.RadCalendarMonthView_Windows7 .rcButtons
+{
+	padding:4px 7px 6px;
+}
+
+.RadCalendarMonthView_Windows7 input
+{
+	border:0;
+	margin:0 3px;
+	padding:1px 0 0;
+	background:0 100% repeat-x url('Calendar/sprite.gif');
+	color:#005bc6;
+	font:12px "segoe ui",arial,sans-serif;
+}
+
+.RadCalendarMonthView_Windows7 #rcMView_Today
+{
+	margin-right:20px;
+}
+
+/*time view*/
+
+table.RadCalendarTimeView_Windows7
+{
+	border-color:#a5b3c5;
+	background:#fcfcfc;
+	font:12px "segoe ui",arial,sans-serif;
+	color:#000;
+}
+
+.RadCalendarTimeView_Windows7 th
+{
+	border-bottom:1px solid #d4dbe5;
+	padding:3px 0;
+	background:#f1f5fb;
+	color:#1e395b;
+	line-height:18px;
+}
+
+table.RadCalendarTimeView_Windows7 td
+{
+	border-color:#e0e0e0;
+	padding:2px 2px 3px;
+}
+
+.RadCalendarTimeView_Windows7 a
+{
+	width:59px;
+	padding:1px 6px 1px 1px;
+	line-height:15px;
+	text-align:right;
+	color:#000;
+}
+
+.RadCalendarTimeView_Windows7 td.rcSelected a
+{
+    border:0;
+    padding:1px 6px 1px 1px;
+	background:100% -2550px no-repeat url('Calendar/sprite.gif');
+	color:#4c607a;
+}
+
+.RadCalendarTimeView_Windows7 td.rcHover a
+{
+    border:0;
+    padding:1px 6px 1px 1px;
+	background:100% -2500px no-repeat url('Calendar/sprite.gif');
+	color:#4c607a;
+}
+
+.RadCalendarTimeView_Windows7 .rcFooter
+{
+	border-color:#e0e0e0;
+}
+
+/*pickers*/
+
+.RadPicker_Windows7 .rcCalPopup,
+.RadPicker_Windows7 .rcTimePopup
+{
+	background-image:url('Calendar/sprite.gif');
+}
+
+.RadPicker_Windows7 .rcCalPopup,
+.RadPicker_Windows7 a.rcDisabled.rcCalPopup:hover
+{
+	background-position:0 0;
+}
+
+.RadPicker_Windows7 a.rcCalPopup:hover,
+.RadPicker_Windows7 a.rcCalPopup:focus,
+.RadPicker_Windows7 a.rcCalPopup:active
+{
+	background-position:0 -50px;
+}
+
+.RadPicker_Windows7 .rcTimePopup,
+.RadPicker_Windows7 a.rcDisabled.rcTimePopup:hover
+{
+	background-position:0 -100px;
+}
+
+.RadPicker_Windows7 a.rcTimePopup:hover,
+.RadPicker_Windows7 a.rcTimePopup:focus,
+.RadPicker_Windows7 a.rcTimePopup:active
+{
+	background-position:0 -150px;
+}
+
+/*rtl*/
+
+.RadCalendarRTL_Windows7 .rcTitlebar .rcFastPrev
+{
+	background-position:0 -500px;
+}
+
+.RadCalendarRTL_Windows7 .rcTitlebar a.rcFastPrev:hover
+{
+	background-position:0 -550px;
+}
+
+.RadCalendarRTL_Windows7 .rcTitlebar .rcPrev
+{
+	background-position:0 -400px;
+}
+
+.RadCalendarRTL_Windows7 .rcTitlebar a.rcPrev:hover
+{
+	background-position:0 -450px;
+}
+
+.RadCalendarRTL_Windows7 .rcTitlebar .rcNext
+{
+	background-position:0 -300px;
+}
+
+.RadCalendarRTL_Windows7 .rcTitlebar a.rcNext:hover
+{
+	background-position:0 -350px;
+}
+
+.RadCalendarRTL_Windows7 .rcTitlebar .rcFastNext
+{
+	background-position:0 -200px;
+}
+
+.RadCalendarRTL_Windows7 .rcTitlebar a.rcFastNext:hover
+{
+	background-position:0 -250px;
+}
+
+.RadCalendarMultiViewRTL_Windows7 .rcTitlebar .rcFastPrev
+{
+	background-position:0 -900px;
+}
+
+.RadCalendarMultiViewRTL_Windows7 .rcTitlebar a.rcFastPrev:hover
+{
+	background-position:0 -950px;
+}
+
+.RadCalendarMultiViewRTL_Windows7 .rcTitlebar .rcPrev
+{
+	background-position:0 -800px;
+}
+
+.RadCalendarMultiViewRTL_Windows7 .rcTitlebar a.rcPrev:hover
+{
+	background-position:0 -850px;
+}
+
+.RadCalendarMultiViewRTL_Windows7 .rcTitlebar .rcNext
+{
+	background-position:0 -700px;
+}
+
+.RadCalendarMultiViewRTL_Windows7 .rcTitlebar a.rcNext:hover
+{
+	background-position:0 -750px;
+}
+
+.RadCalendarMultiViewRTL_Windows7 .rcTitlebar .rcFastNext
+{
+	background-position:0 -600px;
+}
+
+.RadCalendarMultiViewRTL_Windows7 .rcTitlebar a.rcFastNext:hover
+{
+	background-position:0 -650px;
+}

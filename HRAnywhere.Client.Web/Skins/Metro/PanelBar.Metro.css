@@ -1,0 +1,182 @@
+.RadPanelBar_Metro
+{
+	background-color: #ffffff;
+}
+
+.RadPanelBar_Metro .rpRootGroup
+{
+	border-color: #e5e5e5;
+}
+
+.RadPanelBar_Metro a.rpLink,
+.RadPanelBar_Metro div.rpHeaderTemplate,
+.RadPanelBar_Metro .rpTemplate
+{
+	color: #767676;
+	font: normal 12px/24px "Segoe UI", Arial, sans-serif;
+}
+
+.RadPanelBar_Metro div.rpHeaderTemplate,
+.RadPanelBar_Metro a.rpLink
+{
+	background-color: #ffffff;
+	border-color: #e5e5e5;
+}
+
+/* compensate for borders */
+
+.RadPanelBar_Metro .rpOut
+{
+	border-color: #ffffff;
+}
+
+.RadPanelBar_Metro a.rpExpanded,
+.RadPanelBar_Metro div.rpExpanded
+{
+	border-color: #25a0da;
+	color: #ffffff;
+	background-color: #25a0da;
+}
+
+.RadPanelBar_Metro a.rpLink:hover {
+	color: #000000;
+}
+.RadPanelBar_Metro a.rpFocused,
+.RadPanelBar_Metro a.rpFocused:hover,
+.RadPanelBar_Metro div.rpFocused,
+.RadPanelBar_Metro a.rpSelected,
+.RadPanelBar_Metro a.rpSelected:hover,
+.RadPanelBar_Metro div.rpSelected
+{
+	color: #ffffff;
+}
+
+.RadPanelBar_Metro a.rpLink:hover,
+.RadPanelBar_Metro a.rpFocused,
+.RadPanelBar_Metro div.rpFocused
+{
+	background-color: #e5e5e5;
+	border-color: #e5e5e5;
+}
+
+.RadPanelBar_Metro a.rpSelected,
+.RadPanelBar_Metro div.rpSelected,
+.RadPanelBar_Metro a.rpSelected:hover
+{
+	background-color: #25a0da;
+	border-color: #25a0da;
+}
+
+div.RadPanelBar_Metro a.rpLink .rpOut,
+div.RadPanelBar_Metro a.rpFocused .rpOut,
+div.RadPanelBar_Metro a.rpLink:hover .rpOut,
+div.RadPanelBar_Metro a.rpSelected .rpOut,
+div.RadPanelBar_Metro a.rpSelected:hover .rpOut
+{
+	padding-bottom: 1px;
+	border: 0;
+}
+
+/* <disabled items> */
+.RadPanelBar_Metro a.rpDisabled,
+.RadPanelBar_Metro div.rpDisabled,
+.RadPanelBar_Metro a.rpDisabled:hover
+{
+	color: #bbbbbb;
+	cursor: default;
+}
+
+.RadPanelBar_Metro a.rpDisabled:hover .rpOut
+{
+	border-color: #ffffff;
+}
+/* </disabled items> */
+
+/* <subitems> */
+.RadPanelBar_Metro .rpGroup
+{
+	background-color: #ffffff;
+}
+
+div.RadPanelBar_Metro .rpGroup a.rpLink,
+div.RadPanelBar_Metro .rpGroup div.rpHeaderTemplate,
+div.RadPanelBar_Metro .rpGroup .rpTemplate
+{
+	color: #767676;
+	background-color: transparent;
+	background-image: none;
+	border: 0;
+	margin: 0 2px;
+	padding: 1px;
+}
+
+div.RadPanelBar_Metro .rpGroup a.rpLink:hover
+{
+	color: #000000;
+	border: 1px solid #e5e5e5;
+	background-color: #e5e5e5;
+	padding: 0;
+}
+
+div.RadPanelBar_Metro ul.rpGroup .rpFocused,
+div.RadPanelBar_Metro ul.rpGroup .rpSelected,
+div.RadPanelBar_Metro ul.rpGroup .rpSelected,
+div.RadPanelBar_Metro .rpGroup a.rpSelected:hover
+{
+	border-color: #25a0da;
+	color: #ffffff;
+	background-color: #25a0da;
+}
+
+/* <subitems (disabled)> */
+div.RadPanelBar_Metro ul.rpGroup .rpDisabled,
+div.RadPanelBar_Metro .rpGroup a.rpDisabled:hover
+{
+	color: #e5e5e5;
+	text-decoration: none;
+	border: 0;
+	padding: 1px;
+}
+
+
+
+/* <expand arrows> */
+.RadPanelBar_Metro .rpExpandable span.rpExpandHandle,
+.RadPanelBar_Metro .rpExpanded span.rpExpandHandle
+{
+	background-color: transparent;
+	background-image: url('PanelBar/Expandable.png');
+	background-repeat: no-repeat;
+}
+
+.RadPanelBar_Metro_rtl .rpGroup .rpText
+{
+	padding: 0 10px;
+}
+
+.RadPanelBar_Metro .rpExpandable span.rpExpandHandle,
+.RadPanelBar_Metro a.rpExpandable:hover .rpNavigation .rpExpandHandle { background-position: 0 -5px; }
+.RadPanelBar_Metro a.rpExpandable:hover .rpExpandHandle,
+.RadPanelBar_Metro a.rpExpandable:hover .rpNavigation .rpExpandHandleHovered { background-position: 100% -5px; }
+.RadPanelBar_Metro .rpExpanded span.rpExpandHandle,
+.RadPanelBar_Metro a.rpExpanded:hover .rpNavigation .rpExpandHandle { background-position: 0 -181px; }
+.RadPanelBar_Metro a.rpExpanded:hover .rpExpandHandle,
+.RadPanelBar_Metro a.rpExpanded:hover .rpNavigation .rpExpandHandleHovered { background-position: 100% -181px; }
+
+.RadPanelBar_Metro ul.rpGroup .rpExpandable span.rpExpandHandle,
+.RadPanelBar_Metro .rpGroup a.rpExpandable:hover .rpNavigation span.rpExpandHandle { background-position: 0 -343px; margin: 4px 0 0 0; }
+.RadPanelBar_Metro .rpGroup a.rpExpandable:hover span.rpExpandHandle,
+.RadPanelBar_Metro .rpGroup a.rpExpandable:hover .rpNavigation span.rpExpandHandleHovered { background-position: 100% -343px; margin: 4px 0 0 0; }
+.RadPanelBar_Metro ul.rpGroup .rpExpanded span.rpExpandHandle,
+.RadPanelBar_Metro .rpGroup a.rpExpanded:hover .rpNavigation span.rpExpandHandle { background-position: 0 -482px; margin: 4px 0 0 0; }
+.RadPanelBar_Metro .rpGroup a.rpExpanded:hover span.rpExpandHandle,
+.RadPanelBar_Metro .rpGroup a.rpExpanded:hover .rpNavigation span.rpExpandHandleHovered { background-position: 100% -482px; margin: 4px 0 0 0; }
+
+.RadPanelBar_Metro div.rpExpandable .rpExpandHandleHovered { background-position: 0 -5px; }
+.RadPanelBar_Metro div.rpExpanded .rpExpandHandleHovered { background-position: 0 -181px; }
+
+.RadPanelBar_Metro .rpGroup div.rpExpandable span.rpExpandHandleHovered { background-position: 0 -343px; margin: 4px 0 0 0; }
+.RadPanelBar_Metro .rpGroup div.rpExpanded span.rpExpandHandleHovered { background-position: 0 -482px; margin: 4px 0 0 0; }
+
+/*      </expand arrows> */
+

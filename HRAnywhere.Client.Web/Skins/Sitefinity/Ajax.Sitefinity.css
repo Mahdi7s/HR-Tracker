@@ -1,0 +1,18 @@
+/* Telerik RadAjaxLoadingPanel Sitefinity Skin */
+
+.RadAjax_Sitefinity .raDiv
+{
+	background-image:url('Common/loading.gif');
+}
+
+.RadAjax_Sitefinity .raColor
+{
+	background-color:#fff;
+}
+
+.RadAjax_Sitefinity .raTransp
+{
+	opacity:0.6;
+	-moz-opacity:0.6;
+	filter:alpha(opacity=60);
+}

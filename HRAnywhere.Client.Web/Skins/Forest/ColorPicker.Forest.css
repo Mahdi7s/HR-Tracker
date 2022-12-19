@@ -1,0 +1,77 @@
+/* RadColorPicker for ASP.NET AJAX Forest skin */
+.RadColorPicker_Forest .rcpViews,
+.RadColorPicker_Forest .rcpHeader,
+.RadColorPicker_Forest .rcpPageView
+{
+	background-color:#bfd299;
+}
+
+.RadColorPicker_Forest .rcpColorPreview,
+.RadColorPicker_Forest .rcpInput,
+.RadColorPicker_Forest .rcpHexInput,
+.RadColorPicker_Forest .rcpMillionColorsPalette,
+.RadColorPicker_Forest .rcpMillionColorsSlider div.rslTrack
+{
+	border:1px solid #618740;
+}
+
+.RadColorPicker_Forest .rcpPalette,
+.RadColorPicker_Forest input,
+.RadColorPicker_Forest a
+{
+    color:#000;
+}
+
+.RadColorPicker_Forest .rcpApplyButton span,
+.RadColorPicker_Forest .rcpButton span
+{
+    color:#e7f1d7;
+}
+
+.RadColorPicker_Forest .rcpApplyButton:hover span,
+.RadColorPicker_Forest .rcpButton:hover span
+{
+    color:#fff;
+}
+
+.RadColorPicker_Forest .rcpHeader,
+.RadColorPicker_Forest .rcpHeader .rcpImageButton,
+.RadColorPicker_Forest .rcpRecentColors,
+.RadColorPicker_Forest .rcpIcon a,
+.RadColorPicker_Forest .rcpTabs a,
+.RadColorPicker_Forest .rcpTabs a span,
+.RadColorPicker_Forest .rcpButton,
+.RadColorPicker_Forest .rcpButton span,
+.RadColorPicker_Forest .rcpMillionColorsHandle,
+.RadColorPicker_Forest .rcpSlider div.rslTrack,
+/* overwrite sliders */
+.RadColorPicker_Forest .rcpSlider .rslTrack a.rslDraghandle,
+.RadColorPicker_Forest div.rcpMillionColorsSlider div.rslVertical a.rslDraghandle
+{
+	background-image:url('ColorPicker/ColorPickerSprites.png');
+	background-repeat:no-repeat;
+}
+
+/* Rounded corners and shadows */
+.RadColorPicker_Forest .rcpPalette,
+.RadColorPicker_Forest .rcpRoundedRight,
+.RadColorPicker_Forest .rcpRoundedBottomRight,
+.RadColorPicker_Forest .rcpRightShadow,
+.RadColorPicker_Forest .rcpCornerShadow
+{
+	background-image:url('ColorPicker/rcpVerticalSprites.png');
+}
+
+.RadColorPicker_Forest .rcpRoundedBottomLeft,
+.RadColorPicker_Forest .rcpBottomShadow
+{
+	background-image:url('ColorPicker/ColorPickerSprites.png');
+}
+
+* html .RadColorPicker_Forest .rcpPalette,
+* html .RadColorPicker_Forest .rcpRoundedRight,
+* html .RadColorPicker_Forest .rcpRoundedBottomRight,
+* html .RadColorPicker_Forest .rcpRoundedBottomLeft
+{
+	background-image:url('ColorPicker/rcpVerticalSpritesIE6.png');
+}

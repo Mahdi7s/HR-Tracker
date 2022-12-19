@@ -1,0 +1,171 @@
+/** Tabstrip container */
+.RadTabStrip_Metro {}
+
+
+	.RadTabStripTop_Metro .rtsLevel {}
+	.RadTabStripTop_Metro .rtsLevel1 {
+		background-color: #25a0da;
+	}
+
+
+
+
+/** Tabs holder */
+.RadTabStrip_Metro .rtsUL {
+	background-color: #ffffff;
+}
+
+	.RadTabStrip_Metro .rtsLevel1 .rtsUL {
+		background-color: #25a0da;
+	}
+
+
+	.RadTabStripTop_Metro .rtsLevel1 .rtsUL {padding: 5px; padding-bottom: 0}
+	.RadTabStripBottom_Metro .rtsLevel1 .rtsUL {padding: 5px; padding-top: 0}
+
+
+
+
+/** rtsLI */
+.RadTabStrip_Metro .rtsLI {
+	color: #767676;
+	font: 12px/22px "Segoe UI", Arial, sans-serif;
+}
+
+
+	.RadTabStrip_Metro .rtsLevel1 .rtsLI {
+		color: #ffffff;
+	}
+
+
+	.RadTabStripTop_Metro .rtsUL .rtsLI,
+	.RadTabStripBottom_Metro .rtsUL .rtsLI {padding: 0 0 0 1px}
+	.RadTabStripTop_Metro .rtsUL .rtsFirst,
+	.RadTabStripBottom_Metro .rtsUL .rtsFirst {padding: 0 0 0 1px}
+
+
+
+
+/** rtsLink */
+.RadTabStrip_Metro .rtsLink {
+	padding: 0 15px;
+	color: #767676;
+	font: 14px/22px "Segoe UI", Arial, sans-serif;
+	text-transform: lowercase;
+}
+
+
+	.RadTabStrip_Metro .rtsLink:hover {
+		color: #000000;
+	}
+
+
+	.RadTabStrip_Metro .rtsLevel1 .rtsLink {
+		color: #ffffff;
+		border: 1px solid #25a0da;
+	}
+	.RadTabStrip_Metro .rtsLevel1 .rtsLink:hover {
+		border-color: #ffffff;
+	}
+
+
+	.RadTabStripTop_Metro .rtsLevel1 .rtsLink {border-bottom: 0}
+	.RadTabStripBottom_Metro .rtsLevel1 .rtsLink {border-top: 0}
+	.RadTabStripRight_Metro .rtsLevel1 .rtsLink {border-left: 0}
+	.RadTabStripLeft_Metro .rtsLevel1 .rtsLink {border-right: 0}
+
+
+
+
+/** rtsSelected */
+.RadTabStrip_Metro .rtsSelected {
+	color: #000000;
+	background-color: #e5e5e5;
+}
+
+	.RadTabStrip_Metro .rtsSelected:hover {}
+
+
+	.RadTabStrip_Metro .rtsLevel1 .rtsSelected {
+		border-color: #ffffff;
+		color: #767676;
+		background-color: #ffffff;
+	}
+	.RadTabStrip_Metro .rtsLevel1 .rtsSelected:hover {
+		color: #000000;
+	}
+
+
+	.RadTabStripTop_Metro .rtsSelected:hover {}
+	.RadTabStripBottom_Metro .rtsSelected:hover {}
+	.RadTabStripRight_Metro .rtsSelected:hover {}
+	.RadTabStripLeft_Metro .rtsSelected:hover {}
+
+
+
+
+/** rtsDisabled */
+.RadTabStrip_Metro .rtsDisabled,
+.RadTabStrip_Metro .rtsDisabled:hover
+{
+	color: #cccccc;
+}
+
+
+	.RadTabStrip_Metro .rtsLevel1 .rtsDisabled,
+	.RadTabStrip_Metro .rtsLevel1 .rtsDisabled:hover
+	{
+		border-color: #25a0da;
+		color: #91cae8;
+	}
+
+
+
+
+/** rtsText */
+.RadTabStrip_Metro .rtsLevel .rtsOut,
+.RadTabStrip_Metro .rtsLevel .rtsIn,
+.RadTabStrip_Metro .rtsLevel .rtsTxt {padding: 0}
+
+
+
+
+/** rtsSeparator */
+.RadTabStrip_Metro .rtsSeparator {}
+
+
+
+
+/** Scrolling arrows */
+.RadTabStrip_Metro .rtsNextArrow,
+.RadTabStrip_Metro .rtsPrevArrow,
+.RadTabStrip_Metro .rtsPrevArrowDisabled,
+.RadTabStrip_Metro .rtsNextArrowDisabled
+{
+	background-image: url('TabStrip/TabStripStates.png');
+}
+.RadTabStrip_Metro .rtsLevel .rtsNextArrow { background-position: -18px 0; }
+.RadTabStrip_Metro .rtsLevel .rtsPrevArrow { background-position: 0 0; }
+.RadTabStrip_Metro .rtsLevel .rtsNextArrow:hover { background-position: -54px 0; }
+.RadTabStrip_Metro .rtsLevel .rtsPrevArrow:hover { background-position: -36px 0; }
+.RadTabStrip_Metro .rtsLevel .rtsPrevArrowDisabled,
+.RadTabStrip_Metro .rtsLevel .rtsPrevArrowDisabled:hover { background-position: -72px 0; }
+.RadTabStrip_Metro .rtsLevel .rtsNextArrowDisabled,
+.RadTabStrip_Metro .rtsLevel .rtsNextArrowDisabled:hover { background-position: -90px 0; }
+
+.RadTabStripLeft_Metro .rtsLevel .rtsNextArrow,
+.RadTabStripRight_Metro .rtsLevel .rtsNextArrow { background-position: -18px -20px; }
+.RadTabStripLeft_Metro .rtsLevel .rtsPrevArrow,
+.RadTabStripRight_Metro .rtsLevel .rtsPrevArrow { background-position: 0 -20px; }
+.RadTabStripLeft_Metro .rtsLevel .rtsNextArrow:hover,
+.RadTabStripRight_Metro .rtsLevel .rtsNextArrow:hover  { background-position: -54px -20px; }
+.RadTabStripLeft_Metro .rtsLevel .rtsPrevArrow:hover,
+.RadTabStripRight_Metro .rtsLevel .rtsPrevArrow:hover { background-position: -36px -20px; }
+.RadTabStripLeft_Metro .rtsLevel .rtsPrevArrowDisabled,
+.RadTabStripLeft_Metro .rtsLevel .rtsPrevArrowDisabled:hover,
+.RadTabStripRight_Metro .rtsLevel .rtsPrevArrowDisabled,
+.RadTabStripRight_Metro .rtsLevel .rtsPrevArrowDisabled:hover { background-position: -72px -20px; }
+.RadTabStripLeft_Metro .rtsLevel .rtsNextArrowDisabled,
+.RadTabStripLeft_Metro .rtsLevel .rtsNextArrowDisabled:hover,
+.RadTabStripRight_Metro .rtsLevel .rtsNextArrowDisabled,
+.RadTabStripRight_Metro .rtsLevel .rtsNextArrowDisabled:hover { background-position: -90px -20px; }

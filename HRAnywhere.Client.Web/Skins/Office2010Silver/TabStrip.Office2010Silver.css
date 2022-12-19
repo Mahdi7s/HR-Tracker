@@ -1,0 +1,154 @@
+.RadTabStrip_Office2010Silver .rtsLI,
+.RadTabStrip_Office2010Silver .rtsLink
+{
+	color: #3b3b3b;
+	font: 12px/26px "Segoe UI", Arial, sans-serif;
+}
+
+.RadTabStrip_Office2010Silver .rtsLevel1 .rtsLI,
+.RadTabStrip_Office2010Silver .rtsLevel1 .rtsLink
+{
+	color: #3b3b3b;
+}
+
+.RadTabStrip_Office2010Silver .rtsLevel .rtsLink:hover,
+.RadTabStrip_Office2010Silver .rtsLevel .rtsSelected,
+.RadTabStrip_Office2010Silver .rtsLevel .rtsSelected:hover
+{
+	text-decoration: underline;
+}
+
+.RadTabStrip_Office2010Silver .rtsLevel1 .rtsLink:hover,
+.RadTabStrip_Office2010Silver .rtsLevel1 .rtsSelected,
+.RadTabStrip_Office2010Silver .rtsLevel1 .rtsSelected:hover
+{
+	text-decoration: none;
+}
+
+.RadTabStrip_Office2010Silver .rtsLevel .rtsSelected,
+.RadTabStrip_Office2010Silver .rtsLevel .rtsSelected:hover {
+	color: #3b3b3b;
+}
+
+.RadTabStripLeft_Office2010Silver .rtsSeparator,
+.RadTabStripRight_Office2010Silver .rtsSeparator
+{
+	background: #6f6f6f;
+}
+
+/* <focus cue> */
+div.RadTabStrip_Office2010Silver a.rtsLink:focus
+{
+	outline-color: #6f6f6f;
+}
+
+div.RadTabStrip_Office2010Silver a.rtsLink:focus:after
+{
+	border-color /*\**/: #6f6f6f\9;
+}
+/* </focus cue> */
+
+/* <disabled tabs> */
+.RadTabStrip_Office2010Silver .rtsLevel .rtsDisabled
+{
+	color: #666;
+}
+/* </disabled tabs> */
+
+/* <scrolling arrows> */
+.RadTabStrip_Office2010Silver .rtsNextArrow,
+.RadTabStrip_Office2010Silver .rtsPrevArrow,
+.RadTabStrip_Office2010Silver .rtsPrevArrowDisabled,
+.RadTabStrip_Office2010Silver .rtsNextArrowDisabled
+{
+	background-image: url('TabStrip/TabStripStates.png');
+}
+/* </scrolling arrows> */
+
+/* <tab backgrounds> */
+
+.RadTabStrip_Office2010Silver .rtsLevel { background: #ffffff; }
+
+.RadTabStrip_Office2010Silver .rtsLevel1 { background-color: #ffffff; }
+.RadTabStripTop_Office2010Silver .rtsLevel2 { background: #e5e9ee url('TabStrip/Level2Bg.png') repeat-x 0 0; }
+
+.RadTabStripTop_Office2010Silver .rtsLevel .rtsLink,
+.RadTabStripTop_Office2010Silver .rtsLevel .rtsOut { background-image: none; }
+
+.RadTabStripTop_Office2010Silver .rtsLevel1 .rtsLink,
+.RadTabStripTop_Office2010Silver .rtsLevel1 .rtsOut,
+.RadTabStripBottom_Office2010Silver .rtsLevel1 .rtsLink,
+.RadTabStripBottom_Office2010Silver .rtsLevel1 .rtsOut,
+.RadTabStripTop_Office2010Silver .rtsLevel1,
+.RadTabStripBottom_Office2010Silver .rtsLevel1 { background-image: url('TabStrip/TabStripStates.png'); }
+
+.RadTabStripLeft_Office2010Silver .rtsLink,
+.RadTabStripRight_Office2010Silver .rtsLink { background-image: url('TabStrip/TabStripVStates.png'); }
+
+.RadTabStripLeft_Office2010Silver .rtsLast .rtsLink,
+.RadTabStripRight_Office2010Silver .rtsLast .rtsLink
+{
+	border-bottom: 1px solid #b6babf;
+}
+
+.RadTabStripRight_Office2010Silver .rtsLink,
+.RadTabStripRight_Office2010Silver .rtsLI .rtsDisabled:hover { background-position: 100% 0; }
+.RadTabStripRight_Office2010Silver .rtsLink:hover { background-position: 100% -200px; }
+.RadTabStripRight_Office2010Silver .rtsSelected,
+.RadTabStripRight_Office2010Silver .rtsSelected:hover { background-position: 100% -400px; }
+/* </tab backgrounds> */
+
+
+/* <background positioning: tabs with hovers> */
+
+/* <orientation: top> */
+
+.RadTabStripTop_Office2010Silver .rtsLevel1 .rtsLink { background-position: 0 0; }
+.RadTabStripTop_Office2010Silver .rtsLevel1 .rtsOut { background-position: 100% 0; }
+
+.RadTabStripTop_Office2010Silver .rtsLevel1 .rtsLink:hover { background-position: 0 -52px; }
+.RadTabStripTop_Office2010Silver .rtsLevel1 .rtsLink:hover .rtsOut { background-position: 100% -52px; }
+
+.RadTabStripTop_Office2010Silver .rtsLevel1 .rtsSelected,
+.RadTabStripTop_Office2010Silver .rtsLevel1 .rtsSelected:hover { background-position: 0 -26px; }
+.RadTabStripTop_Office2010Silver .rtsLevel1 .rtsSelected .rtsOut,
+.RadTabStripTop_Office2010Silver .rtsLevel1 .rtsSelected:hover .rtsOut { background-position: 100% -26px; }
+
+.RadTabStripTop_Office2010Silver .rtsLevel1 .rtsDisabled:hover { background-position: 0 0; }
+.RadTabStripTop_Office2010Silver .rtsLevel1 .rtsDisabled:hover .rtsOut { background-position: 100% 0; }
+
+.RadTabStripTop_Office2010Silver .rtsLevel1 { background-position: 0 100%; background-repeat: repeat-x; }
+
+/* </orientation: top> */
+
+/* <orientation: bottom> */
+
+.RadTabStripBottom_Office2010Silver .rtsLevel1 .rtsLink { background-position: 0 -182px; }
+.RadTabStripBottom_Office2010Silver .rtsLevel1 .rtsOut { background-position: 100% -182px; }
+
+.RadTabStripBottom_Office2010Silver .rtsLevel1 .rtsLink:hover { background-position: 0 -130px; }
+.RadTabStripBottom_Office2010Silver .rtsLevel1 .rtsLink:hover .rtsOut { background-position: 100% -130px; }
+
+.RadTabStripBottom_Office2010Silver .rtsLevel1 .rtsSelected,
+.RadTabStripBottom_Office2010Silver .rtsLevel1 .rtsSelected:hover { background-position: 0 -156px; }
+.RadTabStripBottom_Office2010Silver .rtsLevel1 .rtsSelected .rtsOut,
+.RadTabStripBottom_Office2010Silver .rtsLevel1 .rtsSelected:hover .rtsOut { background-position: 100% -156px; }
+
+.RadTabStripBottom_Office2010Silver .rtsLevel1 .rtsDisabled:hover { background-position: 0 -182px; }
+.RadTabStripBottom_Office2010Silver .rtsLevel1 .rtsDisabled:hover .rtsOut { background-position: 100% -182px; }
+
+.RadTabStripBottom_Office2010Silver .rtsLevel1 { background-position: 0 -599px; background-repeat: repeat-x; }
+
+/* </orientation: bottom> */
+
+/* <orientation: right> */
+
+.RadTabStripRight_Office2010Silver .rtsUL .rtsLink,
+.RadTabStripRight_Office2010Silver .rtsUL .rtsLI .rtsDisabled:hover { background-position: 100% 0; text-align: left; }
+.RadTabStripRight_Office2010Silver .rtsUL .rtsLink:hover { background-position: 100% -200px; }
+.RadTabStripRight_Office2010Silver .rtsUL .rtsSelected,
+.RadTabStripRight_Office2010Silver .rtsUL .rtsSelected:hover { background-position: 100% -400px; }
+
+/* </orientation: right> */
+
+/* </background positioning: tabs with hovers> */

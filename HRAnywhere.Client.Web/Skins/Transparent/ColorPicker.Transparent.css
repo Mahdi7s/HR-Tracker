@@ -1,0 +1,122 @@
+/* RadColorPicker Transparent skin */
+.RadColorPicker_Transparent .rcpViews,
+.RadColorPicker_Transparent .rcpHeader
+{
+	background-image: url('../Common/TransContent.png');
+	background-repeat: repeat;
+}
+
+div.RadColorPicker_Transparent .rcpHexInput, 
+div.RadColorPicker_Transparent .rcpInput
+{
+	
+	background-image: url('../Common/TransContent.png');
+	background-color: transparent;
+	background-repeat: repeat;
+}
+
+
+.RadColorPicker_Transparent .rcpColorPreview,
+.RadColorPicker_Transparent .rcpInput,
+.RadColorPicker_Transparent .rcpHexInput,
+.RadColorPicker_Transparent .rcpMillionColorsPalette,
+.RadColorPicker_Transparent .rcpMillionColorsSlider div.rslTrack
+{
+	border:1px solid #9aa0a6;
+}
+
+.RadColorPicker_Transparent .rcpPalette,
+.RadColorPicker_Transparent input,
+.RadColorPicker_Transparent a,
+.RadColorPicker_Transparent .rcpApplyButton:hover span
+{
+	color:#000;
+}
+
+.RadColorPicker_Transparent .rcpTabs ul li a
+{
+	color:#000;
+	background-position: left -289px !important;
+	padding:0 0 0 6px !important;
+}
+
+.RadColorPicker_Transparent .rcpTabs ul li a span
+{
+	padding:0 6px 0 0 !important;
+	background-position:right top !important;
+}
+
+.RadColorPicker_Transparent .rcpTabs ul li.rcpSelectedTab a
+{
+	color: #000;
+	background-position:-1014px -289px !important;
+	padding-left:6px !important;
+}
+
+.RadColorPicker_Transparent .rcpTabs ul li.rcpSelectedTab a span
+{
+	background-position:right -26px !important;
+	padding-right:6px !important;
+}
+
+.RadColorPicker_Transparent .rcpApplyButton span,
+.RadColorPicker_Transparent .rcpButton span
+{
+	color:#000;
+}
+
+.RadColorPicker_Transparent .rcpHeader,
+.RadColorPicker_Transparent .rcpHeader .rcpImageButton,
+.RadColorPicker_Transparent .rcpRecentColors,
+.RadColorPicker_Transparent .rcpIcon a,
+.RadColorPicker_Transparent .rcpTabs a,
+.RadColorPicker_Transparent .rcpTabs a span,
+.RadColorPicker_Transparent .rcpButton,
+.RadColorPicker_Transparent .rcpButton span,
+.RadColorPicker_Transparent .rcpMillionColorsHandle,
+.RadColorPicker_Transparent .rcpSlider div.rslTrack,
+/* overwrite sliders */
+.RadColorPicker_Transparent .rcpSlider .rslTrack a.rslDraghandle,
+.RadColorPicker_Transparent div.rcpMillionColorsSlider div.rslVertical a.rslDraghandle
+{
+	background-image: url('ColorPicker/ColorPickerSprites.png');
+	background-repeat:no-repeat;
+}
+
+/* Rounded corners and shadows */
+.RadColorPicker_Transparent .rcpPalette,
+.RadColorPicker_Transparent .rcpRoundedRight,
+.RadColorPicker_Transparent .rcpRoundedBottomRight,
+.RadColorPicker_Transparent .rcpRightShadow,
+.RadColorPicker_Transparent .rcpCornerShadow
+{
+	background-image: url('ColorPicker/rcpVerticalSprites.png');
+}
+
+.RadColorPicker_Transparent .rcpRoundedBottomLeft,
+.RadColorPicker_Transparent .rcpBottomShadow
+{
+	background-image: url('ColorPicker/ColorPickerSprites.png');
+}
+
+
+/* Rounded sides and corners override */
+div.RadColorPicker_Transparent .rcpPalette 
+{
+    background-position: -1px top;
+}
+div.RadColorPicker_Transparent .rcpRoundedRight 
+{
+	background-position: 0 -2009px;
+}
+
+div.RadColorPicker_Transparent .rcpRoundedBottomRight 
+{
+	background-position: -1px -4006px;
+}
+
+.RadColorPicker_Transparent.rcpCustomColorWrapper .rcpPalette
+{
+	background-position: -1px 1px;
+	box-shadow: 6px 6px 5px #666;
+}
